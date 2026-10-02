@@ -1,0 +1,390 @@
+{
+  "id": "interrogator/package_014_croc",
+  "package": "package_014_croc",
+  "name": "croc",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "croc.json",
+  "skeleton_version": "4.2.43",
+  "category": "character",
+  "subtypes": [
+    "idle",
+    "exit",
+    "anticipation",
+    "attack",
+    "scatter"
+  ],
+  "tags": [
+    "character",
+    "idle",
+    "exit",
+    "anticipation",
+    "attack",
+    "scatter",
+    "croc",
+    "cast"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "character": 12,
+      "effect": 2.3,
+      "symbol": 1.5,
+      "background": 1,
+      "ui": 0.5,
+      "transition": 0
+    },
+    "evidence": [
+      "name:croc",
+      "bone:character",
+      "bone:croc",
+      "body-parts:head,shoulder,tail,hat,eyebrow,mouth,leg,foot"
+    ]
+  },
+  "animations": [
+    "anticipation",
+    "anticipation_idle",
+    "attack",
+    "hat_idle",
+    "hit",
+    "idle",
+    "scatter_tease",
+    "scatter_tease_end",
+    "idle_eyes"
+  ],
+  "animation_details": [
+    {
+      "name": "anticipation",
+      "duration": 0.333,
+      "timelines": {
+        "bones": 44,
+        "slots": 1
+      }
+    },
+    {
+      "name": "anticipation_idle",
+      "duration": 2.333,
+      "timelines": {
+        "bones": 44,
+        "slots": 1
+      }
+    },
+    {
+      "name": "attack",
+      "duration": 1.667,
+      "timelines": {
+        "bones": 66,
+        "slots": 33
+      }
+    },
+    {
+      "name": "hat_idle",
+      "duration": 24,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "hit",
+      "duration": 1.667,
+      "timelines": {
+        "bones": 66,
+        "slots": 33
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 3.333,
+      "timelines": {
+        "bones": 66,
+        "slots": 33
+      }
+    },
+    {
+      "name": "scatter_tease",
+      "duration": 3,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "scatter_tease_end",
+      "duration": 0.65,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "idle_eyes",
+      "duration": 24,
+      "timelines": {
+        "bones": 0,
+        "slots": 2,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 68,
+  "slots_count": 37,
+  "bones": [
+    "root",
+    "main_croc",
+    "character_croc",
+    "t_shirt_1",
+    "t_shirt_2",
+    "head",
+    "shoulder_r_1",
+    "shoulder_l_1",
+    "shoulder_r_2",
+    "shoulder_l_2",
+    "shoulder_l_3",
+    "tail_1",
+    "tail_2",
+    "tail_3",
+    "tail_4",
+    "tail_5",
+    "hat",
+    "shoulder_r_3",
+    "character_croc2",
+    "cloak_r",
+    "cloak_r_2",
+    "cloak_r_3",
+    "cloak_l",
+    "cloak_l_2",
+    "cloak_l_3",
+    "bone27",
+    "bone28",
+    "eyebrow_l",
+    "eyebrow_r",
+    "bone30",
+    "bone31",
+    "bone33",
+    "bone37",
+    "collar_l",
+    "collar_r",
+    "mouth",
+    "bone31b",
+    "target3",
+    "leg_r_1",
+    "leg_r_2",
+    "foot_r_1",
+    "foot_r_2",
+    "leg_l_1",
+    "leg_l_2",
+    "foot_l",
+    "target",
+    "target2",
+    "shoulder_r_4",
+    "shoulder_r_5",
+    "bone",
+    "bone2",
+    "bone3",
+    "bone4",
+    "bone5",
+    "character_croc3",
+    "fx",
+    "fx2",
+    "fx3",
+    "fx4",
+    "fx5",
+    "fx6",
+    "fx7",
+    "fx8",
+    "hand",
+    "hand2",
+    "hand3",
+    "hat_float",
+    "hat_floating_art"
+  ],
+  "slots": [
+    "room_background",
+    "board_empty",
+    "photo_2026-09-20_00-57-45",
+    "tail",
+    "cloak_back",
+    "leg",
+    "t_shirt",
+    "tie_back",
+    "hat_underside",
+    "hat_back_r",
+    "hat_back_l",
+    "hand_opens",
+    "cloak_r",
+    "sleeve_r_upper",
+    "collar_r",
+    "head",
+    "eye_r",
+    "eye_l",
+    "tie",
+    "cloak_l",
+    "hand_l",
+    "collar_l",
+    "Layer 16",
+    "sleeve_r_lower",
+    "book",
+    "book2",
+    "hand_r",
+    "hat_front",
+    "fx",
+    "fx2",
+    "fx3",
+    "fx4",
+    "fx5",
+    "fx6",
+    "fx7",
+    "fx8",
+    "hand2"
+  ],
+  "constraints": {
+    "ik": 3,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 36,
+  "attachment_types": {
+    "region": 12,
+    "mesh": 24
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "croc.png",
+      "atlas": "croc.atlas",
+      "file": "croc.png",
+      "sha256": "6ebb881d8cfb3753d9013233acd861d04b87c003c14ad0369b62eeb16bf1a2c9",
+      "format": "png",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "legacy_hat_back.png",
+      "atlas": "croc.atlas",
+      "file": "legacy_hat_back.png",
+      "sha256": "8f527007cca12a3c0769ade23bacdea1f286bb4c83f725712f8fdb88139821a6",
+      "format": "png",
+      "width": 1774,
+      "height": 887,
+      "atlas_size": [
+        1774,
+        887
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "MipMapLinearLinear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "croc.atlas",
+      "sha256": "a3b73000ada312364abbb4546695bce581318a194e1c7fb7ae9d89c3bdd9811d",
+      "format": "spine-4",
+      "pages": [
+        "croc.png",
+        "legacy_hat_back.png"
+      ],
+      "regions": 27,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 27/27 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 2889ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "croc.json",
+      "role": "skeleton",
+      "sha256": "204d604ce54f92b1979d839210261f2a72994eb7f58fea1ad25f1812e9d64584",
+      "size": 362945,
+      "original_filename": "croc.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.json"
+      ]
+    },
+    {
+      "file": "croc.atlas",
+      "role": "atlas",
+      "sha256": "a3b73000ada312364abbb4546695bce581318a194e1c7fb7ae9d89c3bdd9811d",
+      "size": 1210,
+      "original_filename": "croc.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.atlas"
+      ]
+    },
+    {
+      "file": "croc.png",
+      "role": "texture",
+      "sha256": "6ebb881d8cfb3753d9013233acd861d04b87c003c14ad0369b62eeb16bf1a2c9",
+      "size": 2439068,
+      "original_filename": "croc.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.png"
+      ],
+      "atlas_page": "croc.png"
+    },
+    {
+      "file": "legacy_hat_back.png",
+      "role": "texture",
+      "sha256": "8f527007cca12a3c0769ade23bacdea1f286bb4c83f725712f8fdb88139821a6",
+      "size": 900376,
+      "original_filename": "legacy_hat_back.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/legacy_hat_back.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/legacy_hat_back.png"
+      ],
+      "atlas_page": "legacy_hat_back.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/legacy_hat_back.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "2/2",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:36.698Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

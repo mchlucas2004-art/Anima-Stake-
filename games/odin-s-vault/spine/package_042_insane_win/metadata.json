@@ -1,0 +1,376 @@
+{
+  "id": "odin-s-vault/package_042_insane_win",
+  "package": "package_042_insane_win",
+  "name": "insane_win",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "insane_win.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "idle",
+    "win",
+    "entrance",
+    "exit"
+  ],
+  "tags": [
+    "effect",
+    "idle",
+    "win",
+    "entrance",
+    "exit",
+    "insane",
+    "spines",
+    "popups"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "effect": 3.9,
+      "ui": 2.1,
+      "character": 0.8,
+      "symbol": 0.8,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "bone:vfx",
+      "bone:particles",
+      "bone:glow",
+      "bone:stars",
+      "bone:splash",
+      "bone:rays",
+      "region:particles",
+      "region:glow",
+      "region:splash"
+    ]
+  },
+  "animations": [
+    "idle",
+    "in",
+    "out"
+  ],
+  "animation_details": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 38,
+        "slots": 32,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1.133,
+      "timelines": {
+        "bones": 52,
+        "slots": 73,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 48,
+        "slots": 71,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 63,
+  "slots_count": 73,
+  "bones": [
+    "root",
+    "PopUp",
+    "numbers",
+    "Arrow",
+    "Ship",
+    "PopUp_Pivot",
+    "Rays",
+    "Glow",
+    "Ship2",
+    "Ship3",
+    "Titles",
+    "Ship4",
+    "Ship5",
+    "Ship9",
+    "Waves",
+    "WavesR8",
+    "WavesL",
+    "VFX_Base",
+    "WavesR7",
+    "WavesR6",
+    "WavesR5",
+    "WavesL2",
+    "WavesL3",
+    "Shield",
+    "WavesL4",
+    "Shield3",
+    "numbers2",
+    "DropsL",
+    "DropsL3",
+    "DropsL4",
+    "DropsR",
+    "WavesR4",
+    "WavesR3",
+    "Stars1",
+    "Count_Bone",
+    "Ship6",
+    "bone",
+    "Rays2",
+    "ShieldM",
+    "PopUp_Pivot15",
+    "WavesR2",
+    "WavesR",
+    "Stars1_0",
+    "DropsL5",
+    "DropsL6",
+    "DropsL7",
+    "PopUp_Pivot21",
+    "PopUp_Pivot22",
+    "Rays3",
+    "Rays4",
+    "Stars1_1",
+    "Stars1_2",
+    "Stars1_3",
+    "Stars1_4",
+    "Stars2",
+    "Stars1_5",
+    "Stars1_6",
+    "Stars1_7",
+    "Stars1_8",
+    "Stars1_9",
+    "WavesL11",
+    "WavesR9",
+    "splash"
+  ],
+  "slots": [
+    "insane_win_glow_2",
+    "insane_win_glow_3",
+    "insane_win_glow_1",
+    "insane_win_glow_4",
+    "insane_win_particles_2",
+    "insane_win_particles_7",
+    "insane_win_particles_3",
+    "insane_win_particles_8",
+    "insane_win_particles_4",
+    "insane_win_particles_9",
+    "insane_win_particles_5",
+    "insane_win_particles_10",
+    "insane_win_particles_1",
+    "insane_win_particles_6",
+    "glow_ship_insane_win",
+    "base",
+    "frame_top_l",
+    "base_runes_glowL",
+    "base_runes_glowL2",
+    "frame_l_shadow",
+    "frame_top_l_shadow",
+    "frame_top_r_shadow",
+    "frame_top_l_top_shadow",
+    "frame_top_r_top_shadow",
+    "frame_r_shadow",
+    "frame_top_r",
+    "frame_l",
+    "frame_r",
+    "frame_top_shadow_r",
+    "frame_top_shadow_l",
+    "corner_r",
+    "corner_r2",
+    "wolf",
+    "symbol_shadow",
+    "win_shadow",
+    "insane_shadow",
+    "symbol_frame_base",
+    "symbol_2",
+    "symbol_frame",
+    "circle",
+    "symbol_1",
+    "symbol_2_glow",
+    "circle_glow",
+    "symbol_1_glow",
+    "insane",
+    "win",
+    "Ship",
+    "ShieldL2",
+    "ShieldL3",
+    "ShieldL1",
+    "ShieldM",
+    "ShieldR1",
+    "ShieldR2",
+    "frame_letters_r",
+    "frame_letters_l",
+    "waves",
+    "drop_l_5",
+    "drop_l_4",
+    "drop_l_3",
+    "drop_l_2",
+    "drop_l_1",
+    "drop_r_5",
+    "drop_r_4",
+    "drop_r_3",
+    "drop_r_2",
+    "drop_r_1",
+    "Color1",
+    "Color2",
+    "glow_arrow_under_numbers",
+    "spot_alpha3",
+    "numbers",
+    "arrow_under_numbers",
+    "splash"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 5,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 81,
+  "attachment_types": {
+    "mesh": 57,
+    "region": 24
+  },
+  "dimensions": {
+    "width": 1738.49,
+    "height": 1761
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "insane_win.webp",
+      "atlas": "insane_win.atlas",
+      "file": "insane_win.webp",
+      "sha256": "74bee140d300e87cdac3eb482c28443594ba245a7d34fda9d9064d8b20f431bb",
+      "format": "webp",
+      "width": 2042,
+      "height": 1695,
+      "atlas_size": [
+        2042,
+        1695
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "insane_win_2.webp",
+      "atlas": "insane_win.atlas",
+      "file": "insane_win_2.webp",
+      "sha256": "e7ffde335156f0ba53534a4ac22a5ae0bb9f92f6ebbce78645b595bef389fbff",
+      "format": "webp",
+      "width": 1754,
+      "height": 1515,
+      "atlas_size": [
+        1754,
+        1515
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "insane_win.atlas",
+      "sha256": "972d43f833650ed2f034daf3c5ccd9b53e1653dd1e91d0094ba42a914a281809",
+      "format": "spine-4",
+      "pages": [
+        "insane_win.webp",
+        "insane_win_2.webp"
+      ],
+      "regions": 67,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 67/67 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "insane_win.json",
+      "role": "skeleton",
+      "sha256": "1e7601eae5c05962b02ef2945c69e8a509d34bb9d5657444de20b12ee32d367b",
+      "size": 105253,
+      "original_filename": "insane_win.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.json"
+      ]
+    },
+    {
+      "file": "insane_win.atlas",
+      "role": "atlas",
+      "sha256": "972d43f833650ed2f034daf3c5ccd9b53e1653dd1e91d0094ba42a914a281809",
+      "size": 3442,
+      "original_filename": "insane_win.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.atlas"
+      ]
+    },
+    {
+      "file": "insane_win.webp",
+      "role": "texture",
+      "sha256": "74bee140d300e87cdac3eb482c28443594ba245a7d34fda9d9064d8b20f431bb",
+      "size": 581130,
+      "original_filename": "insane_win.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.webp"
+      ],
+      "atlas_page": "insane_win.webp"
+    },
+    {
+      "file": "insane_win_2.webp",
+      "role": "texture",
+      "sha256": "e7ffde335156f0ba53534a4ac22a5ae0bb9f92f6ebbce78645b595bef389fbff",
+      "size": 465306,
+      "original_filename": "insane_win_2.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win_2.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win_2.webp"
+      ],
+      "atlas_page": "insane_win_2.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.webp",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win_2.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "2/2",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.553Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

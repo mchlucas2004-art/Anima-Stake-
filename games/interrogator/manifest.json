@@ -1,0 +1,4456 @@
+{
+  "schema": "scrap.manifest/1",
+  "game": "Interrogator",
+  "slug": "interrogator",
+  "provider": "Unknown",
+  "game_urls": [],
+  "status": "complete",
+  "updated_at": "2026-10-02T15:25:47.076Z",
+  "stats": {
+    "network_requests_total": 4348,
+    "resources_unique": 176,
+    "images": 123,
+    "json_candidates": 28,
+    "atlases": 25,
+    "skeletons": 26,
+    "spine_packages": 26,
+    "complete_packages": 25,
+    "incomplete_packages": 1,
+    "new_packages": 26,
+    "atlas_only": 0,
+    "spritesheets": 0,
+    "unclassified": 0,
+    "errors": 0
+  },
+  "packages": [
+    {
+      "id": "interrogator/package_001_vs-shed",
+      "path": "games/interrogator/spine/package_001_vs-shed",
+      "name": "vs-shed",
+      "category": "character",
+      "subtypes": [
+        "idle",
+        "land"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "fight",
+        "idle",
+        "land",
+        "reveal_gator",
+        "reveal_squid"
+      ],
+      "textures": 7,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_002_vs-gator",
+      "path": "games/interrogator/spine/package_002_vs-gator",
+      "name": "vs-gator",
+      "category": "character",
+      "subtypes": [
+        "idle",
+        "win",
+        "land",
+        "attack"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "hit",
+        "idle",
+        "land",
+        "win"
+      ],
+      "textures": 2,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_003_vs-squid",
+      "path": "games/interrogator/spine/package_003_vs-squid",
+      "name": "vs-squid",
+      "category": "character",
+      "subtypes": [
+        "idle",
+        "win",
+        "land"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "idle",
+        "land",
+        "win"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_004_bonus",
+      "path": "games/interrogator/spine/package_004_bonus",
+      "name": "bonus",
+      "category": "symbol",
+      "subtypes": [
+        "idle",
+        "land",
+        "attack",
+        "bonus",
+        "symbol_idle"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "hit",
+        "idle",
+        "land"
+      ],
+      "textures": 5,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_005_split",
+      "path": "games/interrogator/spine/package_005_split",
+      "name": "split",
+      "category": "symbol",
+      "subtypes": [
+        "idle",
+        "land",
+        "symbol_idle"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "capped",
+        "idle",
+        "land",
+        "split"
+      ],
+      "textures": 3,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_006_regular-badge",
+      "path": "games/interrogator/spine/package_006_regular-badge",
+      "name": "regular-badge",
+      "category": "symbol",
+      "subtypes": [
+        "win",
+        "land",
+        "symbol_win"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "land",
+        "win"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_007_regular-tooth-ev-m",
+      "path": "games/interrogator/spine/package_007_regular-tooth-ev-m",
+      "name": "regular-tooth-ev-m",
+      "category": "symbol",
+      "subtypes": [
+        "win",
+        "land",
+        "symbol_win"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "land",
+        "win"
+      ],
+      "textures": 2,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_008_regular-knife",
+      "path": "games/interrogator/spine/package_008_regular-knife",
+      "name": "regular-knife",
+      "category": "symbol",
+      "subtypes": [
+        "win",
+        "land",
+        "symbol_win"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "land",
+        "win"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_009_regular-magnifier",
+      "path": "games/interrogator/spine/package_009_regular-magnifier",
+      "name": "regular-magnifier",
+      "category": "symbol",
+      "subtypes": [
+        "win",
+        "land",
+        "symbol_win"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "land",
+        "win"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_010_regular-folder",
+      "path": "games/interrogator/spine/package_010_regular-folder",
+      "name": "regular-folder",
+      "category": "symbol",
+      "subtypes": [
+        "win",
+        "land",
+        "symbol_win"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "land",
+        "win"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_011_regular-cuffs",
+      "path": "games/interrogator/spine/package_011_regular-cuffs",
+      "name": "regular-cuffs",
+      "category": "symbol",
+      "subtypes": [
+        "win",
+        "land",
+        "symbol_win"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "land",
+        "win"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_012_slime-anticipation",
+      "path": "games/interrogator/spine/package_012_slime-anticipation",
+      "name": "slime-anticipation",
+      "category": "effect",
+      "subtypes": [
+        "entrance",
+        "exit",
+        "anticipation"
+      ],
+      "complete": false,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "enter",
+        "exit",
+        "hold"
+      ],
+      "textures": 0,
+      "warnings": 2
+    },
+    {
+      "id": "interrogator/package_013_squid",
+      "path": "games/interrogator/spine/package_013_squid",
+      "name": "squid",
+      "category": "effect",
+      "subtypes": [
+        "idle",
+        "anticipation",
+        "attack"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "anticipation",
+        "anticipation_idle",
+        "attack_1",
+        "attack_2",
+        "hit",
+        "idle",
+        "idle_eyes"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_014_croc",
+      "path": "games/interrogator/spine/package_014_croc",
+      "name": "croc",
+      "category": "character",
+      "subtypes": [
+        "idle",
+        "exit",
+        "anticipation",
+        "attack",
+        "scatter"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "anticipation",
+        "anticipation_idle",
+        "attack",
+        "hat_idle",
+        "hit",
+        "idle",
+        "scatter_tease",
+        "scatter_tease_end",
+        "idle_eyes"
+      ],
+      "textures": 2,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_015_big_win",
+      "path": "games/interrogator/spine/package_015_big_win",
+      "name": "big_win",
+      "category": "effect",
+      "subtypes": [
+        "loop",
+        "win",
+        "entrance",
+        "exit",
+        "big_win"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_016_epic_win",
+      "path": "games/interrogator/spine/package_016_epic_win",
+      "name": "epic_win",
+      "category": "effect",
+      "subtypes": [
+        "loop",
+        "win",
+        "entrance",
+        "exit",
+        "big_win"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_017_legendary_win",
+      "path": "games/interrogator/spine/package_017_legendary_win",
+      "name": "legendary_win",
+      "category": "effect",
+      "subtypes": [
+        "loop",
+        "win",
+        "entrance",
+        "exit",
+        "big_win"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_018_max_win",
+      "path": "games/interrogator/spine/package_018_max_win",
+      "name": "max_win",
+      "category": "effect",
+      "subtypes": [
+        "loop",
+        "win",
+        "entrance",
+        "exit",
+        "big_win"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_019_glorious_win",
+      "path": "games/interrogator/spine/package_019_glorious_win",
+      "name": "glorious_win",
+      "category": "effect",
+      "subtypes": [
+        "loop",
+        "win",
+        "entrance",
+        "exit",
+        "big_win"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "in",
+        "loop",
+        "out"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_020_ink",
+      "path": "games/interrogator/spine/package_020_ink",
+      "name": "ink",
+      "category": "effect",
+      "subtypes": [],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "ink"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_021_bolt",
+      "path": "games/interrogator/spine/package_021_bolt",
+      "name": "bolt",
+      "category": "effect",
+      "subtypes": [],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "bolt"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_022_logo",
+      "path": "games/interrogator/spine/package_022_logo",
+      "name": "logo",
+      "category": "ui",
+      "subtypes": [
+        "idle",
+        "entrance",
+        "attack"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "hit",
+        "idle",
+        "intro"
+      ],
+      "textures": 18,
+      "warnings": 1
+    },
+    {
+      "id": "interrogator/package_023_frog",
+      "path": "games/interrogator/spine/package_023_frog",
+      "name": "frog",
+      "category": "character",
+      "subtypes": [
+        "idle",
+        "entrance",
+        "exit"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "eat",
+        "gulp",
+        "idle",
+        "leave",
+        "snoop_enter",
+        "snoop_hold",
+        "tongue"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_024_rat",
+      "path": "games/interrogator/spine/package_024_rat",
+      "name": "rat",
+      "category": "character",
+      "subtypes": [
+        "exit"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "leave",
+        "peek"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_025_dragonfly",
+      "path": "games/interrogator/spine/package_025_dragonfly",
+      "name": "dragonfly",
+      "category": "background",
+      "subtypes": [
+        "land",
+        "walk"
+      ],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "caught",
+        "fly",
+        "land",
+        "perch"
+      ],
+      "textures": 1,
+      "warnings": 0
+    },
+    {
+      "id": "interrogator/package_026_window-croc",
+      "path": "games/interrogator/spine/package_026_window-croc",
+      "name": "window-croc",
+      "category": "character",
+      "subtypes": [],
+      "complete": true,
+      "skeleton_version": "4.2.43",
+      "animations": [
+        "swim"
+      ],
+      "textures": 1,
+      "warnings": 0
+    }
+  ],
+  "atlas_only": [],
+  "spritesheets": [],
+  "unclassified": [],
+  "errors": [],
+  "warnings": [
+    {
+      "type": "empty_body_ignored",
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/logo.json",
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.json",
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.json",
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/dragonfly/dragonfly.json",
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.json"
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "id": "2026-10-02T15:25:45.823Z",
+      "stop_reason": "repair",
+      "mode": "repair",
+      "counters": {
+        "requests": 0,
+        "finished": 0,
+        "failed": 0,
+        "candidates": 5,
+        "images": 0,
+        "json": 5,
+        "atlases": 0,
+        "skeletons": 5,
+        "newSkeletons": 5,
+        "bytes": 869658,
+        "errors": 0,
+        "probes": 2
+      }
+    }
+  ],
+  "ids": {
+    "e38627ac9e4ebefac6bdc90cf828b4a9573ec5134e06034f9e31cd2540857eae": "package_001_vs-shed",
+    "8ccb9c892ec2528c609720373b7d73135e4061423f24c6b78cadd9634b7d4592": "package_002_vs-gator",
+    "2300e6b2465e5ed75040c4824d071952a5cb86f4903ca548a24456905c6068f0": "package_003_vs-squid",
+    "7d23adc83bdde822757892c50ca6859cec8fe0b9d384b0bfcfbdf011fc89a563": "package_004_bonus",
+    "b77acf7fc3bfed2e483a106b1aa53bbe07ed22632aca0d599e37bccb856bc868": "package_005_split",
+    "080e194d4b5cf3a4569ba86ac88ccc5ef2e1fbffe5be70af1c0e38ee56006521": "package_006_regular-badge",
+    "259a97cb9a6baf6e8aee3064f32116d35fc1217237cd7d378d542c31bbc03cf0": "package_007_regular-tooth-ev-m",
+    "07519ac8c23fefb38807a3210fec0ef0ab6a29b09fee1ed16de7ec9a8dc84afe": "package_008_regular-knife",
+    "ef53db35580c48fc2ce3cab5db0ed4cf17c66ac58a48a917bcb6cb7faadc4dbe": "package_009_regular-magnifier",
+    "5a5249c1a1da55b38ddcd69377c30f5ca93c1a121e3321e7645d7706ced77be6": "package_010_regular-folder",
+    "6959021859f9638dd57188353d780a030645da39db93b2c5bc25a91b732dbc12": "package_011_regular-cuffs",
+    "13019ac70251c82c872dd5801ebfac08aa146f10daa08c5d38cb19848a823331": "package_012_slime-anticipation",
+    "d1eeb0854443537d78e8bc9a10d086b85c6a6910c43df0c07e553a1094d6f869": "package_013_squid",
+    "204d604ce54f92b1979d839210261f2a72994eb7f58fea1ad25f1812e9d64584": "package_014_croc",
+    "527cee3dab51fe6c80ff28dc9daee546f6352b487622e4bfbc73992d059a3b12": "package_015_big_win",
+    "4ff2518e661d09ac5afe0f06eed8a39fe5883dbfa444ce6eb92044ae889026fd": "package_016_epic_win",
+    "9f0b47df596e65b2e01008b6d6318aa502c5be93d4f481f55f22a047e4d95e1e": "package_017_legendary_win",
+    "1d705255aefc310f3ae2805735cab1ea23941bc843e92ea623793da9e3ec1ce4": "package_018_max_win",
+    "6527d4207cdd4e20e2e6c75999b7e40941450c2dfc0622139518c5584fbfc4dd": "package_019_glorious_win",
+    "d05646ccf631dcf048d93416930e4e92ba1146854c437e3a6d4b7b7464abfbdd": "package_020_ink",
+    "2d250e10c088b7889dff4f7c2955d8cd81c5ccb0d793cdaf0221cceb5b3b3408": "package_021_bolt",
+    "540648175436af714646f6574d07135ee9b58f1424f78ee1f146724105943d3f": "package_022_logo",
+    "5f3cb1bb75cabd175b89c42c944ae5f2c728f981853e620e6d6326fe45e720dc": "package_023_frog",
+    "b173894111e07fd8ec379657b537c1570333046d9f925626327f62777f87a26d": "package_024_rat",
+    "79573afd5e0b99cc526358e6906b62a4c841d9cbf519ffd43f6d2c5291e4cd33": "package_025_dragonfly",
+    "67f2312387d72d64cac53b62f90b496c16e37e8ff6f52aff14330d9da54c263f": "package_026_window-croc"
+  },
+  "resources": [
+    {
+      "sha256": "e456b1dcf57d183fc9503be4c906464e58aa4465055159b94fa2043af0fb2d7a",
+      "kind": "json",
+      "size": 131,
+      "filename": "eyes.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/vscloseup/eyes.json",
+      "outputs": [
+        "other/json/eyes.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/vscloseup/eyes.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:33.809Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "469ca9d686669ab2b53b73823f9606072eeea9e8ab33c0046f8b6aabec9fc07b",
+      "kind": "image",
+      "size": 139770,
+      "filename": "door-swamp-clean.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/door-swamp-clean.webp",
+      "outputs": [
+        "images/door-swamp-clean.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1672,
+        "height": 941
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/door-swamp-clean.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:33.908Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "c945118285b8e79799596c90c5a4b05e7a5bad05121db4bc84e6c846eb50be6a",
+      "kind": "image",
+      "size": 41170,
+      "filename": "bonus-screen-jar.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/bonus-screen-jar.webp",
+      "outputs": [
+        "images/bonus-screen-jar.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 400,
+        "height": 400
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/bonus-screen-jar.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:33.930Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "4da47c2bf7abf08ca3b52dbf8d1c609f4318c65b5c9b581f1df4e90d62590839",
+      "kind": "image",
+      "size": 932992,
+      "filename": "card-clipboard.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/ui/card-clipboard.webp",
+      "outputs": [
+        "images/card-clipboard.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1024,
+        "height": 1536
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/ui/card-clipboard.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:33.930Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "1c67ed9335c807299f54d12fdca2046bae3350b4797cdc5bb483db730a665f12",
+      "kind": "image",
+      "size": 125577,
+      "filename": "blackout-logo.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/blackout-logo.png",
+      "outputs": [
+        "images/blackout-logo.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1631,
+        "height": 257
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/blackout-logo.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:33.931Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "a3b73000ada312364abbb4546695bce581318a194e1c7fb7ae9d89c3bdd9811d",
+      "kind": "spine-atlas",
+      "size": 1210,
+      "filename": "croc.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.atlas",
+      "outputs": [
+        "spine/package_014_croc/croc.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:33.809Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "9aedab5472683353cf2adb157f387ddb5321ba3e0e8d6f902853f36e88672575",
+      "kind": "spine-atlas",
+      "size": 3111,
+      "filename": "squid.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/squid/squid.atlas",
+      "outputs": [
+        "spine/package_013_squid/squid.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/squid/squid.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:33.810Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "b93f8d005c5fa910ecf037d165efccf533c6f1189ac40b3a9b7b20661b5f7452",
+      "kind": "image",
+      "size": 146020,
+      "filename": "window-outside.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/window-outside.png",
+      "outputs": [
+        "images/window-outside.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 320,
+        "height": 544
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/window-outside.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:33.930Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "c81f9777204b07d43ddc6e20dac21121b5a1638603283321f05b54766c76403d",
+      "kind": "image",
+      "size": 155166,
+      "filename": "bg_room_no_chair.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/bg_room_no_chair.webp",
+      "outputs": [
+        "images/bg_room_no_chair.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1672,
+        "height": 941
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/bg_room_no_chair.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:33.930Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "c44c2471375f95ae2997e8f2e545a0f6728efd60da0495e81eb3bd2b93e89986",
+      "kind": "image",
+      "size": 817067,
+      "filename": "room-window-transparent.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/room-window-transparent.png",
+      "outputs": [
+        "images/room-window-transparent.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1672,
+        "height": 941
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/room-window-transparent.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:33.930Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "343e1fa4dd46f33dd7082e90d69710d906d4e299cb18c7735f56d9fb670c8714",
+      "kind": "image",
+      "size": 800220,
+      "filename": "interrogator-logo.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/ui/interrogator-logo.webp",
+      "outputs": [
+        "images/interrogator-logo.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 2172,
+        "height": 724
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/ui/interrogator-logo.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:33.930Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "4bc38757a7490cba9acbf0d4e62d5e8483a4d0a45915b091e9fd593a0b0bca7c",
+      "kind": "spine-atlas",
+      "size": 1428,
+      "filename": "logo.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/logo.atlas",
+      "outputs": [
+        "spine/package_022_logo/logo.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/logo.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:33.924Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "4a9418fc55702c722d1acea5df72649a93533facef805f493c4a592f194cfb0a",
+      "kind": "image",
+      "size": 132618,
+      "filename": "bonus-buy-swamp-no-shed.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/bonus-buy-swamp-no-shed.webp",
+      "outputs": [
+        "images/bonus-buy-swamp-no-shed.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1672,
+        "height": 941
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/bonus-buy-swamp-no-shed.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.290Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "f3e9fb67a7f6e7d14d4f9fcd5861c29b521c2e11452310ca11372c2ce47799ac",
+      "kind": "image",
+      "size": 202590,
+      "filename": "frame_sq.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/frame_sq.png",
+      "outputs": [
+        "images/frame_sq.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 938,
+        "height": 927
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/frame_sq.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.284Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "2ee2c27f3b7986f4897501f524bf07c1f537a199b4d8bf99d95e337271cd214d",
+      "kind": "image",
+      "size": 83326,
+      "filename": "foreground.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/foreground.png",
+      "outputs": [
+        "images/foreground.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1672,
+        "height": 941
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/foreground.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.289Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "744005b0903307cc7aaf74c1afa9dcc4451cb5b8009f53f936e8ab466c348b61",
+      "kind": "image",
+      "size": 1245456,
+      "filename": "sym_badge.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/sym_badge.png",
+      "outputs": [
+        "images/sym_badge.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1254,
+        "height": 1254
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/sym_badge.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.296Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "640b8f0b428227ad055b86a73cd8bb478d4a6860bfbddfc5fd6f8abbc1c289cd",
+      "kind": "image",
+      "size": 1027459,
+      "filename": "sym_cuffs.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/sym_cuffs.png",
+      "outputs": [
+        "images/sym_cuffs.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1254,
+        "height": 1254
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/sym_cuffs.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.357Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "69b7a285b4ba07d648ed1d83593b8ca90b35123cda8eeefaf64063302e5d346d",
+      "kind": "image",
+      "size": 1158640,
+      "filename": "sym_lily.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/sym_lily.png",
+      "outputs": [
+        "images/sym_lily.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1254,
+        "height": 1254
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/sym_lily.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.359Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "6f3ced2d89abcb9e3abbbfdbf8d5d4dbc9c58874e0b871cc604b7b7fadf4a161",
+      "kind": "image",
+      "size": 1504489,
+      "filename": "sym_dragonfly_ev_m.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/sym_dragonfly_ev_m.png",
+      "outputs": [
+        "images/sym_dragonfly_ev_m.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1254,
+        "height": 1254
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/sym_dragonfly_ev_m.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.367Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "936132ec6471bcd2821dad7720c107453ec2ad5cb7118fea3bac11c842ead3ef",
+      "kind": "image",
+      "size": 1568767,
+      "filename": "sym_mugshot.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/sym_mugshot.png",
+      "outputs": [
+        "images/sym_mugshot.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1254,
+        "height": 1254
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/sym_mugshot.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.367Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "a8171fc4323361622fbd2999d7dbcec671d23983658965e66be5d3effb7102b7",
+      "kind": "image",
+      "size": 826548,
+      "filename": "sym_cattail.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/sym_cattail.png",
+      "outputs": [
+        "images/sym_cattail.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1254,
+        "height": 1254
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/sym_cattail.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.395Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "f4adf6041cc06c9cce8c2834f376bf770c3126b55ca3e68d8710b4412653fe65",
+      "kind": "image",
+      "size": 1004104,
+      "filename": "sym_vs_shed.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/sym_vs_shed.png",
+      "outputs": [
+        "images/sym_vs_shed.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1254,
+        "height": 1254
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/sym_vs_shed.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.395Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "ef4372c4ae1e08b07520a086df3ee6dc107ed36278549b235bf07589b12a6aa8",
+      "kind": "image",
+      "size": 1500091,
+      "filename": "sym_bonus_tape.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/sym_bonus_tape.png",
+      "outputs": [
+        "images/sym_bonus_tape.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1254,
+        "height": 1254
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/sym_bonus_tape.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.395Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "fa8c2c998d4aa555d7a293a5878ea9b55402d6ad3acac03eafc5ab6f62cf4d74",
+      "kind": "image",
+      "size": 1170905,
+      "filename": "sym_split.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/sym_split.png",
+      "outputs": [
+        "images/sym_split.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1254,
+        "height": 1254
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/sym_split.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.395Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "dbdc7970a968ec197e328580c692a7c3c15c9564b7ceff6c0393d08a37dbec6a",
+      "kind": "image",
+      "size": 91258,
+      "filename": "bonus.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/bonus.webp",
+      "outputs": [
+        "images/bonus.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 640,
+        "height": 632
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/bonus.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.420Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "7f5e213608aaa09c5eb6401c3f612f90e2d8c5c42b4ed0ce25c57e17b77aa7b0",
+      "kind": "image",
+      "size": 331252,
+      "filename": "split.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/split.webp",
+      "outputs": [
+        "images/split.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 640,
+        "height": 524
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/split.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.423Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "d5817662e9e31f275c923be9fbf0dd25efd5430cf214ff3b84465447090f0b9b",
+      "kind": "image",
+      "size": 294024,
+      "filename": "vs.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/vs.webp",
+      "outputs": [
+        "images/vs.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 640,
+        "height": 559
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/vs.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.420Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "85d486f4231fb6eaa0b75e73a159fc16de48607e7f1dcf8ff1a80e57c1195e3a",
+      "kind": "image",
+      "size": 348388,
+      "filename": "croc-wild.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/croc-wild.webp",
+      "outputs": [
+        "images/croc-wild.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 640,
+        "height": 635
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/croc-wild.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.424Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "17a7a5f8d75b17284812d834a9f580cfdb55125ec4c0ef08fd3044fd8521f107",
+      "kind": "image",
+      "size": 257464,
+      "filename": "croc_eyes.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/vscloseup/croc_eyes.webp",
+      "outputs": [
+        "images/croc_eyes.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1536,
+        "height": 1024
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/vscloseup/croc_eyes.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:33.933Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "06bb507c35e10042e509e0a68b85b667ba3eb8efe6c1758801ea774f2e4ee75a",
+      "kind": "image",
+      "size": 271870,
+      "filename": "squid_eyes.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/vscloseup/squid_eyes.webp",
+      "outputs": [
+        "images/squid_eyes.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1536,
+        "height": 1024
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/vscloseup/squid_eyes.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:33.934Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "f22d477e13fe2af37a3bd400ce7e28f7db87a53f069ab35d6164a37a16b18398",
+      "kind": "image",
+      "size": 33556,
+      "filename": "slime_2.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_2.png",
+      "outputs": [
+        "spine/package_022_logo/slime_2.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 260,
+        "height": 222
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_2.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "35c45f9969b1df71752d0721c44fa0c928e29dd87bd7a867984cfcd455bae7f9",
+      "kind": "image",
+      "size": 115827,
+      "filename": "letter_04_E.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_04_E.png",
+      "outputs": [
+        "spine/package_022_logo/letter_04_E.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 304,
+        "height": 634
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_04_E.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "4f8797101e8c202d818e866a889715644a3f1cf98d5137993fa0c7624d937f0f",
+      "kind": "image",
+      "size": 112920,
+      "filename": "letter_01_I.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_01_I.png",
+      "outputs": [
+        "spine/package_022_logo/letter_01_I.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 238,
+        "height": 808
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_01_I.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "eeda9e655cc647564bc5cd41ae06b86727d58b4d78f1953781200f0cacc11956",
+      "kind": "image",
+      "size": 260367,
+      "filename": "letter_08_G.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_08_G.png",
+      "outputs": [
+        "spine/package_022_logo/letter_08_G.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 358,
+        "height": 636
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_08_G.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "ed594e9e7d4b3465fdf1c133ccfd6c7ae0c85ff41618aba951cdf278a75a54bc",
+      "kind": "image",
+      "size": 213058,
+      "filename": "letter_10_T.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_10_T.png",
+      "outputs": [
+        "spine/package_022_logo/letter_10_T.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 360,
+        "height": 644
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_10_T.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "9aad76f10d15fa42a473d08f2f7d49b6cdfa6d288b3eeb19b24d50063e4d5240",
+      "kind": "image",
+      "size": 260072,
+      "filename": "letter_11_O.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_11_O.png",
+      "outputs": [
+        "spine/package_022_logo/letter_11_O.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 346,
+        "height": 670
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_11_O.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "48cf51b19d37a1c2bc0e40c9379424e5492e5566f4431f011985810f6cbf386e",
+      "kind": "image",
+      "size": 68677,
+      "filename": "slime_1.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_1.png",
+      "outputs": [
+        "spine/package_022_logo/slime_1.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 312,
+        "height": 444
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_1.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.181Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "19e9167240ef7f86ef95f93f9d6c4d30c86ab0f3739bf78b25fad2dfaf6cd359",
+      "kind": "image",
+      "size": 38254,
+      "filename": "slime_3.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_3.png",
+      "outputs": [
+        "spine/package_022_logo/slime_3.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 222,
+        "height": 280
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_3.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "63d36e0586a73c2586da9450d34d37086ea0cb563eb770851a5be17d453b628e",
+      "kind": "image",
+      "size": 1943129,
+      "filename": "plaque.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/plaque.png",
+      "outputs": [
+        "spine/package_022_logo/plaque.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 4096,
+        "height": 932
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/plaque.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "9f7a227c70bdf593b305e49b4e40ce56a29c975fd8920b5833f761d1be33d1bf",
+      "kind": "image",
+      "size": 100287,
+      "filename": "letter_03_T.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_03_T.png",
+      "outputs": [
+        "spine/package_022_logo/letter_03_T.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 324,
+        "height": 646
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_03_T.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "47067909bca1d7bb04404662a4c2ab1fe30a3d2b1a3511db49d46ff17dd73e98",
+      "kind": "image",
+      "size": 1606306,
+      "filename": "squid.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/squid/squid.png",
+      "outputs": [
+        "spine/package_013_squid/squid.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/squid/squid.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "4f812ebc4e5bf734e3b0fa60e11e844c2c775db27466d847c7483b1036e59e62",
+      "kind": "image",
+      "size": 339832,
+      "filename": "letter_12_R.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_12_R.png",
+      "outputs": [
+        "spine/package_022_logo/letter_12_R.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 422,
+        "height": 714
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_12_R.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.181Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "616bd251ab2db900fbf40709f5288627d2d9d13e8bbb1885dc786c6a54ed818d",
+      "kind": "image",
+      "size": 137098,
+      "filename": "letter_07_O.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_07_O.png",
+      "outputs": [
+        "spine/package_022_logo/letter_07_O.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 368,
+        "height": 568
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_07_O.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "e1300e35dc7a670a406fa59552b6f201449c752f3b955b03aadd8f861ea497c6",
+      "kind": "image",
+      "size": 54853,
+      "filename": "slime_5.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_5.png",
+      "outputs": [
+        "spine/package_022_logo/slime_5.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 286,
+        "height": 266
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_5.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "33d006503cf8d7a3c9da6cbb144a2a849f9d16f72d8f60718d5ac03f9f43abc2",
+      "kind": "image",
+      "size": 163755,
+      "filename": "letter_06_R.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_06_R.png",
+      "outputs": [
+        "spine/package_022_logo/letter_06_R.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 360,
+        "height": 628
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_06_R.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.181Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "9b6e4cd5a982ca9ecb41391cc30467c828fc339fdbb91003045fea3ef3bcb20e",
+      "kind": "image",
+      "size": 77306,
+      "filename": "slime_4.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_4.png",
+      "outputs": [
+        "spine/package_022_logo/slime_4.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 428,
+        "height": 328
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_4.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.181Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "8f527007cca12a3c0769ade23bacdea1f286bb4c83f725712f8fdb88139821a6",
+      "kind": "image",
+      "size": 900376,
+      "filename": "legacy_hat_back.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/legacy_hat_back.png",
+      "outputs": [
+        "spine/package_014_croc/legacy_hat_back.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1774,
+        "height": 887
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/legacy_hat_back.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.185Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "6ebb881d8cfb3753d9013233acd861d04b87c003c14ad0369b62eeb16bf1a2c9",
+      "kind": "image",
+      "size": 2439068,
+      "filename": "croc.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.png",
+      "outputs": [
+        "spine/package_014_croc/croc.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.177Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "053855000c78c2dd00dcd26dd930b362c321887fa944a56d6b959346d8b293ce",
+      "kind": "image",
+      "size": 154358,
+      "filename": "letter_02_N.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_02_N.png",
+      "outputs": [
+        "spine/package_022_logo/letter_02_N.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 386,
+        "height": 656
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_02_N.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.185Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "6aba4a3079d41c2adfe883afb2baf294e735405044dca6cedf853d1a5504f636",
+      "kind": "image",
+      "size": 139431,
+      "filename": "letter_05_R.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_05_R.png",
+      "outputs": [
+        "spine/package_022_logo/letter_05_R.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 344,
+        "height": 630
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_05_R.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.186Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "ebd7e24ad6e3260c721af03c7e751f622869ca0d8fc500412d3662468e036799",
+      "kind": "image",
+      "size": 230843,
+      "filename": "letter_09_A.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_09_A.png",
+      "outputs": [
+        "spine/package_022_logo/letter_09_A.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 340,
+        "height": 632
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_09_A.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.186Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "89c6f52c391042cdea27ffa41179c0dbe746e7dc1cb53c268e4f41ebede58965",
+      "kind": "image",
+      "size": 52917,
+      "filename": "fan_blades.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/fan_blades.png",
+      "outputs": [
+        "images/fan_blades.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 198,
+        "height": 198
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/fan_blades.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.220Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "5e9bd3113d7a26e17649f5fed9aba8126a5cb197f48a7dfca2cafe7ca51c5ba4",
+      "kind": "image",
+      "size": 43688,
+      "filename": "fan_still.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/fan_still.png",
+      "outputs": [
+        "images/fan_still.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 198,
+        "height": 198
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/fan_still.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.220Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "a0a1b2a34fa46fa52902bc54bf6fef901de889f172b42bc59fd7e0535928d195",
+      "kind": "spine-atlas",
+      "size": 305,
+      "filename": "window-croc.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.atlas",
+      "outputs": [
+        "spine/package_026_window-croc/window-croc.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.353Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "6509db001c5319502427e58ba05be49744b5c6b80b6351cb03305a2af9c8255e",
+      "kind": "spine-atlas",
+      "size": 193,
+      "filename": "dragonfly.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/dragonfly/dragonfly.atlas",
+      "outputs": [
+        "spine/package_025_dragonfly/dragonfly.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/dragonfly/dragonfly.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.353Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "af69e7f58275f18b8ed5919620c9f0519d6c16a280d2db4b6b15c201b0012f70",
+      "kind": "spine-atlas",
+      "size": 415,
+      "filename": "frog.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.atlas",
+      "outputs": [
+        "spine/package_023_frog/frog.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.353Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "a4da525323f105de549dd019ad0d87aba01fc4f92717f5cd4bf28d6294edd9df",
+      "kind": "image",
+      "size": 3006,
+      "filename": "window_outside_matte.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/window_outside_matte.png",
+      "outputs": [
+        "images/window_outside_matte.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 159,
+        "height": 403
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/window_outside_matte.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.353Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "4594f97e6f145c77fb55208b61042312b5f2fcf166c1e5a26be34e7699f872cc",
+      "kind": "spine-atlas",
+      "size": 462,
+      "filename": "rat.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.atlas",
+      "outputs": [
+        "spine/package_024_rat/rat.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.353Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "97c755be49367a515309f525305f56a1fdb0588556ff29c810bd5f6d7ea5ba7d",
+      "kind": "image",
+      "size": 5917,
+      "filename": "window_sky_matte.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/window_sky_matte.png",
+      "outputs": [
+        "images/window_sky_matte.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 159,
+        "height": 403
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/window_sky_matte.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.353Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "f6188ac3e37966c72df338781cdb91a1032877cfac93d2053138ebab14f7b298",
+      "kind": "image",
+      "size": 140909,
+      "filename": "letter_01_I.squid_c.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_01_I.squid_c.png",
+      "outputs": [
+        "images/letter_01_I.squid_c.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 238,
+        "height": 808
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_01_I.squid_c.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.367Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "37d8c18a3f32c68801476a3dd6530bd499db919548c77d88ec92999e7e027511",
+      "kind": "image",
+      "size": 119570,
+      "filename": "letter_03_T.squid_c.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_03_T.squid_c.png",
+      "outputs": [
+        "images/letter_03_T.squid_c.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 324,
+        "height": 646
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_03_T.squid_c.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.367Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "6d3df39f332c25a85ca56d6f7ca3dd054d9408a1ae08886b7b6417f1eafdb3f4",
+      "kind": "image",
+      "size": 209254,
+      "filename": "letter_02_N.squid_c.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_02_N.squid_c.png",
+      "outputs": [
+        "images/letter_02_N.squid_c.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 386,
+        "height": 656
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_02_N.squid_c.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.369Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "448fddaf92ac98a6e682fbc7d322a391fe96145b0bc12fcde29c32d4d60bb0b4",
+      "kind": "image",
+      "size": 192324,
+      "filename": "letter_05_R.squid_c.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_05_R.squid_c.png",
+      "outputs": [
+        "images/letter_05_R.squid_c.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 344,
+        "height": 630
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_05_R.squid_c.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.371Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "e099498db2d6fcaaf6f3430e4d2f229c1e124e652351979bf1525488da254caf",
+      "kind": "image",
+      "size": 241437,
+      "filename": "letter_10_T.gator_b.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_10_T.gator_b.png",
+      "outputs": [
+        "images/letter_10_T.gator_b.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 360,
+        "height": 644
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_10_T.gator_b.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.371Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "c55531da50aaa86c2da47504b2c41695591bcf3dc72ae322a98ab6a0edf9e03c",
+      "kind": "image",
+      "size": 263754,
+      "filename": "letter_09_A.gator_b.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_09_A.gator_b.png",
+      "outputs": [
+        "images/letter_09_A.gator_b.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 340,
+        "height": 632
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_09_A.gator_b.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.371Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "bea3a9acdb5eb8057a8c8e577765e133215d3890040cd589c788d8d652bfb97a",
+      "kind": "image",
+      "size": 307577,
+      "filename": "letter_11_O.gator_b.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_11_O.gator_b.png",
+      "outputs": [
+        "images/letter_11_O.gator_b.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 346,
+        "height": 670
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_11_O.gator_b.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.371Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "a122ba7473e3154a211f138a3c511752593517b9a99922d730c4a81a8518acc3",
+      "kind": "image",
+      "size": 180896,
+      "filename": "letter_07_O.squid_c.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_07_O.squid_c.png",
+      "outputs": [
+        "images/letter_07_O.squid_c.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 368,
+        "height": 568
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_07_O.squid_c.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.371Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "1e127ec06beb3d03e12118acb5521d703a2397f36ad299cb7b255011d9b6dfdf",
+      "kind": "image",
+      "size": 141398,
+      "filename": "letter_04_E.squid_c.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_04_E.squid_c.png",
+      "outputs": [
+        "images/letter_04_E.squid_c.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 304,
+        "height": 634
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_04_E.squid_c.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.371Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "0926203e97ba409506ed40977959727e7a2f5b4f5277dad5a3c84e26aebefcf0",
+      "kind": "image",
+      "size": 214204,
+      "filename": "letter_06_R.squid_c.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_06_R.squid_c.png",
+      "outputs": [
+        "images/letter_06_R.squid_c.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 360,
+        "height": 628
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_06_R.squid_c.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.371Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "2133f8f012b15e6f78faf199a680d0378f82ea9494bd6f6371e96036692c03ff",
+      "kind": "image",
+      "size": 422564,
+      "filename": "letter_12_R.gator_b.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_12_R.gator_b.png",
+      "outputs": [
+        "images/letter_12_R.gator_b.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 422,
+        "height": 714
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_12_R.gator_b.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.371Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "65e4ca2d4cfff243e0679b81ea22467e36d05aaf4227d5fc85bc5f22ab7b5279",
+      "kind": "image",
+      "size": 306542,
+      "filename": "letter_08_G.gator_b.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_08_G.gator_b.png",
+      "outputs": [
+        "images/letter_08_G.gator_b.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 358,
+        "height": 636
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/alt/letter_08_G.gator_b.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.371Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "b84c8a27bc3a43c57408e94e07eb8a1818d757ce16f513c42f11f91381ca2057",
+      "kind": "image",
+      "size": 1014069,
+      "filename": "frog.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.png",
+      "outputs": [
+        "spine/package_023_frog/frog.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 773,
+        "height": 1024
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.381Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "cffac958e690f422174a25be995524ce3609606adb8c604c39714d39fa23dbb4",
+      "kind": "image",
+      "size": 646483,
+      "filename": "window-croc.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.png",
+      "outputs": [
+        "spine/package_026_window-croc/window-croc.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1248,
+        "height": 468
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.395Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "be5dfd04472a3166086453b2c1823469c6df65bcfc46dfd9561c6f711015cbfe",
+      "kind": "image",
+      "size": 475119,
+      "filename": "dragonfly.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/dragonfly/dragonfly.png",
+      "outputs": [
+        "spine/package_025_dragonfly/dragonfly.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 790,
+        "height": 607
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/dragonfly/dragonfly.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.395Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "e14543fb7d15af79f017f7e9b0177be0dd7ff7d9e8e53062fa122f4ee4f9eb0a",
+      "kind": "image",
+      "size": 903098,
+      "filename": "rat.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.png",
+      "outputs": [
+        "spine/package_024_rat/rat.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 818,
+        "height": 1064
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:34.394Z",
+      "sources": [
+        "collector_refetch",
+        "network"
+      ]
+    },
+    {
+      "sha256": "473b2f16e1dce6f435e0cb3c1d08bd72479cf0da54bc5c09946a617d21d0e9c1",
+      "kind": "image",
+      "size": 20068,
+      "filename": "max-cell.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/max-cell.webp",
+      "outputs": [
+        "images/max-cell.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 420,
+        "height": 420
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/max-cell.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.742Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "70443da8fba0f31bc108952d5566441a81389debca9fc985e82ade5064467fc1",
+      "kind": "image",
+      "size": 3444,
+      "filename": "bonus-silhouette.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/sm/bonus-silhouette.webp",
+      "outputs": [
+        "images/bonus-silhouette.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 384,
+        "height": 379
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/sm/bonus-silhouette.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.743Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "4a0d259ddb2a7e310d6cd69b164867a040225affab1a99751799d803bfcb63db",
+      "kind": "image",
+      "size": 47834,
+      "filename": "bonus.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/sm/bonus.webp",
+      "outputs": [
+        "images/bonus__4a0d259d.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 384,
+        "height": 379
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/sm/bonus.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.743Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "e1ed8687b93bd1972861e69e360739df29417aa2f3fab10437c95d7ea94c3dc6",
+      "kind": "image",
+      "size": 127400,
+      "filename": "vs.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/sm/vs.webp",
+      "outputs": [
+        "images/vs__e1ed8687.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 384,
+        "height": 335
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/sm/vs.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.743Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "fc7d31e3f17d0d4c3d76e1867cf3b9e494aa8c1d782bc828143d249cc4ba5173",
+      "kind": "image",
+      "size": 143042,
+      "filename": "split.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/sm/split.webp",
+      "outputs": [
+        "images/split__fc7d31e3.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 384,
+        "height": 314
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/sm/split.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.780Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "df47c3a13069860bc15c83229ecf3a911145537b4c8fe88f80358d196af9ee21",
+      "kind": "image",
+      "size": 11006,
+      "filename": "mystery-q.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/sm/mystery-q.webp",
+      "outputs": [
+        "images/mystery-q.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 384,
+        "height": 384
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/sm/mystery-q.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.780Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "184b742c54da96b1c7339b6e5f94973d17ce5e3461024f541bd7d85bde45ea08",
+      "kind": "image",
+      "size": 11276,
+      "filename": "blackout-cell-1.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/sm/blackout-cell-1.webp",
+      "outputs": [
+        "images/blackout-cell-1.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 384,
+        "height": 384
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/sm/blackout-cell-1.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.780Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "cf229212fe75bf7d75044c21ca3ac920cb73b271ddf26804cd8339dd17cb5a79",
+      "kind": "image",
+      "size": 13420,
+      "filename": "blackout-cell-3.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/sm/blackout-cell-3.webp",
+      "outputs": [
+        "images/blackout-cell-3.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 384,
+        "height": 384
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/sm/blackout-cell-3.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.834Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "8d17e15b1cf723817d3dda4b0e53c5efa4ebf6d652f0f8dec509adb4d05c5504",
+      "kind": "image",
+      "size": 109298,
+      "filename": "max-cell.webp",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/cards/sm/max-cell.webp",
+      "outputs": [
+        "images/max-cell__8d17e15b.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 384,
+        "height": 384
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/cards/sm/max-cell.webp"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.837Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "c30ecef2d869e0fabe2012b0323dab0353b7ca3b8ebaee7e967340a18d43de3b",
+      "kind": "image",
+      "size": 133113,
+      "filename": "wire.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/frog/wire.png",
+      "outputs": [
+        "images/wire.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 216,
+        "height": 520
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/frog/wire.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.837Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "a6d1b10af28dbc0419ffb58f062560e59b0c171f562831052e493de08dc94fa0",
+      "kind": "image",
+      "size": 11294,
+      "filename": "drain_bars.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/room/drain_bars.png",
+      "outputs": [
+        "images/drain_bars.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 110,
+        "height": 102
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/room/drain_bars.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:34.837Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "58f495a9240ea37bf2dc2b0b64f9a6f168d501ce9b4c6e78453944ceffd2c13a",
+      "kind": "image",
+      "size": 14027,
+      "filename": "goo_tip_b.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/room/goo_tip_b.png",
+      "outputs": [
+        "images/goo_tip_b.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 88,
+        "height": 248
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/room/goo_tip_b.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.485Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "a1af5975b877fe4dfa5d4bfd46d07c64727a1c0eaf02d4b2865bdb73b730c174",
+      "kind": "json",
+      "size": 619,
+      "filename": "drain.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/room/drain.json",
+      "outputs": [
+        "other/json/drain.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/room/drain.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.417Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "34541053c192d928177b3be6cbf13820d0e65324f39fe2d78e941fc6f85b15ec",
+      "kind": "image",
+      "size": 4489,
+      "filename": "goo_bead_b.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/room/goo_bead_b.png",
+      "outputs": [
+        "images/goo_bead_b.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 48,
+        "height": 96
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/room/goo_bead_b.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.485Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "b3e5fff86e0bdfad0aa443a43ffaa77554fcac3c9922d48f34b3b252a1783ff8",
+      "kind": "spine-atlas",
+      "size": 998,
+      "filename": "vs-shed.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.atlas",
+      "outputs": [
+        "spine/package_001_vs-shed/vs-shed.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.498Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "e38627ac9e4ebefac6bdc90cf828b4a9573ec5134e06034f9e31cd2540857eae",
+      "kind": "spine-json",
+      "size": 970103,
+      "filename": "vs-shed.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.json",
+      "outputs": [
+        "spine/package_001_vs-shed/vs-shed.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.498Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "8ccb9c892ec2528c609720373b7d73135e4061423f24c6b78cadd9634b7d4592",
+      "kind": "spine-json",
+      "size": 225182,
+      "filename": "vs-gator.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.json",
+      "outputs": [
+        "spine/package_002_vs-gator/vs-gator.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.499Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "2e12c0be72f56a95b49f8678b2821c6d9fd5a7c919a4938b798b560c8877cb1d",
+      "kind": "spine-atlas",
+      "size": 181,
+      "filename": "vs-gator.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.atlas",
+      "outputs": [
+        "spine/package_002_vs-gator/vs-gator.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.500Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "a806964ebdf53afcb08a9feceb776730b3013ee59951425fe9c0e07486d129a0",
+      "kind": "spine-atlas",
+      "size": 87,
+      "filename": "vs-squid.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-squid/vs-squid.atlas",
+      "outputs": [
+        "spine/package_003_vs-squid/vs-squid.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-squid/vs-squid.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.503Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "2300e6b2465e5ed75040c4824d071952a5cb86f4903ca548a24456905c6068f0",
+      "kind": "spine-json",
+      "size": 293453,
+      "filename": "vs-squid.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-squid/vs-squid.json",
+      "outputs": [
+        "spine/package_003_vs-squid/vs-squid.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-squid/vs-squid.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.500Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "7d23adc83bdde822757892c50ca6859cec8fe0b9d384b0bfcfbdf011fc89a563",
+      "kind": "spine-json",
+      "size": 576158,
+      "filename": "bonus.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.json",
+      "outputs": [
+        "spine/package_004_bonus/bonus.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.507Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "96c1c086d1fcbf5e6b557e6725b9bb77e91f4f4d35fbe85bc90792f7c9f1cc29",
+      "kind": "spine-atlas",
+      "size": 2245,
+      "filename": "bonus.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.atlas",
+      "outputs": [
+        "spine/package_004_bonus/bonus.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.515Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "bb3fe700d3c925cdb177702323649aa111855348e4549487072031f6860e26bd",
+      "kind": "spine-atlas",
+      "size": 536,
+      "filename": "split.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.atlas",
+      "outputs": [
+        "spine/package_005_split/split.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.515Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "52a8350db79b09c8428729f85d0ecd3b88656763d3779a7fef840de057441c61",
+      "kind": "spine-atlas",
+      "size": 147,
+      "filename": "regular-badge.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.atlas",
+      "outputs": [
+        "spine/package_006_regular-badge/regular-badge.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.517Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "b77acf7fc3bfed2e483a106b1aa53bbe07ed22632aca0d599e37bccb856bc868",
+      "kind": "spine-json",
+      "size": 726328,
+      "filename": "split.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.json",
+      "outputs": [
+        "spine/package_005_split/split.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.514Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "19f2ab315d1b010fbc73cf79c912a3caa290e66e0cb035830936680dbe0c0a33",
+      "kind": "spine-atlas",
+      "size": 379,
+      "filename": "regular-tooth-ev-m.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.atlas",
+      "outputs": [
+        "spine/package_007_regular-tooth-ev-m/regular-tooth-ev-m.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.517Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "080e194d4b5cf3a4569ba86ac88ccc5ef2e1fbffe5be70af1c0e38ee56006521",
+      "kind": "spine-json",
+      "size": 116234,
+      "filename": "regular-badge.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.json",
+      "outputs": [
+        "spine/package_006_regular-badge/regular-badge.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.517Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "4e27eda001223dac1fcb93fa686ddc8eecdff9bf756737944a5a995c75be93ea",
+      "kind": "spine-atlas",
+      "size": 178,
+      "filename": "regular-knife.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.atlas",
+      "outputs": [
+        "spine/package_008_regular-knife/regular-knife.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.517Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "259a97cb9a6baf6e8aee3064f32116d35fc1217237cd7d378d542c31bbc03cf0",
+      "kind": "spine-json",
+      "size": 381950,
+      "filename": "regular-tooth-ev-m.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.json",
+      "outputs": [
+        "spine/package_007_regular-tooth-ev-m/regular-tooth-ev-m.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.518Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "07519ac8c23fefb38807a3210fec0ef0ab6a29b09fee1ed16de7ec9a8dc84afe",
+      "kind": "spine-json",
+      "size": 77238,
+      "filename": "regular-knife.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.json",
+      "outputs": [
+        "spine/package_008_regular-knife/regular-knife.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.518Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "9a75922743717afe8c25a61dbbe0fcdfa3ce6fe46cd0c06ecae1befddcf146bb",
+      "kind": "spine-atlas",
+      "size": 171,
+      "filename": "regular-magnifier.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.atlas",
+      "outputs": [
+        "spine/package_009_regular-magnifier/regular-magnifier.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.518Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "ef53db35580c48fc2ce3cab5db0ed4cf17c66ac58a48a917bcb6cb7faadc4dbe",
+      "kind": "spine-json",
+      "size": 81423,
+      "filename": "regular-magnifier.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.json",
+      "outputs": [
+        "spine/package_009_regular-magnifier/regular-magnifier.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.518Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "5a5249c1a1da55b38ddcd69377c30f5ca93c1a121e3321e7645d7706ced77be6",
+      "kind": "spine-json",
+      "size": 120833,
+      "filename": "regular-folder.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-folder/regular-folder.json",
+      "outputs": [
+        "spine/package_010_regular-folder/regular-folder.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-folder/regular-folder.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.518Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "baad1304c006043799804abb1244132798f5cd032aa4147ab3a256bc89570bd6",
+      "kind": "spine-atlas",
+      "size": 136,
+      "filename": "regular-folder.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-folder/regular-folder.atlas",
+      "outputs": [
+        "spine/package_010_regular-folder/regular-folder.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-folder/regular-folder.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.518Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "5e451a7cea5599c7401320ab051174364fa760d98cde717845d2d20f72ac331c",
+      "kind": "spine-atlas",
+      "size": 185,
+      "filename": "regular-cuffs.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.atlas",
+      "outputs": [
+        "spine/package_011_regular-cuffs/regular-cuffs.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.518Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "6959021859f9638dd57188353d780a030645da39db93b2c5bc25a91b732dbc12",
+      "kind": "spine-json",
+      "size": 76353,
+      "filename": "regular-cuffs.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.json",
+      "outputs": [
+        "spine/package_011_regular-cuffs/regular-cuffs.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.518Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "13019ac70251c82c872dd5801ebfac08aa146f10daa08c5d38cb19848a823331",
+      "kind": "spine-json",
+      "size": 672675,
+      "filename": "slime-anticipation.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/effects/slime-anticipation/slime-anticipation.json",
+      "outputs": [
+        "spine/package_012_slime-anticipation/slime-anticipation.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/effects/slime-anticipation/slime-anticipation.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.518Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "06d6bd307a00c8d69459cc93b2d8fbe1e6b04654d2e51d3da47cdcfa0550bccf",
+      "kind": "image",
+      "size": 253466,
+      "filename": "vs-shed_2.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_2.png",
+      "outputs": [
+        "spine/package_001_vs-shed/vs-shed_2.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 772,
+        "height": 654
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_2.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.554Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "eb005dc2512b8abcfd73c751d3f7dcc81ed397201caee0b8fb58121b5955df3b",
+      "kind": "image",
+      "size": 505041,
+      "filename": "vs-shed.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.png",
+      "outputs": [
+        "spine/package_001_vs-shed/vs-shed.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 886,
+        "height": 1015
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.554Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "2ff27e1a7662fd490d45ee8bfca08d51dc5f3a0f91308c4852acd87eea848163",
+      "kind": "image",
+      "size": 353139,
+      "filename": "vs-shed_3.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_3.png",
+      "outputs": [
+        "spine/package_001_vs-shed/vs-shed_3.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1006,
+        "height": 491
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_3.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.554Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "8addabf57a6ecb142986c87ec0928a73fb93ed5bc62ca98b0a02a5de626fd0e6",
+      "kind": "image",
+      "size": 305782,
+      "filename": "vs-shed_4.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_4.png",
+      "outputs": [
+        "spine/package_001_vs-shed/vs-shed_4.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 555,
+        "height": 680
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_4.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.555Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "655392729655b7e084d9ea146daadd79d0d7b79139ee7c12f94ff9d27a451e0c",
+      "kind": "image",
+      "size": 316683,
+      "filename": "winner_w.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_w.png",
+      "outputs": [
+        "spine/package_001_vs-shed/winner_w.png",
+        "spine/package_002_vs-gator/wild_emblem.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 659,
+        "height": 659
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_w.png",
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/wild_emblem.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:35.555Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "8361e077ff28ade191c17cfe76ce70591eb11015a4c90cf06beef02c8f21ec62",
+      "kind": "image",
+      "size": 495087,
+      "filename": "winner_gator_v1.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_gator_v1.png",
+      "outputs": [
+        "spine/package_001_vs-shed/winner_gator_v1.png",
+        "spine/package_002_vs-gator/portrait.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 627,
+        "height": 627
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_gator_v1.png",
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/portrait.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T15:03:35.555Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "4dfa711d64ecb37a781525eda681741e98687670aa6283d6dc5cd9ad4135356e",
+      "kind": "image",
+      "size": 496340,
+      "filename": "winner_squid_v1.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_squid_v1.png",
+      "outputs": [
+        "spine/package_001_vs-shed/winner_squid_v1.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 627,
+        "height": 627
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_squid_v1.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.555Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "95605396cb2bd01daee047ca4c10437ce338763526f50971d9958f4b61447ec6",
+      "kind": "image",
+      "size": 500200,
+      "filename": "portrait.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-squid/portrait.png",
+      "outputs": [
+        "spine/package_003_vs-squid/portrait.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 627,
+        "height": 627
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-squid/portrait.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.668Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "289f9dec3382b1f559d184eb4faf0725454b2db74da875d0ea8b10ef8aa31f12",
+      "kind": "image",
+      "size": 759638,
+      "filename": "bonus_2.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_2.png",
+      "outputs": [
+        "spine/package_004_bonus/bonus_2.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1123,
+        "height": 1004
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_2.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.709Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "aacf5d3a10fb890985b20dd4295ebd6671128d57fc7f5f444784ca7eb997f235",
+      "kind": "image",
+      "size": 680213,
+      "filename": "bonus_3.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_3.png",
+      "outputs": [
+        "spine/package_004_bonus/bonus_3.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1209,
+        "height": 1216
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_3.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.709Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "4c21751566d0b0528303a5eed3b0abd0434013faf53be112e9d35f287e0f636e",
+      "kind": "image",
+      "size": 177634,
+      "filename": "bonus_4.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_4.png",
+      "outputs": [
+        "spine/package_004_bonus/bonus_4.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 546,
+        "height": 492
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_4.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.709Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "8d4bca87609250c21c65368f10b18716fb18a30f373dec4b5faa83d0506e0e31",
+      "kind": "image",
+      "size": 117546,
+      "filename": "bonus_5.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_5.png",
+      "outputs": [
+        "spine/package_004_bonus/bonus_5.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1024,
+        "height": 158
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_5.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.709Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "ba2330bae268642ac0c6ee0da880826de93b0cffe41776ad47bb1972c7e53f96",
+      "kind": "image",
+      "size": 923804,
+      "filename": "regular-tooth-ev-m.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.png",
+      "outputs": [
+        "spine/package_007_regular-tooth-ev-m/regular-tooth-ev-m.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1489,
+        "height": 1542
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.709Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "cd51c93052585c616ce39f8dc8a76cdba54a8051df48907a7b5871fc6212298a",
+      "kind": "image",
+      "size": 472873,
+      "filename": "bonus.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.png",
+      "outputs": [
+        "spine/package_004_bonus/bonus.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 629,
+        "height": 629
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.710Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "d7df715d5c1e5a2247101e57050c87d8f403b2de4121d70211743f3da9e9a34b",
+      "kind": "image",
+      "size": 566149,
+      "filename": "split.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.png",
+      "outputs": [
+        "spine/package_005_split/split.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1012,
+        "height": 874
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.710Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "9e6cc06043c8d54145ec99a443d2a9eb04b44bf0ae28ea777ad277032c3fb2c7",
+      "kind": "image",
+      "size": 372089,
+      "filename": "split_2.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_2.png",
+      "outputs": [
+        "spine/package_005_split/split_2.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 629,
+        "height": 629
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_2.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.710Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "c02eaa2350e001da3bb679fc118b9b0cb7a8d469a11e9fe066c7048aedbcb748",
+      "kind": "image",
+      "size": 507024,
+      "filename": "split_3.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_3.png",
+      "outputs": [
+        "spine/package_005_split/split_3.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 990,
+        "height": 856
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_3.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.710Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "147d5f8b85c70b0356f673e9efce8cd3531dbec772c57e1b927f2cbd3768f0a0",
+      "kind": "image",
+      "size": 438562,
+      "filename": "evidence-g.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/evidence-g.png",
+      "outputs": [
+        "spine/package_007_regular-tooth-ev-m/evidence-g.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 726,
+        "height": 845
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/evidence-g.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.710Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "84a1ba40f51dda5ef35eeaa7daa3fc36ee999bb3ed2806b91495d059dd65887b",
+      "kind": "image",
+      "size": 949109,
+      "filename": "regular-badge.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.png",
+      "outputs": [
+        "spine/package_006_regular-badge/regular-badge.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1374,
+        "height": 658
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.710Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "d4abc5d9c595cb2960d2f90d3b130b93aad528a7660281a4bd50aa2984c87f81",
+      "kind": "image",
+      "size": 826854,
+      "filename": "regular-knife.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.png",
+      "outputs": [
+        "spine/package_008_regular-knife/regular-knife.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1594,
+        "height": 690
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.710Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "e8b58793aad8f96115df36cc0e7b8c7e85ae39e5e32fa0a715ae45a36e4e24da",
+      "kind": "image",
+      "size": 1116921,
+      "filename": "regular-magnifier.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.png",
+      "outputs": [
+        "spine/package_009_regular-magnifier/regular-magnifier.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1897,
+        "height": 746
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.763Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "e25acbba77b7f2b856a571b0f1e9d60aac523d4b91fe8ddbf66854a9df84775c",
+      "kind": "image",
+      "size": 1634571,
+      "filename": "regular-folder.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-folder/regular-folder.png",
+      "outputs": [
+        "spine/package_010_regular-folder/regular-folder.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1528,
+        "height": 772
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-folder/regular-folder.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.763Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "69de001360e3449e6fe357f654f8af96e9cd33b398e3f9e6d542a6b146fafb6f",
+      "kind": "image",
+      "size": 998991,
+      "filename": "regular-cuffs.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.png",
+      "outputs": [
+        "spine/package_011_regular-cuffs/regular-cuffs.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1689,
+        "height": 589
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:35.764Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "bae26addc3e84034ed556f8cb5786faa4feed2097f432e9eaec4c058f377ea2a",
+      "kind": "image",
+      "size": 498762,
+      "filename": "portrait_wb_b.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/portrait_wb_b.png",
+      "outputs": [
+        "images/portrait_wb_b.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 627,
+        "height": 627
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/portrait_wb_b.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:36.335Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "82fffd37530509dcf145621a2b48d6e388f3fbfa255fffe0fa5b5e41264f7bbc",
+      "kind": "image",
+      "size": 1079596,
+      "filename": "w.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/vs-winners-v2/w.png",
+      "outputs": [
+        "images/w.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1318,
+        "height": 1318
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/vs-winners-v2/w.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:36.453Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "7e2c2d88cabd5661118f80a8523b1c129f91d8decd014ab382cc4d0901ff9592",
+      "kind": "image",
+      "size": 1633119,
+      "filename": "croc_wb_b.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/vs-winners-v2/croc_wb_b.png",
+      "outputs": [
+        "images/croc_wb_b.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1254,
+        "height": 1254
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/vs-winners-v2/croc_wb_b.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:36.452Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "cdd6fdda28b4742a9a9793637618bf62d9fefda4e2c4890bb5cd93fcd71bec34",
+      "kind": "image",
+      "size": 1669033,
+      "filename": "squid.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/symbols/vs-winners-v1/squid.png",
+      "outputs": [
+        "images/squid.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1254,
+        "height": 1254
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/symbols/vs-winners-v1/squid.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:36.452Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "d1eeb0854443537d78e8bc9a10d086b85c6a6910c43df0c07e553a1094d6f869",
+      "kind": "spine-json",
+      "size": 108728,
+      "filename": "squid.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/squid/squid.json",
+      "outputs": [
+        "spine/package_013_squid/squid.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/squid/squid.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:36.698Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "204d604ce54f92b1979d839210261f2a72994eb7f58fea1ad25f1812e9d64584",
+      "kind": "spine-json",
+      "size": 362945,
+      "filename": "croc.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.json",
+      "outputs": [
+        "spine/package_014_croc/croc.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:36.698Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "b33bee8305b025be09488eeaf50e43a89a591ed9d068162c94ec6c26d0832b41",
+      "kind": "image",
+      "size": 3777,
+      "filename": "goo_0.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_0.png",
+      "outputs": [
+        "images/goo_0.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 42,
+        "height": 45
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_0.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:37.032Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "f80209ea2fbef171bd03a7d19aba8b91d1be2fe665b31afaa953c66b3ef1451f",
+      "kind": "image",
+      "size": 2391,
+      "filename": "goo_1.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_1.png",
+      "outputs": [
+        "images/goo_1.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 31,
+        "height": 37
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_1.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:37.033Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "145e393ba120af486803df6ea059727c9328f03744e2acbb099981fcbe5b6799",
+      "kind": "image",
+      "size": 4779,
+      "filename": "goo_3.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_3.png",
+      "outputs": [
+        "images/goo_3.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 17,
+        "height": 150
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_3.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:37.033Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "489c2f72ba625ee7cf7edbdfd007fcc326c48238b27023e05e534686f26c395d",
+      "kind": "image",
+      "size": 1071726,
+      "filename": "original.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/original.png",
+      "outputs": [
+        "images/original.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 2172,
+        "height": 724
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/original.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:37.033Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "3ac4f2e1ea51763b15354a2c3dd47ec095e9c6e2e9d90c95b00e0c8bbf6c85c7",
+      "kind": "image",
+      "size": 5498,
+      "filename": "goo_5.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_5.png",
+      "outputs": [
+        "images/goo_5.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 37,
+        "height": 70
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_5.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:37.033Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "602a84d760f18782cef954eb57bbc536df8ceff1f633636cb555c6538d998ea2",
+      "kind": "image",
+      "size": 8492,
+      "filename": "goo_2.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_2.png",
+      "outputs": [
+        "images/goo_2.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 33,
+        "height": 142
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_2.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:37.035Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "2673bb4a8ae565ab8df2a17d29a886ee29d0ab5dd966f48066a06cdd3a07af1a",
+      "kind": "image",
+      "size": 5556,
+      "filename": "goo_4.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_4.png",
+      "outputs": [
+        "images/goo_4.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 44,
+        "height": 68
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/bg/frame_goo/goo_4.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:37.035Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "c950a8412eef1b8369600b336dc98a2e7465b4cecc636a0af1dbf5ce31b360fc",
+      "kind": "image",
+      "size": 75186,
+      "filename": "hat_badge_0928_a.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/hat_badge_0928_a.png",
+      "outputs": [
+        "images/hat_badge_0928_a.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 444,
+        "height": 195
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/hat_badge_0928_a.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:37.065Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "daef69eed65c3259b36b4500f5c159b38af6780c06b4e8964b7b76d07450550f",
+      "kind": "image",
+      "size": 35067,
+      "filename": "book_law_b1.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/book_law_b1.png",
+      "outputs": [
+        "images/book_law_b1.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 142,
+        "height": 197
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/book_law_b1.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:37.065Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "527cee3dab51fe6c80ff28dc9daee546f6352b487622e4bfbc73992d059a3b12",
+      "kind": "spine-json",
+      "size": 31411,
+      "filename": "big_win.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.json",
+      "outputs": [
+        "spine/package_015_big_win/big_win.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.196Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "3ce073a8800711ad8d8af2548f927734e2395bf126e306fd1bc2b098e2ff99e3",
+      "kind": "spine-atlas",
+      "size": 1629,
+      "filename": "epic_win.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.atlas",
+      "outputs": [
+        "spine/package_016_epic_win/epic_win.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.196Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "ee02d33cd82a913e362c71a9f2eeb332eec0e2dcfff23ada3a7344ee84f98110",
+      "kind": "spine-atlas",
+      "size": 822,
+      "filename": "big_win.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.atlas",
+      "outputs": [
+        "spine/package_015_big_win/big_win.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.197Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "4ff2518e661d09ac5afe0f06eed8a39fe5883dbfa444ce6eb92044ae889026fd",
+      "kind": "spine-json",
+      "size": 60877,
+      "filename": "epic_win.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.json",
+      "outputs": [
+        "spine/package_016_epic_win/epic_win.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.197Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "d2b5cb6ca9726cdbd0314f44393c34686690d981aff16ad1514391d8d50fbf4f",
+      "kind": "spine-atlas",
+      "size": 1654,
+      "filename": "glorious_win.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.atlas",
+      "outputs": [
+        "spine/package_019_glorious_win/glorious_win.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.197Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "9f0b47df596e65b2e01008b6d6318aa502c5be93d4f481f55f22a047e4d95e1e",
+      "kind": "spine-json",
+      "size": 47771,
+      "filename": "legendary_win.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.json",
+      "outputs": [
+        "spine/package_017_legendary_win/legendary_win.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.197Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "1d705255aefc310f3ae2805735cab1ea23941bc843e92ea623793da9e3ec1ce4",
+      "kind": "spine-json",
+      "size": 121080,
+      "filename": "max_win.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/max_win/max_win.json",
+      "outputs": [
+        "spine/package_018_max_win/max_win.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/max_win/max_win.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.197Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "6527d4207cdd4e20e2e6c75999b7e40941450c2dfc0622139518c5584fbfc4dd",
+      "kind": "spine-json",
+      "size": 56739,
+      "filename": "glorious_win.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.json",
+      "outputs": [
+        "spine/package_019_glorious_win/glorious_win.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.197Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "ae57b62007aef0b2fd69cd810ed8226e88b2ac512ed0ef4c688e9503d92cba1e",
+      "kind": "spine-atlas",
+      "size": 2148,
+      "filename": "legendary_win.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.atlas",
+      "outputs": [
+        "spine/package_017_legendary_win/legendary_win.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.197Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "52c1aeb2fc07d91e1075ddc0bc7773d7f71690b3914112b18e7eaa07c29aaea2",
+      "kind": "spine-atlas",
+      "size": 4511,
+      "filename": "max_win.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/max_win/max_win.atlas",
+      "outputs": [
+        "spine/package_018_max_win/max_win.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/max_win/max_win.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.197Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "f367ab00057857799cd1d6662d9ea5b31bb960de3d322e61fd9e587699c220c1",
+      "kind": "spine-atlas",
+      "size": 561,
+      "filename": "bolt.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.atlas",
+      "outputs": [
+        "spine/package_021_bolt/bolt.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.257Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "e84af1ab0e58b4aae0334a75209027595f8068e676e3eaa653c4e375b24ea16c",
+      "kind": "spine-atlas",
+      "size": 1763,
+      "filename": "ink.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.atlas",
+      "outputs": [
+        "spine/package_020_ink/ink.atlas"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.atlas"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.257Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "2d250e10c088b7889dff4f7c2955d8cd81c5ccb0d793cdaf0221cceb5b3b3408",
+      "kind": "spine-json",
+      "size": 3533,
+      "filename": "bolt.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.json",
+      "outputs": [
+        "spine/package_021_bolt/bolt.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.258Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "d05646ccf631dcf048d93416930e4e92ba1146854c437e3a6d4b7b7464abfbdd",
+      "kind": "spine-json",
+      "size": 4016,
+      "filename": "ink.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.json",
+      "outputs": [
+        "spine/package_020_ink/ink.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.257Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "3cc3a024aff389e0ddace715f60b98f39ebba6f4aace6012ed6a7c777ef35039",
+      "kind": "image",
+      "size": 668016,
+      "filename": "big_win.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.png",
+      "outputs": [
+        "spine/package_015_big_win/big_win.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 1024,
+        "height": 1024
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.279Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "3385df62416a095ae3245d3fa67371e7e85004ccac98eb9f5ba8e92a829c3e2a",
+      "kind": "image",
+      "size": 1063006,
+      "filename": "epic_win.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.png",
+      "outputs": [
+        "spine/package_016_epic_win/epic_win.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 2048,
+        "height": 512
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.279Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "11d6ae6600d4a5a4d66b26b7be13eb58d35c62949b941c937cfefc182f93b07d",
+      "kind": "image",
+      "size": 1716953,
+      "filename": "glorious_win.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.png",
+      "outputs": [
+        "spine/package_019_glorious_win/glorious_win.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 2048,
+        "height": 1024
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.279Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "02ff6ec0ec635d212857952331609c3eeaa81a2d5dde4965bca8d127e4c0cfe3",
+      "kind": "image",
+      "size": 1736054,
+      "filename": "legendary_win.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.png",
+      "outputs": [
+        "spine/package_017_legendary_win/legendary_win.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 2048,
+        "height": 1024
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.279Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "1ffb2d08d48fad85dafc7580098cb8ffcb7079179895f4ff6778faf81b72d9ee",
+      "kind": "image",
+      "size": 362291,
+      "filename": "ink.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.png",
+      "outputs": [
+        "spine/package_020_ink/ink.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 2048,
+        "height": 1024
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.283Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "c2470ec748cabd89ac7421503eabc3128a08a2ba05e9ce87cdd0a6e8c7f65a6d",
+      "kind": "image",
+      "size": 360671,
+      "filename": "bolt.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.png",
+      "outputs": [
+        "spine/package_021_bolt/bolt.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 2048,
+        "height": 1024
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.285Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "f6e21dc2ebf8ed126caaa05c34492feff30dd54d92ada3af7f988b439a2238c6",
+      "kind": "image",
+      "size": 2486808,
+      "filename": "max_win.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/max_win/max_win.png",
+      "outputs": [
+        "spine/package_018_max_win/max_win.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/max_win/max_win.png"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:03:41.279Z",
+      "sources": [
+        "network"
+      ]
+    },
+    {
+      "sha256": "540648175436af714646f6574d07135ee9b58f1424f78ee1f146724105943d3f",
+      "kind": "spine-json",
+      "size": 240906,
+      "filename": "logo.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/logo__54064817.json",
+      "outputs": [
+        "spine/package_022_logo/logo.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/logo/logo.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:25:45.988Z",
+      "sources": [
+        "collector_repair"
+      ]
+    },
+    {
+      "sha256": "5f3cb1bb75cabd175b89c42c944ae5f2c728f981853e620e6d6326fe45e720dc",
+      "kind": "spine-json",
+      "size": 193422,
+      "filename": "frog.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.json",
+      "outputs": [
+        "spine/package_023_frog/frog.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:25:46.417Z",
+      "sources": [
+        "collector_repair"
+      ]
+    },
+    {
+      "sha256": "b173894111e07fd8ec379657b537c1570333046d9f925626327f62777f87a26d",
+      "kind": "spine-json",
+      "size": 138900,
+      "filename": "rat.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.json",
+      "outputs": [
+        "spine/package_024_rat/rat.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:25:46.474Z",
+      "sources": [
+        "collector_repair"
+      ]
+    },
+    {
+      "sha256": "79573afd5e0b99cc526358e6906b62a4c841d9cbf519ffd43f6d2c5291e4cd33",
+      "kind": "spine-json",
+      "size": 187358,
+      "filename": "dragonfly.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/dragonfly/dragonfly.json",
+      "outputs": [
+        "spine/package_025_dragonfly/dragonfly.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/dragonfly/dragonfly.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:25:46.525Z",
+      "sources": [
+        "collector_repair"
+      ]
+    },
+    {
+      "sha256": "67f2312387d72d64cac53b62f90b496c16e37e8ff6f52aff14330d9da54c263f",
+      "kind": "spine-json",
+      "size": 109072,
+      "filename": "window-croc.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.json",
+      "outputs": [
+        "spine/package_026_window-croc/window-croc.json"
+      ],
+      "urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.json"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T15:25:46.587Z",
+      "sources": [
+        "collector_repair"
+      ]
+    }
+  ]
+}

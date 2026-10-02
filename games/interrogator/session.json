@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "session_id": "2026-10-02T15:03:05.103Z",
+  "game": "Interrogator",
+  "entry": {
+    "name": "Interrogator",
+    "url": null,
+    "provider": null,
+    "status": "running",
+    "attempts": 1
+  },
+  "updated_at": "2026-10-02T15:25:47.152Z"
+}

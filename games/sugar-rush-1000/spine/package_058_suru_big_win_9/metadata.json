@@ -1,0 +1,309 @@
+{
+  "id": "sugar-rush-1000/package_058_suru_big_win_9",
+  "package": "package_058_suru_big_win_9",
+  "name": "suru_big_win_9",
+  "game": "Sugar Rush 1000",
+  "game_slug": "sugar-rush-1000",
+  "provider": "Pragmatic Play",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "suru_big_win_9.json",
+  "skeleton_version": "3.7.91",
+  "category": "effect",
+  "subtypes": [
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win"
+  ],
+  "tags": [
+    "effect",
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win",
+    "suru",
+    "big",
+    "bigwin"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "effect": 10.8,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:bigwin",
+      "bone:star",
+      "bone:stars",
+      "bone:rays",
+      "region:rays",
+      "win-celebration:bigwin"
+    ]
+  },
+  "animations": [
+    "mega_in",
+    "mega_loop",
+    "mega_out",
+    "nice_in",
+    "nice_loop",
+    "nice_out",
+    "sesnational_in",
+    "sesnational_loop",
+    "sesnational_out",
+    "superb_in",
+    "superb_loop",
+    "superb_out"
+  ],
+  "animation_details": [
+    {
+      "name": "mega_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "mega_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "mega_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "sesnational_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "sesnational_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "sesnational_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "superb_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "superb_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "superb_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 5,
+  "slots_count": 1,
+  "bones": [
+    "root",
+    "sensational",
+    "numbers",
+    "stars",
+    "big_star"
+  ],
+  "slots": [
+    "rays_1"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 1,
+  "attachment_types": {
+    "mesh": 1
+  },
+  "dimensions": {
+    "width": 1777,
+    "height": 999
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "suru_big_win_9.png",
+      "atlas": "suru_big_win_9.atlas",
+      "file": "suru_big_win_9.png",
+      "sha256": "8abe4bd3de483f41f374c29418c99493ca7f6907321a0d80dc6a99837bcb2a70",
+      "format": "png",
+      "width": 440,
+      "height": 250,
+      "atlas_size": [
+        440,
+        250
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "suru_big_win_9.atlas",
+      "sha256": "cef5f2d080a13bd3ced1c3221643e664d7a75612e5aa599055a0b1204ce81ab6",
+      "format": "spine-3/libgdx",
+      "pages": [
+        "suru_big_win_9.png"
+      ],
+      "regions": 1,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 1/1 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [
+    {
+      "raw_path": "raw/_embedded/uht-b2fe8db1cd8e/suru_banner_3.atlas",
+      "sha256": "af94d5677fd1df4f8f2c235f92b291aec05e465360f3cfa2b8f01c142f87a1dc",
+      "coverage": 1,
+      "evidence": [
+        "regions 1/1 (100% of skeleton)",
+        "loaded 0ms apart"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "suru_big_win_9.json",
+      "role": "skeleton",
+      "sha256": "5d09a35cb43bba1aaa449241b07ad659fdd8327df8ab717a6a0eb115e29fe036",
+      "size": 15088,
+      "original_filename": "suru_big_win_9.json",
+      "raw_path": "raw/_embedded/uht-34ebb520dfce/suru_big_win_9.json",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "34ebb520dfce9914d8dba2abf7ee178f"
+      }
+    },
+    {
+      "file": "suru_big_win_9.atlas",
+      "role": "atlas",
+      "sha256": "cef5f2d080a13bd3ced1c3221643e664d7a75612e5aa599055a0b1204ce81ab6",
+      "size": 181,
+      "original_filename": "suru_big_win_9.atlas",
+      "raw_path": "raw/_embedded/uht-34ebb520dfce/suru_big_win_9.atlas",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "34ebb520dfce9914d8dba2abf7ee178f"
+      }
+    },
+    {
+      "file": "suru_big_win_9.png",
+      "role": "texture",
+      "sha256": "8abe4bd3de483f41f374c29418c99493ca7f6907321a0d80dc6a99837bcb2a70",
+      "size": 171317,
+      "original_filename": "suru_big_win_9.png",
+      "raw_path": "raw/_embedded/uht-34ebb520dfce/suru_big_win_9.png",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "34ebb520dfce9914d8dba2abf7ee178f"
+      },
+      "atlas_page": "suru_big_win_9.png"
+    }
+  ],
+  "source_urls": [],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": null,
+  "sessions": [],
+  "packaged_at": "2026-10-02T15:45:20.442Z"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "red-robin/package_001_rr2_background",
+  "package": "package_001_rr2_background",
+  "name": "rr2_background",
+  "game": "Red-Robin",
+  "game_slug": "red-robin",
+  "provider": "Paperclip Gaming",
+  "format": "spine",
+  "skeleton_format": "binary",
+  "skeleton_file": "rr2_background.skel",
+  "skeleton_version": "4.2.43",
+  "category": "background",
+  "subtypes": [],
+  "tags": [
+    "background",
+    "rr"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "background": 3,
+      "character": 0,
+      "symbol": 0,
+      "effect": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:background"
+    ]
+  },
+  "animations": [],
+  "animation_details": [],
+  "skins": [],
+  "events": [],
+  "bones_count": null,
+  "slots_count": null,
+  "bones": [],
+  "slots": [],
+  "constraints": null,
+  "attachments_count": null,
+  "attachment_types": null,
+  "dimensions": {
+    "width": 6246.25,
+    "height": 5005
+  },
+  "fps": null,
+  "texture_mode": "none",
+  "textures": [],
+  "atlases": [],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "rr2_background.skel",
+      "role": "skeleton",
+      "sha256": "c2a940378453c1f05a27abda2dde9f00d45c91368c58060b49e957f85b29e8f1",
+      "size": 451,
+      "original_filename": "rr2_background.skel",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_background.skel",
+      "source_urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_background.skel"
+      ]
+    }
+  ],
+  "source_urls": [
+    "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_background.skel"
+  ],
+  "checks": {
+    "complete": false,
+    "atlas_found": false,
+    "pages_resolved": "0/0",
+    "region_coverage": null,
+    "missing_regions": []
+  },
+  "complete": false,
+  "warnings": [
+    "no atlas / textures captured for this skeleton",
+    "binary skeleton: animation list not parsed (version, size and atlas association only)"
+  ],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:50:26.153Z",
+  "sessions": [
+    "2026-10-02T20:15:07.891Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:11.220Z"
+}

@@ -1,0 +1,159 @@
+
+suru_1000_trasition_suru_1000_trasition.png
+size: 2560,2556
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+suru1000_tran_00012
+  rotate: true
+  xy: 2547, 2019
+  size: 33, 8
+  orig: 500, 200
+  offset: 232, 192
+  index: -1
+suru1000_tran_00014
+  rotate: true
+  xy: 2521, 1967
+  size: 85, 24
+  orig: 500, 200
+  offset: 231, 176
+  index: -1
+suru1000_tran_00016
+  rotate: true
+  xy: 2408, 2035
+  size: 519, 111
+  orig: 1000, 400
+  offset: 222, 289
+  index: -1
+suru1000_tran_00018
+  rotate: false
+  xy: 1004, 323
+  size: 763, 244
+  orig: 1000, 400
+  offset: 131, 0
+  index: -1
+suru1000_tran_00020
+  rotate: false
+  xy: 1004, 2
+  size: 947, 319
+  orig: 1000, 400
+  offset: 35, 0
+  index: -1
+suru1000_tran_00022
+  rotate: false
+  xy: 806, 569
+  size: 997, 377
+  orig: 1000, 400
+  offset: 3, 0
+  index: -1
+suru1000_tran_00024
+  rotate: false
+  xy: 2, 2154
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00026
+  rotate: false
+  xy: 1004, 2154
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00028
+  rotate: true
+  xy: 2006, 1554
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00030
+  rotate: true
+  xy: 2, 552
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00031
+  rotate: false
+  xy: 2, 1752
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00032
+  rotate: false
+  xy: 2, 150
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00033
+  rotate: true
+  xy: 404, 750
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00034
+  rotate: false
+  xy: 806, 1350
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00036
+  rotate: false
+  xy: 1004, 1752
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00038
+  rotate: true
+  xy: 1808, 552
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00039
+  rotate: false
+  xy: 806, 948
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00042
+  rotate: true
+  xy: 2210, 552
+  size: 1000, 348
+  orig: 1000, 400
+  offset: 0, 52
+  index: -1
+suru1000_tran_00046
+  rotate: true
+  xy: 2521, 2054
+  size: 500, 29
+  orig: 500, 200
+  offset: 0, 171
+  index: -1
+
+suru_1000_trasition_suru_1000_trasition2.png
+size: 2008,404
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+suru1000_tran_00040
+  rotate: false
+  xy: 2, 2
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+suru1000_tran_00044
+  rotate: false
+  xy: 1004, 140
+  size: 1000, 262
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1

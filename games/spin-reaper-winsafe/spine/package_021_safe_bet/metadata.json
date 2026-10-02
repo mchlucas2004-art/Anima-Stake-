@@ -1,0 +1,248 @@
+{
+  "id": "spin-reaper-winsafe/package_021_safe_bet",
+  "package": "package_021_safe_bet",
+  "name": "safe_bet",
+  "game": "Spin-reaper-winsafe",
+  "game_slug": "spin-reaper-winsafe",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "safe_bet.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "idle"
+  ],
+  "tags": [
+    "effect",
+    "idle",
+    "safe",
+    "bet",
+    "components",
+    "pixi",
+    "package"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "effect": 3.2,
+      "symbol": 0.8,
+      "character": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "bone:sparkle",
+      "bone:sparkles",
+      "bone:glow",
+      "bone:shine",
+      "region:sparkle",
+      "region:sparkles",
+      "region:glow",
+      "region:shine"
+    ]
+  },
+  "animations": [
+    "activate",
+    "active_idle",
+    "idle"
+  ],
+  "animation_details": [
+    {
+      "name": "activate",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 17,
+        "slots": 21,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "active_idle",
+      "duration": 5.7,
+      "timelines": {
+        "bones": 14,
+        "slots": 8,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 10,
+      "timelines": {
+        "bones": 12,
+        "slots": 4,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 19,
+  "slots_count": 25,
+  "bones": [
+    "root",
+    "safebet_master",
+    "safebet_base",
+    "safebet_sparkle1",
+    "safebet_shine",
+    "safebet_safebet",
+    "t",
+    "s",
+    "f",
+    "e_2",
+    "e",
+    "b",
+    "a",
+    "safebet_sparkle2",
+    "safebet_sparkle3",
+    "pulse",
+    "_ref",
+    "glow",
+    "sparkles"
+  ],
+  "slots": [
+    "00_master_scale",
+    "00_screen_dimensions",
+    "glow",
+    "coneglow",
+    "pulse",
+    "pulse2",
+    "sparkles",
+    "sparkles2",
+    "sparkles3",
+    "safebet_base",
+    "safebet_base2",
+    "_ref",
+    "_ref2",
+    "diamond_0",
+    "s",
+    "a",
+    "f",
+    "e",
+    "b",
+    "e_2",
+    "t",
+    "safebet_shine",
+    "safebet_sparkle1",
+    "safebet_sparkle2",
+    "safebet_sparkle3"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 22,
+  "attachment_types": {
+    "region": 18,
+    "mesh": 4
+  },
+  "dimensions": {
+    "width": 10000,
+    "height": 10000
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "safe_bet.webp",
+      "atlas": "safe_bet.atlas",
+      "file": "safe_bet.webp",
+      "sha256": "c89a2348b7cd7ad8c03e66201de973906c09feb6e26c658841c11ae35941266a",
+      "format": "webp",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": null
+    }
+  ],
+  "atlases": [
+    {
+      "file": "safe_bet.atlas",
+      "sha256": "7dd15cb06cd50866dae20d78b3b469f4fb5df0e0bc192affa3360e688dbfe0d2",
+      "format": "spine-4",
+      "pages": [
+        "safe_bet.webp"
+      ],
+      "regions": 47,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 47/47 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 7ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "safe_bet.json",
+      "role": "skeleton",
+      "sha256": "1fbb06f9dd82a633adba03173f4a081c68ded0a1a3d4fb937c32d863f6e29f2c",
+      "size": 31440,
+      "original_filename": "safe_bet.json",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.json",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.json"
+      ]
+    },
+    {
+      "file": "safe_bet.atlas",
+      "role": "atlas",
+      "sha256": "7dd15cb06cd50866dae20d78b3b469f4fb5df0e0bc192affa3360e688dbfe0d2",
+      "size": 2317,
+      "original_filename": "safe_bet.atlas",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.atlas",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.atlas"
+      ]
+    },
+    {
+      "file": "safe_bet.webp",
+      "role": "texture",
+      "sha256": "c89a2348b7cd7ad8c03e66201de973906c09feb6e26c658841c11ae35941266a",
+      "size": 788322,
+      "original_filename": "safe_bet.webp",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.webp",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.webp"
+      ],
+      "atlas_page": "safe_bet.webp"
+    }
+  ],
+  "source_urls": [
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.json",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.atlas",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:09:21.607Z",
+  "sessions": [
+    "2026-10-02T20:15:11.265Z"
+  ],
+  "packaged_at": "2026-10-02T20:48:22.950Z"
+}

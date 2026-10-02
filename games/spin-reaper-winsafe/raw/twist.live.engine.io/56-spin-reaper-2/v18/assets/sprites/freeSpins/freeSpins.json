@@ -1,0 +1,36 @@
+{"frames": {
+
+"freespins.png":
+{
+	"frame": {"x":1276,"y":0,"w":680,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":31,"w":680,"h":94},
+	"sourceSize": {"w":700,"h":150}
+},
+"totalwin_bonus.png":
+{
+	"frame": {"x":0,"y":0,"w":638,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":32,"w":638,"h":99},
+	"sourceSize": {"w":700,"h":150}
+},
+"totalwin_super.png":
+{
+	"frame": {"x":638,"y":0,"w":638,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":32,"w":638,"h":99},
+	"sourceSize": {"w":700,"h":150}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "freeSpins.webp",
+	"format": "RGBA8888",
+	"size": {"w":1956,"h":99},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9753806984b3a785edb8fb03bbaa4609:e837fb490aaf084b5db77f234fa0e656:8fc3e38e27441a2de30d5f1f8b24872d$"
+}
+}

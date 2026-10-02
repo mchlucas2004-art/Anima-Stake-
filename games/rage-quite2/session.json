@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "session_id": "2026-10-02T20:15:02.998Z",
+  "game": "Rage-Quite2",
+  "entry": {
+    "name": "Rage-Quite2",
+    "provider": null
+  },
+  "updated_at": "2026-10-02T20:15:07.871Z",
+  "session": {
+    "id": "2026-10-02T20:15:02.998Z",
+    "started_at": "2026-10-02T20:15:02.998Z",
+    "ended_at": "2026-10-02T20:15:07.745Z",
+    "stop_reason": "har_import",
+    "mode": "har",
+    "source_file": "Rage-Quite2.har",
+    "counters": {
+      "requests": 1093,
+      "finished": 1093,
+      "failed": 0,
+      "candidates": 107,
+      "images": 83,
+      "json": 22,
+      "atlases": 2,
+      "skeletons": 15,
+      "newSkeletons": 15,
+      "bytes": 32386144,
+      "errors": 0,
+      "probes": 0
+    }
+  }
+}

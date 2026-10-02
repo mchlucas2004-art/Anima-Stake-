@@ -1,0 +1,187 @@
+{
+  "id": "interrogator/package_012_slime-anticipation",
+  "package": "package_012_slime-anticipation",
+  "name": "slime-anticipation",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "slime-anticipation.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "entrance",
+    "exit",
+    "anticipation"
+  ],
+  "tags": [
+    "effect",
+    "entrance",
+    "exit",
+    "anticipation",
+    "slime",
+    "effects"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "effect": 3,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:effects"
+    ]
+  },
+  "animations": [
+    "enter",
+    "exit",
+    "hold"
+  ],
+  "animation_details": [
+    {
+      "name": "enter",
+      "duration": 0.72,
+      "timelines": {
+        "bones": 49,
+        "slots": 1
+      }
+    },
+    {
+      "name": "exit",
+      "duration": 0.45,
+      "timelines": {
+        "bones": 49,
+        "slots": 1
+      }
+    },
+    {
+      "name": "hold",
+      "duration": 2.4,
+      "timelines": {
+        "bones": 49,
+        "slots": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 50,
+  "slots_count": 1,
+  "bones": [
+    "root",
+    "liquid_level",
+    "flow_0_0",
+    "flow_0_1",
+    "flow_0_2",
+    "flow_0_3",
+    "flow_0_4",
+    "flow_0_5",
+    "flow_0_6",
+    "flow_0_7",
+    "flow_0_8",
+    "flow_0_9",
+    "flow_0_10",
+    "flow_0_11",
+    "flow_0_12",
+    "flow_0_13",
+    "flow_0_14",
+    "flow_0_15",
+    "flow_1_0",
+    "flow_1_1",
+    "flow_1_2",
+    "flow_1_3",
+    "flow_1_4",
+    "flow_1_5",
+    "flow_1_6",
+    "flow_1_7",
+    "flow_1_8",
+    "flow_1_9",
+    "flow_1_10",
+    "flow_1_11",
+    "flow_1_12",
+    "flow_1_13",
+    "flow_1_14",
+    "flow_1_15",
+    "flow_2_0",
+    "flow_2_1",
+    "flow_2_2",
+    "flow_2_3",
+    "flow_2_4",
+    "flow_2_5",
+    "flow_2_6",
+    "flow_2_7",
+    "flow_2_8",
+    "flow_2_9",
+    "flow_2_10",
+    "flow_2_11",
+    "flow_2_12",
+    "flow_2_13",
+    "flow_2_14",
+    "flow_2_15"
+  ],
+  "slots": [
+    "liquid"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 1,
+  "attachment_types": {
+    "mesh": 1
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "none",
+  "textures": [],
+  "atlases": [],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "slime-anticipation.json",
+      "role": "skeleton",
+      "sha256": "13019ac70251c82c872dd5801ebfac08aa146f10daa08c5d38cb19848a823331",
+      "size": 672675,
+      "original_filename": "slime-anticipation.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/effects/slime-anticipation/slime-anticipation.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/effects/slime-anticipation/slime-anticipation.json"
+      ]
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/effects/slime-anticipation/slime-anticipation.json"
+  ],
+  "checks": {
+    "complete": false,
+    "atlas_found": false,
+    "pages_resolved": "0/0",
+    "region_coverage": 0,
+    "missing_regions": [
+      "continuous-liquid"
+    ]
+  },
+  "complete": false,
+  "warnings": [
+    "1 attachment region(s) not found in the atlas",
+    "no atlas / textures captured for this skeleton"
+  ],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:35.518Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

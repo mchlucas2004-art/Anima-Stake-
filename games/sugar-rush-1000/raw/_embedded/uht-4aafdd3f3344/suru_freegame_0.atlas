@@ -1,0 +1,48 @@
+
+suru_freegame_0.png
+size: 1360,280
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud_1_free
+  rotate: true
+  xy: 1252, 29
+  size: 183, 77
+  orig: 183, 77
+  offset: 0, 0
+  index: -1
+cloud_2_free
+  rotate: false
+  xy: 681, 129
+  size: 532, 149
+  orig: 532, 149
+  offset: 0, 0
+  index: -1
+cloud_3_free
+  rotate: false
+  xy: 0, 25
+  size: 679, 253
+  orig: 679, 253
+  offset: 0, 0
+  index: -1
+cloud_4_free
+  rotate: false
+  xy: 1215, 214
+  size: 144, 64
+  orig: 144, 64
+  offset: 0, 0
+  index: -1
+cloud_5_free
+  rotate: false
+  xy: 1050, 24
+  size: 200, 103
+  orig: 200, 103
+  offset: 0, 0
+  index: -1
+cloud_6_free
+  rotate: false
+  xy: 681, 0
+  size: 367, 127
+  orig: 377, 127
+  offset: 5, 0
+  index: -1

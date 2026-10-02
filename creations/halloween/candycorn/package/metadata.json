@@ -1,0 +1,58 @@
+{
+ "id": "creations/halloween/candycorn",
+ "package": "candycorn",
+ "name": "candycorn",
+ "label": "Bonbon maïs",
+ "game": "Halloween (créations)",
+ "game_slug": "halloween",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "candycorn.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "low_pay",
+  "land",
+  "idle",
+  "win",
+  "exit"
+ ],
+ "tier": "low",
+ "rank": null,
+ "animations": [
+  "idle",
+  "land",
+  "win",
+  "exit"
+ ],
+ "events": [
+  "land",
+  "win",
+  "pop"
+ ],
+ "bones_count": 18,
+ "slots_count": 14,
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "candycorn.atlas",
+   "pages": [
+    "candycorn.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "candycorn.png",
+   "page": "candycorn.png",
+   "width": 2048,
+   "height": 512,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/L1_candycorn.png"
+}

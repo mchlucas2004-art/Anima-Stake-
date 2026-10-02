@@ -1,0 +1,217 @@
+{
+  "id": "odin-s-vault/package_014_silver",
+  "package": "package_014_silver",
+  "name": "silver",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "silver.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "win"
+  ],
+  "tags": [
+    "effect",
+    "win",
+    "silver",
+    "symbols",
+    "coins"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "effect": 5.4,
+      "symbol": 3.8,
+      "character": 0.5,
+      "background": 0.5,
+      "ui": 0.5,
+      "transition": 0
+    },
+    "evidence": [
+      "name:coins",
+      "bone:effects",
+      "bone:glow",
+      "bone:coin",
+      "region:effects",
+      "region:glow",
+      "region:coin"
+    ]
+  },
+  "animations": [
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "win",
+      "duration": 1,
+      "timelines": {
+        "bones": 2,
+        "slots": 6
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 9,
+  "slots_count": 14,
+  "bones": [
+    "root",
+    "main",
+    "silver",
+    "silver_cop",
+    "silver_rune2",
+    "silver_blick2",
+    "silver_3d",
+    "silver_3d2",
+    "silver_cop2"
+  ],
+  "slots": [
+    "silver/silver",
+    "silver/BG_silver",
+    "silver/Frame_silver",
+    "silver/multiplier_back_glow4",
+    "silver/coin_shadow_silver",
+    "silver/pouch_effects_02_glow_01",
+    "silver/coin_silver",
+    "silver/coin_silver2",
+    "silver/rune_base_silver",
+    "silver/rune_base_silver2",
+    "silver/rune_silver",
+    "silver/rune_silver2",
+    "silver/coin_shadow_silver2",
+    "silver/blick_total2"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 1,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 11,
+  "attachment_types": {
+    "mesh": 9,
+    "clipping": 1,
+    "region": 1
+  },
+  "dimensions": {
+    "width": 184.03,
+    "height": 185.42
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "coins.webp",
+      "atlas": "coins.atlas",
+      "file": "coins.webp",
+      "sha256": "94f09d6e98b7ea5b2d9cc6415568bdf4024e1b1bafc270d571952434155a20a8",
+      "format": "webp",
+      "width": 2048,
+      "height": 1024,
+      "atlas_size": [
+        2048,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "coins.atlas",
+      "sha256": "f4da2ac3d52d28c295f247b12f5c5dd6df696f56867e359a6fba6bad10283e48",
+      "format": "spine-4",
+      "pages": [
+        "coins.webp"
+      ],
+      "regions": 125,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 115,
+      "evidence": [
+        "regions 7/7 (100% of skeleton)",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": [
+        "package_012_max",
+        "package_013_bronze",
+        "package_015_gold",
+        "package_016_sapphire",
+        "package_017_ruby",
+        "package_018_diamond"
+      ]
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "silver.json",
+      "role": "skeleton",
+      "sha256": "e45b9b2bc0634b18c08e4f37ce2fad2c9985b46cc8f1af2fbd307f05eacc5327",
+      "size": 6491,
+      "original_filename": "silver.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/silver.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/silver.json"
+      ]
+    },
+    {
+      "file": "coins.atlas",
+      "role": "atlas",
+      "sha256": "f4da2ac3d52d28c295f247b12f5c5dd6df696f56867e359a6fba6bad10283e48",
+      "size": 6231,
+      "original_filename": "coins.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.atlas"
+      ]
+    },
+    {
+      "file": "coins.webp",
+      "role": "texture",
+      "sha256": "94f09d6e98b7ea5b2d9cc6415568bdf4024e1b1bafc270d571952434155a20a8",
+      "size": 1092428,
+      "original_filename": "coins.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.webp"
+      ],
+      "atlas_page": "coins.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/silver.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [
+    "package_012_max",
+    "package_013_bronze",
+    "package_015_gold",
+    "package_016_sapphire",
+    "package_017_ruby",
+    "package_018_diamond"
+  ],
+  "detected_at": "2026-10-02T19:53:39.526Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

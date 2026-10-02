@@ -1,0 +1,272 @@
+
+lobby_button_desktop_v3.png
+size: 1997,800
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+expand_01
+  rotate: false
+  xy: 1266, 534
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_03
+  rotate: false
+  xy: 1582, 667
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_05
+  rotate: false
+  xy: 318, 2
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_07
+  rotate: false
+  xy: 634, 135
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_09
+  rotate: false
+  xy: 950, 268
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_11
+  rotate: false
+  xy: 1266, 401
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_13
+  rotate: false
+  xy: 1565, 534
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_15
+  rotate: false
+  xy: 617, 2
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_17
+  rotate: false
+  xy: 933, 135
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_19
+  rotate: false
+  xy: 1249, 268
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_21
+  rotate: false
+  xy: 1565, 401
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_23
+  rotate: false
+  xy: 916, 2
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_25
+  rotate: false
+  xy: 1232, 135
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_27
+  rotate: false
+  xy: 1548, 268
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_29
+  rotate: false
+  xy: 1215, 2
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_31
+  rotate: false
+  xy: 1531, 135
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_33
+  rotate: false
+  xy: 1514, 2
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_35
+  rotate: true
+  xy: 1864, 368
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+expand_39
+  rotate: true
+  xy: 1847, 69
+  size: 297, 131
+  orig: 297, 131
+  offset: 0, 0
+  index: -1
+Reverse_00
+  rotate: false
+  xy: 2, 667
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_01
+  rotate: false
+  xy: 2, 534
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_02
+  rotate: false
+  xy: 318, 667
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_03
+  rotate: false
+  xy: 2, 401
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_04
+  rotate: false
+  xy: 318, 534
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_05
+  rotate: false
+  xy: 634, 667
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_06
+  rotate: false
+  xy: 2, 268
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_07
+  rotate: false
+  xy: 318, 401
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_09
+  rotate: false
+  xy: 634, 534
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_11
+  rotate: false
+  xy: 950, 667
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_13
+  rotate: false
+  xy: 2, 135
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_15
+  rotate: false
+  xy: 318, 268
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_17
+  rotate: false
+  xy: 634, 401
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_19
+  rotate: false
+  xy: 950, 534
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_21
+  rotate: false
+  xy: 1266, 667
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_23
+  rotate: false
+  xy: 2, 2
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_25
+  rotate: false
+  xy: 318, 135
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_27
+  rotate: false
+  xy: 634, 268
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1
+Reverse_29
+  rotate: false
+  xy: 950, 401
+  size: 314, 131
+  orig: 314, 131
+  offset: 0, 0
+  index: -1

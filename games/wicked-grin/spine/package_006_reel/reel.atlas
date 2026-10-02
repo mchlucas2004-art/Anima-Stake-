@@ -1,0 +1,10 @@
+reel.png
+size:2048,2048
+filter:Linear,Linear
+lights_red
+bounds:1127,1103,48,72
+lights_yellow
+bounds:1127,1031,46,70
+reel
+bounds:2,102,1123,1073
+offsets:2,1,1127,1075

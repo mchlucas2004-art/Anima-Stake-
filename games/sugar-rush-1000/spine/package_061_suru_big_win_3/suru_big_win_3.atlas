@@ -1,0 +1,20 @@
+
+suru_big_win_3.png
+size: 1625,239
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+meter
+  rotate: false
+  xy: 816, 11
+  size: 809, 228
+  orig: 809, 228
+  offset: 0, 0
+  index: -1
+meter_shadow
+  rotate: false
+  xy: 0, 0
+  size: 814, 239
+  orig: 814, 239
+  offset: 0, 0
+  index: -1

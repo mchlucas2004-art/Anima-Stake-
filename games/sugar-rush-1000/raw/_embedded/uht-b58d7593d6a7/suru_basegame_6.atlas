@@ -1,0 +1,27 @@
+
+suru_basegame_6.png
+size: 140,52
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fan_fame
+  rotate: false
+  xy: 52, 8
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+fan_fame_q
+  rotate: false
+  xy: 0, 0
+  size: 50, 52
+  orig: 50, 52
+  offset: 0, 0
+  index: -1
+fan_wings
+  rotate: false
+  xy: 98, 12
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1

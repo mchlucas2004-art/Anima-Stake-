@@ -1,0 +1,446 @@
+{
+  "src": [
+    "./assets/audio/sounds.ogg",
+    "./assets/audio/sounds.m4a",
+    "./assets/audio/sounds.mp3",
+    "./assets/audio/sounds.ac3"
+  ],
+  "sprite": {
+    "jng_intro_fs": [
+      0,
+      3380.4535147392294
+    ],
+    "jng_youwon_panel": [
+      5000,
+      7555.986394557824
+    ],
+    "sfx_anticipation": [
+      14000,
+      2000,
+      true
+    ],
+    "sfx_bonus_fail": [
+      17000,
+      1197.1428571428576
+    ],
+    "sfx_bonus_land_0": [
+      20000,
+      1872.8344671201817
+    ],
+    "sfx_bonus_land_1": [
+      23000,
+      1868.2086167800448
+    ],
+    "sfx_bonus_land_2": [
+      26000,
+      1892.3356009070283
+    ],
+    "sfx_bonus_land_3": [
+      29000,
+      2007.1655328798172
+    ],
+    "sfx_bonus_land_4": [
+      33000,
+      2720.7936507936524
+    ],
+    "sfx_bonus_win": [
+      37000,
+      2288.1632653061247
+    ],
+    "sfx_btn_buy": [
+      41000,
+      808.7074829931993
+    ],
+    "sfx_btn_general": [
+      43000,
+      395.48752834467393
+    ],
+    "sfx_btn_special": [
+      45000,
+      1986.9614512471685
+    ],
+    "sfx_btn_spin": [
+      48000,
+      1988.3446712018156
+    ],
+    "sfx_highsymbol_cycle": [
+      51000,
+      1302.7437641723338
+    ],
+    "sfx_highsymbol_win": [
+      54000,
+      1306.1678004535154
+    ],
+    "sfx_l1_cycle": [
+      57000,
+      2250
+    ],
+    "sfx_l1_win": [
+      61000,
+      1356.0770975056685
+    ],
+    "sfx_multimystery_intro": [
+      64000,
+      1186.303854875277
+    ],
+    "sfx_multimystery_reveal": [
+      67000,
+      2010.2721088435374
+    ],
+    "sfx_multiplier_reveal": [
+      71000,
+      554.2857142857116
+    ],
+    "sfx_mystery_reveal": [
+      73000,
+      2195.4648526077135
+    ],
+    "sfx_reel_spinning": [
+      77000,
+      2500,
+      true
+    ],
+    "sfx_reel_stop_1": [
+      81000,
+      250.34013605441885
+    ],
+    "sfx_reel_stop_2": [
+      83000,
+      249.88662131519845
+    ],
+    "sfx_reel_stop_3": [
+      85000,
+      249.75056689342523
+    ],
+    "sfx_reel_stop_4": [
+      87000,
+      249.7732426303827
+    ],
+    "sfx_reel_stop_5": [
+      89000,
+      246.6666666666697
+    ],
+    "sfx_retrigger": [
+      91000,
+      4062.494331065764,
+      true
+    ],
+    "sfx_wild_cycle": [
+      97000,
+      1202.471655328793
+    ],
+    "sfx_wild_win": [
+      100000,
+      1001.4512471655337
+    ],
+    "sfx_win_big": [
+      103000,
+      3044.6258503401396
+    ],
+    "sfx_win_epic": [
+      108000,
+      4934.353741496594
+    ],
+    "sfx_win_max": [
+      114000,
+      6557.2562358276655
+    ],
+    "sfx_win_mega": [
+      122000,
+      4562.5850340136085
+    ],
+    "spr2_amb_loop": [
+      128000,
+      64577.913832199556,
+      true
+    ],
+    "spr2_bgm_base_loop": [
+      194000,
+      150260.86167800453,
+      true
+    ],
+    "spr2_bgm_bonus_loop": [
+      346000,
+      34909.1156462585,
+      true
+    ],
+    "spr2_bgm_totalwin_loop": [
+      382000,
+      15566.621315192719,
+      true
+    ],
+    "spr2_bgm_winlevel_loop": [
+      399000,
+      15034.943310657582,
+      true
+    ],
+    "spr2_sfx_anticipation_flame": [
+      416000,
+      1271.1111111111109
+    ],
+    "spr2_sfx_banner_fire_loop": [
+      419000,
+      5757.709750566903,
+      true
+    ],
+    "spr2_sfx_coins_loop": [
+      426000,
+      9293.62811791384,
+      true
+    ],
+    "spr2_sfx_count_loop": [
+      437000,
+      95.85034013605309,
+      true
+    ],
+    "spr2_sfx_count_stop": [
+      439000,
+      901.7460317460291
+    ],
+    "spr2_sfx_fs_count": [
+      441000,
+      1610.022675736957
+    ],
+    "spr2_sfx_game_enter": [
+      444000,
+      7612.154195011328
+    ],
+    "spr2_sfx_level_start": [
+      453000,
+      4161.020408163267
+    ],
+    "spr2_sfx_payout": [
+      459000,
+      1018.5941043083631
+    ],
+    "spr2_sfx_reaper_animation": [
+      462000,
+      3492.199546485267
+    ],
+    "spr2_sfx_transition": [
+      467000,
+      3817.891156462565
+    ],
+    "spr2_sfx_transition_sparkles": [
+      472000,
+      2439.569160997735
+    ],
+    "spr2_sfx_winlevel_end": [
+      476000,
+      1553.7414965986613
+    ],
+    "spr2_sfx_winlevel_final_pop": [
+      479000,
+      1062.3582766439768
+    ],
+    "spr2_sfx_wintext_0": [
+      482000,
+      350.72562358277537
+    ],
+    "spr2_sfx_wintext_1": [
+      484000,
+      678.8208616779912
+    ],
+    "spr2_sfx_wintext_2": [
+      486000,
+      581.8820861678091
+    ],
+    "spr2_sfx_wintext_3": [
+      488000,
+      315.46485260770396
+    ],
+    "spr2_sfx_wintext_4": [
+      490000,
+      431.02040816324916
+    ],
+    "spr2_sfx_wintext_big": [
+      492000,
+      1562.0408163265438
+    ]
+  },
+  "config": {
+    "jng_intro_fs": {
+      "volume": 1
+    },
+    "jng_youwon_panel": {
+      "volume": 1
+    },
+    "sfx_anticipation": {
+      "volume": 1
+    },
+    "sfx_bonus_fail": {
+      "volume": 1
+    },
+    "sfx_bonus_land_0": {
+      "volume": 1
+    },
+    "sfx_bonus_land_1": {
+      "volume": 1
+    },
+    "sfx_bonus_land_2": {
+      "volume": 1
+    },
+    "sfx_bonus_land_3": {
+      "volume": 1
+    },
+    "sfx_bonus_land_4": {
+      "volume": 1
+    },
+    "sfx_bonus_win": {
+      "volume": 1
+    },
+    "sfx_btn_buy": {
+      "volume": 1
+    },
+    "sfx_btn_general": {
+      "volume": 1
+    },
+    "sfx_btn_special": {
+      "volume": 1
+    },
+    "sfx_btn_spin": {
+      "volume": 1
+    },
+    "sfx_highsymbol_cycle": {
+      "volume": 1
+    },
+    "sfx_highsymbol_win": {
+      "volume": 1
+    },
+    "sfx_l1_cycle": {
+      "volume": 1
+    },
+    "sfx_l1_win": {
+      "volume": 1
+    },
+    "sfx_multimystery_intro": {
+      "volume": 1
+    },
+    "sfx_multimystery_reveal": {
+      "volume": 1
+    },
+    "sfx_multiplier_reveal": {
+      "volume": 1
+    },
+    "sfx_mystery_reveal": {
+      "volume": 1
+    },
+    "sfx_reel_spinning": {
+      "volume": 1
+    },
+    "sfx_reel_stop_1": {
+      "volume": 1
+    },
+    "sfx_reel_stop_2": {
+      "volume": 1
+    },
+    "sfx_reel_stop_3": {
+      "volume": 1
+    },
+    "sfx_reel_stop_4": {
+      "volume": 1
+    },
+    "sfx_reel_stop_5": {
+      "volume": 1
+    },
+    "sfx_retrigger": {
+      "volume": 1
+    },
+    "sfx_wild_cycle": {
+      "volume": 1
+    },
+    "sfx_wild_win": {
+      "volume": 1
+    },
+    "sfx_win_big": {
+      "volume": 1
+    },
+    "sfx_win_epic": {
+      "volume": 1
+    },
+    "sfx_win_max": {
+      "volume": 1
+    },
+    "sfx_win_mega": {
+      "volume": 1
+    },
+    "spr2_amb_loop": {
+      "volume": 1
+    },
+    "spr2_bgm_base_loop": {
+      "volume": 1
+    },
+    "spr2_bgm_bonus_loop": {
+      "volume": 1
+    },
+    "spr2_bgm_totalwin_loop": {
+      "volume": 1
+    },
+    "spr2_bgm_winlevel_loop": {
+      "volume": 1
+    },
+    "spr2_sfx_anticipation_flame": {
+      "volume": 1
+    },
+    "spr2_sfx_banner_fire_loop": {
+      "volume": 1
+    },
+    "spr2_sfx_coins_loop": {
+      "volume": 1
+    },
+    "spr2_sfx_count_loop": {
+      "volume": 1
+    },
+    "spr2_sfx_count_stop": {
+      "volume": 1
+    },
+    "spr2_sfx_fs_count": {
+      "volume": 1
+    },
+    "spr2_sfx_game_enter": {
+      "volume": 1
+    },
+    "spr2_sfx_level_start": {
+      "volume": 1
+    },
+    "spr2_sfx_payout": {
+      "volume": 1
+    },
+    "spr2_sfx_reaper_animation": {
+      "volume": 1
+    },
+    "spr2_sfx_transition": {
+      "volume": 1
+    },
+    "spr2_sfx_transition_sparkles": {
+      "volume": 1
+    },
+    "spr2_sfx_winlevel_end": {
+      "volume": 1
+    },
+    "spr2_sfx_winlevel_final_pop": {
+      "volume": 1
+    },
+    "spr2_sfx_wintext_0": {
+      "volume": 1
+    },
+    "spr2_sfx_wintext_1": {
+      "volume": 1
+    },
+    "spr2_sfx_wintext_2": {
+      "volume": 1
+    },
+    "spr2_sfx_wintext_3": {
+      "volume": 1
+    },
+    "spr2_sfx_wintext_4": {
+      "volume": 1
+    },
+    "spr2_sfx_wintext_big": {
+      "volume": 1
+    }
+  },
+  "bitrate": 96,
+  "channels": 2,
+  "compileTime": "2026-09-15T01:32:40.684Z"
+}

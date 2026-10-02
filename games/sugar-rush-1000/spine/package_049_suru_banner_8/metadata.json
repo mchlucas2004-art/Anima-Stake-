@@ -1,0 +1,218 @@
+{
+  "id": "sugar-rush-1000/package_049_suru_banner_8",
+  "package": "package_049_suru_banner_8",
+  "name": "suru_banner_8",
+  "game": "Sugar Rush 1000",
+  "game_slug": "sugar-rush-1000",
+  "provider": "Pragmatic Play",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "suru_banner_8.json",
+  "skeleton_version": "3.7.91",
+  "category": "ui",
+  "subtypes": [
+    "loop",
+    "entrance",
+    "exit"
+  ],
+  "tags": [
+    "ui",
+    "loop",
+    "entrance",
+    "exit",
+    "suru",
+    "banner"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "ui": 5.3,
+      "effect": 1,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:banner",
+      "anim:banner",
+      "bone:meter",
+      "region:meter"
+    ]
+  },
+  "animations": [
+    "suru_banner_in",
+    "suru_banner_loop",
+    "suru_banner_out"
+  ],
+  "animation_details": [
+    {
+      "name": "suru_banner_in",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 12
+      }
+    },
+    {
+      "name": "suru_banner_loop",
+      "duration": 1.9,
+      "timelines": {
+        "bones": 9
+      }
+    },
+    {
+      "name": "suru_banner_out",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 12
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 13,
+  "slots_count": 1,
+  "bones": [
+    "root",
+    "congratulation",
+    "you have win",
+    "123456789",
+    "credit",
+    "rec",
+    "rec1",
+    "ray",
+    "ray2",
+    "star1",
+    "star2",
+    "star01",
+    "star3"
+  ],
+  "slots": [
+    "meter_shadow"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 1,
+  "attachment_types": {
+    "region": 1
+  },
+  "dimensions": {
+    "width": 814,
+    "height": 240
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "suru_banner_8.png",
+      "atlas": "suru_banner_8.atlas",
+      "file": "suru_banner_8.png",
+      "sha256": "883f13456be48572594a6a96d8053c98403a502e840f7483f98c7c64ced46c78",
+      "format": "png",
+      "width": 816,
+      "height": 240,
+      "atlas_size": [
+        816,
+        240
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "suru_banner_8.atlas",
+      "sha256": "66d6d7a4f3b695d8243b0fa5769243bf16b4f1d91e0f38fe6572b5eafe544849",
+      "format": "spine-3/libgdx",
+      "pages": [
+        "suru_banner_8.png"
+      ],
+      "regions": 1,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 1/1 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [
+    {
+      "raw_path": "raw/_embedded/uht-797585c4e88f/suru_big_win_3.atlas",
+      "sha256": "88d54530ebde919720a0e760e02f46689c7f1aea83869223abcf96f9a50a4fba",
+      "coverage": 1,
+      "evidence": [
+        "regions 1/1 (100% of skeleton)",
+        "loaded 0ms apart"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "suru_banner_8.json",
+      "role": "skeleton",
+      "sha256": "3115e75801bd3ae2a0f24b9b8a0944c6a475657877dfe3aa6b3268bf0d949a2e",
+      "size": 6054,
+      "original_filename": "suru_banner_8.json",
+      "raw_path": "raw/_embedded/uht-6556fd8696ef/suru_banner_8.json",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "6556fd8696ef77f4e9de881801ffedc0"
+      }
+    },
+    {
+      "file": "suru_banner_8.atlas",
+      "role": "atlas",
+      "sha256": "66d6d7a4f3b695d8243b0fa5769243bf16b4f1d91e0f38fe6572b5eafe544849",
+      "size": 186,
+      "original_filename": "suru_banner_8.atlas",
+      "raw_path": "raw/_embedded/uht-6556fd8696ef/suru_banner_8.atlas",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "6556fd8696ef77f4e9de881801ffedc0"
+      }
+    },
+    {
+      "file": "suru_banner_8.png",
+      "role": "texture",
+      "sha256": "883f13456be48572594a6a96d8053c98403a502e840f7483f98c7c64ced46c78",
+      "size": 10851,
+      "original_filename": "suru_banner_8.png",
+      "raw_path": "raw/_embedded/uht-6556fd8696ef/suru_banner_8.png",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "6556fd8696ef77f4e9de881801ffedc0"
+      },
+      "atlas_page": "suru_banner_8.png"
+    }
+  ],
+  "source_urls": [],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": null,
+  "sessions": [],
+  "packaged_at": "2026-10-02T15:45:20.442Z"
+}

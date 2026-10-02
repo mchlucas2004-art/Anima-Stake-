@@ -1,0 +1,27 @@
+
+suru_freegame_1.png
+size: 248,112
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+background_candy_2_shadow1_free
+  rotate: false
+  xy: 0, 9
+  size: 121, 101
+  orig: 121, 101
+  offset: 0, 0
+  index: -1
+choco_drop
+  rotate: true
+  xy: 123, 0
+  size: 15, 54
+  orig: 15, 54
+  offset: 0, 0
+  index: -1
+chocolate_free
+  rotate: false
+  xy: 123, 17
+  size: 122, 93
+  orig: 122, 93
+  offset: 0, 0
+  index: -1

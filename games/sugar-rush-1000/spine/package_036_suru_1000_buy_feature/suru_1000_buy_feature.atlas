@@ -1,0 +1,97 @@
+
+suru_1000_buy_feature.png
+size: 2355,1014
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base_2
+  rotate: true
+  xy: 1759, 30
+  size: 984, 596
+  orig: 985, 598
+  offset: 1, 0
+  index: -1
+base_glow
+  rotate: true
+  xy: 1142, 16
+  size: 998, 615
+  orig: 1000, 618
+  offset: 0, 1
+  index: -1
+base_glow_2
+  rotate: false
+  xy: 0, 255
+  size: 1140, 759
+  orig: 1154, 773
+  offset: 7, 7
+  index: -1
+cross_sing
+  rotate: true
+  xy: 985, 104
+  size: 72, 69
+  orig: 72, 69
+  offset: 0, 0
+  index: -1
+cross_sing_defth_shadow
+  rotate: true
+  xy: 964, 178
+  size: 75, 73
+  orig: 75, 73
+  offset: 0, 0
+  index: -1
+doller_button_light
+  rotate: false
+  xy: 329, 125
+  size: 289, 128
+  orig: 289, 128
+  offset: 0, 0
+  index: -1
+green_base_small
+  rotate: false
+  xy: 795, 8
+  size: 188, 137
+  orig: 188, 137
+  offset: 0, 0
+  index: -1
+green_button_big
+  rotate: false
+  xy: 329, 3
+  size: 231, 120
+  orig: 231, 120
+  offset: 0, 0
+  index: -1
+red_base_small
+  rotate: false
+  xy: 620, 147
+  size: 188, 106
+  orig: 188, 106
+  offset: 0, 0
+  index: -1
+red_button_big
+  rotate: false
+  xy: 562, 3
+  size: 231, 120
+  orig: 231, 120
+  offset: 0, 0
+  index: -1
+right_defth_shadow
+  rotate: true
+  xy: 810, 152
+  size: 101, 77
+  orig: 101, 77
+  offset: 0, 0
+  index: -1
+right_sing
+  rotate: true
+  xy: 889, 156
+  size: 97, 73
+  orig: 97, 73
+  offset: 0, 0
+  index: -1
+sugar
+  rotate: true
+  xy: 0, 0
+  size: 253, 327
+  orig: 253, 327
+  offset: 0, 0
+  index: -1

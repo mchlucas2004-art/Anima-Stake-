@@ -1,0 +1,196 @@
+{
+  "id": "interrogator/package_026_window-croc",
+  "package": "package_026_window-croc",
+  "name": "window-croc",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "window-croc.json",
+  "skeleton_version": "4.2.43",
+  "category": "character",
+  "subtypes": [],
+  "tags": [
+    "character",
+    "window",
+    "croc",
+    "ambient"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "character": 8,
+      "background": 3,
+      "effect": 0.8,
+      "symbol": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:croc",
+      "body-parts:head,tail,eye,pupil"
+    ]
+  },
+  "animations": [
+    "swim"
+  ],
+  "animation_details": [
+    {
+      "name": "swim",
+      "duration": 6.6,
+      "timelines": {
+        "bones": 8,
+        "slots": 4,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 11,
+  "slots_count": 13,
+  "bones": [
+    "root",
+    "head",
+    "snout",
+    "tail_base",
+    "tail_mid",
+    "tail_tip",
+    "water",
+    "eye_far",
+    "eye_far_pupil",
+    "eye_near",
+    "eye_near_pupil"
+  ],
+  "slots": [
+    "wake",
+    "ripple_back",
+    "tail",
+    "head",
+    "eye_far_clip",
+    "eye_far_pupil",
+    "eye_far_upper",
+    "eye_far_lower",
+    "eye_near_clip",
+    "eye_near_pupil",
+    "eye_near_upper",
+    "eye_near_lower",
+    "ripple_front"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 13,
+  "attachment_types": {
+    "clipping": 2,
+    "mesh": 11
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "window-croc.png",
+      "atlas": "window-croc.atlas",
+      "file": "window-croc.png",
+      "sha256": "cffac958e690f422174a25be995524ce3609606adb8c604c39714d39fa23dbb4",
+      "format": "png",
+      "width": 1248,
+      "height": 468,
+      "atlas_size": [
+        1248,
+        468
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "window-croc.atlas",
+      "sha256": "a0a1b2a34fa46fa52902bc54bf6fef901de889f172b42bc59fd7e0535928d195",
+      "format": "spine-4",
+      "pages": [
+        "window-croc.png"
+      ],
+      "regions": 8,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 135,
+      "evidence": [
+        "regions 8/8 (100% of skeleton)",
+        "same base name",
+        "same folder"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "window-croc.json",
+      "role": "skeleton",
+      "sha256": "67f2312387d72d64cac53b62f90b496c16e37e8ff6f52aff14330d9da54c263f",
+      "size": 109072,
+      "original_filename": "window-croc.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.json"
+      ]
+    },
+    {
+      "file": "window-croc.atlas",
+      "role": "atlas",
+      "sha256": "a0a1b2a34fa46fa52902bc54bf6fef901de889f172b42bc59fd7e0535928d195",
+      "size": 305,
+      "original_filename": "window-croc.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.atlas"
+      ]
+    },
+    {
+      "file": "window-croc.png",
+      "role": "texture",
+      "sha256": "cffac958e690f422174a25be995524ce3609606adb8c604c39714d39fa23dbb4",
+      "size": 646483,
+      "original_filename": "window-croc.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.png"
+      ],
+      "atlas_page": "window-croc.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/window-croc/window-croc.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:25:46.587Z",
+  "sessions": [
+    "2026-10-02T15:25:45.823Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

@@ -1,0 +1,290 @@
+{
+  "id": "interrogator/package_019_glorious_win",
+  "package": "package_019_glorious_win",
+  "name": "glorious_win",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "glorious_win.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win"
+  ],
+  "tags": [
+    "effect",
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win",
+    "glorious",
+    "popups",
+    "gloriouswin"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "effect": 11.1,
+      "ui": 1.3,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:gloriouswin",
+      "bone:glow",
+      "bone:bubble",
+      "bone:gloriouswin",
+      "region:glow",
+      "region:bubble",
+      "win-celebration:gloriouswin"
+    ]
+  },
+  "animations": [
+    "in",
+    "loop",
+    "out"
+  ],
+  "animation_details": [
+    {
+      "name": "in",
+      "duration": 2,
+      "timelines": {
+        "bones": 34,
+        "slots": 16,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 32,
+        "slots": 11
+      }
+    },
+    {
+      "name": "out",
+      "duration": 1,
+      "timelines": {
+        "bones": 34,
+        "slots": 17,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 38,
+  "slots_count": 44,
+  "bones": [
+    "root",
+    "glorious_win",
+    "elements",
+    "text",
+    "g",
+    "i_1",
+    "i_2",
+    "l",
+    "n",
+    "o_1",
+    "o_2",
+    "r",
+    "s",
+    "u",
+    "w",
+    "magnifying_glass",
+    "handcuffs",
+    "badge",
+    "folder",
+    "doc_1",
+    "doc_2",
+    "doc_3",
+    "slime_1",
+    "slime_2",
+    "slime_3",
+    "slime_4",
+    "slime_5",
+    "bottle",
+    "frame",
+    "chain",
+    "handcuffs2",
+    "handcuffs3",
+    "bubble_1",
+    "bubble_2",
+    "bubble_3",
+    "bubble_4",
+    "bubble_5",
+    "glow_add"
+  ],
+  "slots": [
+    "back",
+    "glow_add",
+    "doc_1",
+    "doc_1_add",
+    "doc_2",
+    "doc_2_add",
+    "folder",
+    "folder_add",
+    "chain",
+    "bottle",
+    "doc_3",
+    "doc_3_add",
+    "magnifying_glass",
+    "magnifying_glass_add",
+    "frame",
+    "frame_add",
+    "badge",
+    "badge_add",
+    "handcuffs",
+    "handcuffs_add",
+    "slime_5",
+    "slime_1",
+    "slime_3",
+    "slime_2",
+    "slime_4",
+    "n",
+    "n_add",
+    "i_2",
+    "i_2_add",
+    "w",
+    "w_add",
+    "s",
+    "u",
+    "o_2",
+    "i_1",
+    "r",
+    "o_1",
+    "l",
+    "g",
+    "bubble_1",
+    "bubble_2",
+    "bubble_3",
+    "bubble_4",
+    "bubble_5"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 43,
+  "attachment_types": {
+    "region": 39,
+    "mesh": 4
+  },
+  "dimensions": {
+    "width": 742,
+    "height": 685.14
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "glorious_win.png",
+      "atlas": "glorious_win.atlas",
+      "file": "glorious_win.png",
+      "sha256": "11d6ae6600d4a5a4d66b26b7be13eb58d35c62949b941c937cfefc182f93b07d",
+      "format": "png",
+      "width": 2048,
+      "height": 1024,
+      "atlas_size": [
+        2048,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "glorious_win.atlas",
+      "sha256": "d2b5cb6ca9726cdbd0314f44393c34686690d981aff16ad1514391d8d50fbf4f",
+      "format": "spine-4",
+      "pages": [
+        "glorious_win.png"
+      ],
+      "regions": 32,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 32/32 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "glorious_win.json",
+      "role": "skeleton",
+      "sha256": "6527d4207cdd4e20e2e6c75999b7e40941450c2dfc0622139518c5584fbfc4dd",
+      "size": 56739,
+      "original_filename": "glorious_win.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.json"
+      ]
+    },
+    {
+      "file": "glorious_win.atlas",
+      "role": "atlas",
+      "sha256": "d2b5cb6ca9726cdbd0314f44393c34686690d981aff16ad1514391d8d50fbf4f",
+      "size": 1654,
+      "original_filename": "glorious_win.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.atlas"
+      ]
+    },
+    {
+      "file": "glorious_win.png",
+      "role": "texture",
+      "sha256": "11d6ae6600d4a5a4d66b26b7be13eb58d35c62949b941c937cfefc182f93b07d",
+      "size": 1716953,
+      "original_filename": "glorious_win.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.png"
+      ],
+      "atlas_page": "glorious_win.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:41.197Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

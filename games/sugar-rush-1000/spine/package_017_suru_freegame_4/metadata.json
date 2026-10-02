@@ -1,0 +1,174 @@
+{
+  "id": "sugar-rush-1000/package_017_suru_freegame_4",
+  "package": "package_017_suru_freegame_4",
+  "name": "suru_freegame_4",
+  "game": "Sugar Rush 1000",
+  "game_slug": "sugar-rush-1000",
+  "provider": "Pragmatic Play",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "suru_freegame_4.json",
+  "skeleton_version": "3.7.91",
+  "category": "background",
+  "subtypes": [],
+  "tags": [
+    "background",
+    "suru",
+    "freegame"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "background": 4.5,
+      "ui": 0.8,
+      "character": 0,
+      "symbol": 0,
+      "effect": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:freegame",
+      "anim:freegame"
+    ]
+  },
+  "animations": [
+    "suru_freegame"
+  ],
+  "animation_details": [
+    {
+      "name": "suru_freegame",
+      "duration": 3,
+      "timelines": {
+        "bones": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 3,
+  "slots_count": 2,
+  "bones": [
+    "root",
+    "left_frame2",
+    "fan_left2"
+  ],
+  "slots": [
+    "left_frame2",
+    "jar_glass2"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 2,
+  "attachment_types": {
+    "region": 2
+  },
+  "dimensions": {
+    "width": 148,
+    "height": 527
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "suru_freegame_4.png",
+      "atlas": "suru_freegame_4.atlas",
+      "file": "suru_freegame_4.png",
+      "sha256": "427530f8a85647ccc8b369af24b726607d10a320821be9fc3025c8a97578e056",
+      "format": "png",
+      "width": 616,
+      "height": 208,
+      "atlas_size": [
+        616,
+        208
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "suru_freegame_4.atlas",
+      "sha256": "912d9b3f72e81ae97ff53b0809c54f8db8015499de62691bfd64a6605ce95253",
+      "format": "spine-3/libgdx",
+      "pages": [
+        "suru_freegame_4.png"
+      ],
+      "regions": 2,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 2/2 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "suru_freegame_4.json",
+      "role": "skeleton",
+      "sha256": "2976bcd6083f7f22344910fbbf0eb2b8461c9e55f308ca781df5e47eb0d3df2c",
+      "size": 996,
+      "original_filename": "suru_freegame_4.json",
+      "raw_path": "raw/_embedded/uht-56850f72d64e/suru_freegame_4.json",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "56850f72d64e88e429b82809f5a07e3b"
+      }
+    },
+    {
+      "file": "suru_freegame_4.atlas",
+      "role": "atlas",
+      "sha256": "912d9b3f72e81ae97ff53b0809c54f8db8015499de62691bfd64a6605ce95253",
+      "size": 294,
+      "original_filename": "suru_freegame_4.atlas",
+      "raw_path": "raw/_embedded/uht-56850f72d64e/suru_freegame_4.atlas",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "56850f72d64e88e429b82809f5a07e3b"
+      }
+    },
+    {
+      "file": "suru_freegame_4.png",
+      "role": "texture",
+      "sha256": "427530f8a85647ccc8b369af24b726607d10a320821be9fc3025c8a97578e056",
+      "size": 53114,
+      "original_filename": "suru_freegame_4.png",
+      "raw_path": "raw/_embedded/uht-56850f72d64e/suru_freegame_4.png",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "56850f72d64e88e429b82809f5a07e3b"
+      },
+      "atlas_page": "suru_freegame_4.png"
+    }
+  ],
+  "source_urls": [],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": null,
+  "sessions": [],
+  "packaged_at": "2026-10-02T15:45:20.442Z"
+}

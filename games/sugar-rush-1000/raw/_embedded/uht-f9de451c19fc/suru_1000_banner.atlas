@@ -1,0 +1,27 @@
+
+suru_1000_banner.png
+size: 2504,2004
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+colour_effect_2_n
+  rotate: false
+  xy: 2, 1003
+  size: 2500, 999
+  orig: 2500, 999
+  offset: 0, 0
+  index: -1
+colour_effect_3_n
+  rotate: false
+  xy: 2, 2
+  size: 2123, 999
+  orig: 2123, 999
+  offset: 0, 0
+  index: -1
+particals
+  rotate: false
+  xy: 2127, 623
+  size: 322, 378
+  orig: 322, 378
+  offset: 0, 0
+  index: -1

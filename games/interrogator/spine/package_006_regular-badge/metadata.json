@@ -1,0 +1,202 @@
+{
+  "id": "interrogator/package_006_regular-badge",
+  "package": "package_006_regular-badge",
+  "name": "regular-badge",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "regular-badge.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "win",
+    "land",
+    "symbol_win"
+  ],
+  "tags": [
+    "symbol",
+    "win",
+    "land",
+    "symbol_win",
+    "regular",
+    "badge",
+    "symbols"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "symbol": 5,
+      "effect": 0.8,
+      "character": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:symbols",
+      "anims:land+win"
+    ]
+  },
+  "animations": [
+    "land",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 5,
+        "events": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.3,
+      "timelines": {
+        "bones": 6,
+        "slots": 1,
+        "events": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [
+    "badge_slam",
+    "land",
+    "win_impact"
+  ],
+  "bones_count": 7,
+  "slots_count": 3,
+  "bones": [
+    "root",
+    "sway",
+    "plate_top",
+    "plate_bottom",
+    "star",
+    "star_tip",
+    "star_shadow"
+  ],
+  "slots": [
+    "shield",
+    "star_shadow",
+    "star"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 3,
+  "attachment_types": {
+    "mesh": 3
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "regular-badge.png",
+      "atlas": "regular-badge.atlas",
+      "file": "regular-badge.png",
+      "sha256": "84a1ba40f51dda5ef35eeaa7daa3fc36ee999bb3ed2806b91495d059dd65887b",
+      "format": "png",
+      "width": 1374,
+      "height": 658,
+      "atlas_size": [
+        1374,
+        658
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "regular-badge.atlas",
+      "sha256": "52a8350db79b09c8428729f85d0ecd3b88656763d3779a7fef840de057441c61",
+      "format": "spine-4",
+      "pages": [
+        "regular-badge.png"
+      ],
+      "regions": 2,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 2/2 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "regular-badge.json",
+      "role": "skeleton",
+      "sha256": "080e194d4b5cf3a4569ba86ac88ccc5ef2e1fbffe5be70af1c0e38ee56006521",
+      "size": 116234,
+      "original_filename": "regular-badge.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.json"
+      ]
+    },
+    {
+      "file": "regular-badge.atlas",
+      "role": "atlas",
+      "sha256": "52a8350db79b09c8428729f85d0ecd3b88656763d3779a7fef840de057441c61",
+      "size": 147,
+      "original_filename": "regular-badge.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.atlas"
+      ]
+    },
+    {
+      "file": "regular-badge.png",
+      "role": "texture",
+      "sha256": "84a1ba40f51dda5ef35eeaa7daa3fc36ee999bb3ed2806b91495d059dd65887b",
+      "size": 949109,
+      "original_filename": "regular-badge.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.png"
+      ],
+      "atlas_page": "regular-badge.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:35.517Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

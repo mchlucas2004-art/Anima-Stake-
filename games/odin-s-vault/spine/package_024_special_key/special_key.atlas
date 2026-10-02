@@ -1,0 +1,16 @@
+special_key.webp
+size:256,256
+filter:Linear,Linear
+Glow_03_key
+bounds:0,112,128,144
+Shadow_1_key
+bounds:0,0,97,108
+Shadow_2_key
+bounds:101,6,92,102
+key_1_key
+bounds:197,107,36,38
+offsets:0,0,36,39
+key_key
+bounds:132,149,91,107
+raven_eyes_key
+bounds:227,235,24,21

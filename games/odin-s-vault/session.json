@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "session_id": "2026-10-02T20:14:52.074Z",
+  "game": "Odin's-Vault",
+  "entry": {
+    "name": "Odin's-Vault",
+    "provider": null
+  },
+  "updated_at": "2026-10-02T20:15:02.979Z",
+  "session": {
+    "id": "2026-10-02T20:14:52.074Z",
+    "started_at": "2026-10-02T20:14:52.074Z",
+    "ended_at": "2026-10-02T20:15:02.798Z",
+    "stop_reason": "har_import",
+    "mode": "har",
+    "source_file": "Odin's-Vault.har",
+    "counters": {
+      "requests": 1226,
+      "finished": 1226,
+      "failed": 0,
+      "candidates": 248,
+      "images": 156,
+      "json": 58,
+      "atlases": 34,
+      "skeletons": 47,
+      "newSkeletons": 47,
+      "bytes": 31367494,
+      "errors": 0,
+      "probes": 0
+    }
+  }
+}

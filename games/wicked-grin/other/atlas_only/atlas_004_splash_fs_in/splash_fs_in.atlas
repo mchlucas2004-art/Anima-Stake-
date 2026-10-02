@@ -1,0 +1,33 @@
+splash_fs_in.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+bonus_one
+  rotate: false
+  xy: 984, 1845
+  size: 967, 129
+  orig: 967, 129
+  offset: 0, 0
+  index: -1
+bonus_two
+  rotate: false
+  xy: 1, 1845
+  size: 981, 156
+  orig: 981, 156
+  offset: 0, 0
+  index: -1
+curtain_left
+  rotate: false
+  xy: 1, 1
+  size: 706, 1842
+  orig: 706, 1842
+  offset: 0, 0
+  index: -1
+curtain_right
+  rotate: false
+  xy: 709, 1
+  size: 706, 1842
+  orig: 706, 1842
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,610 @@
+{
+  "id": "spin-reaper-winsafe/package_011_rain-ship",
+  "package": "package_011_rain-ship",
+  "name": "rain-ship",
+  "game": "Spin-reaper-winsafe",
+  "game_slug": "spin-reaper-winsafe",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "RAIN-ship.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "loop",
+    "land"
+  ],
+  "tags": [
+    "effect",
+    "loop",
+    "land",
+    "rain",
+    "ship"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "effect": 3.6,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:rain",
+      "region:fx",
+      "region:glow"
+    ]
+  },
+  "animations": [
+    "drop",
+    "loop"
+  ],
+  "animation_details": [
+    {
+      "name": "drop",
+      "duration": 0.133,
+      "timelines": {
+        "bones": 1,
+        "slots": 6
+      }
+    },
+    {
+      "name": "loop",
+      "duration": 0.5,
+      "timelines": {
+        "slots": 6
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 3,
+  "slots_count": 8,
+  "bones": [
+    "root",
+    "SS",
+    "starship-bot"
+  ],
+  "slots": [
+    "starship-bot",
+    "starship",
+    "starship-light",
+    "starship-light4",
+    "starship-light2",
+    "starship-light5",
+    "starship-light3",
+    "starship-light6"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 8,
+  "attachment_types": {
+    "region": 4,
+    "mesh": 4
+  },
+  "dimensions": {
+    "width": 1018,
+    "height": 467
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER.png",
+      "sha256": "0cbe40a4a61e7b9cf748db7bc358993c970dbef02efa36b30c1e01866c2804c2",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_2.png",
+      "sha256": "4499c1927c2ea8178246bb973be0c45d4ffc51f0f880a1685af9cfdfaef3bc82",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_3.png",
+      "sha256": "ae55ed7c633224b8b4395216c8293fabcfffac15b0abe8054bb30eae52a43eca",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_4.png",
+      "sha256": "56ff916a5d2f28485d93b75a541f44ec7a6e42ade3e956b0b81bb86d9f1b6692",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_5.png",
+      "sha256": "4e3891198aefb9e944e3a8a807f1c8db0d257ac80fb61b26363bf8b1b0183f36",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_6.png",
+      "sha256": "bf45c575bcd3709d9502e2d3e4dfa7112fd4711bb750f3d12eba73bedf1abf34",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_7.png",
+      "sha256": "650088675d365e154e7358d712093b0ec2f3676811d7da881fa2c99c626f5e60",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_8.png",
+      "sha256": "e9b94a98f274adbac06d6d4c60729b79516ab54617165beaa55c23c19bd2c5c2",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_9.png",
+      "sha256": "2b528060ac1fdc7ace229a4c4e56bade799a399a4c94d35bfc2b736f0b2ed06d",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_10.png",
+      "sha256": "3d248c95328d35dbcda930de0882323cb93d9200cb07b3960af04556b99ba1ab",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_11.png",
+      "sha256": "94cdf9c095169b0bcf7eb87f1f70066e230686ab034f53deb204efc1162ddb07",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_12.png",
+      "sha256": "48ddd70b7ced3c917adc73eebc1894575daef686b0cdb3bdf129e7ace8dbf4ba",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "atlas": "RAGE-QUIT-2-MASTER.atlas",
+      "file": "RAGE-QUIT-2-MASTER_13.png",
+      "sha256": "26a654243d518f65214f04a83099236703fb2ac1ca7ea0edb77806398c951627",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "RAGE-QUIT-2-MASTER.atlas",
+      "sha256": "23b89430827183acd0418f649ac5e03b193483ff19e6101085e508a7c026ebdd",
+      "format": "spine-4",
+      "pages": [
+        "RAGE-QUIT-2-MASTER.ktx2",
+        "RAGE-QUIT-2-MASTER_2.ktx2",
+        "RAGE-QUIT-2-MASTER_3.ktx2",
+        "RAGE-QUIT-2-MASTER_4.ktx2",
+        "RAGE-QUIT-2-MASTER_5.ktx2",
+        "RAGE-QUIT-2-MASTER_6.ktx2",
+        "RAGE-QUIT-2-MASTER_7.ktx2",
+        "RAGE-QUIT-2-MASTER_8.ktx2",
+        "RAGE-QUIT-2-MASTER_9.ktx2",
+        "RAGE-QUIT-2-MASTER_10.ktx2",
+        "RAGE-QUIT-2-MASTER_11.ktx2",
+        "RAGE-QUIT-2-MASTER_12.ktx2",
+        "RAGE-QUIT-2-MASTER_13.ktx2"
+      ],
+      "regions": 524,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 115,
+      "evidence": [
+        "regions 4/4 (100% of skeleton)",
+        "same folder",
+        "loaded 6ms apart"
+      ],
+      "shared_with": [
+        "package_002_background",
+        "package_003_frame",
+        "package_004_wheel",
+        "package_005_symbols",
+        "package_006_character",
+        "package_007_cutscene-bonus",
+        "package_008_free-spin",
+        "package_009_logo",
+        "package_010_cutscene-win",
+        "package_012_rain-trail",
+        "package_013_rain-explosion",
+        "package_014_anticipation",
+        "package_015_win"
+      ]
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "RAIN-ship.json",
+      "role": "skeleton",
+      "sha256": "a716e035331326bdafc2a67ba6ae7e2325175dd4a411123634b169055e663771",
+      "size": 5658,
+      "original_filename": "RAIN-ship.json",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAIN-ship.json",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAIN-ship.json"
+      ]
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER.atlas",
+      "role": "atlas",
+      "sha256": "23b89430827183acd0418f649ac5e03b193483ff19e6101085e508a7c026ebdd",
+      "size": 30946,
+      "original_filename": "RAGE-QUIT-2-MASTER.atlas",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER.atlas",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER.atlas"
+      ]
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER.png",
+      "role": "texture",
+      "sha256": "0cbe40a4a61e7b9cf748db7bc358993c970dbef02efa36b30c1e01866c2804c2",
+      "size": 2672900,
+      "original_filename": "RAGE-QUIT-2-MASTER.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_2.png",
+      "role": "texture",
+      "sha256": "4499c1927c2ea8178246bb973be0c45d4ffc51f0f880a1685af9cfdfaef3bc82",
+      "size": 2238412,
+      "original_filename": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_2.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_2.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_2.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_3.png",
+      "role": "texture",
+      "sha256": "ae55ed7c633224b8b4395216c8293fabcfffac15b0abe8054bb30eae52a43eca",
+      "size": 1840138,
+      "original_filename": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_3.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_3.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_3.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_4.png",
+      "role": "texture",
+      "sha256": "56ff916a5d2f28485d93b75a541f44ec7a6e42ade3e956b0b81bb86d9f1b6692",
+      "size": 1881664,
+      "original_filename": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_4.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_4.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_4.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_5.png",
+      "role": "texture",
+      "sha256": "4e3891198aefb9e944e3a8a807f1c8db0d257ac80fb61b26363bf8b1b0183f36",
+      "size": 2128580,
+      "original_filename": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_5.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_5.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_5.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_6.png",
+      "role": "texture",
+      "sha256": "bf45c575bcd3709d9502e2d3e4dfa7112fd4711bb750f3d12eba73bedf1abf34",
+      "size": 3318331,
+      "original_filename": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_6.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_6.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_6.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_7.png",
+      "role": "texture",
+      "sha256": "650088675d365e154e7358d712093b0ec2f3676811d7da881fa2c99c626f5e60",
+      "size": 2089236,
+      "original_filename": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_7.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_7.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_7.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_8.png",
+      "role": "texture",
+      "sha256": "e9b94a98f274adbac06d6d4c60729b79516ab54617165beaa55c23c19bd2c5c2",
+      "size": 1838248,
+      "original_filename": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_8.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_8.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_8.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_9.png",
+      "role": "texture",
+      "sha256": "2b528060ac1fdc7ace229a4c4e56bade799a399a4c94d35bfc2b736f0b2ed06d",
+      "size": 1948172,
+      "original_filename": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_9.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_9.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_9.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_10.png",
+      "role": "texture",
+      "sha256": "3d248c95328d35dbcda930de0882323cb93d9200cb07b3960af04556b99ba1ab",
+      "size": 1609817,
+      "original_filename": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_10.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_10.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_10.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_11.png",
+      "role": "texture",
+      "sha256": "94cdf9c095169b0bcf7eb87f1f70066e230686ab034f53deb204efc1162ddb07",
+      "size": 2017059,
+      "original_filename": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_11.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_11.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_11.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_12.png",
+      "role": "texture",
+      "sha256": "48ddd70b7ced3c917adc73eebc1894575daef686b0cdb3bdf129e7ace8dbf4ba",
+      "size": 2051343,
+      "original_filename": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_12.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_12.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_12.ktx2"
+    },
+    {
+      "file": "RAGE-QUIT-2-MASTER_13.png",
+      "role": "texture",
+      "sha256": "26a654243d518f65214f04a83099236703fb2ac1ca7ea0edb77806398c951627",
+      "size": 2341092,
+      "original_filename": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "raw_path": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_13.ktx2",
+      "source_urls": [
+        "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_13.ktx2"
+      ],
+      "atlas_page": "RAGE-QUIT-2-MASTER_13.ktx2"
+    }
+  ],
+  "source_urls": [
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAIN-ship.json",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER.atlas",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_2.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_3.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_4.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_5.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_6.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_7.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_8.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_9.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_10.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_11.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_12.ktx2",
+    "https://meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_13.ktx2"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "13/13",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [
+    "atlas page \"RAGE-QUIT-2-MASTER.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_2.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_2.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_3.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_3.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_4.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_4.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_5.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_5.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_6.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_6.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_7.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_7.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_8.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_8.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_9.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_9.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_10.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_10.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_11.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_11.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_12.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_12.png (rename may be needed)",
+    "atlas page \"RAGE-QUIT-2-MASTER_13.ktx2\" served as KTX2, decoded to RAGE-QUIT-2-MASTER_13.png (rename may be needed)",
+    "atlas rewritten to use the decoded PNG pages (original kept as RAGE-QUIT-2-MASTER.atlas.original)"
+  ],
+  "shared_atlas_with": [
+    "package_002_background",
+    "package_003_frame",
+    "package_004_wheel",
+    "package_005_symbols",
+    "package_006_character",
+    "package_007_cutscene-bonus",
+    "package_008_free-spin",
+    "package_009_logo",
+    "package_010_cutscene-win",
+    "package_012_rain-trail",
+    "package_013_rain-explosion",
+    "package_014_anticipation",
+    "package_015_win"
+  ],
+  "detected_at": "2026-10-02T20:05:49.616Z",
+  "sessions": [
+    "2026-10-02T20:15:11.265Z"
+  ],
+  "packaged_at": "2026-10-02T20:48:22.950Z"
+}

@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test animation · création</title>
+<script src="https://cdn.jsdelivr.net/npm/@esotericsoftware/spine-webgl@4.2.120/dist/iife/spine-webgl.js"></script>
+<style>
+  :root { --panel: #15121d; --line: #2c2738; --fg: #ece8f6; --muted: #9a93ad; --accent: #ff8a2a; --accent2: #a46bff; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: #0c0a12; color: var(--fg); font: 13px/1.4 -apple-system, system-ui, sans-serif; }
+  .app { display: grid; grid-template-columns: 1fr 330px; height: 100%; }
+  .stage { position: relative; min-width: 0; }
+  canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  .bg-dark .stage { background: radial-gradient(ellipse at 50% 45%, #2a2140, #0d0a14 70%); }
+  .bg-black .stage { background: #000; }
+  .bg-white .stage { background: #fff; }
+  .bg-reel .stage { background: linear-gradient(180deg, #3b1d55, #1a0e2a); }
+  .bg-reel .stage::before { content: ''; position: absolute; inset: 8% 18%; border: 3px solid #ffb34a55; border-radius: 18px; background: repeating-linear-gradient(90deg, transparent 0 calc(20% - 1px), #ffffff10 calc(20% - 1px) 20%); }
+  #now { position: absolute; left: 16px; top: 14px; font: 600 15px system-ui; color: #fff; text-shadow: 0 1px 3px #000; }
+  #events { position: absolute; left: 16px; bottom: 14px; display: flex; flex-direction: column-reverse; gap: 4px; pointer-events: none; }
+  .ev { font: 600 12px ui-monospace, Menlo, monospace; background: #ff8a2acc; color: #1a0b00; padding: 3px 8px; border-radius: 6px; animation: fade 1.6s forwards; width: max-content; }
+  @keyframes fade { 0%, 60% { opacity: 1; } 100% { opacity: 0; transform: translateY(-6px); } }
+  aside { background: var(--panel); border-left: 1px solid var(--line); overflow: auto; padding: 14px; display: flex; flex-direction: column; gap: 14px; }
+  h1 { margin: 0; font-size: 17px; }
+  .sub { color: var(--muted); font-size: 12px; margin-top: -8px; }
+  .group { display: grid; gap: 6px; }
+  .group > b { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+  .row { display: flex; flex-wrap: wrap; gap: 6px; }
+  button { font: 600 12px system-ui; color: var(--fg); background: #211c2c; border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; cursor: pointer; }
+  button:hover { border-color: #4b4362; }
+  button.on { border-color: var(--accent); color: #fff; background: #2d1d14; }
+  button.seq { border-color: #4a3470; }
+  button.seq.on { border-color: var(--accent2); background: #241a38; }
+  .anim { display: flex; justify-content: space-between; gap: 8px; }
+  .anim small { color: var(--muted); font-weight: 400; }
+  label { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 12px; }
+  input[type=range] { width: 100%; }
+  .kv { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 12px; }
+  .kv span:nth-child(odd) { color: var(--muted); }
+  .note { font-size: 12px; color: var(--muted); background: #1b1726; border: 1px solid var(--line); border-radius: 8px; padding: 8px; }
+  @media (max-width: 900px) { .app { grid-template-columns: 1fr; grid-template-rows: 58vh 1fr; } aside { border-left: 0; border-top: 1px solid var(--line); } }
+</style>
+</head>
+<body class="bg-dark">
+<div class="app">
+  <div class="stage"><canvas id="c"></canvas><div id="now"></div><div id="events"></div></div>
+  <aside>
+    <div><h1 id="title">…</h1></div>
+    <div class="sub" id="sub"></div>
+    <div class="group"><b>Séquences (comme en jeu)</b>
+      <div class="row" id="seqs"></div>
+    </div>
+    <div class="group"><b>Animations</b><div class="group" id="anims"></div></div>
+    <div class="group"><b>Piste 2 (en parallèle)</b>
+      <label><input type="checkbox" id="eyes" checked> idle_eyes (flamme de la bougie) pendant idle</label>
+    </div>
+    <div class="group"><b>Affichage</b>
+      <div class="row">
+        <button data-bg="dark" class="on">Nuit</button><button data-bg="reel">Rouleau</button><button data-bg="black">Noir</button><button data-bg="white">Blanc</button>
+      </div>
+      <label>Vitesse <input type="range" id="speed" min="0.1" max="2" step="0.05" value="1"></label>
+      <label>Taille <input type="range" id="zoom" min="0.4" max="1.6" step="0.05" value="1"></label>
+      <label><input type="checkbox" id="debug"> Squelette (os)</label>
+      <label><input type="checkbox" id="pause"> Pause</label>
+    </div>
+    <div class="group"><b>Squelette</b><div class="kv" id="info"></div></div>
+    <div class="note" id="usage"></div>
+  </aside>
+</div>
+<script>
+'use strict';
+const id = decodeURIComponent(location.hash.slice(1) || 'creations/halloween_scatter');
+const canvas = document.getElementById('c');
+const ctx = new spine.ManagedWebGLRenderingContext(canvas, { alpha: true });
+const renderer = new spine.SceneRenderer(canvas, ctx, true);
+const assets = new spine.AssetManager(ctx);
+let item, skeleton, state, data, bounds, speed = 1, zoom = 1, debug = false, paused = false, seqToken = 0;
+const LABELS = {
+  intro: 'Arrivée', idle: 'Attente (boucle)', idle_eyes: 'Bougie (piste 2)', land: 'Atterrissage sur le rouleau', anticipation: 'Teasing : début',
+  anticipation_idle: 'Teasing (boucle)', anticipation_end: 'Teasing : fin', win: 'Gain', trigger: 'Déclenchement free spins', outro: 'Départ', exit: 'Disparition (cascade)',
+};
+const LOOPS = new Set(['idle', 'idle_eyes', 'anticipation_idle']);
+const LOOP_IF_NO_IDLE = new Set(['anticipation']);
+const SEQS = {
+  'Scénario complet': ['intro', ['idle', 2], 'land', ['idle', 1], 'anticipation', ['anticipation_idle', 2], 'anticipation_end', 'win', ['idle', 1], 'trigger', 'outro'],
+  'Arrivée → attente': ['intro', ['idle', 3]],
+  'Tombe sur le rouleau': ['land', ['idle', 2]],
+  'Teasing (3e scatter ?)': ['anticipation', ['anticipation_idle', 3], 'anticipation_end', ['idle', 1]],
+  'Gain': ['win', ['idle', 2]],
+  'Free spins': ['trigger', 'outro'],
+  'Symbole : cascade': ['land', ['idle', 2], 'win', ['idle', 1], 'exit'],
+  'Symbole : teasing': ['land', ['anticipation', 3], 'win', ['idle', 1]],
+};
+
+function evToast(name) {
+  const d = document.createElement('div');
+  d.className = 'ev';
+  d.textContent = `⚡ event « ${name} »`;
+  document.getElementById('events').prepend(d);
+  setTimeout(() => d.remove(), 1700);
+}
+
+// Like a game: animations are mixed (crossfade) instead of snapping back to the setup pose,
+// so nothing jumps when going intro -> idle -> land ...
+const MIX = 0.18;
+function play(name, loop) {
+  const e = state.setAnimation(0, name, loop || (LOOP_IF_NO_IDLE.has(name) && !data.findAnimation('anticipation_idle')));
+  e.mixDuration = name === 'intro' ? 0 : MIX;
+  if (name === 'idle' && data.findAnimation('idle_eyes') && document.getElementById('eyes').checked) { if (!state.getCurrent(1)) state.setAnimation(1, 'idle_eyes', true).mixDuration = MIX; }
+  else if (state.getCurrent(1)) state.setEmptyAnimation(1, MIX);
+  document.getElementById('now').textContent = `${name}${loop ? ' (boucle)' : ''} — ${LABELS[name] || ''}`;
+  document.querySelectorAll('[data-anim]').forEach((b) => b.classList.toggle('on', b.dataset.anim === name));
+  return e;
+}
+
+function wait(entry, loops = 1) {
+  return new Promise((ok) => {
+    let n = 0;
+    entry.listener = { complete: () => { if (++n >= loops) ok(); } };
+  });
+}
+
+async function runSeq(name) {
+  const token = ++seqToken;
+  document.querySelectorAll('[data-seq]').forEach((b) => b.classList.toggle('on', b.dataset.seq === name));
+  for (const step of SEQS[name]) {
+    const [anim, loops] = Array.isArray(step) ? step : [step, 1];
+    if (token !== seqToken) return;
+    const e = play(anim, LOOPS.has(anim));
+    await wait(e, loops);
+  }
+  if (token !== seqToken) return;
+  if (name === 'Scénario complet' || name === 'Free spins') { await new Promise((ok) => setTimeout(ok, 700)); if (token === seqToken) runSeq(name); }
+  else play('idle', true);
+}
+
+function computeBounds() {
+  // frame the symbol at rest (setup pose) with room around it for the effects that fly out
+  const off = new spine.Vector2(), size = new spine.Vector2();
+  skeleton.setToSetupPose(); state.clearTracks();
+  skeleton.updateWorldTransform(spine.Physics.reset);
+  skeleton.getBounds(off, size, []);
+  return { x: off.x + size.x / 2, y: off.y + size.y / 2, w: size.x * 1.12, h: size.y * 1.22 };
+}
+
+let last = performance.now();
+function frame(now) {
+  const dt = Math.min(0.05, (now - last) / 1000);
+  last = now;
+  const r = canvas.getBoundingClientRect();
+  const dpr = Math.min(2, devicePixelRatio || 1);
+  if (canvas.width !== Math.round(r.width * dpr) || canvas.height !== Math.round(r.height * dpr)) {
+    canvas.width = Math.round(r.width * dpr); canvas.height = Math.round(r.height * dpr);
+  }
+  ctx.gl.viewport(0, 0, canvas.width, canvas.height);
+  ctx.gl.clearColor(0, 0, 0, 0); ctx.gl.clear(ctx.gl.COLOR_BUFFER_BIT);
+  if (!paused) state.update(dt * speed);
+  state.apply(skeleton);
+  skeleton.update(dt * speed);
+  skeleton.updateWorldTransform(spine.Physics.update);
+  const fit = Math.max(bounds.w / canvas.width, bounds.h / canvas.height) / zoom;
+  renderer.camera.position.x = bounds.x; renderer.camera.position.y = bounds.y;
+  renderer.camera.viewportWidth = canvas.width * fit; renderer.camera.viewportHeight = canvas.height * fit;
+  renderer.begin();
+  renderer.drawSkeleton(skeleton, false);
+  if (debug) renderer.drawSkeletonDebug(skeleton, false, ['root']);
+  renderer.end();
+  requestAnimationFrame(frame);
+}
+
+(async () => {
+  const cat = await (await fetch('/api/catalog')).json();
+  item = cat.find((x) => x.id === id) || cat.find((x) => x.source === 'creation');
+  document.getElementById('title').textContent = item.name.replace(/_/g, ' ');
+  document.getElementById('sub').textContent = `${item.game} · Spine ${item.version} · ${item.folder}`;
+  assets.loadTextureAtlas(item.atlas);
+  assets.loadJson(item.skeleton);
+  await new Promise((ok) => { const t = setInterval(() => { if (assets.isLoadingComplete()) { clearInterval(t); ok(); } }, 50); });
+  const json = new spine.SkeletonJson(new spine.AtlasAttachmentLoader(assets.require(item.atlas)));
+  data = json.readSkeletonData(assets.require(item.skeleton));
+  skeleton = new spine.Skeleton(data);
+  state = new spine.AnimationState(new spine.AnimationStateData(data));
+  state.addListener({ event: (_, e) => evToast(e.data.name) });
+  bounds = computeBounds();
+  // UI
+  const seqs = document.getElementById('seqs');
+  for (const name of Object.keys(SEQS)) {
+    if (!SEQS[name].every((st) => data.findAnimation(Array.isArray(st) ? st[0] : st))) continue;
+    const b = document.createElement('button'); b.className = 'seq'; b.dataset.seq = name; b.textContent = name;
+    b.onclick = () => runSeq(name); seqs.appendChild(b);
+  }
+  const list = document.getElementById('anims');
+  for (const a of data.animations) {
+    const b = document.createElement('button'); b.className = 'anim'; b.dataset.anim = a.name;
+    b.innerHTML = `<span>${a.name}</span><small>${LABELS[a.name] || ''} · ${a.duration.toFixed(2)}s</small>`;
+    b.onclick = () => { seqToken++; document.querySelectorAll('[data-seq]').forEach((x) => x.classList.remove('on')); play(a.name, LOOPS.has(a.name)); };
+    list.appendChild(b);
+  }
+  document.getElementById('info').innerHTML = [
+    ['Os', data.bones.length], ['Slots', data.slots.length], ['Animations', data.animations.length],
+    ['Évènements', data.events.map((e) => e.name).join(', ')], ['Modes additifs', data.slots.filter((s) => s.blendMode === spine.BlendMode.Additive).length],
+    ['Masque (clipping)', 'brillance de la plaque'],
+  ].map(([k, v]) => `<span>${k}</span><span>${v}</span>`).join('');
+  document.getElementById('usage').innerHTML = 'Intégration jeu : piste 0 = <b>intro → idle</b>, <b>land</b> à l’arrêt du rouleau, <b>anticipation → anticipation_idle → anticipation_end</b> pendant le teasing, <b>win</b>, <b>trigger</b> puis <b>outro</b>. Piste 1 = <b>idle_eyes</b> en boucle avec idle. Les évènements (land, ignite, burst, trigger…) servent à déclencher sons et effets.';
+  document.querySelectorAll('[data-bg]').forEach((b) => (b.onclick = () => {
+    document.body.className = 'bg-' + b.dataset.bg;
+    document.querySelectorAll('[data-bg]').forEach((x) => x.classList.toggle('on', x === b));
+  }));
+  document.getElementById('speed').oninput = (e) => (speed = Number(e.target.value));
+  document.getElementById('zoom').oninput = (e) => (zoom = Number(e.target.value));
+  document.getElementById('debug').onchange = (e) => (debug = e.target.checked);
+  document.getElementById('pause').onchange = (e) => (paused = e.target.checked);
+  requestAnimationFrame(frame);
+  runSeq(data.findAnimation('intro') ? 'Scénario complet' : 'Symbole : cascade');
+})();
+</script>
+</body>
+</html>

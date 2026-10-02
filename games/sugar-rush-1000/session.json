@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "session_id": "2026-10-02T15:44:29.506Z",
+  "game": "Sugar Rush 1000",
+  "entry": {
+    "name": "sugar-rush-1000",
+    "provider": null
+  },
+  "updated_at": "2026-10-02T15:44:40.213Z",
+  "session": {
+    "id": "2026-10-02T15:44:29.506Z",
+    "started_at": "2026-10-02T15:44:29.506Z",
+    "ended_at": "2026-10-02T15:44:39.972Z",
+    "stop_reason": "har_import",
+    "mode": "har",
+    "source_file": "sugar-rush-1000-2.har",
+    "counters": {
+      "requests": 1966,
+      "finished": 1959,
+      "failed": 7,
+      "candidates": 125,
+      "images": 66,
+      "json": 24,
+      "atlases": 0,
+      "skeletons": 0,
+      "newSkeletons": 0,
+      "bytes": 43390949,
+      "errors": 0,
+      "probes": 0
+    }
+  }
+}

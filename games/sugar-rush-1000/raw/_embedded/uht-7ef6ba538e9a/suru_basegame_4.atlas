@@ -1,0 +1,20 @@
+
+suru_basegame_4.png
+size: 116,624
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jar_glass
+  rotate: false
+  xy: 0, 0
+  size: 91, 205
+  orig: 91, 205
+  offset: 0, 0
+  index: -1
+left_frame
+  rotate: false
+  xy: 0, 207
+  size: 116, 415
+  orig: 116, 415
+  offset: 0, 0
+  index: -1

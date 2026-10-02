@@ -1,0 +1,229 @@
+{
+  "id": "spin-reaper-winsafe/package_026_sr_reelhouse",
+  "package": "package_026_sr_reelhouse",
+  "name": "sr_reelhouse",
+  "game": "Spin-reaper-winsafe",
+  "game_slug": "spin-reaper-winsafe",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "sr_reelhouse.json",
+  "skeleton_version": "4.1.23",
+  "category": "unknown",
+  "subtypes": [
+    "idle",
+    "bonus"
+  ],
+  "tags": [
+    "idle",
+    "bonus",
+    "sr",
+    "reelhouse",
+    "spines"
+  ],
+  "classification": {
+    "confidence": "none",
+    "scores": {
+      "effect": 0.8,
+      "background": 0.8,
+      "ui": 0.8,
+      "character": 0,
+      "symbol": 0,
+      "transition": 0
+    },
+    "evidence": []
+  },
+  "animations": [
+    "idle"
+  ],
+  "animation_details": [
+    {
+      "name": "idle",
+      "duration": 2.467,
+      "timelines": {
+        "bones": 44
+      }
+    }
+  ],
+  "skins": [
+    "base",
+    "bonus",
+    "super"
+  ],
+  "events": [],
+  "bones_count": 51,
+  "slots_count": 3,
+  "bones": [
+    "root",
+    "reelhouse",
+    "reelhouse_glow",
+    "reelhouse_glow2",
+    "reelhouse_glow3",
+    "reelhouse_glow4",
+    "reelhouse_glow5",
+    "reelhouse_glow6",
+    "reelhouse_glow7",
+    "reelhouse_glow8",
+    "reelhouse_glow9",
+    "reelhouse_glow10",
+    "reelhouse_glow11",
+    "reelhouse_glow12",
+    "reelhouse_glow13",
+    "reelhouse_glow14",
+    "reelhouse_glow15",
+    "reelhouse_glow16",
+    "reelhouse_glow17",
+    "reelhouse_glow18",
+    "reelhouse_glow19",
+    "reelhouse_glow20",
+    "reelhouse_glow21",
+    "reelhouse_glow22",
+    "reelhouse_glow23",
+    "reelhouse_glow24",
+    "reelhouse_glow25",
+    "reelhouse_glow26",
+    "reelhouse_glow27",
+    "reelhouse_glow28",
+    "reelhouse_glow29",
+    "reelhouse_glow30",
+    "reelhouse_glow31",
+    "reelhouse_glow32",
+    "reelhouse_glow33",
+    "reelhouse_glow34",
+    "reelhouse_glow35",
+    "reelhouse_glow36",
+    "reelhouse_glow37",
+    "reelhouse_glow38",
+    "reelhouse_glow39",
+    "reelhouse_glow40",
+    "reelhouse_glow41",
+    "reelhouse_glow42",
+    "reelhouse_glow43",
+    "reelhouse_glow44",
+    "reelhouse_glow45",
+    "reelhouse_glow46",
+    "reelhouse_glow47",
+    "reelhouse_glow48",
+    "reelhouse_glow49"
+  ],
+  "slots": [
+    "reelhouse_glow",
+    "reelhouse_bg",
+    "reelhouse_frame"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 9,
+  "attachment_types": {
+    "region": 6,
+    "mesh": 1,
+    "linkedmesh": 2
+  },
+  "dimensions": {
+    "width": 917.02,
+    "height": 1039.17
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "sr_reelhouse.webp",
+      "atlas": "sr_reelhouse.atlas",
+      "file": "sr_reelhouse.webp",
+      "sha256": "cb7bb7aeffed5ce1ad6ae2348034b1ae6b3ac231d8b5beb68e0c73d3168ea353",
+      "format": "webp",
+      "width": 1868,
+      "height": 1296,
+      "atlas_size": [
+        1868,
+        1296
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "sr_reelhouse.atlas",
+      "sha256": "5a210a4dd2d8b603ae64acc27f9fad2bd5e1927b2b291da170626d34276e5882",
+      "format": "spine-4",
+      "pages": [
+        "sr_reelhouse.webp"
+      ],
+      "regions": 7,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 7/7 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 5ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "sr_reelhouse.json",
+      "role": "skeleton",
+      "sha256": "3610cc4d5c788f4a4715f41543f0a60b132b61a0f8c9693dcab407166c2a31bf",
+      "size": 38441,
+      "original_filename": "sr_reelhouse.json",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/reelhouse/sr_reelhouse.json",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/reelhouse/sr_reelhouse.json"
+      ]
+    },
+    {
+      "file": "sr_reelhouse.atlas",
+      "role": "atlas",
+      "sha256": "5a210a4dd2d8b603ae64acc27f9fad2bd5e1927b2b291da170626d34276e5882",
+      "size": 347,
+      "original_filename": "sr_reelhouse.atlas",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/reelhouse/sr_reelhouse.atlas",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/reelhouse/sr_reelhouse.atlas"
+      ]
+    },
+    {
+      "file": "sr_reelhouse.webp",
+      "role": "texture",
+      "sha256": "cb7bb7aeffed5ce1ad6ae2348034b1ae6b3ac231d8b5beb68e0c73d3168ea353",
+      "size": 113520,
+      "original_filename": "sr_reelhouse.webp",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/reelhouse/sr_reelhouse.webp",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/reelhouse/sr_reelhouse.webp"
+      ],
+      "atlas_page": "sr_reelhouse.webp"
+    }
+  ],
+  "source_urls": [
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/reelhouse/sr_reelhouse.json",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/reelhouse/sr_reelhouse.atlas",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/reelhouse/sr_reelhouse.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:09:21.615Z",
+  "sessions": [
+    "2026-10-02T20:15:11.265Z"
+  ],
+  "packaged_at": "2026-10-02T20:48:22.950Z"
+}

@@ -1,0 +1,473 @@
+{
+  "id": "spin-reaper-winsafe/package_017_sr_titlesplash",
+  "package": "package_017_sr_titlesplash",
+  "name": "sr_titlesplash",
+  "game": "Spin-reaper-winsafe",
+  "game_slug": "spin-reaper-winsafe",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "sr_titlesplash.json",
+  "skeleton_version": "4.2-from-4.3.26",
+  "category": "effect",
+  "subtypes": [
+    "idle",
+    "entrance",
+    "exit"
+  ],
+  "tags": [
+    "effect",
+    "idle",
+    "entrance",
+    "exit",
+    "sr",
+    "titlesplash",
+    "spines",
+    "splash"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "effect": 7.6,
+      "ui": 4.1,
+      "transition": 3,
+      "symbol": 0.8,
+      "character": 0,
+      "background": 0
+    },
+    "evidence": [
+      "name:splash",
+      "anim:splash",
+      "bone:fx",
+      "bone:particle",
+      "bone:particles",
+      "bone:glow",
+      "bone:splash",
+      "region:particle",
+      "region:glow"
+    ]
+  },
+  "animations": [
+    "splash_idle",
+    "splash_idle_portrait",
+    "splash_intro",
+    "splash_intro_portrait",
+    "splash_outro",
+    "splash_outro_portrait",
+    "title_idle",
+    "title_intro"
+  ],
+  "animation_details": [
+    {
+      "name": "splash_idle",
+      "duration": 0,
+      "timelines": {
+        "bones": 1,
+        "slots": 12
+      }
+    },
+    {
+      "name": "splash_idle_portrait",
+      "duration": 12.633,
+      "timelines": {
+        "bones": 4,
+        "slots": 12
+      }
+    },
+    {
+      "name": "splash_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 4,
+        "slots": 12
+      }
+    },
+    {
+      "name": "splash_intro_portrait",
+      "duration": 1.067,
+      "timelines": {
+        "bones": 3,
+        "slots": 4
+      }
+    },
+    {
+      "name": "splash_outro",
+      "duration": 1.067,
+      "timelines": {
+        "bones": 54,
+        "slots": 99,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "splash_outro_portrait",
+      "duration": 1.067,
+      "timelines": {
+        "bones": 54,
+        "slots": 99,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "title_idle",
+      "duration": 10,
+      "timelines": {
+        "bones": 54,
+        "slots": 52,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "title_intro",
+      "duration": 3.367,
+      "timelines": {
+        "bones": 69,
+        "slots": 86,
+        "drawOrder": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 120,
+  "slots_count": 99,
+  "bones": [
+    "root",
+    "title_master",
+    "title",
+    "reaper",
+    "weapon",
+    "left",
+    "left_hand",
+    "right_hand",
+    "hood",
+    "hood2",
+    "hood4",
+    "hood5",
+    "skull",
+    "eye_glow",
+    "backing",
+    "text",
+    "text_spin_s",
+    "text_spin_p",
+    "text_spin_n",
+    "text_spin_i",
+    "text_sin_shadow",
+    "text_reaper_shadow",
+    "text_reaper_r2",
+    "text_reaper_r",
+    "text_reaper_p",
+    "text_reaper_e2",
+    "text_reaper_e",
+    "text_reaper_a",
+    "text_p_shadow",
+    "fx",
+    "title_backboard",
+    "other",
+    "crow_1",
+    "crow_2",
+    "spike_1",
+    "spike_2",
+    "spike_3",
+    "spike_4",
+    "spike_5",
+    "spike_6",
+    "backboard_control",
+    "title_glow_blue2",
+    "particles_idle",
+    "particle_small_cont",
+    "particle_small",
+    "particle_small6",
+    "particle_small7",
+    "particle_small8",
+    "particle_medium_cont",
+    "particle_medium",
+    "particle_large_cont",
+    "particle_large",
+    "particle_small_cont2",
+    "particle_small2",
+    "particle_small_cont3",
+    "particle_small3",
+    "particle_small_cont4",
+    "particle_small4",
+    "particle_small9",
+    "particle_small_cont5",
+    "particle_small5",
+    "particle_small10",
+    "particle_medium_cont2",
+    "particle_medium2",
+    "particle_medium_cont3",
+    "particle_medium3",
+    "particle_large_cont2",
+    "particle_large2",
+    "particle_large_cont3",
+    "particle_large3",
+    "particle_small_cont6",
+    "particle_small11",
+    "particle_small12",
+    "particle_small13",
+    "particle_small14",
+    "particle_large_cont4",
+    "particle_large4",
+    "particle_medium_cont4",
+    "particle_medium4",
+    "particle_medium_cont5",
+    "particle_medium5",
+    "pop_particles",
+    "particle39",
+    "particle40",
+    "particle41",
+    "particle42",
+    "particle43",
+    "particle44",
+    "particle45",
+    "particle46",
+    "particle47",
+    "particle48",
+    "particle49",
+    "crow_3",
+    "crow_4",
+    "crow_5",
+    "crow_6",
+    "crow_7",
+    "crow_8",
+    "crow_9",
+    "crow_10",
+    "particle2_big",
+    "winsafe",
+    "splash_master",
+    "splash_scale",
+    "splash_frame_a",
+    "splash_content_a",
+    "slot_text_a",
+    "title_a",
+    "icon_a",
+    "splash_frame_b",
+    "splash_content_b",
+    "slot_text_b",
+    "title_b",
+    "icon_b",
+    "splash_frame_c",
+    "splash_content_c",
+    "slot_text_c",
+    "title_c",
+    "icon_c"
+  ],
+  "slots": [
+    "title_glow_purple",
+    "title_glow_blue",
+    "title_glow_blue2",
+    "particle39",
+    "particle42",
+    "particle47",
+    "particle45",
+    "particle40",
+    "particle43",
+    "particle41",
+    "particle46",
+    "particle48",
+    "particle49",
+    "particle44",
+    "spike_4",
+    "spike_9",
+    "spike_6",
+    "spike_7",
+    "spike_2",
+    "spike_11",
+    "spike_3",
+    "spike_10",
+    "spike_1",
+    "spike_12",
+    "spike_5",
+    "spike_8",
+    "H1_backhood",
+    "title_backboard",
+    "title_backboard2",
+    "crow_2",
+    "crow_1",
+    "text_reaper_shadow",
+    "text_sin_shadow",
+    "text_p_shadow",
+    "text_spin_i",
+    "text_spin_i2",
+    "text_spin_p",
+    "text_spin_p2",
+    "text_spin_s",
+    "text_spin_s2",
+    "text_spin_n",
+    "text_spin_n2",
+    "text_reaper_r",
+    "text_reaper_r4",
+    "text_reaper_e",
+    "text_reaper_e4",
+    "text_reaper_a",
+    "text_reaper_a2",
+    "text_reaper_p",
+    "text_reaper_p2",
+    "text_reaper_e2",
+    "text_reaper_e3",
+    "text_reaper_r2",
+    "text_reaper_r3",
+    "spin_glow",
+    "H1_skull",
+    "H1_eyes",
+    "H1_eyesglow",
+    "H1_eyesglow2",
+    "H1_hood",
+    "H1_hand",
+    "H1_hand2",
+    "particle_large",
+    "particle_large2",
+    "particle_large3",
+    "particle_large4",
+    "particle_medium",
+    "particle_medium5",
+    "particle_medium4",
+    "particle_medium2",
+    "particle_medium3",
+    "particle_small",
+    "particle_small11",
+    "particle_small8",
+    "particle_small14",
+    "particle_small6",
+    "particle_small12",
+    "particle_small7",
+    "particle_small13",
+    "particle_small2",
+    "particle_small3",
+    "particle_small4",
+    "particle_small9",
+    "particle_small5",
+    "particle_small10",
+    "particle2_big",
+    "winsafe",
+    "slot_frame_01",
+    "slot_text_a",
+    "slot_title_01",
+    "slot_icon_01",
+    "slot_frame_02",
+    "slot_text_b",
+    "slot_title_02",
+    "slot_icon_02",
+    "slot_frame_03",
+    "slot_text_c",
+    "slot_title_03",
+    "slot_icon_03"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 134,
+  "attachment_types": {
+    "mesh": 36,
+    "region": 98
+  },
+  "dimensions": {
+    "width": 2022.722,
+    "height": 1176.7832
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "sr_titlesplash.webp",
+      "atlas": "sr_titlesplash.atlas",
+      "file": "sr_titlesplash.webp",
+      "sha256": "ea278200d8f0ce0e3ccf00ce074b68ee1ffda734b1075bd59b4fc564cb8dabf5",
+      "format": "webp",
+      "width": 2048,
+      "height": 1024,
+      "atlas_size": [
+        2048,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "sr_titlesplash.atlas",
+      "sha256": "509ed7074142491995b8ed74cfb25d3f42320c929b36d358bd457e5db3b32bca",
+      "format": "spine-4",
+      "pages": [
+        "sr_titlesplash.webp"
+      ],
+      "regions": 60,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 60/60 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 8ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "sr_titlesplash.json",
+      "role": "skeleton",
+      "sha256": "d9c3b7bcad3de6269c6c25257c27ac7699f0ef2a145631054ea62608c65cd83b",
+      "size": 173956,
+      "original_filename": "sr_titlesplash.json",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/splash/sr_titlesplash.json",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/splash/sr_titlesplash.json"
+      ]
+    },
+    {
+      "file": "sr_titlesplash.atlas",
+      "role": "atlas",
+      "sha256": "509ed7074142491995b8ed74cfb25d3f42320c929b36d358bd457e5db3b32bca",
+      "size": 2826,
+      "original_filename": "sr_titlesplash.atlas",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/splash/sr_titlesplash.atlas",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/splash/sr_titlesplash.atlas"
+      ]
+    },
+    {
+      "file": "sr_titlesplash.webp",
+      "role": "texture",
+      "sha256": "ea278200d8f0ce0e3ccf00ce074b68ee1ffda734b1075bd59b4fc564cb8dabf5",
+      "size": 363492,
+      "original_filename": "sr_titlesplash.webp",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/splash/sr_titlesplash.webp",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/splash/sr_titlesplash.webp"
+      ],
+      "atlas_page": "sr_titlesplash.webp"
+    }
+  ],
+  "source_urls": [
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/splash/sr_titlesplash.json",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/splash/sr_titlesplash.atlas",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/splash/sr_titlesplash.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:09:21.156Z",
+  "sessions": [
+    "2026-10-02T20:15:11.265Z"
+  ],
+  "packaged_at": "2026-10-02T20:48:22.950Z"
+}

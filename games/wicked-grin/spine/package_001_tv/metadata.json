@@ -1,0 +1,179 @@
+{
+  "id": "wicked-grin/package_001_tv",
+  "package": "package_001_tv",
+  "name": "tv",
+  "game": "Wicked Grin",
+  "game_slug": "wicked-grin",
+  "provider": "Hacksaw Gaming",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "tv.json",
+  "skeleton_version": "4.0.64",
+  "category": "unknown",
+  "subtypes": [],
+  "tags": [
+    "tv",
+    "hd"
+  ],
+  "classification": {
+    "confidence": "none",
+    "scores": {
+      "background": 0.8,
+      "ui": 0.8,
+      "character": 0,
+      "symbol": 0,
+      "effect": 0,
+      "transition": 0
+    },
+    "evidence": []
+  },
+  "animations": [
+    "noise",
+    "setup"
+  ],
+  "animation_details": [
+    {
+      "name": "noise",
+      "duration": 0.9,
+      "timelines": {
+        "slots": 1
+      }
+    },
+    {
+      "name": "setup",
+      "duration": 0,
+      "timelines": {}
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 2,
+  "slots_count": 3,
+  "bones": [
+    "root",
+    "scale_all_bone"
+  ],
+  "slots": [
+    "tv_bg",
+    "noise_00",
+    "tv_frame"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 16,
+  "attachment_types": {
+    "mesh": 3,
+    "linkedmesh": 13
+  },
+  "dimensions": {
+    "width": 212,
+    "height": 238
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "tv.png",
+      "atlas": "tv.atlas",
+      "file": "tv.png",
+      "sha256": "385648ad2d8a5264afc77540d109f128228d5342464b64fd4675479b468548e1",
+      "format": "ktx2",
+      "width": 1024,
+      "height": 1024,
+      "atlas_size": [
+        1024,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "same_folder_variant",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "tv.atlas",
+      "sha256": "8d6f85bac4721a4726462c243b172c3aba5dbc08cfa774d9539e0f02fcd2e6d3",
+      "format": "spine-4",
+      "pages": [
+        "tv.png"
+      ],
+      "regions": 16,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 16/16 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "tv.json",
+      "role": "skeleton",
+      "sha256": "0d6d19df46bdc3a82e910fcbd863e1fae2a8ed58c07ea696a17ccf2f3dd8eb8b",
+      "size": 3339,
+      "original_filename": "tv.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.json",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.json"
+      ]
+    },
+    {
+      "file": "tv.atlas",
+      "role": "atlas",
+      "sha256": "8d6f85bac4721a4726462c243b172c3aba5dbc08cfa774d9539e0f02fcd2e6d3",
+      "size": 538,
+      "original_filename": "tv.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.atlas",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.atlas"
+      ]
+    },
+    {
+      "file": "tv.png",
+      "role": "texture",
+      "sha256": "385648ad2d8a5264afc77540d109f128228d5342464b64fd4675479b468548e1",
+      "size": 420549,
+      "original_filename": "tv.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.ktx2",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.ktx2"
+      ],
+      "atlas_page": "tv.png"
+    }
+  ],
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.json",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.atlas",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.ktx2"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [
+    "atlas page \"tv.png\" was served as \"tv.ktx2\" (ktx2)"
+  ],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:02:07.331Z",
+  "sessions": [
+    "2026-10-02T20:15:48.095Z"
+  ],
+  "packaged_at": "2026-10-02T20:46:25.195Z"
+}

@@ -1,0 +1,386 @@
+{
+  "id": "wicked-grin/package_002_wintiers",
+  "package": "package_002_wintiers",
+  "name": "wintiers",
+  "game": "Wicked Grin",
+  "game_slug": "wicked-grin",
+  "provider": "Hacksaw Gaming",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "wintiers.json",
+  "skeleton_version": "4.0.64",
+  "category": "unknown",
+  "subtypes": [
+    "idle"
+  ],
+  "tags": [
+    "idle",
+    "wintiers",
+    "hd"
+  ],
+  "classification": {
+    "confidence": "none",
+    "scores": {
+      "transition": 1.5,
+      "effect": 0.8,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "ui": 0
+    },
+    "evidence": []
+  },
+  "animations": [
+    "bw_idle",
+    "bw_trigger",
+    "ew_idle",
+    "ew_trigger",
+    "idle",
+    "mw_idle",
+    "mw_trigger",
+    "smw_idle",
+    "smw_trigger"
+  ],
+  "animation_details": [
+    {
+      "name": "bw_idle",
+      "duration": 0,
+      "timelines": {
+        "slots": 12
+      }
+    },
+    {
+      "name": "bw_trigger",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 7,
+        "slots": 12
+      }
+    },
+    {
+      "name": "ew_idle",
+      "duration": 0,
+      "timelines": {
+        "bones": 19,
+        "slots": 51
+      }
+    },
+    {
+      "name": "ew_trigger",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 27,
+        "slots": 51
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 25
+      }
+    },
+    {
+      "name": "mw_idle",
+      "duration": 0,
+      "timelines": {
+        "bones": 4,
+        "slots": 20
+      }
+    },
+    {
+      "name": "mw_trigger",
+      "duration": 1.3,
+      "timelines": {
+        "bones": 13,
+        "slots": 20
+      }
+    },
+    {
+      "name": "smw_idle",
+      "duration": 0,
+      "timelines": {
+        "bones": 14,
+        "slots": 37
+      }
+    },
+    {
+      "name": "smw_trigger",
+      "duration": 1.533,
+      "timelines": {
+        "bones": 26,
+        "slots": 37
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 88,
+  "slots_count": 57,
+  "bones": [
+    "root",
+    "scale_all_bone",
+    "bw",
+    "mw",
+    "smw",
+    "ew",
+    "bw_txt1",
+    "bw_txt2",
+    "bw_txt3",
+    "bw_txt4",
+    "bw_txt5",
+    "bw_txt6",
+    "bw_shadow6",
+    "bw_shadow5",
+    "bw_shadow4",
+    "bw_shadow3",
+    "bw_shadow2",
+    "bw_shadow1",
+    "mw_txt1",
+    "mw_txt2",
+    "mw_txt3",
+    "mw_txt4",
+    "mw_txt5",
+    "mw_txt6",
+    "mw_txt7",
+    "mw_shadow7",
+    "mw_shadow6",
+    "mw_shadow5",
+    "mw_shadow4",
+    "mw_shadow3",
+    "mw_shadow2",
+    "mw_shadow1",
+    "smw_txt1",
+    "smw_txt2",
+    "smw_txt3",
+    "smw_txt4",
+    "smw_txt5",
+    "smw_shadow1",
+    "smw_shadow2",
+    "smw_shadow3",
+    "smw_shadow4",
+    "smw_shadow5",
+    "ew_txt1",
+    "ew_txt2",
+    "ew_txt3",
+    "ew_txt4",
+    "ew_txt5",
+    "ew_txt6",
+    "ew_txt7",
+    "ew_shadow7",
+    "ew_shadow6",
+    "ew_shadow5",
+    "ew_shadow4",
+    "ew_shadow3",
+    "ew_shadow2",
+    "ew_shadow1",
+    "ew_txt1_idle",
+    "ew_glow1",
+    "ew_txt2_idle",
+    "ew_glow2",
+    "ew_txt3_idle",
+    "ew_glow3",
+    "ew_txt4_idle",
+    "ew_glow4",
+    "ew_txt5_idle",
+    "ew_glow5",
+    "ew_txt6_idle",
+    "ew_glow6",
+    "ew_txt7_idle",
+    "ew_glow7",
+    "bw_txt1_idle",
+    "bw_txt2_idle",
+    "bw_txt3_idle",
+    "bw_txt4_idle",
+    "bw_txt5_idle",
+    "bw_txt6_idle",
+    "mw_txt1_idle",
+    "mw_txt2_idle",
+    "mw_txt3_idle",
+    "mw_txt4_idle",
+    "mw_txt5_idle",
+    "mw_txt6_idle",
+    "mw_txt7_idle",
+    "smw_txt1_idle",
+    "smw_txt2_idle",
+    "smw_txt3_idle",
+    "smw_txt4_idle",
+    "smw_txt5_idle"
+  ],
+  "slots": [
+    "bw_shadow1",
+    "bw_shadow2",
+    "bw_shadow3",
+    "bw_shadow4",
+    "bw_shadow5",
+    "bw_shadow6",
+    "bw_txt1",
+    "bw_txt2",
+    "bw_txt3",
+    "bw_txt4",
+    "bw_txt5",
+    "bw_txt6",
+    "mw_shadow1",
+    "mw_shadow2",
+    "mw_shadow3",
+    "mw_shadow4",
+    "mw_shadow5",
+    "mw_shadow6",
+    "mw_shadow7",
+    "mw_txt1",
+    "mw_txt2",
+    "mw_txt3",
+    "mw_txt4",
+    "mw_txt5",
+    "mw_txt6",
+    "mw_txt7",
+    "s_shadow1",
+    "s_shadow2",
+    "s_shadow3",
+    "s_shadow4",
+    "s_shadow5",
+    "s_txt1",
+    "s_txt2",
+    "s_txt3",
+    "s_txt4",
+    "s_txt5",
+    "ew_shadow1",
+    "ew_shadow2",
+    "ew_shadow3",
+    "ew_shadow4",
+    "ew_shadow5",
+    "ew_shadow6",
+    "ew_shadow7",
+    "ew_txt1",
+    "ew_txt2",
+    "ew_txt3",
+    "ew_txt4",
+    "ew_txt5",
+    "ew_txt6",
+    "ew_txt7",
+    "ew_glow1",
+    "ew_glow2",
+    "ew_glow3",
+    "ew_glow4",
+    "ew_glow5",
+    "ew_glow6",
+    "ew_glow7"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 25,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 57,
+  "attachment_types": {
+    "mesh": 57
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "wintiers.png",
+      "atlas": "wintiers.atlas",
+      "file": "wintiers.png",
+      "sha256": "9713f68c13c18870eb16623348b3d6aadbb45e07fa31eb58f03abf7755b75a5d",
+      "format": "ktx2",
+      "width": 1024,
+      "height": 1024,
+      "atlas_size": [
+        1024,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "same_folder_variant",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "wintiers.atlas",
+      "sha256": "c5cb299323cc9189406c3704a6c92f1905e89f1547602de9881857e0c270c47c",
+      "format": "spine-4",
+      "pages": [
+        "wintiers.png"
+      ],
+      "regions": 57,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 57/57 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "wintiers.json",
+      "role": "skeleton",
+      "sha256": "5142087d7101a73045f93698f51db0c0e1469d181dba8b4823d3f4e10cb65b71",
+      "size": 81119,
+      "original_filename": "wintiers.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.json",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.json"
+      ]
+    },
+    {
+      "file": "wintiers.atlas",
+      "role": "atlas",
+      "sha256": "c5cb299323cc9189406c3704a6c92f1905e89f1547602de9881857e0c270c47c",
+      "size": 1827,
+      "original_filename": "wintiers.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.atlas",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.atlas"
+      ]
+    },
+    {
+      "file": "wintiers.png",
+      "role": "texture",
+      "sha256": "9713f68c13c18870eb16623348b3d6aadbb45e07fa31eb58f03abf7755b75a5d",
+      "size": 338954,
+      "original_filename": "wintiers.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.ktx2",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.ktx2"
+      ],
+      "atlas_page": "wintiers.png"
+    }
+  ],
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.json",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.atlas",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.ktx2"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [
+    "atlas page \"wintiers.png\" was served as \"wintiers.ktx2\" (ktx2)"
+  ],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:02:07.334Z",
+  "sessions": [
+    "2026-10-02T20:15:48.095Z"
+  ],
+  "packaged_at": "2026-10-02T20:46:25.195Z"
+}

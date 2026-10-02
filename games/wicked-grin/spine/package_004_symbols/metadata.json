@@ -1,0 +1,623 @@
+{
+  "id": "wicked-grin/package_004_symbols",
+  "package": "package_004_symbols",
+  "name": "symbols",
+  "game": "Wicked Grin",
+  "game_slug": "wicked-grin",
+  "provider": "Hacksaw Gaming",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "symbols.json",
+  "skeleton_version": "4.0.64",
+  "category": "symbol",
+  "subtypes": [
+    "idle",
+    "win",
+    "entrance",
+    "exit",
+    "land",
+    "free_spins",
+    "multiplier",
+    "symbol_win",
+    "symbol_idle"
+  ],
+  "tags": [
+    "symbol",
+    "idle",
+    "win",
+    "entrance",
+    "exit",
+    "land",
+    "free_spins",
+    "multiplier",
+    "symbol_win",
+    "symbol_idle",
+    "symbols",
+    "hd"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "symbol": 21.8,
+      "character": 7,
+      "effect": 5.1,
+      "background": 0.8,
+      "transition": 0.5,
+      "ui": 0.5
+    },
+    "evidence": [
+      "name:symbols",
+      "anim:diamond",
+      "skin:diamond",
+      "skin:mult",
+      "skin:high",
+      "skin:low",
+      "bone:symbols",
+      "bone:diamond",
+      "bone:ring",
+      "bone:grape",
+      "bone:grapes",
+      "bone:cherry"
+    ]
+  },
+  "animations": [
+    "coin_glimmer",
+    "coin_shine",
+    "diamond_glimmer",
+    "fs_reveal",
+    "glimmer_end",
+    "glimmer_start",
+    "idle",
+    "land",
+    "remove",
+    "setup",
+    "spread",
+    "spread_epic",
+    "spread_normal",
+    "turbo",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "coin_glimmer",
+      "duration": 2,
+      "timelines": {
+        "bones": 4,
+        "slots": 4
+      }
+    },
+    {
+      "name": "coin_shine",
+      "duration": 1.167,
+      "timelines": {
+        "bones": 110,
+        "slots": 27,
+        "deform": 3
+      }
+    },
+    {
+      "name": "diamond_glimmer",
+      "duration": 2,
+      "timelines": {
+        "bones": 4,
+        "slots": 4
+      }
+    },
+    {
+      "name": "fs_reveal",
+      "duration": 1.167,
+      "timelines": {
+        "bones": 110,
+        "slots": 27,
+        "deform": 3
+      }
+    },
+    {
+      "name": "glimmer_end",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 4
+      }
+    },
+    {
+      "name": "glimmer_start",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 4
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 1,
+      "timelines": {
+        "bones": 14,
+        "slots": 5,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 28,
+        "slots": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "remove",
+      "duration": 0.333,
+      "timelines": {
+        "bones": 5,
+        "slots": 32
+      }
+    },
+    {
+      "name": "setup",
+      "duration": 0,
+      "timelines": {
+        "slots": 36
+      }
+    },
+    {
+      "name": "spread",
+      "duration": 1,
+      "timelines": {
+        "bones": 12
+      }
+    },
+    {
+      "name": "spread_epic",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 10
+      }
+    },
+    {
+      "name": "spread_normal",
+      "duration": 0,
+      "timelines": {}
+    },
+    {
+      "name": "turbo",
+      "duration": 1.167,
+      "timelines": {
+        "bones": 12,
+        "slots": 10
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.167,
+      "timelines": {
+        "bones": 111,
+        "slots": 27,
+        "deform": 3
+      }
+    }
+  ],
+  "skins": [
+    "default",
+    "bronze",
+    "diamond",
+    "epic_spread",
+    "fs",
+    "gold",
+    "high_1",
+    "high_2",
+    "high_3",
+    "high_4",
+    "high_5",
+    "low_1",
+    "low_2",
+    "low_3",
+    "low_4",
+    "mult",
+    "silver",
+    "spread",
+    "super_fs"
+  ],
+  "events": [],
+  "bones_count": 151,
+  "slots_count": 127,
+  "bones": [
+    "root",
+    "all_symbols_scale_bone",
+    "all_highs_scale_bone",
+    "high_1_scale_bone",
+    "all_lows_scale_bone",
+    "all_lows_bottom_bone",
+    "all_lows_rotation_bone",
+    "low_1_scale_bone",
+    "low_2_scale_bone",
+    "low_3_scale_bone",
+    "low_4_scale_bone",
+    "high_2_scale_bone",
+    "high_3_scale_bone",
+    "high_4_scale_bone",
+    "all_specials_scale_bone",
+    "spread_scale_bone",
+    "fs_scale_bone",
+    "high_5_scale_bone",
+    "multi_scale_bone",
+    "coin_scale_bone",
+    "silver_scale_bone",
+    "gold_scale_bone",
+    "diamond_scale_bone",
+    "fs",
+    "h4_cherry",
+    "h1",
+    "h1_stem1",
+    "h1_stem2",
+    "h1_stem3",
+    "h1_leaf1",
+    "h1_leaf2",
+    "h1_leaf3",
+    "h1_leaf4",
+    "h1_grape1",
+    "h1_grape2",
+    "h1_grape3",
+    "h1_grape4",
+    "h1_grape5",
+    "h1_grape6",
+    "h1_grape7",
+    "h1_grape8",
+    "h1_grape9",
+    "h1_grape10",
+    "h1_grape11",
+    "h1_grape12",
+    "h1_grape13",
+    "h1_grape14",
+    "h1_grape15",
+    "h1_grape16",
+    "h1_grape17",
+    "h2_3D",
+    "h2_-3D",
+    "h3_bell",
+    "h3_swing",
+    "h4_steam_R_1",
+    "h4_steam_R_2",
+    "h4_steam_R_3",
+    "h4_steam_R_4",
+    "h4_steam_R_5",
+    "h4_steam_R_6",
+    "h4_steam_R_7",
+    "h4_steam_L_1",
+    "h4_steam_L_2",
+    "h4_steam_L_3",
+    "h4_steam_L_4",
+    "h4_steam_L_5",
+    "h4_steam_L_6",
+    "h4_steam_R_8",
+    "h4_steam_R_9",
+    "h4_leaf1",
+    "h4_leaf2",
+    "h4_leaf3",
+    "h4_leaf4",
+    "multi_bp",
+    "multi_1",
+    "multi_2",
+    "multi_3",
+    "multi_x_1",
+    "multi_x_2",
+    "multi_x_3",
+    "spread_head",
+    "spread_eye_L",
+    "spread_eye_R",
+    "spread_pupil_L",
+    "spread_pupil_R",
+    "spread_cheek_L",
+    "spread_cheek_R",
+    "spread_mouth_R",
+    "spread_mouth_L",
+    "spread_bp",
+    "spread_1",
+    "spread_2",
+    "h5_seven0",
+    "h5_seven1",
+    "h5_seven2",
+    "h5_seven4",
+    "h5_seven6",
+    "h5_seven8",
+    "h5_seven9",
+    "h5_seven10",
+    "h5_seven12",
+    "h5_seven15",
+    "h5_seven18",
+    "h5_seven19",
+    "h1_melon0",
+    "h1_melon",
+    "h1_melon2",
+    "h1_melon3",
+    "h1_melon4",
+    "h1_melon5",
+    "h1_melon6",
+    "h1_melon7",
+    "h1_melon8",
+    "h1_melon9",
+    "h1_melon10",
+    "spread_mouth_C",
+    "spread_3",
+    "spread_4",
+    "spread_5",
+    "spread_6",
+    "spread_7",
+    "h1_grape18",
+    "spread_sides",
+    "fs_F",
+    "fs_S",
+    "fs_F_shine",
+    "fs_S_shine",
+    "fs_bp1",
+    "fs_bp2",
+    "fs_bp3",
+    "multi_1_idle",
+    "multi_2_idle",
+    "multi_3_idle",
+    "fs_bp1_idle",
+    "fs_bp2_idle",
+    "fs_bp3_idle",
+    "spread_shine",
+    "fs_F_mask",
+    "fs_S_mask",
+    "diamond_scale_bone2",
+    "coin_scale_animation_bone",
+    "coin_rotation_bone",
+    "coin_shine",
+    "coin_scale_animation_bone2",
+    "coin_rotation_bone2",
+    "coin_shine2",
+    "diamond_mask_bone",
+    "spark",
+    "spark2",
+    "spark3",
+    "spark4"
+  ],
+  "slots": [
+    "fs_bp_bg",
+    "fs_bp_circle",
+    "fs_bp_center",
+    "fs_bp_outer",
+    "fs_s_stroke",
+    "fs_f_stroke",
+    "fs_s",
+    "fs_S_mask",
+    "fs_s2",
+    "fs_S_maskEnd",
+    "fs_f",
+    "fs_F_mask",
+    "fs_f2",
+    "fs_F_maskEnd",
+    "fs_setup",
+    "fs_shine1",
+    "fs_shine2",
+    "h1_leaf",
+    "h1_leaf2",
+    "h1_stem",
+    "h1_grapes",
+    "h1_grape1",
+    "h1_grape2",
+    "h1_grape3",
+    "h1_grape4",
+    "h1_grape5",
+    "h1_grape6",
+    "h1_grape7",
+    "h1_grape18",
+    "h1_grape8",
+    "h1_grape9",
+    "h1_grape10",
+    "h1_grape11",
+    "h1_grape12",
+    "h1_grape13",
+    "h1_grape14",
+    "h1_grape15",
+    "h1_grape16",
+    "h1_grape17",
+    "h4_cherry_L",
+    "h4_cherry_L2",
+    "h4_highlight_L",
+    "h4_stem_R",
+    "h4_cherry_L_line",
+    "h4_leaf",
+    "h4_leaf2",
+    "h4_cherry_R",
+    "h4_cherry_R2",
+    "h4_highlight_R",
+    "h4_stem_L",
+    "h4_cherry_R_line",
+    "h3_bell_inside",
+    "h3_bell_inside2",
+    "h3_ball",
+    "h3_ball2",
+    "h3_bell_front",
+    "h3_bell_front2",
+    "h3_setup",
+    "spreada_bp_bg",
+    "spreada_bp_bg_transition",
+    "spreada_bp_ring",
+    "spreada_bp_ring6",
+    "spreada_bp_ring_inside2",
+    "spreada_bp_ring_inside7",
+    "spreada_bp_ring2",
+    "spreada_bp_ring__transition",
+    "spreada_bp_ring_inside3",
+    "spreada_bp_ring_inside_transition",
+    "spreada_bp_ring3",
+    "spreada_bp_ring_transition",
+    "spreada_bp_ring_inside4",
+    "spreada_bp_ring_inside_transition2",
+    "spread_bp_outerRing",
+    "spread_bp_outerRing_transition",
+    "spread_face_side",
+    "spread_face",
+    "spread_nose",
+    "spread_eye_L",
+    "spread_eye_R",
+    "spread_pupil_L",
+    "spread_pupil_L_transition",
+    "spread_pupil_R",
+    "spread_pupil_R_transition",
+    "spread_shine",
+    "spread_pupil_L2",
+    "spread_pupil_R2",
+    "spread_shine_end",
+    "multi_bp_bg",
+    "multi_bp_circle",
+    "multi_bp_center",
+    "multi_bp_outer",
+    "x",
+    "x2",
+    "x3",
+    "multi_setup",
+    "frame_guide_200x200px_(NOT EXPORTED)",
+    "low_1",
+    "low_2",
+    "low_3",
+    "low_4",
+    "high_1",
+    "high_2",
+    "high_7",
+    "high_3",
+    "high_4",
+    "high_5",
+    "high_6",
+    "fs",
+    "multi",
+    "spread_scale_bone",
+    "gold",
+    "coin3",
+    "coin",
+    "coin_shine",
+    "coin2",
+    "coin_shine_end",
+    "coin_shine_end2",
+    "diamond",
+    "diamond_mask",
+    "diamond2",
+    "diamond_maskEnd",
+    "silver",
+    "fs_bp_circle2",
+    "spark_1",
+    "spark_4",
+    "spark_2",
+    "spark_3"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 1,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 177,
+  "attachment_types": {
+    "clipping": 5,
+    "mesh": 121,
+    "region": 14,
+    "linkedmesh": 37
+  },
+  "dimensions": {
+    "width": 110.23,
+    "height": 120.5
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "symbols.png",
+      "atlas": "symbols.atlas",
+      "file": "symbols.png",
+      "sha256": "56248014e14e7e33b46277c9115864cd89ea38e91e82dfabd52f97136ccc2935",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "same_folder_variant",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "symbols.atlas",
+      "sha256": "22f605e3cdd18eb71469d8b1e11dd80be04fda438c408673e2f2613b8806bb84",
+      "format": "spine-4",
+      "pages": [
+        "symbols.png"
+      ],
+      "regions": 100,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 100/100 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 3ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "symbols.json",
+      "role": "skeleton",
+      "sha256": "9a2b98ad9df385a63427da1303dd53e0f8d4fa85fea7666b66d4f59dfe336212",
+      "size": 494012,
+      "original_filename": "symbols.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.json",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.json"
+      ]
+    },
+    {
+      "file": "symbols.atlas",
+      "role": "atlas",
+      "sha256": "22f605e3cdd18eb71469d8b1e11dd80be04fda438c408673e2f2613b8806bb84",
+      "size": 4954,
+      "original_filename": "symbols.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.atlas",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.atlas"
+      ]
+    },
+    {
+      "file": "symbols.png",
+      "role": "texture",
+      "sha256": "56248014e14e7e33b46277c9115864cd89ea38e91e82dfabd52f97136ccc2935",
+      "size": 666029,
+      "original_filename": "symbols.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.ktx2",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.ktx2"
+      ],
+      "atlas_page": "symbols.png"
+    }
+  ],
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.json",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.atlas",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.ktx2"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [
+    "atlas page \"symbols.png\" was served as \"symbols.ktx2\" (ktx2)"
+  ],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:02:07.340Z",
+  "sessions": [
+    "2026-10-02T20:15:48.095Z"
+  ],
+  "packaged_at": "2026-10-02T20:46:25.195Z"
+}

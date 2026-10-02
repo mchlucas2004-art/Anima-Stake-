@@ -1,0 +1,11 @@
+# Une ligne = une machine. Les lignes commençant par # sont ignorées.
+# Format simple :            Nom de la machine
+# Format précis (optionnel) : Nom | URL | Provider
+# Une URL seule fonctionne aussi.
+#
+# Commencer par UNE seule machine pour valider le pipeline, puis allonger la liste.
+#
+# Nightfall Motel
+# Wanted Dead or a Wild
+# Le Bandit
+# Gates of Olympus

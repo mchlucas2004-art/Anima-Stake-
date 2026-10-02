@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lecteur Spine</title>
+<style>
+  :root { --bg: #000; --fg: #eee; --panel: #161616; --line: #333; --accent: #4da3ff; }
+  body.light { --bg: #fff; --fg: #111; --panel: #f4f4f4; --line: #ccc; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font: 13px/1.4 -apple-system, system-ui, sans-serif; }
+  .wrap { display: grid; grid-template-rows: auto 1fr; height: 100%; }
+  .bar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 8px 12px; background: var(--panel); border-bottom: 1px solid var(--line); }
+  .bar .label { opacity: .6; margin-right: 4px; }
+  button, select { font: inherit; color: var(--fg); background: transparent; border: 1px solid var(--line); border-radius: 6px; padding: 4px 9px; cursor: pointer; }
+  button.on { border-color: var(--accent); color: var(--accent); }
+  .right { margin-left: auto; display: flex; gap: 10px; align-items: center; }
+  #player { width: 100%; height: 100%; min-height: 0; }
+  .msg { padding: 24px; opacity: .8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar" id="bar"></div>
+  <div id="player"><div class="msg">Chargement…</div></div>
+</div>
+<script>
+  // The item to play is passed by the gallery in the URL hash.
+  const item = JSON.parse(decodeURIComponent(location.hash.slice(1) || '{}'));
+  const setBg = (bg) => document.body.classList.toggle('light', bg === 'white');
+  try { setBg(localStorage.getItem('scrap-bg') || 'black'); } catch {}
+  window.addEventListener('message', (e) => { if (e.data && e.data.bg) setBg(e.data.bg); });
+
+  // Each Spine version needs its own player.
+  function playerFor(version) {
+    const vs = String(version || '4.2');
+    const mm = /4\.3/.test(vs) ? '4.3' : vs.split('.').slice(0, 2).join('.'); // "4.2-from-4.3.x" atlases use the 4.3 syntax
+    const npm = { '4.3': '4.3.13', '4.2': '4.2.120', '4.1': '4.1.56', '4.0': '4.0.31' }[mm];
+    if (npm) {
+      const base = `https://cdn.jsdelivr.net/npm/@esotericsoftware/spine-player@${npm}/dist`;
+      return { js: `${base}/iife/spine-player.min.js`, css: `${base}/spine-player.css`, v4: true };
+    }
+    const branch = mm === '3.7' || mm === '3.6' ? '3.7' : '3.8';
+    const base = `https://cdn.jsdelivr.net/gh/EsotericSoftware/spine-runtimes@${branch}/spine-ts`;
+    return { js: `${base}/build/spine-player.js`, css: `${base}/player/css/spine-player.css`, v4: false };
+  }
+
+  function load(src, css) {
+    const l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = css;
+    document.head.appendChild(l);
+    return new Promise((ok, ko) => {
+      const s = document.createElement('script');
+      s.src = src;
+      s.onload = ok;
+      s.onerror = () => ko(new Error('lecteur Spine introuvable (connexion Internet ?)'));
+      document.head.appendChild(s);
+    });
+  }
+
+  const fail = (msg) => { document.getElementById('player').innerHTML = `<div class="msg">⚠ ${msg}</div>`; };
+
+  (async () => {
+    if (!item.skeleton) return fail('Aucune animation sélectionnée.');
+    if (!item.atlas) return fail('Pas d\'atlas pour ce skeleton : impossible de l\'afficher (voir les warnings du package).');
+    const p = playerFor(item.version);
+    try { await load(p.js, p.css); } catch (e) { return fail(e.message); }
+
+    const anims = item.animations || [];
+    const first = anims.find((a) => /^idle$/i.test(a)) || anims.find((a) => /idle|loop/i.test(a)) || anims[0];
+    let current = first;
+    let loop = true;
+    document.getElementById('player').innerHTML = '';
+    // PMA (premultiplied alpha): taken from the atlas; can be flipped by hand if edges look dark or glowing.
+    const pmaKey = 'scrap-pma:' + item.id;
+    let pma = !!item.pma;
+    try { const o = localStorage.getItem(pmaKey); if (o !== null) pma = o === '1'; } catch {}
+    const cfg = {
+      atlasUrl: item.atlas,
+      premultipliedAlpha: pma,
+      alpha: true,
+      backgroundColor: '#00000000',
+      showControls: true,
+      success: (pl) => {
+        // Some rigs keep everything in named skins: an empty default skin shows nothing.
+        const sk = pl.skeleton;
+        if (sk && sk.data.skins.length > 1) {
+          const def = sk.data.defaultSkin;
+          const n = def ? def.getAttachments().length : 0;
+          if (n === 0) { sk.setSkinByName(sk.data.skins.find((x) => x !== def).name); sk.setSlotsToSetupPose(); }
+        }
+        drawBar();
+      },
+      error: (_, msg) => fail('Erreur du lecteur : ' + msg),
+    };
+    if (item.format === 'binary') { cfg.skelUrl = item.skeleton; cfg.binaryUrl = item.skeleton; } else cfg.jsonUrl = item.skeleton;
+    cfg.skeleton = item.skeleton; cfg.atlas = item.atlas; // spine-player 4.3 names
+    // explicit viewport from the skeleton header: avoids "Animation bounds are invalid" on rigs whose setup pose is empty
+    if (item.format !== 'binary') {
+      try {
+        const h = (await (await fetch(item.skeleton)).json()).skeleton || {};
+        if (h.width > 0 && h.height > 0 && h.width < 4000 && h.height < 4000) cfg.viewport = { x: h.x, y: h.y, width: h.width, height: h.height, padLeft: '8%', padRight: '8%', padTop: '8%', padBottom: '8%' };
+      } catch {}
+    }
+    if (first) cfg.animation = first;
+    // empty default skin (everything lives in named skins): start on a real skin, otherwise the bounds are invalid
+    const realSkins = (item.skins || []).filter((x) => x !== 'default');
+    if (realSkins.length) cfg.skin = realSkins[0];
+    // an animation that is empty at its start has no bounds: retry with the next ones
+    const tried = new Set();
+    cfg.error = (_, msg) => {
+      if (/bounds are invalid/i.test(msg)) {
+        tried.add(cfg.animation);
+        const next = anims.find((x) => !tried.has(x));
+        document.getElementById('player').innerHTML = '';
+        if (next) { cfg.animation = next; current = next; player = new spine.SpinePlayer('player', cfg); return; }
+        if (!cfg.viewport) { cfg.viewport = { x: -500, y: -500, width: 1000, height: 1000 }; cfg.animation = first; player = new spine.SpinePlayer('player', cfg); return; }
+      }
+      fail('Erreur du lecteur : ' + msg);
+    };
+    let player = new spine.SpinePlayer('player', cfg);
+
+    function play(name) {
+      current = name;
+      player.setAnimation(name, loop);
+      if (player.play) player.play();
+      drawBar();
+    }
+    function drawBar() {
+      const bar = document.getElementById('bar');
+      bar.innerHTML = '';
+      const names = anims.length ? anims : (player.skeleton ? player.skeleton.data.animations.map((a) => a.name) : []);
+      const lab = document.createElement('span');
+      lab.className = 'label';
+      lab.textContent = `Animations (${names.length}) :`;
+      bar.appendChild(lab);
+      for (const a of names) {
+        const b = document.createElement('button');
+        b.textContent = a;
+        if (a === current) b.className = 'on';
+        b.onclick = () => play(a);
+        bar.appendChild(b);
+      }
+      const right = document.createElement('div');
+      right.className = 'right';
+      const skins = player.skeleton ? player.skeleton.data.skins.map((s) => s.name) : [];
+      if (skins.length > 1) {
+        const sel = document.createElement('select');
+        sel.innerHTML = skins.map((s) => `<option${player.skeleton.skin && player.skeleton.skin.name === s ? ' selected' : ''}>${s}</option>`).join('');
+        sel.onchange = () => { player.skeleton.setSkinByName(sel.value); player.skeleton.setSlotsToSetupPose(); };
+        const l = document.createElement('label');
+        l.textContent = 'Skin ';
+        l.appendChild(sel);
+        right.appendChild(l);
+      }
+      const pb = document.createElement('button');
+      pb.textContent = 'PMA ' + (pma ? 'oui' : 'non') + (item.pma_mixed ? ' ⚠' : '');
+      pb.title = 'Mode de transparence. Si les bords sont noirs ou trop lumineux, cliquez pour inverser.' + (item.pma_mixed ? ' Cet atlas mélange des pages PMA et non-PMA : une partie peut s\'afficher mal.' : '');
+      pb.onclick = () => { try { localStorage.setItem(pmaKey, pma ? '0' : '1'); } catch {} location.reload(); };
+      right.appendChild(pb);
+      const lp = document.createElement('label');
+      lp.innerHTML = `<input type="checkbox" ${loop ? 'checked' : ''}> Boucle`;
+      lp.querySelector('input').onchange = (e) => { loop = e.target.checked; if (current) play(current); };
+      right.appendChild(lp);
+      bar.appendChild(right);
+    }
+  })();
+</script>
+</body>
+</html>

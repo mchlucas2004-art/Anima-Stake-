@@ -1,0 +1,262 @@
+{
+  "id": "wicked-grin/package_003_bg",
+  "package": "package_003_bg",
+  "name": "bg",
+  "game": "Wicked Grin",
+  "game_slug": "wicked-grin",
+  "provider": "Hacksaw Gaming",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "bg.json",
+  "skeleton_version": "4.0.64",
+  "category": "background",
+  "subtypes": [
+    "idle",
+    "entrance",
+    "exit",
+    "background_loop"
+  ],
+  "tags": [
+    "background",
+    "idle",
+    "entrance",
+    "exit",
+    "background_loop",
+    "bg",
+    "hd"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "background": 3,
+      "symbol": 0.8,
+      "character": 0,
+      "effect": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:bg"
+    ]
+  },
+  "animations": [
+    "hide_black",
+    "idle",
+    "noise",
+    "show_black"
+  ],
+  "animation_details": [
+    {
+      "name": "hide_black",
+      "duration": 0,
+      "timelines": {
+        "slots": 4
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 13.333,
+      "timelines": {
+        "bones": 14,
+        "slots": 13
+      }
+    },
+    {
+      "name": "noise",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 11
+      }
+    },
+    {
+      "name": "show_black",
+      "duration": 0,
+      "timelines": {}
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 29,
+  "slots_count": 30,
+  "bones": [
+    "root",
+    "scale_all_bone",
+    "rings",
+    "ring2",
+    "ring3",
+    "ring4",
+    "ring5",
+    "ring6",
+    "ring7",
+    "ring8",
+    "ring9",
+    "ring10",
+    "ring11",
+    "ring12",
+    "ring13",
+    "ring14",
+    "ring15",
+    "noise",
+    "noise1",
+    "noise2",
+    "noise3",
+    "noise4",
+    "noise5",
+    "ring_black",
+    "noise6",
+    "noise7",
+    "noise8",
+    "noise9",
+    "noise10"
+  ],
+  "slots": [
+    "black",
+    "ring_4",
+    "ring_13",
+    "ring_3",
+    "ring_14",
+    "ring_2",
+    "ring_15",
+    "ring_5",
+    "ring_6",
+    "ring_7",
+    "ring_8",
+    "bounds",
+    "ring_12",
+    "ring_11",
+    "ring_10",
+    "ring_9",
+    "noise",
+    "noise6",
+    "noise4",
+    "noise9",
+    "noise5",
+    "noise10",
+    "noise2",
+    "noise7",
+    "noise3",
+    "noise8",
+    "ring_19",
+    "ring_18",
+    "ring_17",
+    "ring_16"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 30,
+  "attachment_types": {
+    "mesh": 29,
+    "boundingbox": 1
+  },
+  "dimensions": {
+    "width": 8201.42,
+    "height": 8133.24
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "bg.png",
+      "atlas": "bg.atlas",
+      "file": "bg.png",
+      "sha256": "ae8c284092c6371df9578298ec99bf69321eacde4e8781505f40476fceb465cb",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "same_folder_variant",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "bg.atlas",
+      "sha256": "0f8e4c2d20244b8e181767f98cedb9751311dab9c25c403b4aace4065e380554",
+      "format": "spine-4",
+      "pages": [
+        "bg.png"
+      ],
+      "regions": 6,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 6/6 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 2ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "bg.json",
+      "role": "skeleton",
+      "sha256": "682d3e3d0c55fc1de34da035a76d7274902705a6d974fde8570336212ab2b98a",
+      "size": 15929,
+      "original_filename": "bg.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.json",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.json"
+      ]
+    },
+    {
+      "file": "bg.atlas",
+      "role": "atlas",
+      "sha256": "0f8e4c2d20244b8e181767f98cedb9751311dab9c25c403b4aace4065e380554",
+      "size": 357,
+      "original_filename": "bg.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.atlas",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.atlas"
+      ]
+    },
+    {
+      "file": "bg.png",
+      "role": "texture",
+      "sha256": "ae8c284092c6371df9578298ec99bf69321eacde4e8781505f40476fceb465cb",
+      "size": 765204,
+      "original_filename": "bg.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.ktx2",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.ktx2"
+      ],
+      "atlas_page": "bg.png"
+    }
+  ],
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.json",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.atlas",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.ktx2"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [
+    "atlas page \"bg.png\" was served as \"bg.ktx2\" (ktx2)"
+  ],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:02:07.335Z",
+  "sessions": [
+    "2026-10-02T20:15:48.095Z"
+  ],
+  "packaged_at": "2026-10-02T20:46:25.195Z"
+}

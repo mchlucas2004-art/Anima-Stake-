@@ -1,0 +1,242 @@
+{
+  "id": "sugar-rush-1000/package_002_volatility_indicator",
+  "package": "package_002_volatility_indicator",
+  "name": "volatility_indicator",
+  "game": "Sugar Rush 1000",
+  "game_slug": "sugar-rush-1000",
+  "provider": "Pragmatic Play",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "volatility_indicator.json",
+  "skeleton_version": "3.7.9.1",
+  "category": "ui",
+  "subtypes": [],
+  "tags": [
+    "ui",
+    "volatility",
+    "indicator"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "ui": 5.8,
+      "symbol": 4,
+      "effect": 0.8,
+      "character": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:indicator",
+      "anim:paytable",
+      "bone:text",
+      "bone:icon",
+      "region:icon"
+    ]
+  },
+  "animations": [
+    "volatility_high",
+    "volatility_high_paytable",
+    "volatility_low",
+    "volatility_low_paytable",
+    "volatility_mid",
+    "volatility_mid_paytable"
+  ],
+  "animation_details": [
+    {
+      "name": "volatility_high",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 7
+      }
+    },
+    {
+      "name": "volatility_high_paytable",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 8
+      }
+    },
+    {
+      "name": "volatility_low",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 8
+      }
+    },
+    {
+      "name": "volatility_low_paytable",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 9
+      }
+    },
+    {
+      "name": "volatility_mid",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 8
+      }
+    },
+    {
+      "name": "volatility_mid_paytable",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 9
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 9,
+  "slots_count": 14,
+  "bones": [
+    "root",
+    "bone_left",
+    "container_holder",
+    "low",
+    "mid",
+    "high",
+    "text",
+    "bone_right",
+    "text_holder"
+  ],
+  "slots": [
+    "container",
+    "container_holder",
+    "icon_lowvolatility",
+    "icon_lowvolatility_off",
+    "icon_lowvolatility_off2",
+    "icon_midvolatility",
+    "icon_midvolatility_off",
+    "icon_midvolatility_off2",
+    "icon_highvolatility",
+    "icon_highvolatility_off",
+    "icon_highvolatility_off2",
+    "icon_lowvolatility_glow",
+    "icon_midvolatility_glow",
+    "icon_highvolatility_glow"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 14,
+  "attachment_types": {
+    "region": 13,
+    "mesh": 1
+  },
+  "dimensions": {
+    "width": 880,
+    "height": 352
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "volatility_indicator.png",
+      "atlas": "volatility_indicator.atlas",
+      "file": "volatility_indicator.png",
+      "sha256": "abb715971f0a2745b2774f25b1a81a36508ed566127e8cb7ac434f84cc2fe75c",
+      "format": "png",
+      "width": 884,
+      "height": 546,
+      "atlas_size": [
+        884,
+        546
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "volatility_indicator.atlas",
+      "sha256": "5c43ff151e16f11c1b77409b8dae2f0096159ce63a41ffa6c6301bfcfad078bf",
+      "format": "spine-3/libgdx",
+      "pages": [
+        "volatility_indicator.png"
+      ],
+      "regions": 11,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 11/11 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "volatility_indicator.json",
+      "role": "skeleton",
+      "sha256": "114735256cc063758aa1035b792564e6264dd14564b10adb82723766d07f93cb",
+      "size": 11833,
+      "original_filename": "volatility_indicator.json",
+      "raw_path": "raw/_embedded/uht-b18755228c4a/volatility_indicator.json",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "b18755228c4a3fb4888af412b1ec00dc"
+      }
+    },
+    {
+      "file": "volatility_indicator.atlas",
+      "role": "atlas",
+      "sha256": "5c43ff151e16f11c1b77409b8dae2f0096159ce63a41ffa6c6301bfcfad078bf",
+      "size": 1311,
+      "original_filename": "volatility_indicator.atlas",
+      "raw_path": "raw/_embedded/uht-b18755228c4a/volatility_indicator.atlas",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "b18755228c4a3fb4888af412b1ec00dc"
+      }
+    },
+    {
+      "file": "volatility_indicator.png",
+      "role": "texture",
+      "sha256": "abb715971f0a2745b2774f25b1a81a36508ed566127e8cb7ac434f84cc2fe75c",
+      "size": 41833,
+      "original_filename": "volatility_indicator.png",
+      "raw_path": "raw/_embedded/uht-b18755228c4a/volatility_indicator.png",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "b18755228c4a3fb4888af412b1ec00dc"
+      },
+      "atlas_page": "volatility_indicator.png"
+    }
+  ],
+  "source_urls": [],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": null,
+  "sessions": [],
+  "packaged_at": "2026-10-02T15:45:20.442Z"
+}

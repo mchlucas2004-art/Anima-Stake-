@@ -1,0 +1,13 @@
+
+suru_banner_8.png
+size: 816,240
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+meter_shadow
+  rotate: false
+  xy: 0, 0
+  size: 814, 240
+  orig: 814, 240
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,51 @@
+{
+  "id": "wicked-grin/atlas_010_effects",
+  "game": "Wicked Grin",
+  "provider": "Hacksaw Gaming",
+  "atlas_file": "effects.atlas",
+  "sha256": "a504d7334504afbaa1d0504a9259aefea1ca85f96aecae8aad6dd14be0fbcfb8",
+  "format": "spine-3/libgdx",
+  "pages": [
+    {
+      "name": "effects.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "format": "RGBA8888",
+      "filter": "Linear, Linear",
+      "pma": null,
+      "scale": null,
+      "regions": 10
+    }
+  ],
+  "regions_count": 10,
+  "regions": [
+    "dust_512",
+    "grain_256",
+    "spark_1",
+    "spark_2",
+    "spark_diamond_1",
+    "spark_diamond_2",
+    "spark_mult_1",
+    "spark_mult_2",
+    "spark_silver_1",
+    "spark_silver_2"
+  ],
+  "textures": [
+    {
+      "page": "effects.png",
+      "file": "effects.ktx2",
+      "sha256": "3ac44fbb921313a905d05cd6f22c425b141a9d9dc5f314fa766d6d49bbffa502",
+      "width": 1024,
+      "height": 1024,
+      "size_match": true,
+      "match_method": "same_folder_variant"
+    }
+  ],
+  "note": "Atlas with no matching skeleton captured. Could be a plain sprite atlas, or its skeleton was never loaded during the session.",
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/effects.atlas"
+  ],
+  "detected_at": "2026-10-02T20:02:07.307Z"
+}

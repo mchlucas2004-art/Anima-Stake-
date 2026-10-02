@@ -1,0 +1,330 @@
+{
+  "id": "odin-s-vault/package_028_bg_freegame1",
+  "package": "package_028_bg_freegame1",
+  "name": "bg_freegame1",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "bg_freegame1.json",
+  "skeleton_version": "4.2.43",
+  "category": "background",
+  "subtypes": [
+    "idle",
+    "background_loop"
+  ],
+  "tags": [
+    "background",
+    "idle",
+    "background_loop",
+    "bg",
+    "freegame",
+    "spines"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "background": 9.8,
+      "effect": 2.9,
+      "character": 0,
+      "symbol": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:bg",
+      "name:background",
+      "name:freegame",
+      "bone:bg",
+      "region:bg"
+    ]
+  },
+  "animations": [
+    "idle"
+  ],
+  "animation_details": [
+    {
+      "name": "idle",
+      "duration": 10,
+      "timelines": {
+        "bones": 50,
+        "slots": 10,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 57,
+  "slots_count": 61,
+  "bones": [
+    "root",
+    "BG",
+    "fire-bowler-l-glow",
+    "fire-bowler-r-glow",
+    "rays_all",
+    "rays",
+    "rays2",
+    "rays3",
+    "atmosphere_light_1",
+    "glare_all",
+    "glare-40",
+    "glare-39",
+    "glare-38",
+    "glare-37",
+    "glare-36",
+    "glare-35",
+    "glare-34",
+    "glare-33",
+    "glare-32",
+    "glare-31",
+    "glare-30",
+    "glare-29",
+    "glare-28",
+    "glare-27",
+    "glare-26",
+    "glare-25",
+    "glare-24",
+    "glare-23",
+    "glare-22",
+    "glare-21",
+    "glare-20",
+    "glare-19",
+    "glare-18",
+    "glare-17",
+    "glare-16",
+    "glare-15",
+    "glare-14",
+    "glare-13",
+    "glare-12",
+    "glare-11",
+    "glare-10",
+    "glare-9",
+    "glare-8",
+    "glare-7",
+    "glare-6",
+    "glare-5",
+    "glare-4",
+    "glare-3",
+    "glare-2",
+    "glare-1",
+    "rays_all2",
+    "rays4",
+    "rays5",
+    "rays6",
+    "atmosphere_light_2",
+    "fx_fireL",
+    "fx_fireR"
+  ],
+  "slots": [
+    "clip",
+    "BG",
+    "fire-bowler-l-glow",
+    "back_elementsL",
+    "fx_fireL",
+    "front_elementL",
+    "fire-bowler-r-glow",
+    "back_elementsR",
+    "fx_fireR2",
+    "front_elementR",
+    "BG_front",
+    "rays",
+    "rays4",
+    "rays2",
+    "rays5",
+    "rays3",
+    "rays6",
+    "glare-40",
+    "glare-39",
+    "glare-38",
+    "glare-37",
+    "glare-36",
+    "glare-35",
+    "glare-34",
+    "glare-33",
+    "glare-32",
+    "glare-31",
+    "glare-30",
+    "glare-29",
+    "glare-28",
+    "glare-27",
+    "glare-26",
+    "glare-25",
+    "glare-24",
+    "glare-23",
+    "glare-22",
+    "glare-21",
+    "glare-20",
+    "glare-19",
+    "glare-18",
+    "glare-17",
+    "glare-16",
+    "glare-15",
+    "glare-14",
+    "glare-13",
+    "glare-12",
+    "glare-11",
+    "glare-10",
+    "glare-9",
+    "glare-8",
+    "glare-7",
+    "glare-6",
+    "glare-5",
+    "glare-4",
+    "glare-3",
+    "glare-2",
+    "glare-1",
+    "atmosphere_light_2",
+    "atmosphere_light_add",
+    "atmosphere_light_1",
+    "atmosphere_light_3"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 59,
+  "attachment_types": {
+    "region": 13,
+    "mesh": 46
+  },
+  "dimensions": {
+    "width": 2056.53,
+    "height": 2050.89
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "bg_freegame1.webp",
+      "atlas": "bg_freegame1.atlas",
+      "file": "bg_freegame1.webp",
+      "sha256": "15ee90b184d4cdfce8889be82121fde7d886bf749b4ef59c46ed3f38333f1462",
+      "format": "webp",
+      "width": 2046,
+      "height": 1164,
+      "atlas_size": [
+        2046,
+        1164
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "bg_freegame1_2.webp",
+      "atlas": "bg_freegame1.atlas",
+      "file": "bg_freegame1_2.webp",
+      "sha256": "52dce89c5b5863432ab650831581511dbd48e5f53370ed9ca3c3351dd9c0a8e9",
+      "format": "webp",
+      "width": 1989,
+      "height": 1860,
+      "atlas_size": [
+        1989,
+        1860
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "bg_freegame1.atlas",
+      "sha256": "5950cadf82a14d3426d8116033c87bafaeb7fc9f67b6c154bba9125f1265989d",
+      "format": "spine-4",
+      "pages": [
+        "bg_freegame1.webp",
+        "bg_freegame1_2.webp"
+      ],
+      "regions": 17,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 17/17 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "bg_freegame1.json",
+      "role": "skeleton",
+      "sha256": "4ec0cded4cf346ce33242ea5098a4346fc52643440a2fd403a6c14f8cae2b661",
+      "size": 69818,
+      "original_filename": "bg_freegame1.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.json"
+      ]
+    },
+    {
+      "file": "bg_freegame1.atlas",
+      "role": "atlas",
+      "sha256": "5950cadf82a14d3426d8116033c87bafaeb7fc9f67b6c154bba9125f1265989d",
+      "size": 1125,
+      "original_filename": "bg_freegame1.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.atlas"
+      ]
+    },
+    {
+      "file": "bg_freegame1.webp",
+      "role": "texture",
+      "sha256": "15ee90b184d4cdfce8889be82121fde7d886bf749b4ef59c46ed3f38333f1462",
+      "size": 285060,
+      "original_filename": "bg_freegame1.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.webp"
+      ],
+      "atlas_page": "bg_freegame1.webp"
+    },
+    {
+      "file": "bg_freegame1_2.webp",
+      "role": "texture",
+      "sha256": "52dce89c5b5863432ab650831581511dbd48e5f53370ed9ca3c3351dd9c0a8e9",
+      "size": 355236,
+      "original_filename": "bg_freegame1_2.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1_2.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1_2.webp"
+      ],
+      "atlas_page": "bg_freegame1_2.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.webp",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1_2.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "2/2",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.531Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

@@ -1,0 +1,212 @@
+{
+  "id": "sugar-rush-1000/package_008_suru_basegame_6",
+  "package": "package_008_suru_basegame_6",
+  "name": "suru_basegame_6",
+  "game": "Sugar Rush 1000",
+  "game_slug": "sugar-rush-1000",
+  "provider": "Pragmatic Play",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "suru_basegame_6.json",
+  "skeleton_version": "3.7.91",
+  "category": "background",
+  "subtypes": [],
+  "tags": [
+    "background",
+    "suru",
+    "basegame"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "background": 4.5,
+      "ui": 0.5,
+      "character": 0,
+      "symbol": 0,
+      "effect": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:basegame",
+      "anim:basegame"
+    ]
+  },
+  "animations": [
+    "suru_basegame"
+  ],
+  "animation_details": [
+    {
+      "name": "suru_basegame",
+      "duration": 6,
+      "timelines": {
+        "bones": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 3,
+  "slots_count": 3,
+  "bones": [
+    "root",
+    "right_frame",
+    "fan_left2"
+  ],
+  "slots": [
+    "fan_fame_q2",
+    "fan_wings2",
+    "fan_fame2"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 3,
+  "attachment_types": {
+    "region": 3
+  },
+  "dimensions": {
+    "width": 1355.47,
+    "height": 52
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "suru_basegame_6.png",
+      "atlas": "suru_basegame_6.atlas",
+      "file": "suru_basegame_6.png",
+      "sha256": "e61e75ebb32ae519b1f4345a0d942ead7a5b230de5b9dcd6cf137f6baae33535",
+      "format": "png",
+      "width": 140,
+      "height": 52,
+      "atlas_size": [
+        140,
+        52
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "suru_basegame_6.atlas",
+      "sha256": "6773980b4118395a9435530c86a9f381e6888c07ac9b2261007f63780d78bac8",
+      "format": "spine-3/libgdx",
+      "pages": [
+        "suru_basegame_6.png"
+      ],
+      "regions": 3,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 3/3 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [
+    {
+      "raw_path": "raw/_embedded/uht-d9592c4fbd28/suru_1000_basegame.atlas",
+      "sha256": "04c73002ab16cf2a84f955ce650aaff9a51775b3b6d8c8226e985d9ef835d298",
+      "coverage": 1,
+      "evidence": [
+        "regions 3/3 (100% of skeleton)",
+        "loaded 0ms apart"
+      ]
+    },
+    {
+      "raw_path": "raw/_embedded/uht-e87bde600d97/suru_1000_freegame.atlas",
+      "sha256": "3dbf646c7de8e4f744ec8647543ee714154ce234226046c4ab1aed17945587a9",
+      "coverage": 1,
+      "evidence": [
+        "regions 3/3 (100% of skeleton)",
+        "loaded 0ms apart"
+      ]
+    },
+    {
+      "raw_path": "raw/_embedded/uht-2e7687dda3be/suru_freegame_6.atlas",
+      "sha256": "ea5e117ec6989d309490c886255c8bbad02328c3d7421944a8d7127b3111db88",
+      "coverage": 1,
+      "evidence": [
+        "regions 3/3 (100% of skeleton)",
+        "loaded 0ms apart"
+      ]
+    },
+    {
+      "raw_path": "raw/_embedded/uht-eda042d1f0b1/suru_1000_super_freegame.atlas",
+      "sha256": "613a10f9f49ecee582f3bef1d99599e8ed1564cb60f33e09666919e674e81c9f",
+      "coverage": 1,
+      "evidence": [
+        "regions 3/3 (100% of skeleton)",
+        "loaded 0ms apart"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "suru_basegame_6.json",
+      "role": "skeleton",
+      "sha256": "08c88454ec93a722127d8a87af807ff8a918ca44b67d14b7a9f77a041f3c3003",
+      "size": 1086,
+      "original_filename": "suru_basegame_6.json",
+      "raw_path": "raw/_embedded/uht-b58d7593d6a7/suru_basegame_6.json",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "b58d7593d6a77fd43bda29e400629202"
+      }
+    },
+    {
+      "file": "suru_basegame_6.atlas",
+      "role": "atlas",
+      "sha256": "6773980b4118395a9435530c86a9f381e6888c07ac9b2261007f63780d78bac8",
+      "size": 371,
+      "original_filename": "suru_basegame_6.atlas",
+      "raw_path": "raw/_embedded/uht-b58d7593d6a7/suru_basegame_6.atlas",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "b58d7593d6a77fd43bda29e400629202"
+      }
+    },
+    {
+      "file": "suru_basegame_6.png",
+      "role": "texture",
+      "sha256": "e61e75ebb32ae519b1f4345a0d942ead7a5b230de5b9dcd6cf137f6baae33535",
+      "size": 4815,
+      "original_filename": "suru_basegame_6.png",
+      "raw_path": "raw/_embedded/uht-b58d7593d6a7/suru_basegame_6.png",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "b58d7593d6a77fd43bda29e400629202"
+      },
+      "atlas_page": "suru_basegame_6.png"
+    }
+  ],
+  "source_urls": [],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": null,
+  "sessions": [],
+  "packaged_at": "2026-10-02T15:45:20.442Z"
+}

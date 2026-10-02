@@ -1,0 +1,52 @@
+{
+  "id": "wicked-grin/atlas_018_digits_tv_yellow",
+  "game": "Wicked Grin",
+  "provider": "Hacksaw Gaming",
+  "atlas_file": "digits_tv_yellow.atlas",
+  "sha256": "d6a5d53e47576890ead7fc1b52f17c321de3f1162b033138026ba2f317565378",
+  "format": "spine-3/libgdx",
+  "pages": [
+    {
+      "name": "digits_tv_yellow.png",
+      "size": [
+        512,
+        512
+      ],
+      "format": "RGBA8888",
+      "filter": "Linear, Linear",
+      "pma": null,
+      "scale": null,
+      "regions": 11
+    }
+  ],
+  "regions_count": 11,
+  "regions": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "x"
+  ],
+  "textures": [
+    {
+      "page": "digits_tv_yellow.png",
+      "file": "digits_tv_yellow.ktx2",
+      "sha256": "b4c0f242b07daf2916f1e3e339afdb58cf2403ee246e8ceae71cc9f1add91fd7",
+      "width": 512,
+      "height": 512,
+      "size_match": true,
+      "match_method": "same_folder_variant"
+    }
+  ],
+  "note": "Atlas with no matching skeleton captured. Could be a plain sprite atlas, or its skeleton was never loaded during the session.",
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/digits_tv_yellow.atlas"
+  ],
+  "detected_at": "2026-10-02T20:02:07.326Z"
+}

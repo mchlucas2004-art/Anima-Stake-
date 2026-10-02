@@ -1,0 +1,229 @@
+{
+  "generated_at": "2026-10-02T20:48:26.186Z",
+  "count": 8,
+  "games": [
+    {
+      "game": "Beasts",
+      "slug": "beasts",
+      "provider": "Unknown",
+      "path": "games/beasts",
+      "game_urls": [
+        "https://stake.com/fr/casino/games/scatterbraingames-beasts"
+      ],
+      "status": "complete",
+      "updated_at": "2026-10-02T20:14:51.976Z",
+      "stats": {
+        "network_requests_total": 1315,
+        "resources_unique": 268,
+        "images": 257,
+        "json_candidates": 11,
+        "atlases": 0,
+        "skeletons": 0,
+        "spine_packages": 0,
+        "complete_packages": 0,
+        "incomplete_packages": 0,
+        "new_packages": 0,
+        "atlas_only": 0,
+        "spritesheets": 4,
+        "unclassified": 0,
+        "errors": 0
+      },
+      "sessions": 1
+    },
+    {
+      "game": "Interrogator",
+      "slug": "interrogator",
+      "provider": "Unknown",
+      "path": "games/interrogator",
+      "game_urls": [],
+      "status": "complete",
+      "updated_at": "2026-10-02T15:25:47.076Z",
+      "stats": {
+        "network_requests_total": 4348,
+        "resources_unique": 176,
+        "images": 123,
+        "json_candidates": 28,
+        "atlases": 25,
+        "skeletons": 26,
+        "spine_packages": 26,
+        "complete_packages": 25,
+        "incomplete_packages": 1,
+        "new_packages": 26,
+        "atlas_only": 0,
+        "spritesheets": 0,
+        "unclassified": 0,
+        "errors": 0
+      },
+      "sessions": 1
+    },
+    {
+      "game": "Odin's-Vault",
+      "slug": "odin-s-vault",
+      "provider": "Unknown",
+      "path": "games/odin-s-vault",
+      "game_urls": [
+        "https://stake.com/fr/casino/games/valkyrie-odins-vault"
+      ],
+      "status": "complete",
+      "updated_at": "2026-10-02T20:15:02.868Z",
+      "stats": {
+        "network_requests_total": 1226,
+        "resources_unique": 248,
+        "images": 156,
+        "json_candidates": 58,
+        "atlases": 34,
+        "skeletons": 47,
+        "spine_packages": 47,
+        "complete_packages": 47,
+        "incomplete_packages": 0,
+        "new_packages": 47,
+        "atlas_only": 0,
+        "spritesheets": 3,
+        "unclassified": 0,
+        "errors": 0
+      },
+      "sessions": 1
+    },
+    {
+      "game": "Rage-Quite2",
+      "slug": "rage-quite2",
+      "provider": "Unknown",
+      "path": "games/rage-quite2",
+      "game_urls": [
+        "https://stake.com/fr/casino/games/metagaming-rage-quit-2"
+      ],
+      "status": "complete",
+      "updated_at": "2026-10-02T20:48:19.178Z",
+      "stats": {
+        "network_requests_total": 1093,
+        "resources_unique": 107,
+        "images": 83,
+        "json_candidates": 22,
+        "atlases": 2,
+        "skeletons": 15,
+        "spine_packages": 15,
+        "complete_packages": 15,
+        "incomplete_packages": 0,
+        "new_packages": 0,
+        "atlas_only": 0,
+        "spritesheets": 1,
+        "unclassified": 2,
+        "errors": 0
+      },
+      "sessions": 1
+    },
+    {
+      "game": "Red-Robin",
+      "slug": "red-robin",
+      "provider": "Paperclip Gaming",
+      "path": "games/red-robin",
+      "game_urls": [
+        "https://stake.com/fr/casino/games/paperclip-red-robin"
+      ],
+      "status": "complete",
+      "updated_at": "2026-10-02T20:15:11.220Z",
+      "stats": {
+        "network_requests_total": 949,
+        "resources_unique": 49,
+        "images": 36,
+        "json_candidates": 8,
+        "atlases": 1,
+        "skeletons": 4,
+        "spine_packages": 4,
+        "complete_packages": 0,
+        "incomplete_packages": 4,
+        "new_packages": 4,
+        "atlas_only": 0,
+        "spritesheets": 0,
+        "unclassified": 2,
+        "errors": 0
+      },
+      "sessions": 1
+    },
+    {
+      "game": "Spin-reaper-winsafe",
+      "slug": "spin-reaper-winsafe",
+      "provider": "Unknown",
+      "path": "games/spin-reaper-winsafe",
+      "game_urls": [
+        "https://stake.com/fr/casino/games/metagaming-rage-quit-2",
+        "https://stake.com/fr/casino/games/twist-gaming-spin-reaper-winsafe"
+      ],
+      "status": "complete",
+      "updated_at": "2026-10-02T20:48:22.950Z",
+      "stats": {
+        "network_requests_total": 3058,
+        "resources_unique": 512,
+        "images": 432,
+        "json_candidates": 65,
+        "atlases": 15,
+        "skeletons": 29,
+        "spine_packages": 29,
+        "complete_packages": 29,
+        "incomplete_packages": 0,
+        "new_packages": 0,
+        "atlas_only": 0,
+        "spritesheets": 6,
+        "unclassified": 6,
+        "errors": 0
+      },
+      "sessions": 1
+    },
+    {
+      "game": "Sugar Rush 1000",
+      "slug": "sugar-rush-1000",
+      "provider": "Pragmatic Play",
+      "path": "games/sugar-rush-1000",
+      "game_urls": [
+        "https://stake.com/fr/casino/games/pragmatic-play-sugar-rush-1000"
+      ],
+      "status": "complete",
+      "updated_at": "2026-10-02T15:45:20.442Z",
+      "stats": {
+        "network_requests_total": 1966,
+        "resources_unique": 317,
+        "images": 133,
+        "json_candidates": 87,
+        "atlases": 63,
+        "skeletons": 63,
+        "spine_packages": 63,
+        "complete_packages": 63,
+        "incomplete_packages": 0,
+        "new_packages": 0,
+        "atlas_only": 0,
+        "spritesheets": 0,
+        "unclassified": 0,
+        "errors": 0
+      },
+      "sessions": 1
+    },
+    {
+      "game": "Wicked Grin",
+      "slug": "wicked-grin",
+      "provider": "Hacksaw Gaming",
+      "path": "games/wicked-grin",
+      "game_urls": [
+        "https://stake.com/fr/casino/games/hacksaw-wicked-grin"
+      ],
+      "status": "complete",
+      "updated_at": "2026-10-02T20:46:25.195Z",
+      "stats": {
+        "network_requests_total": 1243,
+        "resources_unique": 121,
+        "images": 72,
+        "json_candidates": 24,
+        "atlases": 25,
+        "skeletons": 6,
+        "spine_packages": 6,
+        "complete_packages": 6,
+        "incomplete_packages": 0,
+        "new_packages": 0,
+        "atlas_only": 19,
+        "spritesheets": 0,
+        "unclassified": 2,
+        "errors": 0
+      },
+      "sessions": 1
+    }
+  ]
+}

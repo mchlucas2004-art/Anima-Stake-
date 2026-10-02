@@ -1,0 +1,298 @@
+{
+  "id": "sugar-rush-1000/package_062_suru_big_win_2",
+  "package": "package_062_suru_big_win_2",
+  "name": "suru_big_win_2",
+  "game": "Sugar Rush 1000",
+  "game_slug": "sugar-rush-1000",
+  "provider": "Pragmatic Play",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "suru_big_win_2.json",
+  "skeleton_version": "3.7.91",
+  "category": "effect",
+  "subtypes": [
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win"
+  ],
+  "tags": [
+    "effect",
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win",
+    "suru",
+    "big",
+    "bigwin"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "effect": 10.3,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:bigwin",
+      "bone:star",
+      "bone:stars",
+      "region:star",
+      "win-celebration:bigwin"
+    ]
+  },
+  "animations": [
+    "mega_in",
+    "mega_loop",
+    "mega_out",
+    "nice_in",
+    "nice_loop",
+    "nice_out",
+    "sesnational_in",
+    "sesnational_loop",
+    "sesnational_out",
+    "superb_in",
+    "superb_loop",
+    "superb_out"
+  ],
+  "animation_details": [
+    {
+      "name": "mega_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 4,
+        "deform": 1
+      }
+    },
+    {
+      "name": "mega_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "mega_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 4,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 4,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 4,
+        "deform": 1
+      }
+    },
+    {
+      "name": "sesnational_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 4
+      }
+    },
+    {
+      "name": "sesnational_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3
+      }
+    },
+    {
+      "name": "sesnational_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 4
+      }
+    },
+    {
+      "name": "superb_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 4,
+        "deform": 1
+      }
+    },
+    {
+      "name": "superb_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "superb_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 4,
+        "deform": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 5,
+  "slots_count": 4,
+  "bones": [
+    "root",
+    "sensational",
+    "numbers",
+    "stars",
+    "big_star"
+  ],
+  "slots": [
+    "left_star_motion",
+    "left_star",
+    "right_star_motion",
+    "right_star"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 4,
+  "attachment_types": {
+    "mesh": 4
+  },
+  "dimensions": {
+    "width": 1552,
+    "height": 251
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "suru_big_win_2.png",
+      "atlas": "suru_big_win_2.atlas",
+      "file": "suru_big_win_2.png",
+      "sha256": "fede157a810964e7c1290ce1b0b1143b86f5a37c01bc0373f75112bdbf6a891b",
+      "format": "png",
+      "width": 772,
+      "height": 250,
+      "atlas_size": [
+        772,
+        250
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "suru_big_win_2.atlas",
+      "sha256": "11f5c9c1c118fa2089c14eeb15f92df59b0dce9b8b887f2311163a394741c6f2",
+      "format": "spine-3/libgdx",
+      "pages": [
+        "suru_big_win_2.png"
+      ],
+      "regions": 4,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 4/4 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "suru_big_win_2.json",
+      "role": "skeleton",
+      "sha256": "4370104caf3db77580d1fd3f49c922f793e9803c0193851c2c7cb1b2ed7538e6",
+      "size": 19925,
+      "original_filename": "suru_big_win_2.json",
+      "raw_path": "raw/_embedded/uht-c259bc64d694/suru_big_win_2.json",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "c259bc64d694e3644b29a88e60453ae8"
+      }
+    },
+    {
+      "file": "suru_big_win_2.atlas",
+      "role": "atlas",
+      "sha256": "11f5c9c1c118fa2089c14eeb15f92df59b0dce9b8b887f2311163a394741c6f2",
+      "size": 501,
+      "original_filename": "suru_big_win_2.atlas",
+      "raw_path": "raw/_embedded/uht-c259bc64d694/suru_big_win_2.atlas",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "c259bc64d694e3644b29a88e60453ae8"
+      }
+    },
+    {
+      "file": "suru_big_win_2.png",
+      "role": "texture",
+      "sha256": "fede157a810964e7c1290ce1b0b1143b86f5a37c01bc0373f75112bdbf6a891b",
+      "size": 29311,
+      "original_filename": "suru_big_win_2.png",
+      "raw_path": "raw/_embedded/uht-c259bc64d694/suru_big_win_2.png",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "c259bc64d694e3644b29a88e60453ae8"
+      },
+      "atlas_page": "suru_big_win_2.png"
+    }
+  ],
+  "source_urls": [],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": null,
+  "sessions": [],
+  "packaged_at": "2026-10-02T15:45:20.442Z"
+}

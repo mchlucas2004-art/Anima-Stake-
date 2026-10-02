@@ -1,0 +1,247 @@
+{
+  "id": "interrogator/package_007_regular-tooth-ev-m",
+  "package": "package_007_regular-tooth-ev-m",
+  "name": "regular-tooth-ev-m",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "regular-tooth-ev-m.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "win",
+    "land",
+    "symbol_win"
+  ],
+  "tags": [
+    "symbol",
+    "win",
+    "land",
+    "symbol_win",
+    "regular",
+    "tooth",
+    "ev",
+    "symbols"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "symbol": 5,
+      "character": 0,
+      "effect": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:symbols",
+      "anims:land+win"
+    ]
+  },
+  "animations": [
+    "land",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 7,
+        "events": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.3,
+      "timelines": {
+        "bones": 16,
+        "slots": 5,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [
+    "land",
+    "win_impact"
+  ],
+  "bones_count": 18,
+  "slots_count": 6,
+  "bones": [
+    "root",
+    "sway",
+    "bag_top",
+    "bag_left",
+    "bag_right",
+    "bag_bottom",
+    "tooth",
+    "tooth_tip",
+    "zip_back_0",
+    "zip_back_1",
+    "zip_back_2",
+    "zip_back_3",
+    "zip_back_4",
+    "zip_front_0",
+    "zip_front_1",
+    "zip_front_2",
+    "zip_front_3",
+    "zip_front_4"
+  ],
+  "slots": [
+    "bag_mouth",
+    "seal_back",
+    "plastic",
+    "tooth",
+    "reflections",
+    "seal"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 9,
+  "attachment_types": {
+    "mesh": 9
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "regular-tooth-ev-m.png",
+      "atlas": "regular-tooth-ev-m.atlas",
+      "file": "regular-tooth-ev-m.png",
+      "sha256": "ba2330bae268642ac0c6ee0da880826de93b0cffe41776ad47bb1972c7e53f96",
+      "format": "png",
+      "width": 1489,
+      "height": 1542,
+      "atlas_size": [
+        1489,
+        1542
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "evidence-g.png",
+      "atlas": "regular-tooth-ev-m.atlas",
+      "file": "evidence-g.png",
+      "sha256": "147d5f8b85c70b0356f673e9efce8cd3531dbec772c57e1b927f2cbd3768f0a0",
+      "format": "png",
+      "width": 726,
+      "height": 845,
+      "atlas_size": [
+        726,
+        845
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "regular-tooth-ev-m.atlas",
+      "sha256": "19f2ab315d1b010fbc73cf79c912a3caa290e66e0cb035830936680dbe0c0a33",
+      "format": "spine-4",
+      "pages": [
+        "regular-tooth-ev-m.png",
+        "evidence-g.png"
+      ],
+      "regions": 7,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 6/6 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "regular-tooth-ev-m.json",
+      "role": "skeleton",
+      "sha256": "259a97cb9a6baf6e8aee3064f32116d35fc1217237cd7d378d542c31bbc03cf0",
+      "size": 381950,
+      "original_filename": "regular-tooth-ev-m.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.json"
+      ]
+    },
+    {
+      "file": "regular-tooth-ev-m.atlas",
+      "role": "atlas",
+      "sha256": "19f2ab315d1b010fbc73cf79c912a3caa290e66e0cb035830936680dbe0c0a33",
+      "size": 379,
+      "original_filename": "regular-tooth-ev-m.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.atlas"
+      ]
+    },
+    {
+      "file": "regular-tooth-ev-m.png",
+      "role": "texture",
+      "sha256": "ba2330bae268642ac0c6ee0da880826de93b0cffe41776ad47bb1972c7e53f96",
+      "size": 923804,
+      "original_filename": "regular-tooth-ev-m.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.png"
+      ],
+      "atlas_page": "regular-tooth-ev-m.png"
+    },
+    {
+      "file": "evidence-g.png",
+      "role": "texture",
+      "sha256": "147d5f8b85c70b0356f673e9efce8cd3531dbec772c57e1b927f2cbd3768f0a0",
+      "size": 438562,
+      "original_filename": "evidence-g.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/evidence-g.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/evidence-g.png"
+      ],
+      "atlas_page": "evidence-g.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/evidence-g.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "2/2",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:35.518Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

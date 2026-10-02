@@ -1,0 +1,58 @@
+{
+ "id": "creations/halloween/apple",
+ "package": "apple",
+ "name": "apple",
+ "label": "Pomme d'amour",
+ "game": "Halloween (créations)",
+ "game_slug": "halloween",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "apple.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "low_pay",
+  "land",
+  "idle",
+  "win",
+  "exit"
+ ],
+ "tier": "low",
+ "rank": null,
+ "animations": [
+  "idle",
+  "land",
+  "win",
+  "exit"
+ ],
+ "events": [
+  "land",
+  "win",
+  "pop"
+ ],
+ "bones_count": 19,
+ "slots_count": 14,
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "apple.atlas",
+   "pages": [
+    "apple.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "apple.png",
+   "page": "apple.png",
+   "width": 2048,
+   "height": 512,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/L3_apple.png"
+}

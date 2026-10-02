@@ -1,0 +1,230 @@
+{
+  "id": "sugar-rush-1000/package_028_suru_pic03_purple",
+  "package": "package_028_suru_pic03_purple",
+  "name": "suru_pic03_purple",
+  "game": "Sugar Rush 1000",
+  "game_slug": "sugar-rush-1000",
+  "provider": "Pragmatic Play",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "suru_pic03_purple.json",
+  "skeleton_version": "3.7.91",
+  "category": "symbol",
+  "subtypes": [],
+  "tags": [
+    "symbol",
+    "suru",
+    "pic",
+    "purple"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "symbol": 5.3,
+      "effect": 1.3,
+      "character": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:pic",
+      "anim:pic",
+      "bone:candy",
+      "region:candy"
+    ]
+  },
+  "animations": [
+    "suru_pic03_purple"
+  ],
+  "animation_details": [
+    {
+      "name": "suru_pic03_purple",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 4
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 5,
+  "slots_count": 6,
+  "bones": [
+    "root",
+    "main",
+    "shadow",
+    "splash",
+    "splash2"
+  ],
+  "slots": [
+    "shadow",
+    "spalsh_0",
+    "candy",
+    "candy2",
+    "particles",
+    "spalsh_00000"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 44,
+  "attachment_types": {
+    "region": 44
+  },
+  "dimensions": {
+    "width": 127.65,
+    "height": 92.07
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "suru_pic03_purple.png",
+      "atlas": "suru_pic03_purple.atlas",
+      "file": "suru_pic03_purple.png",
+      "sha256": "c501e9d8f1793fc0149f1524f174e1396353f435ae76468d072202b09523166b",
+      "format": "png",
+      "width": 364,
+      "height": 110,
+      "atlas_size": [
+        364,
+        110
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "suru_pic03_purple.atlas",
+      "sha256": "6fa578c54809ed261a4c398ad03134b9205b88bd3d83cc81be140cfa2e1d2fc6",
+      "format": "spine-3/libgdx",
+      "pages": [
+        "suru_pic03_purple.png"
+      ],
+      "regions": 23,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 23/23 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [
+    {
+      "raw_path": "raw/_embedded/uht-9e8d56a9b3a7/suru_pic01_magenta.atlas",
+      "sha256": "d9f6938c8e44125b8e7f705afbc9f272ea67df636e7354b0d4acd12c11531fd4",
+      "coverage": 1,
+      "evidence": [
+        "regions 23/23 (100% of skeleton)",
+        "loaded 0ms apart"
+      ]
+    },
+    {
+      "raw_path": "raw/_embedded/uht-c0429779f6f8/suru_pic02_orange.atlas",
+      "sha256": "65ece943774474726449ebc67bfbf171927fa80616b6279e7dd6115edcf4638e",
+      "coverage": 0.9565217391304348,
+      "evidence": [
+        "regions 22/23 (96% of skeleton)",
+        "loaded 0ms apart"
+      ]
+    },
+    {
+      "raw_path": "raw/_embedded/uht-0cebe9b983d0/suru_pic06_purple_gummy.atlas",
+      "sha256": "5b6798f46e40f82c48030783ec7fb1cdd101656ffeb9a324f55201adc751ee7a",
+      "coverage": 0.9130434782608695,
+      "evidence": [
+        "regions 21/23 (91% of skeleton)",
+        "loaded 0ms apart"
+      ]
+    },
+    {
+      "raw_path": "raw/_embedded/uht-956615ceec9f/suru_pic07_yellow_gummy.atlas",
+      "sha256": "9d68ef812489aea73e74d771715e1bcb41a43c44ef39bea3aa134fd9fb38ca52",
+      "coverage": 0.9130434782608695,
+      "evidence": [
+        "regions 21/23 (91% of skeleton)",
+        "loaded 0ms apart"
+      ]
+    },
+    {
+      "raw_path": "raw/_embedded/uht-2d12201969b2/suru_pic08_blue_gummy.atlas",
+      "sha256": "5cb4b5c0aa9be96c27895377107454d04d2fee024c241c6e3e6cf0e99c0978d0",
+      "coverage": 0.9130434782608695,
+      "evidence": [
+        "regions 21/23 (91% of skeleton)",
+        "loaded 0ms apart"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "suru_pic03_purple.json",
+      "role": "skeleton",
+      "sha256": "a6537df467ff93b9f1b46817b88054123c5381066d915fdab4e6501645f3c28e",
+      "size": 7849,
+      "original_filename": "suru_pic03_purple.json",
+      "raw_path": "raw/_embedded/uht-359062262069/suru_pic03_purple.json",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "35906226206974c40993f63b97cde077"
+      }
+    },
+    {
+      "file": "suru_pic03_purple.atlas",
+      "role": "atlas",
+      "sha256": "6fa578c54809ed261a4c398ad03134b9205b88bd3d83cc81be140cfa2e1d2fc6",
+      "size": 2358,
+      "original_filename": "suru_pic03_purple.atlas",
+      "raw_path": "raw/_embedded/uht-359062262069/suru_pic03_purple.atlas",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "35906226206974c40993f63b97cde077"
+      }
+    },
+    {
+      "file": "suru_pic03_purple.png",
+      "role": "texture",
+      "sha256": "c501e9d8f1793fc0149f1524f174e1396353f435ae76468d072202b09523166b",
+      "size": 9416,
+      "original_filename": "suru_pic03_purple.png",
+      "raw_path": "raw/_embedded/uht-359062262069/suru_pic03_purple.png",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "35906226206974c40993f63b97cde077"
+      },
+      "atlas_page": "suru_pic03_purple.png"
+    }
+  ],
+  "source_urls": [],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": null,
+  "sessions": [],
+  "packaged_at": "2026-10-02T15:45:20.442Z"
+}

@@ -1,0 +1,21 @@
+{
+  "game": {
+    "BETLABEL": "Bet",
+    "CASHED": "Cashed",
+    "INACTIVITY_PAUSE": "Inactivity pause",
+    "LOBBY_MINIPLAY_ADD_ROUNDS": "Add rounds",
+    "LOBBY_MINIPLAY_ADD_SPINS": "Add spins",
+    "LOBBY_MINIPLAY_DECISION_REQUIRED": "Decision required",
+    "LOBBY_MINIPLAY_LAST_BET": "Last bet",
+    "LOBBY_MINIPLAY_NEW_NOTIFICATION": "New notification",
+    "LOBBY_MINIPLAY_ROUNDS_COUNT": "{0} rounds",
+    "LOBBY_MINIPLAY_SPINS_COUNT": "{0} spins",
+    "LOBBY_MINIPLAY_START_AUTOPLAY": "Start Autoplay",
+    "LOBBY_MINIPLAY_TAP_TO_PLAY": "Tap to Play",
+    "LOBBY_NOW_PLAYING": "Now playing",
+    "RECONNECT": "Reconnect",
+    "SESSION_TIMED_OUT": "Your session timed out",
+    "STOP_AUTOPLAY": "Stop Autoplay",
+    "WIN": "Win"
+  }
+}

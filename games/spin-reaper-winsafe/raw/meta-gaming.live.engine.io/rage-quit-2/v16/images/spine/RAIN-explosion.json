@@ -1,0 +1,125 @@
+{
+"skeleton": { "hash": "lVmXJtja8Pk", "spine": "4.2.43", "images": "./images/", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx-line-epl_01", "parent": "root" },
+	{ "name": "fx-explosion-pixel_00", "parent": "root" },
+	{ "name": "fx-line-epl_02", "parent": "root" }
+],
+"slots": [
+	{ "name": "fx-line-epl_01", "bone": "fx-line-epl_01", "blend": "additive" },
+	{ "name": "fx-line-epl_02", "bone": "fx-line-epl_02", "blend": "additive" },
+	{ "name": "fx-explosion-pixel_00", "bone": "fx-explosion-pixel_00", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fx-explosion-pixel_00": {
+				"fx-explosion-pixel_": {
+					"width": 500,
+					"height": 500,
+					"sequence": { "count": 17, "start": 0, "digits": 2, "setup": 1 }
+				}
+			},
+			"fx-line-epl_01": {
+				"fx-line-epl_": {
+					"scaleX": 1.9898,
+					"scaleY": 1.9898,
+					"width": 440,
+					"height": 440,
+					"sequence": { "count": 12, "start": 0, "digits": 2, "setup": 1 }
+				}
+			},
+			"fx-line-epl_02": {
+				"fx-line-epl_": {
+					"scaleX": 1.9898,
+					"scaleY": 1.9898,
+					"width": 440,
+					"height": 440,
+					"sequence": { "count": 12, "start": 0, "digits": 2, "setup": 1 }
+				}
+			}
+		}
+	}
+],
+"events": {
+	"spawn": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"fx-explosion-pixel_00": {
+				"rgba": [
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "fx-explosion-pixel_" },
+					{ "time": 0.4667 }
+				]
+			},
+			"fx-line-epl_01": {
+				"attachment": [
+					{ "name": "fx-line-epl_" },
+					{ "time": 0.3667 }
+				]
+			},
+			"fx-line-epl_02": {
+				"attachment": [
+					{ "time": 0.2, "name": "fx-line-epl_" },
+					{ "time": 0.4 }
+				]
+			}
+		},
+		"bones": {
+			"fx-line-epl_01": {
+				"scale": [
+					{ "x": 0.871, "y": 0.871 }
+				]
+			},
+			"fx-explosion-pixel_00": {
+				"scale": [
+					{ "x": 1.327, "y": 1.327 }
+				]
+			},
+			"fx-line-epl_02": {
+				"rotate": [
+					{ "time": 0.2, "value": -45 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 0.515, "y": 0.515 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-explosion-pixel_00": {
+					"fx-explosion-pixel_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-line-epl_01": {
+					"fx-line-epl_": {
+						"sequence": [
+							{ "mode": "once", "index": 1, "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-line-epl_02": {
+					"fx-line-epl_": {
+						"sequence": [
+							{ "time": 0.2, "mode": "once", "index": 6, "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		},
+		"events": [
+			{ "time": 0.0667, "name": "spawn" }
+		]
+	}
+}
+}

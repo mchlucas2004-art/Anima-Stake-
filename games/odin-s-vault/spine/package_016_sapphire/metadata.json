@@ -1,0 +1,252 @@
+{
+  "id": "odin-s-vault/package_016_sapphire",
+  "package": "package_016_sapphire",
+  "name": "sapphire",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "sapphire.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "win"
+  ],
+  "tags": [
+    "effect",
+    "win",
+    "sapphire",
+    "symbols",
+    "coins"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "effect": 7,
+      "symbol": 4.3,
+      "character": 0.5,
+      "background": 0.5,
+      "ui": 0.5,
+      "transition": 0
+    },
+    "evidence": [
+      "name:coins",
+      "bone:effects",
+      "bone:sparks",
+      "bone:glow",
+      "bone:coin",
+      "bone:coins",
+      "region:effects",
+      "region:sparks",
+      "region:glow",
+      "region:coin",
+      "region:coins"
+    ]
+  },
+  "animations": [
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "win",
+      "duration": 1,
+      "timelines": {
+        "bones": 21,
+        "slots": 18,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 28,
+  "slots_count": 26,
+  "bones": [
+    "root",
+    "main",
+    "Sapphire",
+    "Sapphire_cop3",
+    "Sapphire_cop5",
+    "Sapphire_rune4",
+    "Sapphire_cop4",
+    "Sapphire_cop6",
+    "Sapphire_3d",
+    "Sapphire_3d2",
+    "Sapphire_cop7",
+    "Sapphire_cop8",
+    "Sapphire_cop9",
+    "max47",
+    "max48",
+    "max49",
+    "max50",
+    "max51",
+    "max52",
+    "max53",
+    "max54",
+    "max55",
+    "max56",
+    "max57",
+    "max58",
+    "max59",
+    "max60",
+    "max61"
+  ],
+  "slots": [
+    "sapphire/BG_Sapphire",
+    "sapphire/Frame_Sapphire",
+    "sapphire/Shadow_Sapphire",
+    "sapphire/coin_Sapphire3",
+    "sapphire/multiplier_back_glow5",
+    "sapphire/pouch_effects_02_glow_01",
+    "sapphire/main_light_total",
+    "sapphire/mist_2_empty",
+    "sapphire/diamond/Sparks_coins22",
+    "sapphire/diamond/Sparks_coins24",
+    "sapphire/diamond/Sparks_coins26",
+    "sapphire/diamond/Sparks_coin19",
+    "sapphire/diamond/Sparks_coin21",
+    "sapphire/diamond/Sparks_coin23",
+    "sapphire/diamond/Sparks_coin20",
+    "sapphire/diamond/Sparks_coin22",
+    "sapphire/diamond/Sparks_coin24",
+    "sapphire/diamond/Sparks_coins23",
+    "sapphire/diamond/Sparks_coins25",
+    "sapphire/diamond/Sparks_coins27",
+    "sapphire/Sapphire",
+    "sapphire/coin_Sapphire",
+    "sapphire/rune_base_Sapphire",
+    "sapphire/sapphire_36",
+    "sapphire/rune_Sapphire",
+    "sapphire/rune_Sapphire3"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 1,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 24,
+  "attachment_types": {
+    "region": 15,
+    "mesh": 9
+  },
+  "dimensions": {
+    "width": 198.08,
+    "height": 198.08
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "coins.webp",
+      "atlas": "coins.atlas",
+      "file": "coins.webp",
+      "sha256": "94f09d6e98b7ea5b2d9cc6415568bdf4024e1b1bafc270d571952434155a20a8",
+      "format": "webp",
+      "width": 2048,
+      "height": 1024,
+      "atlas_size": [
+        2048,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "coins.atlas",
+      "sha256": "f4da2ac3d52d28c295f247b12f5c5dd6df696f56867e359a6fba6bad10283e48",
+      "format": "spine-4",
+      "pages": [
+        "coins.webp"
+      ],
+      "regions": 125,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 115,
+      "evidence": [
+        "regions 32/32 (100% of skeleton)",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": [
+        "package_012_max",
+        "package_013_bronze",
+        "package_014_silver",
+        "package_015_gold",
+        "package_017_ruby",
+        "package_018_diamond"
+      ]
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "sapphire.json",
+      "role": "skeleton",
+      "sha256": "238c16b29315a55775529502fa0fdcda8c6e372f0b4d3406e861582a719a77c2",
+      "size": 20502,
+      "original_filename": "sapphire.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/sapphire.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/sapphire.json"
+      ]
+    },
+    {
+      "file": "coins.atlas",
+      "role": "atlas",
+      "sha256": "f4da2ac3d52d28c295f247b12f5c5dd6df696f56867e359a6fba6bad10283e48",
+      "size": 6231,
+      "original_filename": "coins.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.atlas"
+      ]
+    },
+    {
+      "file": "coins.webp",
+      "role": "texture",
+      "sha256": "94f09d6e98b7ea5b2d9cc6415568bdf4024e1b1bafc270d571952434155a20a8",
+      "size": 1092428,
+      "original_filename": "coins.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.webp"
+      ],
+      "atlas_page": "coins.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/sapphire.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/coins/coins.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [
+    "package_012_max",
+    "package_013_bronze",
+    "package_014_silver",
+    "package_015_gold",
+    "package_017_ruby",
+    "package_018_diamond"
+  ],
+  "detected_at": "2026-10-02T19:53:39.527Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

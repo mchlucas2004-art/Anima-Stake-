@@ -1,0 +1,366 @@
+{
+  "id": "odin-s-vault/package_046_big_win",
+  "package": "package_046_big_win",
+  "name": "big_win",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "big_win.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "idle",
+    "win",
+    "entrance",
+    "exit",
+    "big_win"
+  ],
+  "tags": [
+    "effect",
+    "idle",
+    "win",
+    "entrance",
+    "exit",
+    "big_win",
+    "big",
+    "spines",
+    "popups",
+    "bigwin"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "effect": 14,
+      "ui": 2.1,
+      "symbol": 0.5,
+      "character": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:bigwin",
+      "bone:effect",
+      "bone:particles",
+      "bone:glow",
+      "bone:stars",
+      "bone:splash",
+      "bone:rays",
+      "bone:bigwin",
+      "region:effect",
+      "region:particles",
+      "region:glow",
+      "region:splash"
+    ]
+  },
+  "animations": [
+    "idle",
+    "in",
+    "out"
+  ],
+  "animation_details": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 40,
+        "slots": 40
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1.133,
+      "timelines": {
+        "bones": 49,
+        "slots": 65
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 44,
+        "slots": 64
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 58,
+  "slots_count": 65,
+  "bones": [
+    "root",
+    "PopUp",
+    "numbers",
+    "Arrow",
+    "Ship",
+    "PopUp_Pivot",
+    "Rays",
+    "Glow",
+    "Glow2",
+    "Ship2",
+    "Ship3",
+    "Titles",
+    "Ship4",
+    "Ship5",
+    "Ship9",
+    "PopUp_Pivot2",
+    "PopUp_Pivot3",
+    "PopUp_Pivot4",
+    "PopUp_Pivot5",
+    "PopUp_Pivot6",
+    "PopUp_Pivot7",
+    "PopUp_Pivot8",
+    "Shield",
+    "PopUp_Pivot9",
+    "Shield3",
+    "numbers2",
+    "Drops",
+    "DropsR",
+    "PopUp_Pivot10",
+    "PopUp_Pivot11",
+    "PopUp_Pivot12",
+    "DropsL",
+    "PopUp_Pivot13",
+    "PopUp_Pivot14",
+    "Stars1",
+    "Rays2",
+    "Rays3",
+    "Rays4",
+    "Count_Bone",
+    "Stars1_1",
+    "Stars1_2",
+    "Stars1_3",
+    "Stars1_4",
+    "Stars1_5",
+    "Stars1_6",
+    "Stars1_7",
+    "Stars1_8",
+    "Stars2",
+    "Stars1_9",
+    "Stars1_10",
+    "Stars1_11",
+    "Stars1_12",
+    "Stars1_13",
+    "Stars1_14",
+    "Stars1_15",
+    "Stars1_16",
+    "Ship6",
+    "splash"
+  ],
+  "slots": [
+    "big_effect_blue",
+    "big_effect_blue4",
+    "big_effect_blue2",
+    "big_effect_blue3",
+    "glow_ship_big_win_main",
+    "big_particles_1",
+    "big_particles_9",
+    "big_particles_2",
+    "big_particles_10",
+    "big_particles_3",
+    "big_particles_11",
+    "big_particles_4",
+    "big_particles_12",
+    "big_particles_5",
+    "big_particles_13",
+    "big_particles_6",
+    "big_particles_14",
+    "big_particles_7",
+    "big_particles_15",
+    "big_particles_8",
+    "big_particles_16",
+    "base",
+    "FrameR",
+    "FrameL",
+    "SheildTop",
+    "SymbolT",
+    "SymbolGlowT",
+    "letter_corner_l",
+    "letter_corner_r",
+    "letter_corner_l_glow",
+    "letter_corner_r_glow",
+    "big_shadow",
+    "Ship",
+    "Sheild",
+    "Sheild3",
+    "letters_r",
+    "letters_r3",
+    "GlowSheildRound1",
+    "GlowSheildRound5",
+    "GlowSheildRound2",
+    "GlowSheildRound6",
+    "frame_letter_r_2",
+    "frame_letter_r_1",
+    "frame_letter_l_2",
+    "frame_letter_l_1",
+    "frame_letter_r_1_glow",
+    "frame_letter_l_2_glow",
+    "frame_letter_l_1_glow",
+    "frame_letter_r_2_glow",
+    "wave_r",
+    "drop_r_2",
+    "drop_r_1",
+    "drop_l_3",
+    "wave_l",
+    "drop_l_2",
+    "drop_l_1",
+    "big",
+    "win_shadow",
+    "win",
+    "Color1",
+    "Color2",
+    "arrow_under_numbers",
+    "numbers",
+    "glow_arrow_under_numbers",
+    "splash"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 2,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 74,
+  "attachment_types": {
+    "mesh": 63,
+    "region": 11
+  },
+  "dimensions": {
+    "width": 1412.1,
+    "height": 1284.39
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "big_win.webp",
+      "atlas": "big_win.atlas",
+      "file": "big_win.webp",
+      "sha256": "329e339d0682d76ff7f4c813c941b374ad6babe4aaf2c3e0158fed03ba6ede1b",
+      "format": "webp",
+      "width": 2037,
+      "height": 1863,
+      "atlas_size": [
+        2037,
+        1863
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "big_win_2.webp",
+      "atlas": "big_win.atlas",
+      "file": "big_win_2.webp",
+      "sha256": "c7feea22b4fc40254c365e237a9c9e9ff06408f493290f3720f422a6196feb49",
+      "format": "webp",
+      "width": 1465,
+      "height": 1173,
+      "atlas_size": [
+        1465,
+        1173
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "big_win.atlas",
+      "sha256": "c637c89f7bc587af18b619bd24420330daacdc745b193628d03aaed19667d42b",
+      "format": "spine-4",
+      "pages": [
+        "big_win.webp",
+        "big_win_2.webp"
+      ],
+      "regions": 52,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 52/52 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "big_win.json",
+      "role": "skeleton",
+      "sha256": "b7e2d9131b866e901d776b30cb98faae40de33a4ec317dfdff008aaca4cb7580",
+      "size": 94634,
+      "original_filename": "big_win.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.json"
+      ]
+    },
+    {
+      "file": "big_win.atlas",
+      "role": "atlas",
+      "sha256": "c637c89f7bc587af18b619bd24420330daacdc745b193628d03aaed19667d42b",
+      "size": 2531,
+      "original_filename": "big_win.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.atlas"
+      ]
+    },
+    {
+      "file": "big_win.webp",
+      "role": "texture",
+      "sha256": "329e339d0682d76ff7f4c813c941b374ad6babe4aaf2c3e0158fed03ba6ede1b",
+      "size": 579640,
+      "original_filename": "big_win.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.webp"
+      ],
+      "atlas_page": "big_win.webp"
+    },
+    {
+      "file": "big_win_2.webp",
+      "role": "texture",
+      "sha256": "c7feea22b4fc40254c365e237a9c9e9ff06408f493290f3720f422a6196feb49",
+      "size": 232172,
+      "original_filename": "big_win_2.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win_2.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win_2.webp"
+      ],
+      "atlas_page": "big_win_2.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.webp",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win_2.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "2/2",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.554Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

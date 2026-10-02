@@ -1,0 +1,199 @@
+{
+  "id": "interrogator/package_009_regular-magnifier",
+  "package": "package_009_regular-magnifier",
+  "name": "regular-magnifier",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "regular-magnifier.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "win",
+    "land",
+    "symbol_win"
+  ],
+  "tags": [
+    "symbol",
+    "win",
+    "land",
+    "symbol_win",
+    "regular",
+    "magnifier",
+    "symbols"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "symbol": 5,
+      "character": 0,
+      "effect": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:symbols",
+      "anims:land+win"
+    ]
+  },
+  "animations": [
+    "land",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 5,
+        "events": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 5,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [
+    "land",
+    "win_impact"
+  ],
+  "bones_count": 6,
+  "slots_count": 3,
+  "bones": [
+    "root",
+    "sway",
+    "grip",
+    "neck",
+    "rim",
+    "lens_center"
+  ],
+  "slots": [
+    "handle",
+    "rim",
+    "glass"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 3,
+  "attachment_types": {
+    "mesh": 3
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "regular-magnifier.png",
+      "atlas": "regular-magnifier.atlas",
+      "file": "regular-magnifier.png",
+      "sha256": "e8b58793aad8f96115df36cc0e7b8c7e85ae39e5e32fa0a715ae45a36e4e24da",
+      "format": "png",
+      "width": 1897,
+      "height": 746,
+      "atlas_size": [
+        1897,
+        746
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "regular-magnifier.atlas",
+      "sha256": "9a75922743717afe8c25a61dbbe0fcdfa3ce6fe46cd0c06ecae1befddcf146bb",
+      "format": "spine-4",
+      "pages": [
+        "regular-magnifier.png"
+      ],
+      "regions": 3,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 3/3 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "regular-magnifier.json",
+      "role": "skeleton",
+      "sha256": "ef53db35580c48fc2ce3cab5db0ed4cf17c66ac58a48a917bcb6cb7faadc4dbe",
+      "size": 81423,
+      "original_filename": "regular-magnifier.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.json"
+      ]
+    },
+    {
+      "file": "regular-magnifier.atlas",
+      "role": "atlas",
+      "sha256": "9a75922743717afe8c25a61dbbe0fcdfa3ce6fe46cd0c06ecae1befddcf146bb",
+      "size": 171,
+      "original_filename": "regular-magnifier.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.atlas"
+      ]
+    },
+    {
+      "file": "regular-magnifier.png",
+      "role": "texture",
+      "sha256": "e8b58793aad8f96115df36cc0e7b8c7e85ae39e5e32fa0a715ae45a36e4e24da",
+      "size": 1116921,
+      "original_filename": "regular-magnifier.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.png"
+      ],
+      "atlas_page": "regular-magnifier.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:35.518Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

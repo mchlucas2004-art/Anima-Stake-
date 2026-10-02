@@ -1,0 +1,528 @@
+{
+  "id": "interrogator/package_001_vs-shed",
+  "package": "package_001_vs-shed",
+  "name": "vs-shed",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "vs-shed.json",
+  "skeleton_version": "4.2.43",
+  "category": "character",
+  "subtypes": [
+    "idle",
+    "land"
+  ],
+  "tags": [
+    "character",
+    "idle",
+    "land",
+    "vs",
+    "shed",
+    "symbols"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "character": 11.1,
+      "symbol": 3.5,
+      "effect": 1.3,
+      "background": 0.8,
+      "ui": 0.5,
+      "transition": 0
+    },
+    "evidence": [
+      "anim:squid",
+      "anim:gator",
+      "bone:squid",
+      "bone:gator",
+      "region:squid",
+      "region:gator",
+      "body-parts:head,body,hat,brow,wrist,face,arms"
+    ]
+  },
+  "animations": [
+    "fight",
+    "idle",
+    "land",
+    "reveal_gator",
+    "reveal_squid"
+  ],
+  "animation_details": [
+    {
+      "name": "fight",
+      "duration": 2.7,
+      "timelines": {
+        "bones": 24,
+        "slots": 16,
+        "events": 8
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 3,
+      "timelines": {
+        "bones": 9
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 9,
+        "slots": 4,
+        "events": 1
+      }
+    },
+    {
+      "name": "reveal_gator",
+      "duration": 1.25,
+      "timelines": {
+        "bones": 29,
+        "slots": 22,
+        "attachments": 1,
+        "events": 1
+      }
+    },
+    {
+      "name": "reveal_squid",
+      "duration": 1.25,
+      "timelines": {
+        "bones": 32,
+        "slots": 21,
+        "attachments": 1,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [
+    "burst",
+    "land",
+    "thump"
+  ],
+  "bones_count": 71,
+  "slots_count": 39,
+  "bones": [
+    "root",
+    "puff_0",
+    "puff_1",
+    "puff_2",
+    "puff_3",
+    "puff_4",
+    "puff_5",
+    "puff_6",
+    "puff_7",
+    "puff_8",
+    "puff_9",
+    "puff_10",
+    "puff_11",
+    "puff_12",
+    "puff_13",
+    "shed",
+    "roof",
+    "wall_left",
+    "wall_right",
+    "door_impact",
+    "gator",
+    "gator_head",
+    "gator_left",
+    "gator_right",
+    "squid",
+    "squid_head",
+    "squid_left",
+    "squid_right",
+    "vs_lettering",
+    "letter_V",
+    "letter_V_tip",
+    "letter_S",
+    "letter_S_tip",
+    "smoke_curl_0",
+    "smoke_curl_1",
+    "smoke_curl_2",
+    "smoke_curl_3",
+    "smoke_curl_4",
+    "smoke_curl_5",
+    "smoke_curl_6",
+    "smoke_curl_7",
+    "smoke_curl_8",
+    "smoke_curl_9",
+    "smoke_curl_10",
+    "smoke_curl_11",
+    "smoke_curl_12",
+    "smoke_curl_13",
+    "gator_portrait_body",
+    "gator_portrait_head",
+    "gator_portrait_hat",
+    "gator_portrait_muzzle",
+    "gator_portrait_brow",
+    "gator_portrait_fist_l",
+    "gator_portrait_fist_r",
+    "gator_portrait_wrist_l",
+    "gator_portrait_wrist_r",
+    "gator_portrait_tie",
+    "gator_portrait_wild_emblem",
+    "squid_portrait_body",
+    "squid_portrait_face",
+    "squid_portrait_mantle",
+    "squid_portrait_brow_l",
+    "squid_portrait_brow_r",
+    "squid_portrait_bowtie",
+    "squid_portrait_curl_l_base",
+    "squid_portrait_curl_l_mid",
+    "squid_portrait_curl_l_tip",
+    "squid_portrait_curl_r_base",
+    "squid_portrait_curl_r_mid",
+    "squid_portrait_curl_r_tip",
+    "squid_portrait_arms"
+  ],
+  "slots": [
+    "interior",
+    "roof_panel",
+    "left_panel",
+    "right_panel",
+    "threshold",
+    "door",
+    "letter_V",
+    "letter_S",
+    "gator",
+    "winner_w",
+    "squid",
+    "puff_0",
+    "puff_0_blend",
+    "puff_1",
+    "puff_1_blend",
+    "puff_2",
+    "puff_2_blend",
+    "puff_3",
+    "puff_3_blend",
+    "puff_4",
+    "puff_4_blend",
+    "puff_5",
+    "puff_5_blend",
+    "puff_6",
+    "puff_6_blend",
+    "puff_7",
+    "puff_7_blend",
+    "puff_8",
+    "puff_8_blend",
+    "puff_9",
+    "puff_9_blend",
+    "puff_10",
+    "puff_10_blend",
+    "puff_11",
+    "puff_11_blend",
+    "puff_12",
+    "puff_12_blend",
+    "puff_13",
+    "puff_13_blend"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 235,
+  "attachment_types": {
+    "mesh": 37,
+    "region": 2,
+    "linkedmesh": 196
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "vs-shed.png",
+      "atlas": "vs-shed.atlas",
+      "file": "vs-shed.png",
+      "sha256": "eb005dc2512b8abcfd73c751d3f7dcc81ed397201caee0b8fb58121b5955df3b",
+      "format": "png",
+      "width": 886,
+      "height": 1015,
+      "atlas_size": [
+        886,
+        1015
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "vs-shed_2.png",
+      "atlas": "vs-shed.atlas",
+      "file": "vs-shed_2.png",
+      "sha256": "06d6bd307a00c8d69459cc93b2d8fbe1e6b04654d2e51d3da47cdcfa0550bccf",
+      "format": "png",
+      "width": 772,
+      "height": 654,
+      "atlas_size": [
+        772,
+        654
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "vs-shed_3.png",
+      "atlas": "vs-shed.atlas",
+      "file": "vs-shed_3.png",
+      "sha256": "2ff27e1a7662fd490d45ee8bfca08d51dc5f3a0f91308c4852acd87eea848163",
+      "format": "png",
+      "width": 1006,
+      "height": 491,
+      "atlas_size": [
+        1006,
+        491
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "vs-shed_4.png",
+      "atlas": "vs-shed.atlas",
+      "file": "vs-shed_4.png",
+      "sha256": "8addabf57a6ecb142986c87ec0928a73fb93ed5bc62ca98b0a02a5de626fd0e6",
+      "format": "png",
+      "width": 555,
+      "height": 680,
+      "atlas_size": [
+        555,
+        680
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "winner_w.png",
+      "atlas": "vs-shed.atlas",
+      "file": "winner_w.png",
+      "sha256": "655392729655b7e084d9ea146daadd79d0d7b79139ee7c12f94ff9d27a451e0c",
+      "format": "png",
+      "width": 659,
+      "height": 659,
+      "atlas_size": [
+        659,
+        659
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "winner_gator_v1.png",
+      "atlas": "vs-shed.atlas",
+      "file": "winner_gator_v1.png",
+      "sha256": "8361e077ff28ade191c17cfe76ce70591eb11015a4c90cf06beef02c8f21ec62",
+      "format": "png",
+      "width": 627,
+      "height": 627,
+      "atlas_size": [
+        627,
+        627
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "winner_squid_v1.png",
+      "atlas": "vs-shed.atlas",
+      "file": "winner_squid_v1.png",
+      "sha256": "4dfa711d64ecb37a781525eda681741e98687670aa6283d6dc5cd9ad4135356e",
+      "format": "png",
+      "width": 627,
+      "height": 627,
+      "atlas_size": [
+        627,
+        627
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "MipMapLinearLinear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "vs-shed.atlas",
+      "sha256": "b3e5fff86e0bdfad0aa443a43ffaa77554fcac3c9922d48f34b3b252a1783ff8",
+      "format": "spine-4",
+      "pages": [
+        "vs-shed.png",
+        "vs-shed_2.png",
+        "vs-shed_3.png",
+        "vs-shed_4.png",
+        "winner_w.png",
+        "winner_gator_v1.png",
+        "winner_squid_v1.png"
+      ],
+      "regions": 17,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 15/15 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "vs-shed.json",
+      "role": "skeleton",
+      "sha256": "e38627ac9e4ebefac6bdc90cf828b4a9573ec5134e06034f9e31cd2540857eae",
+      "size": 970103,
+      "original_filename": "vs-shed.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.json"
+      ]
+    },
+    {
+      "file": "vs-shed.atlas",
+      "role": "atlas",
+      "sha256": "b3e5fff86e0bdfad0aa443a43ffaa77554fcac3c9922d48f34b3b252a1783ff8",
+      "size": 998,
+      "original_filename": "vs-shed.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.atlas"
+      ]
+    },
+    {
+      "file": "vs-shed.png",
+      "role": "texture",
+      "sha256": "eb005dc2512b8abcfd73c751d3f7dcc81ed397201caee0b8fb58121b5955df3b",
+      "size": 505041,
+      "original_filename": "vs-shed.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.png"
+      ],
+      "atlas_page": "vs-shed.png"
+    },
+    {
+      "file": "vs-shed_2.png",
+      "role": "texture",
+      "sha256": "06d6bd307a00c8d69459cc93b2d8fbe1e6b04654d2e51d3da47cdcfa0550bccf",
+      "size": 253466,
+      "original_filename": "vs-shed_2.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_2.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_2.png"
+      ],
+      "atlas_page": "vs-shed_2.png"
+    },
+    {
+      "file": "vs-shed_3.png",
+      "role": "texture",
+      "sha256": "2ff27e1a7662fd490d45ee8bfca08d51dc5f3a0f91308c4852acd87eea848163",
+      "size": 353139,
+      "original_filename": "vs-shed_3.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_3.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_3.png"
+      ],
+      "atlas_page": "vs-shed_3.png"
+    },
+    {
+      "file": "vs-shed_4.png",
+      "role": "texture",
+      "sha256": "8addabf57a6ecb142986c87ec0928a73fb93ed5bc62ca98b0a02a5de626fd0e6",
+      "size": 305782,
+      "original_filename": "vs-shed_4.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_4.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_4.png"
+      ],
+      "atlas_page": "vs-shed_4.png"
+    },
+    {
+      "file": "winner_w.png",
+      "role": "texture",
+      "sha256": "655392729655b7e084d9ea146daadd79d0d7b79139ee7c12f94ff9d27a451e0c",
+      "size": 316683,
+      "original_filename": "winner_w.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_w.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_w.png",
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/wild_emblem.png"
+      ],
+      "atlas_page": "winner_w.png"
+    },
+    {
+      "file": "winner_gator_v1.png",
+      "role": "texture",
+      "sha256": "8361e077ff28ade191c17cfe76ce70591eb11015a4c90cf06beef02c8f21ec62",
+      "size": 495087,
+      "original_filename": "winner_gator_v1.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_gator_v1.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_gator_v1.png",
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/portrait.png"
+      ],
+      "atlas_page": "winner_gator_v1.png"
+    },
+    {
+      "file": "winner_squid_v1.png",
+      "role": "texture",
+      "sha256": "4dfa711d64ecb37a781525eda681741e98687670aa6283d6dc5cd9ad4135356e",
+      "size": 496340,
+      "original_filename": "winner_squid_v1.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_squid_v1.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_squid_v1.png"
+      ],
+      "atlas_page": "winner_squid_v1.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_2.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_3.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_4.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_w.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/wild_emblem.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_gator_v1.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/portrait.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_squid_v1.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "7/7",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:35.498Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

@@ -1,0 +1,5094 @@
+{
+"skeleton": {
+	"hash": "ur9TnhUasic",
+	"spine": "4.2.43",
+	"x": -1924,
+	"y": -1924,
+	"width": 3848,
+	"height": 3848,
+	"images": "./images/",
+	"audio": "../3/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "WIN_MACHINE", "parent": "root", "length": 961.12, "rotation": 90, "x": 0.34, "y": -1972.12 },
+	{ "name": "WIN-BOARD", "parent": "WIN_MACHINE", "x": 2334.12 },
+	{ "name": "WIN-TXT", "parent": "WIN-BOARD", "rotation": -90, "x": 15.88, "y": 0.34 },
+	{ "name": "win-1-txt-big", "parent": "WIN-TXT", "color": "017418ff", "icon": "square" },
+	{ "name": "win-4-txt-max", "parent": "WIN-TXT", "color": "ffda16ff", "icon": "square" },
+	{ "name": "win-3-txt-epic", "parent": "WIN-TXT", "color": "aa00ddff", "icon": "square" },
+	{ "name": "win-2-txt-mega", "parent": "WIN-TXT", "color": "0100a7ff", "icon": "square" },
+	{ "name": "FX-INTRO", "parent": "root", "y": 367.07, "color": "ffcd12ff" },
+	{ "name": "fx-light-horizon", "parent": "FX-INTRO" },
+	{ "name": "fx-electric-wave_00", "parent": "FX-INTRO", "rotation": -45, "scaleX": 1.3, "scaleY": 1.3 },
+	{ "name": "fx-electric-wave_01", "parent": "FX-INTRO", "rotation": -45, "scaleX": 1.3, "scaleY": 1.3 },
+	{ "name": "fx-glow-bot", "parent": "root", "rotation": -0.41, "y": -3045.81, "scaleY": 1.3333, "color": "ffcd12ff" },
+	{ "name": "bone", "parent": "root", "color": "000000ff" },
+	{ "name": "win-1-txt-big-B", "parent": "WIN-TXT", "color": "017418ff", "icon": "square" },
+	{ "name": "win-1-txt-big-R", "parent": "WIN-TXT", "color": "017418ff", "icon": "square" },
+	{ "name": "fx-wave-glitch_G", "parent": "WIN-BOARD", "rotation": -90, "x": 4.68, "y": 0.34, "color": "ffcd12ff" },
+	{ "name": "fx-wave-glitch_B", "parent": "WIN-BOARD", "rotation": -90, "x": 4.68, "y": 0.34, "color": "ffcd12ff" },
+	{ "name": "fx-wave-glitch_R", "parent": "WIN-BOARD", "rotation": -90, "x": 4.68, "y": 0.34, "color": "ffcd12ff" },
+	{ "name": "win-2-txt-mega-R", "parent": "WIN-TXT", "color": "0100a7ff", "icon": "square" },
+	{ "name": "win-2-txt-mega-G", "parent": "WIN-TXT", "color": "0100a7ff", "icon": "square" },
+	{ "name": "win-3-txt-epic-R", "parent": "WIN-TXT", "color": "aa00ddff", "icon": "square" },
+	{ "name": "win-3-txt-epic-G", "parent": "WIN-TXT", "color": "aa00ddff", "icon": "square" },
+	{ "name": "win-4-txt-max-R", "parent": "WIN-TXT", "color": "fffc00ff", "icon": "square" },
+	{ "name": "win-4-txt-max-B", "parent": "WIN-TXT", "color": "fffc00ff", "icon": "square" },
+	{ "name": "fx-line", "parent": "WIN_MACHINE", "x": 961.12, "inherit": "noScale" },
+	{ "name": "win_boardL", "parent": "WIN-BOARD", "y": -0.66 },
+	{ "name": "win-board-max", "parent": "win_boardL", "y": 383.5 },
+	{ "name": "win_max-board-bot", "parent": "win-board-max", "x": -257.5, "y": -366.37 },
+	{ "name": "win_max-board-top", "parent": "win-board-max", "x": 239, "y": -380.26 },
+	{ "name": "win_max-board-fan", "parent": "win_max-board-top", "x": -38, "y": 458.26 },
+	{ "name": "win_boardL2", "parent": "WIN-BOARD", "y": -0.66, "scaleY": -1 },
+	{ "name": "win-board-max2", "parent": "win_boardL2", "y": 383.5 },
+	{ "name": "win_max-board-bot2", "parent": "win-board-max2", "x": -257.5, "y": -366.37 },
+	{ "name": "win_max-board-top2", "parent": "win-board-max2", "x": 239, "y": -380.26 },
+	{ "name": "win_max-board-fan2", "parent": "win_max-board-top2", "x": -38, "y": 458.26 },
+	{ "name": "win_screen-bot", "parent": "fx-line", "x": 829.86, "y": 1007.53 },
+	{ "name": "win_arrowD", "parent": "win_screen-bot", "x": -0.35, "y": -540.18 },
+	{ "name": "win_arrowD3", "parent": "win_screen-bot", "x": -0.35, "y": -540.18 },
+	{ "name": "win_arrowD2", "parent": "win_screen-bot", "x": -0.35, "y": -540.18 },
+	{ "name": "win_arrowU", "parent": "fx-line", "x": 1394.5, "y": 710.34 },
+	{ "name": "win_hexa", "parent": "fx-line", "x": 1394.5, "y": 272.34 },
+	{ "name": "fx-light-hexa_00", "parent": "root", "x": -479.86, "y": -192.3, "scaleX": 4, "scaleY": 4 },
+	{ "name": "win_lineU", "parent": "win_boardL", "x": 5.5, "y": 726 },
+	{ "name": "win_line-sweep", "parent": "win_screen-bot", "x": 2.15, "y": -492.18 },
+	{ "name": "fx-win-ring", "parent": "fx-line", "x": 1011, "y": 0.34 },
+	{ "name": "fx-win-ring2", "parent": "fx-line", "x": 1011, "y": 0.34 },
+	{ "name": "win_screen-bot2", "parent": "fx-line", "x": 829.86, "y": -1006.84, "scaleY": -1 },
+	{ "name": "win_arrowD4", "parent": "win_screen-bot2", "x": -0.35, "y": -540.18 },
+	{ "name": "win_arrowD5", "parent": "win_screen-bot2", "x": -0.35, "y": -540.18 },
+	{ "name": "win_arrowD6", "parent": "win_screen-bot2", "x": -0.35, "y": -540.18 },
+	{ "name": "win_line-sweep2", "parent": "win_screen-bot2", "x": 2.15, "y": -492.18 },
+	{ "name": "win_lineU2", "parent": "win_boardL2", "x": 5.5, "y": 724 },
+	{ "name": "bone2", "parent": "WIN_MACHINE", "x": 1972.12, "y": 0.34, "scaleY": -1 },
+	{ "name": "win_arrowU2", "parent": "bone2", "x": 383.5, "y": 710 }
+],
+"slots": [
+	{ "name": "win_demo-bg", "bone": "bone" },
+	{ "name": "win_screen-bot", "bone": "win_screen-bot", "attachment": "win_board-bot" },
+	{ "name": "win_screen-bot2", "bone": "win_screen-bot2", "attachment": "win_board-bot" },
+	{ "name": "fx-light-hexa_00", "bone": "fx-light-hexa_00", "blend": "additive" },
+	{ "name": "win_line-sweep", "bone": "win_line-sweep", "color": "ffffffa6", "attachment": "win_line-sweep" },
+	{ "name": "win_line-sweep2", "bone": "win_line-sweep2", "color": "ffffffa6", "attachment": "win_line-sweep" },
+	{ "name": "fx-light-hexa", "bone": "win_screen-bot", "color": "ffffff9c", "blend": "additive" },
+	{ "name": "fx-light-hexa3", "bone": "win_screen-bot2", "color": "ffffff9c", "blend": "additive" },
+	{ "name": "fx-light-hexa2", "bone": "win_screen-bot", "color": "ffffff9c", "blend": "additive" },
+	{ "name": "fx-light-hexa4", "bone": "win_screen-bot2", "color": "ffffff9c", "blend": "additive" },
+	{ "name": "win_arrowD", "bone": "win_arrowD", "attachment": "win_arrowD" },
+	{ "name": "win_arrowD4", "bone": "win_arrowD4", "attachment": "win_arrowD" },
+	{ "name": "win_arrowD2", "bone": "win_arrowD2", "attachment": "win_arrowD" },
+	{ "name": "win_arrowD6", "bone": "win_arrowD6", "attachment": "win_arrowD" },
+	{ "name": "win_arrowD3", "bone": "win_arrowD3", "attachment": "win_arrowD" },
+	{ "name": "win_arrowD5", "bone": "win_arrowD5", "attachment": "win_arrowD" },
+	{ "name": "win_arrowU", "bone": "win_arrowU", "attachment": "win_arrowU", "blend": "additive" },
+	{ "name": "win_arrowU2", "bone": "win_arrowU2", "attachment": "win_arrowU", "blend": "additive" },
+	{ "name": "win_hexa", "bone": "win_hexa" },
+	{ "name": "win_lineU", "bone": "win_lineU", "attachment": "win_lineU" },
+	{ "name": "win_lineU2", "bone": "win_lineU2", "attachment": "win_lineU" },
+	{ "name": "win_ring", "bone": "fx-win-ring" },
+	{ "name": "win_ring3", "bone": "fx-win-ring2" },
+	{ "name": "win_ring2", "bone": "fx-win-ring" },
+	{ "name": "win_ring4", "bone": "fx-win-ring2" },
+	{ "name": "win_line-max", "bone": "fx-line" },
+	{ "name": "win_line-max2", "bone": "fx-line" },
+	{ "name": "win_max-board-glow", "bone": "win-board-max" },
+	{ "name": "win_max-board-glow2", "bone": "win-board-max2" },
+	{ "name": "win_max-board-bot", "bone": "win_max-board-bot" },
+	{ "name": "win_max-board-bot2", "bone": "win_max-board-bot2" },
+	{ "name": "win_max-board-top", "bone": "win_max-board-top" },
+	{ "name": "win_max-board-top2", "bone": "win_max-board-top2" },
+	{ "name": "win_max-board-fan", "bone": "win_max-board-fan" },
+	{ "name": "win_max-board-fan2", "bone": "win_max-board-fan2" },
+	{ "name": "win_big-board", "bone": "win_boardL", "attachment": "win_big-mega-board" },
+	{ "name": "win_big-board2", "bone": "win_boardL2", "attachment": "win_big-mega-board" },
+	{ "name": "win-1-txt-big", "bone": "win-1-txt-big" },
+	{ "name": "win-2-txt-mega", "bone": "win-2-txt-mega" },
+	{ "name": "win-3-txt-epic", "bone": "win-3-txt-epic" },
+	{ "name": "win-4-txt-max", "bone": "win-4-txt-max" },
+	{ "name": "win-1-txt-big-B", "bone": "win-1-txt-big-B", "dark": "a5a5a5", "blend": "additive" },
+	{ "name": "win-2-txt-mega-G", "bone": "win-2-txt-mega-G", "dark": "a5a5a5", "blend": "additive" },
+	{ "name": "win-1-txt-big-R", "bone": "win-1-txt-big-R", "dark": "e2e2e2", "blend": "additive" },
+	{ "name": "win-2-txt-mega-R", "bone": "win-2-txt-mega-R", "dark": "e2e2e2", "blend": "additive" },
+	{ "name": "win-3-txt-epic-G", "bone": "win-3-txt-epic-G", "dark": "a5a5a5", "blend": "additive" },
+	{ "name": "win-4-txt-max-B", "bone": "win-4-txt-max-B", "dark": "a5a5a5", "blend": "additive" },
+	{ "name": "win-3-txt-epic-R", "bone": "win-3-txt-epic-R", "dark": "e2e2e2", "blend": "additive" },
+	{ "name": "win-4-txt-max-R", "bone": "win-4-txt-max-R", "dark": "e2e2e2", "blend": "additive" },
+	{ "name": "fx-light-horizon", "bone": "fx-light-horizon", "blend": "additive" },
+	{ "name": "fx-electric-wave_00", "bone": "fx-electric-wave_00", "blend": "additive" },
+	{ "name": "fx-electric-wave_01", "bone": "fx-electric-wave_01", "blend": "additive" },
+	{ "name": "fx-glow-bot", "bone": "fx-glow-bot", "color": "0eff25ff" },
+	{ "name": "fx-wave-glitch_G", "bone": "fx-wave-glitch_G", "blend": "additive" },
+	{ "name": "fx-wave-glitch_B", "bone": "fx-wave-glitch_B", "blend": "additive" },
+	{ "name": "fx-wave-glitch_R", "bone": "fx-wave-glitch_R", "blend": "additive" },
+	{ "name": "win_number", "bone": "bone" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fx-electric-wave_00": {
+				"fx-electric-wave_": {
+					"path": "fx-electric-wave",
+					"y": -176.78,
+					"rotation": 45,
+					"width": 250,
+					"height": 250,
+					"sequence": { "count": 27, "start": 2, "digits": 2, "setup": 19 }
+				}
+			},
+			"fx-electric-wave_01": {
+				"fx-electric-wave_": {
+					"path": "fx-electric-wave",
+					"y": -176.78,
+					"rotation": 45,
+					"width": 250,
+					"height": 250,
+					"sequence": { "count": 27, "start": 2, "digits": 2, "setup": 19 }
+				}
+			},
+			"fx-glow-bot": {
+				"fx-glow": { "scaleX": 54.2735, "scaleY": 37.5305, "width": 128, "height": 128 }
+			},
+			"fx-light-hexa": {
+				"fx-light-hexa_": {
+					"x": -9.07,
+					"y": -533.48,
+					"scaleX": 4,
+					"scaleY": 4,
+					"rotation": -90,
+					"width": 237,
+					"height": 109,
+					"sequence": { "count": 24, "start": 0, "digits": 2, "setup": 10 }
+				}
+			},
+			"fx-light-hexa2": {
+				"fx-light-hexa_": {
+					"x": -9.07,
+					"y": -533.48,
+					"scaleX": 4,
+					"scaleY": 4,
+					"rotation": -90,
+					"width": 237,
+					"height": 109,
+					"sequence": { "count": 24, "start": 0, "digits": 2, "setup": 10 }
+				}
+			},
+			"fx-light-hexa3": {
+				"fx-light-hexa_": {
+					"x": -9.07,
+					"y": -533.48,
+					"scaleX": 4,
+					"scaleY": 4,
+					"rotation": -90,
+					"width": 237,
+					"height": 109,
+					"sequence": { "count": 24, "start": 0, "digits": 2, "setup": 10 }
+				}
+			},
+			"fx-light-hexa4": {
+				"fx-light-hexa_": {
+					"x": -9.07,
+					"y": -533.48,
+					"scaleX": 4,
+					"scaleY": 4,
+					"rotation": -90,
+					"width": 237,
+					"height": 109,
+					"sequence": { "count": 24, "start": 0, "digits": 2, "setup": 10 }
+				}
+			},
+			"fx-light-hexa_00": {
+				"fx-light-hexa_": {
+					"width": 237,
+					"height": 109,
+					"sequence": { "count": 24, "start": 0, "digits": 2, "setup": 12 }
+				}
+			},
+			"fx-light-horizon": {
+				"fx-light-horizon": { "width": 128, "height": 128 }
+			},
+			"fx-wave-glitch_B": {
+				"fx-wave-glitch_": {
+					"color": "086effff",
+					"scaleX": 5,
+					"scaleY": 5,
+					"width": 274,
+					"height": 59,
+					"sequence": { "count": 12, "start": 0, "digits": 2 }
+				}
+			},
+			"fx-wave-glitch_G": {
+				"fx-wave-glitch_": {
+					"color": "2aff0aff",
+					"scaleX": 5,
+					"scaleY": 5,
+					"width": 274,
+					"height": 59,
+					"sequence": { "count": 12, "start": 0, "digits": 2 }
+				}
+			},
+			"fx-wave-glitch_R": {
+				"fx-wave-glitch_": {
+					"color": "ff0707ff",
+					"scaleX": 5,
+					"scaleY": 5,
+					"width": 274,
+					"height": 59,
+					"sequence": { "count": 12, "start": 0, "digits": 2 }
+				}
+			},
+			"win-1-txt-big": {
+				"win_big-txt": { "width": 1258, "height": 281 },
+				"win_big-txt-glitch": { "scaleX": 3, "scaleY": 3, "width": 419, "height": 98 },
+				"win_total-txt": { "width": 1323, "height": 237 },
+				"win_total-txt-glitch": { "scaleX": 3, "scaleY": 3, "width": 441, "height": 105 }
+			},
+			"win-1-txt-big-B": {
+				"win_big-txt-glitch": { "color": "25aaf4ff", "scaleX": 3, "scaleY": 3, "width": 419, "height": 98 },
+				"win_total-txt-glitch": { "color": "25aaf4ff", "scaleX": 3, "scaleY": 3, "width": 441, "height": 105 }
+			},
+			"win-1-txt-big-R": {
+				"win_big-txt-glitch": { "color": "e82c2cff", "scaleX": 3, "scaleY": 3, "width": 419, "height": 98 },
+				"win_total-txt-glitch": { "color": "e82c2cff", "scaleX": 3, "scaleY": 3, "width": 441, "height": 105 }
+			},
+			"win-2-txt-mega": {
+				"win_mega-txt": { "width": 1273, "height": 241 },
+				"win_mega-txt-glitch": { "scaleX": 3, "scaleY": 3, "width": 424, "height": 84 }
+			},
+			"win-2-txt-mega-G": {
+				"win_mega-txt-glitch": { "color": "83ec2eff", "scaleX": 3, "scaleY": 3, "width": 424, "height": 84 }
+			},
+			"win-2-txt-mega-R": {
+				"win_mega-txt-glitch": { "color": "e82c2cff", "scaleX": 3, "scaleY": 3, "width": 424, "height": 84 }
+			},
+			"win-3-txt-epic": {
+				"win_epic-txt": { "width": 1287, "height": 257 },
+				"win_epic-txt-glitch": { "scaleX": 3, "scaleY": 3, "width": 429, "height": 90 }
+			},
+			"win-3-txt-epic-G": {
+				"win_epic-txt-glitch": { "color": "13ff00ff", "scaleX": 3, "scaleY": 3, "width": 429, "height": 90 }
+			},
+			"win-3-txt-epic-R": {
+				"win_epic-txt-glitch": { "color": "6100ffff", "scaleX": 3, "scaleY": 3, "width": 429, "height": 90 }
+			},
+			"win-4-txt-max": {
+				"win_max-txt": { "width": 1162, "height": 257 },
+				"win_max-txt-glitch": { "scaleX": 3, "scaleY": 3, "width": 386, "height": 88 }
+			},
+			"win-4-txt-max-B": {
+				"win_max-txt-glitch": { "color": "005cffff", "scaleX": 3, "scaleY": 3, "width": 386, "height": 88 }
+			},
+			"win-4-txt-max-R": {
+				"win_max-txt-glitch": { "color": "ff0000ff", "scaleX": 3, "scaleY": 3, "width": 386, "height": 88 }
+			},
+			"win_arrowD": {
+				"win_arrowD": { "rotation": -90, "width": 124, "height": 461 }
+			},
+			"win_arrowD2": {
+				"win_arrowD": { "rotation": -90, "width": 124, "height": 461 }
+			},
+			"win_arrowD3": {
+				"win_arrowD": { "rotation": -90, "width": 124, "height": 461 }
+			},
+			"win_arrowD4": {
+				"win_arrowD": { "rotation": -90, "width": 124, "height": 461 }
+			},
+			"win_arrowD5": {
+				"win_arrowD": { "rotation": -90, "width": 124, "height": 461 }
+			},
+			"win_arrowD6": {
+				"win_arrowD": { "rotation": -90, "width": 124, "height": 461 }
+			},
+			"win_arrowU": {
+				"win_arrowU": { "rotation": -90, "width": 558, "height": 499 }
+			},
+			"win_arrowU2": {
+				"win_arrowU": { "rotation": -90, "width": 558, "height": 499 }
+			},
+			"win_big-board": {
+				"win_big-mega-board": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.5929, 1, 0.34722, 1, 0, 1, 0, 0, 0.34722, 0, 0.5929, 0, 1, 0 ],
+					"triangles": [ 3, 4, 5, 1, 2, 5, 3, 5, 2, 1, 6, 7, 1, 5, 6, 1, 7, 0 ],
+					"vertices": [ -245, 0, -245, 312.25, -245, 500.68, -245, 767, 245, 767, 245, 500.68, 245, 312.25, 245, 0 ],
+					"hull": 8,
+					"edges": [ 6, 8, 0, 14, 12, 14, 0, 2, 12, 2, 8, 10, 10, 12, 2, 4, 4, 6, 10, 4 ],
+					"width": 767,
+					"height": 490
+				},
+				"win_epic-board": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.5929, 1, 0.34722, 1, 0, 1, 0, 0, 0.34722, 0, 0.5929, 0, 1, 0 ],
+					"triangles": [ 3, 4, 5, 1, 2, 5, 3, 5, 2, 1, 6, 7, 1, 5, 6, 1, 7, 0 ],
+					"vertices": [ -245, 0, -245, 312.25, -245, 500.68, -245, 767, 245, 767, 245, 500.68, 245, 312.25, 245, 0 ],
+					"hull": 8,
+					"edges": [ 6, 8, 0, 14, 12, 14, 0, 2, 12, 2, 8, 10, 10, 12, 2, 4, 4, 6, 10, 4 ],
+					"width": 766,
+					"height": 490
+				},
+				"win_max-board": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.5929, 1, 0.34722, 1, 0, 1, 0, 0, 0.34722, 0, 0.5929, 0, 1, 0 ],
+					"triangles": [ 3, 4, 5, 1, 2, 5, 3, 5, 2, 1, 6, 7, 1, 5, 6, 1, 7, 0 ],
+					"vertices": [ -245, 0, -245, 312.25, -245, 500.68, -245, 767, 245, 767, 245, 500.68, 245, 312.25, 245, 0 ],
+					"hull": 8,
+					"edges": [ 6, 8, 0, 14, 12, 14, 0, 2, 12, 2, 8, 10, 10, 12, 2, 4, 4, 6, 10, 4 ],
+					"width": 756,
+					"height": 470
+				}
+			},
+			"win_big-board2": {
+				"win_big-mega-board": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.5929, 1, 0.34722, 1, 0, 1, 0, 0, 0.34722, 0, 0.5929, 0, 1, 0 ],
+					"triangles": [ 3, 4, 5, 1, 2, 5, 3, 5, 2, 1, 6, 7, 1, 5, 6, 1, 7, 0 ],
+					"vertices": [ -245, 0, -245, 312.25, -245, 500.68, -245, 767, 245, 767, 245, 500.68, 245, 312.25, 245, 0 ],
+					"hull": 8,
+					"edges": [ 6, 8, 0, 14, 12, 14, 0, 2, 12, 2, 8, 10, 10, 12, 2, 4, 4, 6, 10, 4 ],
+					"width": 767,
+					"height": 490
+				},
+				"win_epic-board": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.5929, 1, 0.34722, 1, 0, 1, 0, 0, 0.34722, 0, 0.5929, 0, 1, 0 ],
+					"triangles": [ 3, 4, 5, 1, 2, 5, 3, 5, 2, 1, 6, 7, 1, 5, 6, 1, 7, 0 ],
+					"vertices": [ -245, 0, -245, 312.25, -245, 500.68, -245, 767, 245, 767, 245, 500.68, 245, 312.25, 245, 0 ],
+					"hull": 8,
+					"edges": [ 6, 8, 0, 14, 12, 14, 0, 2, 12, 2, 8, 10, 10, 12, 2, 4, 4, 6, 10, 4 ],
+					"width": 766,
+					"height": 490
+				},
+				"win_max-board": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.5929, 1, 0.34722, 1, 0, 1, 0, 0, 0.34722, 0, 0.5929, 0, 1, 0 ],
+					"triangles": [ 3, 4, 5, 1, 2, 5, 3, 5, 2, 1, 6, 7, 1, 5, 6, 1, 7, 0 ],
+					"vertices": [ -245, 0, -245, 312.25, -245, 500.68, -245, 767, 245, 767, 245, 500.68, 245, 312.25, 245, 0 ],
+					"hull": 8,
+					"edges": [ 6, 8, 0, 14, 12, 14, 0, 2, 12, 2, 8, 10, 10, 12, 2, 4, 4, 6, 10, 4 ],
+					"width": 756,
+					"height": 470
+				}
+			},
+			"win_hexa": {
+				"win_hexa": { "rotation": -90, "width": 320, "height": 751 }
+			},
+			"win_line-max": {
+				"win_line-max": {
+					"x": 1011,
+					"y": 1250.34,
+					"scaleX": 5,
+					"scaleY": 5,
+					"rotation": -90,
+					"width": 500,
+					"height": 525
+				}
+			},
+			"win_line-max2": {
+				"win_line-max": {
+					"x": 1011,
+					"y": -1249.66,
+					"scaleX": -5,
+					"scaleY": 5,
+					"rotation": -90,
+					"width": 500,
+					"height": 525
+				}
+			},
+			"win_line-sweep": {
+				"win_line-sweep": { "rotation": -90, "width": 1032, "height": 596 }
+			},
+			"win_line-sweep2": {
+				"win_line-sweep": { "rotation": -90, "width": 1032, "height": 596 }
+			},
+			"win_lineU": {
+				"win_lineU": { "rotation": -90, "width": 382, "height": 281 }
+			},
+			"win_lineU2": {
+				"win_lineU": { "rotation": -90, "width": 382, "height": 281 }
+			},
+			"win_max-board-bot": {
+				"win_max-board-bot": { "y": 259.37, "rotation": -90, "width": 553, "height": 243 }
+			},
+			"win_max-board-bot2": {
+				"win_max-board-bot": { "y": 259.37, "rotation": -90, "width": 553, "height": 243 }
+			},
+			"win_max-board-fan": {
+				"win_max-board-fan": { "rotation": -90, "width": 203, "height": 204 }
+			},
+			"win_max-board-fan2": {
+				"win_max-board-fan": { "rotation": -90, "width": 203, "height": 204 }
+			},
+			"win_max-board-glow": {
+				"win_max-board-glow": {
+					"x": -14,
+					"y": 58.68,
+					"scaleX": 2,
+					"scaleY": 2,
+					"rotation": -90,
+					"width": 442,
+					"height": 486
+				}
+			},
+			"win_max-board-glow2": {
+				"win_max-board-glow": {
+					"x": -14,
+					"y": 58.68,
+					"scaleX": 2,
+					"scaleY": 2,
+					"rotation": -90,
+					"width": 442,
+					"height": 486
+				}
+			},
+			"win_max-board-top": {
+				"win_max-board-top": { "y": 313.26, "rotation": -90, "width": 633, "height": 212 }
+			},
+			"win_max-board-top2": {
+				"win_max-board-top": { "y": 313.26, "rotation": -90, "width": 633, "height": 212 }
+			},
+			"win_ring": {
+				"win_ring": {
+					"x": 195.5,
+					"y": 959.5,
+					"scaleX": 2.5,
+					"scaleY": 2.5,
+					"rotation": -90,
+					"width": 769,
+					"height": 709
+				}
+			},
+			"win_ring2": {
+				"win_ring": {
+					"x": 195.5,
+					"y": -959.5,
+					"scaleX": -2.5,
+					"scaleY": 2.5,
+					"rotation": -90,
+					"width": 769,
+					"height": 709
+				}
+			},
+			"win_ring3": {
+				"win_ring": {
+					"x": 195.5,
+					"y": 959.5,
+					"scaleX": 2.5,
+					"scaleY": 2.5,
+					"rotation": -90,
+					"width": 769,
+					"height": 709
+				}
+			},
+			"win_ring4": {
+				"win_ring": {
+					"x": 195.5,
+					"y": -959.5,
+					"scaleX": -2.5,
+					"scaleY": 2.5,
+					"rotation": -90,
+					"width": 769,
+					"height": 709
+				}
+			},
+			"win_screen-bot": {
+				"win_board-bot": { "y": -429.68, "scaleY": 1.0137, "rotation": -90, "width": 1155, "height": 306 }
+			},
+			"win_screen-bot2": {
+				"win_board-bot": { "y": -429.68, "scaleY": 1.0137, "rotation": -90, "width": 1155, "height": 306 }
+			}
+		}
+	}
+],
+"animations": {
+	"1-big-intro": {
+		"slots": {
+			"fx-glow-bot": {
+				"rgba": [
+					{ "color": "0eff2500" },
+					{ "time": 0.6667, "color": "0eff25ff" }
+				],
+				"attachment": [
+					{ "name": "fx-glow" }
+				]
+			},
+			"fx-light-hexa": {
+				"rgba": [
+					{ "color": "2eff00ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa2": {
+				"rgba": [
+					{ "color": "2eff00ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa3": {
+				"rgba": [
+					{ "color": "2eff00ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa4": {
+				"rgba": [
+					{ "color": "2eff00ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-wave-glitch_B": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"fx-wave-glitch_G": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"fx-wave-glitch_R": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"win-1-txt-big": {
+				"attachment": [
+					{ "time": 0.1333, "name": "win_big-txt" }
+				]
+			},
+			"win-1-txt-big-B": {
+				"attachment": [
+					{ "time": 0.0333, "name": "win_big-txt-glitch" },
+					{ "time": 0.3 }
+				]
+			},
+			"win-1-txt-big-R": {
+				"attachment": [
+					{ "time": 0.0333, "name": "win_big-txt-glitch" },
+					{ "time": 0.3 }
+				]
+			},
+			"win_arrowD": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_arrowD2": {
+				"rgba": [
+					{ "color": "02ff0000" },
+					{ "time": 0.3333, "color": "02ff00d9" },
+					{ "time": 0.6, "color": "02ff0000" }
+				]
+			},
+			"win_arrowD3": {
+				"rgba": [
+					{ "color": "02ff0000" },
+					{ "time": 0.3333, "color": "02ff00ff" },
+					{ "time": 0.6667, "color": "02ff00a4" }
+				]
+			},
+			"win_arrowD4": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_arrowD5": {
+				"rgba": [
+					{ "color": "02ff0000" },
+					{ "time": 0.3333, "color": "02ff00ff" },
+					{ "time": 0.6667, "color": "02ff00a4" }
+				]
+			},
+			"win_arrowD6": {
+				"rgba": [
+					{ "color": "02ff0000" },
+					{ "time": 0.3333, "color": "02ff00d9" },
+					{ "time": 0.6, "color": "02ff0000" }
+				]
+			},
+			"win_arrowU": {
+				"rgba": [
+					{ "color": "67ff09ff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "67ff09ff" },
+					{ "time": 0.6, "color": "67ff0900" }
+				]
+			},
+			"win_arrowU2": {
+				"rgba": [
+					{ "color": "67ff09ff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "67ff09ff" },
+					{ "time": 0.6, "color": "67ff0900" }
+				]
+			},
+			"win_hexa": {
+				"rgba": [
+					{ "color": "67ff09ff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "67ff09ff" },
+					{ "time": 0.6667, "color": "67ff0900" }
+				]
+			},
+			"win_line-sweep": {
+				"rgba": [
+					{ "color": "02ff0000" },
+					{ "time": 0.1333, "color": "02ff005f" }
+				]
+			},
+			"win_line-sweep2": {
+				"rgba": [
+					{ "color": "02ff0000" },
+					{ "time": 0.1333, "color": "02ff005f" }
+				]
+			},
+			"win_lineU": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "67ff09ff" }
+				]
+			},
+			"win_lineU2": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "67ff09ff" }
+				]
+			},
+			"win_screen-bot": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "02ff005f" }
+				]
+			},
+			"win_screen-bot2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "02ff005f" }
+				]
+			}
+		},
+		"bones": {
+			"win-1-txt-big-B": {
+				"translate": [
+					{ "time": 0.0333, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.1, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.1667, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.2333, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.3, "x": -13.8, "y": -12.42 }
+				]
+			},
+			"win-1-txt-big-R": {
+				"translate": [
+					{ "time": 0.0333, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.1, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.1667, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.2333, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.3, "x": 24.93, "y": 12.19 }
+				]
+			},
+			"WIN-TXT": {
+				"scale": [
+					{ "x": 0.968, "curve": "stepped" },
+					{ "time": 0.0667, "x": 1.042, "y": 0.69, "curve": "stepped" },
+					{ "time": 0.2 }
+				]
+			},
+			"fx-wave-glitch_B": {
+				"translate": [
+					{ "x": 2.4, "y": -16.83 }
+				]
+			},
+			"fx-wave-glitch_R": {
+				"translate": [
+					{ "x": -14.42 }
+				]
+			},
+			"WIN-BOARD": {
+				"scale": [
+					{
+						"x": 0.8,
+						"y": 0.8,
+						"curve": [ 0.044, 0.933, 0.089, 1.2, 0.044, 0.933, 0.089, 1.2 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.244, 1.2, 0.356, 0.95, 0.244, 1.2, 0.356, 0.95 ]
+					},
+					{
+						"time": 0.4667,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.533, 0.95, 0.6, 0.983, 0.533, 0.95, 0.6, 0.983 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"win_arrowU": {
+				"translate": [
+					{ "y": -696.59 },
+					{ "time": 0.3333, "y": -76.56 },
+					{ "time": 0.6 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.6 }
+				]
+			},
+			"win_hexa": {
+				"translate": [
+					{ "y": -186.52 },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{ "x": 0.417, "y": 0.417 },
+					{ "time": 0.6667 }
+				]
+			},
+			"win_screen-bot": {
+				"scale": [
+					{ "y": 0.1 },
+					{ "time": 0.0667 }
+				]
+			},
+			"win_arrowD2": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowD3": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 0.6667, "y": 17.91 }
+				]
+			},
+			"win_screen-bot2": {
+				"scale": [
+					{ "y": 0.1 },
+					{ "time": 0.0667 }
+				]
+			},
+			"win_arrowD5": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 0.6667, "y": 17.91 }
+				]
+			},
+			"win_arrowD6": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowU2": {
+				"translate": [
+					{ "y": -696.59 },
+					{ "time": 0.3333, "y": -76.56 },
+					{ "time": 0.6 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.6 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-light-hexa": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa2": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa3": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa4": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-wave-glitch_B": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"fx-wave-glitch_G": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"fx-wave-glitch_R": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"win_big-board": {
+					"win_big-mega-board": {
+						"deform": [
+							{
+								"offset": 3,
+								"vertices": [ -313.96686, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -313.96686 ]
+							},
+							{ "time": 0.1333 }
+						]
+					}
+				},
+				"win_big-board2": {
+					"win_big-mega-board": {
+						"deform": [
+							{
+								"offset": 3,
+								"vertices": [ -313.96686, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -313.96686 ]
+							},
+							{ "time": 0.1333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"1-big-loop": {
+		"slots": {
+			"fx-glow-bot": {
+				"rgba": [
+					{ "color": "0eff25ff" },
+					{ "time": 1, "color": "0eff259e" },
+					{ "time": 2, "color": "0eff25ff" }
+				],
+				"attachment": [
+					{ "name": "fx-glow" }
+				]
+			},
+			"fx-light-hexa": {
+				"rgba": [
+					{ "color": "2eff00ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa2": {
+				"rgba": [
+					{ "color": "2eff00ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa3": {
+				"rgba": [
+					{ "color": "2eff00ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa4": {
+				"rgba": [
+					{ "color": "2eff00ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"win-1-txt-big": {
+				"attachment": [
+					{ "name": "win_big-txt" },
+					{ "time": 1.3667, "name": "win_big-txt-glitch" },
+					{ "time": 1.4333, "name": "win_big-txt" },
+					{ "time": 1.4667, "name": "win_big-txt-glitch" },
+					{ "time": 1.5333, "name": "win_big-txt" }
+				]
+			},
+			"win-1-txt-big-B": {
+				"attachment": [
+					{ "name": "win_big-txt-glitch" },
+					{ "time": 0.2667 },
+					{ "time": 0.4, "name": "win_big-txt-glitch" },
+					{ "time": 0.6667 }
+				]
+			},
+			"win-1-txt-big-R": {
+				"attachment": [
+					{ "name": "win_big-txt-glitch" },
+					{ "time": 0.2667 },
+					{ "time": 0.4, "name": "win_big-txt-glitch" },
+					{ "time": 0.6667 }
+				]
+			},
+			"win-4-txt-max": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 2, "color": "ffffffd9" }
+				]
+			},
+			"win_arrowD": {
+				"rgba": [
+					{ "color": "02ff0000" },
+					{ "time": 0.3333, "color": "02ff00ff" },
+					{ "time": 1.2667, "color": "02ff0000" }
+				]
+			},
+			"win_arrowD2": {
+				"rgba": [
+					{ "color": "02ff0000", "curve": "stepped" },
+					{ "time": 0.6667, "color": "02ff0000" },
+					{ "time": 1, "color": "02ff00ff" },
+					{ "time": 1.3333, "color": "02ff00a4" },
+					{ "time": 1.9333, "color": "02ff0000" }
+				]
+			},
+			"win_arrowD3": {
+				"rgba": [
+					{ "color": "02ff00a4" },
+					{ "time": 0.6, "color": "02ff0000", "curve": "stepped" },
+					{ "time": 1.3333, "color": "02ff0000" },
+					{ "time": 1.6667, "color": "02ff00ff" },
+					{ "time": 2, "color": "02ff00a4" }
+				]
+			},
+			"win_arrowD4": {
+				"rgba": [
+					{ "color": "02ff0000" },
+					{ "time": 0.3333, "color": "02ff00ff" },
+					{ "time": 1.2667, "color": "02ff0000" }
+				]
+			},
+			"win_arrowD5": {
+				"rgba": [
+					{ "color": "02ff00a4" },
+					{ "time": 0.6, "color": "02ff0000", "curve": "stepped" },
+					{ "time": 1.3333, "color": "02ff0000" },
+					{ "time": 1.6667, "color": "02ff00ff" },
+					{ "time": 2, "color": "02ff00a4" }
+				]
+			},
+			"win_arrowD6": {
+				"rgba": [
+					{ "color": "02ff0000", "curve": "stepped" },
+					{ "time": 0.6667, "color": "02ff0000" },
+					{ "time": 1, "color": "02ff00ff" },
+					{ "time": 1.3333, "color": "02ff00a4" },
+					{ "time": 1.9333, "color": "02ff0000" }
+				]
+			},
+			"win_arrowU": {
+				"rgba": [
+					{ "color": "67ff09ff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "67ff09ff" },
+					{ "time": 0.5, "color": "67ff0900", "curve": "stepped" },
+					{ "time": 0.6667, "color": "67ff09ff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "67ff09ff" },
+					{ "time": 1.1667, "color": "67ff0900", "curve": "stepped" },
+					{ "time": 1.3333, "color": "67ff09ff", "curve": "stepped" },
+					{ "time": 1.6, "color": "67ff09ff" },
+					{ "time": 1.8333, "color": "67ff0900" }
+				]
+			},
+			"win_arrowU2": {
+				"rgba": [
+					{ "color": "67ff09ff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "67ff09ff" },
+					{ "time": 0.5, "color": "67ff0900", "curve": "stepped" },
+					{ "time": 0.6667, "color": "67ff09ff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "67ff09ff" },
+					{ "time": 1.1667, "color": "67ff0900", "curve": "stepped" },
+					{ "time": 1.3333, "color": "67ff09ff", "curve": "stepped" },
+					{ "time": 1.6, "color": "67ff09ff" },
+					{ "time": 1.8333, "color": "67ff0900" }
+				]
+			},
+			"win_hexa": {
+				"rgba": [
+					{ "color": "67ff09ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "67ff09ff" },
+					{ "time": 1.8667, "color": "67ff0900" }
+				]
+			},
+			"win_line-sweep": {
+				"rgba": [
+					{ "color": "02ff005f" }
+				]
+			},
+			"win_line-sweep2": {
+				"rgba": [
+					{ "color": "02ff005f" }
+				]
+			},
+			"win_lineU": {
+				"rgba": [
+					{ "color": "67ff09ff" }
+				]
+			},
+			"win_lineU2": {
+				"rgba": [
+					{ "color": "67ff09ff" }
+				]
+			},
+			"win_screen-bot": {
+				"rgba": [
+					{ "color": "02ff005f" }
+				]
+			},
+			"win_screen-bot2": {
+				"rgba": [
+					{ "color": "02ff005f" }
+				]
+			}
+		},
+		"bones": {
+			"win-4-txt-max": {
+				"rotate": [
+					{},
+					{ "time": 2, "value": -0.29 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.607, 1, 1.297, 0.962, 0.607, 1, 1.297, 0.962 ]
+					},
+					{ "time": 2, "x": 0.905, "y": 0.905 }
+				]
+			},
+			"win-1-txt-big-B": {
+				"translate": [
+					{ "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.0667, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.1333, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.2, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.2667, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.4, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.4667, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.5333, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.6, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.6667, "x": -13.8, "y": -12.42 }
+				]
+			},
+			"win-1-txt-big-R": {
+				"translate": [
+					{ "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.0667, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.1333, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.2, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.2667, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.4, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.4667, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.5333, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.6, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.6667, "x": 24.93, "y": 12.19 }
+				]
+			},
+			"WIN-TXT": {
+				"scale": [
+					{ "time": 1.1333, "curve": "stepped" },
+					{ "time": 1.2, "x": 0.968, "curve": "stepped" },
+					{ "time": 1.2667, "x": 1.042, "y": 0.864, "curve": "stepped" },
+					{ "time": 1.4 }
+				]
+			},
+			"WIN-BOARD": {
+				"scale": [
+					{
+						"curve": [ 0.111, 1.012, 0.222, 1.029, 0.111, 1.012, 0.222, 1.029 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1.029,
+						"y": 1.029,
+						"curve": [ 0.6, 1.029, 0.882, 0.935, 0.6, 1.029, 0.882, 0.935 ]
+					},
+					{
+						"time": 1.1333,
+						"x": 0.912,
+						"y": 0.912,
+						"curve": [ 1.395, 0.888, 1.711, 0.969, 1.395, 0.888, 1.711, 0.969 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"win_arrowU": {
+				"translate": [
+					{ "y": -118.39 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "y": -118.39 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "y": -118.39 },
+					{ "time": 1.8333 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.6, "y": 0.6 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.6, "y": 0.6 },
+					{ "time": 1.8333 }
+				]
+			},
+			"win_hexa": {
+				"translate": [
+					{ "y": -186.52, "curve": "stepped" },
+					{ "time": 0.1333, "y": -186.52 },
+					{ "time": 1.8667 }
+				],
+				"scale": [
+					{ "x": 0.417, "y": 0.417, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0.417, "y": 0.417 },
+					{ "time": 1.8667, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"win_arrowD": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 1.2667, "y": -147.42 }
+				]
+			},
+			"win_arrowD2": {
+				"translate": [
+					{ "y": 201.61, "curve": "stepped" },
+					{ "time": 0.6667, "y": 201.61 },
+					{ "time": 1.3333, "y": 17.91 },
+					{ "time": 1.9333, "y": -147.42 }
+				]
+			},
+			"win_arrowD3": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42, "curve": "stepped" },
+					{ "time": 1.3333, "y": 201.61 },
+					{ "time": 2, "y": 17.91 }
+				]
+			},
+			"win_arrowD4": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 1.2667, "y": -147.42 }
+				]
+			},
+			"win_arrowD5": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42, "curve": "stepped" },
+					{ "time": 1.3333, "y": 201.61 },
+					{ "time": 2, "y": 17.91 }
+				]
+			},
+			"win_arrowD6": {
+				"translate": [
+					{ "y": 201.61, "curve": "stepped" },
+					{ "time": 0.6667, "y": 201.61 },
+					{ "time": 1.3333, "y": 17.91 },
+					{ "time": 1.9333, "y": -147.42 }
+				]
+			},
+			"win_arrowU2": {
+				"translate": [
+					{ "y": -118.39 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "y": -118.39 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "y": -118.39 },
+					{ "time": 1.8333 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.6, "y": 0.6 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.6, "y": 0.6 },
+					{ "time": 1.8333 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-light-hexa": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa2": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa3": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa4": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.1333,
+				"offsets": [
+					{ "slot": "win-1-txt-big-R", "offset": -6 }
+				]
+			},
+			{ "time": 0.4667 },
+			{
+				"time": 0.5333,
+				"offsets": [
+					{ "slot": "win-1-txt-big-R", "offset": -6 }
+				]
+			}
+		]
+	},
+	"2-mega-intro": {
+		"slots": {
+			"fx-glow-bot": {
+				"rgba": [
+					{ "color": "0eff25ff" },
+					{ "time": 0.6667, "color": "0dceffff" }
+				],
+				"attachment": [
+					{ "name": "fx-glow" }
+				]
+			},
+			"fx-light-hexa": {
+				"rgba": [
+					{ "color": "2eff00ff" },
+					{ "time": 0.3333, "color": "12e2ff5f" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa2": {
+				"rgba": [
+					{ "color": "2eff00ff" },
+					{ "time": 0.3333, "color": "12e2ff5f" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa3": {
+				"rgba": [
+					{ "color": "2eff00ff" },
+					{ "time": 0.3333, "color": "12e2ff5f" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa4": {
+				"rgba": [
+					{ "color": "2eff00ff" },
+					{ "time": 0.3333, "color": "12e2ff5f" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-wave-glitch_B": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"fx-wave-glitch_G": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"fx-wave-glitch_R": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"win-1-txt-big": {
+				"attachment": [
+					{ "name": "win_big-txt" },
+					{ "time": 0.2 }
+				]
+			},
+			"win-2-txt-mega": {
+				"attachment": [
+					{ "time": 0.2, "name": "win_mega-txt" }
+				]
+			},
+			"win-2-txt-mega-G": {
+				"rgba2": [
+					{ "light": "ffffff85", "dark": "059000" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "win_mega-txt-glitch" },
+					{ "time": 0.4 }
+				]
+			},
+			"win-2-txt-mega-R": {
+				"attachment": [
+					{ "time": 0.1333, "name": "win_mega-txt-glitch" },
+					{ "time": 0.4 }
+				]
+			},
+			"win-4-txt-max": {
+				"rgba": [
+					{ "color": "ffffffb3" },
+					{ "time": 0.6667, "color": "ffffffa6" }
+				]
+			},
+			"win_arrowD": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_arrowD2": {
+				"rgba": [
+					{ "color": "02ff0000" },
+					{ "time": 0.3333, "color": "12e2ffd6" },
+					{ "time": 0.6, "color": "02ff0000" }
+				]
+			},
+			"win_arrowD3": {
+				"rgba": [
+					{ "color": "02ff00a4" },
+					{ "time": 0.3333, "color": "0bd4ff49" },
+					{ "time": 0.6, "color": "18d7ff00" }
+				]
+			},
+			"win_arrowD4": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_arrowD5": {
+				"rgba": [
+					{ "color": "02ff00a4" },
+					{ "time": 0.3333, "color": "0bd4ff49" },
+					{ "time": 0.6, "color": "18d7ff00" }
+				]
+			},
+			"win_arrowD6": {
+				"rgba": [
+					{ "color": "02ff0000" },
+					{ "time": 0.3333, "color": "12e2ffd6" },
+					{ "time": 0.6, "color": "02ff0000" }
+				]
+			},
+			"win_arrowU": {
+				"rgba": [
+					{ "color": "10d5ffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "10d5ffff" },
+					{ "time": 0.6, "color": "10d5ff00" }
+				]
+			},
+			"win_arrowU2": {
+				"rgba": [
+					{ "color": "10d5ffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "10d5ffff" },
+					{ "time": 0.6, "color": "10d5ff00" }
+				]
+			},
+			"win_hexa": {
+				"rgba": [
+					{ "color": "10d5ffff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "10d5ffff" },
+					{ "time": 0.6667, "color": "10d5ff00" }
+				]
+			},
+			"win_line-sweep": {
+				"rgba": [
+					{ "color": "02ff005f" },
+					{ "time": 0.3333, "color": "18c4ff5f" }
+				]
+			},
+			"win_line-sweep2": {
+				"rgba": [
+					{ "color": "02ff005f" },
+					{ "time": 0.3333, "color": "18c4ff5f" }
+				]
+			},
+			"win_lineU": {
+				"rgba": [
+					{ "color": "67ff09ff" },
+					{ "time": 0.2, "color": "67ff0900" },
+					{ "time": 0.4667, "color": "0be5ffff" }
+				]
+			},
+			"win_lineU2": {
+				"rgba": [
+					{ "color": "67ff09ff" },
+					{ "time": 0.2, "color": "67ff0900" },
+					{ "time": 0.4667, "color": "0be5ffff" }
+				]
+			},
+			"win_screen-bot": {
+				"rgba": [
+					{ "color": "02ff005f" },
+					{ "time": 0.3333, "color": "12e2ff5f" }
+				]
+			},
+			"win_screen-bot2": {
+				"rgba": [
+					{ "color": "02ff005f" },
+					{ "time": 0.3333, "color": "12e2ff5f" }
+				]
+			}
+		},
+		"bones": {
+			"win-4-txt-max": {
+				"rotate": [
+					{ "value": -0.58 },
+					{ "time": 0.6667, "value": -0.68 }
+				],
+				"scale": [
+					{
+						"x": 0.715,
+						"y": 0.715,
+						"curve": [ 0.233, 0.69, 0.468, 0.666, 0.233, 0.69, 0.468, 0.666 ]
+					},
+					{ "time": 0.6667, "x": 0.639, "y": 0.639 }
+				]
+			},
+			"fx-wave-glitch_B": {
+				"translate": [
+					{ "x": 2.4, "y": -16.83 }
+				]
+			},
+			"fx-wave-glitch_R": {
+				"translate": [
+					{ "x": -14.42 }
+				]
+			},
+			"win-2-txt-mega-G": {
+				"translate": [
+					{ "time": 0.1333, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.2, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.2667, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.3333, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.4, "x": -13.8, "y": -12.42 }
+				]
+			},
+			"win-2-txt-mega-R": {
+				"translate": [
+					{ "time": 0.1333, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.2, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.2667, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.3333, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.4, "x": 24.93, "y": 12.19 }
+				]
+			},
+			"WIN-BOARD": {
+				"scale": [
+					{
+						"curve": [ 0.044, 1.033, 0.089, 1.2, 0.044, 1.033, 0.089, 1.2 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.244, 1.2, 0.356, 0.95, 0.244, 1.2, 0.356, 0.95 ]
+					},
+					{
+						"time": 0.4667,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.533, 0.95, 0.6, 0.95, 0.533, 0.95, 0.6, 0.95 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"win_arrowU": {
+				"translate": [
+					{ "y": -696.59 },
+					{ "time": 0.3333, "y": -76.56 },
+					{ "time": 0.6 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.6 }
+				]
+			},
+			"win_hexa": {
+				"translate": [
+					{ "y": -186.52 },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{ "x": 0.417, "y": 0.417 },
+					{ "time": 0.6667 }
+				]
+			},
+			"win_arrowD2": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowD3": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowD5": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowD6": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowU2": {
+				"translate": [
+					{ "y": -696.59 },
+					{ "time": 0.3333, "y": -76.56 },
+					{ "time": 0.6 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.6 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-light-hexa": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa2": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa3": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa4": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-wave-glitch_B": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"fx-wave-glitch_G": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"fx-wave-glitch_R": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"2-mega-loop": {
+		"slots": {
+			"fx-glow-bot": {
+				"rgba": [
+					{ "color": "0dceffff" },
+					{ "time": 1, "color": "0dceff92" },
+					{ "time": 2, "color": "0dceffff" }
+				],
+				"attachment": [
+					{ "name": "fx-glow" }
+				]
+			},
+			"fx-light-hexa": {
+				"rgba": [
+					{ "color": "14efffff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa2": {
+				"rgba": [
+					{ "color": "14efffff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa3": {
+				"rgba": [
+					{ "color": "14efffff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa4": {
+				"rgba": [
+					{ "color": "14efffff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"win-2-txt-mega": {
+				"attachment": [
+					{ "name": "win_mega-txt" },
+					{ "time": 1.2667, "name": "win_mega-txt-glitch" },
+					{ "time": 1.3333, "name": "win_mega-txt" },
+					{ "time": 1.4, "name": "win_mega-txt-glitch" },
+					{ "time": 1.4667, "name": "win_mega-txt" }
+				]
+			},
+			"win-2-txt-mega-G": {
+				"rgba2": [
+					{ "light": "ffffff85", "dark": "059000" }
+				],
+				"attachment": [
+					{ "name": "win_mega-txt-glitch" },
+					{ "time": 0.2667 },
+					{ "time": 0.4, "name": "win_mega-txt-glitch" },
+					{ "time": 0.6667 }
+				]
+			},
+			"win-2-txt-mega-R": {
+				"attachment": [
+					{ "name": "win_mega-txt-glitch" },
+					{ "time": 0.2667 },
+					{ "time": 0.4, "name": "win_mega-txt-glitch" },
+					{ "time": 0.6667 }
+				]
+			},
+			"win-4-txt-max": {
+				"rgba": [
+					{ "color": "ffffffa6" },
+					{ "time": 2, "color": "ffffff80" }
+				]
+			},
+			"win_arrowD": {
+				"rgba": [
+					{ "color": "00cfff00" },
+					{ "time": 0.3333, "color": "00cfffff" },
+					{ "time": 1.2667, "color": "00cfff00" }
+				]
+			},
+			"win_arrowD2": {
+				"rgba": [
+					{ "color": "00cfff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "00cfff00" },
+					{ "time": 1, "color": "00cfffff" },
+					{ "time": 1.9333, "color": "00cfff00" }
+				]
+			},
+			"win_arrowD3": {
+				"rgba": [
+					{ "color": "00cfffa4" },
+					{ "time": 0.6, "color": "00cfff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "00cfff00" },
+					{ "time": 1.6667, "color": "00cfffff" },
+					{ "time": 2, "color": "00cfffa4" }
+				]
+			},
+			"win_arrowD4": {
+				"rgba": [
+					{ "color": "00cfff00" },
+					{ "time": 0.3333, "color": "00cfffff" },
+					{ "time": 1.2667, "color": "00cfff00" }
+				]
+			},
+			"win_arrowD5": {
+				"rgba": [
+					{ "color": "00cfffa4" },
+					{ "time": 0.6, "color": "00cfff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "00cfff00" },
+					{ "time": 1.6667, "color": "00cfffff" },
+					{ "time": 2, "color": "00cfffa4" }
+				]
+			},
+			"win_arrowD6": {
+				"rgba": [
+					{ "color": "00cfff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "00cfff00" },
+					{ "time": 1, "color": "00cfffff" },
+					{ "time": 1.9333, "color": "00cfff00" }
+				]
+			},
+			"win_arrowU": {
+				"rgba": [
+					{ "color": "10d5ffff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "10d5ffff" },
+					{ "time": 0.5, "color": "10d5ff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "10d5ffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "10d5ffff" },
+					{ "time": 1.1667, "color": "10d5ff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "10d5ffff", "curve": "stepped" },
+					{ "time": 1.6, "color": "10d5ffff" },
+					{ "time": 1.8333, "color": "10d5ff00" }
+				]
+			},
+			"win_arrowU2": {
+				"rgba": [
+					{ "color": "10d5ffff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "10d5ffff" },
+					{ "time": 0.5, "color": "10d5ff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "10d5ffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "10d5ffff" },
+					{ "time": 1.1667, "color": "10d5ff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "10d5ffff", "curve": "stepped" },
+					{ "time": 1.6, "color": "10d5ffff" },
+					{ "time": 1.8333, "color": "10d5ff00" }
+				]
+			},
+			"win_hexa": {
+				"rgba": [
+					{ "color": "0be5ffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "0be5ffff" },
+					{ "time": 1.8667, "color": "0be5ff00" }
+				]
+			},
+			"win_line-sweep": {
+				"rgba": [
+					{ "color": "00e0ff5f" }
+				]
+			},
+			"win_line-sweep2": {
+				"rgba": [
+					{ "color": "00e0ff5f" }
+				]
+			},
+			"win_lineU": {
+				"rgba": [
+					{ "color": "0be5ffff" }
+				]
+			},
+			"win_lineU2": {
+				"rgba": [
+					{ "color": "0be5ffff" }
+				]
+			},
+			"win_screen-bot": {
+				"rgba": [
+					{ "color": "03f1ff5f" }
+				]
+			},
+			"win_screen-bot2": {
+				"rgba": [
+					{ "color": "03f1ff5f" }
+				]
+			}
+		},
+		"bones": {
+			"win-1-txt-big": {
+				"rotate": [
+					{ "value": 0.71 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2 }
+				]
+			},
+			"win-4-txt-max": {
+				"rotate": [
+					{ "value": -0.68 },
+					{ "time": 2, "value": -0.96 }
+				],
+				"scale": [
+					{
+						"x": 0.639,
+						"y": 0.639,
+						"curve": [ 0.674, 0.563, 1.353, 0.482, 0.674, 0.563, 1.353, 0.482 ]
+					},
+					{ "time": 2, "x": 0.4, "y": 0.4 }
+				]
+			},
+			"win-2-txt-mega-G": {
+				"translate": [
+					{ "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.0667, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.1333, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.2, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.2667, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.4, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.4667, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.5333, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.6, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.6667, "x": -13.8, "y": -12.42 }
+				]
+			},
+			"win-2-txt-mega-R": {
+				"translate": [
+					{ "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.0667, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.1333, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.2, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.2667, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.4, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.4667, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.5333, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.6, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.6667, "x": 24.93, "y": 12.19 }
+				]
+			},
+			"WIN-TXT": {
+				"scale": [
+					{ "time": 1.1333, "curve": "stepped" },
+					{ "time": 1.2, "x": 0.968, "curve": "stepped" },
+					{ "time": 1.2667, "x": 1.042, "y": 0.864, "curve": "stepped" },
+					{ "time": 1.4 }
+				]
+			},
+			"WIN-BOARD": {
+				"scale": [
+					{
+						"curve": [ 0.111, 1.012, 0.222, 1.029, 0.111, 1.012, 0.222, 1.029 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1.029,
+						"y": 1.029,
+						"curve": [ 0.6, 1.029, 0.882, 0.935, 0.6, 1.029, 0.882, 0.935 ]
+					},
+					{
+						"time": 1.1333,
+						"x": 0.912,
+						"y": 0.912,
+						"curve": [ 1.395, 0.888, 1.711, 0.969, 1.395, 0.888, 1.711, 0.969 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"win_arrowU": {
+				"translate": [
+					{ "y": -118.39 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "y": -118.39 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "y": -118.39 },
+					{ "time": 1.8333 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.6, "y": 0.6 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.6, "y": 0.6 },
+					{ "time": 1.8333 }
+				]
+			},
+			"win_hexa": {
+				"translate": [
+					{ "y": -186.52, "curve": "stepped" },
+					{ "time": 0.1333, "y": -186.52 },
+					{ "time": 1.8667 }
+				],
+				"scale": [
+					{ "x": 0.417, "y": 0.417, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0.417, "y": 0.417 },
+					{ "time": 1.8667, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"win_arrowD3": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42, "curve": "stepped" },
+					{ "time": 1.3333, "y": 201.61 },
+					{ "time": 2, "y": 17.91 }
+				]
+			},
+			"win_arrowD2": {
+				"translate": [
+					{ "y": 201.61, "curve": "stepped" },
+					{ "time": 0.6667, "y": 201.61 },
+					{ "time": 1.3333, "y": 17.91 },
+					{ "time": 1.9333, "y": -147.42 }
+				]
+			},
+			"win_arrowD": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 1.2667, "y": -147.42 }
+				]
+			},
+			"win_arrowD4": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 1.2667, "y": -147.42 }
+				]
+			},
+			"win_arrowD5": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42, "curve": "stepped" },
+					{ "time": 1.3333, "y": 201.61 },
+					{ "time": 2, "y": 17.91 }
+				]
+			},
+			"win_arrowD6": {
+				"translate": [
+					{ "y": 201.61, "curve": "stepped" },
+					{ "time": 0.6667, "y": 201.61 },
+					{ "time": 1.3333, "y": 17.91 },
+					{ "time": 1.9333, "y": -147.42 }
+				]
+			},
+			"win_arrowU2": {
+				"translate": [
+					{ "y": -118.39 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "y": -118.39 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "y": -118.39 },
+					{ "time": 1.8333 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.6, "y": 0.6 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.6, "y": 0.6 },
+					{ "time": 1.8333 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-light-hexa": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa2": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa3": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa4": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "win-2-txt-mega-G", "offset": -2 },
+					{ "slot": "win-2-txt-mega-R", "offset": -5 }
+				]
+			},
+			{
+				"time": 0.0667,
+				"offsets": [
+					{ "slot": "win-2-txt-mega-R", "offset": -5 }
+				]
+			},
+			{
+				"time": 0.1333,
+				"offsets": [
+					{ "slot": "win-1-txt-big-R", "offset": -6 }
+				]
+			},
+			{ "time": 0.4667 },
+			{
+				"time": 0.5333,
+				"offsets": [
+					{ "slot": "win-1-txt-big-R", "offset": -6 }
+				]
+			}
+		]
+	},
+	"3-epic-intro": {
+		"slots": {
+			"fx-electric-wave_00": {
+				"rgba": [
+					{ "time": 0.2333, "color": "ff79e4ff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ff79e4ff" },
+					{ "time": 0.6667, "color": "ff79e400" }
+				],
+				"attachment": [
+					{ "time": 0.2333, "name": "fx-electric-wave_" },
+					{ "time": 0.6667 }
+				]
+			},
+			"fx-electric-wave_01": {
+				"rgba": [
+					{ "time": 0.2333, "color": "ff79e4ff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ff79e4ff" },
+					{ "time": 0.6667, "color": "ff79e400" }
+				],
+				"attachment": [
+					{ "time": 0.2333, "name": "fx-electric-wave_" },
+					{ "time": 0.6333 }
+				]
+			},
+			"fx-glow-bot": {
+				"rgba": [
+					{ "color": "0dceffff" },
+					{ "time": 0.6667, "color": "a60cffff" }
+				],
+				"attachment": [
+					{ "name": "fx-glow" }
+				]
+			},
+			"fx-light-hexa": {
+				"rgba": [
+					{ "color": "2eff00ff" },
+					{ "time": 0.3333, "color": "fa10ff5f" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa2": {
+				"rgba": [
+					{ "color": "2eff00ff" },
+					{ "time": 0.3333, "color": "fa10ff5f" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa3": {
+				"rgba": [
+					{ "color": "2eff00ff" },
+					{ "time": 0.3333, "color": "fa10ff5f" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa4": {
+				"rgba": [
+					{ "color": "2eff00ff" },
+					{ "time": 0.3333, "color": "fa10ff5f" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-horizon": {
+				"rgba": [
+					{ "color": "fb23ffff", "curve": "stepped" },
+					{ "time": 0.2, "color": "fb23ffff" },
+					{ "time": 0.5333, "color": "fb23ff00" }
+				],
+				"attachment": [
+					{ "name": "fx-light-horizon" }
+				]
+			},
+			"fx-wave-glitch_B": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"fx-wave-glitch_G": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"fx-wave-glitch_R": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"win-2-txt-mega": {
+				"attachment": [
+					{ "name": "win_mega-txt" },
+					{ "time": 0.2 }
+				]
+			},
+			"win-3-txt-epic": {
+				"attachment": [
+					{ "time": 0.2, "name": "win_epic-txt" }
+				]
+			},
+			"win-3-txt-epic-G": {
+				"rgba2": [
+					{ "light": "ffffffff", "dark": "485942" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "win_epic-txt-glitch" },
+					{ "time": 0.4 }
+				]
+			},
+			"win-3-txt-epic-R": {
+				"attachment": [
+					{ "time": 0.1333, "name": "win_epic-txt-glitch" },
+					{ "time": 0.4 }
+				]
+			},
+			"win-4-txt-max": {
+				"rgba": [
+					{ "color": "ffffff59" },
+					{ "time": 0.6667, "color": "ffffff4d" }
+				]
+			},
+			"win_arrowD": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_arrowD2": {
+				"rgba": [
+					{ "color": "12e2ff00" },
+					{ "time": 0.3333, "color": "8664ff00" },
+					{ "time": 0.6, "color": "e200ff00" }
+				]
+			},
+			"win_arrowD3": {
+				"rgba": [
+					{ "color": "00cfffa4" },
+					{ "time": 0.3333, "color": "8664ff00" },
+					{ "time": 0.6, "color": "00cfff00" }
+				]
+			},
+			"win_arrowD4": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_arrowD5": {
+				"rgba": [
+					{ "color": "00cfffa4" },
+					{ "time": 0.3333, "color": "8664ff00" },
+					{ "time": 0.6, "color": "00cfff00" }
+				]
+			},
+			"win_arrowD6": {
+				"rgba": [
+					{ "color": "12e2ff00" },
+					{ "time": 0.3333, "color": "8664ff00" },
+					{ "time": 0.6, "color": "e200ff00" }
+				]
+			},
+			"win_arrowU": {
+				"rgba": [
+					{ "color": "ff10f3ff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ff10f3ff" },
+					{ "time": 0.6, "color": "ff10f300" }
+				]
+			},
+			"win_arrowU2": {
+				"rgba": [
+					{ "color": "ff10f3ff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ff10f3ff" },
+					{ "time": 0.6, "color": "ff10f300" }
+				]
+			},
+			"win_big-board": {
+				"attachment": [
+					{ "time": 0.1667, "name": "win_epic-board" }
+				]
+			},
+			"win_big-board2": {
+				"attachment": [
+					{ "time": 0.1667, "name": "win_epic-board" }
+				]
+			},
+			"win_hexa": {
+				"rgba": [
+					{ "color": "ff10f3ff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ff10f3ff" },
+					{ "time": 0.6667, "color": "ff10f300" }
+				]
+			},
+			"win_line-sweep": {
+				"rgba": [
+					{ "color": "00f4ff5f" },
+					{ "time": 0.3333, "color": "e900ffa4" }
+				]
+			},
+			"win_line-sweep2": {
+				"rgba": [
+					{ "color": "00f4ff5f" },
+					{ "time": 0.3333, "color": "e900ffa4" }
+				]
+			},
+			"win_lineU": {
+				"rgba": [
+					{ "color": "0be5ffff" },
+					{ "time": 0.2, "color": "748afa00" },
+					{ "time": 0.4667, "color": "ff10f3ff" }
+				]
+			},
+			"win_lineU2": {
+				"rgba": [
+					{ "color": "0be5ffff" },
+					{ "time": 0.2, "color": "748afa00" },
+					{ "time": 0.4667, "color": "ff10f3ff" }
+				]
+			},
+			"win_ring": {
+				"rgba": [
+					{ "color": "c41bff00" },
+					{ "time": 0.3333, "color": "c41bffff" }
+				],
+				"attachment": [
+					{ "name": "win_ring" }
+				]
+			},
+			"win_ring2": {
+				"rgba": [
+					{ "color": "c41bff00" },
+					{ "time": 0.3333, "color": "c41bffff" }
+				],
+				"attachment": [
+					{ "name": "win_ring" }
+				]
+			},
+			"win_screen-bot": {
+				"rgba": [
+					{ "color": "02ff005f" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ff10e65f" }
+				]
+			},
+			"win_screen-bot2": {
+				"rgba": [
+					{ "color": "02ff005f" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ff10e65f" }
+				]
+			}
+		},
+		"bones": {
+			"win-1-txt-big": {
+				"rotate": [
+					{ "value": 0.71 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2 }
+				]
+			},
+			"win-4-txt-max": {
+				"rotate": [
+					{ "value": -1.25 },
+					{ "time": 0.6667, "value": -1.35 }
+				],
+				"scale": [
+					{
+						"x": 0.154,
+						"y": 0.154,
+						"curve": [ 0.236, 0.126, 0.466, 0.102, 0.236, 0.126, 0.466, 0.102 ]
+					},
+					{ "time": 0.6667, "x": 0.076, "y": 0.076 }
+				]
+			},
+			"fx-light-horizon": {
+				"scale": [
+					{},
+					{ "time": 0.0667, "x": 2.123, "y": 21.721 },
+					{ "time": 0.3333, "x": 15, "y": 21.721 },
+					{ "time": 0.5333, "x": 30, "y": 21.721 }
+				]
+			},
+			"fx-electric-wave_00": {
+				"rotate": [
+					{ "time": 0.2333, "value": 45 }
+				],
+				"translate": [
+					{ "time": 0.2333, "x": -45.08, "y": 143.99 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 2.888, "y": 1.372 }
+				]
+			},
+			"fx-electric-wave_01": {
+				"rotate": [
+					{ "time": 0.2333, "value": 225 }
+				],
+				"translate": [
+					{ "time": 0.2333, "x": 55.49, "y": -116.26 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 2.888, "y": 1.372 }
+				]
+			},
+			"fx-wave-glitch_R": {
+				"translate": [
+					{ "x": -14.42 }
+				]
+			},
+			"fx-wave-glitch_B": {
+				"translate": [
+					{ "x": 2.4, "y": -16.83 }
+				]
+			},
+			"win-3-txt-epic-G": {
+				"translate": [
+					{ "time": 0.1333, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.2, "x": 47.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.2667, "x": 44.22, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.3333, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.4, "x": -13.8, "y": -12.42 }
+				]
+			},
+			"win-3-txt-epic-R": {
+				"translate": [
+					{ "time": 0.1333, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.2, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.2667, "x": 4.65, "y": 9.06, "curve": "stepped" },
+					{ "time": 0.3333, "x": 23.52, "y": -5.59, "curve": "stepped" },
+					{ "time": 0.4, "x": 24.93, "y": 12.19 }
+				]
+			},
+			"WIN-BOARD": {
+				"scale": [
+					{
+						"curve": [ 0.044, 1.033, 0.089, 1.2, 0.044, 1.033, 0.089, 1.2 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.244, 1.2, 0.356, 0.95, 0.244, 1.2, 0.356, 0.95 ]
+					},
+					{
+						"time": 0.4667,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.533, 0.95, 0.6, 0.95, 0.533, 0.95, 0.6, 0.95 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"win_arrowU": {
+				"translate": [
+					{ "y": -696.59 },
+					{ "time": 0.3333, "y": -76.56 },
+					{ "time": 0.6 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.6 }
+				]
+			},
+			"win_hexa": {
+				"translate": [
+					{ "y": -186.52 },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{ "x": 0.417, "y": 0.417 },
+					{ "time": 0.6667 }
+				]
+			},
+			"win_arrowD2": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowD3": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"fx-win-ring": {
+				"scale": [
+					{ "x": 2.872, "y": 2.872 },
+					{ "time": 0.3333, "x": 1.2, "y": 1.2 },
+					{ "time": 0.6667 }
+				]
+			},
+			"win_arrowD5": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowD6": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowU2": {
+				"translate": [
+					{ "y": -696.59 },
+					{ "time": 0.3333, "y": -76.56 },
+					{ "time": 0.6 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.6 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-electric-wave_00": {
+					"fx-electric-wave_": {
+						"sequence": [
+							{ "time": 0.2333, "mode": "once", "index": 20, "delay": 0.05 }
+						]
+					}
+				},
+				"fx-electric-wave_01": {
+					"fx-electric-wave_": {
+						"sequence": [
+							{ "time": 0.2333, "mode": "once", "index": 15, "delay": 0.05 }
+						]
+					}
+				},
+				"fx-light-hexa": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa2": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa3": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa4": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-wave-glitch_B": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"fx-wave-glitch_G": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"fx-wave-glitch_R": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"3-epic-loop": {
+		"slots": {
+			"fx-glow-bot": {
+				"rgba": [
+					{ "color": "a60cffff" },
+					{ "time": 1, "color": "af25ff8a" },
+					{ "time": 2, "color": "a60cffff" }
+				],
+				"attachment": [
+					{ "name": "fx-glow" }
+				]
+			},
+			"fx-light-hexa": {
+				"rgba": [
+					{ "color": "fa10ff5f" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa2": {
+				"rgba": [
+					{ "color": "fa10ff5f" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa3": {
+				"rgba": [
+					{ "color": "fa10ff5f" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa4": {
+				"rgba": [
+					{ "color": "fa10ff5f" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"win-3-txt-epic": {
+				"attachment": [
+					{ "name": "win_epic-txt" },
+					{ "time": 1.2667, "name": "win_epic-txt-glitch" },
+					{ "time": 1.3333, "name": "win_epic-txt" },
+					{ "time": 1.4, "name": "win_epic-txt-glitch" },
+					{ "time": 1.4667, "name": "win_epic-txt" }
+				]
+			},
+			"win-3-txt-epic-G": {
+				"rgba2": [
+					{ "light": "ffffffff", "dark": "485942" }
+				],
+				"attachment": [
+					{ "name": "win_epic-txt-glitch" },
+					{ "time": 0.2667 },
+					{ "time": 0.4, "name": "win_epic-txt-glitch" },
+					{ "time": 0.6667 }
+				]
+			},
+			"win-3-txt-epic-R": {
+				"attachment": [
+					{ "name": "win_epic-txt-glitch" },
+					{ "time": 0.2667 },
+					{ "time": 0.4, "name": "win_epic-txt-glitch" },
+					{ "time": 0.6667 }
+				]
+			},
+			"win-4-txt-max": {
+				"rgba": [
+					{ "color": "ffffff4d" },
+					{ "time": 2, "color": "ffffff26" }
+				]
+			},
+			"win_arrowD": {
+				"rgba": [
+					{ "color": "ff0afc00" },
+					{ "time": 0.3333, "color": "ff0afcff" },
+					{ "time": 1.2667, "color": "ff0afc00" }
+				]
+			},
+			"win_arrowD2": {
+				"rgba": [
+					{ "color": "fd00ff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "fd00ff00" },
+					{ "time": 1, "color": "fd00ffff" },
+					{ "time": 1.9333, "color": "fd00ff00" }
+				]
+			},
+			"win_arrowD3": {
+				"rgba": [
+					{ "color": "e900ffa4" },
+					{ "time": 0.6, "color": "ff00e100", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ff00e100" },
+					{ "time": 1.6667, "color": "ff00e1ff" },
+					{ "time": 2, "color": "e900ffa4" }
+				]
+			},
+			"win_arrowD4": {
+				"rgba": [
+					{ "color": "ff0afc00" },
+					{ "time": 0.3333, "color": "ff0afcff" },
+					{ "time": 1.2667, "color": "ff0afc00" }
+				]
+			},
+			"win_arrowD5": {
+				"rgba": [
+					{ "color": "e900ffa4" },
+					{ "time": 0.6, "color": "ff00e100", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ff00e100" },
+					{ "time": 1.6667, "color": "ff00e1ff" },
+					{ "time": 2, "color": "e900ffa4" }
+				]
+			},
+			"win_arrowD6": {
+				"rgba": [
+					{ "color": "fd00ff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "fd00ff00" },
+					{ "time": 1, "color": "fd00ffff" },
+					{ "time": 1.9333, "color": "fd00ff00" }
+				]
+			},
+			"win_arrowU": {
+				"rgba": [
+					{ "color": "ff10f300" },
+					{ "time": 0.2667, "color": "ff10f3ff" },
+					{ "time": 0.5, "color": "ff10f300", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ff10f300" },
+					{ "time": 0.9333, "color": "ff10f3ff" },
+					{ "time": 1.1667, "color": "ff10f300", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ff10f300" },
+					{ "time": 1.6, "color": "ff10f3ff" },
+					{ "time": 1.8333, "color": "ff10f300" }
+				]
+			},
+			"win_arrowU2": {
+				"rgba": [
+					{ "color": "ff10f300" },
+					{ "time": 0.2667, "color": "ff10f3ff" },
+					{ "time": 0.5, "color": "ff10f300", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ff10f300" },
+					{ "time": 0.9333, "color": "ff10f3ff" },
+					{ "time": 1.1667, "color": "ff10f300", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ff10f300" },
+					{ "time": 1.6, "color": "ff10f3ff" },
+					{ "time": 1.8333, "color": "ff10f300" }
+				]
+			},
+			"win_big-board": {
+				"attachment": [
+					{ "name": "win_epic-board" }
+				]
+			},
+			"win_big-board2": {
+				"attachment": [
+					{ "name": "win_epic-board" }
+				]
+			},
+			"win_hexa": {
+				"rgba": [
+					{ "color": "ff10f3ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ff10f3ff" },
+					{ "time": 1.8667, "color": "ff10f300" }
+				]
+			},
+			"win_line-sweep": {
+				"rgba": [
+					{ "color": "e900ffa4" }
+				]
+			},
+			"win_line-sweep2": {
+				"rgba": [
+					{ "color": "e900ffa4" }
+				]
+			},
+			"win_lineU": {
+				"rgba": [
+					{ "color": "ff10f3ff" }
+				]
+			},
+			"win_lineU2": {
+				"rgba": [
+					{ "color": "ff10f3ff" }
+				]
+			},
+			"win_ring": {
+				"rgba": [
+					{ "color": "c41bffff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "c41bffff" },
+					{ "time": 0.8333, "color": "c41bff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "c41bff00" },
+					{ "time": 1.8667, "color": "c41bffff" }
+				],
+				"attachment": [
+					{ "name": "win_ring" }
+				]
+			},
+			"win_ring2": {
+				"rgba": [
+					{ "color": "c41bffff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "c41bffff" },
+					{ "time": 0.8333, "color": "c41bff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "c41bff00" },
+					{ "time": 1.8667, "color": "c41bffff" }
+				],
+				"attachment": [
+					{ "name": "win_ring" }
+				]
+			},
+			"win_ring3": {
+				"rgba": [
+					{ "color": "c41bff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "c41bff00" },
+					{ "time": 0.8333, "color": "c41bffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "c41bffff" },
+					{ "time": 1.6667, "color": "c41bff00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "win_ring" }
+				]
+			},
+			"win_ring4": {
+				"rgba": [
+					{ "color": "c41bff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "c41bff00" },
+					{ "time": 0.8333, "color": "c41bffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "c41bffff" },
+					{ "time": 1.6667, "color": "c41bff00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "win_ring" }
+				]
+			},
+			"win_screen-bot": {
+				"rgba": [
+					{ "color": "ff10e65f" }
+				]
+			},
+			"win_screen-bot2": {
+				"rgba": [
+					{ "color": "ff10e65f" }
+				]
+			}
+		},
+		"bones": {
+			"win-1-txt-big": {
+				"rotate": [
+					{ "value": 0.71 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2 }
+				]
+			},
+			"win-4-txt-max": {
+				"rotate": [
+					{ "value": -1.35 },
+					{ "time": 2, "value": -1.64 }
+				],
+				"scale": [
+					{
+						"x": 0.076,
+						"y": 0.076,
+						"curve": [ 0.751, -0.009, 1.434, -0.077, 0.751, -0.009, 1.434, -0.077 ]
+					},
+					{ "time": 2, "x": -0.12, "y": -0.12 }
+				]
+			},
+			"win-3-txt-epic-G": {
+				"translate": [
+					{ "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.0667, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.1333, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.2, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.2667, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.4, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.4667, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.5333, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.6, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.6667, "x": -13.8, "y": -12.42 }
+				]
+			},
+			"win-3-txt-epic-R": {
+				"translate": [
+					{ "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.0667, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.1333, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.2, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.2667, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.4, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.4667, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.5333, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.6, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.6667, "x": 24.93, "y": 12.19 }
+				]
+			},
+			"WIN-TXT": {
+				"scale": [
+					{ "time": 1.1333, "curve": "stepped" },
+					{ "time": 1.2, "x": 0.968, "curve": "stepped" },
+					{ "time": 1.2667, "x": 1.042, "y": 0.864, "curve": "stepped" },
+					{ "time": 1.4 }
+				]
+			},
+			"WIN-BOARD": {
+				"scale": [
+					{
+						"curve": [ 0.111, 1.012, 0.222, 1.029, 0.111, 1.012, 0.222, 1.029 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1.029,
+						"y": 1.029,
+						"curve": [ 0.6, 1.029, 0.882, 0.935, 0.6, 1.029, 0.882, 0.935 ]
+					},
+					{
+						"time": 1.1333,
+						"x": 0.912,
+						"y": 0.912,
+						"curve": [ 1.395, 0.888, 1.711, 0.969, 1.395, 0.888, 1.711, 0.969 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"win_arrowU": {
+				"translate": [
+					{ "y": -118.39 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "y": -118.39 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "y": -118.39 },
+					{ "time": 1.8333 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.6, "y": 0.6 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.6, "y": 0.6 },
+					{ "time": 1.8333 }
+				]
+			},
+			"win_hexa": {
+				"translate": [
+					{ "y": -186.52, "curve": "stepped" },
+					{ "time": 0.1333, "y": -186.52 },
+					{ "time": 1.8667 }
+				],
+				"scale": [
+					{ "x": 0.417, "y": 0.417, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0.417, "y": 0.417 },
+					{ "time": 1.8667, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"win_arrowD3": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42, "curve": "stepped" },
+					{ "time": 1.3333, "y": 201.61 },
+					{ "time": 2, "y": 17.91 }
+				]
+			},
+			"win_arrowD2": {
+				"translate": [
+					{ "y": 201.61, "curve": "stepped" },
+					{ "time": 0.6667, "y": 201.61 },
+					{ "time": 1.3333, "y": 17.91 },
+					{ "time": 1.9333, "y": -147.42 }
+				]
+			},
+			"win_arrowD": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 1.2667, "y": -147.42 }
+				]
+			},
+			"fx-win-ring": {
+				"scale": [
+					{},
+					{ "time": 0.8333, "x": 0.862, "y": 0.862, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1.109, "y": 1.109 },
+					{ "time": 2 }
+				]
+			},
+			"fx-win-ring2": {
+				"scale": [
+					{ "x": 1.076, "y": 1.076, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1.076, "y": 1.076 },
+					{ "time": 1.6667, "x": 0.774, "y": 0.774 }
+				]
+			},
+			"win_arrowD4": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 1.2667, "y": -147.42 }
+				]
+			},
+			"win_arrowD5": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42, "curve": "stepped" },
+					{ "time": 1.3333, "y": 201.61 },
+					{ "time": 2, "y": 17.91 }
+				]
+			},
+			"win_arrowD6": {
+				"translate": [
+					{ "y": 201.61, "curve": "stepped" },
+					{ "time": 0.6667, "y": 201.61 },
+					{ "time": 1.3333, "y": 17.91 },
+					{ "time": 1.9333, "y": -147.42 }
+				]
+			},
+			"win_arrowU2": {
+				"translate": [
+					{ "y": -118.39 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "y": -118.39 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "y": -118.39 },
+					{ "time": 1.8333 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.6, "y": 0.6 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.6, "y": 0.6 },
+					{ "time": 1.8333 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-light-hexa": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa2": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa3": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa4": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.0667,
+				"offsets": [
+					{ "slot": "win-3-txt-epic-R", "offset": -8 }
+				]
+			},
+			{
+				"time": 0.1333,
+				"offsets": [
+					{ "slot": "win-1-txt-big-R", "offset": -6 }
+				]
+			},
+			{ "time": 0.2 },
+			{
+				"time": 0.5333,
+				"offsets": [
+					{ "slot": "win-1-txt-big-R", "offset": -6 }
+				]
+			},
+			{ "time": 0.6 },
+			{
+				"time": 1.2667,
+				"offsets": [
+					{ "slot": "win-1-txt-big-R", "offset": -6 }
+				]
+			}
+		]
+	},
+	"4-max-intro": {
+		"slots": {
+			"fx-electric-wave_00": {
+				"rgba": [
+					{ "time": 0.2333, "color": "ffd90aff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffd90aff" },
+					{ "time": 0.6667, "color": "ffd90a00" }
+				],
+				"attachment": [
+					{ "time": 0.2333, "name": "fx-electric-wave_" },
+					{ "time": 0.6667 }
+				]
+			},
+			"fx-electric-wave_01": {
+				"rgba": [
+					{ "time": 0.2333, "color": "ffd90aff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffd90aff" },
+					{ "time": 0.6667, "color": "ffd90a00" }
+				],
+				"attachment": [
+					{ "time": 0.2333, "name": "fx-electric-wave_" },
+					{ "time": 0.6667 }
+				]
+			},
+			"fx-glow-bot": {
+				"rgba": [
+					{ "color": "ffc20b00" },
+					{ "time": 0.6667, "color": "ffc20bff" }
+				],
+				"attachment": [
+					{ "name": "fx-glow" }
+				]
+			},
+			"fx-light-hexa": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa2": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa3": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa4": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-horizon": {
+				"rgba": [
+					{ "color": "ffdd24ff", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffdd24ff" },
+					{ "time": 0.5333, "color": "ffdd2400" }
+				],
+				"attachment": [
+					{ "name": "fx-light-horizon" }
+				]
+			},
+			"fx-wave-glitch_B": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"fx-wave-glitch_G": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"fx-wave-glitch_R": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"win-2-txt-mega": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win-4-txt-max": {
+				"attachment": [
+					{ "time": 0.2, "name": "win_max-txt" }
+				]
+			},
+			"win-4-txt-max-B": {
+				"attachment": [
+					{ "name": "win_max-txt-glitch" },
+					{ "time": 0.2667 }
+				]
+			},
+			"win-4-txt-max-R": {
+				"attachment": [
+					{ "name": "win_max-txt-glitch" },
+					{ "time": 0.2667 }
+				]
+			},
+			"win_arrowD": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_arrowD2": {
+				"rgba": [
+					{ "color": "fdff0000" },
+					{ "time": 0.3333, "color": "fdff00ff" },
+					{ "time": 0.6, "color": "fdff0000" }
+				]
+			},
+			"win_arrowD3": {
+				"rgba": [
+					{ "color": "fff72100" },
+					{ "time": 0.3333, "color": "fff721ff" },
+					{ "time": 0.6667, "color": "ffe800a4" }
+				]
+			},
+			"win_arrowD4": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_arrowD5": {
+				"rgba": [
+					{ "color": "fff72100" },
+					{ "time": 0.3333, "color": "fff721ff" },
+					{ "time": 0.6667, "color": "ffe800a4" }
+				]
+			},
+			"win_arrowD6": {
+				"rgba": [
+					{ "color": "fdff0000" },
+					{ "time": 0.3333, "color": "fdff00ff" },
+					{ "time": 0.6, "color": "fdff0000" }
+				]
+			},
+			"win_arrowU": {
+				"rgba": [
+					{ "color": "ffdc0800" },
+					{ "time": 0.3333, "color": "ffdc08ff" },
+					{ "time": 0.6, "color": "ffdc0800" }
+				]
+			},
+			"win_arrowU2": {
+				"rgba": [
+					{ "color": "ffdc0800" },
+					{ "time": 0.3333, "color": "ffdc08ff" },
+					{ "time": 0.6, "color": "ffdc0800" }
+				]
+			},
+			"win_big-board": {
+				"attachment": [
+					{ "name": "win_max-board" }
+				]
+			},
+			"win_big-board2": {
+				"attachment": [
+					{ "name": "win_max-board" }
+				]
+			},
+			"win_hexa": {
+				"rgba": [
+					{ "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffdc08ff" },
+					{ "time": 0.6667, "color": "ffdc0800" }
+				]
+			},
+			"win_line-max": {
+				"rgba": [
+					{ "color": "ffc20b00" },
+					{ "time": 0.3333, "color": "ffe6127e" }
+				],
+				"attachment": [
+					{ "name": "win_line-max" }
+				]
+			},
+			"win_line-max2": {
+				"rgba": [
+					{ "color": "ffc20b00" },
+					{ "time": 0.3333, "color": "ffe6127e" }
+				],
+				"attachment": [
+					{ "name": "win_line-max" }
+				]
+			},
+			"win_line-sweep": {
+				"rgba": [
+					{ "color": "fff72100" },
+					{ "time": 0.1333, "color": "fff7215f" }
+				]
+			},
+			"win_line-sweep2": {
+				"rgba": [
+					{ "color": "fff72100" },
+					{ "time": 0.1333, "color": "fff7215f" }
+				]
+			},
+			"win_lineU": {
+				"rgba": [
+					{ "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffdc0800" },
+					{ "time": 0.6667, "color": "ffdc08ff" }
+				]
+			},
+			"win_lineU2": {
+				"rgba": [
+					{ "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffdc0800" },
+					{ "time": 0.6667, "color": "ffdc08ff" }
+				]
+			},
+			"win_max-board-bot": {
+				"attachment": [
+					{ "name": "win_max-board-bot" }
+				]
+			},
+			"win_max-board-bot2": {
+				"attachment": [
+					{ "name": "win_max-board-bot" }
+				]
+			},
+			"win_max-board-fan": {
+				"attachment": [
+					{ "name": "win_max-board-fan" }
+				]
+			},
+			"win_max-board-fan2": {
+				"attachment": [
+					{ "name": "win_max-board-fan" }
+				]
+			},
+			"win_max-board-glow": {
+				"rgba": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "win_max-board-glow" }
+				]
+			},
+			"win_max-board-glow2": {
+				"rgba": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "win_max-board-glow" }
+				]
+			},
+			"win_max-board-top": {
+				"attachment": [
+					{ "name": "win_max-board-top" }
+				]
+			},
+			"win_max-board-top2": {
+				"attachment": [
+					{ "name": "win_max-board-top" }
+				]
+			},
+			"win_ring": {
+				"rgba": [
+					{ "color": "ffb11a00" },
+					{ "time": 0.3333, "color": "ffb11aff" }
+				],
+				"attachment": [
+					{ "name": "win_ring" }
+				]
+			},
+			"win_ring2": {
+				"rgba": [
+					{ "color": "ffb11a00" },
+					{ "time": 0.3333, "color": "ffb11aff" }
+				],
+				"attachment": [
+					{ "name": "win_ring" }
+				]
+			},
+			"win_screen-bot": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "fff2005f" }
+				]
+			},
+			"win_screen-bot2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "fff2005f" }
+				]
+			}
+		},
+		"bones": {
+			"win-1-txt-big": {
+				"rotate": [
+					{ "value": 0.71 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2 }
+				]
+			},
+			"win-2-txt-mega": {
+				"rotate": [
+					{ "value": 0.71 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2 }
+				]
+			},
+			"fx-light-horizon": {
+				"scale": [
+					{},
+					{ "time": 0.0667, "x": 2.123, "y": 31.748 },
+					{ "time": 0.3333, "x": 17.395, "y": 21.721 },
+					{ "time": 0.5333, "x": 36.135, "y": 21.721 }
+				]
+			},
+			"fx-electric-wave_00": {
+				"rotate": [
+					{ "time": 0.2333, "value": 45 }
+				],
+				"translate": [
+					{ "time": 0.2333, "x": -45.08, "y": 68.77 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 2.888, "y": 1.372 }
+				]
+			},
+			"fx-electric-wave_01": {
+				"rotate": [
+					{ "time": 0.2333, "value": 225 }
+				],
+				"translate": [
+					{ "time": 0.2333, "x": 55.49, "y": -34 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 2.888, "y": 1.372 }
+				]
+			},
+			"fx-wave-glitch_R": {
+				"translate": [
+					{ "x": -14.42 }
+				]
+			},
+			"fx-wave-glitch_B": {
+				"translate": [
+					{ "x": 2.4, "y": -16.83 }
+				]
+			},
+			"win-4-txt-max-B": {
+				"translate": [
+					{ "x": -60.43, "y": -24.08, "curve": "stepped" },
+					{ "time": 0.0667, "x": 97.9, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.1333, "x": -2.4, "y": -20.19, "curve": "stepped" },
+					{ "time": 0.2, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.2667, "x": -13.8, "y": -12.42 }
+				],
+				"scale": [
+					{ "x": 0.735, "y": 0.735, "curve": "stepped" },
+					{ "time": 0.0667, "x": 0.842, "y": 0.842, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0.888, "y": 0.888 }
+				]
+			},
+			"win-4-txt-max-R": {
+				"translate": [
+					{ "x": -21.69, "y": 0.53, "curve": "stepped" },
+					{ "time": 0.0667, "x": 35.91, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.1333, "x": -41.97, "y": 1.29, "curve": "stepped" },
+					{ "time": 0.2, "x": 23.52, "y": -5.59, "curve": "stepped" },
+					{ "time": 0.2667, "x": 24.93, "y": 12.19 }
+				],
+				"scale": [
+					{ "x": 0.697, "y": 0.697, "curve": "stepped" },
+					{ "time": 0.0667, "x": 0.842, "y": 0.842, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0.888, "y": 0.888 }
+				]
+			},
+			"WIN-BOARD": {
+				"scale": [
+					{
+						"x": 0.8,
+						"y": 0.8,
+						"curve": [ 0.044, 0.933, 0.089, 1.2, 0.044, 0.933, 0.089, 1.2 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.244, 1.2, 0.356, 0.95, 0.244, 1.2, 0.356, 0.95 ]
+					},
+					{
+						"time": 0.4667,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.533, 0.95, 0.6, 0.983, 0.533, 0.95, 0.6, 0.983 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"win_max-board-bot": {
+				"translate": [
+					{ "x": 151.15, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 151.15,
+						"curve": [ 0.267, 151.15, 0.335, -93.42, 0.267, 0, 0.333, 0 ]
+					},
+					{ "time": 0.4 }
+				]
+			},
+			"win_max-board-top": {
+				"translate": [
+					{ "x": -109.14, "y": -5.47 },
+					{
+						"time": 0.2,
+						"x": -109.14,
+						"y": -88.38,
+						"curve": [ 0.242, -85.28, 0.297, 146.57, 0.242, -69.06, 0.297, 118.68 ]
+					},
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{ "y": 0.152 },
+					{ "time": 0.2 }
+				]
+			},
+			"win_max-board-fan": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "value": -720 }
+				]
+			},
+			"win_max-board-bot2": {
+				"translate": [
+					{ "x": 151.15, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 151.15,
+						"curve": [ 0.267, 151.15, 0.335, -93.42, 0.267, 0, 0.333, 0 ]
+					},
+					{ "time": 0.4 }
+				]
+			},
+			"win_max-board-top2": {
+				"translate": [
+					{ "x": -109.14, "y": -5.47 },
+					{
+						"time": 0.2,
+						"x": -109.14,
+						"y": -88.38,
+						"curve": [ 0.242, -85.28, 0.297, 146.57, 0.242, -69.06, 0.297, 118.68 ]
+					},
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{ "y": 0.152 },
+					{ "time": 0.2 }
+				]
+			},
+			"win_max-board-fan2": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "value": -720 }
+				]
+			},
+			"win_arrowU": {
+				"translate": [
+					{ "y": -696.59 },
+					{ "time": 0.3333, "y": -76.56 },
+					{ "time": 0.6 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.6 }
+				]
+			},
+			"win_hexa": {
+				"translate": [
+					{ "y": -186.52 },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{ "x": 0.417, "y": 0.417 },
+					{ "time": 0.6667 }
+				]
+			},
+			"win_screen-bot": {
+				"scale": [
+					{ "y": 0.1 },
+					{ "time": 0.0667 }
+				]
+			},
+			"win_arrowD3": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 0.6667, "y": 17.91 }
+				]
+			},
+			"win_arrowD2": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"fx-win-ring": {
+				"scale": [
+					{ "x": 2.872, "y": 2.872 },
+					{ "time": 0.3333, "x": 1.2, "y": 1.2 },
+					{ "time": 0.6667 }
+				]
+			},
+			"win_screen-bot2": {
+				"scale": [
+					{ "y": 0.1 },
+					{ "time": 0.0667 }
+				]
+			},
+			"win_arrowD5": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 0.6667, "y": 17.91 }
+				]
+			},
+			"win_arrowD6": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowU2": {
+				"translate": [
+					{ "y": -696.59 },
+					{ "time": 0.3333, "y": -76.56 },
+					{ "time": 0.6 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.6 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-electric-wave_00": {
+					"fx-electric-wave_": {
+						"sequence": [
+							{ "time": 0.2333, "mode": "once", "index": 20, "delay": 0.05 }
+						]
+					}
+				},
+				"fx-electric-wave_01": {
+					"fx-electric-wave_": {
+						"sequence": [
+							{ "time": 0.2333, "mode": "once", "index": 15, "delay": 0.05 }
+						]
+					}
+				},
+				"fx-light-hexa": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa2": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa3": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa4": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-wave-glitch_B": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"fx-wave-glitch_G": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"fx-wave-glitch_R": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"win_big-board": {
+					"win_max-board": {
+						"deform": [
+							{
+								"offset": 3,
+								"vertices": [ -313.96686, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -313.96686 ]
+							},
+							{ "time": 0.1333 }
+						]
+					}
+				},
+				"win_big-board2": {
+					"win_max-board": {
+						"deform": [
+							{
+								"offset": 3,
+								"vertices": [ -313.96686, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -313.96686 ]
+							},
+							{ "time": 0.1333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"4-max-loop": {
+		"slots": {
+			"fx-glow-bot": {
+				"rgba": [
+					{ "color": "ffc20bff" },
+					{ "time": 1, "color": "ffc20b96" },
+					{ "time": 2, "color": "ffc20bff" }
+				],
+				"attachment": [
+					{ "name": "fx-glow" }
+				]
+			},
+			"fx-light-hexa": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa2": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa3": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa4": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"win-2-txt-mega": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win-3-txt-epic": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win-4-txt-max": {
+				"attachment": [
+					{ "name": "win_max-txt" },
+					{ "time": 1.2667, "name": "win_max-txt-glitch" },
+					{ "time": 1.3333, "name": "win_max-txt" },
+					{ "time": 1.4, "name": "win_max-txt-glitch" },
+					{ "time": 1.4667, "name": "win_max-txt" }
+				]
+			},
+			"win-4-txt-max-B": {
+				"rgba2": [
+					{ "light": "ffffffff", "dark": "2952ea" }
+				],
+				"attachment": [
+					{ "name": "win_max-txt-glitch" },
+					{ "time": 0.2667 },
+					{ "time": 0.4, "name": "win_max-txt-glitch" },
+					{ "time": 0.6667 }
+				]
+			},
+			"win-4-txt-max-R": {
+				"attachment": [
+					{ "name": "win_max-txt-glitch" },
+					{ "time": 0.2667 },
+					{ "time": 0.4, "name": "win_max-txt-glitch" },
+					{ "time": 0.6667 }
+				]
+			},
+			"win_arrowD": {
+				"rgba": [
+					{ "color": "fdff0000" },
+					{ "time": 0.3333, "color": "fdff00ff" },
+					{ "time": 1.2667, "color": "fdff0000" }
+				]
+			},
+			"win_arrowD2": {
+				"rgba": [
+					{ "color": "ffe80000", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffe80000" },
+					{ "time": 1, "color": "ffe800ff" },
+					{ "time": 1.9333, "color": "ffe80000" }
+				]
+			},
+			"win_arrowD3": {
+				"rgba": [
+					{ "color": "ffe800a4" },
+					{ "time": 0.6, "color": "ffe80000", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffe80000" },
+					{ "time": 1.6667, "color": "ffe800ff" },
+					{ "time": 2, "color": "ffe800a4" }
+				]
+			},
+			"win_arrowD4": {
+				"rgba": [
+					{ "color": "fdff0000" },
+					{ "time": 0.3333, "color": "fdff00ff" },
+					{ "time": 1.2667, "color": "fdff0000" }
+				]
+			},
+			"win_arrowD5": {
+				"rgba": [
+					{ "color": "ffe800a4" },
+					{ "time": 0.6, "color": "ffe80000", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffe80000" },
+					{ "time": 1.6667, "color": "ffe800ff" },
+					{ "time": 2, "color": "ffe800a4" }
+				]
+			},
+			"win_arrowD6": {
+				"rgba": [
+					{ "color": "ffe80000", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffe80000" },
+					{ "time": 1, "color": "ffe800ff" },
+					{ "time": 1.9333, "color": "ffe80000" }
+				]
+			},
+			"win_arrowU": {
+				"rgba": [
+					{ "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffdc08ff" },
+					{ "time": 0.5, "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffdc08ff" },
+					{ "time": 1.1667, "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 1.6, "color": "ffdc08ff" },
+					{ "time": 1.8333, "color": "ffdc0800" }
+				]
+			},
+			"win_arrowU2": {
+				"rgba": [
+					{ "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffdc08ff" },
+					{ "time": 0.5, "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffdc08ff" },
+					{ "time": 1.1667, "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 1.6, "color": "ffdc08ff" },
+					{ "time": 1.8333, "color": "ffdc0800" }
+				]
+			},
+			"win_big-board": {
+				"attachment": [
+					{ "name": "win_max-board" }
+				]
+			},
+			"win_big-board2": {
+				"attachment": [
+					{ "name": "win_max-board" }
+				]
+			},
+			"win_hexa": {
+				"rgba": [
+					{ "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffdc08ff" },
+					{ "time": 1.8667, "color": "ffdc0800" }
+				]
+			},
+			"win_line-max": {
+				"rgba": [
+					{ "color": "ffe6127e" }
+				],
+				"attachment": [
+					{ "name": "win_line-max" }
+				]
+			},
+			"win_line-max2": {
+				"rgba": [
+					{ "color": "ffe6127e" }
+				],
+				"attachment": [
+					{ "name": "win_line-max" }
+				]
+			},
+			"win_line-sweep": {
+				"rgba": [
+					{ "color": "fff7215f" }
+				]
+			},
+			"win_line-sweep2": {
+				"rgba": [
+					{ "color": "fff7215f" }
+				]
+			},
+			"win_lineU": {
+				"rgba": [
+					{ "color": "ffdc08ff" }
+				]
+			},
+			"win_lineU2": {
+				"rgba": [
+					{ "color": "ffdc08ff" }
+				]
+			},
+			"win_max-board-bot": {
+				"attachment": [
+					{ "name": "win_max-board-bot" }
+				]
+			},
+			"win_max-board-bot2": {
+				"attachment": [
+					{ "name": "win_max-board-bot" }
+				]
+			},
+			"win_max-board-fan": {
+				"attachment": [
+					{ "name": "win_max-board-fan" }
+				]
+			},
+			"win_max-board-fan2": {
+				"attachment": [
+					{ "name": "win_max-board-fan" }
+				]
+			},
+			"win_max-board-glow": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 1, "color": "ffffffa0" },
+					{ "time": 2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "win_max-board-glow" }
+				]
+			},
+			"win_max-board-glow2": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 1, "color": "ffffffa0" },
+					{ "time": 2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "win_max-board-glow" }
+				]
+			},
+			"win_max-board-top": {
+				"attachment": [
+					{ "name": "win_max-board-top" }
+				]
+			},
+			"win_max-board-top2": {
+				"attachment": [
+					{ "name": "win_max-board-top" }
+				]
+			},
+			"win_ring": {
+				"rgba": [
+					{ "color": "ffb11aff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffb11aff" },
+					{ "time": 0.8333, "color": "ffb11a00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffb11a00" },
+					{ "time": 1.8667, "color": "ffb11aff" }
+				],
+				"attachment": [
+					{ "name": "win_ring" }
+				]
+			},
+			"win_ring2": {
+				"rgba": [
+					{ "color": "ffb11aff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffb11aff" },
+					{ "time": 0.8333, "color": "ffb11a00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffb11a00" },
+					{ "time": 1.8667, "color": "ffb11aff" }
+				],
+				"attachment": [
+					{ "name": "win_ring" }
+				]
+			},
+			"win_ring3": {
+				"rgba": [
+					{ "color": "ffb11a00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffb11a00" },
+					{ "time": 0.8333, "color": "ffb11aff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffb11aff" },
+					{ "time": 1.6667, "color": "ffb11a00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "win_ring" }
+				]
+			},
+			"win_ring4": {
+				"rgba": [
+					{ "color": "ffb11a00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffb11a00" },
+					{ "time": 0.8333, "color": "ffb11aff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffb11aff" },
+					{ "time": 1.6667, "color": "ffb11a00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "win_ring" }
+				]
+			},
+			"win_screen-bot": {
+				"rgba": [
+					{ "color": "fff2005f" }
+				]
+			},
+			"win_screen-bot2": {
+				"rgba": [
+					{ "color": "fff2005f" }
+				]
+			}
+		},
+		"bones": {
+			"win-1-txt-big": {
+				"rotate": [
+					{ "value": 0.71 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2 }
+				]
+			},
+			"win-2-txt-mega": {
+				"rotate": [
+					{ "value": 0.71 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2 }
+				]
+			},
+			"win-3-txt-epic": {
+				"rotate": [
+					{
+						"value": 0.71,
+						"curve": [ 0.487, 1.01, 1.333, 0.71 ]
+					},
+					{ "time": 2, "value": 0.71 }
+				],
+				"scale": [
+					{ "x": 0.2, "y": 0.2 }
+				]
+			},
+			"win-4-txt-max-B": {
+				"translate": [
+					{ "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.0667, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.1333, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.2, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.2667, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.4, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.4667, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.5333, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.6, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.6667, "x": -13.8, "y": -12.42 }
+				]
+			},
+			"win-4-txt-max-R": {
+				"translate": [
+					{ "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.0667, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.1333, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.2, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.2667, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.4, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.4667, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.5333, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.6, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.6667, "x": 24.93, "y": 12.19 }
+				]
+			},
+			"WIN-TXT": {
+				"scale": [
+					{ "time": 1.1333, "curve": "stepped" },
+					{ "time": 1.2, "x": 0.968, "curve": "stepped" },
+					{ "time": 1.2667, "x": 1.042, "y": 0.864, "curve": "stepped" },
+					{ "time": 1.4 }
+				]
+			},
+			"WIN-BOARD": {
+				"scale": [
+					{
+						"curve": [ 0.111, 1.012, 0.222, 1.029, 0.111, 1.012, 0.222, 1.029 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1.029,
+						"y": 1.029,
+						"curve": [ 0.6, 1.029, 0.882, 0.935, 0.6, 1.029, 0.882, 0.935 ]
+					},
+					{
+						"time": 1.1333,
+						"x": 0.912,
+						"y": 0.912,
+						"curve": [ 1.395, 0.888, 1.711, 0.969, 1.395, 0.888, 1.711, 0.969 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"win_max-board-fan": {
+				"rotate": [
+					{},
+					{ "time": 2, "value": -2160 }
+				]
+			},
+			"win_max-board-fan2": {
+				"rotate": [
+					{},
+					{ "time": 2, "value": -2160 }
+				]
+			},
+			"win_arrowU": {
+				"translate": [
+					{ "y": -118.39 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "y": -118.39 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "y": -118.39 },
+					{ "time": 1.8333 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.6, "y": 0.6 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.6, "y": 0.6 },
+					{ "time": 1.8333 }
+				]
+			},
+			"win_hexa": {
+				"translate": [
+					{ "y": -186.52, "curve": "stepped" },
+					{ "time": 0.1333, "y": -186.52 },
+					{ "time": 1.8667 }
+				],
+				"scale": [
+					{ "x": 0.417, "y": 0.417, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0.417, "y": 0.417 },
+					{ "time": 1.8667, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"win_arrowD3": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42, "curve": "stepped" },
+					{ "time": 1.3333, "y": 201.61 },
+					{ "time": 2, "y": 17.91 }
+				]
+			},
+			"win_arrowD2": {
+				"translate": [
+					{ "y": 201.61, "curve": "stepped" },
+					{ "time": 0.6667, "y": 201.61 },
+					{ "time": 1.3333, "y": 17.91 },
+					{ "time": 1.9333, "y": -147.42 }
+				]
+			},
+			"win_arrowD": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 1.2667, "y": -147.42 }
+				]
+			},
+			"fx-win-ring": {
+				"scale": [
+					{},
+					{ "time": 0.8333, "x": 0.862, "y": 0.862, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1.109, "y": 1.109 },
+					{ "time": 2 }
+				]
+			},
+			"fx-win-ring2": {
+				"scale": [
+					{ "x": 1.076, "y": 1.076, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1.076, "y": 1.076 },
+					{ "time": 1.6667, "x": 0.774, "y": 0.774 }
+				]
+			},
+			"win_arrowD4": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 1.2667, "y": -147.42 }
+				]
+			},
+			"win_arrowD5": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42, "curve": "stepped" },
+					{ "time": 1.3333, "y": 201.61 },
+					{ "time": 2, "y": 17.91 }
+				]
+			},
+			"win_arrowD6": {
+				"translate": [
+					{ "y": 201.61, "curve": "stepped" },
+					{ "time": 0.6667, "y": 201.61 },
+					{ "time": 1.3333, "y": 17.91 },
+					{ "time": 1.9333, "y": -147.42 }
+				]
+			},
+			"win_arrowU2": {
+				"translate": [
+					{ "y": -118.39 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "y": -118.39 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "y": -118.39 },
+					{ "time": 1.8333 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.6, "y": 0.6 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.6, "y": 0.6 },
+					{ "time": 1.8333 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-light-hexa": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa2": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa3": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa4": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.1333,
+				"offsets": [
+					{ "slot": "win-1-txt-big-R", "offset": -6 }
+				]
+			},
+			{ "time": 0.4667 },
+			{
+				"time": 0.5333,
+				"offsets": [
+					{ "slot": "win-1-txt-big-R", "offset": -6 }
+				]
+			}
+		]
+	},
+	"5-total-intro": {
+		"slots": {
+			"fx-glow-bot": {
+				"rgba": [
+					{ "color": "ffc20b00" },
+					{ "time": 0.6667, "color": "ffc20bff" }
+				],
+				"attachment": [
+					{ "name": "fx-glow" }
+				]
+			},
+			"fx-light-hexa": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa2": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa3": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa4": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-wave-glitch_B": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"fx-wave-glitch_G": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"fx-wave-glitch_R": {
+				"attachment": [
+					{ "name": "fx-wave-glitch_" },
+					{ "time": 0.5 }
+				]
+			},
+			"win-1-txt-big": {
+				"attachment": [
+					{ "time": 0.1333, "name": "win_total-txt" }
+				]
+			},
+			"win-1-txt-big-B": {
+				"attachment": [
+					{ "time": 0.0333, "name": "win_total-txt-glitch" },
+					{ "time": 0.3 }
+				]
+			},
+			"win-1-txt-big-R": {
+				"attachment": [
+					{ "time": 0.0333, "name": "win_total-txt-glitch" },
+					{ "time": 0.3 }
+				]
+			},
+			"win_arrowD": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_arrowD2": {
+				"rgba": [
+					{ "color": "fdff0000" },
+					{ "time": 0.3333, "color": "fdff00ff" },
+					{ "time": 0.6, "color": "fdff0000" }
+				]
+			},
+			"win_arrowD3": {
+				"rgba": [
+					{ "color": "fff72100" },
+					{ "time": 0.3333, "color": "fff721ff" },
+					{ "time": 0.6667, "color": "ffe800a4" }
+				]
+			},
+			"win_arrowD4": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_arrowD5": {
+				"rgba": [
+					{ "color": "fff72100" },
+					{ "time": 0.3333, "color": "fff721ff" },
+					{ "time": 0.6667, "color": "ffe800a4" }
+				]
+			},
+			"win_arrowD6": {
+				"rgba": [
+					{ "color": "fdff0000" },
+					{ "time": 0.3333, "color": "fdff00ff" },
+					{ "time": 0.6, "color": "fdff0000" }
+				]
+			},
+			"win_arrowU": {
+				"rgba": [
+					{ "color": "ffdc0800" },
+					{ "time": 0.3333, "color": "ffdc08ff" },
+					{ "time": 0.6, "color": "ffdc0800" }
+				]
+			},
+			"win_arrowU2": {
+				"rgba": [
+					{ "color": "ffdc0800" },
+					{ "time": 0.3333, "color": "ffdc08ff" },
+					{ "time": 0.6, "color": "ffdc0800" }
+				]
+			},
+			"win_big-board": {
+				"attachment": [
+					{ "name": "win_max-board" }
+				]
+			},
+			"win_big-board2": {
+				"attachment": [
+					{ "name": "win_max-board" }
+				]
+			},
+			"win_hexa": {
+				"rgba": [
+					{ "color": "67ff09ff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "67ff09ff" },
+					{ "time": 0.6667, "color": "67ff0900" }
+				]
+			},
+			"win_line-sweep": {
+				"rgba": [
+					{ "color": "fff72100" },
+					{ "time": 0.1333, "color": "fff7215f" }
+				]
+			},
+			"win_line-sweep2": {
+				"rgba": [
+					{ "color": "fff72100" },
+					{ "time": 0.1333, "color": "fff7215f" }
+				]
+			},
+			"win_lineU": {
+				"rgba": [
+					{ "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffdc0800" },
+					{ "time": 0.6667, "color": "ffdc08ff" }
+				]
+			},
+			"win_lineU2": {
+				"rgba": [
+					{ "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffdc0800" },
+					{ "time": 0.6667, "color": "ffdc08ff" }
+				]
+			},
+			"win_screen-bot": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "fff2005f" }
+				]
+			},
+			"win_screen-bot2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "fff2005f" }
+				]
+			}
+		},
+		"bones": {
+			"win-1-txt-big-B": {
+				"translate": [
+					{ "time": 0.0333, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.1, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.1667, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.2333, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.3, "x": -13.8, "y": -12.42 }
+				]
+			},
+			"win-1-txt-big-R": {
+				"translate": [
+					{ "time": 0.0333, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.1, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.1667, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.2333, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.3, "x": 24.93, "y": 12.19 }
+				]
+			},
+			"WIN-TXT": {
+				"scale": [
+					{ "x": 0.968, "curve": "stepped" },
+					{ "time": 0.0667, "x": 1.042, "y": 0.69, "curve": "stepped" },
+					{ "time": 0.2 }
+				]
+			},
+			"fx-wave-glitch_B": {
+				"translate": [
+					{ "x": 2.4, "y": -16.83 }
+				]
+			},
+			"fx-wave-glitch_R": {
+				"translate": [
+					{ "x": -14.42 }
+				]
+			},
+			"WIN-BOARD": {
+				"scale": [
+					{
+						"x": 0.8,
+						"y": 0.8,
+						"curve": [ 0.044, 0.933, 0.089, 1.2, 0.044, 0.933, 0.089, 1.2 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.244, 1.2, 0.356, 0.95, 0.244, 1.2, 0.356, 0.95 ]
+					},
+					{
+						"time": 0.4667,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.533, 0.95, 0.6, 0.983, 0.533, 0.95, 0.6, 0.983 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"win_arrowU": {
+				"translate": [
+					{ "y": -696.59 },
+					{ "time": 0.3333, "y": -76.56 },
+					{ "time": 0.6 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.6 }
+				]
+			},
+			"win_hexa": {
+				"translate": [
+					{ "y": -186.52 },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{ "x": 0.417, "y": 0.417 },
+					{ "time": 0.6667 }
+				]
+			},
+			"win_screen-bot": {
+				"scale": [
+					{ "y": 0.1 },
+					{ "time": 0.0667 }
+				]
+			},
+			"win_arrowD2": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowD3": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 0.6667, "y": 17.91 }
+				]
+			},
+			"win_screen-bot2": {
+				"scale": [
+					{ "y": 0.1 },
+					{ "time": 0.0667 }
+				]
+			},
+			"win_arrowD5": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 0.6667, "y": 17.91 }
+				]
+			},
+			"win_arrowD6": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42 }
+				]
+			},
+			"win_arrowU2": {
+				"translate": [
+					{ "y": -696.59 },
+					{ "time": 0.3333, "y": -76.56 },
+					{ "time": 0.6 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.6 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-light-hexa": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa2": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa3": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa4": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-wave-glitch_B": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"fx-wave-glitch_G": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"fx-wave-glitch_R": {
+					"fx-wave-glitch_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0417 }
+						]
+					}
+				},
+				"win_big-board": {
+					"win_big-mega-board": {
+						"deform": [
+							{
+								"offset": 3,
+								"vertices": [ -313.96686, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -313.96686 ]
+							},
+							{ "time": 0.1333 }
+						]
+					},
+					"win_max-board": {
+						"deform": [
+							{
+								"offset": 3,
+								"vertices": [ -313.96686, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -313.96686 ]
+							},
+							{ "time": 0.1333 }
+						]
+					}
+				},
+				"win_big-board2": {
+					"win_big-mega-board": {
+						"deform": [
+							{
+								"offset": 3,
+								"vertices": [ -313.96686, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -313.96686 ]
+							},
+							{ "time": 0.1333 }
+						]
+					},
+					"win_max-board": {
+						"deform": [
+							{
+								"offset": 3,
+								"vertices": [ -313.96686, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -500.9089, 0, -313.96686 ]
+							},
+							{ "time": 0.1333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"5-total-loop": {
+		"slots": {
+			"fx-glow-bot": {
+				"rgba": [
+					{ "color": "ffc20bff" },
+					{ "time": 1, "color": "ffc20b96" },
+					{ "time": 2, "color": "ffc20bff" }
+				],
+				"attachment": [
+					{ "name": "fx-glow" }
+				]
+			},
+			"fx-light-hexa": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa2": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa3": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"fx-light-hexa4": {
+				"rgba": [
+					{ "color": "ffe824ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667, "name": "fx-light-hexa_" }
+				]
+			},
+			"win-1-txt-big": {
+				"attachment": [
+					{ "name": "win_total-txt" },
+					{ "time": 1.3667, "name": "win_total-txt-glitch" },
+					{ "time": 1.4333, "name": "win_total-txt" },
+					{ "time": 1.4667, "name": "win_total-txt-glitch" },
+					{ "time": 1.5333, "name": "win_total-txt" }
+				]
+			},
+			"win-1-txt-big-B": {
+				"attachment": [
+					{ "name": "win_total-txt-glitch" },
+					{ "time": 0.2667 },
+					{ "time": 0.4, "name": "win_total-txt-glitch" },
+					{ "time": 0.6667 }
+				]
+			},
+			"win-1-txt-big-R": {
+				"attachment": [
+					{ "name": "win_total-txt-glitch" },
+					{ "time": 0.2667 },
+					{ "time": 0.4, "name": "win_total-txt-glitch" },
+					{ "time": 0.6667 }
+				]
+			},
+			"win-4-txt-max": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 2, "color": "ffffffd9" }
+				]
+			},
+			"win_arrowD": {
+				"rgba": [
+					{ "color": "fdff0000" },
+					{ "time": 0.3333, "color": "fdff00ff" },
+					{ "time": 1.2667, "color": "fdff0000" }
+				]
+			},
+			"win_arrowD2": {
+				"rgba": [
+					{ "color": "ffe80000", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffe80000" },
+					{ "time": 1, "color": "ffe800ff" },
+					{ "time": 1.9333, "color": "ffe80000" }
+				]
+			},
+			"win_arrowD3": {
+				"rgba": [
+					{ "color": "ffe800a4" },
+					{ "time": 0.6, "color": "ffe80000", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffe80000" },
+					{ "time": 1.6667, "color": "ffe800ff" },
+					{ "time": 2, "color": "ffe800a4" }
+				]
+			},
+			"win_arrowD4": {
+				"rgba": [
+					{ "color": "fdff0000" },
+					{ "time": 0.3333, "color": "fdff00ff" },
+					{ "time": 1.2667, "color": "fdff0000" }
+				]
+			},
+			"win_arrowD5": {
+				"rgba": [
+					{ "color": "ffe800a4" },
+					{ "time": 0.6, "color": "ffe80000", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffe80000" },
+					{ "time": 1.6667, "color": "ffe800ff" },
+					{ "time": 2, "color": "ffe800a4" }
+				]
+			},
+			"win_arrowD6": {
+				"rgba": [
+					{ "color": "ffe80000", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffe80000" },
+					{ "time": 1, "color": "ffe800ff" },
+					{ "time": 1.9333, "color": "ffe80000" }
+				]
+			},
+			"win_arrowU": {
+				"rgba": [
+					{ "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffdc08ff" },
+					{ "time": 0.5, "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffdc08ff" },
+					{ "time": 1.1667, "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 1.6, "color": "ffdc08ff" },
+					{ "time": 1.8333, "color": "ffdc0800" }
+				]
+			},
+			"win_arrowU2": {
+				"rgba": [
+					{ "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffdc08ff" },
+					{ "time": 0.5, "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffdc08ff" },
+					{ "time": 1.1667, "color": "ffdc0800", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffdc08ff", "curve": "stepped" },
+					{ "time": 1.6, "color": "ffdc08ff" },
+					{ "time": 1.8333, "color": "ffdc0800" }
+				]
+			},
+			"win_big-board": {
+				"attachment": [
+					{ "name": "win_max-board" }
+				]
+			},
+			"win_big-board2": {
+				"attachment": [
+					{ "name": "win_max-board" }
+				]
+			},
+			"win_hexa": {
+				"rgba": [
+					{ "color": "ffdc08ff" },
+					{ "time": 0.1333, "color": "67ff09ff" },
+					{ "time": 1.3333, "color": "ffdc08ff" },
+					{ "time": 1.8667, "color": "ffdc0800" }
+				]
+			},
+			"win_line-sweep": {
+				"rgba": [
+					{ "color": "fff7215f" }
+				]
+			},
+			"win_line-sweep2": {
+				"rgba": [
+					{ "color": "fff7215f" }
+				]
+			},
+			"win_lineU": {
+				"rgba": [
+					{ "color": "ffdc08ff" }
+				]
+			},
+			"win_lineU2": {
+				"rgba": [
+					{ "color": "ffdc08ff" }
+				]
+			},
+			"win_screen-bot": {
+				"rgba": [
+					{ "color": "fff2005f" }
+				]
+			},
+			"win_screen-bot2": {
+				"rgba": [
+					{ "color": "fff2005f" }
+				]
+			}
+		},
+		"bones": {
+			"win-4-txt-max": {
+				"rotate": [
+					{},
+					{ "time": 2, "value": -0.29 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.607, 1, 1.297, 0.962, 0.607, 1, 1.297, 0.962 ]
+					},
+					{ "time": 2, "x": 0.905, "y": 0.905 }
+				]
+			},
+			"win-1-txt-big-B": {
+				"translate": [
+					{ "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.0667, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.1333, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.2, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.2667, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.4, "x": -13.8, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.4667, "x": 27.38, "y": -5.83, "curve": "stepped" },
+					{ "time": 0.5333, "x": -12.15, "y": -12.42, "curve": "stepped" },
+					{ "time": 0.6, "x": -7.21, "y": 12.29, "curve": "stepped" },
+					{ "time": 0.6667, "x": -13.8, "y": -12.42 }
+				]
+			},
+			"win-1-txt-big-R": {
+				"translate": [
+					{ "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.0667, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.1333, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.2, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.2667, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.4, "x": 24.93, "y": 12.19, "curve": "stepped" },
+					{ "time": 0.4667, "x": -14.6, "y": -7.58, "curve": "stepped" },
+					{ "time": 0.5333, "x": 10.11, "y": 7.25, "curve": "stepped" },
+					{ "time": 0.6, "x": 3.52, "y": -9.23, "curve": "stepped" },
+					{ "time": 0.6667, "x": 24.93, "y": 12.19 }
+				]
+			},
+			"WIN-TXT": {
+				"scale": [
+					{ "time": 1.1333, "curve": "stepped" },
+					{ "time": 1.2, "x": 0.968, "curve": "stepped" },
+					{ "time": 1.2667, "x": 1.042, "y": 0.864, "curve": "stepped" },
+					{ "time": 1.4 }
+				]
+			},
+			"WIN-BOARD": {
+				"scale": [
+					{
+						"curve": [ 0.111, 1.012, 0.222, 1.029, 0.111, 1.012, 0.222, 1.029 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1.029,
+						"y": 1.029,
+						"curve": [ 0.6, 1.029, 0.882, 0.935, 0.6, 1.029, 0.882, 0.935 ]
+					},
+					{
+						"time": 1.1333,
+						"x": 0.912,
+						"y": 0.912,
+						"curve": [ 1.395, 0.888, 1.711, 0.969, 1.395, 0.888, 1.711, 0.969 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"win_arrowU": {
+				"translate": [
+					{ "y": -118.39 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "y": -118.39 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "y": -118.39 },
+					{ "time": 1.8333 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.6, "y": 0.6 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.6, "y": 0.6 },
+					{ "time": 1.8333 }
+				]
+			},
+			"win_hexa": {
+				"translate": [
+					{ "y": -186.52, "curve": "stepped" },
+					{ "time": 0.1333, "y": -186.52 },
+					{ "time": 1.8667 }
+				],
+				"scale": [
+					{ "x": 0.417, "y": 0.417, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0.417, "y": 0.417 },
+					{ "time": 1.8667, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"win_arrowD": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 1.2667, "y": -147.42 }
+				]
+			},
+			"win_arrowD2": {
+				"translate": [
+					{ "y": 201.61, "curve": "stepped" },
+					{ "time": 0.6667, "y": 201.61 },
+					{ "time": 1.3333, "y": 17.91 },
+					{ "time": 1.9333, "y": -147.42 }
+				]
+			},
+			"win_arrowD3": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42, "curve": "stepped" },
+					{ "time": 1.3333, "y": 201.61 },
+					{ "time": 2, "y": 17.91 }
+				]
+			},
+			"win_arrowD4": {
+				"translate": [
+					{ "y": 201.61 },
+					{ "time": 1.2667, "y": -147.42 }
+				]
+			},
+			"win_arrowD5": {
+				"translate": [
+					{ "y": 17.91 },
+					{ "time": 0.6, "y": -147.42, "curve": "stepped" },
+					{ "time": 1.3333, "y": 201.61 },
+					{ "time": 2, "y": 17.91 }
+				]
+			},
+			"win_arrowD6": {
+				"translate": [
+					{ "y": 201.61, "curve": "stepped" },
+					{ "time": 0.6667, "y": 201.61 },
+					{ "time": 1.3333, "y": 17.91 },
+					{ "time": 1.9333, "y": -147.42 }
+				]
+			},
+			"win_arrowU2": {
+				"translate": [
+					{ "y": -118.39 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "y": -118.39 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "y": -118.39 },
+					{ "time": 1.8333 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.6, "y": 0.6 },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.6, "y": 0.6 },
+					{ "time": 1.8333 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-light-hexa": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa2": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa3": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				},
+				"fx-light-hexa4": {
+					"fx-light-hexa_": {
+						"sequence": [
+							{ "time": 0.6667, "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.1333,
+				"offsets": [
+					{ "slot": "win-1-txt-big-R", "offset": -6 }
+				]
+			},
+			{ "time": 0.4667 },
+			{
+				"time": 0.5333,
+				"offsets": [
+					{ "slot": "win-1-txt-big-R", "offset": -6 }
+				]
+			}
+		]
+	}
+}
+}

@@ -1,0 +1,1544 @@
+{
+  "AED": {
+    "currencyName": "AED",
+    "currencySymbol": "AED",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "AFN": {
+    "currencyName": "AFN",
+    "currencySymbol": "؋",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "ALL": {
+    "currencyName": "ALL",
+    "currencySymbol": "Lek",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "AMD": {
+    "currencyName": "AMD",
+    "currencySymbol": "֏",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "ANG": {
+    "currencyName": "ANG",
+    "currencySymbol": "ƒ",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "AOA": {
+    "currencyName": "AOA",
+    "currencySymbol": "Kz",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "ARS": {
+    "currencyName": "ARS",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "ARSB": {
+    "currencyName": "ARSB",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "AUD": {
+    "currencyName": "AUD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "AWG": {
+    "currencyName": "AWG",
+    "currencySymbol": "ƒ",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "AZN": {
+    "currencyName": "AZN",
+    "currencySymbol": "₼",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BAM": {
+    "currencyName": "BAM",
+    "currencySymbol": "КМ",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BBD": {
+    "currencyName": "BBD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "BDT": {
+    "currencyName": "BDT",
+    "currencySymbol": "৳",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BGN": {
+    "currencyName": "BGN",
+    "currencySymbol": "лв.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BHD": {
+    "currencyName": "BHD",
+    "currencySymbol": "BD",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 3
+  },
+  "BIF": {
+    "currencyName": "BIF",
+    "currencySymbol": "FBu",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "BMD": {
+    "currencyName": "BMD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "BND": {
+    "currencyName": "BND",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "BOB": {
+    "currencyName": "BOB",
+    "currencySymbol": "Bs",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BRL": {
+    "currencyName": "BRL",
+    "currencySymbol": "R$",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BSD": {
+    "currencyName": "BSD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "BTC": {
+    "currencyName": "BTC",
+    "currencySymbol": "₿",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "BTN": {
+    "currencyName": "BTN",
+    "currencySymbol": "Nu.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BWP": {
+    "currencyName": "BWP",
+    "currencySymbol": "P",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "BYN": {
+    "currencyName": "BYN",
+    "currencySymbol": "BYN",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BYR": {
+    "currencyName": "BYR",
+    "currencySymbol": "р.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BZD": {
+    "currencyName": "BZD",
+    "currencySymbol": "BZ$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "CAD": {
+    "currencyName": "CAD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "CAD_5bet_prod": {
+    "currencyName": "CAD",
+    "currencySymbol": "CAD",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "CAD_alea_bitfortune": {
+    "currencyName": "CAD",
+    "currencySymbol": "CAD",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "CDF": {
+    "currencyName": "CDF",
+    "currencySymbol": "CDF",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "CHF": {
+    "currencyName": "CHF",
+    "currencySymbol": "CHF",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "CLP": {
+    "currencyName": "CLP",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "CNY": {
+    "currencyName": "CNY",
+    "currencySymbol": "¥",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "COP": {
+    "currencyName": "COP",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "CRC": {
+    "currencyName": "CRC",
+    "currencySymbol": "₡",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "CUC": {
+    "currencyName": "CUC",
+    "currencySymbol": "CUC",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "CUP": {
+    "currencyName": "CUP",
+    "currencySymbol": "$MN",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "CVE": {
+    "currencyName": "CVE",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "CZK": {
+    "currencyName": "CZK",
+    "currencySymbol": "Kč",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "DJF": {
+    "currencyName": "DJF",
+    "currencySymbol": "Fdj",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "DKK": {
+    "currencyName": "DKK",
+    "currencySymbol": "kr.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "DOP": {
+    "currencyName": "DOP",
+    "currencySymbol": "RD$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "DZD": {
+    "currencyName": "DZD",
+    "currencySymbol": "DZD",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "EGP": {
+    "currencyName": "EGP",
+    "currencySymbol": "E£",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "ERN": {
+    "currencyName": "ERN",
+    "currencySymbol": "Nfk",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "ETB": {
+    "currencyName": "ETB",
+    "currencySymbol": "ETB",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "EUR": {
+    "currencyName": "EUR",
+    "currencySymbol": "€",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "FJD": {
+    "currencyName": "FJD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "FKP": {
+    "currencyName": "FKP",
+    "currencySymbol": "£",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "GBP": {
+    "currencyName": "GBP",
+    "currencySymbol": "£",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "GEL": {
+    "currencyName": "GEL",
+    "currencySymbol": "GEL",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "GHS": {
+    "currencyName": "GHS",
+    "currencySymbol": "₵",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "GIP": {
+    "currencyName": "GIP",
+    "currencySymbol": "£",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "GMD": {
+    "currencyName": "GMD",
+    "currencySymbol": "D",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "GNF": {
+    "currencyName": "GNF",
+    "currencySymbol": "FG",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "GTQ": {
+    "currencyName": "GTQ",
+    "currencySymbol": "Q",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "GYD": {
+    "currencyName": "GYD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "HKD": {
+    "currencyName": "HKD",
+    "currencySymbol": "HK$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "HNL": {
+    "currencyName": "HNL",
+    "currencySymbol": "L.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "HRK": {
+    "currencyName": "HRK",
+    "currencySymbol": "kn",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "HTG": {
+    "currencyName": "HTG",
+    "currencySymbol": "G",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "HUF": {
+    "currencyName": "HUF",
+    "currencySymbol": "Ft",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "IDR": {
+    "currencyName": "IDR",
+    "currencySymbol": "Rp",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "IDR2": {
+    "currencyName": "IDR",
+    "currencySymbol": "Rp",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "KIDR": {
+    "currencyName": "kIDR",
+    "currencySymbol": "kIDR",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "ILS": {
+    "currencyName": "ILS",
+    "currencySymbol": "₪",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "INR": {
+    "currencyName": "INR",
+    "currencySymbol": "₹",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "IQD": {
+    "currencyName": "IQD",
+    "currencySymbol": "IQD",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "IRR": {
+    "currencyName": "IRR",
+    "currencySymbol": "﷼",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "ISK": {
+    "currencyName": "ISK",
+    "currencySymbol": "kr.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "JMD": {
+    "currencyName": "JMD",
+    "currencySymbol": "J$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "JOD": {
+    "currencyName": "JOD",
+    "currencySymbol": "JOD",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 3
+  },
+  "JPY": {
+    "currencyName": "JPY",
+    "currencySymbol": "¥",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "JPY_gosh_1188_05_stg": {
+    "currencyName": "JPY",
+    "currencySymbol": "MC",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "JPY_gosh_1188_05": {
+    "currencyName": "JPY",
+    "currencySymbol": "MC",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "KES": {
+    "currencyName": "KES",
+    "currencySymbol": "KSh",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "KGS": {
+    "currencyName": "KGS",
+    "currencySymbol": "сом",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "KHR": {
+    "currencyName": "KHR",
+    "currencySymbol": "៛",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "KMF": {
+    "currencyName": "KMF",
+    "currencySymbol": "CF",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "KPW": {
+    "currencyName": "KPW",
+    "currencySymbol": "₩",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "KRW": {
+    "currencyName": "KRW",
+    "currencySymbol": "₩",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "KWD": {
+    "currencyName": "KWD",
+    "currencySymbol": "KD",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 3
+  },
+  "KYD": {
+    "currencyName": "KYD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "KZT": {
+    "currencyName": "KZT",
+    "currencySymbol": "₸",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "LAK": {
+    "currencyName": "LAK",
+    "currencySymbol": "₭",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "LBP": {
+    "currencyName": "LBP",
+    "currencySymbol": "LL",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "LKR": {
+    "currencyName": "LKR",
+    "currencySymbol": "₨",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "LRD": {
+    "currencyName": "LRD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "LSL": {
+    "currencyName": "LSL",
+    "currencySymbol": "L",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "LTL": {
+    "currencyName": "LTL",
+    "currencySymbol": "Lt",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "LYD": {
+    "currencyName": "LYD",
+    "currencySymbol": "LD",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 3
+  },
+  "MAD": {
+    "currencyName": "MAD",
+    "currencySymbol": "MAD",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "MBTC": {
+    "currencyName": "mBTC",
+    "currencySymbol": "mBTC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BTC3": {
+    "currencyName": "mBTC",
+    "currencySymbol": "mBTC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "UBTC": {
+    "currencyName": "uBTC",
+    "currencySymbol": "uBTC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BTC6": {
+    "currencyName": "uBTC",
+    "currencySymbol": "uBTC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "NBTC": {
+    "currencyName": "nBTC",
+    "currencySymbol": "nBTC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BTC9": {
+    "currencyName": "nBTC",
+    "currencySymbol": "nBTC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "MDL": {
+    "currencyName": "MDL",
+    "currencySymbol": "lei",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "MGA": {
+    "currencyName": "MGA",
+    "currencySymbol": "Ar",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "MKD": {
+    "currencyName": "MKD",
+    "currencySymbol": "ден.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "MMK": {
+    "currencyName": "MMK",
+    "currencySymbol": "K",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "MNT": {
+    "currencyName": "MNT",
+    "currencySymbol": "₮",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "MOP": {
+    "currencyName": "MOP",
+    "currencySymbol": "MOP$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "MRO": {
+    "currencyName": "MRO",
+    "currencySymbol": "UM",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "MTL": {
+    "currencyName": "MTL",
+    "currencySymbol": "₤",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "MUR": {
+    "currencyName": "MUR",
+    "currencySymbol": "₨",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "MVR": {
+    "currencyName": "MVR",
+    "currencySymbol": "MVR",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "MWK": {
+    "currencyName": "MWK",
+    "currencySymbol": "MK",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "MXN": {
+    "currencyName": "MXN",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "MYR": {
+    "currencyName": "MYR",
+    "currencySymbol": "RM",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "MZN": {
+    "currencyName": "MZN",
+    "currencySymbol": "MT",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "NAD": {
+    "currencyName": "NAD",
+    "currencySymbol": "NAD",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "NGN": {
+    "currencyName": "NGN",
+    "currencySymbol": "₦",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "NIO": {
+    "currencyName": "NIO",
+    "currencySymbol": "C$",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "NOK": {
+    "currencyName": "NOK",
+    "currencySymbol": "kr",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "NPR": {
+    "currencyName": "NPR",
+    "currencySymbol": "₨",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "NZD": {
+    "currencyName": "NZD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "OMR": {
+    "currencyName": "OMR",
+    "currencySymbol": "﷼",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 3
+  },
+  "PAB": {
+    "currencyName": "PAB",
+    "currencySymbol": "B/.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "PEN": {
+    "currencyName": "PEN",
+    "currencySymbol": "S/",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "PGK": {
+    "currencyName": "PGK",
+    "currencySymbol": "K",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "PHP": {
+    "currencyName": "PHP",
+    "currencySymbol": "₱",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "PHP2": {
+    "currencyName": "PHP",
+    "currencySymbol": "₱",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "PHP3": {
+    "currencyName": "PHP",
+    "currencySymbol": "₱",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "PKR": {
+    "currencyName": "PKR",
+    "currencySymbol": "₨",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "PLN": {
+    "currencyName": "PLN",
+    "currencySymbol": "zł",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "PYG": {
+    "currencyName": "PYG",
+    "currencySymbol": "₲",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "QAR": {
+    "currencyName": "QAR",
+    "currencySymbol": "﷼",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "RMB": {
+    "currencyName": "RMB",
+    "currencySymbol": "￥",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "RON": {
+    "currencyName": "RON",
+    "currencySymbol": "lei",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "RSD": {
+    "currencyName": "RSD",
+    "currencySymbol": "Дин.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "RUB": {
+    "currencyName": "RUB",
+    "currencySymbol": "₽",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "RWF": {
+    "currencyName": "RWF",
+    "currencySymbol": "RWF",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "SAR": {
+    "currencyName": "SAR",
+    "currencySymbol": "﷼",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "SBD": {
+    "currencyName": "SBD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SCR": {
+    "currencyName": "SCR",
+    "currencySymbol": "₨",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SDD": {
+    "currencyName": "SDD",
+    "currencySymbol": "LSd",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SDG": {
+    "currencyName": "SDG",
+    "currencySymbol": "LS",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SEK": {
+    "currencyName": "SEK",
+    "currencySymbol": "kr",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "SGD": {
+    "currencyName": "SGD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SHP": {
+    "currencyName": "SHP",
+    "currencySymbol": "£",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SLL": {
+    "currencyName": "SLL",
+    "currencySymbol": "Le",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SLE": {
+    "currencyName": "SLE",
+    "currencySymbol": "Le",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SOS": {
+    "currencyName": "SOS",
+    "currencySymbol": "S",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SRD": {
+    "currencyName": "SRD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SSP": {
+    "currencyName": "SSP",
+    "currencySymbol": "£",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "STD": {
+    "currencyName": "STD",
+    "currencySymbol": "Db",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SVC": {
+    "currencyName": "SVC",
+    "currencySymbol": "₡",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "SYP": {
+    "currencyName": "SYP",
+    "currencySymbol": "£",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "SZL": {
+    "currencyName": "SZL",
+    "currencySymbol": "E",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "THB": {
+    "currencyName": "THB",
+    "currencySymbol": "฿",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "THB2": {
+    "currencyName": "THB",
+    "currencySymbol": "฿",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "TJS": {
+    "currencyName": "TJS",
+    "currencySymbol": "TJS",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "TMT": {
+    "currencyName": "TMT",
+    "currencySymbol": "m",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "TND": {
+    "currencyName": "TND",
+    "currencySymbol": "DT",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 3
+  },
+  "TON": {
+    "currencyName": "TON",
+    "currencySymbol": "TON",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "TOP": {
+    "currencyName": "TOP",
+    "currencySymbol": "T$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "TRY": {
+    "currencyName": "TRY",
+    "currencySymbol": "TL",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "TTD": {
+    "currencyName": "TTD",
+    "currencySymbol": "TT$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "TVD": {
+    "currencyName": "TVD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "TWD": {
+    "currencyName": "TWD",
+    "currencySymbol": "NT$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "TZS": {
+    "currencyName": "TZS",
+    "currencySymbol": "TSh",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "UAH": {
+    "currencyName": "UAH",
+    "currencySymbol": "₴",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "UGX": {
+    "currencyName": "UGX",
+    "currencySymbol": "USh",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "USD": {
+    "currencyName": "USD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "USDC": {
+    "currencyName": "USDC",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "UYU": {
+    "currencyName": "UYU",
+    "currencySymbol": "$U",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "UZS": {
+    "currencyName": "UZS",
+    "currencySymbol": "сўм",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "VEB": {
+    "currencyName": "VEB",
+    "currencySymbol": "Bs.",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "VEF": {
+    "currencyName": "VEF",
+    "currencySymbol": "Bs. F.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "VED": {
+    "currencyName": "VED",
+    "currencySymbol": "Bs. D.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "VES": {
+    "currencyName": "VES",
+    "currencySymbol": "Bs. S.",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "VND": {
+    "currencyName": "VND",
+    "currencySymbol": "₫",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "VND2": {
+    "currencyName": "VND",
+    "currencySymbol": "₫",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "KVND": {
+    "currencyName": "kVND",
+    "currencySymbol": "kVND",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "VUV": {
+    "currencyName": "VUV",
+    "currencySymbol": "VT",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "WST": {
+    "currencyName": "WST",
+    "currencySymbol": "WS$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XAF": {
+    "currencyName": "XAF",
+    "currencySymbol": "F",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XCD": {
+    "currencyName": "XCD",
+    "currencySymbol": "$",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XBT": {
+    "currencyName": "XBT",
+    "currencySymbol": "Ƀ",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XOF": {
+    "currencyName": "XOF",
+    "currencySymbol": "F",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XPF": {
+    "currencyName": "XPF",
+    "currencySymbol": "F",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "YER": {
+    "currencyName": "YER",
+    "currencySymbol": "﷼",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "ZAR": {
+    "currencyName": "ZAR",
+    "currencySymbol": "R",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "ZMW": {
+    "currencyName": "ZMW",
+    "currencySymbol": "ZK",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "WON": {
+    "currencyName": "WON",
+    "currencySymbol": "₩",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "FUN": {
+    "currencyName": "FUN",
+    "currencySymbol": "FUN",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "FUN_andypsx_stg": {
+    "currencyName": "FUN",
+    "currencySymbol": "PSX",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "LTC": {
+    "currencyName": "LTC",
+    "currencySymbol": "LTC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "MLTC": {
+    "currencyName": "mLTC",
+    "currencySymbol": "mLTC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "LTC3": {
+    "currencyName": "mLTC",
+    "currencySymbol": "mLTC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "ETH": {
+    "currencyName": "ETH",
+    "currencySymbol": "ETH",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "METH": {
+    "currencyName": "mETH",
+    "currencySymbol": "mETH",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "ETH3": {
+    "currencyName": "mETH",
+    "currencySymbol": "mETH",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "UETH": {
+    "currencyName": "uETH",
+    "currencySymbol": "uETH",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "ETH6": {
+    "currencyName": "uETH",
+    "currencySymbol": "uETH",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "NETH": {
+    "currencyName": "nETH",
+    "currencySymbol": "nETH",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "ETH9": {
+    "currencyName": "nETH",
+    "currencySymbol": "nETH",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BCH": {
+    "currencyName": "BCH",
+    "currencySymbol": "BCH",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "MBCH": {
+    "currencyName": "mBCH",
+    "currencySymbol": "mBCH",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "BCH3": {
+    "currencyName": "mBCH",
+    "currencySymbol": "mBCH",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "DOGE": {
+    "currencyName": "DOGE",
+    "currencySymbol": "Ð",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "KDOG": {
+    "currencyName": "kDOG",
+    "currencySymbol": "kDOG",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "USDT": {
+    "currencyName": "USDT",
+    "currencySymbol": "USDT",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "XRP": {
+    "currencyName": "XRP",
+    "currencySymbol": "XRP",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "TRX": {
+    "currencyName": "TRX",
+    "currencySymbol": "TRX",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "EOS": {
+    "currencyName": "EOS",
+    "currencySymbol": "EOS",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "XGLD": {
+    "currencyName": "XGLD",
+    "currencySymbol": "GC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "XSWP": {
+    "currencyName": "XSWP",
+    "currencySymbol": "SC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "TEUR": {
+    "currencyName": "tEUR",
+    "currencySymbol": "{EMPTY}",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XTOK": {
+    "currencyName": "XTOK",
+    "currencySymbol": "{EMPTY}",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XTK2": {
+    "currencyName": "XTOK",
+    "currencySymbol": "{EMPTY}",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XTK3": {
+    "currencyName": "XTOK",
+    "currencySymbol": "{EMPTY}",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XTK4": {
+    "currencyName": "XTOK",
+    "currencySymbol": "{EMPTY}",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XTK5": {
+    "currencyName": "XTOK",
+    "currencySymbol": "{EMPTY}",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XTK6": {
+    "currencyName": "XTOK",
+    "currencySymbol": "{EMPTY}",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XTK7": {
+    "currencyName": "XTOK",
+    "currencySymbol": "{EMPTY}",
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "GC.": {
+    "currencyName": "GC.",
+    "currencySymbol": "GC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "SC.": {
+    "currencyName": "SC.",
+    "currencySymbol": "SC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "SC2": {
+    "currencyName": "SC",
+    "currencySymbol": "SC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "GC._relax_2149": {
+    "currencyName": "SC",
+    "currencySymbol": "CC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "GLD": {
+    "currencyName": "GLD",
+    "currencySymbol": "GC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "SS1": {
+    "currencyName": "SS1",
+    "currencySymbol": "SC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "DEFAULT": {
+    "currencyName": "DEFAULT",
+    "currencySymbol": "",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "ST": {
+    "currencyName": "ST",
+    "currencySymbol": "ST",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "ST.": {
+    "currencyName": "ST.",
+    "currencySymbol": "ST",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "SSC": {
+    "currencyName": "SSC",
+    "currencySymbol": "SC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "WOC": {
+    "currencyName": "WOC",
+    "currencySymbol": "SC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "GHC": {
+    "currencyName": "GHC",
+    "currencySymbol": "SC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "GCC": {
+    "currencyName": "GCC",
+    "currencySymbol": "GC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "VBC": {
+    "currencyName": "VBC",
+    "currencySymbol": "WOW",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "FCC": {
+    "currencyName": "FCC",
+    "currencySymbol": "FC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "YOH": {
+    "currencyName": "YOH",
+    "currencySymbol": "YC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "TOK": {
+    "currencyName": "TOK",
+    "currencySymbol": "TOK",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "GEM": {
+    "currencyName": "GEM",
+    "currencySymbol": "GEM",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "SHA": {
+    "currencyName": "SHA",
+    "currencySymbol": "SHA",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "GC._gametech_wowvegas": {
+    "currencyName": "GC.",
+    "currencySymbol": "WOW",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "FPY": {
+    "currencyName": "FPY",
+    "currencySymbol": "{EMPTY}",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "GCSW": {
+    "currencyName": "GC.",
+    "currencySymbol": "GC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "SESW": {
+    "currencyName": "SC.",
+    "currencySymbol": "SC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "XSET": {
+    "currencyName": "XSET",
+    "currencySymbol": "SET",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "PGGC": {
+    "currencyName": "PGGC",
+    "currencySymbol": "GC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "PGSC": {
+    "currencyName": "PGSC",
+    "currencySymbol": "SC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "TCS": {
+    "currencyName": "TCS",
+    "currencySymbol": "{EMPTY}",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "GC._wrewards": {
+    "currencyName": "GC.",
+    "currencySymbol": "WREW",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "GC._wrewards_stg": {
+    "currencyName": "GC.",
+    "currencySymbol": "WREW",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "RVSC_gametech_roovegas_stg": {
+    "currencyName": "RVSC",
+    "currencySymbol": "SC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "RVSC_gametech_roovegas": {
+    "currencyName": "RVSC",
+    "currencySymbol": "SC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "RVRC_gametech_roovegas_stg": {
+    "currencyName": "RVRC",
+    "currencySymbol": "ROO",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "RVRC_gametech_roovegas": {
+    "currencyName": "RVRC",
+    "currencySymbol": "ROO",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+    "EEGP_softswiss_stg": {
+    "currencyName": "EEGP",
+    "currencySymbol": "RC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+    "EPGP_softswiss_stg": {
+    "currencyName": "EPGP",
+    "currencySymbol": "GC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+    "EEGP_rainbet_us": {
+    "currencyName": "EEGP",
+    "currencySymbol": "RC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+    "EPGP_rainbet_us": {
+    "currencyName": "EPGP",
+    "currencySymbol": "GC",
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  }
+}

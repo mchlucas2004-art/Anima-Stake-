@@ -1,0 +1,3049 @@
+{
+  "schema": "scrap.manifest/1",
+  "game": "Wicked Grin",
+  "slug": "wicked-grin",
+  "provider": "Hacksaw Gaming",
+  "game_urls": [
+    "https://stake.com/fr/casino/games/hacksaw-wicked-grin"
+  ],
+  "status": "complete",
+  "updated_at": "2026-10-02T20:46:25.195Z",
+  "stats": {
+    "network_requests_total": 1243,
+    "resources_unique": 121,
+    "images": 72,
+    "json_candidates": 24,
+    "atlases": 25,
+    "skeletons": 6,
+    "spine_packages": 6,
+    "complete_packages": 6,
+    "incomplete_packages": 0,
+    "new_packages": 0,
+    "atlas_only": 19,
+    "spritesheets": 0,
+    "unclassified": 2,
+    "errors": 0
+  },
+  "packages": [
+    {
+      "id": "wicked-grin/package_001_tv",
+      "path": "games/wicked-grin/spine/package_001_tv",
+      "name": "tv",
+      "category": "unknown",
+      "subtypes": [],
+      "complete": true,
+      "skeleton_version": "4.0.64",
+      "animations": [
+        "noise",
+        "setup"
+      ],
+      "textures": 1,
+      "warnings": 1
+    },
+    {
+      "id": "wicked-grin/package_002_wintiers",
+      "path": "games/wicked-grin/spine/package_002_wintiers",
+      "name": "wintiers",
+      "category": "unknown",
+      "subtypes": [
+        "idle"
+      ],
+      "complete": true,
+      "skeleton_version": "4.0.64",
+      "animations": [
+        "bw_idle",
+        "bw_trigger",
+        "ew_idle",
+        "ew_trigger",
+        "idle",
+        "mw_idle",
+        "mw_trigger",
+        "smw_idle",
+        "smw_trigger"
+      ],
+      "textures": 1,
+      "warnings": 1
+    },
+    {
+      "id": "wicked-grin/package_003_bg",
+      "path": "games/wicked-grin/spine/package_003_bg",
+      "name": "bg",
+      "category": "background",
+      "subtypes": [
+        "idle",
+        "entrance",
+        "exit",
+        "background_loop"
+      ],
+      "complete": true,
+      "skeleton_version": "4.0.64",
+      "animations": [
+        "hide_black",
+        "idle",
+        "noise",
+        "show_black"
+      ],
+      "textures": 1,
+      "warnings": 1
+    },
+    {
+      "id": "wicked-grin/package_004_symbols",
+      "path": "games/wicked-grin/spine/package_004_symbols",
+      "name": "symbols",
+      "category": "symbol",
+      "subtypes": [
+        "idle",
+        "win",
+        "entrance",
+        "exit",
+        "land",
+        "free_spins",
+        "multiplier",
+        "symbol_win",
+        "symbol_idle"
+      ],
+      "complete": true,
+      "skeleton_version": "4.0.64",
+      "animations": [
+        "coin_glimmer",
+        "coin_shine",
+        "diamond_glimmer",
+        "fs_reveal",
+        "glimmer_end",
+        "glimmer_start",
+        "idle",
+        "land",
+        "remove",
+        "setup",
+        "spread",
+        "spread_epic",
+        "spread_normal",
+        "turbo",
+        "win"
+      ],
+      "textures": 1,
+      "warnings": 1
+    },
+    {
+      "id": "wicked-grin/package_005_character",
+      "path": "games/wicked-grin/spine/package_005_character",
+      "name": "character",
+      "category": "character",
+      "subtypes": [
+        "idle",
+        "reaction"
+      ],
+      "complete": true,
+      "skeleton_version": "4.0.64",
+      "animations": [
+        "animation",
+        "idle",
+        "idle2",
+        "idle3",
+        "reaction",
+        "reaction2",
+        "trigger"
+      ],
+      "textures": 1,
+      "warnings": 1
+    },
+    {
+      "id": "wicked-grin/package_006_reel",
+      "path": "games/wicked-grin/spine/package_006_reel",
+      "name": "reel",
+      "category": "ui",
+      "subtypes": [
+        "idle"
+      ],
+      "complete": true,
+      "skeleton_version": "4.0.64",
+      "animations": [
+        "trigger_yellow/0_1",
+        "trigger_red/0_1",
+        "trigger_yellow/0_2",
+        "trigger_red/0_2",
+        "trigger_yellow/0_3",
+        "trigger_red/0_3",
+        "trigger_yellow/0_4",
+        "trigger_red/0_4",
+        "trigger_yellow/0_5",
+        "trigger_red/0_5",
+        "setup_red/1",
+        "remove_red/1",
+        "remove_yellow/1",
+        "setup_yellow/1",
+        "trigger_yellow/1_2",
+        "trigger_red/1_2",
+        "trigger_yellow/1_3",
+        "trigger_red/1_3",
+        "trigger_yellow/1_4",
+        "trigger_red/1_4",
+        "trigger_yellow/1_5",
+        "trigger_red/1_5",
+        "setup_red/2",
+        "remove_red/2",
+        "remove_yellow/2",
+        "setup_yellow/2",
+        "trigger_yellow/2_3",
+        "trigger_red/2_3",
+        "trigger_yellow/2_4",
+        "trigger_red/2_4",
+        "trigger_yellow/2_5",
+        "trigger_red/2_5",
+        "setup_yellow/3",
+        "setup_red/3",
+        "remove_red/3",
+        "remove_yellow/3",
+        "trigger_yellow/3_4",
+        "trigger_red/3_4",
+        "trigger_yellow/3_5",
+        "trigger_red/3_5",
+        "setup_red/4",
+        "remove_red/4",
+        "remove_yellow/4",
+        "setup_yellow/4",
+        "trigger_yellow/4_5",
+        "trigger_red/4_5",
+        "setup_red/5",
+        "remove_yellow/5",
+        "remove_red/5",
+        "setup_yellow/5",
+        "idle"
+      ],
+      "textures": 1,
+      "warnings": 1
+    }
+  ],
+  "atlas_only": [
+    {
+      "id": "wicked-grin/atlas_001_background_splash",
+      "path": "games/wicked-grin/other/atlas_only/atlas_001_background_splash",
+      "atlas": "background_splash.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_002_background",
+      "path": "games/wicked-grin/other/atlas_only/atlas_002_background",
+      "atlas": "background.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_003_reel",
+      "path": "games/wicked-grin/other/atlas_only/atlas_003_reel",
+      "atlas": "reel.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_004_splash_fs_in",
+      "path": "games/wicked-grin/other/atlas_only/atlas_004_splash_fs_in",
+      "atlas": "splash_fs_in.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_005_coin_animations_1",
+      "path": "games/wicked-grin/other/atlas_only/atlas_005_coin_animations_1",
+      "atlas": "coin_animations_1.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_006_splash",
+      "path": "games/wicked-grin/other/atlas_only/atlas_006_splash",
+      "atlas": "splash.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_007_gold_digits_countup",
+      "path": "games/wicked-grin/other/atlas_only/atlas_007_gold_digits_countup",
+      "atlas": "gold_digits_countup.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_008_fs_digits_countup",
+      "path": "games/wicked-grin/other/atlas_only/atlas_008_fs_digits_countup",
+      "atlas": "fs_digits_countup.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_009_fs_gold_digits_countup",
+      "path": "games/wicked-grin/other/atlas_only/atlas_009_fs_gold_digits_countup",
+      "atlas": "fs_gold_digits_countup.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_010_effects",
+      "path": "games/wicked-grin/other/atlas_only/atlas_010_effects",
+      "atlas": "effects.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_011_digits_tv_red",
+      "path": "games/wicked-grin/other/atlas_only/atlas_011_digits_tv_red",
+      "atlas": "digits_tv_red.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_012_silver_digits_countup",
+      "path": "games/wicked-grin/other/atlas_only/atlas_012_silver_digits_countup",
+      "atlas": "silver_digits_countup.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_013_countup_digits_countup",
+      "path": "games/wicked-grin/other/atlas_only/atlas_013_countup_digits_countup",
+      "atlas": "countup_digits_countup.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_014_diamond_digits_countup",
+      "path": "games/wicked-grin/other/atlas_only/atlas_014_diamond_digits_countup",
+      "atlas": "diamond_digits_countup.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_015_misc",
+      "path": "games/wicked-grin/other/atlas_only/atlas_015_misc",
+      "atlas": "misc.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_016_multi_digits_countup",
+      "path": "games/wicked-grin/other/atlas_only/atlas_016_multi_digits_countup",
+      "atlas": "multi_digits_countup.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_017_bronze_digits_countup",
+      "path": "games/wicked-grin/other/atlas_only/atlas_017_bronze_digits_countup",
+      "atlas": "bronze_digits_countup.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_018_digits_tv_yellow",
+      "path": "games/wicked-grin/other/atlas_only/atlas_018_digits_tv_yellow",
+      "atlas": "digits_tv_yellow.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    },
+    {
+      "id": "wicked-grin/atlas_019_winline_digits_countup",
+      "path": "games/wicked-grin/other/atlas_only/atlas_019_winline_digits_countup",
+      "atlas": "winline_digits_countup.atlas",
+      "pages": 1,
+      "missing_pages": 0
+    }
+  ],
+  "spritesheets": [],
+  "unclassified": [
+    {
+      "type": "spine_package",
+      "path": "games/wicked-grin/spine/package_001_tv",
+      "reason": "no reliable category hint"
+    },
+    {
+      "type": "spine_package",
+      "path": "games/wicked-grin/spine/package_002_wintiers",
+      "reason": "no reliable category hint"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "sessions": [
+    {
+      "id": "2026-10-02T20:15:48.095Z",
+      "started_at": "2026-10-02T20:15:48.095Z",
+      "ended_at": "2026-10-02T20:15:59.809Z",
+      "stop_reason": "har_import",
+      "mode": "har",
+      "source_file": "Wicked Grin.har",
+      "counters": {
+        "requests": 1205,
+        "finished": 1205,
+        "failed": 0,
+        "candidates": 121,
+        "images": 72,
+        "json": 24,
+        "atlases": 25,
+        "skeletons": 6,
+        "newSkeletons": 6,
+        "bytes": 11084899,
+        "errors": 0,
+        "probes": 38
+      }
+    }
+  ],
+  "ids": {
+    "0d6d19df46bdc3a82e910fcbd863e1fae2a8ed58c07ea696a17ccf2f3dd8eb8b": "package_001_tv",
+    "5142087d7101a73045f93698f51db0c0e1469d181dba8b4823d3f4e10cb65b71": "package_002_wintiers",
+    "682d3e3d0c55fc1de34da035a76d7274902705a6d974fde8570336212ab2b98a": "package_003_bg",
+    "9a2b98ad9df385a63427da1303dd53e0f8d4fa85fea7666b66d4f59dfe336212": "package_004_symbols",
+    "5cc56d136735b6d4f9a27634ce58e5d675c0a8b475033a7d1c2dafb85947cf29": "package_005_character",
+    "d1f88e9671cacdf3b7219a86372aca135d9e493edde71a9181bc7e3508920464": "package_006_reel",
+    "9f950d872068b3420ba6d5957d3f001fee1d36e856d2952ef21785f7c6484066": "atlas_001_background_splash",
+    "d652163b6392b3417116a46929b7aa5aa726216c5438042956185984e057edf6": "atlas_002_background",
+    "b11025ff21334600717c4c1fa7a1300145d28d9625f672358b88a6e445cda9b6": "atlas_003_reel",
+    "ae59fd66d0170e2a535f3a6127dad9744dfa729ffedaacd82781fb16813f72bf": "atlas_004_splash_fs_in",
+    "cc349a6b3a9a4181dd634d1517e4126a69a3fdf1f471e04ea06307603308d074": "atlas_005_coin_animations_1",
+    "1995505b2558cdcac7d5e2132fc8a8ea017e19b624c42a7507bcf9506891e2fb": "atlas_006_splash",
+    "58900bbfd7931fe179dc2639e7933b5b2c0bff20e354c928289a70c7f2f07c18": "atlas_007_gold_digits_countup",
+    "1607d61e725efd516fb6ac0df070fb1c215d4b5d35cfaae35fd46fe3fc476264": "atlas_008_fs_digits_countup",
+    "88d7b165467d43b1114d1887edc7f552a531d8d75cb66989c942ef6ec724b30a": "atlas_009_fs_gold_digits_countup",
+    "a504d7334504afbaa1d0504a9259aefea1ca85f96aecae8aad6dd14be0fbcfb8": "atlas_010_effects",
+    "ee22c2bd50d27bc842105e37187556198852149c7683066e6777952f2631ab95": "atlas_011_digits_tv_red",
+    "c3d47981bf80a1fa7c83ebc20826ee5f62e080d0da8d5c384930acc320c3614f": "atlas_012_silver_digits_countup",
+    "376deab5e4cdfe8fe2f4a55a89c3d2be9238cd72c2e392730e6501996cd8d86d": "atlas_013_countup_digits_countup",
+    "cbcd010a6a0b3da57518b7df9b9eb0a9063322a430d17bad4de696d97aa44045": "atlas_014_diamond_digits_countup",
+    "de308b884d4ae4916739c15f95ea878ba217137aa144aac700f857b620349765": "atlas_015_misc",
+    "eec5edad461e03b425d2d11ecf77d8a8536a1e3b8d8aff940747f04699b21f5e": "atlas_016_multi_digits_countup",
+    "dd81d6a2557e77b6d4e5ae8a31ec726173343e8729b7d90894c454a10d2085ca": "atlas_017_bronze_digits_countup",
+    "d6a5d53e47576890ead7fc1b52f17c321de3f1162b033138026ba2f317565378": "atlas_018_digits_tv_yellow",
+    "82bc4e7babce28a4d57e0405ee7d6c451c5336468c207bfb263f22f47d03d3a9": "atlas_019_winline_digits_countup"
+  },
+  "resources": [
+    {
+      "sha256": "0f911c9522cb983113ccd737daf1794291fe0c12095c854f101ad445b3a1374d",
+      "kind": "image",
+      "size": 3482,
+      "filename": "left-sidebar-product-background-fr.png",
+      "raw_path": "raw/mediumrare.imgix.net/left-sidebar-product-background-fr.png",
+      "outputs": [
+        "images/left-sidebar-product-background-fr.png"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/left-sidebar-product-background-fr.png?w=24&h=6&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:01.052Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "93857c7b7ff4b0886aadb605f03ad7d373643243d3abb23f441707d26df7a724",
+      "kind": "image",
+      "size": 3987,
+      "filename": "left-sidebar-product-background-fr.png",
+      "raw_path": "raw/mediumrare.imgix.net/left-sidebar-product-background-fr__93857c7b.png",
+      "outputs": [
+        "images/left-sidebar-product-background-fr__93857c7b.png"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/left-sidebar-product-background-fr.png?w=748&h=200&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:01.610Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "09651ecc33c8b9c7012139a8fe04cd7f2ba7c0e0ef0de8987657ac3e3cd590a5",
+      "kind": "image",
+      "size": 4893,
+      "filename": "b185f04c52096ac8798edb363111231056e4c17c0bfef6d565095a3ba400b755",
+      "raw_path": "raw/mediumrare.imgix.net/b185f04c52096ac8798edb363111231056e4c17c0bfef6d565095a3ba400b755",
+      "outputs": [
+        "images/b185f04c52096ac8798edb363111231056e4c17c0bfef6d565095a3ba400b755"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/b185f04c52096ac8798edb363111231056e4c17c0bfef6d565095a3ba400b755?w=128&h=38&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:01.610Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "6b04549145cd32228b181cb8f66885cd6d6868cfefc99c17793d696f5e5a3ba6",
+      "kind": "image",
+      "size": 5735,
+      "filename": "game-check-fr.png",
+      "raw_path": "raw/mediumrare.imgix.net/game-check-fr.png",
+      "outputs": [
+        "images/game-check-fr.png"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/game-check-fr.png?w=195&h=65&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:01.613Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "6ee15ac2e76d964e1e70f43fa4e97268cc11871ae24857eec1227ad381e2aa3a",
+      "kind": "image",
+      "size": 5520,
+      "filename": "tanzanite-certified-fr.png",
+      "raw_path": "raw/mediumrare.imgix.net/tanzanite-certified-fr.png",
+      "outputs": [
+        "images/tanzanite-certified-fr.png"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/tanzanite-certified-fr.png?w=147&h=65&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:01.613Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "52173786981d510f3d189dc9a11886485b54e630e4e1af4ace709fab9e985930",
+      "kind": "json",
+      "size": 5406,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production",
+      "outputs": [
+        "other/json/stake-com-production"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%0A%7B%0A++%22sponsorships%22%3A+*%5B%0A++++_type+%3D%3D+%27sponsorship%27%0A++++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++++%26%26+isDisplayed+%21%3D+false%0A++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++%5D+%7C+order%28orderRank%29%7B%0A++++_id%2C%0A++++title%2C%0A++++slug+%7B%0A++++++current%0A++++%7D%2C%0A++++icon%0A++%7D%2C%0A++%22fallbackSponsorships%22%3A+select%28%0A++++%24lang+%21%3D+%24defaultLanguage+%3D%3E+*%5B%0A++++++_type+%3D%3D+%27sponsorship%27%0A++++++%26%26+%28__i18n_lang+%3D%3D+%24defaultLanguage+%7C%7C+language+%3D%3D+%24defaultLanguage%29%0A++++++%26%26+isDisplayed+%21%3D+false%0A++++++%26%26+%21defined%28*%5B_type+%3D%3D+%22translation.metadata%22+%26%26+references%28%5E._id%29%5D%5B0%5D.translations%5B_key+%3D%3D+%24lang%5D%5B0%5D.value-%3E_id%29%0A++++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++++%5D+%7C+order%28orderRank%29%7B%0A++++++_id%2C%0A++++++title%2C%0A++++++slug+%7B%0A++++++++current%0A++++++%7D%2C%0A++++++icon%0A++++%7D%2C%0A++++%5B%5D%0A++%29%2C%0A++%22partners%22%3A+*%5B%0A++++_type+%3D%3D+%27partner%27%0A++++%26%26+language+%3D%3D+%24lang%0A++++%26%26+isDisplayed+%21%3D+false%0A++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++%5D+%7C+order%28orderRank%29%7B%0A++++_id%2C%0A++++title%2C%0A++++slug+%7B%0A++++++current%0A++++%7D%0A++%7D%2C%0A++%22fallbackPartners%22%3A+select%28%0A++++%24lang+%21%3D+%24defaultLanguage+%3D%3E+*%5B%0A++++++_type+%3D%3D+%27partner%27%0A++++++%26%26+language+%3D%3D+%24defaultLanguage%0A++++++%26%26+isDisplayed+%21%3D+false%0A++++++%26%26+%21defined%28*%5B_type+%3D%3D+%22translation.metadata%22+%26%26+references%28%5E._id%29%5D%5B0%5D.translations%5B_key+%3D%3D+%24lang%5D%5B0%5D.value-%3E_id%29%0A++++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++++%5D+%7C+order%28orderRank%29%7B%0A++++++_id%2C%0A++++++title%2C%0A++++++slug+%7B%0A++++++++current%0A++++++%7D%0A++++%7D%2C%0A++++%5B%5D%0A++%29%2C%0A%7D%0A&%24lang=%22fr%22&%24defaultLanguage=%22en%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:02.536Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "6be4613592cf27c9b8cabece7ccb4f186ef54a07be04dbd64f2b35efd8754a34",
+      "kind": "json",
+      "size": 1372,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__6be46135",
+      "outputs": [
+        "other/json/stake-com-production__6be46135"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%0A%7B%0A++%22sidebarPromotions%22%3A+*%5B%0A++++_type+%3D%3D+%27sidebarPromotion%27%0A++++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++++%26%26+isDisplayed+%21%3D+false%0A++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++++%26%26+%28%21defined%28dateRange.start%29+%7C%7C+dateRange.start+%3C%3D+now%28%29%29%0A++++%26%26+%28%21defined%28dateRange.end%29+%7C%7C+dateRange.end+%3E+now%28%29%29%0A++%5D+%7C+order%28orderRank%29+%7B%0A++++_id%2C%0A++++title%2C%0A++++link%2C%0A++++icon%0A++%7D%2C%0A++%22fallbackSidebarPromotions%22%3A+select%28%0A++++%24lang+%21%3D+%24defaultLanguage+%3D%3E+*%5B%0A++++_type+%3D%3D+%27sidebarPromotion%27%0A++++%26%26+%28__i18n_lang+%3D%3D+%24defaultLanguage+%7C%7C+language+%3D%3D+%24defaultLanguage%29%0A++++%26%26+isDisplayed+%21%3D+false%0A++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++++%26%26+%28%21defined%28dateRange.start%29+%7C%7C+dateRange.start+%3C%3D+now%28%29%29%0A++++%26%26+%28%21defined%28dateRange.end%29+%7C%7C+dateRange.end+%3E+now%28%29%29%0A++++%26%26+%21defined%28*%5B_type+%3D%3D+%22translation.metadata%22+%26%26+references%28%5E._id%29%5D%5B0%5D.translations%5B_key+%3D%3D+%24lang%5D%5B0%5D.value-%3E_id%29%0A++%5D+%7C+order%28orderRank%29+%7B%0A++++_id%2C%0A++++title%2C%0A++++link%2C%0A++++icon%0A++%7D%2C%0A++++%5B%5D%0A++%29%0A%7D%0A&%24lang=%22fr%22&%24defaultLanguage=%22en%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:02.543Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "2948f290d58d0ba793d9313bf163462f599e8c4fe7dfa85cc2501080969f52a6",
+      "kind": "json",
+      "size": 43526,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__2948f290",
+      "outputs": [
+        "other/json/stake-com-production__2948f290"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%7B%0A++++%22promotions%22%3A+*+%5B%0A++++++++_type+%3D%3D+%22promotionFresh%22%0A++++++++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++++++++%26%26+isDisplayed+%21%3D+false%0A++++++++%26%26+hidden+%21%3D+true%0A++++++++%26%26+%28dateRange.start+%3D%3D+null+%7C%7C+dateTime%28now%28%29%29+%3E%3D+dateTime%28dateRange.start%29%29%0A++%26%26+%28dateRange.end+%3D%3D+null+%7C%7C+dateTime%28now%28%29%29+%3C%3D+dateTime%28dateRange.end%29%29%0A++++++++%26%26+references%28*%5B_type+%3D%3D+%27category%27+%26%26+slug.current+%3D%3D+%24category%5D._id%29%0A++++++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++++++%5D%0A++++%7C+order%28orderRank%29+%5B%24start...%24end%5D%0A++++%7B%0A++++++...%2C%0A++++++%27image%27%3A+%7B%0A++++++++%27asset%27%3A+select%28%0A++++++++++language+%3D%3D+%24defaultLanguage+%3D%3E+image.asset-%3E%7B+url%2C+altText+%7D%2C%0A++++++++++coalesce%28%0A++++++++++++*%5B_type+%3D%3D+%22translation.metadata%22+%26%26+references%28%5E._id%29%5D%5B0%5D.translations%5B_key+%3D%3D+%24defaultLanguage%5D%5B0%5D.value-%3Eimage.asset-%3E%7B+url%2C+altText+%7D%2C%0A++++++++++++image.asset-%3E%7B+url%2C+altText+%7D%0A++++++++++%29%0A++++++++%29%0A++++++%7D%2C%0A++++%7D%2C%0A++++%22totalPromotionsCount%22%3A+count%28*%5B_type+%3D%3D+%22promotionFresh%22+%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29+%26%26+isDisplayed+%21%3D+false%0A++++++%26%26+hidden+%21%3D+true+%26%26+references%28*%5B_type+%3D%3D+%27category%27+%26%26+slug.current+%3D%3D+%24category%5D._id%29%0A++++++%26%26+%28dateRange.start+%3D%3D+null+%7C%7C+dateTime%28now%28%29%29+%3E%3D+dateTime%28dateRange.start%29%29%0A++%26%26+%28dateRange.end+%3D%3D+null+%7C%7C+dateTime%28now%28%29%29+%3C%3D+dateTime%28dateRange.end%29%29%0A++++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%5D%0A++++%29%2C%0A++++%22category%22%3A+coalesce%28*+%5B_type+%3D%3D+%22category%22++%26%26++%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29++%26%26+slug.current+%3D%3D+%24category%5D%5B0%5D.name%2C%0A++++*+%5B_type+%3D%3D+%22category%22++%26%26++%28__i18n_lang+%3D%3D+%24defaultLanguage+%7C%7C+language+%3D%3D+%24defaultLanguage%29++%26%26+slug.current+%3D%3D+%24category%5D%5B0%5D.name%29%2C%0A%7D&%24lang=%22fr%22&%24defaultLanguage=%22en%22&%24start=0&%24end=24&%24category=%22casino%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:02.545Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "ba58964c49704a9239791fa95dd9282d4f1622c46ef8d9801bfb567ab3b20b97",
+      "kind": "json",
+      "size": 333,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__ba58964c",
+      "outputs": [
+        "other/json/stake-com-production__ba58964c"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%0A%0A*%5B_type+%3D%3D+%22seo%22%0A++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++%26%26+slug.current+%3D%3D+%24slug%0A%5D%5B0%5D%0A++%7B%0A+++description%2C%0A+++title%2C%0A+++subtitle%2C%0A+++%22content%22%3A+content%5B%5D+%7B%0A+++++++...%2C%0A+++++++asset-%3E%7Burl%2C+altText%7D%2C%0A+++%7D%2C%0A+++demoteH1%0A%7D+&%24lang=%22fr%22&%24defaultLanguage=%22en%22&%24slug=%22%2Fcasino%2Fgames%2Fhacksaw-wicked-grin%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:04.933Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "e2f9214e84cbfb830bbbf22795a5d8da97e83ab820088bf26fef305b44f2810b",
+      "kind": "json",
+      "size": 222,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__e2f9214e",
+      "outputs": [
+        "other/json/stake-com-production__e2f9214e"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%0A*%5B_type+%3D%3D+%22seo%22%0A++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++%26%26+slug.current+%3D%3D+%24slug%0A%5D%5B0%5D%0A++%7B%0A+++description%2C%0A+++title%2C%0A++%7D%0A&%24lang=%22fr%22&%24defaultLanguage=%22en%22&%24slug=%22%2Fcasino%2Fgames%2Fhacksaw-wicked-grin%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:04.944Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "6d6e729e0d735a3343e193f568b5acd56e41bca725f1c185118dae3831a9f17d",
+      "kind": "json",
+      "size": 23805,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__6d6e729e",
+      "outputs": [
+        "other/json/stake-com-production__6d6e729e"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%0A%0A*%5B_type+%3D%3D+%22seo%22%0A++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++%26%26+slug.current+%3D%3D+%24slug%0A%5D%5B0%5D%0A++%7B%0A+++description%2C%0A+++title%2C%0A+++subtitle%2C%0A+++%22content%22%3A+content%5B%5D+%7B%0A+++++++...%2C%0A+++++++asset-%3E%7Burl%2C+altText%7D%2C%0A+++%7D%2C%0A+++demoteH1%0A%7D+&%24lang=%22en%22&%24defaultLanguage=%22en%22&%24slug=%22%2Fcasino%2Fgames%2Fhacksaw-wicked-grin%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:05.097Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "3d61d7017c29c78d55201b13d780f092732bf660c0468add802f770a9c200feb",
+      "kind": "json",
+      "size": 44,
+      "filename": "predict",
+      "raw_path": "raw/inference.api.useinsider.com/predict",
+      "outputs": [
+        "other/json/predict"
+      ],
+      "urls": [
+        "https://inference.api.useinsider.com/predict?pid=10013663&uid=REDACTED&sid=REDACTED&a=ltpd"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.001Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "c8d7e9b9902d30ce6ffc73532b5a9658d3cefb6cef415d930d5ffb5c2654168e",
+      "kind": "json",
+      "size": 167,
+      "filename": "stake.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/launcher/configs/stake.json",
+      "outputs": [
+        "other/json/stake.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/launcher/configs/stake.json"
+      ],
+      "occurrences": 3,
+      "first_seen": "2026-10-02T20:02:06.344Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "f519d7927e71d9f3157f3fc287c1be0b6854d01364d9ed92e99b0d5ee0f66c5b",
+      "kind": "image",
+      "size": 33994,
+      "filename": "2cdad06e3df68abf1350b89753a78fd8e8b90ca757cdedd4405bda1cd1ff6c42",
+      "raw_path": "raw/mediumrare.imgix.net/2cdad06e3df68abf1350b89753a78fd8e8b90ca757cdedd4405bda1cd1ff6c42",
+      "outputs": [
+        "images/2cdad06e3df68abf1350b89753a78fd8e8b90ca757cdedd4405bda1cd1ff6c42"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/2cdad06e3df68abf1350b89753a78fd8e8b90ca757cdedd4405bda1cd1ff6c42?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.135Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "7e08a1675ef08b14827f7c462470cdbf6015cde761dc73f8a165b79fc50238cf",
+      "kind": "image",
+      "size": 24969,
+      "filename": "69b0c738e701f6feebfbe7dedbd02a61bb3f941b2c06f2c703e2596d3e8aa12b",
+      "raw_path": "raw/mediumrare.imgix.net/69b0c738e701f6feebfbe7dedbd02a61bb3f941b2c06f2c703e2596d3e8aa12b",
+      "outputs": [
+        "images/69b0c738e701f6feebfbe7dedbd02a61bb3f941b2c06f2c703e2596d3e8aa12b"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/69b0c738e701f6feebfbe7dedbd02a61bb3f941b2c06f2c703e2596d3e8aa12b?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.136Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "d9cce46afc09f7fe440a023b8c1e1a9050429e80df8b5744e16ce457a817c97a",
+      "kind": "image",
+      "size": 28713,
+      "filename": "3d0f5e9785aa18feb9246f5ec1da448906a172850c2c086095454ffaaf5d1f60",
+      "raw_path": "raw/mediumrare.imgix.net/3d0f5e9785aa18feb9246f5ec1da448906a172850c2c086095454ffaaf5d1f60",
+      "outputs": [
+        "images/3d0f5e9785aa18feb9246f5ec1da448906a172850c2c086095454ffaaf5d1f60"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/3d0f5e9785aa18feb9246f5ec1da448906a172850c2c086095454ffaaf5d1f60?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.136Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "d98bca620f7717108b1a5d3301e064903405890de10da0c6fbbea894061058a7",
+      "kind": "image",
+      "size": 25275,
+      "filename": "30fbea655850ebb72bc073521a3cdb21d5080ab13752977a09b362b535f9cb03",
+      "raw_path": "raw/mediumrare.imgix.net/30fbea655850ebb72bc073521a3cdb21d5080ab13752977a09b362b535f9cb03",
+      "outputs": [
+        "images/30fbea655850ebb72bc073521a3cdb21d5080ab13752977a09b362b535f9cb03"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/30fbea655850ebb72bc073521a3cdb21d5080ab13752977a09b362b535f9cb03?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.137Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "1ccf30d112deb5df808a8c96ffb5479965706d396ff5bc5ac057fde7e5a059db",
+      "kind": "image",
+      "size": 28479,
+      "filename": "721b50c02b25ab5397f6245b9db30c4517f9f040d6aed05d6b1bcd741fedeb10",
+      "raw_path": "raw/mediumrare.imgix.net/721b50c02b25ab5397f6245b9db30c4517f9f040d6aed05d6b1bcd741fedeb10",
+      "outputs": [
+        "images/721b50c02b25ab5397f6245b9db30c4517f9f040d6aed05d6b1bcd741fedeb10"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/721b50c02b25ab5397f6245b9db30c4517f9f040d6aed05d6b1bcd741fedeb10?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.137Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "7b1ab7db257e3c9b9111d6db572ac00cd93cf326a10b62031172a619f6df1cca",
+      "kind": "image",
+      "size": 17371,
+      "filename": "4925091219094b5525d9e5817bed4b06b0addfad5a9d934963bff917800a0285",
+      "raw_path": "raw/mediumrare.imgix.net/4925091219094b5525d9e5817bed4b06b0addfad5a9d934963bff917800a0285",
+      "outputs": [
+        "images/4925091219094b5525d9e5817bed4b06b0addfad5a9d934963bff917800a0285"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/4925091219094b5525d9e5817bed4b06b0addfad5a9d934963bff917800a0285?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.136Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "cb77bb9bd0df189baf9627bd5c9cc79e18d4e7d7de165569802374cf0a4f46a6",
+      "kind": "image",
+      "size": 31430,
+      "filename": "9dfc9e96ce9256b9794d703e7041c08b083fb58c7a1183c1cd7fc3c5caa23cf9",
+      "raw_path": "raw/mediumrare.imgix.net/9dfc9e96ce9256b9794d703e7041c08b083fb58c7a1183c1cd7fc3c5caa23cf9",
+      "outputs": [
+        "images/9dfc9e96ce9256b9794d703e7041c08b083fb58c7a1183c1cd7fc3c5caa23cf9"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/9dfc9e96ce9256b9794d703e7041c08b083fb58c7a1183c1cd7fc3c5caa23cf9?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.137Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "ae9fc8968d83c95be8c39b1d481de6693b432e53f2130d589e6990db6a38f664",
+      "kind": "image",
+      "size": 16494,
+      "filename": "a0065f09a9594b09ed89478c91be1c2dd202510b7d190f84670439a4c43c02f9",
+      "raw_path": "raw/mediumrare.imgix.net/a0065f09a9594b09ed89478c91be1c2dd202510b7d190f84670439a4c43c02f9",
+      "outputs": [
+        "images/a0065f09a9594b09ed89478c91be1c2dd202510b7d190f84670439a4c43c02f9"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/a0065f09a9594b09ed89478c91be1c2dd202510b7d190f84670439a4c43c02f9?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.136Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "2ab6868ffb61aeea1ba0da13d77c822025cc131da266c799f983cea1e552c99f",
+      "kind": "image",
+      "size": 38177,
+      "filename": "8b4219183a2f81d652c203862c8f0f6ae9d32f9664923891350759b99ed51ca1",
+      "raw_path": "raw/mediumrare.imgix.net/8b4219183a2f81d652c203862c8f0f6ae9d32f9664923891350759b99ed51ca1",
+      "outputs": [
+        "images/8b4219183a2f81d652c203862c8f0f6ae9d32f9664923891350759b99ed51ca1"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/8b4219183a2f81d652c203862c8f0f6ae9d32f9664923891350759b99ed51ca1?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.137Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "081df3c21f9ebcc9c807fe17c1e68bf887ba4102527f43ee7b3b84a1aa0e1077",
+      "kind": "image",
+      "size": 28048,
+      "filename": "1e274e37e2d55fd7cadeff0f06ec3b718f7792efc03c474dcd15699fd58e1aac",
+      "raw_path": "raw/mediumrare.imgix.net/1e274e37e2d55fd7cadeff0f06ec3b718f7792efc03c474dcd15699fd58e1aac",
+      "outputs": [
+        "images/1e274e37e2d55fd7cadeff0f06ec3b718f7792efc03c474dcd15699fd58e1aac"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/1e274e37e2d55fd7cadeff0f06ec3b718f7792efc03c474dcd15699fd58e1aac?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.136Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "8f928772acd416b6667a320ed8d0d44552b55acb607c83e847a2e617b4b2d98e",
+      "kind": "image",
+      "size": 25310,
+      "filename": "67df5bbdf31e04c11a81fd3cc2549fb32e78c576242f65787b6804b9269ef628",
+      "raw_path": "raw/mediumrare.imgix.net/67df5bbdf31e04c11a81fd3cc2549fb32e78c576242f65787b6804b9269ef628",
+      "outputs": [
+        "images/67df5bbdf31e04c11a81fd3cc2549fb32e78c576242f65787b6804b9269ef628"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/67df5bbdf31e04c11a81fd3cc2549fb32e78c576242f65787b6804b9269ef628?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.136Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "f75a64bdd2468b091d917279fdc7788e4f1328c99042b04a592b0438eb565ea5",
+      "kind": "image",
+      "size": 28430,
+      "filename": "61cab7ea22b00ac219e21ac529a5b6a2f5d4f08a58f16840c9a23b64802f090a",
+      "raw_path": "raw/mediumrare.imgix.net/61cab7ea22b00ac219e21ac529a5b6a2f5d4f08a58f16840c9a23b64802f090a",
+      "outputs": [
+        "images/61cab7ea22b00ac219e21ac529a5b6a2f5d4f08a58f16840c9a23b64802f090a"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/61cab7ea22b00ac219e21ac529a5b6a2f5d4f08a58f16840c9a23b64802f090a?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.137Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "ce1f952143f5bc141252862b17be52401678b90124e974ac22cdfbbdc0dee168",
+      "kind": "image",
+      "size": 35199,
+      "filename": "c7a425dc7c607d29f3d6dbba0b1d76b94d71c02498b635573108712ad88d90e6",
+      "raw_path": "raw/mediumrare.imgix.net/c7a425dc7c607d29f3d6dbba0b1d76b94d71c02498b635573108712ad88d90e6",
+      "outputs": [
+        "images/c7a425dc7c607d29f3d6dbba0b1d76b94d71c02498b635573108712ad88d90e6"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/c7a425dc7c607d29f3d6dbba0b1d76b94d71c02498b635573108712ad88d90e6?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.137Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "3b0aa249b665ee57631a5583ac44d6fd085f5fe70dacc582147514d12dcf285f",
+      "kind": "image",
+      "size": 37627,
+      "filename": "ae27b7c7da8a6b03aebab1ae62762efd13c2f5a689424fff6b2f3fd82835542c",
+      "raw_path": "raw/mediumrare.imgix.net/ae27b7c7da8a6b03aebab1ae62762efd13c2f5a689424fff6b2f3fd82835542c",
+      "outputs": [
+        "images/ae27b7c7da8a6b03aebab1ae62762efd13c2f5a689424fff6b2f3fd82835542c"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/ae27b7c7da8a6b03aebab1ae62762efd13c2f5a689424fff6b2f3fd82835542c?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.136Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "987bd27cd5f40d657fe5c54e434cd999b7bfb60d98ef78cc578b09e46a57c278",
+      "kind": "image",
+      "size": 21701,
+      "filename": "b76680685f8b25d8bb529ead044d280653ea74f2d4215f611258c573b57e6f6a",
+      "raw_path": "raw/mediumrare.imgix.net/b76680685f8b25d8bb529ead044d280653ea74f2d4215f611258c573b57e6f6a",
+      "outputs": [
+        "images/b76680685f8b25d8bb529ead044d280653ea74f2d4215f611258c573b57e6f6a"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/b76680685f8b25d8bb529ead044d280653ea74f2d4215f611258c573b57e6f6a?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.137Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "48bcedfa37cf7d9371d05a90af7be7f4c55209ebdc20ff49c1b48a4c263458a9",
+      "kind": "image",
+      "size": 19166,
+      "filename": "ba27c6610fc56f040384ced6a0d50206e8f0f83aa1a023ed798578dbd18e0ed1",
+      "raw_path": "raw/mediumrare.imgix.net/ba27c6610fc56f040384ced6a0d50206e8f0f83aa1a023ed798578dbd18e0ed1",
+      "outputs": [
+        "images/ba27c6610fc56f040384ced6a0d50206e8f0f83aa1a023ed798578dbd18e0ed1"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/ba27c6610fc56f040384ced6a0d50206e8f0f83aa1a023ed798578dbd18e0ed1?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.187Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "26c0c720a4cd8e406cd41d4e2b18669b6a6d638b300b60d1de70f3df27c7c2b1",
+      "kind": "image",
+      "size": 63710,
+      "filename": "7ee5368bfd8e7a216149a754cb7444e6791e97ce89117730db686069d1b24ea7",
+      "raw_path": "raw/mediumrare.imgix.net/7ee5368bfd8e7a216149a754cb7444e6791e97ce89117730db686069d1b24ea7",
+      "outputs": [
+        "images/7ee5368bfd8e7a216149a754cb7444e6791e97ce89117730db686069d1b24ea7"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/7ee5368bfd8e7a216149a754cb7444e6791e97ce89117730db686069d1b24ea7?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.187Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "43abc27a2ec5bd8e5d948dd6308a83b41ce5c92d2ba0ba7c8bb48f3a050f25ac",
+      "kind": "image",
+      "size": 26716,
+      "filename": "ea70edd843bc62197fcd0cbab0f8715825cca7a95f4fecb514ce3565fefdd8a3",
+      "raw_path": "raw/mediumrare.imgix.net/ea70edd843bc62197fcd0cbab0f8715825cca7a95f4fecb514ce3565fefdd8a3",
+      "outputs": [
+        "images/ea70edd843bc62197fcd0cbab0f8715825cca7a95f4fecb514ce3565fefdd8a3"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/ea70edd843bc62197fcd0cbab0f8715825cca7a95f4fecb514ce3565fefdd8a3?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.187Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "ca13ceed1418d4c846af4c0e4f61aa8f718449c740c263d93d4d5afad8de68f7",
+      "kind": "image",
+      "size": 95236,
+      "filename": "0774415c23d15f884c8d580ef387114e3503d9185bce4af4c4d93989e46670e7",
+      "raw_path": "raw/mediumrare.imgix.net/0774415c23d15f884c8d580ef387114e3503d9185bce4af4c4d93989e46670e7",
+      "outputs": [
+        "images/0774415c23d15f884c8d580ef387114e3503d9185bce4af4c4d93989e46670e7"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/0774415c23d15f884c8d580ef387114e3503d9185bce4af4c4d93989e46670e7?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:06.192Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "089aadfe2155d47209253e3cdb05efdf0a06adaff10be30c17135dfe1188cf55",
+      "kind": "json",
+      "size": 55,
+      "filename": "version.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/version.json",
+      "outputs": [
+        "other/json/version.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/version.json?1790971326345",
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/version.json?1790971346833",
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/version.json?1790971351009"
+      ],
+      "occurrences": 3,
+      "first_seen": "2026-10-02T20:02:06.577Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "0f1e2c8bf32616d65a2d428c4a388094d2774225a5e2ee463f7f0d0af50c1be5",
+      "kind": "image",
+      "size": 2206,
+      "filename": "coljuegos.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/ui/images/coljuegos.png",
+      "outputs": [
+        "images/coljuegos.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 148,
+        "height": 36
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/ui/images/coljuegos.png"
+      ],
+      "occurrences": 4,
+      "first_seen": "2026-10-02T20:02:06.666Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "d2db1f2fbd894d07d27da58dbb315c9668c2dc29908d5fed35017f09849ae8b9",
+      "kind": "image",
+      "size": 1727,
+      "filename": "juegabien.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/ui/images/juegabien.png",
+      "outputs": [
+        "images/juegabien.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 42,
+        "height": 36
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/ui/images/juegabien.png"
+      ],
+      "occurrences": 4,
+      "first_seen": "2026-10-02T20:02:06.666Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "577755364c67206f4c87e3d658abcf7660ed2e3f896aaa0c5aca34ed6203d9b2",
+      "kind": "image",
+      "size": 6940,
+      "filename": "promotion_button.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/ui/images/promotion_button.png",
+      "outputs": [
+        "images/promotion_button.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 150,
+        "height": 150
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/ui/images/promotion_button.png"
+      ],
+      "occurrences": 4,
+      "first_seen": "2026-10-02T20:02:06.666Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "eb205a01c69629b97a818fa4c906832dd3c689f403565253cf53391e70b0d219",
+      "kind": "json",
+      "size": 19331,
+      "filename": "desc-locale.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/casino/desc-locale.json",
+      "outputs": [
+        "other/json/desc-locale.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/casino/desc-locale.json"
+      ],
+      "occurrences": 3,
+      "first_seen": "2026-10-02T20:02:06.790Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "b8425a09090a42d656131c5ac5fd724729741d18609b6448523254866322a855",
+      "kind": "json",
+      "size": 119,
+      "filename": "meta.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/meta.json",
+      "outputs": [
+        "other/json/meta.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/meta.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.133Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "01af40dfecd8c8154676e1311743b08ad6d442f2d5e01ba09f2b4dac232a8001",
+      "kind": "json",
+      "size": 370,
+      "filename": "dependencies.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/dependencies.json",
+      "outputs": [
+        "other/json/dependencies.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/dependencies.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.133Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "34f09fbd8d2668d4857bb5f423d77545936261276bdff16ce07dfbd70f8d1e7a",
+      "kind": "json",
+      "size": 27414,
+      "filename": "gameInfo",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/api/meta/gameInfo",
+      "outputs": [
+        "other/json/gameInfo"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/api/meta/gameInfo?gameId=2347&currency=USD&rm=96&jurisdiction=curacao&partner=stake"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.215Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "5132bc78481b78c04ec27a7ca1ff4efcf76741586569293c7531cc928d05bcf3",
+      "kind": "json",
+      "size": 8492,
+      "filename": "fr-fr.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/locale/fr-fr/fr-fr.json",
+      "outputs": [
+        "other/json/fr-fr.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/locale/fr-fr/fr-fr.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.134Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "9dbed65465f5214989dbf467b28b38339fdd835803edfbbe730511e9f5937025",
+      "kind": "json",
+      "size": 35366,
+      "filename": "currencies.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/integrations/currency/currencies.json",
+      "outputs": [
+        "other/json/currencies.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/integrations/currency/currencies.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.372Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "20c8ffac739a897a39ca63455054e5b19069e52a96b02cf916246af8a2558eba",
+      "kind": "json",
+      "size": 41073,
+      "filename": "fr-fr.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/casino/locale/fr-fr/fr-fr.json",
+      "outputs": [
+        "other/json/fr-fr__20c8ffac.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/casino/locale/fr-fr/fr-fr.json"
+      ],
+      "occurrences": 3,
+      "first_seen": "2026-10-02T20:02:07.140Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "cf4724b2f736ed1a0ae6bc28f1ead963d9cd2c1fd87b6ef32e7799fc1c5c8bda",
+      "kind": "image",
+      "size": 43,
+      "filename": "usage.gif",
+      "raw_path": "raw/usage.trackjs.com/usage.gif",
+      "outputs": [
+        "images/usage.gif"
+      ],
+      "image": {
+        "format": "gif",
+        "width": 1,
+        "height": 1
+      },
+      "urls": [
+        "https://usage.trackjs.com/usage.gif?token=REDACTED&correlationId=REDACTED&application=wicked-grin&x=REDACTED"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.301Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "2e21f26af0adf8d56a15e80dca1a1bc28fab620c8b093346b3aa9574dbd9347e",
+      "kind": "json",
+      "size": 183996,
+      "filename": "desc.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/desc.json",
+      "outputs": [
+        "other/json/desc.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/desc.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.159Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "7fbf872ae75a50101adb3941f05afdd25393d77a694453c6984a11bef3f6cad8",
+      "kind": "image",
+      "size": 164438,
+      "filename": "wicked_mouse.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/font/localized/fr-fr/wicked_mouse.png",
+      "outputs": [
+        "images/wicked_mouse.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 512,
+        "height": 512
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/font/localized/fr-fr/wicked_mouse.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.269Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "3ca194f4ecd530cdd258e7cc1eb82c4f9b65d9df956d86df9abf71e1923ae8a4",
+      "kind": "json",
+      "size": 63252,
+      "filename": "wicked_mouse.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/font/localized/fr-fr/wicked_mouse.json",
+      "outputs": [
+        "other/json/wicked_mouse.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/font/localized/fr-fr/wicked_mouse.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.270Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "3cc712fa72171681ecd8a981989fdc3a396260ea4c200ca338f2346e34c912de",
+      "kind": "texture",
+      "size": 1527746,
+      "filename": "background_splash.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/background_splash.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_001_background_splash/background_splash.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/background_splash.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.272Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "9f950d872068b3420ba6d5957d3f001fee1d36e856d2952ef21785f7c6484066",
+      "kind": "spine-atlas",
+      "size": 318,
+      "filename": "background_splash.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/background_splash.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_001_background_splash/background_splash.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/background_splash.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.271Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "81369ed6f73ff67d846980a778bce5697c56daa261295fed262592996e18065a",
+      "kind": "texture",
+      "size": 1084796,
+      "filename": "background.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/background.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_002_background/background.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/background.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.273Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "d652163b6392b3417116a46929b7aa5aa726216c5438042956185984e057edf6",
+      "kind": "spine-atlas",
+      "size": 1057,
+      "filename": "background.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/background.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_002_background/background.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/background.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.274Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "965cb215433755fb436c51c025fab523eef5659a2c139142c1510d55e98c2875",
+      "kind": "texture",
+      "size": 1128073,
+      "filename": "reel.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/reel.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_003_reel/reel.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/reel.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.275Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "b11025ff21334600717c4c1fa7a1300145d28d9625f672358b88a6e445cda9b6",
+      "kind": "spine-atlas",
+      "size": 650,
+      "filename": "reel.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/reel.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_003_reel/reel.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/reel.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.277Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "b2c83ee6010a4376a8936c37b971795e104f9d6f27e0cc6ce0d4ffb2bd321c9d",
+      "kind": "texture",
+      "size": 862135,
+      "filename": "splash_fs_in.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/splash_fs_in.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_004_splash_fs_in/splash_fs_in.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/splash_fs_in.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.283Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "ae59fd66d0170e2a535f3a6127dad9744dfa729ffedaacd82781fb16813f72bf",
+      "kind": "spine-atlas",
+      "size": 533,
+      "filename": "splash_fs_in.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/splash_fs_in.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_004_splash_fs_in/splash_fs_in.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/splash_fs_in.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.283Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "5ae29f5273c47676e56755eae95a10b7ffaef098debd59af59168c9b66c95b9e",
+      "kind": "texture",
+      "size": 328578,
+      "filename": "coin_animations_1.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/coin_animations_1.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_005_coin_animations_1/coin_animations_1.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 1024,
+        "height": 1024
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/coin_animations_1.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.285Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "cc349a6b3a9a4181dd634d1517e4126a69a3fdf1f471e04ea06307603308d074",
+      "kind": "spine-atlas",
+      "size": 2269,
+      "filename": "coin_animations_1.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/coin_animations_1.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_005_coin_animations_1/coin_animations_1.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/coin_animations_1.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.287Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "b938421c30848a70109f6571739183314be4619011102edfce31f97c372fc5bb",
+      "kind": "texture",
+      "size": 714361,
+      "filename": "splash.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/splash.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_006_splash/splash.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/splash.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.288Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "1995505b2558cdcac7d5e2132fc8a8ea017e19b624c42a7507bcf9506891e2fb",
+      "kind": "spine-atlas",
+      "size": 747,
+      "filename": "splash.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/splash.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_006_splash/splash.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/splash.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.290Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "836ffd4655c26d681eca361001d5814f2d35b45863ff48137aad9fbfb174380b",
+      "kind": "texture",
+      "size": 45159,
+      "filename": "gold_digits_countup.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/gold_digits_countup.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_007_gold_digits_countup/gold_digits_countup.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 512,
+        "height": 512
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/gold_digits_countup.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.290Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "58900bbfd7931fe179dc2639e7933b5b2c0bff20e354c928289a70c7f2f07c18",
+      "kind": "spine-atlas",
+      "size": 1371,
+      "filename": "gold_digits_countup.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/gold_digits_countup.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_007_gold_digits_countup/gold_digits_countup.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/gold_digits_countup.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.291Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "63d176816af919e9990925331f5b9b91c3bb572f5933a297ee1953e176c3b01a",
+      "kind": "texture",
+      "size": 81686,
+      "filename": "fs_digits_countup.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/fs_digits_countup.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_008_fs_digits_countup/fs_digits_countup.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 1024,
+        "height": 1024
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/fs_digits_countup.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.292Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "1607d61e725efd516fb6ac0df070fb1c215d4b5d35cfaae35fd46fe3fc476264",
+      "kind": "spine-atlas",
+      "size": 1418,
+      "filename": "fs_digits_countup.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/fs_digits_countup.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_008_fs_digits_countup/fs_digits_countup.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/fs_digits_countup.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.296Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "e1dec33e43c0646dbc878dfbcd491210c9501a2b9193e4cf71cf1128a2a21b61",
+      "kind": "texture",
+      "size": 84523,
+      "filename": "fs_gold_digits_countup.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/fs_gold_digits_countup.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_009_fs_gold_digits_countup/fs_gold_digits_countup.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 1024,
+        "height": 1024
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/fs_gold_digits_countup.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.297Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "88d7b165467d43b1114d1887edc7f552a531d8d75cb66989c942ef6ec724b30a",
+      "kind": "spine-atlas",
+      "size": 1423,
+      "filename": "fs_gold_digits_countup.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/fs_gold_digits_countup.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_009_fs_gold_digits_countup/fs_gold_digits_countup.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/fs_gold_digits_countup.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.298Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "3ac44fbb921313a905d05cd6f22c425b141a9d9dc5f314fa766d6d49bbffa502",
+      "kind": "texture",
+      "size": 46767,
+      "filename": "effects.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/effects.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_010_effects/effects.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 1024,
+        "height": 1024
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/effects.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.298Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "a504d7334504afbaa1d0504a9259aefea1ca85f96aecae8aad6dd14be0fbcfb8",
+      "kind": "spine-atlas",
+      "size": 1173,
+      "filename": "effects.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/effects.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_010_effects/effects.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/effects.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.307Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "205e7da7049a9a26d7306482584e4b75c2a0b94ee47eeef0795ebd5f839494a3",
+      "kind": "texture",
+      "size": 10003,
+      "filename": "digits_tv_red.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/digits_tv_red.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_011_digits_tv_red/digits_tv_red.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 512,
+        "height": 512
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/digits_tv_red.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.308Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "ee22c2bd50d27bc842105e37187556198852149c7683066e6777952f2631ab95",
+      "kind": "spine-atlas",
+      "size": 1184,
+      "filename": "digits_tv_red.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/digits_tv_red.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_011_digits_tv_red/digits_tv_red.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/digits_tv_red.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.310Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "37671fe72f9368bdcd5c5f297bb8420b0bf1d612bda7dcc7c3c53c17c498cd9b",
+      "kind": "texture",
+      "size": 45424,
+      "filename": "silver_digits_countup.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/silver_digits_countup.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_012_silver_digits_countup/silver_digits_countup.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 512,
+        "height": 512
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/silver_digits_countup.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.310Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "c3d47981bf80a1fa7c83ebc20826ee5f62e080d0da8d5c384930acc320c3614f",
+      "kind": "spine-atlas",
+      "size": 1373,
+      "filename": "silver_digits_countup.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/silver_digits_countup.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_012_silver_digits_countup/silver_digits_countup.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/silver_digits_countup.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.312Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "9a8b30cbab23b9ed347227a49a0cce44c767022d520d88e444184d6aab5e5088",
+      "kind": "texture",
+      "size": 98353,
+      "filename": "countup_digits_countup.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/countup_digits_countup.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_013_countup_digits_countup/countup_digits_countup.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 512,
+        "height": 512
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/countup_digits_countup.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.314Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "376deab5e4cdfe8fe2f4a55a89c3d2be9238cd72c2e392730e6501996cd8d86d",
+      "kind": "spine-atlas",
+      "size": 1412,
+      "filename": "countup_digits_countup.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/countup_digits_countup.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_013_countup_digits_countup/countup_digits_countup.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/countup_digits_countup.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.315Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "090994ca7759a00ee76543c7e889a725515b6ecc150abdef594a85535257407f",
+      "kind": "texture",
+      "size": 44616,
+      "filename": "diamond_digits_countup.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/diamond_digits_countup.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_014_diamond_digits_countup/diamond_digits_countup.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 512,
+        "height": 512
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/diamond_digits_countup.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.316Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "cbcd010a6a0b3da57518b7df9b9eb0a9063322a430d17bad4de696d97aa44045",
+      "kind": "spine-atlas",
+      "size": 1374,
+      "filename": "diamond_digits_countup.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/diamond_digits_countup.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_014_diamond_digits_countup/diamond_digits_countup.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/diamond_digits_countup.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.317Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "93a60785ae72b05108a279c57448a6a641b02e23ba33540884d5d5023bdb77f9",
+      "kind": "texture",
+      "size": 15671,
+      "filename": "misc.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/misc.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_015_misc/misc.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 512,
+        "height": 512
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/misc.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.318Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "de308b884d4ae4916739c15f95ea878ba217137aa144aac700f857b620349765",
+      "kind": "spine-atlas",
+      "size": 946,
+      "filename": "misc.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/misc.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_015_misc/misc.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/misc.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.320Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "1a29dac345b83874abdeb3e225b91682488bac7a769b5a00a3a16c53fd0f7637",
+      "kind": "texture",
+      "size": 42070,
+      "filename": "multi_digits_countup.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/multi_digits_countup.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_016_multi_digits_countup/multi_digits_countup.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 512,
+        "height": 512
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/multi_digits_countup.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.319Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "eec5edad461e03b425d2d11ecf77d8a8536a1e3b8d8aff940747f04699b21f5e",
+      "kind": "spine-atlas",
+      "size": 1487,
+      "filename": "multi_digits_countup.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/multi_digits_countup.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_016_multi_digits_countup/multi_digits_countup.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/multi_digits_countup.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.322Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "a6b466fd264ff3b43debc082dc722118e5168ebdfa5ae469aff2fabd0de7f594",
+      "kind": "texture",
+      "size": 45595,
+      "filename": "bronze_digits_countup.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/bronze_digits_countup.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_017_bronze_digits_countup/bronze_digits_countup.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 512,
+        "height": 512
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/bronze_digits_countup.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.321Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "dd81d6a2557e77b6d4e5ae8a31ec726173343e8729b7d90894c454a10d2085ca",
+      "kind": "spine-atlas",
+      "size": 1373,
+      "filename": "bronze_digits_countup.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/bronze_digits_countup.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_017_bronze_digits_countup/bronze_digits_countup.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/bronze_digits_countup.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.324Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "b4c0f242b07daf2916f1e3e339afdb58cf2403ee246e8ceae71cc9f1add91fd7",
+      "kind": "texture",
+      "size": 10632,
+      "filename": "digits_tv_yellow.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/digits_tv_yellow.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_018_digits_tv_yellow/digits_tv_yellow.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 512,
+        "height": 512
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/digits_tv_yellow.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.324Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "d6a5d53e47576890ead7fc1b52f17c321de3f1162b033138026ba2f317565378",
+      "kind": "spine-atlas",
+      "size": 1187,
+      "filename": "digits_tv_yellow.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/digits_tv_yellow.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_018_digits_tv_yellow/digits_tv_yellow.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/digits_tv_yellow.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.326Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "6aca8121fc146429252be1753812671f51349d1363a60e40a8788ca969e1ddb5",
+      "kind": "texture",
+      "size": 78849,
+      "filename": "winline_digits_countup.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/winline_digits_countup.ktx2",
+      "outputs": [
+        "other/atlas_only/atlas_019_winline_digits_countup/winline_digits_countup.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 512,
+        "height": 512
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/winline_digits_countup.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.326Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "82bc4e7babce28a4d57e0405ee7d6c451c5336468c207bfb263f22f47d03d3a9",
+      "kind": "spine-atlas",
+      "size": 1404,
+      "filename": "winline_digits_countup.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/winline_digits_countup.atlas",
+      "outputs": [
+        "other/atlas_only/atlas_019_winline_digits_countup/winline_digits_countup.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/winline_digits_countup.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.329Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "385648ad2d8a5264afc77540d109f128228d5342464b64fd4675479b468548e1",
+      "kind": "texture",
+      "size": 420549,
+      "filename": "tv.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.ktx2",
+      "outputs": [
+        "spine/package_001_tv/tv.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 1024,
+        "height": 1024
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.328Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "0d6d19df46bdc3a82e910fcbd863e1fae2a8ed58c07ea696a17ccf2f3dd8eb8b",
+      "kind": "spine-json",
+      "size": 3339,
+      "filename": "tv.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.json",
+      "outputs": [
+        "spine/package_001_tv/tv.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.331Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "8d6f85bac4721a4726462c243b172c3aba5dbc08cfa774d9539e0f02fcd2e6d3",
+      "kind": "spine-atlas",
+      "size": 538,
+      "filename": "tv.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.atlas",
+      "outputs": [
+        "spine/package_001_tv/tv.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.330Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "9713f68c13c18870eb16623348b3d6aadbb45e07fa31eb58f03abf7755b75a5d",
+      "kind": "texture",
+      "size": 338954,
+      "filename": "wintiers.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.ktx2",
+      "outputs": [
+        "spine/package_002_wintiers/wintiers.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 1024,
+        "height": 1024
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.332Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "5142087d7101a73045f93698f51db0c0e1469d181dba8b4823d3f4e10cb65b71",
+      "kind": "spine-json",
+      "size": 81119,
+      "filename": "wintiers.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.json",
+      "outputs": [
+        "spine/package_002_wintiers/wintiers.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.334Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "c5cb299323cc9189406c3704a6c92f1905e89f1547602de9881857e0c270c47c",
+      "kind": "spine-atlas",
+      "size": 1827,
+      "filename": "wintiers.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.atlas",
+      "outputs": [
+        "spine/package_002_wintiers/wintiers.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.334Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "ae8c284092c6371df9578298ec99bf69321eacde4e8781505f40476fceb465cb",
+      "kind": "texture",
+      "size": 765204,
+      "filename": "bg.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.ktx2",
+      "outputs": [
+        "spine/package_003_bg/bg.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.335Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "682d3e3d0c55fc1de34da035a76d7274902705a6d974fde8570336212ab2b98a",
+      "kind": "spine-json",
+      "size": 15929,
+      "filename": "bg.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.json",
+      "outputs": [
+        "spine/package_003_bg/bg.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.335Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "0f8e4c2d20244b8e181767f98cedb9751311dab9c25c403b4aace4065e380554",
+      "kind": "spine-atlas",
+      "size": 357,
+      "filename": "bg.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.atlas",
+      "outputs": [
+        "spine/package_003_bg/bg.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.337Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "56248014e14e7e33b46277c9115864cd89ea38e91e82dfabd52f97136ccc2935",
+      "kind": "texture",
+      "size": 666029,
+      "filename": "symbols.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.ktx2",
+      "outputs": [
+        "spine/package_004_symbols/symbols.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.340Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "9a2b98ad9df385a63427da1303dd53e0f8d4fa85fea7666b66d4f59dfe336212",
+      "kind": "spine-json",
+      "size": 494012,
+      "filename": "symbols.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.json",
+      "outputs": [
+        "spine/package_004_symbols/symbols.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.340Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "22f605e3cdd18eb71469d8b1e11dd80be04fda438c408673e2f2613b8806bb84",
+      "kind": "spine-atlas",
+      "size": 4954,
+      "filename": "symbols.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.atlas",
+      "outputs": [
+        "spine/package_004_symbols/symbols.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.343Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "8e24b3ffa02511c0d1453e510627c4d9f12945db42b624c8728a0db05e245928",
+      "kind": "texture",
+      "size": 118712,
+      "filename": "character.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.ktx2",
+      "outputs": [
+        "spine/package_005_character/character.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.343Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "5cc56d136735b6d4f9a27634ce58e5d675c0a8b475033a7d1c2dafb85947cf29",
+      "kind": "spine-json",
+      "size": 300265,
+      "filename": "character.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.json",
+      "outputs": [
+        "spine/package_005_character/character.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.345Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "248d04939701e07e75012631806c9004ccdad0e3bd639916cfd5ea6e35e90680",
+      "kind": "spine-atlas",
+      "size": 2119,
+      "filename": "character.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.atlas",
+      "outputs": [
+        "spine/package_005_character/character.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.347Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "27bf0de96539ef64f296b268cc745681c23ea6b6f5c38e7e9ae9ec920fff4948",
+      "kind": "texture",
+      "size": 22356,
+      "filename": "reel.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.ktx2",
+      "outputs": [
+        "spine/package_006_reel/reel.ktx2"
+      ],
+      "image": {
+        "format": "ktx2",
+        "width": 2048,
+        "height": 2048
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.ktx2"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.348Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "d1f88e9671cacdf3b7219a86372aca135d9e493edde71a9181bc7e3508920464",
+      "kind": "spine-json",
+      "size": 86202,
+      "filename": "reel.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.json",
+      "outputs": [
+        "spine/package_006_reel/reel.json"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.348Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "b3b8816b03a6c37dc97a630f1099083e510537319b700def722f9cd517cae77d",
+      "kind": "spine-atlas",
+      "size": 166,
+      "filename": "reel.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.atlas",
+      "outputs": [
+        "spine/package_006_reel/reel.atlas"
+      ],
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.349Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "afd744fe2311f0ffdce047c12a3b39c0158edca43c907d6f532e944de4869b5c",
+      "kind": "image",
+      "size": 7792,
+      "filename": "bonushunt.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/bonushunt.png",
+      "outputs": [
+        "images/bonushunt.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 150,
+        "height": 150
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/bonushunt.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "b1671351c40e2ff3fb4f8fbbdfa8e9ac466a75b5bef32d7acdc877da34ef31c3",
+      "kind": "image",
+      "size": 6999,
+      "filename": "feature.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/feature.png",
+      "outputs": [
+        "images/feature.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 150,
+        "height": 150
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/feature.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "d3594f4a4f900fbfa819f0b4834033fa09c9891ea2e4a25e6e805cbb4af01e1b",
+      "kind": "image",
+      "size": 9138,
+      "filename": "fs.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/fs.png",
+      "outputs": [
+        "images/fs.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 228,
+        "height": 233
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/fs.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "155e6dd8fc5e18091b85ec23c28c5cfb6346ae159e46231bec49cdcb39ba6e95",
+      "kind": "image",
+      "size": 10907,
+      "filename": "super_fs.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/super_fs.png",
+      "outputs": [
+        "images/super_fs.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 228,
+        "height": 233
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/super_fs.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "f9113cdd0a6c241dba4d8628b156a733ef0227c469c7154e9dcc482dc9125a10",
+      "kind": "image",
+      "size": 9087,
+      "filename": "spread.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/spread.png",
+      "outputs": [
+        "images/spread.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 194,
+        "height": 198
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/spread.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "97667f47d98c63c9ae0d8a9b63e85e6b48ee7e9a2aeb33084ea14eea0947d61e",
+      "kind": "image",
+      "size": 24062,
+      "filename": "coins.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/coins.png",
+      "outputs": [
+        "images/coins.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 568,
+        "height": 150
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/coins.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "cfc9f26d18af33fa54b433c2d7c3fac85c890c166e79be1ca09fe93ce1a8b056",
+      "kind": "image",
+      "size": 10525,
+      "filename": "spread_epic.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/spread_epic.png",
+      "outputs": [
+        "images/spread_epic.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 194,
+        "height": 198
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/spread_epic.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "6c5592efdec9fd1abb99b832225503f677cc11ffe25a57994d677bce5ec5a5c7",
+      "kind": "image",
+      "size": 13836,
+      "filename": "free_spins.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/free_spins.png",
+      "outputs": [
+        "images/free_spins.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 268,
+        "height": 150
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/free_spins.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.758Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "6e9f7066b42ec5be16c5d7339af406db7eddcd3a49c4b325847e31c2b54b7509",
+      "kind": "image",
+      "size": 2016,
+      "filename": "low_1.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/low_1.png",
+      "outputs": [
+        "images/low_1.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 228,
+        "height": 233
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/low_1.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "eef3a21ae9b55a4e81f1206c10df0c24e4af31a2d205a3b7ec25610fbf174fda",
+      "kind": "image",
+      "size": 1680,
+      "filename": "low_2.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/low_2.png",
+      "outputs": [
+        "images/low_2.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 228,
+        "height": 233
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/low_2.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "9bc2dd6c0394561a6a57803916fcdc6eae7401a32361625dcd8ef7c748516a36",
+      "kind": "image",
+      "size": 2799,
+      "filename": "low_3.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/low_3.png",
+      "outputs": [
+        "images/low_3.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 228,
+        "height": 233
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/low_3.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "6632c0a41263a6622e5b6950f6ee349c55fec0218fda17e6d6bce6c0d036e648",
+      "kind": "image",
+      "size": 1962,
+      "filename": "low_4.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/low_4.png",
+      "outputs": [
+        "images/low_4.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 228,
+        "height": 233
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/low_4.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "7bb7465b59c7fd74779ec3defc9e6bb53be154851d73ca8e335c0dd6fda061bf",
+      "kind": "image",
+      "size": 5320,
+      "filename": "high_1.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/high_1.png",
+      "outputs": [
+        "images/high_1.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 228,
+        "height": 233
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/high_1.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "9412e8c7979de00125c208132f421225a8aa7e14e600d1f3976ddd0f1344161f",
+      "kind": "image",
+      "size": 6831,
+      "filename": "high_2.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/high_2.png",
+      "outputs": [
+        "images/high_2.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 228,
+        "height": 233
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/high_2.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "c2556ca949f2685586e9254f6331faaf590be77ae3615ad859158fe8025bacf1",
+      "kind": "image",
+      "size": 4751,
+      "filename": "high_3.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/high_3.png",
+      "outputs": [
+        "images/high_3.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 228,
+        "height": 233
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/high_3.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "325be94f772b46a691968293ec9c51fbb6814dbfdf38bedfae10eb90a91d6458",
+      "kind": "image",
+      "size": 5271,
+      "filename": "high_4.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/high_4.png",
+      "outputs": [
+        "images/high_4.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 228,
+        "height": 233
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/high_4.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "3f086fb9b86ee74ba6df830ac46396e320c9a04ba85ab0e127ccb8c8f97afb2d",
+      "kind": "image",
+      "size": 4471,
+      "filename": "high_5.png",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/high_5.png",
+      "outputs": [
+        "images/high_5.png"
+      ],
+      "image": {
+        "format": "png",
+        "width": 228,
+        "height": 233
+      },
+      "urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/gameinfoassets/high_5.png"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T20:02:07.757Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "7e999094750d0a580b9a1de86ca9926e7de290d0d97343fc25f4a27d56beabf2",
+      "kind": "image",
+      "size": 37726,
+      "filename": "ad328ef0009ba2ac7987c9ca5df98af1d66a76d8d6eb800ae4b4b230c02514d1",
+      "raw_path": "raw/mediumrare.imgix.net/ad328ef0009ba2ac7987c9ca5df98af1d66a76d8d6eb800ae4b4b230c02514d1",
+      "outputs": [
+        "images/ad328ef0009ba2ac7987c9ca5df98af1d66a76d8d6eb800ae4b4b230c02514d1"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/ad328ef0009ba2ac7987c9ca5df98af1d66a76d8d6eb800ae4b4b230c02514d1?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T20:02:13.637Z",
+      "sources": [
+        "har"
+      ]
+    }
+  ]
+}

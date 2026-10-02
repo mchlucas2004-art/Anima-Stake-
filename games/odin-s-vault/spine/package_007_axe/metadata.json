@@ -1,0 +1,233 @@
+{
+  "id": "odin-s-vault/package_007_axe",
+  "package": "package_007_axe",
+  "name": "axe",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "axe.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "win",
+    "symbol_win"
+  ],
+  "tags": [
+    "symbol",
+    "win",
+    "symbol_win",
+    "axe",
+    "symbols",
+    "highs"
+  ],
+  "classification": {
+    "confidence": "low",
+    "scores": {
+      "symbol": 3.8,
+      "effect": 2.9,
+      "background": 0.8,
+      "ui": 0.8,
+      "character": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:symbols",
+      "bone:high",
+      "region:high"
+    ]
+  },
+  "animations": [
+    "transform",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "transform",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 7,
+        "slots": 22
+      }
+    },
+    {
+      "name": "win",
+      "duration": 0.833,
+      "timelines": {
+        "bones": 3,
+        "slots": 18,
+        "attachments": 1,
+        "drawOrder": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 12,
+  "slots_count": 23,
+  "bones": [
+    "root",
+    "mine",
+    "Axe",
+    "Axe_body",
+    "shine2",
+    "main_transform",
+    "Red_Glow_2_1_1",
+    "Red_Glow_2_2_1",
+    "Red_Glow_2_3",
+    "Sparks_Red_1",
+    "Red_Glow_2_4",
+    "Red_Glow_2_5"
+  ],
+  "slots": [
+    "BG_Axe",
+    "BG_Axe2",
+    "frame_Axe",
+    "frame_Axe2",
+    "Shadow_1_Axe",
+    "Shadow_2_Axe",
+    "high_effects_",
+    "Axe_Axe2",
+    "Axe_Axe",
+    "axe_red",
+    "Red_Glow_2_2_1",
+    "Red_Glow_2_2_2",
+    "Red_Glow_2_1_1",
+    "Red_Glow_2_1_2",
+    "Red_Glow_2_3",
+    "Red_Glow_3_4",
+    "Red_Glow_4_4",
+    "Sparks_Red_1",
+    "Sparks_Red_2",
+    "Sparks_Red_3_2",
+    "Sparks_Red_4_2",
+    "Sparks_Red_6",
+    "Sparks_Red_7"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 23,
+  "attachment_types": {
+    "region": 10,
+    "mesh": 13
+  },
+  "dimensions": {
+    "width": 289,
+    "height": 285
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "symbols_high.webp",
+      "atlas": "symbols_high.atlas",
+      "file": "symbols_high.webp",
+      "sha256": "d3b0beea7927da2c9c9ecf54ecc3c4b64d880af903136d54555c5715f13dda4a",
+      "format": "webp",
+      "width": 1985,
+      "height": 411,
+      "atlas_size": [
+        1985,
+        411
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "symbols_high.atlas",
+      "sha256": "7d3eb10548e568af0661b4091f1867ecb7d22fabc867f1d0fbf37a615234a8ef",
+      "format": "spine-4",
+      "pages": [
+        "symbols_high.webp"
+      ],
+      "regions": 70,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 115,
+      "evidence": [
+        "regions 21/21 (100% of skeleton)",
+        "same folder",
+        "loaded 3ms apart"
+      ],
+      "shared_with": [
+        "package_005_fang",
+        "package_006_helmet",
+        "package_008_horse",
+        "package_009_raven"
+      ]
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "axe.json",
+      "role": "skeleton",
+      "sha256": "3a01ed51d06f646036d593760e3853f58e4821620500bce7297181a9d9c7ec5e",
+      "size": 16136,
+      "original_filename": "axe.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/axe.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/axe.json"
+      ]
+    },
+    {
+      "file": "symbols_high.atlas",
+      "role": "atlas",
+      "sha256": "7d3eb10548e568af0661b4091f1867ecb7d22fabc867f1d0fbf37a615234a8ef",
+      "size": 3145,
+      "original_filename": "symbols_high.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.atlas"
+      ]
+    },
+    {
+      "file": "symbols_high.webp",
+      "role": "texture",
+      "sha256": "d3b0beea7927da2c9c9ecf54ecc3c4b64d880af903136d54555c5715f13dda4a",
+      "size": 417338,
+      "original_filename": "symbols_high.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.webp"
+      ],
+      "atlas_page": "symbols_high.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/axe.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [
+    "package_005_fang",
+    "package_006_helmet",
+    "package_008_horse",
+    "package_009_raven"
+  ],
+  "detected_at": "2026-10-02T19:53:39.520Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

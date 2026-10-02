@@ -1,0 +1,27 @@
+
+suru_basegame_5.png
+size: 88,48
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rivets_s
+  rotate: false
+  xy: 59, 0
+  size: 16, 16
+  orig: 18, 17
+  offset: 1, 0
+  index: -1
+window
+  rotate: false
+  xy: 0, 12
+  size: 57, 34
+  orig: 57, 34
+  offset: 0, 0
+  index: -1
+windowbutton
+  rotate: false
+  xy: 59, 18
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+suru_banner_0.png
+size: 988,444
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+colour_effect_1
+  rotate: true
+  xy: 0, 0
+  size: 444, 250
+  orig: 444, 250
+  offset: 0, 0
+  index: -1
+colour_effect_2
+  rotate: true
+  xy: 252, 0
+  size: 444, 250
+  orig: 444, 250
+  offset: 0, 0
+  index: -1
+colour_effect_3
+  rotate: true
+  xy: 504, 0
+  size: 444, 250
+  orig: 444, 250
+  offset: 0, 0
+  index: -1
+rays_2
+  rotate: true
+  xy: 756, 25
+  size: 419, 230
+  orig: 419, 230
+  offset: 0, 0
+  index: -1

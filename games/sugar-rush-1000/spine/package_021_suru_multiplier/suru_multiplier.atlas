@@ -1,0 +1,13 @@
+
+suru_multiplier.png
+size: 348,325
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wraper
+  rotate: false
+  xy: 0, 0
+  size: 348, 325
+  orig: 375, 350
+  offset: 14, 20
+  index: -1

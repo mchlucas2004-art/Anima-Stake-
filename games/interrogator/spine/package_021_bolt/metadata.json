@@ -1,0 +1,180 @@
+{
+  "id": "interrogator/package_021_bolt",
+  "package": "package_021_bolt",
+  "name": "bolt",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "bolt.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [],
+  "tags": [
+    "effect",
+    "bolt",
+    "fx"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "effect": 3.8,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:fx",
+      "bone:fx",
+      "region:fx"
+    ]
+  },
+  "animations": [
+    "bolt"
+  ],
+  "animation_details": [
+    {
+      "name": "bolt",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 3,
+        "slots": 4
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 4,
+  "slots_count": 5,
+  "bones": [
+    "root",
+    "fx_bolt",
+    "bolt",
+    "bolt2"
+  ],
+  "slots": [
+    "Untitled-1",
+    "bolt3",
+    "bolt",
+    "bolt2",
+    "bolt_glw"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 17,
+  "attachment_types": {
+    "region": 17
+  },
+  "dimensions": {
+    "width": 1323.29,
+    "height": 1096.35
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "bolt.png",
+      "atlas": "bolt.atlas",
+      "file": "bolt.png",
+      "sha256": "c2470ec748cabd89ac7421503eabc3128a08a2ba05e9ce87cdd0a6e8c7f65a6d",
+      "format": "png",
+      "width": 2048,
+      "height": 1024,
+      "atlas_size": [
+        2048,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": null
+    }
+  ],
+  "atlases": [
+    {
+      "file": "bolt.atlas",
+      "sha256": "f367ab00057857799cd1d6662d9ea5b31bb960de3d322e61fd9e587699c220c1",
+      "format": "spine-4",
+      "pages": [
+        "bolt.png"
+      ],
+      "regions": 9,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 9/9 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "bolt.json",
+      "role": "skeleton",
+      "sha256": "2d250e10c088b7889dff4f7c2955d8cd81c5ccb0d793cdaf0221cceb5b3b3408",
+      "size": 3533,
+      "original_filename": "bolt.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.json"
+      ]
+    },
+    {
+      "file": "bolt.atlas",
+      "role": "atlas",
+      "sha256": "f367ab00057857799cd1d6662d9ea5b31bb960de3d322e61fd9e587699c220c1",
+      "size": 561,
+      "original_filename": "bolt.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.atlas"
+      ]
+    },
+    {
+      "file": "bolt.png",
+      "role": "texture",
+      "sha256": "c2470ec748cabd89ac7421503eabc3128a08a2ba05e9ce87cdd0a6e8c7f65a6d",
+      "size": 360671,
+      "original_filename": "bolt.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.png"
+      ],
+      "atlas_page": "bolt.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:41.258Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

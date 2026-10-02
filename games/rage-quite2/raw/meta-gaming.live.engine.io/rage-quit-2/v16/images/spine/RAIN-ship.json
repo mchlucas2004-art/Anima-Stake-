@@ -1,0 +1,212 @@
+{
+"skeleton": {
+	"hash": "Wqr2rWeQaxM",
+	"spine": "4.2.43",
+	"x": -509,
+	"y": -233.5,
+	"width": 1018,
+	"height": 467,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "SS", "parent": "root" },
+	{ "name": "starship-bot", "parent": "SS", "x": 19.5, "y": -167 }
+],
+"slots": [
+	{ "name": "starship-bot", "bone": "starship-bot", "attachment": "starship-bot" },
+	{ "name": "starship", "bone": "SS", "attachment": "starship" },
+	{ "name": "starship-light", "bone": "SS", "attachment": "starship-light" },
+	{ "name": "starship-light4", "bone": "SS", "attachment": "fx-glow", "blend": "additive" },
+	{ "name": "starship-light2", "bone": "SS", "attachment": "starship-light" },
+	{ "name": "starship-light5", "bone": "SS", "attachment": "fx-glow", "blend": "additive" },
+	{ "name": "starship-light3", "bone": "SS", "attachment": "starship-light" },
+	{ "name": "starship-light6", "bone": "SS", "attachment": "fx-glow", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"starship": {
+				"starship": { "y": 30, "width": 1018, "height": 407 }
+			},
+			"starship-bot": {
+				"starship-bot": {
+					"type": "mesh",
+					"uvs": [ 1, 0.07923, 1, 1, 0, 1, 0, 0.07923, 0, 0, 1, 0 ],
+					"triangles": [ 0, 3, 4, 0, 4, 5, 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 257.5, 55.96, 257.5, -66.5, -257.5, -66.5, -257.5, 55.96, -257.5, 155.02, 257.5, 155.02 ],
+					"hull": 6,
+					"edges": [ 2, 4, 8, 10, 4, 6, 6, 8, 2, 0, 0, 10, 6, 0 ],
+					"width": 515,
+					"height": 133
+				}
+			},
+			"starship-light": {
+				"starship-light": {
+					"type": "mesh",
+					"uvs": [ 0.2071, 1, 0, 1, 0, 0, 0.22664, 0 ],
+					"triangles": [ 0, 1, 2, 3, 0, 2 ],
+					"vertices": [ -76.99, -114.26, -174.33, -114.26, -174.33, -44.26, -67.81, -44.26 ],
+					"hull": 4,
+					"edges": [ 2, 4, 4, 6, 0, 2, 6, 0 ],
+					"width": 235,
+					"height": 35
+				}
+			},
+			"starship-light2": {
+				"starship-light": {
+					"type": "mesh",
+					"uvs": [ 0.79557, 1, 0.30699, 1, 0.33739, 0, 0.75649, 0 ],
+					"triangles": [ 1, 2, 3, 0, 1, 3 ],
+					"vertices": [ 199.59, -114.65, -30.04, -114.65, -15.76, -44.65, 181.22, -44.65 ],
+					"hull": 4,
+					"edges": [ 4, 2, 4, 6, 0, 2, 6, 0 ],
+					"width": 235,
+					"height": 35
+				}
+			},
+			"starship-light3": {
+				"starship-light": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.86506, 1, 0.83249, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 296.06, -114.65, 232.64, -114.65, 217.33, -44.65, 296.06, -44.65 ],
+					"hull": 4,
+					"edges": [ 0, 6, 4, 6, 0, 2, 4, 2 ],
+					"width": 235,
+					"height": 35
+				}
+			},
+			"starship-light4": {
+				"fx-glow": {
+					"x": -129.73,
+					"y": -71.62,
+					"scaleX": 1.3691,
+					"scaleY": 0.7937,
+					"rotation": -16.29,
+					"width": 128,
+					"height": 128
+				}
+			},
+			"starship-light5": {
+				"fx-glow": { "x": 90.12, "y": -100.03, "scaleX": 2.1424, "scaleY": 0.7845, "width": 128, "height": 128 }
+			},
+			"starship-light6": {
+				"fx-glow": { "x": 266.18, "y": -70.93, "scaleY": 0.7306, "rotation": 22.52, "width": 128, "height": 128 }
+			}
+		}
+	}
+],
+"animations": {
+	"drop": {
+		"slots": {
+			"starship-light": {
+				"rgba": [
+					{ "color": "00cfffff" },
+					{ "time": 0.0667, "color": "ff3400ff" },
+					{ "time": 0.1333, "color": "00cfffff" }
+				]
+			},
+			"starship-light2": {
+				"rgba": [
+					{ "color": "44ff16ff" },
+					{ "time": 0.0667, "color": "00cfffff" },
+					{ "time": 0.1333, "color": "44ff16ff" }
+				]
+			},
+			"starship-light3": {
+				"rgba": [
+					{ "color": "ff3400ff" },
+					{ "time": 0.0667, "color": "44ff16ff" },
+					{ "time": 0.1333, "color": "ff3400ff" }
+				]
+			},
+			"starship-light4": {
+				"rgba": [
+					{ "color": "00cfffff" },
+					{ "time": 0.0667, "color": "ff3400ff" },
+					{ "time": 0.1333, "color": "00cfffff" }
+				]
+			},
+			"starship-light5": {
+				"rgba": [
+					{ "color": "44ff16ff" },
+					{ "time": 0.0667, "color": "00cfffff" },
+					{ "time": 0.1333, "color": "44ff16ff" }
+				]
+			},
+			"starship-light6": {
+				"rgba": [
+					{ "color": "ff3400ff" },
+					{ "time": 0.0667, "color": "44ff16ff" },
+					{ "time": 0.1333, "color": "ff3400ff" }
+				]
+			}
+		},
+		"bones": {
+			"starship-bot": {
+				"translate": [
+					{},
+					{ "time": 0.0333, "y": 49.08 },
+					{ "time": 0.1, "y": -44.27 },
+					{ "time": 0.1333 }
+				]
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"starship-light": {
+				"rgba": [
+					{ "color": "00cfffff" },
+					{ "time": 0.1667, "color": "ff3400ff" },
+					{ "time": 0.3333, "color": "44ff16ff" },
+					{ "time": 0.5, "color": "00cfffff" }
+				]
+			},
+			"starship-light2": {
+				"rgba": [
+					{ "color": "44ff16ff" },
+					{ "time": 0.1667, "color": "00cfffff" },
+					{ "time": 0.3333, "color": "ff3400ff" },
+					{ "time": 0.5, "color": "44ff16ff" }
+				]
+			},
+			"starship-light3": {
+				"rgba": [
+					{ "color": "ff3400ff" },
+					{ "time": 0.1667, "color": "44ff16ff" },
+					{ "time": 0.3333, "color": "00cfffff" },
+					{ "time": 0.5, "color": "ff3400ff" }
+				]
+			},
+			"starship-light4": {
+				"rgba": [
+					{ "color": "00cfffff" },
+					{ "time": 0.1667, "color": "ff3400ff" },
+					{ "time": 0.3333, "color": "44ff16ff" },
+					{ "time": 0.5, "color": "00cfffff" }
+				]
+			},
+			"starship-light5": {
+				"rgba": [
+					{ "color": "44ff16ff" },
+					{ "time": 0.1667, "color": "00cfffff" },
+					{ "time": 0.3333, "color": "ff3400ff" },
+					{ "time": 0.5, "color": "44ff16ff" }
+				]
+			},
+			"starship-light6": {
+				"rgba": [
+					{ "color": "ff3400ff" },
+					{ "time": 0.1667, "color": "44ff16ff" },
+					{ "time": 0.3333, "color": "00cfffff" },
+					{ "time": 0.5, "color": "ff3400ff" }
+				]
+			}
+		}
+	}
+}
+}

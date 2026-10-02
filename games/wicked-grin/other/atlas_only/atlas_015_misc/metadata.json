@@ -1,0 +1,49 @@
+{
+  "id": "wicked-grin/atlas_015_misc",
+  "game": "Wicked Grin",
+  "provider": "Hacksaw Gaming",
+  "atlas_file": "misc.atlas",
+  "sha256": "de308b884d4ae4916739c15f95ea878ba217137aa144aac700f857b620349765",
+  "format": "spine-3/libgdx",
+  "pages": [
+    {
+      "name": "misc.png",
+      "size": [
+        512,
+        512
+      ],
+      "format": "RGBA8888",
+      "filter": "Linear, Linear",
+      "pma": null,
+      "scale": null,
+      "regions": 8
+    }
+  ],
+  "regions_count": 8,
+  "regions": [
+    "spark_1",
+    "spark_2",
+    "spark_diamond_1",
+    "spark_diamond_2",
+    "spark_mult_1",
+    "spark_mult_2",
+    "spark_silver_1",
+    "spark_silver_2"
+  ],
+  "textures": [
+    {
+      "page": "misc.png",
+      "file": "misc.ktx2",
+      "sha256": "93a60785ae72b05108a279c57448a6a641b02e23ba33540884d5d5023bdb77f9",
+      "width": 512,
+      "height": 512,
+      "size_match": true,
+      "match_method": "same_folder_variant"
+    }
+  ],
+  "note": "Atlas with no matching skeleton captured. Could be a plain sprite atlas, or its skeleton was never loaded during the session.",
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/misc.atlas"
+  ],
+  "detected_at": "2026-10-02T20:02:07.320Z"
+}

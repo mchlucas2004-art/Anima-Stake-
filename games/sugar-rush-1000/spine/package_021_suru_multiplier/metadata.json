@@ -1,0 +1,183 @@
+{
+  "id": "sugar-rush-1000/package_021_suru_multiplier",
+  "package": "package_021_suru_multiplier",
+  "name": "suru_multiplier",
+  "game": "Sugar Rush 1000",
+  "game_slug": "sugar-rush-1000",
+  "provider": "Pragmatic Play",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "suru_multiplier.json",
+  "skeleton_version": "3.7.91",
+  "category": "symbol",
+  "subtypes": [
+    "entrance",
+    "multiplier"
+  ],
+  "tags": [
+    "symbol",
+    "entrance",
+    "multiplier",
+    "suru"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "symbol": 4.5,
+      "character": 0,
+      "effect": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:multiplier",
+      "anim:multiplier"
+    ]
+  },
+  "animations": [
+    "suru_multiplier_in",
+    "suru_multiplier_in2"
+  ],
+  "animation_details": [
+    {
+      "name": "suru_multiplier_in",
+      "duration": 0.4,
+      "timelines": {
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_multiplier_in2",
+      "duration": 0,
+      "timelines": {
+        "slots": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 1,
+  "slots_count": 1,
+  "bones": [
+    "root"
+  ],
+  "slots": [
+    "wraper"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 1,
+  "attachment_types": {
+    "mesh": 1
+  },
+  "dimensions": {
+    "width": 0,
+    "height": 0
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "suru_multiplier.png",
+      "atlas": "suru_multiplier.atlas",
+      "file": "suru_multiplier.png",
+      "sha256": "09045df2172e124a2b187bf2ce5b3ba4a3ccf98132666a360e50e04a1de01068",
+      "format": "png",
+      "width": 348,
+      "height": 325,
+      "atlas_size": [
+        348,
+        325
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "suru_multiplier.atlas",
+      "sha256": "373e8866f9f0c9959cf841328b7ea22f9b9add81b84fdaa09b76e7a70ce308a4",
+      "format": "spine-3/libgdx",
+      "pages": [
+        "suru_multiplier.png"
+      ],
+      "regions": 1,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 1/1 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "suru_multiplier.json",
+      "role": "skeleton",
+      "sha256": "87a431cb84d0f07f3dcd4cd05b1f53d00f135af84d1bc8bf060be60c4c355c92",
+      "size": 7683,
+      "original_filename": "suru_multiplier.json",
+      "raw_path": "raw/_embedded/uht-a688756d987f/suru_multiplier.json",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "a688756d987f6a44089baf5b6165b543"
+      }
+    },
+    {
+      "file": "suru_multiplier.atlas",
+      "role": "atlas",
+      "sha256": "373e8866f9f0c9959cf841328b7ea22f9b9add81b84fdaa09b76e7a70ce308a4",
+      "size": 184,
+      "original_filename": "suru_multiplier.atlas",
+      "raw_path": "raw/_embedded/uht-a688756d987f/suru_multiplier.atlas",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "a688756d987f6a44089baf5b6165b543"
+      }
+    },
+    {
+      "file": "suru_multiplier.png",
+      "role": "texture",
+      "sha256": "09045df2172e124a2b187bf2ce5b3ba4a3ccf98132666a360e50e04a1de01068",
+      "size": 30928,
+      "original_filename": "suru_multiplier.png",
+      "raw_path": "raw/_embedded/uht-a688756d987f/suru_multiplier.png",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "a688756d987f6a44089baf5b6165b543"
+      },
+      "atlas_page": "suru_multiplier.png"
+    }
+  ],
+  "source_urls": [],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": null,
+  "sessions": [],
+  "packaged_at": "2026-10-02T15:45:20.442Z"
+}

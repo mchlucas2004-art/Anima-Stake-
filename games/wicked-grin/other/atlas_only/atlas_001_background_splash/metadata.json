@@ -1,0 +1,43 @@
+{
+  "id": "wicked-grin/atlas_001_background_splash",
+  "game": "Wicked Grin",
+  "provider": "Hacksaw Gaming",
+  "atlas_file": "background_splash.atlas",
+  "sha256": "9f950d872068b3420ba6d5957d3f001fee1d36e856d2952ef21785f7c6484066",
+  "format": "spine-3/libgdx",
+  "pages": [
+    {
+      "name": "background_splash.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "RGBA8888",
+      "filter": "Linear, Linear",
+      "pma": null,
+      "scale": null,
+      "regions": 2
+    }
+  ],
+  "regions_count": 2,
+  "regions": [
+    "background",
+    "vignette"
+  ],
+  "textures": [
+    {
+      "page": "background_splash.png",
+      "file": "background_splash.ktx2",
+      "sha256": "3cc712fa72171681ecd8a981989fdc3a396260ea4c200ca338f2346e34c912de",
+      "width": 2048,
+      "height": 2048,
+      "size_match": true,
+      "match_method": "same_folder_variant"
+    }
+  ],
+  "note": "Atlas with no matching skeleton captured. Could be a plain sprite atlas, or its skeleton was never loaded during the session.",
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/background_splash.atlas"
+  ],
+  "detected_at": "2026-10-02T20:02:07.271Z"
+}

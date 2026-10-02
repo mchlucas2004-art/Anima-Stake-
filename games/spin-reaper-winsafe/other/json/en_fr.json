@@ -1,0 +1,112 @@
+{
+	"BASE": {
+		"mode": "BASE",
+		"costMultiplier": 1.0,
+		"type": "default",
+		"assets": {
+			"icon": "",
+			"dialogImage": "",
+			"dialogVolatility": "",
+			"volatility": "",
+			"button": ""
+		},
+		"text": {
+			"title": "",
+			"dialog": "",
+			"button": "",
+			"betAmountLabel": "",
+			"tickerIdle": "",
+			"tickerSpin": "",
+			"bannerText": ""
+		},
+		"maxWin": 5000
+	},
+	"ANTE": {
+		"mode": "ANTE",
+		"costMultiplier": 1.2,
+		"type": "activate",
+		"assets": {
+			"icon": "./assets/localisation/betModes/icon_doubleboost.webp",
+			"dialogImage": "./assets/localisation/betModes/doubleboost_image.webp",
+			"dialogVolatility": "./assets/localisation/betModes/volatility/volatility_02.webp",
+			"volatility": "./assets/localisation/betModes/volatility/volatility_white_02.webp",
+			"button": "./assets/localisation/betModes/button_activate.webp"
+		},
+		"text": {
+			"title": "DOUBLE BOOST",
+			"dialog": "Doublez la chance de déclencher le tour de FREE SPINS lorsqu'il est activé pour 1,2 fois le montant de la mise du joueur. DOUBLE BOOST reste actif jusqu'à ce que le joueur le désactive.",
+			"button": "ACTIVER",
+			"betAmountLabel": "DOUBLE BOOST",
+			"tickerIdle": "DOUBLE BOOST EST ACTIF",
+			"tickerSpin": "BONNE CHANCE",
+			"bannerText": ""
+		},
+		"maxWin": 5000
+	},
+	"FEATURE": {
+		"mode": "FEATURE",
+		"costMultiplier": 25,
+		"type": "activate",
+		"assets": {
+			"icon": "./assets/localisation/betModes/icon_superspin.webp",
+			"dialogImage": "./assets/localisation/betModes/superspin_image.webp",
+			"dialogVolatility": "./assets/localisation/betModes/volatility/volatility_04.webp",
+			"volatility": "./assets/localisation/betModes/volatility/volatility_white_04.webp",
+			"button": "./assets/localisation/betModes/button_activate.webp"
+		},
+		"text": {
+			"title": "REAPER SPIN",
+			"dialog": "Toutes les fonctionnalités du jeu sont AMPLIFIÉES de 25 fois le montant de la mise du joueur. Le REAPER SPIN reste actif jusqu'à ce que le joueur le désactive.",
+			"button": "ACTIVER",
+			"betAmountLabel": "REAPER SPIN",
+			"tickerIdle": "LE REAPER SPIN EST ACTIF",
+			"tickerSpin": "BONNE CHANCE",
+			"bannerText": ""
+		},
+		"maxWin": 5000
+	},
+	"BONUS": {
+		"mode": "BONUS",
+		"costMultiplier": 100,
+		"type": "buy",
+		"assets": {
+			"icon": "./assets/localisation/betModes/icon_bonus.webp",
+			"dialogImage": "./assets/localisation/betModes/bonus_image.webp",
+			"dialogVolatility": "./assets/localisation/betModes/volatility/volatility_03.webp",
+			"volatility": "./assets/localisation/betModes/volatility/volatility_white_03.webp",
+			"button": "./assets/localisation/betModes/button_buy.webp"
+		},
+		"text": {
+			"title": "BONUS",
+			"dialog": "Les FREE SPINS activé pour 100 fois le montant de la mise du joueur. 8 ou 12 Free Spins sont attribués.",
+			"button": "ACHETER",
+			"betAmountLabel": "BONUS",
+			"tickerIdle": "PLACEZ VOTRE MISE",
+			"tickerSpin": "BONUS ACTIVÉ",
+			"bannerText": ""
+		},
+		"maxWin": 10000
+	},
+	"SUPER-BONUS": {
+		"mode": "SUPER-BONUS",
+		"costMultiplier": 200,
+		"type": "buy",
+		"assets": {
+			"icon": "./assets/localisation/betModes/icon_superbonus.webp",
+			"dialogImage": "./assets/localisation/betModes/superbonus_image.webp",
+			"dialogVolatility": "./assets/localisation/betModes/volatility/volatility_04.webp",
+			"volatility": "./assets/localisation/betModes/volatility/volatility_white_04.webp",
+			"button": "./assets/localisation/betModes/button_buy.webp"
+		},
+		"text": {
+			"title": "SUPER BONUS",
+			"dialog": "Les SUPER FREE SPINS activé pour 200 fois le montant de la mise du joueur. 16 Free Spins attribués.",
+			"button": "ACHETER",
+			"betAmountLabel": "SUPER BONUS",
+			"tickerIdle": "PLACEZ VOTRE MISE",
+			"tickerSpin": "SUPER BONUS ACTIVÉ",
+			"bannerText": ""
+		},
+		"maxWin": 10000
+	}
+}

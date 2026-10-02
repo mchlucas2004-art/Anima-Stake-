@@ -1,0 +1,20 @@
+
+suru_freegame_4.png
+size: 616,208
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_left_free
+  rotate: true
+  xy: 0, 57
+  size: 148, 520
+  orig: 148, 527
+  offset: 0, 0
+  index: -1
+jar_glass_free
+  rotate: false
+  xy: 522, 0
+  size: 91, 205
+  orig: 91, 205
+  offset: 0, 0
+  index: -1

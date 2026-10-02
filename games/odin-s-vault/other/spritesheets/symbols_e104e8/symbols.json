@@ -1,0 +1,260 @@
+{"frames": {
+
+"axe.png":
+{
+	"frame": {"x":877,"y":172,"w":135,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":135,"h":128},
+	"sourceSize": {"w":135,"h":135}
+},
+"bronze.png":
+{
+	"frame": {"x":817,"y":811,"w":101,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":101,"h":105},
+	"sourceSize": {"w":105,"h":105}
+},
+"club.png":
+{
+	"frame": {"x":442,"y":1,"w":210,"h":230},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":210,"h":230},
+	"sourceSize": {"w":230,"h":230}
+},
+"coin_bg.png":
+{
+	"frame": {"x":631,"y":809,"w":184,"h":180},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":184,"h":180},
+	"sourceSize": {"w":208,"h":208}
+},
+"coin_diamond.png":
+{
+	"frame": {"x":211,"y":923,"w":99,"h":103},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":99,"h":103},
+	"sourceSize": {"w":103,"h":103}
+},
+"coin_frame.png":
+{
+	"frame": {"x":421,"y":445,"w":208,"h":206},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":208,"h":206},
+	"sourceSize": {"w":208,"h":208}
+},
+"coin_frame_bottom_mask.png":
+{
+	"frame": {"x":1,"y":945,"w":206,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":166,"w":206,"h":41},
+	"sourceSize": {"w":208,"h":208}
+},
+"collector.png":
+{
+	"frame": {"x":1,"y":497,"w":208,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":208,"h":222},
+	"sourceSize": {"w":222,"h":222}
+},
+"diamond.png":
+{
+	"frame": {"x":1,"y":256,"w":206,"h":239},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":206,"h":239},
+	"sourceSize": {"w":239,"h":239}
+},
+"empty.png":
+{
+	"frame": {"x":631,"y":609,"w":198,"h":198},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":198},
+	"sourceSize": {"w":198,"h":198}
+},
+"eye.png":
+{
+	"frame": {"x":428,"y":653,"w":203,"h":201},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":203,"h":201},
+	"sourceSize": {"w":203,"h":203}
+},
+"fang.png":
+{
+	"frame": {"x":428,"y":858,"w":138,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":24,"w":138,"h":122},
+	"sourceSize": {"w":147,"h":147}
+},
+"gold.png":
+{
+	"frame": {"x":817,"y":918,"w":102,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":102,"h":104},
+	"sourceSize": {"w":104,"h":104}
+},
+"heart.png":
+{
+	"frame": {"x":211,"y":704,"w":217,"h":215},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":217,"h":215},
+	"sourceSize": {"w":217,"h":217}
+},
+"helmet.png":
+{
+	"frame": {"x":867,"y":302,"w":130,"h":132},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":15,"w":130,"h":132},
+	"sourceSize": {"w":147,"h":147}
+},
+"horse.png":
+{
+	"frame": {"x":831,"y":685,"w":126,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":126,"h":124},
+	"sourceSize": {"w":126,"h":126}
+},
+"raven.png":
+{
+	"frame": {"x":856,"y":562,"w":131,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":15,"w":131,"h":121},
+	"sourceSize": {"w":138,"h":138}
+},
+"ruby.png":
+{
+	"frame": {"x":921,"y":918,"w":100,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":100,"h":103},
+	"sourceSize": {"w":103,"h":103}
+},
+"sapphire.png":
+{
+	"frame": {"x":316,"y":923,"w":99,"h":101},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":99,"h":101},
+	"sourceSize": {"w":101,"h":101}
+},
+"scatter.png":
+{
+	"frame": {"x":442,"y":233,"w":210,"h":210},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":210},
+	"sourceSize": {"w":210,"h":210}
+},
+"scatter_red.webp":
+{
+	"frame": {"x":856,"y":434,"w":127,"h":126},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":126},
+	"sourceSize": {"w":127,"h":126}
+},
+"silver.png":
+{
+	"frame": {"x":920,"y":811,"w":101,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":101,"h":105},
+	"sourceSize": {"w":105,"h":105}
+},
+"spade.png":
+{
+	"frame": {"x":233,"y":1,"w":207,"h":237},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":207,"h":237},
+	"sourceSize": {"w":237,"h":237}
+},
+"spin_collector.png":
+{
+	"frame": {"x":1,"y":721,"w":208,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":208,"h":222},
+	"sourceSize": {"w":222,"h":222}
+},
+"spin_key.png":
+{
+	"frame": {"x":877,"y":1,"w":142,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":19,"w":142,"h":169},
+	"sourceSize": {"w":208,"h":208}
+},
+"spin_max.png":
+{
+	"frame": {"x":654,"y":419,"w":188,"h":200},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":188,"h":200},
+	"sourceSize": {"w":200,"h":200}
+},
+"spin_multiplier.png":
+{
+	"frame": {"x":654,"y":1,"w":221,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":1,"w":221,"h":219},
+	"sourceSize": {"w":225,"h":225}
+},
+"spin_redrop.png":
+{
+	"frame": {"x":654,"y":222,"w":211,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":211,"h":195},
+	"sourceSize": {"w":213,"h":213}
+},
+"spin_staff.png":
+{
+	"frame": {"x":1,"y":1,"w":230,"h":253},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":230,"h":253},
+	"sourceSize": {"w":253,"h":253}
+},
+"spin_supercollector.png":
+{
+	"frame": {"x":209,"y":256,"w":208,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":208,"h":222},
+	"sourceSize": {"w":222,"h":222}
+},
+"supercollector.png":
+{
+	"frame": {"x":211,"y":480,"w":208,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":208,"h":222},
+	"sourceSize": {"w":222,"h":222}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "symbols.webp",
+	"format": "RGBA8888",
+	"size": {"w":1022,"h":1023},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b11ea039ac03b2e5f3259547997074aa:7132f104f81449e05fcd8870301a7787:c26f76fc20157d3ad8733e6742e426e6$"
+}
+}

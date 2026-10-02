@@ -1,0 +1,60 @@
+{
+ "id": "creations/halloween/owl",
+ "package": "owl",
+ "name": "owl",
+ "label": "Hibou",
+ "game": "Halloween (créations)",
+ "game_slug": "halloween",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "owl.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "high_pay",
+  "land",
+  "idle",
+  "win",
+  "exit",
+  "anticipation"
+ ],
+ "tier": "high",
+ "rank": 4,
+ "animations": [
+  "idle",
+  "land",
+  "win",
+  "exit",
+  "anticipation"
+ ],
+ "events": [
+  "land",
+  "win",
+  "pop"
+ ],
+ "bones_count": 20,
+ "slots_count": 14,
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "owl.atlas",
+   "pages": [
+    "owl.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "owl.png",
+   "page": "owl.png",
+   "width": 2048,
+   "height": 512,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/H4_owl.png"
+}

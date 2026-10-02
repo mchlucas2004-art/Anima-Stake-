@@ -1,0 +1,272 @@
+{
+  "id": "interrogator/package_023_frog",
+  "package": "package_023_frog",
+  "name": "frog",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "frog.json",
+  "skeleton_version": "4.2.43",
+  "category": "character",
+  "subtypes": [
+    "idle",
+    "entrance",
+    "exit"
+  ],
+  "tags": [
+    "character",
+    "idle",
+    "entrance",
+    "exit",
+    "frog",
+    "ambient"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "character": 11,
+      "background": 3,
+      "symbol": 0,
+      "effect": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:frog",
+      "body-parts:body,head,hat,hands,hand,eye,eyel,pupil"
+    ]
+  },
+  "animations": [
+    "eat",
+    "gulp",
+    "idle",
+    "leave",
+    "snoop_enter",
+    "snoop_hold",
+    "tongue"
+  ],
+  "animation_details": [
+    {
+      "name": "eat",
+      "duration": 1.75,
+      "timelines": {
+        "bones": 14,
+        "slots": 9,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "gulp",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 5,
+        "slots": 7,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 3.2,
+      "timelines": {
+        "bones": 6,
+        "slots": 7,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "leave",
+      "duration": 0.55,
+      "timelines": {
+        "bones": 6,
+        "slots": 3
+      }
+    },
+    {
+      "name": "snoop_enter",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 6,
+        "slots": 3
+      }
+    },
+    {
+      "name": "snoop_hold",
+      "duration": 3.2,
+      "timelines": {
+        "bones": 6,
+        "slots": 7,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "tongue",
+      "duration": 1,
+      "timelines": {
+        "bones": 1,
+        "slots": 16
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 21,
+  "slots_count": 16,
+  "bones": [
+    "root",
+    "body",
+    "throat",
+    "head",
+    "hat",
+    "hands",
+    "hand_l",
+    "hand_r",
+    "eye_l",
+    "eye_l_pupil",
+    "eye_r",
+    "eye_r_pupil",
+    "tongue_0",
+    "tongue_1",
+    "tongue_2",
+    "tongue_3",
+    "tongue_4",
+    "tongue_5",
+    "tongue_6",
+    "tongue_7",
+    "tongue_8"
+  ],
+  "slots": [
+    "body",
+    "hat_back",
+    "head",
+    "open_mouth",
+    "eye_l_clip",
+    "eye_l_pupil",
+    "eye_l_upper",
+    "eye_l_lower",
+    "eye_r_clip",
+    "eye_r_pupil",
+    "eye_r_upper",
+    "eye_r_lower",
+    "hat_front",
+    "hand_l",
+    "hand_r",
+    "tongue"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 16,
+  "attachment_types": {
+    "mesh": 14,
+    "clipping": 2
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "frog.png",
+      "atlas": "frog.atlas",
+      "file": "frog.png",
+      "sha256": "b84c8a27bc3a43c57408e94e07eb8a1818d757ce16f513c42f11f91381ca2057",
+      "format": "png",
+      "width": 773,
+      "height": 1024,
+      "atlas_size": [
+        773,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "frog.atlas",
+      "sha256": "af69e7f58275f18b8ed5919620c9f0519d6c16a280d2db4b6b15c201b0012f70",
+      "format": "spine-4",
+      "pages": [
+        "frog.png"
+      ],
+      "regions": 11,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 135,
+      "evidence": [
+        "regions 11/11 (100% of skeleton)",
+        "same base name",
+        "same folder"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "frog.json",
+      "role": "skeleton",
+      "sha256": "5f3cb1bb75cabd175b89c42c944ae5f2c728f981853e620e6d6326fe45e720dc",
+      "size": 193422,
+      "original_filename": "frog.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.json"
+      ]
+    },
+    {
+      "file": "frog.atlas",
+      "role": "atlas",
+      "sha256": "af69e7f58275f18b8ed5919620c9f0519d6c16a280d2db4b6b15c201b0012f70",
+      "size": 415,
+      "original_filename": "frog.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.atlas"
+      ]
+    },
+    {
+      "file": "frog.png",
+      "role": "texture",
+      "sha256": "b84c8a27bc3a43c57408e94e07eb8a1818d757ce16f513c42f11f91381ca2057",
+      "size": 1014069,
+      "original_filename": "frog.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.png"
+      ],
+      "atlas_page": "frog.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:25:46.417Z",
+  "sessions": [
+    "2026-10-02T15:25:45.823Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

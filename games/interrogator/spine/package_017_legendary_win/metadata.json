@@ -1,0 +1,285 @@
+{
+  "id": "interrogator/package_017_legendary_win",
+  "package": "package_017_legendary_win",
+  "name": "legendary_win",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "legendary_win.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win"
+  ],
+  "tags": [
+    "effect",
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win",
+    "legendary",
+    "popups",
+    "legendarywin"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "effect": 10.3,
+      "ui": 1.3,
+      "symbol": 1,
+      "character": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:legendarywin",
+      "bone:glow",
+      "bone:legendarywin",
+      "region:glow",
+      "win-celebration:legendarywin"
+    ]
+  },
+  "animations": [
+    "in",
+    "loop",
+    "out"
+  ],
+  "animation_details": [
+    {
+      "name": "in",
+      "duration": 2,
+      "timelines": {
+        "bones": 30,
+        "slots": 12
+      }
+    },
+    {
+      "name": "loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 29,
+        "slots": 7
+      }
+    },
+    {
+      "name": "out",
+      "duration": 1,
+      "timelines": {
+        "bones": 30,
+        "slots": 12
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 34,
+  "slots_count": 47,
+  "bones": [
+    "root",
+    "legendary_win",
+    "elements",
+    "text",
+    "a",
+    "d",
+    "e_1",
+    "e_2",
+    "g",
+    "i",
+    "l",
+    "n_1",
+    "n_2",
+    "r",
+    "w",
+    "y",
+    "magnifying_glass",
+    "doc_3",
+    "doc_4",
+    "doc_1",
+    "doc_2",
+    "badge",
+    "slime_2",
+    "slime_3",
+    "slime_1",
+    "door_l",
+    "door_r",
+    "door_l2",
+    "door_l3",
+    "door_r2",
+    "door_r3",
+    "slime_10",
+    "slime_9",
+    "glow_add"
+  ],
+  "slots": [
+    "back",
+    "glow_add",
+    "doc_1",
+    "doc_1_add",
+    "shadow_1",
+    "doc_2",
+    "doc_2_add",
+    "shadow_2",
+    "doc_3",
+    "doc_3_add",
+    "shadow_3",
+    "doc_4",
+    "doc_4_add",
+    "shadow_4",
+    "slime_1",
+    "frame_l",
+    "frame_r",
+    "frame_d",
+    "Layer 1",
+    "slime_2",
+    "slime_3",
+    "slime_4",
+    "slime_5",
+    "door_l",
+    "door_r",
+    "magnifying_glass",
+    "badge",
+    "slime_6",
+    "slime_7",
+    "slime_8",
+    "slime_9",
+    "slime_10",
+    "n_2",
+    "n_2_add",
+    "i",
+    "i_add",
+    "w",
+    "w_add",
+    "y",
+    "r",
+    "a",
+    "d",
+    "n_1",
+    "e_2",
+    "g",
+    "e_1",
+    "l"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 46,
+  "attachment_types": {
+    "region": 44,
+    "mesh": 2
+  },
+  "dimensions": {
+    "width": 804,
+    "height": 718
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "legendary_win.png",
+      "atlas": "legendary_win.atlas",
+      "file": "legendary_win.png",
+      "sha256": "02ff6ec0ec635d212857952331609c3eeaa81a2d5dde4965bca8d127e4c0cfe3",
+      "format": "png",
+      "width": 2048,
+      "height": 1024,
+      "atlas_size": [
+        2048,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "legendary_win.atlas",
+      "sha256": "ae57b62007aef0b2fd69cd810ed8226e88b2ac512ed0ef4c688e9503d92cba1e",
+      "format": "spine-4",
+      "pages": [
+        "legendary_win.png"
+      ],
+      "regions": 39,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 39/39 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "legendary_win.json",
+      "role": "skeleton",
+      "sha256": "9f0b47df596e65b2e01008b6d6318aa502c5be93d4f481f55f22a047e4d95e1e",
+      "size": 47771,
+      "original_filename": "legendary_win.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.json"
+      ]
+    },
+    {
+      "file": "legendary_win.atlas",
+      "role": "atlas",
+      "sha256": "ae57b62007aef0b2fd69cd810ed8226e88b2ac512ed0ef4c688e9503d92cba1e",
+      "size": 2148,
+      "original_filename": "legendary_win.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.atlas"
+      ]
+    },
+    {
+      "file": "legendary_win.png",
+      "role": "texture",
+      "sha256": "02ff6ec0ec635d212857952331609c3eeaa81a2d5dde4965bca8d127e4c0cfe3",
+      "size": 1736054,
+      "original_filename": "legendary_win.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.png"
+      ],
+      "atlas_page": "legendary_win.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/legendary_win/legendary_win.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:41.197Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

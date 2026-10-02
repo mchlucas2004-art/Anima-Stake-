@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "session_id": "2026-10-02T20:15:11.265Z",
+  "game": "Spin-reaper-winsafe",
+  "entry": {
+    "name": "Spin-reaper-winsafe",
+    "provider": null
+  },
+  "updated_at": "2026-10-02T20:15:48.060Z",
+  "session": {
+    "id": "2026-10-02T20:15:11.265Z",
+    "started_at": "2026-10-02T20:15:11.265Z",
+    "ended_at": "2026-10-02T20:15:47.700Z",
+    "stop_reason": "har_import",
+    "mode": "har",
+    "source_file": "Spin-reaper-winsafe.har",
+    "counters": {
+      "requests": 3058,
+      "finished": 3057,
+      "failed": 1,
+      "candidates": 512,
+      "images": 432,
+      "json": 65,
+      "atlases": 15,
+      "skeletons": 29,
+      "newSkeletons": 29,
+      "bytes": 74556196,
+      "errors": 0,
+      "probes": 0
+    }
+  }
+}

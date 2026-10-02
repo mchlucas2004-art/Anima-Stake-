@@ -1,0 +1,324 @@
+{
+  "id": "interrogator/package_005_split",
+  "package": "package_005_split",
+  "name": "split",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "split.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "idle",
+    "land",
+    "symbol_idle"
+  ],
+  "tags": [
+    "symbol",
+    "idle",
+    "land",
+    "symbol_idle",
+    "split",
+    "symbols"
+  ],
+  "classification": {
+    "confidence": "low",
+    "scores": {
+      "symbol": 3,
+      "effect": 1.8,
+      "ui": 1.8,
+      "character": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:symbols"
+    ]
+  },
+  "animations": [
+    "capped",
+    "idle",
+    "land",
+    "split"
+  ],
+  "animation_details": [
+    {
+      "name": "capped",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 10,
+        "slots": 13,
+        "attachments": 1,
+        "events": 2
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 3,
+      "timelines": {
+        "bones": 23
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 13,
+        "events": 1
+      }
+    },
+    {
+      "name": "split",
+      "duration": 1.8,
+      "timelines": {
+        "bones": 25,
+        "slots": 13,
+        "attachments": 1,
+        "events": 4
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [
+    "land",
+    "split_clear",
+    "split_open",
+    "split_seat",
+    "split_strike"
+  ],
+  "bones_count": 35,
+  "slots_count": 14,
+  "bones": [
+    "root",
+    "impact",
+    "board_open",
+    "split_left",
+    "left_top",
+    "left_bottom",
+    "left_arrow",
+    "split_right",
+    "right_top",
+    "right_bottom",
+    "right_arrow",
+    "lightning",
+    "lightning_tip",
+    "arrow_left",
+    "arrow_left_tip",
+    "arrow_right",
+    "arrow_right_tip",
+    "letter_S",
+    "letter_S_tip",
+    "letter_P",
+    "letter_P_tip",
+    "letter_L",
+    "letter_L_tip",
+    "letter_I",
+    "letter_I_tip",
+    "letter_T",
+    "letter_T_tip",
+    "column_strike_root",
+    "column_strike_shape",
+    "column_strike_0",
+    "column_strike_1",
+    "column_strike_2",
+    "column_strike_3",
+    "column_strike_4",
+    "column_strike_5"
+  ],
+  "slots": [
+    "panel_left",
+    "panel_right",
+    "lightning",
+    "arrow_left",
+    "arrow_right",
+    "letter_S",
+    "letter_P",
+    "letter_L",
+    "letter_I",
+    "letter_T",
+    "column_strike_clip",
+    "column_strike_glow",
+    "column_strike_edge",
+    "column_strike_core"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 14,
+  "attachment_types": {
+    "mesh": 13,
+    "clipping": 1
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "split.png",
+      "atlas": "split.atlas",
+      "file": "split.png",
+      "sha256": "d7df715d5c1e5a2247101e57050c87d8f403b2de4121d70211743f3da9e9a34b",
+      "format": "png",
+      "width": 1012,
+      "height": 874,
+      "atlas_size": [
+        1012,
+        874
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "split_2.png",
+      "atlas": "split.atlas",
+      "file": "split_2.png",
+      "sha256": "9e6cc06043c8d54145ec99a443d2a9eb04b44bf0ae28ea777ad277032c3fb2c7",
+      "format": "png",
+      "width": 629,
+      "height": 629,
+      "atlas_size": [
+        629,
+        629
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "split_3.png",
+      "atlas": "split.atlas",
+      "file": "split_3.png",
+      "sha256": "c02eaa2350e001da3bb679fc118b9b0cb7a8d469a11e9fe066c7048aedbcb748",
+      "format": "png",
+      "width": 990,
+      "height": 856,
+      "atlas_size": [
+        990,
+        856
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "split.atlas",
+      "sha256": "bb3fe700d3c925cdb177702323649aa111855348e4549487072031f6860e26bd",
+      "format": "spine-4",
+      "pages": [
+        "split.png",
+        "split_2.png",
+        "split_3.png"
+      ],
+      "regions": 9,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 9/9 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "split.json",
+      "role": "skeleton",
+      "sha256": "b77acf7fc3bfed2e483a106b1aa53bbe07ed22632aca0d599e37bccb856bc868",
+      "size": 726328,
+      "original_filename": "split.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.json"
+      ]
+    },
+    {
+      "file": "split.atlas",
+      "role": "atlas",
+      "sha256": "bb3fe700d3c925cdb177702323649aa111855348e4549487072031f6860e26bd",
+      "size": 536,
+      "original_filename": "split.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.atlas"
+      ]
+    },
+    {
+      "file": "split.png",
+      "role": "texture",
+      "sha256": "d7df715d5c1e5a2247101e57050c87d8f403b2de4121d70211743f3da9e9a34b",
+      "size": 566149,
+      "original_filename": "split.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.png"
+      ],
+      "atlas_page": "split.png"
+    },
+    {
+      "file": "split_2.png",
+      "role": "texture",
+      "sha256": "9e6cc06043c8d54145ec99a443d2a9eb04b44bf0ae28ea777ad277032c3fb2c7",
+      "size": 372089,
+      "original_filename": "split_2.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_2.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_2.png"
+      ],
+      "atlas_page": "split_2.png"
+    },
+    {
+      "file": "split_3.png",
+      "role": "texture",
+      "sha256": "c02eaa2350e001da3bb679fc118b9b0cb7a8d469a11e9fe066c7048aedbcb748",
+      "size": 507024,
+      "original_filename": "split_3.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_3.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_3.png"
+      ],
+      "atlas_page": "split_3.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_2.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_3.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "3/3",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:35.514Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

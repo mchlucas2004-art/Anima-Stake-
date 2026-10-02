@@ -1,0 +1,204 @@
+{
+  "id": "spin-reaper-winsafe/package_016_twistloader",
+  "package": "package_016_twistloader",
+  "name": "twistloader",
+  "game": "Spin-reaper-winsafe",
+  "game_slug": "spin-reaper-winsafe",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "twistLoader.json",
+  "skeleton_version": "4.2.43",
+  "category": "unknown",
+  "subtypes": [
+    "idle",
+    "exit"
+  ],
+  "tags": [
+    "idle",
+    "exit",
+    "twistloader",
+    "components",
+    "pixi",
+    "package",
+    "twist",
+    "loader"
+  ],
+  "classification": {
+    "confidence": "none",
+    "scores": {
+      "transition": 1.5,
+      "ui": 0.8,
+      "character": 0,
+      "symbol": 0,
+      "effect": 0,
+      "background": 0
+    },
+    "evidence": []
+  },
+  "animations": [
+    "loader_full",
+    "loader_idle",
+    "loader_outro"
+  ],
+  "animation_details": [
+    {
+      "name": "loader_full",
+      "duration": 0,
+      "timelines": {
+        "attachments": 1
+      }
+    },
+    {
+      "name": "loader_idle",
+      "duration": 0,
+      "timelines": {
+        "slots": 5,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "loader_outro",
+      "duration": 1.5,
+      "timelines": {
+        "slots": 5,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 3,
+  "slots_count": 8,
+  "bones": [
+    "root",
+    "loader_master",
+    "slot_percent"
+  ],
+  "slots": [
+    "00_master_scale",
+    "00_screen_dimensions_guide",
+    "slot_percent",
+    "logo_empty",
+    "loader_animated_empty",
+    "loader_mask",
+    "logo_full",
+    "loader_animated"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 6,
+  "attachment_types": {
+    "region": 5,
+    "clipping": 1
+  },
+  "dimensions": {
+    "width": 10000,
+    "height": 10000
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "twistLoader.webp",
+      "atlas": "twistLoader.atlas",
+      "file": "twistLoader.webp",
+      "sha256": "a1b025ab6af57378a8f40a815dd0be0afac015f439c15d14bf7668acb305dc07",
+      "format": "webp",
+      "width": 2048,
+      "height": 1024,
+      "atlas_size": [
+        2048,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "twistLoader.atlas",
+      "sha256": "ea44b8dcf1e27b99319813f562c605a14ab7dc6c8a6e3c70211c24a604f2ee69",
+      "format": "spine-4",
+      "pages": [
+        "twistLoader.webp"
+      ],
+      "regions": 34,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 34/34 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "twistLoader.json",
+      "role": "skeleton",
+      "sha256": "b34354fa633012df9e8c490662d3aadd92243fd6bd5de0ad9758d59cfcb788e1",
+      "size": 2861,
+      "original_filename": "twistLoader.json",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.json",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.json"
+      ]
+    },
+    {
+      "file": "twistLoader.atlas",
+      "role": "atlas",
+      "sha256": "ea44b8dcf1e27b99319813f562c605a14ab7dc6c8a6e3c70211c24a604f2ee69",
+      "size": 1790,
+      "original_filename": "twistLoader.atlas",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.atlas",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.atlas"
+      ]
+    },
+    {
+      "file": "twistLoader.webp",
+      "role": "texture",
+      "sha256": "a1b025ab6af57378a8f40a815dd0be0afac015f439c15d14bf7668acb305dc07",
+      "size": 120972,
+      "original_filename": "twistLoader.webp",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.webp",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.webp"
+      ],
+      "atlas_page": "twistLoader.webp"
+    }
+  ],
+  "source_urls": [
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.json",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.atlas",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:09:21.148Z",
+  "sessions": [
+    "2026-10-02T20:15:11.265Z"
+  ],
+  "packaged_at": "2026-10-02T20:48:22.950Z"
+}

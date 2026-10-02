@@ -1,0 +1,326 @@
+{
+  "id": "sugar-rush-1000/package_063_suru_big_win_4",
+  "package": "package_063_suru_big_win_4",
+  "name": "suru_big_win_4",
+  "game": "Sugar Rush 1000",
+  "game_slug": "sugar-rush-1000",
+  "provider": "Pragmatic Play",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "suru_big_win_4.json",
+  "skeleton_version": "3.7.91",
+  "category": "effect",
+  "subtypes": [
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win"
+  ],
+  "tags": [
+    "effect",
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win",
+    "suru",
+    "big",
+    "bigwin"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "effect": 10.8,
+      "symbol": 0.8,
+      "ui": 0.8,
+      "character": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:bigwin",
+      "bone:glow",
+      "bone:star",
+      "bone:stars",
+      "region:glow",
+      "win-celebration:bigwin"
+    ]
+  },
+  "animations": [
+    "mega_in",
+    "mega_loop",
+    "mega_out",
+    "nice_in",
+    "nice_loop",
+    "nice_out",
+    "sesnational_in",
+    "sesnational_loop",
+    "sesnational_out",
+    "superb_in",
+    "superb_loop",
+    "superb_out"
+  ],
+  "animation_details": [
+    {
+      "name": "mega_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "mega_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 25,
+        "deform": 1
+      }
+    },
+    {
+      "name": "mega_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 25,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "nice_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 23,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "sesnational_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "sesnational_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 25,
+        "deform": 1
+      }
+    },
+    {
+      "name": "sesnational_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "superb_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "superb_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 23,
+        "deform": 1
+      }
+    },
+    {
+      "name": "superb_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 5,
+  "slots_count": 30,
+  "bones": [
+    "root",
+    "sensational",
+    "numbers",
+    "stars",
+    "big_star"
+  ],
+  "slots": [
+    "superb_glow",
+    "superb_base",
+    "superb_white_part",
+    "superb_depth",
+    "superb_text",
+    "superb_high_light_2",
+    "superb_high_light_1",
+    "mega_glow",
+    "mega_base",
+    "mega_white_part",
+    "mega_text_depth",
+    "mega_text",
+    "mega_high_light_2",
+    "mega_high_light_3",
+    "mega_high_light_1",
+    "nice_glow",
+    "nice_base",
+    "nice_white",
+    "nice_text_depth",
+    "nice_text",
+    "nice_high_light_2",
+    "nice_high_light_1",
+    "sensational_glow",
+    "sensational_base",
+    "sensational_white_part",
+    "sensational_text_depth",
+    "sensational_text",
+    "sensational_high_light_1",
+    "sensational_high_light_3",
+    "sensational_high_light_2"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 30,
+  "attachment_types": {
+    "region": 20,
+    "mesh": 10
+  },
+  "dimensions": {
+    "width": 1278,
+    "height": 403
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "suru_big_win_4.png",
+      "atlas": "suru_big_win_4.atlas",
+      "file": "suru_big_win_4.png",
+      "sha256": "36c88e854a82dd80ee861796cf819fcf7e544d58d84a568756e831e7af9a5942",
+      "format": "png",
+      "width": 1892,
+      "height": 1798,
+      "atlas_size": [
+        1892,
+        1798
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "suru_big_win_4.atlas",
+      "sha256": "d768d2d88ba7f87c9aa368f999c5ea39f8cb4ae59682e183fdfef73eb021e56a",
+      "format": "spine-3/libgdx",
+      "pages": [
+        "suru_big_win_4.png"
+      ],
+      "regions": 27,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 27/27 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "suru_big_win_4.json",
+      "role": "skeleton",
+      "sha256": "bf4247c6d228c650354cdf4aee8dd2b5b86a6138ab063ed8d29b9397cce742d3",
+      "size": 46160,
+      "original_filename": "suru_big_win_4.json",
+      "raw_path": "raw/_embedded/uht-7bbde495b658/suru_big_win_4.json",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "7bbde495b65836d438c8d8eab17b9bf3"
+      }
+    },
+    {
+      "file": "suru_big_win_4.atlas",
+      "role": "atlas",
+      "sha256": "d768d2d88ba7f87c9aa368f999c5ea39f8cb4ae59682e183fdfef73eb021e56a",
+      "size": 2961,
+      "original_filename": "suru_big_win_4.atlas",
+      "raw_path": "raw/_embedded/uht-7bbde495b658/suru_big_win_4.atlas",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "7bbde495b65836d438c8d8eab17b9bf3"
+      }
+    },
+    {
+      "file": "suru_big_win_4.png",
+      "role": "texture",
+      "sha256": "36c88e854a82dd80ee861796cf819fcf7e544d58d84a568756e831e7af9a5942",
+      "size": 286718,
+      "original_filename": "suru_big_win_4.png",
+      "raw_path": "raw/_embedded/uht-7bbde495b658/suru_big_win_4.png",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "7bbde495b65836d438c8d8eab17b9bf3"
+      },
+      "atlas_page": "suru_big_win_4.png"
+    }
+  ],
+  "source_urls": [],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": null,
+  "sessions": [],
+  "packaged_at": "2026-10-02T15:45:20.442Z"
+}

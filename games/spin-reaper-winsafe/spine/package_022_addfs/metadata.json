@@ -1,0 +1,338 @@
+{
+  "id": "spin-reaper-winsafe/package_022_addfs",
+  "package": "package_022_addfs",
+  "name": "addfs",
+  "game": "Spin-reaper-winsafe",
+  "game_slug": "spin-reaper-winsafe",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "addfs.json",
+  "skeleton_version": "4.1.23",
+  "category": "unknown",
+  "subtypes": [],
+  "tags": [
+    "addfs",
+    "spines"
+  ],
+  "classification": {
+    "confidence": "none",
+    "scores": {
+      "ui": 2.5,
+      "effect": 1.8,
+      "symbol": 0.8,
+      "character": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": []
+  },
+  "animations": [
+    "popup",
+    "popup_super"
+  ],
+  "animation_details": [
+    {
+      "name": "popup",
+      "duration": 2.7,
+      "timelines": {
+        "bones": 53,
+        "slots": 53,
+        "drawOrder": 2
+      }
+    },
+    {
+      "name": "popup_super",
+      "duration": 2.7,
+      "timelines": {
+        "bones": 53,
+        "slots": 53,
+        "drawOrder": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 103,
+  "slots_count": 53,
+  "bones": [
+    "root",
+    "addfs_popup",
+    "addfs_ui",
+    "addfs_ui2",
+    "addfs_ui3",
+    "mockup_freespins",
+    "mockup_addfsnum",
+    "reaper",
+    "weapon",
+    "scythe",
+    "hood",
+    "skull",
+    "eye_glow",
+    "backing",
+    "hood2",
+    "hood4",
+    "hood5",
+    "scythe2",
+    "particles",
+    "particle_small_cont",
+    "particle_small",
+    "particle_med_cont",
+    "particle_medium",
+    "particle_med_cont2",
+    "particle_medium2",
+    "particle_med_cont3",
+    "particle_medium3",
+    "particle_med_cont5",
+    "particle_medium5",
+    "particle_med_cont6",
+    "particle_medium6",
+    "particle_med_cont8",
+    "particle_medium8",
+    "particle_med_cont9",
+    "particle_medium9",
+    "particle_med_cont11",
+    "particle_medium11",
+    "particle_med_cont13",
+    "particle_medium13",
+    "particle_med_cont14",
+    "particle_medium14",
+    "particle_med_cont15",
+    "particle_medium15",
+    "particle_med_cont17",
+    "particle_medium17",
+    "particle_med_cont19",
+    "particle_medium19",
+    "particle_med_cont20",
+    "particle_medium20",
+    "particle_med_cont21",
+    "particle_medium21",
+    "particle_med_cont22",
+    "particle_medium22",
+    "particle_med_cont23",
+    "particle_medium23",
+    "particle_med_cont25",
+    "particle_medium25",
+    "particle_small_cont2",
+    "particle_small2",
+    "particle_small_cont3",
+    "particle_small3",
+    "particle_small_cont4",
+    "particle_small4",
+    "particle_small_cont6",
+    "particle_small6",
+    "particle_small_cont7",
+    "particle_small7",
+    "particle_small_cont8",
+    "particle_small8",
+    "particle_small_cont9",
+    "particle_small9",
+    "particle_small_cont11",
+    "particle_small11",
+    "particle_small_cont12",
+    "particle_small12",
+    "particle_small_cont13",
+    "particle_small13",
+    "particle_small_cont15",
+    "particle_small15",
+    "particle_small_cont16",
+    "particle_small16",
+    "particle_small_cont17",
+    "particle_small17",
+    "particle_small_cont19",
+    "particle_small19",
+    "particle_small_cont20",
+    "particle_small20",
+    "particle_small_cont21",
+    "particle_small21",
+    "particle_small_cont24",
+    "particle_small24",
+    "particle_small_cont25",
+    "particle_small25",
+    "particle_small_cont26",
+    "particle_small26",
+    "particle_small_cont28",
+    "particle_small28",
+    "particle_small_cont29",
+    "particle_small29",
+    "particle_small_cont31",
+    "particle_small31",
+    "particle_small_cont32",
+    "particle_small32"
+  ],
+  "slots": [
+    "H1_backhood",
+    "H1_skull",
+    "H1_eyes",
+    "H1_eyesglow",
+    "H1_eyesglow2",
+    "H1_hood",
+    "H1_hand",
+    "H1_hand2",
+    "addfs_ui",
+    "mockup_freespins",
+    "slot_addfsnum",
+    "particle_medium",
+    "particle_medium2",
+    "particle_medium3",
+    "particle_medium5",
+    "particle_medium6",
+    "particle_medium8",
+    "particle_medium9",
+    "particle_medium11",
+    "particle_medium13",
+    "particle_medium14",
+    "particle_medium15",
+    "particle_medium17",
+    "particle_medium19",
+    "particle_medium20",
+    "particle_medium21",
+    "particle_medium22",
+    "particle_medium23",
+    "particle_medium25",
+    "particle_small",
+    "particle_small2",
+    "particle_small3",
+    "particle_small4",
+    "particle_small6",
+    "particle_small7",
+    "particle_small8",
+    "particle_small9",
+    "particle_small11",
+    "particle_small12",
+    "particle_small13",
+    "particle_small15",
+    "particle_small16",
+    "particle_small17",
+    "particle_small19",
+    "particle_small20",
+    "particle_small21",
+    "particle_small24",
+    "particle_small25",
+    "particle_small26",
+    "particle_small28",
+    "particle_small29",
+    "particle_small31",
+    "particle_small32"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 1,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 101,
+  "attachment_types": {
+    "mesh": 4,
+    "region": 97
+  },
+  "dimensions": {
+    "width": 1804,
+    "height": 1218
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "addfs.webp",
+      "atlas": "addfs.atlas",
+      "file": "addfs.webp",
+      "sha256": "7764a3b381533a0f3919ad3816f76c2c98277383a5fc6aeaa1eb8886ad6350d8",
+      "format": "webp",
+      "width": 1993,
+      "height": 1028,
+      "atlas_size": [
+        1993,
+        1028
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "addfs.atlas",
+      "sha256": "7a1cb18f2206cebb7f175b73aadb6baa2cbbf5e9fccc6bb1f305799dd705a514",
+      "format": "spine-4",
+      "pages": [
+        "addfs.webp"
+      ],
+      "regions": 21,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 18/18 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": [
+        "package_023_addfs_ui"
+      ]
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "addfs.json",
+      "role": "skeleton",
+      "sha256": "0116ed422890bd6f41c3742b07a82b32cdbaaba0a9dc764aeb57563f81ae063a",
+      "size": 174646,
+      "original_filename": "addfs.json",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/addfs/addfs.json",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/addfs/addfs.json"
+      ]
+    },
+    {
+      "file": "addfs.atlas",
+      "role": "atlas",
+      "sha256": "7a1cb18f2206cebb7f175b73aadb6baa2cbbf5e9fccc6bb1f305799dd705a514",
+      "size": 988,
+      "original_filename": "addfs.atlas",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/addfs/addfs.atlas",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/addfs/addfs.atlas"
+      ]
+    },
+    {
+      "file": "addfs.webp",
+      "role": "texture",
+      "sha256": "7764a3b381533a0f3919ad3816f76c2c98277383a5fc6aeaa1eb8886ad6350d8",
+      "size": 352390,
+      "original_filename": "addfs.webp",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/addfs/addfs.webp",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/addfs/addfs.webp"
+      ],
+      "atlas_page": "addfs.webp"
+    }
+  ],
+  "source_urls": [
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/addfs/addfs.json",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/addfs/addfs.atlas",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/addfs/addfs.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [
+    "package_023_addfs_ui"
+  ],
+  "detected_at": "2026-10-02T20:09:21.607Z",
+  "sessions": [
+    "2026-10-02T20:15:11.265Z"
+  ],
+  "packaged_at": "2026-10-02T20:48:22.950Z"
+}

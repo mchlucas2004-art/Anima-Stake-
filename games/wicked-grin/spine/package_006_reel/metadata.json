@@ -1,0 +1,661 @@
+{
+  "id": "wicked-grin/package_006_reel",
+  "package": "package_006_reel",
+  "name": "reel",
+  "game": "Wicked Grin",
+  "game_slug": "wicked-grin",
+  "provider": "Hacksaw Gaming",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "reel.json",
+  "skeleton_version": "4.0.64",
+  "category": "ui",
+  "subtypes": [
+    "idle"
+  ],
+  "tags": [
+    "ui",
+    "idle",
+    "reel",
+    "hd"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "ui": 3.8,
+      "transition": 1.5,
+      "character": 0,
+      "symbol": 0,
+      "effect": 0,
+      "background": 0
+    },
+    "evidence": [
+      "name:reel",
+      "bone:reel",
+      "region:reel"
+    ]
+  },
+  "animations": [
+    "trigger_yellow/0_1",
+    "trigger_red/0_1",
+    "trigger_yellow/0_2",
+    "trigger_red/0_2",
+    "trigger_yellow/0_3",
+    "trigger_red/0_3",
+    "trigger_yellow/0_4",
+    "trigger_red/0_4",
+    "trigger_yellow/0_5",
+    "trigger_red/0_5",
+    "setup_red/1",
+    "remove_red/1",
+    "remove_yellow/1",
+    "setup_yellow/1",
+    "trigger_yellow/1_2",
+    "trigger_red/1_2",
+    "trigger_yellow/1_3",
+    "trigger_red/1_3",
+    "trigger_yellow/1_4",
+    "trigger_red/1_4",
+    "trigger_yellow/1_5",
+    "trigger_red/1_5",
+    "setup_red/2",
+    "remove_red/2",
+    "remove_yellow/2",
+    "setup_yellow/2",
+    "trigger_yellow/2_3",
+    "trigger_red/2_3",
+    "trigger_yellow/2_4",
+    "trigger_red/2_4",
+    "trigger_yellow/2_5",
+    "trigger_red/2_5",
+    "setup_yellow/3",
+    "setup_red/3",
+    "remove_red/3",
+    "remove_yellow/3",
+    "trigger_yellow/3_4",
+    "trigger_red/3_4",
+    "trigger_yellow/3_5",
+    "trigger_red/3_5",
+    "setup_red/4",
+    "remove_red/4",
+    "remove_yellow/4",
+    "setup_yellow/4",
+    "trigger_yellow/4_5",
+    "trigger_red/4_5",
+    "setup_red/5",
+    "remove_yellow/5",
+    "remove_red/5",
+    "setup_yellow/5",
+    "idle"
+  ],
+  "animation_details": [
+    {
+      "name": "trigger_yellow/0_1",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 2
+      }
+    },
+    {
+      "name": "trigger_red/0_1",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 2
+      }
+    },
+    {
+      "name": "trigger_yellow/0_2",
+      "duration": 0.433,
+      "timelines": {
+        "bones": 4,
+        "slots": 4
+      }
+    },
+    {
+      "name": "trigger_red/0_2",
+      "duration": 0.433,
+      "timelines": {
+        "bones": 4,
+        "slots": 4
+      }
+    },
+    {
+      "name": "trigger_yellow/0_3",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 6,
+        "slots": 6
+      }
+    },
+    {
+      "name": "trigger_red/0_3",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 6,
+        "slots": 6
+      }
+    },
+    {
+      "name": "trigger_yellow/0_4",
+      "duration": 0.567,
+      "timelines": {
+        "bones": 8,
+        "slots": 8
+      }
+    },
+    {
+      "name": "trigger_red/0_4",
+      "duration": 0.567,
+      "timelines": {
+        "bones": 8,
+        "slots": 8
+      }
+    },
+    {
+      "name": "trigger_yellow/0_5",
+      "duration": 0.633,
+      "timelines": {
+        "bones": 10,
+        "slots": 10
+      }
+    },
+    {
+      "name": "trigger_red/0_5",
+      "duration": 0.633,
+      "timelines": {
+        "bones": 10,
+        "slots": 10
+      }
+    },
+    {
+      "name": "setup_red/1",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "remove_red/1",
+      "duration": 0.333,
+      "timelines": {
+        "bones": 2,
+        "slots": 10
+      }
+    },
+    {
+      "name": "remove_yellow/1",
+      "duration": 0.333,
+      "timelines": {
+        "bones": 2,
+        "slots": 2
+      }
+    },
+    {
+      "name": "setup_yellow/1",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "trigger_yellow/1_2",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 4
+      }
+    },
+    {
+      "name": "trigger_red/1_2",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 4
+      }
+    },
+    {
+      "name": "trigger_yellow/1_3",
+      "duration": 0.433,
+      "timelines": {
+        "bones": 4,
+        "slots": 6
+      }
+    },
+    {
+      "name": "trigger_red/1_3",
+      "duration": 0.433,
+      "timelines": {
+        "bones": 4,
+        "slots": 6
+      }
+    },
+    {
+      "name": "trigger_yellow/1_4",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 6,
+        "slots": 8
+      }
+    },
+    {
+      "name": "trigger_red/1_4",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 6,
+        "slots": 8
+      }
+    },
+    {
+      "name": "trigger_yellow/1_5",
+      "duration": 0.567,
+      "timelines": {
+        "bones": 8,
+        "slots": 10
+      }
+    },
+    {
+      "name": "trigger_red/1_5",
+      "duration": 0.567,
+      "timelines": {
+        "bones": 8,
+        "slots": 10
+      }
+    },
+    {
+      "name": "setup_red/2",
+      "duration": 0,
+      "timelines": {
+        "slots": 4
+      }
+    },
+    {
+      "name": "remove_red/2",
+      "duration": 0.4,
+      "timelines": {
+        "bones": 4,
+        "slots": 10
+      }
+    },
+    {
+      "name": "remove_yellow/2",
+      "duration": 0.4,
+      "timelines": {
+        "bones": 4,
+        "slots": 4
+      }
+    },
+    {
+      "name": "setup_yellow/2",
+      "duration": 0,
+      "timelines": {
+        "slots": 4
+      }
+    },
+    {
+      "name": "trigger_yellow/2_3",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 6
+      }
+    },
+    {
+      "name": "trigger_red/2_3",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 6
+      }
+    },
+    {
+      "name": "trigger_yellow/2_4",
+      "duration": 0.433,
+      "timelines": {
+        "bones": 4,
+        "slots": 8
+      }
+    },
+    {
+      "name": "trigger_red/2_4",
+      "duration": 0.433,
+      "timelines": {
+        "bones": 4,
+        "slots": 8
+      }
+    },
+    {
+      "name": "trigger_yellow/2_5",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 6,
+        "slots": 10
+      }
+    },
+    {
+      "name": "trigger_red/2_5",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 6,
+        "slots": 10
+      }
+    },
+    {
+      "name": "setup_yellow/3",
+      "duration": 0,
+      "timelines": {
+        "slots": 6
+      }
+    },
+    {
+      "name": "setup_red/3",
+      "duration": 0,
+      "timelines": {
+        "slots": 6
+      }
+    },
+    {
+      "name": "remove_red/3",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 6,
+        "slots": 10
+      }
+    },
+    {
+      "name": "remove_yellow/3",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 6,
+        "slots": 6
+      }
+    },
+    {
+      "name": "trigger_yellow/3_4",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 8
+      }
+    },
+    {
+      "name": "trigger_red/3_4",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 8
+      }
+    },
+    {
+      "name": "trigger_yellow/3_5",
+      "duration": 0.433,
+      "timelines": {
+        "bones": 4,
+        "slots": 10
+      }
+    },
+    {
+      "name": "trigger_red/3_5",
+      "duration": 0.433,
+      "timelines": {
+        "bones": 4,
+        "slots": 10
+      }
+    },
+    {
+      "name": "setup_red/4",
+      "duration": 0,
+      "timelines": {
+        "slots": 8
+      }
+    },
+    {
+      "name": "remove_red/4",
+      "duration": 0.533,
+      "timelines": {
+        "bones": 8,
+        "slots": 10
+      }
+    },
+    {
+      "name": "remove_yellow/4",
+      "duration": 0.533,
+      "timelines": {
+        "bones": 8,
+        "slots": 8
+      }
+    },
+    {
+      "name": "setup_yellow/4",
+      "duration": 0,
+      "timelines": {
+        "slots": 8
+      }
+    },
+    {
+      "name": "trigger_yellow/4_5",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 10
+      }
+    },
+    {
+      "name": "trigger_red/4_5",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 10
+      }
+    },
+    {
+      "name": "setup_red/5",
+      "duration": 0,
+      "timelines": {
+        "slots": 10
+      }
+    },
+    {
+      "name": "remove_yellow/5",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 10,
+        "slots": 10
+      }
+    },
+    {
+      "name": "remove_red/5",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 10,
+        "slots": 10
+      }
+    },
+    {
+      "name": "setup_yellow/5",
+      "duration": 0,
+      "timelines": {
+        "slots": 10
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 0,
+      "timelines": {}
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 26,
+  "slots_count": 21,
+  "bones": [
+    "root",
+    "scale_all_bone",
+    "lights_L",
+    "light1",
+    "light2",
+    "light4",
+    "light3",
+    "light5",
+    "lights_R",
+    "light6",
+    "light7",
+    "light8",
+    "light9",
+    "light10",
+    "lights_L_yellow",
+    "light11",
+    "light12",
+    "light13",
+    "light14",
+    "light15",
+    "lights_R_yellow",
+    "light16",
+    "light17",
+    "light18",
+    "light19",
+    "light20"
+  ],
+  "slots": [
+    "reel",
+    "lights",
+    "lights11",
+    "lights6",
+    "lights16",
+    "lights4",
+    "lights14",
+    "lights9",
+    "lights19",
+    "lights2",
+    "lights12",
+    "lights7",
+    "lights17",
+    "lights3",
+    "lights13",
+    "lights8",
+    "lights18",
+    "lights5",
+    "lights15",
+    "lights10",
+    "lights20"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 21,
+  "attachment_types": {
+    "mesh": 20,
+    "region": 1
+  },
+  "dimensions": {
+    "width": 1127,
+    "height": 1075
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "reel.png",
+      "atlas": "reel.atlas",
+      "file": "reel.png",
+      "sha256": "27bf0de96539ef64f296b268cc745681c23ea6b6f5c38e7e9ae9ec920fff4948",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "same_folder_variant",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "reel.atlas",
+      "sha256": "b3b8816b03a6c37dc97a630f1099083e510537319b700def722f9cd517cae77d",
+      "format": "spine-4",
+      "pages": [
+        "reel.png"
+      ],
+      "regions": 3,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 3/3 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "reel.json",
+      "role": "skeleton",
+      "sha256": "d1f88e9671cacdf3b7219a86372aca135d9e493edde71a9181bc7e3508920464",
+      "size": 86202,
+      "original_filename": "reel.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.json",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.json"
+      ]
+    },
+    {
+      "file": "reel.atlas",
+      "role": "atlas",
+      "sha256": "b3b8816b03a6c37dc97a630f1099083e510537319b700def722f9cd517cae77d",
+      "size": 166,
+      "original_filename": "reel.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.atlas",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.atlas"
+      ]
+    },
+    {
+      "file": "reel.png",
+      "role": "texture",
+      "sha256": "27bf0de96539ef64f296b268cc745681c23ea6b6f5c38e7e9ae9ec920fff4948",
+      "size": 22356,
+      "original_filename": "reel.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.ktx2",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.ktx2"
+      ],
+      "atlas_page": "reel.png"
+    }
+  ],
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.json",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.atlas",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.ktx2"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [
+    "atlas page \"reel.png\" was served as \"reel.ktx2\" (ktx2)"
+  ],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:02:07.348Z",
+  "sessions": [
+    "2026-10-02T20:15:48.095Z"
+  ],
+  "packaged_at": "2026-10-02T20:46:25.195Z"
+}

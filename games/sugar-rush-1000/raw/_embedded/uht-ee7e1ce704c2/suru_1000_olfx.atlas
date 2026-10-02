@@ -1,0 +1,139 @@
+
+suru_1000_olfx.png
+size: 2076,451
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+suru_overlay_00020
+  rotate: false
+  xy: 1941, 161
+  size: 109, 108
+  orig: 280, 266
+  offset: 82, 80
+  index: -1
+suru_overlay_00022
+  rotate: false
+  xy: 636, 0
+  size: 233, 207
+  orig: 280, 266
+  offset: 17, 28
+  index: -1
+suru_overlay_00024
+  rotate: false
+  xy: 871, 1
+  size: 238, 206
+  orig: 280, 266
+  offset: 12, 31
+  index: -1
+suru_overlay_00026
+  rotate: true
+  xy: 420, 6
+  size: 194, 214
+  orig: 280, 266
+  offset: 46, 25
+  index: -1
+suru_overlay_00028
+  rotate: true
+  xy: 1340, 9
+  size: 203, 227
+  orig: 280, 266
+  offset: 38, 19
+  index: -1
+suru_overlay_00030
+  rotate: true
+  xy: 968, 212
+  size: 239, 236
+  orig: 280, 266
+  offset: 31, 17
+  index: -1
+suru_overlay_00032
+  rotate: false
+  xy: 0, 198
+  size: 238, 253
+  orig: 280, 266
+  offset: 13, 0
+  index: -1
+suru_overlay_00034
+  rotate: true
+  xy: 1442, 214
+  size: 237, 223
+  orig: 280, 266
+  offset: 26, 18
+  index: -1
+suru_overlay_00036
+  rotate: false
+  xy: 1667, 215
+  size: 235, 236
+  orig: 280, 266
+  offset: 21, 15
+  index: -1
+suru_overlay_00038
+  rotate: false
+  xy: 240, 202
+  size: 240, 249
+  orig: 280, 266
+  offset: 18, 2
+  index: -1
+suru_overlay_00040
+  rotate: true
+  xy: 726, 209
+  size: 242, 240
+  orig: 280, 266
+  offset: 21, 15
+  index: -1
+suru_overlay_00042
+  rotate: false
+  xy: 482, 209
+  size: 242, 242
+  orig: 280, 266
+  offset: 16, 9
+  index: -1
+suru_overlay_00044
+  rotate: true
+  xy: 1206, 214
+  size: 237, 234
+  orig: 280, 266
+  offset: 25, 26
+  index: -1
+suru_overlay_00046
+  rotate: true
+  xy: 1111, 0
+  size: 210, 227
+  orig: 280, 266
+  offset: 38, 34
+  index: -1
+suru_overlay_00048
+  rotate: true
+  xy: 0, 0
+  size: 196, 228
+  orig: 280, 266
+  offset: 52, 33
+  index: -1
+suru_overlay_00050
+  rotate: true
+  xy: 230, 0
+  size: 196, 188
+  orig: 280, 266
+  offset: 52, 33
+  index: -1
+suru_overlay_00052
+  rotate: true
+  xy: 1569, 21
+  size: 191, 186
+  orig: 280, 266
+  offset: 53, 33
+  index: -1
+suru_overlay_00054
+  rotate: true
+  xy: 1757, 25
+  size: 188, 182
+  orig: 280, 266
+  offset: 55, 35
+  index: -1
+suru_overlay_00055
+  rotate: false
+  xy: 1904, 271
+  size: 172, 180
+  orig: 280, 266
+  offset: 53, 50
+  index: -1

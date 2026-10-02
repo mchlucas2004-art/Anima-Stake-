@@ -1,0 +1,13 @@
+
+suru_basegame_2.png
+size: 156,528
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+left_frame_1
+  rotate: false
+  xy: 0, 0
+  size: 154, 528
+  orig: 154, 528
+  offset: 0, 0
+  index: -1

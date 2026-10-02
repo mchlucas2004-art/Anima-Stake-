@@ -1,0 +1,13 @@
+
+suru_banner_6.png
+size: 1648,888
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+meter_glow_1
+  rotate: false
+  xy: 0, 0
+  size: 1646, 885
+  orig: 1646, 885
+  offset: 0, 0
+  index: -1

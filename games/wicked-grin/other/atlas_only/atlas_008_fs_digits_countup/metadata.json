@@ -1,0 +1,54 @@
+{
+  "id": "wicked-grin/atlas_008_fs_digits_countup",
+  "game": "Wicked Grin",
+  "provider": "Hacksaw Gaming",
+  "atlas_file": "fs_digits_countup.atlas",
+  "sha256": "1607d61e725efd516fb6ac0df070fb1c215d4b5d35cfaae35fd46fe3fc476264",
+  "format": "spine-3/libgdx",
+  "pages": [
+    {
+      "name": "fs_digits_countup.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "format": "RGBA8888",
+      "filter": "Linear, Linear",
+      "pma": null,
+      "scale": null,
+      "regions": 13
+    }
+  ],
+  "regions_count": 13,
+  "regions": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "fs",
+    "plus",
+    "x"
+  ],
+  "textures": [
+    {
+      "page": "fs_digits_countup.png",
+      "file": "fs_digits_countup.ktx2",
+      "sha256": "63d176816af919e9990925331f5b9b91c3bb572f5933a297ee1953e176c3b01a",
+      "width": 1024,
+      "height": 1024,
+      "size_match": true,
+      "match_method": "same_folder_variant"
+    }
+  ],
+  "note": "Atlas with no matching skeleton captured. Could be a plain sprite atlas, or its skeleton was never loaded during the session.",
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/atlas/fs_digits_countup.atlas"
+  ],
+  "detected_at": "2026-10-02T20:02:07.296Z"
+}

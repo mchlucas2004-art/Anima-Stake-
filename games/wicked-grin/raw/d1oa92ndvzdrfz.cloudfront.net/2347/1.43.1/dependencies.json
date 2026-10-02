@@ -1,0 +1,10 @@
+{
+   "@hacksawstudios/client-e2e": "4.0.35",
+   "@hacksawstudios/client-extras": "2.0.3",
+   "@hacksawstudios/deploy-environments": "1.4.1",
+   "@hacksawstudios/deployer": "1.21.2",
+   "@hacksawstudios/hacksaw-casino": "6.62.1",
+   "@hacksawstudios/hacksaw-ui": "3.96.1",
+   "@hacksawstudios/haxe-module-installer": "1.2.12",
+   "@hacksawstudios/slot-common": "50.2.2"
+}

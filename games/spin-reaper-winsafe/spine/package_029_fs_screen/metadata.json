@@ -1,0 +1,651 @@
+{
+  "id": "spin-reaper-winsafe/package_029_fs_screen",
+  "package": "package_029_fs_screen",
+  "name": "fs_screen",
+  "game": "Spin-reaper-winsafe",
+  "game_slug": "spin-reaper-winsafe",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "fs_screen.json",
+  "skeleton_version": "4.1.23",
+  "category": "effect",
+  "subtypes": [
+    "idle",
+    "entrance",
+    "exit",
+    "big_win",
+    "bonus",
+    "free_spins"
+  ],
+  "tags": [
+    "effect",
+    "idle",
+    "entrance",
+    "exit",
+    "big_win",
+    "bonus",
+    "free_spins",
+    "fs",
+    "screen",
+    "spines"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "effect": 13.1,
+      "transition": 4.5,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "anim:coins",
+      "anim:bigwin",
+      "anim:megawin",
+      "anim:epicwin",
+      "anim:superwin",
+      "bone:flame",
+      "bone:flames",
+      "bone:particle",
+      "bone:particles",
+      "bone:coin",
+      "bone:coins",
+      "bone:bigwin"
+    ]
+  },
+  "animations": [
+    "bonus_bigwin_fstotal_idle_coins",
+    "bonus_epicwin_fstotal_idle_coins",
+    "bonus_bigwin_fstotal_intro",
+    "bonus_epicwin_fstotal_intro",
+    "bonus_fstotal_idle",
+    "bonus_megawin_fstotal_intro",
+    "bonus_superwin_fstotal_intro",
+    "bonus_megawin_fstotal_idle_coins",
+    "bonus_superwin_fstotal_idle_coins",
+    "fs_idle",
+    "fs_intro",
+    "outro",
+    "super_bigwin_fstotal_idle_coins",
+    "super_bigwin_fstotal_intro",
+    "super_epicwin_fstotal_idle_coins",
+    "super_epicwin_fstotal_intro",
+    "super_fstotal_idle",
+    "super_megawin_fstotal_idle_coins",
+    "super_megawin_fstotal_intro",
+    "super_superwin_fstotal_idle_coins",
+    "super_superwin_fstotal_intro"
+  ],
+  "animation_details": [
+    {
+      "name": "bonus_bigwin_fstotal_idle_coins",
+      "duration": 1.1,
+      "timelines": {
+        "bones": 8,
+        "slots": 8,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "bonus_epicwin_fstotal_idle_coins",
+      "duration": 1.367,
+      "timelines": {
+        "bones": 25,
+        "slots": 25,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "bonus_bigwin_fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 29,
+        "slots": 38,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "bonus_epicwin_fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 45,
+        "slots": 55,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "bonus_fstotal_idle",
+      "duration": 7.2,
+      "timelines": {
+        "bones": 15,
+        "slots": 24,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "bonus_megawin_fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 37,
+        "slots": 46,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "bonus_superwin_fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 35,
+        "slots": 44,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "bonus_megawin_fstotal_idle_coins",
+      "duration": 1.367,
+      "timelines": {
+        "bones": 17,
+        "slots": 17,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "bonus_superwin_fstotal_idle_coins",
+      "duration": 1.367,
+      "timelines": {
+        "bones": 14,
+        "slots": 14,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "fs_idle",
+      "duration": 7.2,
+      "timelines": {
+        "bones": 16,
+        "slots": 22,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "fs_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 22,
+        "slots": 30,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "outro",
+      "duration": 2.033,
+      "timelines": {
+        "bones": 20,
+        "slots": 20,
+        "attachments": 1,
+        "events": 1
+      }
+    },
+    {
+      "name": "super_bigwin_fstotal_idle_coins",
+      "duration": 1.1,
+      "timelines": {
+        "bones": 8,
+        "slots": 8,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "super_bigwin_fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 29,
+        "slots": 38,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "super_epicwin_fstotal_idle_coins",
+      "duration": 1.367,
+      "timelines": {
+        "bones": 25,
+        "slots": 25,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "super_epicwin_fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 45,
+        "slots": 55,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "super_fstotal_idle",
+      "duration": 7.2,
+      "timelines": {
+        "bones": 15,
+        "slots": 30,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "super_megawin_fstotal_idle_coins",
+      "duration": 1.367,
+      "timelines": {
+        "bones": 17,
+        "slots": 17,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "super_megawin_fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 37,
+        "slots": 46,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "super_superwin_fstotal_idle_coins",
+      "duration": 1.367,
+      "timelines": {
+        "bones": 14,
+        "slots": 14,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "super_superwin_fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 35,
+        "slots": 44,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [
+    "transition"
+  ],
+  "bones_count": 138,
+  "slots_count": 115,
+  "bones": [
+    "root",
+    "fs_screen",
+    "8",
+    "mockup_fswon",
+    "flames",
+    "flame5",
+    "flame6",
+    "flame7",
+    "press_anywhere",
+    "radial4",
+    "particles",
+    "particle_large_cont",
+    "particle_large",
+    "particle_large_cont2",
+    "particle_large2",
+    "particle_large_cont3",
+    "particle_large3",
+    "particle_medium_cont",
+    "particle_medium",
+    "particle_medium_cont2",
+    "particle_medium2",
+    "particle_medium_cont3",
+    "particle_medium3",
+    "particle_small_cont",
+    "particle_small",
+    "particle_small6",
+    "particle_small7",
+    "particle_small_cont2",
+    "particle_small2",
+    "particle_small_cont3",
+    "particle_small3",
+    "particle_small_cont4",
+    "particle_small4",
+    "particle_small_cont5",
+    "particle_small5",
+    "bats",
+    "bat",
+    "bat8",
+    "bat15",
+    "bat22",
+    "bat29",
+    "bat36",
+    "bat43",
+    "bat50",
+    "bat57",
+    "bat64",
+    "bat71",
+    "bat78",
+    "bat85",
+    "bat92",
+    "bat99",
+    "bat106",
+    "bat113",
+    "bat120",
+    "bat127",
+    "bat137",
+    "num_particles",
+    "particle_small8",
+    "particle_small9",
+    "particle_small10",
+    "particle_small11",
+    "particle_small12",
+    "particle_small13",
+    "particle_small14",
+    "particle_small15",
+    "particle_small16",
+    "particle_small17",
+    "particle_small18",
+    "particle_small19",
+    "coins",
+    "bigwin",
+    "coin1",
+    "coin2",
+    "coin3",
+    "coin4",
+    "coin5",
+    "coin6",
+    "coin7",
+    "coin8",
+    "superwin",
+    "coinsgreen_01",
+    "coinsgreen_02",
+    "coinsgreen_03",
+    "coinsgreen_04",
+    "coinsgreen_05",
+    "coinsgreen_06",
+    "coinsgreen_07",
+    "coinsgreen_08",
+    "coinsgreen_09",
+    "coinsgreen_010",
+    "coinsgreen_011",
+    "coinsgreen_012",
+    "coinsgreen_013",
+    "coinsgreen_014",
+    "megawin",
+    "coinsred_01",
+    "coinsred_02",
+    "coinsred_03",
+    "coinsred_04",
+    "coinsred_05",
+    "coinsred_06",
+    "coinsred_07",
+    "coinsred_08",
+    "coinsred_09",
+    "coinsred_010",
+    "coinsred_011",
+    "coinsred_012",
+    "coinsred_013",
+    "coinsred_014",
+    "coinsred_015",
+    "coinsred_016",
+    "coinsred_017",
+    "epicwin",
+    "coinspurple_01",
+    "coinspurple_02",
+    "coinspurple_03",
+    "coinspurple_04",
+    "coinspurple_05",
+    "coinspurple_06",
+    "coinspurple_07",
+    "coinspurple_08",
+    "coinspurple_09",
+    "coinspurple_010",
+    "coinspurple_011",
+    "coinspurple_012",
+    "coinspurple_013",
+    "coinspurple_014",
+    "coinspurple_015",
+    "coinspurple_016",
+    "coinspurple_017",
+    "coinspurple_018",
+    "coinspurple_019",
+    "coinspurple_020",
+    "coinspurple_021",
+    "coinspurple_022",
+    "coinspurple_023",
+    "coinspurple_024",
+    "coinspurple_025"
+  ],
+  "slots": [
+    "particle_large",
+    "particle_large2",
+    "particle_large3",
+    "particle_medium",
+    "particle_medium2",
+    "particle_medium3",
+    "particle_small",
+    "particle_small2",
+    "particle_small3",
+    "particle_small4",
+    "particle_small5",
+    "particle_small6",
+    "particle_small7",
+    "slot_pressanywhere",
+    "slot_fswon",
+    "radial4",
+    "flame9",
+    "flame11",
+    "flame13",
+    "flame10",
+    "flame12",
+    "flame14",
+    "slot_fsnum",
+    "ghostexplode",
+    "bat",
+    "bat2",
+    "bat3",
+    "bat4",
+    "bat5",
+    "bat6",
+    "bat9",
+    "bat10",
+    "bat11",
+    "bat12",
+    "bat13",
+    "bat14",
+    "bat15",
+    "bat16",
+    "bat17",
+    "bat18",
+    "bat19",
+    "bat20",
+    "bat7",
+    "bat8",
+    "particle_small8",
+    "particle_small9",
+    "particle_small10",
+    "particle_small11",
+    "particle_small12",
+    "particle_small13",
+    "coin1",
+    "coin6",
+    "coin5",
+    "coin8",
+    "coin4",
+    "coin3",
+    "coin2",
+    "coin7",
+    "coinsgreen_01",
+    "coinsgreen_012",
+    "coinsgreen_013",
+    "coinsgreen_014",
+    "coinsgreen_02",
+    "coinsgreen_03",
+    "coinsgreen_04",
+    "coinsgreen_05",
+    "coinsgreen_06",
+    "coinsgreen_07",
+    "coinsgreen_08",
+    "coinsgreen_09",
+    "coinsgreen_010",
+    "coinsgreen_011",
+    "coinsred_01",
+    "coinsred_02",
+    "coinsred_03",
+    "coinsred_04",
+    "coinsred_05",
+    "coinsred_06",
+    "coinsred_07",
+    "coinsred_08",
+    "coinsred_09",
+    "coinsred_010",
+    "coinsred_011",
+    "coinsred_012",
+    "coinsred_013",
+    "coinsred_014",
+    "coinsred_015",
+    "coinsred_016",
+    "coinsred_017",
+    "coinspurple_01",
+    "coinspurple_02",
+    "coinspurple_03",
+    "coinspurple_04",
+    "coinspurple_05",
+    "coinspurple_06",
+    "coinspurple_07",
+    "coinspurple_08",
+    "coinspurple_09",
+    "coinspurple_010",
+    "coinspurple_011",
+    "coinspurple_012",
+    "coinspurple_013",
+    "coinspurple_014",
+    "coinspurple_015",
+    "coinspurple_016",
+    "coinspurple_017",
+    "coinspurple_018",
+    "coinspurple_019",
+    "coinspurple_020",
+    "coinspurple_021",
+    "coinspurple_022",
+    "coinspurple_023",
+    "coinspurple_024",
+    "coinspurple_025",
+    "null"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 179,
+  "attachment_types": {
+    "region": 179
+  },
+  "dimensions": {
+    "width": 1611,
+    "height": 1221
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "fs_screen.webp",
+      "atlas": "fs_screen.atlas",
+      "file": "fs_screen.webp",
+      "sha256": "349e9d9d20f3e821f56d030c0a8d93b3c79d7cc5358a4500e2429d7bf425bfcb",
+      "format": "webp",
+      "width": 3823,
+      "height": 1035,
+      "atlas_size": [
+        3823,
+        1035
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "fs_screen.atlas",
+      "sha256": "1fe0d17d204dd4383f9ddfa33d5ce713413d9ef0d5446c05947365bfde203361",
+      "format": "spine-4",
+      "pages": [
+        "fs_screen.webp"
+      ],
+      "regions": 131,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 131/131 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 29ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "fs_screen.json",
+      "role": "skeleton",
+      "sha256": "4cdef450a13b5c7c4ce624f1ea2d377529cda1708311eacfa14c8fbdb8f90436",
+      "size": 540859,
+      "original_filename": "fs_screen.json",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/fsScreen/fs_screen.json",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/fsScreen/fs_screen.json"
+      ]
+    },
+    {
+      "file": "fs_screen.atlas",
+      "role": "atlas",
+      "sha256": "1fe0d17d204dd4383f9ddfa33d5ce713413d9ef0d5446c05947365bfde203361",
+      "size": 7763,
+      "original_filename": "fs_screen.atlas",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/fsScreen/fs_screen.atlas",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/fsScreen/fs_screen.atlas"
+      ]
+    },
+    {
+      "file": "fs_screen.webp",
+      "role": "texture",
+      "sha256": "349e9d9d20f3e821f56d030c0a8d93b3c79d7cc5358a4500e2429d7bf425bfcb",
+      "size": 933090,
+      "original_filename": "fs_screen.webp",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/fsScreen/fs_screen.webp",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/fsScreen/fs_screen.webp"
+      ],
+      "atlas_page": "fs_screen.webp"
+    }
+  ],
+  "source_urls": [
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/fsScreen/fs_screen.json",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/fsScreen/fs_screen.atlas",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/fsScreen/fs_screen.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:09:21.635Z",
+  "sessions": [
+    "2026-10-02T20:15:11.265Z"
+  ],
+  "packaged_at": "2026-10-02T20:48:22.950Z"
+}

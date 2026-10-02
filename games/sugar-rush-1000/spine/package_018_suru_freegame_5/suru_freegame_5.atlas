@@ -1,0 +1,20 @@
+
+suru_freegame_5.png
+size: 36,88
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+window
+  rotate: true
+  xy: 0, 30
+  size: 57, 34
+  orig: 57, 34
+  offset: 0, 0
+  index: -1
+windowbutton
+  rotate: false
+  xy: 0, 0
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1

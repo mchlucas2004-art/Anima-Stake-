@@ -1,0 +1,287 @@
+{
+  "id": "sugar-rush-1000/package_056_suru_big_win_7",
+  "package": "package_056_suru_big_win_7",
+  "name": "suru_big_win_7",
+  "game": "Sugar Rush 1000",
+  "game_slug": "sugar-rush-1000",
+  "provider": "Pragmatic Play",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "suru_big_win_7.json",
+  "skeleton_version": "3.7.91",
+  "category": "effect",
+  "subtypes": [
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win"
+  ],
+  "tags": [
+    "effect",
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win",
+    "suru",
+    "big",
+    "bigwin"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "effect": 10.3,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:bigwin",
+      "bone:star",
+      "bone:stars",
+      "region:stars",
+      "win-celebration:bigwin"
+    ]
+  },
+  "animations": [
+    "mega_in",
+    "mega_loop",
+    "mega_out",
+    "nice_in",
+    "nice_loop",
+    "nice_out",
+    "sesnational_in",
+    "sesnational_loop",
+    "sesnational_out",
+    "superb_in",
+    "superb_loop",
+    "superb_out"
+  ],
+  "animation_details": [
+    {
+      "name": "mega_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4
+      }
+    },
+    {
+      "name": "mega_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 2
+      }
+    },
+    {
+      "name": "mega_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 5,
+        "slots": 2
+      }
+    },
+    {
+      "name": "nice_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4
+      }
+    },
+    {
+      "name": "nice_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 2
+      }
+    },
+    {
+      "name": "nice_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 5,
+        "slots": 2
+      }
+    },
+    {
+      "name": "sesnational_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4
+      }
+    },
+    {
+      "name": "sesnational_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 2
+      }
+    },
+    {
+      "name": "sesnational_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 5,
+        "slots": 2
+      }
+    },
+    {
+      "name": "superb_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4
+      }
+    },
+    {
+      "name": "superb_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 2
+      }
+    },
+    {
+      "name": "superb_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 5,
+        "slots": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 5,
+  "slots_count": 2,
+  "bones": [
+    "root",
+    "sensational",
+    "numbers",
+    "stars",
+    "big_star"
+  ],
+  "slots": [
+    "stars_left",
+    "stars_right"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 2,
+  "attachment_types": {
+    "region": 2
+  },
+  "dimensions": {
+    "width": 1659.44,
+    "height": 663.99
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "suru_big_win_7.png",
+      "atlas": "suru_big_win_7.atlas",
+      "file": "suru_big_win_7.png",
+      "sha256": "faac4ee3bf894017ae7be3ef948131f7e6a483f8d35fe7a6115b57a27d5a501f",
+      "format": "png",
+      "width": 1328,
+      "height": 640,
+      "atlas_size": [
+        1328,
+        640
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "suru_big_win_7.atlas",
+      "sha256": "40b1b688a75d3f15b2f80dbfed371ba8a7ae7b2e5bfccd81e65c11f1dac6d78f",
+      "format": "spine-3/libgdx",
+      "pages": [
+        "suru_big_win_7.png"
+      ],
+      "regions": 2,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 2/2 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "suru_big_win_7.json",
+      "role": "skeleton",
+      "sha256": "8155078d89b899dc8cb4a093b3f78f415d4428dd52369b93fc83ae7814e76dbd",
+      "size": 12463,
+      "original_filename": "suru_big_win_7.json",
+      "raw_path": "raw/_embedded/uht-1c7f666da45f/suru_big_win_7.json",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "1c7f666da45f49d4c80177c29fffccb6"
+      }
+    },
+    {
+      "file": "suru_big_win_7.atlas",
+      "role": "atlas",
+      "sha256": "40b1b688a75d3f15b2f80dbfed371ba8a7ae7b2e5bfccd81e65c11f1dac6d78f",
+      "size": 288,
+      "original_filename": "suru_big_win_7.atlas",
+      "raw_path": "raw/_embedded/uht-1c7f666da45f/suru_big_win_7.atlas",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "1c7f666da45f49d4c80177c29fffccb6"
+      }
+    },
+    {
+      "file": "suru_big_win_7.png",
+      "role": "texture",
+      "sha256": "faac4ee3bf894017ae7be3ef948131f7e6a483f8d35fe7a6115b57a27d5a501f",
+      "size": 67722,
+      "original_filename": "suru_big_win_7.png",
+      "raw_path": "raw/_embedded/uht-1c7f666da45f/suru_big_win_7.png",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "1c7f666da45f49d4c80177c29fffccb6"
+      },
+      "atlas_page": "suru_big_win_7.png"
+    }
+  ],
+  "source_urls": [],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": null,
+  "sessions": [],
+  "packaged_at": "2026-10-02T15:45:20.442Z"
+}

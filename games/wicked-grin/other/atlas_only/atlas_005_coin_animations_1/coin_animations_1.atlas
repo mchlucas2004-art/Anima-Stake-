@@ -1,0 +1,145 @@
+coin_animations_1.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+coin1_00
+  rotate: false
+  xy: 619, 395
+  size: 203, 204
+  orig: 228, 233
+  offset: 12, 15
+  index: -1
+coin1_01
+  rotate: false
+  xy: 413, 401
+  size: 203, 200
+  orig: 228, 233
+  offset: 12, 17
+  index: -1
+coin1_02
+  rotate: false
+  xy: 207, 429
+  size: 203, 192
+  orig: 228, 233
+  offset: 12, 21
+  index: -1
+coin1_03
+  rotate: false
+  xy: 1, 495
+  size: 203, 180
+  orig: 228, 233
+  offset: 12, 27
+  index: -1
+coin1_04
+  rotate: false
+  xy: 1, 677
+  size: 203, 164
+  orig: 228, 233
+  offset: 12, 35
+  index: -1
+coin1_05
+  rotate: false
+  xy: 622, 167
+  size: 204, 146
+  orig: 228, 233
+  offset: 12, 44
+  index: -1
+coin1_06
+  rotate: false
+  xy: 1, 1
+  size: 206, 126
+  orig: 228, 233
+  offset: 11, 54
+  index: -1
+coin1_07
+  rotate: false
+  xy: 209, 1
+  size: 205, 104
+  orig: 228, 233
+  offset: 11, 65
+  index: -1
+coin1_08
+  rotate: false
+  xy: 1, 415
+  size: 204, 78
+  orig: 228, 233
+  offset: 11, 78
+  index: -1
+coin1_09
+  rotate: false
+  xy: 1, 843
+  size: 203, 50
+  orig: 228, 233
+  offset: 12, 92
+  index: -1
+coin1_10
+  rotate: false
+  xy: 1, 895
+  size: 202, 22
+  orig: 228, 233
+  offset: 12, 106
+  index: -1
+coin1_11
+  rotate: false
+  xy: 413, 351
+  size: 204, 48
+  orig: 228, 233
+  offset: 12, 93
+  index: -1
+coin1_12
+  rotate: false
+  xy: 621, 315
+  size: 204, 78
+  orig: 228, 233
+  offset: 12, 78
+  index: -1
+coin1_13
+  rotate: false
+  xy: 1, 311
+  size: 204, 102
+  orig: 228, 233
+  offset: 12, 66
+  index: -1
+coin1_14
+  rotate: false
+  xy: 207, 301
+  size: 204, 126
+  orig: 228, 233
+  offset: 12, 54
+  index: -1
+coin1_15
+  rotate: false
+  xy: 415, 203
+  size: 204, 146
+  orig: 228, 233
+  offset: 12, 44
+  index: -1
+coin1_16
+  rotate: false
+  xy: 622, 1
+  size: 204, 164
+  orig: 228, 233
+  offset: 12, 35
+  index: -1
+coin1_17
+  rotate: false
+  xy: 1, 129
+  size: 204, 180
+  orig: 228, 233
+  offset: 12, 27
+  index: -1
+coin1_18
+  rotate: false
+  xy: 209, 107
+  size: 204, 192
+  orig: 228, 233
+  offset: 12, 21
+  index: -1
+coin1_19
+  rotate: false
+  xy: 416, 1
+  size: 204, 200
+  orig: 228, 233
+  offset: 12, 17
+  index: -1

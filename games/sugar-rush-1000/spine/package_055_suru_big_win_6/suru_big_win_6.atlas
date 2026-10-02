@@ -1,0 +1,13 @@
+
+suru_big_win_6.png
+size: 441,230
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rays_2
+  rotate: false
+  xy: 0, 0
+  size: 441, 230
+  orig: 441, 230
+  offset: 0, 0
+  index: -1

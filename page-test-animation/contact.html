@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Planche contact Spine</title>
+<script src="https://cdn.jsdelivr.net/npm/@esotericsoftware/spine-webgl@4.2.120/dist/iife/spine-webgl.js"></script>
+<style>html,body{margin:0;background:#1d1830;color:#ddd;font:12px system-ui} canvas{display:block} #wrap{position:relative}</style></head>
+<body><div id="wrap"><canvas id="c"></canvas><canvas id="t" style="position:absolute;left:0;top:0"></canvas></div>
+<script>
+// Renders one animation at several times in a grid (visual QA of keyframes).
+// ?skel=..&atlas=..&anim=intro&times=0,0.1,0.2&cols=5&cell=300&scale=0.7
+const q = new URLSearchParams(location.search);
+const anim = q.get('anim'), times = (q.get('times') || '0').split(',').map(Number);
+const cols = Number(q.get('cols') || 5), cell = Number(q.get('cell') || 300), scale = Number(q.get('scale') || 0.6), track1 = q.get('track1');
+const rows = Math.ceil(times.length / cols);
+const canvas = document.getElementById('c'), tc = document.getElementById('t');
+canvas.width = tc.width = cols * cell; canvas.height = tc.height = rows * cell;
+const ctx = new spine.ManagedWebGLRenderingContext(canvas, { alpha: false, preserveDrawingBuffer: true });
+const renderer = new spine.SceneRenderer(canvas, ctx, true);
+const assets = new spine.AssetManager(ctx);
+assets.loadTextureAtlas(q.get('atlas'));
+assets.loadJson(q.get('skel'));
+(function wait() {
+  if (!assets.isLoadingComplete()) return requestAnimationFrame(wait);
+  const atlas = assets.require(q.get('atlas'));
+  const json = new spine.SkeletonJson(new spine.AtlasAttachmentLoader(atlas));
+  const data = json.readSkeletonData(assets.require(q.get('skel')));
+  const sk = new spine.Skeleton(data);
+  const st = new spine.AnimationState(new spine.AnimationStateData(data));
+  const gl = ctx.gl;
+  gl.clearColor(0.11, 0.09, 0.19, 1); gl.clear(gl.COLOR_BUFFER_BIT);
+  renderer.camera.position.x = canvas.width / 2; renderer.camera.position.y = canvas.height / 2;
+  renderer.camera.viewportWidth = canvas.width; renderer.camera.viewportHeight = canvas.height;
+  renderer.begin();
+  const t2 = tc.getContext('2d'); t2.fillStyle = '#9ef'; t2.font = '14px monospace';
+  times.forEach((t, i) => {
+    sk.setToSetupPose(); st.clearTracks();
+    if (anim) st.setAnimation(0, anim, true);
+    if (track1) st.setAnimation(1, track1, true);
+    st.update(t); st.apply(sk);
+    const cx = (i % cols) * cell + cell / 2, cy = canvas.height - (Math.floor(i / cols) * cell + cell / 2) - 10;
+    sk.x = cx; sk.y = cy; sk.scaleX = sk.scaleY = scale;
+    sk.updateWorldTransform(q.get('physics') ? spine.Physics.update : spine.Physics.reset);
+    renderer.drawSkeleton(sk, false);
+    t2.fillText(`${anim || 'setup'} t=${t.toFixed(2)}`, (i % cols) * cell + 6, Math.floor(i / cols) * cell + 16);
+  });
+  renderer.end();
+  document.title = 'done';
+})();
+</script></body></html>

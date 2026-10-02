@@ -1,0 +1,75 @@
+effects.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+dust_512
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+grain_256
+  rotate: false
+  xy: 1, 515
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+spark_1
+  rotate: false
+  xy: 1, 773
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+spark_2
+  rotate: false
+  xy: 1, 926
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+spark_diamond_1
+  rotate: false
+  xy: 154, 773
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+spark_diamond_2
+  rotate: false
+  xy: 92, 926
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+spark_mult_1
+  rotate: false
+  xy: 259, 515
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+spark_mult_2
+  rotate: false
+  xy: 183, 926
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+spark_silver_1
+  rotate: false
+  xy: 307, 668
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+spark_silver_2
+  rotate: false
+  xy: 274, 926
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1

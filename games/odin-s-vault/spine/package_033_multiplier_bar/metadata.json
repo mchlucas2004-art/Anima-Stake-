@@ -1,0 +1,218 @@
+{
+  "id": "odin-s-vault/package_033_multiplier_bar",
+  "package": "package_033_multiplier_bar",
+  "name": "multiplier_bar",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "multiplier_bar.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "idle",
+    "spin",
+    "multiplier",
+    "symbol_idle"
+  ],
+  "tags": [
+    "symbol",
+    "idle",
+    "spin",
+    "multiplier",
+    "symbol_idle",
+    "bar",
+    "spines"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "symbol": 6,
+      "ui": 3,
+      "character": 0,
+      "effect": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:bar",
+      "name:multiplier"
+    ]
+  },
+  "animations": [
+    "spin",
+    "static"
+  ],
+  "animation_details": [
+    {
+      "name": "spin",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 7,
+        "slots": 14,
+        "attachments": 1,
+        "events": 1
+      }
+    },
+    {
+      "name": "static",
+      "duration": 0,
+      "timelines": {}
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [
+    "set"
+  ],
+  "bones_count": 9,
+  "slots_count": 18,
+  "bones": [
+    "root",
+    "cylinder 1",
+    "muliplyer_value",
+    "digit_1",
+    "digit_2",
+    "digit_3",
+    "digit_4",
+    "digit_5",
+    "digit_6"
+  ],
+  "slots": [
+    "cylinder_1_back",
+    "cylinder_mask",
+    "cylinder_1",
+    "cylinder_blure_1",
+    "x",
+    "digit_1",
+    "b_x",
+    "b_x2",
+    "b_x3",
+    "b_x4",
+    "b_x5",
+    "b_x6",
+    "b_digit_8",
+    "b_digit_7",
+    "b_digit_6",
+    "b_digit_5",
+    "b_digit_4",
+    "b_digit_2"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 16,
+  "attachment_types": {
+    "region": 13,
+    "mesh": 2,
+    "clipping": 1
+  },
+  "dimensions": {
+    "width": 78,
+    "height": 30
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "multiplier_bar.webp",
+      "atlas": "multiplier_bar.atlas",
+      "file": "multiplier_bar.webp",
+      "sha256": "3a50dfcb935016d5530d40cce8626fadb7a73c82891cffda01b4cea12e6387fb",
+      "format": "webp",
+      "width": 337,
+      "height": 32,
+      "atlas_size": [
+        337,
+        32
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "multiplier_bar.atlas",
+      "sha256": "f807e78f0903b2c914dda8729a49b830c1bb9a786f1bb69d1065e65d5b4623c6",
+      "format": "spine-4",
+      "pages": [
+        "multiplier_bar.webp"
+      ],
+      "regions": 10,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 10/10 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "multiplier_bar.json",
+      "role": "skeleton",
+      "sha256": "f458aa24608ebb0b8ae4c1394c19206cc9b5a28a6a0b3be158136eae96528ab0",
+      "size": 9378,
+      "original_filename": "multiplier_bar.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.json"
+      ]
+    },
+    {
+      "file": "multiplier_bar.atlas",
+      "role": "atlas",
+      "sha256": "f807e78f0903b2c914dda8729a49b830c1bb9a786f1bb69d1065e65d5b4623c6",
+      "size": 555,
+      "original_filename": "multiplier_bar.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.atlas"
+      ]
+    },
+    {
+      "file": "multiplier_bar.webp",
+      "role": "texture",
+      "sha256": "3a50dfcb935016d5530d40cce8626fadb7a73c82891cffda01b4cea12e6387fb",
+      "size": 4336,
+      "original_filename": "multiplier_bar.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.webp"
+      ],
+      "atlas_page": "multiplier_bar.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.532Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

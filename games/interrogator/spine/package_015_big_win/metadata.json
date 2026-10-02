@@ -1,0 +1,247 @@
+{
+  "id": "interrogator/package_015_big_win",
+  "package": "package_015_big_win",
+  "name": "big_win",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "big_win.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win"
+  ],
+  "tags": [
+    "effect",
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win",
+    "big",
+    "popups",
+    "bigwin"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "effect": 10.3,
+      "ui": 1.3,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:bigwin",
+      "bone:glow",
+      "bone:bigwin",
+      "region:glow",
+      "win-celebration:bigwin"
+    ]
+  },
+  "animations": [
+    "in",
+    "loop",
+    "out"
+  ],
+  "animation_details": [
+    {
+      "name": "in",
+      "duration": 2,
+      "timelines": {
+        "bones": 16,
+        "slots": 13,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 17,
+        "slots": 13
+      }
+    },
+    {
+      "name": "out",
+      "duration": 1,
+      "timelines": {
+        "bones": 16,
+        "slots": 14
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 19,
+  "slots_count": 23,
+  "bones": [
+    "root",
+    "big_win",
+    "elements",
+    "text",
+    "slime_2",
+    "slime_5",
+    "slime_1",
+    "slime_4",
+    "slime_3",
+    "b",
+    "g",
+    "i_1",
+    "i_2",
+    "n",
+    "w",
+    "magnifying_glass",
+    "folder",
+    "folder2",
+    "glow_add"
+  ],
+  "slots": [
+    "back",
+    "glow_add",
+    "frame",
+    "frame_add",
+    "slime_1",
+    "folder",
+    "folder2",
+    "glass",
+    "glass_add",
+    "magnifying_glass",
+    "slime_2",
+    "slime_3",
+    "slime_4",
+    "slime_5",
+    "g",
+    "i_2",
+    "b",
+    "n",
+    "n_add",
+    "w",
+    "w_add",
+    "i_1",
+    "i_1_add"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 24,
+  "attachment_types": {
+    "region": 22,
+    "mesh": 2
+  },
+  "dimensions": {
+    "width": 900.01,
+    "height": 900.01
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "big_win.png",
+      "atlas": "big_win.atlas",
+      "file": "big_win.png",
+      "sha256": "3cc3a024aff389e0ddace715f60b98f39ebba6f4aace6012ed6a7c777ef35039",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "atlas_size": [
+        1024,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "big_win.atlas",
+      "sha256": "ee02d33cd82a913e362c71a9f2eeb332eec0e2dcfff23ada3a7344ee84f98110",
+      "format": "spine-4",
+      "pages": [
+        "big_win.png"
+      ],
+      "regions": 16,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 16/16 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "big_win.json",
+      "role": "skeleton",
+      "sha256": "527cee3dab51fe6c80ff28dc9daee546f6352b487622e4bfbc73992d059a3b12",
+      "size": 31411,
+      "original_filename": "big_win.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.json"
+      ]
+    },
+    {
+      "file": "big_win.atlas",
+      "role": "atlas",
+      "sha256": "ee02d33cd82a913e362c71a9f2eeb332eec0e2dcfff23ada3a7344ee84f98110",
+      "size": 822,
+      "original_filename": "big_win.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.atlas"
+      ]
+    },
+    {
+      "file": "big_win.png",
+      "role": "texture",
+      "sha256": "3cc3a024aff389e0ddace715f60b98f39ebba6f4aace6012ed6a7c777ef35039",
+      "size": 668016,
+      "original_filename": "big_win.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.png"
+      ],
+      "atlas_page": "big_win.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:41.196Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

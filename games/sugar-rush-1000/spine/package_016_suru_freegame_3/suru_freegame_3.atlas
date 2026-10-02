@@ -1,0 +1,118 @@
+
+suru_freegame_3.png
+size: 304,88
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+candy_1
+  rotate: false
+  xy: 42, 41
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+candy_10
+  rotate: true
+  xy: 90, 41
+  size: 46, 42
+  orig: 46, 42
+  offset: 0, 0
+  index: -1
+candy_11
+  rotate: true
+  xy: 0, 38
+  size: 49, 40
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+candy_12
+  rotate: true
+  xy: 0, 0
+  size: 36, 35
+  orig: 36, 35
+  offset: 0, 0
+  index: -1
+candy_13
+  rotate: false
+  xy: 271, 25
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+candy_14
+  rotate: false
+  xy: 201, 52
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+candy_15
+  rotate: false
+  xy: 161, 49
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+candy_16
+  rotate: true
+  xy: 134, 42
+  size: 45, 25
+  orig: 45, 25
+  offset: 0, 0
+  index: -1
+candy_2
+  rotate: true
+  xy: 73, 0
+  size: 39, 40
+  orig: 39, 40
+  offset: 0, 0
+  index: -1
+candy_3
+  rotate: false
+  xy: 115, 0
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+candy_4
+  rotate: false
+  xy: 197, 9
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+candy_5
+  rotate: false
+  xy: 271, 56
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+candy_6
+  rotate: false
+  xy: 236, 18
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+candy_7
+  rotate: false
+  xy: 157, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+candy_8
+  rotate: false
+  xy: 37, 1
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+candy_9
+  rotate: false
+  xy: 237, 55
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

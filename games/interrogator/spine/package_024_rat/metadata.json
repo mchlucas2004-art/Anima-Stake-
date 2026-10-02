@@ -1,0 +1,212 @@
+{
+  "id": "interrogator/package_024_rat",
+  "package": "package_024_rat",
+  "name": "rat",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "rat.json",
+  "skeleton_version": "4.2.43",
+  "category": "character",
+  "subtypes": [
+    "exit"
+  ],
+  "tags": [
+    "character",
+    "exit",
+    "rat",
+    "ambient"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "character": 11,
+      "background": 3,
+      "symbol": 0,
+      "effect": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:rat",
+      "body-parts:body,head,nose,ear,hand,tail,eye,eyel"
+    ]
+  },
+  "animations": [
+    "leave",
+    "peek"
+  ],
+  "animation_details": [
+    {
+      "name": "leave",
+      "duration": 0.34,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "peek",
+      "duration": 5.8,
+      "timelines": {
+        "bones": 12,
+        "slots": 4,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 15,
+  "slots_count": 15,
+  "bones": [
+    "root",
+    "body",
+    "head",
+    "nose",
+    "ear_l",
+    "ear_r",
+    "hand_l",
+    "hand_r",
+    "tail_base",
+    "tail_mid",
+    "tail_tip",
+    "eye_l",
+    "eye_l_pupil",
+    "eye_r",
+    "eye_r_pupil"
+  ],
+  "slots": [
+    "tail",
+    "body",
+    "ear_l",
+    "ear_r",
+    "hand_l",
+    "hand_r",
+    "head",
+    "eye_l_clip",
+    "eye_l_pupil",
+    "eye_l_upper",
+    "eye_l_lower",
+    "eye_r_clip",
+    "eye_r_pupil",
+    "eye_r_upper",
+    "eye_r_lower"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 15,
+  "attachment_types": {
+    "mesh": 13,
+    "clipping": 2
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "rat.png",
+      "atlas": "rat.atlas",
+      "file": "rat.png",
+      "sha256": "e14543fb7d15af79f017f7e9b0177be0dd7ff7d9e8e53062fa122f4ee4f9eb0a",
+      "format": "png",
+      "width": 818,
+      "height": 1064,
+      "atlas_size": [
+        818,
+        1064
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "rat.atlas",
+      "sha256": "4594f97e6f145c77fb55208b61042312b5f2fcf166c1e5a26be34e7699f872cc",
+      "format": "spine-4",
+      "pages": [
+        "rat.png"
+      ],
+      "regions": 11,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 135,
+      "evidence": [
+        "regions 11/11 (100% of skeleton)",
+        "same base name",
+        "same folder"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "rat.json",
+      "role": "skeleton",
+      "sha256": "b173894111e07fd8ec379657b537c1570333046d9f925626327f62777f87a26d",
+      "size": 138900,
+      "original_filename": "rat.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.json"
+      ]
+    },
+    {
+      "file": "rat.atlas",
+      "role": "atlas",
+      "sha256": "4594f97e6f145c77fb55208b61042312b5f2fcf166c1e5a26be34e7699f872cc",
+      "size": 462,
+      "original_filename": "rat.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.atlas"
+      ]
+    },
+    {
+      "file": "rat.png",
+      "role": "texture",
+      "sha256": "e14543fb7d15af79f017f7e9b0177be0dd7ff7d9e8e53062fa122f4ee4f9eb0a",
+      "size": 903098,
+      "original_filename": "rat.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.png"
+      ],
+      "atlas_page": "rat.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:25:46.474Z",
+  "sessions": [
+    "2026-10-02T15:25:45.823Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

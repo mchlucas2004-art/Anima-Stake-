@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "session_id": "2026-10-02T20:14:34.324Z",
+  "game": "Beasts",
+  "entry": {
+    "name": "Beasts",
+    "provider": null
+  },
+  "updated_at": "2026-10-02T20:14:52.054Z",
+  "session": {
+    "id": "2026-10-02T20:14:34.324Z",
+    "started_at": "2026-10-02T20:14:34.324Z",
+    "ended_at": "2026-10-02T20:14:51.948Z",
+    "stop_reason": "har_import",
+    "mode": "har",
+    "source_file": "Beasts.har",
+    "counters": {
+      "requests": 1315,
+      "finished": 1315,
+      "failed": 0,
+      "candidates": 268,
+      "images": 257,
+      "json": 11,
+      "atlases": 0,
+      "skeletons": 0,
+      "newSkeletons": 0,
+      "bytes": 10093339,
+      "errors": 0,
+      "probes": 0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+.browser-profile/
+temp/
+logs/
+test/.sandbox/
+import/
+config/secrets.json

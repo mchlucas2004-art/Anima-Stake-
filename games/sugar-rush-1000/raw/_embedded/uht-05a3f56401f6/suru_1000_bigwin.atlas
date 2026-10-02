@@ -1,0 +1,20 @@
+
+suru_1000_bigwin.png
+size: 2504,1228
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bokeh
+  rotate: false
+  xy: 2, 2
+  size: 411, 223
+  orig: 411, 223
+  offset: 0, 0
+  index: -1
+colour_effects_n
+  rotate: false
+  xy: 2, 227
+  size: 2500, 999
+  orig: 2500, 999
+  offset: 0, 0
+  index: -1

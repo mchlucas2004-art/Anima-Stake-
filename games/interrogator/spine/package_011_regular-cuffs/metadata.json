@@ -1,0 +1,202 @@
+{
+  "id": "interrogator/package_011_regular-cuffs",
+  "package": "package_011_regular-cuffs",
+  "name": "regular-cuffs",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "regular-cuffs.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "win",
+    "land",
+    "symbol_win"
+  ],
+  "tags": [
+    "symbol",
+    "win",
+    "land",
+    "symbol_win",
+    "regular",
+    "cuffs",
+    "symbols"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "symbol": 5,
+      "character": 0,
+      "effect": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:symbols",
+      "anims:land+win"
+    ]
+  },
+  "animations": [
+    "land",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 7,
+        "events": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 7,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [
+    "land",
+    "win_impact"
+  ],
+  "bones_count": 9,
+  "slots_count": 3,
+  "bones": [
+    "root",
+    "sway",
+    "left_cuff",
+    "chain_0",
+    "chain_1",
+    "chain_2",
+    "chain_3",
+    "right_cuff",
+    "right_ring"
+  ],
+  "slots": [
+    "left_cuff",
+    "chain",
+    "right_cuff"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 3,
+  "attachment_types": {
+    "mesh": 3
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "regular-cuffs.png",
+      "atlas": "regular-cuffs.atlas",
+      "file": "regular-cuffs.png",
+      "sha256": "69de001360e3449e6fe357f654f8af96e9cd33b398e3f9e6d542a6b146fafb6f",
+      "format": "png",
+      "width": 1689,
+      "height": 589,
+      "atlas_size": [
+        1689,
+        589
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "regular-cuffs.atlas",
+      "sha256": "5e451a7cea5599c7401320ab051174364fa760d98cde717845d2d20f72ac331c",
+      "format": "spine-4",
+      "pages": [
+        "regular-cuffs.png"
+      ],
+      "regions": 3,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 3/3 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "regular-cuffs.json",
+      "role": "skeleton",
+      "sha256": "6959021859f9638dd57188353d780a030645da39db93b2c5bc25a91b732dbc12",
+      "size": 76353,
+      "original_filename": "regular-cuffs.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.json"
+      ]
+    },
+    {
+      "file": "regular-cuffs.atlas",
+      "role": "atlas",
+      "sha256": "5e451a7cea5599c7401320ab051174364fa760d98cde717845d2d20f72ac331c",
+      "size": 185,
+      "original_filename": "regular-cuffs.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.atlas"
+      ]
+    },
+    {
+      "file": "regular-cuffs.png",
+      "role": "texture",
+      "sha256": "69de001360e3449e6fe357f654f8af96e9cd33b398e3f9e6d542a6b146fafb6f",
+      "size": 998991,
+      "original_filename": "regular-cuffs.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.png"
+      ],
+      "atlas_page": "regular-cuffs.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:35.518Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

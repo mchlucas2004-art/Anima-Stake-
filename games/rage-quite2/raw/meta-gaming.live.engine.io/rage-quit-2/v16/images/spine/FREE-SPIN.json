@@ -1,0 +1,241 @@
+{
+"skeleton": {
+	"hash": "FtFDbaqvlvw",
+	"spine": "4.2.43",
+	"x": -728,
+	"y": -349,
+	"width": 1418,
+	"height": 1370,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "fs-txt", "parent": "root", "x": -19, "y": 926 },
+	{ "name": "fs-backer", "parent": "root", "x": 4, "y": 258.5 },
+	{ "name": "fs-fs", "parent": "root", "x": -2.5, "y": -306.5 }
+],
+"slots": [
+	{ "name": "fs-txt", "bone": "fs-txt", "attachment": "fs-txt" },
+	{ "name": "fs-backer", "bone": "fs-backer", "attachment": "fs-backer" },
+	{ "name": "slot-no", "bone": "fs-backer", "attachment": "slot-no" },
+	{ "name": "fs-light-bot", "bone": "root" },
+	{ "name": "fs-light-up", "bone": "root" },
+	{ "name": "fs-fs", "bone": "fs-fs", "attachment": "fs-fs" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fs-backer": {
+				"fs-backer": { "width": 944, "height": 917 }
+			},
+			"fs-fs": {
+				"fs-fs": { "width": 597, "height": 85 }
+			},
+			"fs-light-bot": {
+				"fs-light-bot": { "x": 4.5, "y": -389.5, "width": 847, "height": 75 }
+			},
+			"fs-light-up": {
+				"fs-light-up": { "x": 4, "y": -93.5, "width": 1234, "height": 603 }
+			},
+			"fs-txt": {
+				"fs-txt": { "width": 1418, "height": 190 }
+			},
+			"slot-no": {
+				"slot-no": { "y": -28, "width": 444, "height": 393 }
+			}
+		}
+	}
+],
+"animations": {
+	"intro": {
+		"slots": {
+			"fs-backer": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff" }
+				]
+			},
+			"fs-light-bot": {
+				"attachment": [
+					{ "time": 0.1667, "name": "fs-light-bot" }
+				]
+			},
+			"fs-light-up": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "fs-light-up" }
+				]
+			}
+		},
+		"bones": {
+			"fs-txt": {
+				"scale": [
+					{
+						"x": 0.009,
+						"y": 0.009,
+						"curve": [ 0.056, 0.394, 0.111, 1.164, 0.056, 0.394, 0.111, 1.164 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 1.164,
+						"y": 1.164,
+						"curve": [ 0.256, 1.164, 0.344, 0.879, 0.256, 1.164, 0.344, 0.879 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 0.879,
+						"y": 0.879,
+						"curve": [ 0.511, 0.879, 0.589, 0.96, 0.511, 0.879, 0.589, 0.96 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"fs-fs": {
+				"scale": [
+					{
+						"x": 0.009,
+						"y": 0.009,
+						"curve": [ 0.056, 0.394, 0.111, 1.164, 0.056, 0.394, 0.111, 1.164 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 1.164,
+						"y": 1.164,
+						"curve": [ 0.256, 1.164, 0.344, 0.879, 0.256, 1.164, 0.344, 0.879 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 0.879,
+						"y": 0.879,
+						"curve": [ 0.511, 0.879, 0.589, 0.96, 0.511, 0.879, 0.589, 0.96 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"fs-backer": {
+				"scale": [
+					{
+						"x": 0.009,
+						"y": 0.009,
+						"curve": [ 0.056, 0.394, 0.111, 1.164, 0.056, 0.394, 0.111, 1.164 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 1.164,
+						"y": 1.164,
+						"curve": [ 0.256, 1.164, 0.344, 0.879, 0.256, 1.164, 0.344, 0.879 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 0.879,
+						"y": 0.879,
+						"curve": [ 0.511, 0.879, 0.589, 0.96, 0.511, 0.879, 0.589, 0.96 ]
+					},
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"fs-light-bot": {
+				"attachment": [
+					{ "name": "fs-light-bot" }
+				]
+			},
+			"fs-light-up": {
+				"attachment": [
+					{ "name": "fs-light-up" },
+					{ "time": 0.5 },
+					{ "time": 0.5667, "name": "fs-light-up" },
+					{ "time": 0.6333 },
+					{ "time": 0.7, "name": "fs-light-up" }
+				]
+			}
+		},
+		"bones": {
+			"fs-backer": {
+				"scale": [
+					{
+						"curve": [ 0.311, 1.013, 0.444, 1.053, 0.311, 1.013, 0.444, 1.053 ]
+					},
+					{
+						"time": 0.6667,
+						"x": 1.053,
+						"y": 1.053,
+						"curve": [ 0.889, 1.053, 1.111, 0.991, 0.889, 1.053, 1.111, 0.991 ]
+					},
+					{
+						"time": 1.3333,
+						"curve": [ 1.645, 1.013, 1.778, 1.053, 1.645, 1.013, 1.778, 1.053 ]
+					},
+					{
+						"time": 2,
+						"x": 1.053,
+						"y": 1.053,
+						"curve": [ 2.222, 1.053, 2.408, 0.989, 2.222, 1.053, 2.408, 0.989 ]
+					},
+					{ "time": 2.6667 }
+				]
+			}
+		}
+	},
+	"outro": {
+		"slots": {
+			"fs-light-bot": {
+				"attachment": [
+					{ "name": "fs-light-bot" },
+					{ "time": 0.1333 },
+					{ "time": 0.2, "name": "fs-light-bot" },
+					{ "time": 0.2667 }
+				]
+			},
+			"fs-light-up": {
+				"attachment": [
+					{ "name": "fs-light-up" },
+					{ "time": 0.1333 },
+					{ "time": 0.2, "name": "fs-light-up" },
+					{ "time": 0.2667 }
+				]
+			}
+		},
+		"bones": {
+			"fs-txt": {
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 1.117, "y": 1.117 },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			},
+			"fs-fs": {
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 1.117, "y": 1.117 },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			},
+			"fs-backer": {
+				"scale": [
+					{
+						"curve": [ 0.062, 1.003, 0.117, 1.11, 0.062, 1.003, 0.117, 1.11 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 1.114,
+						"y": 1.114,
+						"curve": [ 0.229, 1.119, 0.284, 0.008, 0.229, 1.119, 0.284, 0.008 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

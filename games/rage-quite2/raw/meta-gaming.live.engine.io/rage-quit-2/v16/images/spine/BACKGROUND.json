@@ -1,0 +1,234 @@
+{
+"skeleton": {
+	"hash": "XNqHN9zU3WU",
+	"spine": "4.2.43",
+	"x": -1924,
+	"y": -1386,
+	"width": 3848,
+	"height": 3056,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg_base", "parent": "root", "y": 142, "scaleX": 4, "scaleY": 4 },
+	{ "name": "bg_rgb", "parent": "root", "x": -1174.4, "y": 31.53, "scaleX": 0.4001, "scaleY": 1.0952 },
+	{ "name": "bone", "parent": "bg_rgb" },
+	{ "name": "bg_rgb2", "parent": "root", "x": -1172.72, "y": -161.37, "scaleX": 0.4096, "scaleY": 1.1212 },
+	{ "name": "bone2", "parent": "bg_rgb2" },
+	{ "name": "bg_fan-rgb_00", "parent": "root", "x": -1170.75, "y": 34.49, "scaleX": 0.8497, "scaleY": 2.2242 },
+	{ "name": "bg_fan-rgb_01", "parent": "root", "x": -1170.75, "y": -160.29, "scaleX": 0.8497, "scaleY": 2.2242 },
+	{ "name": "bg_fan-rgb_02", "parent": "root", "x": -1394.19, "y": 124.62, "scaleX": 1.653, "scaleY": 1.7014 }
+],
+"slots": [
+	{ "name": "bg_base", "bone": "bg_base", "attachment": "bg_base" },
+	{ "name": "bg_screen", "bone": "bg_base", "dark": "ffffff" },
+	{ "name": "bg_light-base", "bone": "bg_base" },
+	{ "name": "bg_meta", "bone": "root", "attachment": "bg_meta" },
+	{ "name": "bg_rgb", "bone": "bone", "attachment": "bg_rgb" },
+	{ "name": "bg_rgb2", "bone": "bone2", "attachment": "bg_rgb" },
+	{ "name": "demo-ui", "bone": "root" },
+	{ "name": "bg_fan-rgb_00", "bone": "bg_fan-rgb_00", "attachment": "bg_fan-rgb_" },
+	{ "name": "bg_fan-rgb_02", "bone": "bg_fan-rgb_02", "color": "ffffffc7", "attachment": "bg_fan-rgb_" },
+	{ "name": "bg_fan-rgb_01", "bone": "bg_fan-rgb_01", "attachment": "bg_fan-rgb_" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bg_base": {
+				"bg_base": { "width": 962, "height": 764 },
+				"bg_bonus": { "width": 962, "height": 764 }
+			},
+			"bg_fan-rgb_00": {
+				"bg_fan-rgb_": {
+					"width": 120,
+					"height": 121,
+					"sequence": { "count": 24, "start": 0, "digits": 2 }
+				}
+			},
+			"bg_fan-rgb_01": {
+				"bg_fan-rgb_": {
+					"width": 120,
+					"height": 121,
+					"sequence": { "count": 24, "start": 0, "digits": 2 }
+				}
+			},
+			"bg_fan-rgb_02": {
+				"bg_fan-rgb_": {
+					"type": "mesh",
+					"uvs": [ 0.75597, 1, 0, 1, 0, 0, 0.75597, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 30.72, -60.5, -60, -60.5, -60, 60.5, 30.72, 60.5 ],
+					"hull": 4,
+					"sequence": { "count": 24, "start": 0, "digits": 2 },
+					"edges": [ 2, 4, 4, 6, 0, 2, 6, 0 ],
+					"width": 120,
+					"height": 121
+				}
+			},
+			"bg_light-base": {
+				"bg_light-base": { "x": 332, "y": 113, "width": 300, "height": 272 },
+				"bg_light-bonus": { "x": 319.5, "y": 92.5, "width": 321, "height": 357 }
+			},
+			"bg_meta": {
+				"bg_meta": { "x": -1760, "y": -23, "width": 294, "height": 144 },
+				"bg_meta-glitch": { "x": -1766, "y": -21.5, "width": 306, "height": 147 }
+			},
+			"bg_rgb": {
+				"bg_rgb": { "width": 175, "height": 176 }
+			},
+			"bg_rgb2": {
+				"bg_rgb": { "width": 175, "height": 176 }
+			},
+			"bg_screen": {
+				"bg_base": {
+					"type": "mesh",
+					"color": "303030ff",
+					"uvs": [ 0.08908, 0.47002, 0.09538, 0.47795, 0.09837, 0.61368, 0.09306, 0.62078, 0, 0.64374, 0, 0.46334 ],
+					"triangles": [ 1, 5, 0, 2, 5, 1, 3, 4, 5, 5, 2, 3 ],
+					"vertices": [ -395.3, 22.9, -389.24, 16.84, -386.37, -86.85, -391.47, -92.27, -481, -109.82, -481, 28.01 ],
+					"hull": 6,
+					"edges": [ 10, 0, 0, 2, 2, 4, 4, 6, 8, 10, 6, 8 ],
+					"width": 962,
+					"height": 764
+				},
+				"bg_bonus": { "width": 962, "height": 764 }
+			}
+		}
+	}
+],
+"animations": {
+	"base": {
+		"slots": {
+			"bg_light-base": {
+				"attachment": [
+					{ "name": "bg_light-base" },
+					{ "time": 0.0333 },
+					{ "time": 0.1, "name": "bg_light-base" },
+					{ "time": 0.1333 },
+					{ "time": 5.0333, "name": "bg_light-base" },
+					{ "time": 5.0667 },
+					{ "time": 7.9667, "name": "bg_light-base" },
+					{ "time": 8 },
+					{ "time": 12, "name": "bg_light-base" }
+				]
+			},
+			"bg_meta": {
+				"attachment": [
+					{ "time": 1.4667, "name": "bg_meta-glitch" },
+					{ "time": 1.5, "name": "bg_meta" },
+					{ "time": 1.5667, "name": "bg_meta-glitch" },
+					{ "time": 1.7667, "name": "bg_meta" },
+					{ "time": 1.8, "name": "bg_meta-glitch" },
+					{ "time": 1.8333, "name": "bg_meta" },
+					{ "time": 1.9667 },
+					{ "time": 2.0667, "name": "bg_meta" },
+					{ "time": 2.1333 },
+					{ "time": 2.2, "name": "bg_meta" }
+				]
+			},
+			"bg_screen": {
+				"attachment": [
+					{ "time": 1.9667, "name": "bg_base" },
+					{ "time": 2.0667 },
+					{ "time": 2.1333, "name": "bg_base" },
+					{ "time": 2.2 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"bg_fan-rgb_00": {
+					"bg_fan-rgb_": {
+						"sequence": [
+							{ "mode": "loop", "delay": 0.0417 }
+						]
+					}
+				},
+				"bg_fan-rgb_01": {
+					"bg_fan-rgb_": {
+						"sequence": [
+							{ "mode": "loop", "delay": 0.0417 }
+						]
+					}
+				},
+				"bg_fan-rgb_02": {
+					"bg_fan-rgb_": {
+						"sequence": [
+							{ "mode": "loop", "delay": 0.0417 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"bonus": {
+		"slots": {
+			"bg_base": {
+				"attachment": [
+					{ "name": "bg_bonus" }
+				]
+			},
+			"bg_light-base": {
+				"attachment": [
+					{ "name": "bg_light-bonus" },
+					{ "time": 0.1333 },
+					{ "time": 5.0333, "name": "bg_light-bonus" },
+					{ "time": 5.0667 },
+					{ "time": 7.9667, "name": "bg_light-bonus" },
+					{ "time": 8 },
+					{ "time": 12, "name": "bg_light-bonus" }
+				]
+			},
+			"bg_meta": {
+				"attachment": [
+					{ "time": 1.4667, "name": "bg_meta-glitch" },
+					{ "time": 1.5, "name": "bg_meta" },
+					{ "time": 1.5667, "name": "bg_meta-glitch" },
+					{ "time": 1.7667, "name": "bg_meta" },
+					{ "time": 1.8, "name": "bg_meta-glitch" },
+					{ "time": 1.8333, "name": "bg_meta" },
+					{ "time": 1.9667 },
+					{ "time": 2.0667, "name": "bg_meta" },
+					{ "time": 2.1333 },
+					{ "time": 2.2, "name": "bg_meta" }
+				]
+			},
+			"bg_screen": {
+				"attachment": [
+					{ "time": 1.9667, "name": "bg_base" },
+					{ "time": 2.0667 },
+					{ "time": 2.1333, "name": "bg_base" },
+					{ "time": 2.2 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"bg_fan-rgb_00": {
+					"bg_fan-rgb_": {
+						"sequence": [
+							{ "mode": "loop", "delay": 0.0417 }
+						]
+					}
+				},
+				"bg_fan-rgb_01": {
+					"bg_fan-rgb_": {
+						"sequence": [
+							{ "mode": "loop", "delay": 0.0417 }
+						]
+					}
+				},
+				"bg_fan-rgb_02": {
+					"bg_fan-rgb_": {
+						"sequence": [
+							{ "mode": "loop", "delay": 0.0417 }
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

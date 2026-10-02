@@ -1,0 +1,68 @@
+background.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+bg_glow
+  rotate: false
+  xy: 1, 1
+  size: 1920, 1024
+  orig: 1920, 1024
+  offset: 0, 0
+  index: -1
+black
+  rotate: false
+  xy: 650, 1666
+  size: 333, 345
+  orig: 333, 345
+  offset: 0, 0
+  index: -1
+brown
+  rotate: false
+  xy: 985, 1666
+  size: 331, 343
+  orig: 333, 345
+  offset: 1, 1
+  index: -1
+four_row
+  rotate: false
+  xy: 1, 1027
+  size: 647, 837
+  orig: 647, 837
+  offset: 0, 0
+  index: -1
+gold
+  rotate: false
+  xy: 1318, 1699
+  size: 331, 343
+  orig: 333, 345
+  offset: 1, 1
+  index: -1
+one_row
+  rotate: false
+  xy: 1318, 1462
+  size: 647, 235
+  orig: 647, 235
+  offset: 0, 0
+  index: -1
+three_row
+  rotate: false
+  xy: 650, 1027
+  size: 647, 637
+  orig: 647, 637
+  offset: 0, 0
+  index: -1
+two_row
+  rotate: false
+  xy: 1318, 1027
+  size: 647, 433
+  orig: 647, 433
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 1651, 1699
+  size: 331, 343
+  orig: 333, 345
+  offset: 1, 1
+  index: -1

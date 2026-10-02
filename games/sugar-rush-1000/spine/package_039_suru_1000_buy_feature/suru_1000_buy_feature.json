@@ -1,0 +1,197 @@
+{
+"skeleton": { "hash": "f8ztj1yhzy1CBvPPb0/xA6o+iPw", "spine": "3.7.91", "width": 188, "height": 106, "images": "./images/", "audio": "D:/TANAY/440_SUGAR_RUSH_1000/suru1000_buy_super_feature" },
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "small_super_buy_click",
+		"parent": "root",
+		"length": 121.29,
+		"rotation": -0.7,
+		"x": -756.28,
+		"y": 329.15,
+		"color": "ebfd00ff"
+	}
+],
+"slots": [
+	{ "name": "sugar", "bone": "root" },
+	{ "name": "green_base_small", "bone": "root" },
+	{ "name": "buy_text_small_2", "bone": "root" },
+	{ "name": "super_text_small", "bone": "root" },
+	{ "name": "spins_text_small_2", "bone": "root" },
+	{ "name": "red_base_small", "bone": "root", "attachment": "red_base_small" },
+	{ "name": "red_base_small2", "bone": "root", "color": "ffffff00", "attachment": "red_base_small", "blend": "additive" },
+	{ "name": "spins_text_small", "bone": "small_super_buy_click" },
+	{ "name": "buy_text_small", "bone": "small_super_buy_click" }
+],
+"skins": {
+	"default": {
+		"red_base_small": {
+			"red_base_small": { "x": -752, "y": 328, "width": 188, "height": 106 }
+		},
+		"red_base_small2": {
+			"red_base_small": { "x": -752, "y": 328, "width": 188, "height": 106 }
+		}
+	}
+},
+"animations": {
+	"suru_1000_buy_feature_big_in": {
+		"slots": {
+			"red_base_small": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"red_base_small2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"suru_1000_buy_feature_big_loop": {
+		"slots": {
+			"red_base_small": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"red_base_small2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"small_super_buy_click": {
+				"scale": [
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"suru_1000_buy_feature_big_right_click_out": {
+		"slots": {
+			"red_base_small": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"red_base_small2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"small_super_buy_click": {
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"suru_1000_buy_feature_big_wrong_click_out": {
+		"slots": {
+			"red_base_small": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"red_base_small2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"small_super_buy_click": {
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"suru_1000_buy_feature_small_click": {
+		"slots": {
+			"red_base_small2": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"color": "ffffffc1",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"small_super_buy_click": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.872,
+						"y": 0.872,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 1.062,
+						"y": 1.062,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"suru_1000_buy_feature_small_loop": {
+		"slots": {
+			"red_base_small2": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffff4f",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"small_super_buy_click": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0.954,
+						"y": 0.954,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

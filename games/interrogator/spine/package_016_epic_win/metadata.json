@@ -1,0 +1,285 @@
+{
+  "id": "interrogator/package_016_epic_win",
+  "package": "package_016_epic_win",
+  "name": "epic_win",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "epic_win.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win"
+  ],
+  "tags": [
+    "effect",
+    "loop",
+    "win",
+    "entrance",
+    "exit",
+    "big_win",
+    "epic",
+    "popups",
+    "epicwin"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "effect": 11.9,
+      "ui": 1.3,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:epicwin",
+      "bone:glow",
+      "bone:bubble",
+      "bone:bubbles",
+      "bone:epicwin",
+      "region:glow",
+      "region:bubble",
+      "region:bubbles",
+      "win-celebration:epicwin"
+    ]
+  },
+  "animations": [
+    "in",
+    "loop",
+    "out"
+  ],
+  "animation_details": [
+    {
+      "name": "in",
+      "duration": 2,
+      "timelines": {
+        "bones": 34,
+        "slots": 14
+      }
+    },
+    {
+      "name": "loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 31,
+        "slots": 10
+      }
+    },
+    {
+      "name": "out",
+      "duration": 1,
+      "timelines": {
+        "bones": 34,
+        "slots": 14
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 38,
+  "slots_count": 39,
+  "bones": [
+    "root",
+    "epic_win",
+    "elements",
+    "text",
+    "slime_1",
+    "slime_2",
+    "slime_3",
+    "slime_4",
+    "slime_5",
+    "slime_6",
+    "bottle",
+    "magnifying_glass",
+    "badge",
+    "handcuffs",
+    "frame",
+    "c",
+    "e",
+    "i_1",
+    "i_2",
+    "n",
+    "p",
+    "w",
+    "cover",
+    "bubbles",
+    "bubble_1",
+    "bubble_2",
+    "bubble_3",
+    "bubble_4",
+    "bubble_5",
+    "bubble_6",
+    "bubble_7",
+    "bubble_8",
+    "bubbles2",
+    "bubbles3",
+    "bubbles4",
+    "glow_add",
+    "handcuffs2",
+    "handcuffs3"
+  ],
+  "slots": [
+    "back",
+    "glow_add",
+    "slime_6",
+    "slime_5",
+    "frame",
+    "frame_add",
+    "bottle",
+    "cover",
+    "bubbles",
+    "bubble_8",
+    "bubble_7",
+    "bubble_6",
+    "bubble_5",
+    "bubble_4",
+    "bubble_3",
+    "bubble_2",
+    "bubble_1",
+    "handcuffs",
+    "handcuffs_add",
+    "magnifying_glass",
+    "magnifying_glass_add",
+    "slime_4",
+    "badge",
+    "slime_3",
+    "slime_2",
+    "slime_1",
+    "n",
+    "n_add",
+    "i_2",
+    "i_2_add",
+    "w",
+    "w_add",
+    "c",
+    "i_1",
+    "p",
+    "e",
+    "badge_1",
+    "badge_2",
+    "badge_3"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 38,
+  "attachment_types": {
+    "region": 31,
+    "mesh": 7
+  },
+  "dimensions": {
+    "width": 660,
+    "height": 584
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "epic_win.png",
+      "atlas": "epic_win.atlas",
+      "file": "epic_win.png",
+      "sha256": "3385df62416a095ae3245d3fa67371e7e85004ccac98eb9f5ba8e92a829c3e2a",
+      "format": "png",
+      "width": 2048,
+      "height": 512,
+      "atlas_size": [
+        2048,
+        512
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "epic_win.atlas",
+      "sha256": "3ce073a8800711ad8d8af2548f927734e2395bf126e306fd1bc2b098e2ff99e3",
+      "format": "spine-4",
+      "pages": [
+        "epic_win.png"
+      ],
+      "regions": 32,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 32/32 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "epic_win.json",
+      "role": "skeleton",
+      "sha256": "4ff2518e661d09ac5afe0f06eed8a39fe5883dbfa444ce6eb92044ae889026fd",
+      "size": 60877,
+      "original_filename": "epic_win.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.json"
+      ]
+    },
+    {
+      "file": "epic_win.atlas",
+      "role": "atlas",
+      "sha256": "3ce073a8800711ad8d8af2548f927734e2395bf126e306fd1bc2b098e2ff99e3",
+      "size": 1629,
+      "original_filename": "epic_win.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.atlas"
+      ]
+    },
+    {
+      "file": "epic_win.png",
+      "role": "texture",
+      "sha256": "3385df62416a095ae3245d3fa67371e7e85004ccac98eb9f5ba8e92a829c3e2a",
+      "size": 1063006,
+      "original_filename": "epic_win.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.png"
+      ],
+      "atlas_page": "epic_win.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/popups/epic_win/epic_win.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:41.197Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

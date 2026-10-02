@@ -1,0 +1,199 @@
+{
+  "id": "interrogator/package_008_regular-knife",
+  "package": "package_008_regular-knife",
+  "name": "regular-knife",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "regular-knife.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "win",
+    "land",
+    "symbol_win"
+  ],
+  "tags": [
+    "symbol",
+    "win",
+    "land",
+    "symbol_win",
+    "regular",
+    "knife",
+    "symbols"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "symbol": 5,
+      "character": 0,
+      "effect": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:symbols",
+      "anims:land+win"
+    ]
+  },
+  "animations": [
+    "land",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 4,
+        "events": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 4,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [
+    "land",
+    "win_impact"
+  ],
+  "bones_count": 6,
+  "slots_count": 3,
+  "bones": [
+    "root",
+    "sway",
+    "grip",
+    "guard",
+    "blade",
+    "blade_tip"
+  ],
+  "slots": [
+    "handle",
+    "blade",
+    "guard"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 3,
+  "attachment_types": {
+    "mesh": 3
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "regular-knife.png",
+      "atlas": "regular-knife.atlas",
+      "file": "regular-knife.png",
+      "sha256": "d4abc5d9c595cb2960d2f90d3b130b93aad528a7660281a4bd50aa2984c87f81",
+      "format": "png",
+      "width": 1594,
+      "height": 690,
+      "atlas_size": [
+        1594,
+        690
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "regular-knife.atlas",
+      "sha256": "4e27eda001223dac1fcb93fa686ddc8eecdff9bf756737944a5a995c75be93ea",
+      "format": "spine-4",
+      "pages": [
+        "regular-knife.png"
+      ],
+      "regions": 3,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 3/3 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "regular-knife.json",
+      "role": "skeleton",
+      "sha256": "07519ac8c23fefb38807a3210fec0ef0ab6a29b09fee1ed16de7ec9a8dc84afe",
+      "size": 77238,
+      "original_filename": "regular-knife.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.json"
+      ]
+    },
+    {
+      "file": "regular-knife.atlas",
+      "role": "atlas",
+      "sha256": "4e27eda001223dac1fcb93fa686ddc8eecdff9bf756737944a5a995c75be93ea",
+      "size": 178,
+      "original_filename": "regular-knife.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.atlas"
+      ]
+    },
+    {
+      "file": "regular-knife.png",
+      "role": "texture",
+      "sha256": "d4abc5d9c595cb2960d2f90d3b130b93aad528a7660281a4bd50aa2984c87f81",
+      "size": 826854,
+      "original_filename": "regular-knife.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.png"
+      ],
+      "atlas_page": "regular-knife.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:35.518Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

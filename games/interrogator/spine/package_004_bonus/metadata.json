@@ -1,0 +1,429 @@
+{
+  "id": "interrogator/package_004_bonus",
+  "package": "package_004_bonus",
+  "name": "bonus",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "bonus.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "idle",
+    "land",
+    "attack",
+    "bonus",
+    "symbol_idle"
+  ],
+  "tags": [
+    "symbol",
+    "idle",
+    "land",
+    "attack",
+    "bonus",
+    "symbol_idle",
+    "symbols"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "symbol": 6,
+      "effect": 2.3,
+      "ui": 0.5,
+      "character": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:symbols",
+      "bone:l1",
+      "bone:l2",
+      "bone:l3",
+      "bone:l4",
+      "bone:l5",
+      "bone:l6"
+    ]
+  },
+  "animations": [
+    "hit",
+    "idle",
+    "land"
+  ],
+  "animation_details": [
+    {
+      "name": "hit",
+      "duration": 2.2,
+      "timelines": {
+        "bones": 62,
+        "slots": 3,
+        "events": 1
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 3,
+      "timelines": {
+        "bones": 18
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 14,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [
+    "burst",
+    "land",
+    "thump"
+  ],
+  "bones_count": 74,
+  "slots_count": 23,
+  "bones": [
+    "root",
+    "bottle",
+    "cork",
+    "liquid_left",
+    "liquid_right",
+    "lettering",
+    "liquid_fill",
+    "surface_left",
+    "surface_middle",
+    "surface_right",
+    "cork_sprite",
+    "liquid_mouth",
+    "liquid_drop_0",
+    "liquid_drop_1",
+    "liquid_drop_2",
+    "liquid_drop_3",
+    "liquid_drop_4",
+    "liquid_drop_5",
+    "liquid_drop_6",
+    "liquid_drop_7",
+    "liquid_drop_8",
+    "liquid_feed_base",
+    "liquid_feed_top",
+    "letter_B",
+    "letter_B_tip",
+    "letter_O",
+    "letter_O_tip",
+    "letter_N",
+    "letter_N_tip",
+    "letter_U",
+    "letter_U_tip",
+    "letter_S",
+    "letter_S_tip",
+    "reel_L_face",
+    "reel_L_rec",
+    "reel_L_spin",
+    "reel_R_face",
+    "reel_R_rec",
+    "reel_R_spin",
+    "tape_L0",
+    "tape_L1",
+    "tape_L2",
+    "tape_L3",
+    "tape_L4",
+    "tape_L5",
+    "tape_L6",
+    "tape_L7",
+    "tape_L8",
+    "tape_L9",
+    "tape_L10",
+    "tape_L11",
+    "tape_L12",
+    "tape_L13",
+    "tape_L14",
+    "tape_L15",
+    "tape_R0",
+    "tape_R1",
+    "tape_R2",
+    "tape_R3",
+    "tape_R4",
+    "tape_R5",
+    "tape_R6",
+    "tape_R7",
+    "tape_R8",
+    "tape_R9",
+    "tape_R10",
+    "tape_R11",
+    "tape_R12",
+    "tape_R13",
+    "tape_R14",
+    "tape_R15",
+    "rec_lamp",
+    "glint_L",
+    "glint_R"
+  ],
+  "slots": [
+    "bottle",
+    "band_L",
+    "band_R",
+    "glint_L",
+    "glint_R",
+    "disc_L",
+    "disc_R",
+    "hub_L",
+    "hub_R",
+    "tape_L",
+    "tape_R",
+    "rec_glow",
+    "vu_0",
+    "vu_1",
+    "vu_2",
+    "vu_3",
+    "vu_4",
+    "vu_5",
+    "letter_B",
+    "letter_O",
+    "letter_N",
+    "letter_U",
+    "letter_S"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 23,
+  "attachment_types": {
+    "mesh": 10,
+    "region": 13
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 60,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "bonus.png",
+      "atlas": "bonus.atlas",
+      "file": "bonus.png",
+      "sha256": "cd51c93052585c616ce39f8dc8a76cdba54a8051df48907a7b5871fc6212298a",
+      "format": "png",
+      "width": 629,
+      "height": 629,
+      "atlas_size": [
+        629,
+        629
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "bonus_2.png",
+      "atlas": "bonus.atlas",
+      "file": "bonus_2.png",
+      "sha256": "289f9dec3382b1f559d184eb4faf0725454b2db74da875d0ea8b10ef8aa31f12",
+      "format": "png",
+      "width": 1123,
+      "height": 1004,
+      "atlas_size": [
+        1123,
+        1004
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "bonus_3.png",
+      "atlas": "bonus.atlas",
+      "file": "bonus_3.png",
+      "sha256": "aacf5d3a10fb890985b20dd4295ebd6671128d57fc7f5f444784ca7eb997f235",
+      "format": "png",
+      "width": 1209,
+      "height": 1216,
+      "atlas_size": [
+        1209,
+        1216
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "bonus_4.png",
+      "atlas": "bonus.atlas",
+      "file": "bonus_4.png",
+      "sha256": "4c21751566d0b0528303a5eed3b0abd0434013faf53be112e9d35f287e0f636e",
+      "format": "png",
+      "width": 546,
+      "height": 492,
+      "atlas_size": [
+        546,
+        492
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "bonus_5.png",
+      "atlas": "bonus.atlas",
+      "file": "bonus_5.png",
+      "sha256": "8d4bca87609250c21c65368f10b18716fb18a30f373dec4b5faa83d0506e0e31",
+      "format": "png",
+      "width": 1024,
+      "height": 158,
+      "atlas_size": [
+        1024,
+        158
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": true,
+      "filter": "MipMapLinearLinear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "bonus.atlas",
+      "sha256": "96c1c086d1fcbf5e6b557e6725b9bb77e91f4f4d35fbe85bc90792f7c9f1cc29",
+      "format": "spine-4",
+      "pages": [
+        "bonus.png",
+        "bonus_2.png",
+        "bonus_3.png",
+        "bonus_4.png",
+        "bonus_5.png"
+      ],
+      "regions": 62,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 62/62 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 8ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "bonus.json",
+      "role": "skeleton",
+      "sha256": "7d23adc83bdde822757892c50ca6859cec8fe0b9d384b0bfcfbdf011fc89a563",
+      "size": 576158,
+      "original_filename": "bonus.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.json"
+      ]
+    },
+    {
+      "file": "bonus.atlas",
+      "role": "atlas",
+      "sha256": "96c1c086d1fcbf5e6b557e6725b9bb77e91f4f4d35fbe85bc90792f7c9f1cc29",
+      "size": 2245,
+      "original_filename": "bonus.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.atlas"
+      ]
+    },
+    {
+      "file": "bonus.png",
+      "role": "texture",
+      "sha256": "cd51c93052585c616ce39f8dc8a76cdba54a8051df48907a7b5871fc6212298a",
+      "size": 472873,
+      "original_filename": "bonus.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.png"
+      ],
+      "atlas_page": "bonus.png"
+    },
+    {
+      "file": "bonus_2.png",
+      "role": "texture",
+      "sha256": "289f9dec3382b1f559d184eb4faf0725454b2db74da875d0ea8b10ef8aa31f12",
+      "size": 759638,
+      "original_filename": "bonus_2.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_2.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_2.png"
+      ],
+      "atlas_page": "bonus_2.png"
+    },
+    {
+      "file": "bonus_3.png",
+      "role": "texture",
+      "sha256": "aacf5d3a10fb890985b20dd4295ebd6671128d57fc7f5f444784ca7eb997f235",
+      "size": 680213,
+      "original_filename": "bonus_3.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_3.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_3.png"
+      ],
+      "atlas_page": "bonus_3.png"
+    },
+    {
+      "file": "bonus_4.png",
+      "role": "texture",
+      "sha256": "4c21751566d0b0528303a5eed3b0abd0434013faf53be112e9d35f287e0f636e",
+      "size": 177634,
+      "original_filename": "bonus_4.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_4.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_4.png"
+      ],
+      "atlas_page": "bonus_4.png"
+    },
+    {
+      "file": "bonus_5.png",
+      "role": "texture",
+      "sha256": "8d4bca87609250c21c65368f10b18716fb18a30f373dec4b5faa83d0506e0e31",
+      "size": 117546,
+      "original_filename": "bonus_5.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_5.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_5.png"
+      ],
+      "atlas_page": "bonus_5.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_2.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_3.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_4.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/bonus/bonus_5.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "5/5",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:35.507Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

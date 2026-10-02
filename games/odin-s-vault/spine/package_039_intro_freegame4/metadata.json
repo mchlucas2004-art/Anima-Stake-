@@ -1,0 +1,321 @@
+{
+  "id": "odin-s-vault/package_039_intro_freegame4",
+  "package": "package_039_intro_freegame4",
+  "name": "intro_freegame4",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "intro_freegame4.json",
+  "skeleton_version": "4.2.43",
+  "category": "transition",
+  "subtypes": [
+    "idle",
+    "entrance",
+    "exit"
+  ],
+  "tags": [
+    "transition",
+    "idle",
+    "entrance",
+    "exit",
+    "intro",
+    "freegame",
+    "spines",
+    "outro"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "transition": 6,
+      "background": 3,
+      "symbol": 2.5,
+      "effect": 2.4,
+      "ui": 0.5,
+      "character": 0
+    },
+    "evidence": [
+      "name:intro",
+      "name:outro"
+    ]
+  },
+  "animations": [
+    "idle",
+    "in",
+    "in_upgrade",
+    "out"
+  ],
+  "animation_details": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 36,
+        "slots": 19
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1,
+      "timelines": {
+        "bones": 42,
+        "slots": 52,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "in_upgrade",
+      "duration": 1,
+      "timelines": {
+        "bones": 42,
+        "slots": 48
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 34,
+        "slots": 47
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 49,
+  "slots_count": 52,
+  "bones": [
+    "root",
+    "FreeSpins_chest2",
+    "Chest",
+    "Cap",
+    "Cap2",
+    "Cap3",
+    "SpearsL",
+    "bone",
+    "bone2",
+    "Text",
+    "Spins",
+    "Free",
+    "Numbers",
+    "SpearsL2",
+    "bone3",
+    "bone4",
+    "Prt",
+    "Prt2",
+    "Prt3",
+    "Prt4",
+    "Prt5",
+    "Prt6",
+    "Glow1",
+    "Glow2",
+    "ray",
+    "BlikRound",
+    "BlikRound2",
+    "Cross",
+    "Cross2",
+    "FreeSpins2",
+    "Numbers2",
+    "Numbers3",
+    "Numbers4",
+    "ray2",
+    "bone5",
+    "mythic",
+    "ribbon_l",
+    "ribbon_l2",
+    "ribbon_l3",
+    "ribbon_l4",
+    "ribbon_l5",
+    "ribbon_l6",
+    "bone7",
+    "ribbon_l7",
+    "ribbon_l8",
+    "ribbon_l9",
+    "ribbon_l10",
+    "ribbon_l11",
+    "ribbon_l12"
+  ],
+  "slots": [
+    "glow_1",
+    "glow_4",
+    "particles",
+    "particles3",
+    "particles2",
+    "particles4",
+    "ray_2",
+    "glow_2",
+    "glow_3",
+    "ray_1",
+    "spear_bottom_right",
+    "spear_bottom_right2",
+    "spear_top_right",
+    "spear_top_right2",
+    "spear_top_right3",
+    "spear_top_right5",
+    "ribbon_l",
+    "ribbon_l2",
+    "Cap",
+    "back_gold_l",
+    "back_gold_r",
+    "chest",
+    "chest2",
+    "free_shadow",
+    "mythic_shadow",
+    "spins_shadow",
+    "free_thick",
+    "free",
+    "mythic",
+    "spins_thick",
+    "spins",
+    "free_add",
+    "mythic_add",
+    "spins_add",
+    "glow_5",
+    "glow_6",
+    "cross",
+    "cross2",
+    "chest3",
+    "spin_1",
+    "spin_3",
+    "spin_5",
+    "spin_4",
+    "Numbers",
+    "Numbers2",
+    "Numbers4",
+    "Numbers3",
+    "Numbers_Glow",
+    "Numbers_Glow2",
+    "Numbers_Glow4",
+    "Numbers_Glow3",
+    "front_gold"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 1,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 45,
+  "attachment_types": {
+    "region": 17,
+    "mesh": 27,
+    "clipping": 1
+  },
+  "dimensions": {
+    "width": 1562.69,
+    "height": 1429.75
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "intro_freegame4.webp",
+      "atlas": "intro_freegame4.atlas",
+      "file": "intro_freegame4.webp",
+      "sha256": "120d59b7beb918fa1125dcdb8c39c40dd03bbdc5ee9e58689a4abb3dc8c2cd8d",
+      "format": "webp",
+      "width": 2033,
+      "height": 1669,
+      "atlas_size": [
+        2033,
+        1669
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "intro_freegame4.atlas",
+      "sha256": "79b3a7147cdda47eaa7ed337a8b879d8814f2a9b2bab34a12d907865913eb208",
+      "format": "spine-4",
+      "pages": [
+        "intro_freegame4.webp"
+      ],
+      "regions": 31,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 31/31 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [
+    {
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame3.atlas",
+      "sha256": "ed05bed3731456c675c2f2a1f72ccabfca40278e8ccd89e7d0c0b7ee2f9b0bad",
+      "coverage": 0.9032258064516129,
+      "evidence": [
+        "regions 28/31 (90% of skeleton)",
+        "same folder",
+        "loaded 1ms apart"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "intro_freegame4.json",
+      "role": "skeleton",
+      "sha256": "6ced11ba66d907aa2d984746724157325460b74f696dc94b8f2e70ec3c79c782",
+      "size": 81014,
+      "original_filename": "intro_freegame4.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.json"
+      ]
+    },
+    {
+      "file": "intro_freegame4.atlas",
+      "role": "atlas",
+      "sha256": "79b3a7147cdda47eaa7ed337a8b879d8814f2a9b2bab34a12d907865913eb208",
+      "size": 1640,
+      "original_filename": "intro_freegame4.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.atlas"
+      ]
+    },
+    {
+      "file": "intro_freegame4.webp",
+      "role": "texture",
+      "sha256": "120d59b7beb918fa1125dcdb8c39c40dd03bbdc5ee9e58689a4abb3dc8c2cd8d",
+      "size": 716860,
+      "original_filename": "intro_freegame4.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.webp"
+      ],
+      "atlas_page": "intro_freegame4.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.553Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

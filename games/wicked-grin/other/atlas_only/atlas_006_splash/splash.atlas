@@ -1,0 +1,47 @@
+splash.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+intro_splash_one
+  rotate: false
+  xy: 924, 1
+  size: 665, 643
+  orig: 665, 643
+  offset: 0, 0
+  index: -1
+intro_splash_three
+  rotate: false
+  xy: 1, 304
+  size: 665, 643
+  orig: 665, 643
+  offset: 0, 0
+  index: -1
+intro_splash_two
+  rotate: false
+  xy: 1, 949
+  size: 665, 643
+  orig: 665, 643
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 1591, 1
+  size: 437, 248
+  orig: 437, 248
+  offset: 0, 0
+  index: -1
+total_win
+  rotate: false
+  xy: 1, 1
+  size: 921, 301
+  orig: 921, 301
+  offset: 0, 0
+  index: -1
+volatility
+  rotate: false
+  xy: 1591, 251
+  size: 264, 74
+  orig: 264, 74
+  offset: 0, 0
+  index: -1

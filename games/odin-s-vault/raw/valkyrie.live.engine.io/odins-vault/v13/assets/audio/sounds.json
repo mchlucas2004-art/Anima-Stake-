@@ -1,0 +1,387 @@
+{
+	"src": [
+	"./assets/audio/sounds.ogg"
+	],
+    "sprite": {
+        "ambient_basegame": [
+            0,
+            101249.65986394558
+        ],
+        "ambient_freegame1": [
+            103000,
+            34858.77551020408
+        ],
+        "ambient_freegame2": [
+            139000,
+            34858.77551020408
+        ],
+        "ambient_freegame3": [
+            175000,
+            34858.77551020408
+        ],
+        "ambient_freegame4": [
+            211000,
+            83999.97732426306
+        ],
+        "ambient_torches": [
+            296000,
+            34858.75283446711
+        ],
+        "bgm_basegame": [
+            332000,
+            57928.23129251701
+        ],
+        "bgm_freegame": [
+            391000,
+            57500
+        ],
+        "bgm_superfreegame": [
+            450000,
+            58536.621315192744
+        ],
+        "sfx_btn_general": [
+            510000,
+            214.87528344670181
+        ],
+        "sfx_character_01": [
+            512000,
+            2180.770975056703
+        ],
+        "sfx_character_02": [
+            516000,
+            2218.2766439909756
+        ],
+        "sfx_character_03": [
+            520000,
+            3025.4875283446836
+        ],
+        "sfx_character_idle": [
+            525000,
+            3515.532879818579
+        ],
+        "sfx_coin_land": [
+            530000,
+            853.9002267573323
+        ],
+        "sfx_coin_win": [
+            532000,
+            1532.0634920634575
+        ],
+        "sfx_collector_landing": [
+            535000,
+            1145.2154195011417
+        ],
+        "sfx_collector_win": [
+            538000,
+            1845.2834467120738
+        ],
+        "sfx_countup_loop": [
+            541000,
+            7160.272108843515
+        ],
+        "sfx_eye_landing": [
+            550000,
+            853.9002267573323
+        ],
+        "sfx_eye_win": [
+            552000,
+            3289.977324263077
+        ],
+        "sfx_increase": [
+            557000,
+            444.1723356009106
+        ],
+        "sfx_intro": [
+            559000,
+            5683.7641723356
+        ],
+        "sfx_key_landing": [
+            566000,
+            853.9002267573323
+        ],
+        "sfx_key_win": [
+            568000,
+            1147.7097505669462
+        ],
+        "sfx_multiplier_landing": [
+            571000,
+            853.9002267573323
+        ],
+        "sfx_multiplier_win": [
+            573000,
+            2087.0975056689076
+        ],
+        "sfx_multiplier_win_fire": [
+            577000,
+            2181.0430839002493
+        ],
+        "sfx_multi_bar": [
+            581000,
+            1754.5124716552891
+        ],
+        "sfx_multi_lock": [
+            584000,
+            1912.9931972788654
+        ],
+        "sfx_mystery_despawn": [
+            587000,
+            1923.424036281176
+        ],
+        "sfx_mystery_landing": [
+            590000,
+            853.9002267573323
+        ],
+        "sfx_mystery_loop": [
+            592000,
+            5410.589569160948
+        ],
+        "sfx_mystery_spawn": [
+            599000,
+            2133.922902494305
+        ],
+        "sfx_mystery_transform": [
+            603000,
+            1917.3922902493814
+        ],
+        "sfx_outro": [
+            606000,
+            4131.179138321954
+        ],
+        "sfx_popup_bigwin": [
+            612000,
+            3680.5215419501565
+        ],
+        "sfx_popup_insanewin": [
+            617000,
+            3567.5283446712456
+        ],
+        "sfx_popup_maxwin": [
+            622000,
+            3194.308390022684
+        ],
+        "sfx_popup_megawin": [
+            627000,
+            3603.333333333353
+        ],
+        "sfx_popup_nicewin": [
+            632000,
+            3546.9614512471708
+        ],
+        "sfx_redrop_landing": [
+            637000,
+            1145.2154195011417
+        ],
+        "sfx_redrop_win": [
+            640000,
+            2306.757369614502
+        ],
+        "sfx_reelstart": [
+            644000,
+            1075.1247165533186
+        ],
+        "sfx_reelstop": [
+            647000,
+            1459.818594104263
+        ],
+        "sfx_reelstop_02": [
+            650000,
+            1459.818594104263
+        ],
+        "sfx_scatter_land": [
+            653000,
+            723.3106575963575
+        ],
+        "sfx_scatter_spawn": [
+            655000,
+            2416.938775510175
+        ],
+        "sfx_scatter_win": [
+            659000,
+            2406.349206349205
+        ],
+        "sfx_staff_landing": [
+            663000,
+            853.9002267573323
+        ],
+        "sfx_staff_win": [
+            665000,
+            1277.9138321996015
+        ],
+        "sfx_transition": [
+            668000,
+            2233.6281179137814
+        ],
+        "sfx_win_high": [
+            672000,
+            1089.569160997712
+        ],
+        "sfx_win_low": [
+            675000,
+            1164.5351473922574
+        ]
+    },
+    "config": {
+        "ambient_basegame": {
+            "volume": 2
+        },
+        "ambient_freegame1": {
+            "volume": 2
+        },
+        "ambient_freegame2": {
+            "volume": 2
+        },
+        "ambient_freegame3": {
+            "volume": 2
+        },
+        "ambient_freegame4": {
+            "volume": 2
+        },
+        "ambient_torches": {
+            "volume": 2
+        },
+        "bgm_basegame": {
+            "volume": 2
+        },
+        "bgm_freegame": {
+            "volume": 2
+        },
+        "bgm_superfreegame": {
+            "volume": 2
+        },
+        "sfx_btn_general": {
+            "volume": 1
+        },
+        "sfx_character_01": {
+            "volume": 1
+        },
+        "sfx_character_02": {
+            "volume": 1
+        },
+        "sfx_character_03": {
+            "volume": 1
+        },
+        "sfx_character_idle": {
+            "volume": 1
+        },
+        "sfx_coin_land": {
+            "volume": 1
+        },
+        "sfx_coin_win": {
+            "volume": 1
+        },
+        "sfx_collector_landing": {
+            "volume": 1
+        },
+        "sfx_collector_win": {
+            "volume": 1
+        },
+        "sfx_countup_loop": {
+            "volume": 0.6
+        },
+        "sfx_eye_landing": {
+            "volume": 1
+        },
+        "sfx_eye_win": {
+            "volume": 1
+        },
+        "sfx_increase": {
+            "volume": 1
+        },
+        "sfx_intro": {
+            "volume": 1
+        },
+        "sfx_key_landing": {
+            "volume": 1
+        },
+        "sfx_key_win": {
+            "volume": 1
+        },
+        "sfx_multiplier_landing": {
+            "volume": 1
+        },
+        "sfx_multiplier_win": {
+            "volume": 1
+        },
+        "sfx_multiplier_win_fire": {
+            "volume": 1
+        },
+        "sfx_multi_bar": {
+            "volume": 1
+        },
+        "sfx_multi_lock": {
+            "volume": 1
+        },
+        "sfx_mystery_despawn": {
+            "volume": 1
+        },
+        "sfx_mystery_landing": {
+            "volume": 1
+        },
+        "sfx_mystery_loop": {
+            "volume": 1
+        },
+        "sfx_mystery_spawn": {
+            "volume": 1
+        },
+        "sfx_mystery_transform": {
+            "volume": 1
+        },
+        "sfx_outro": {
+            "volume": 1
+        },
+        "sfx_popup_bigwin": {
+            "volume": 1
+        },
+        "sfx_popup_insanewin": {
+            "volume": 1
+        },
+        "sfx_popup_maxwin": {
+            "volume": 1
+        },
+        "sfx_popup_megawin": {
+            "volume": 1
+        },
+        "sfx_popup_nicewin": {
+            "volume": 1
+        },
+        "sfx_redrop_landing": {
+            "volume": 1
+        },
+        "sfx_redrop_win": {
+            "volume": 1
+        },
+        "sfx_reelstart": {
+            "volume": 1
+        },
+        "sfx_reelstop": {
+            "volume": 1
+        },
+        "sfx_reelstop_02": {
+            "volume": 0.05
+        },
+        "sfx_scatter_land": {
+            "volume": 1
+        },
+        "sfx_scatter_spawn": {
+            "volume": 1
+        },
+        "sfx_scatter_win": {
+            "volume": 1
+        },
+        "sfx_staff_landing": {
+            "volume": 1
+        },
+        "sfx_staff_win": {
+            "volume": 1
+        },
+        "sfx_transition": {
+            "volume": 1
+        },
+        "sfx_win_high": {
+            "volume": 1
+        },
+        "sfx_win_low": {
+            "volume": 1
+        }
+    }
+}

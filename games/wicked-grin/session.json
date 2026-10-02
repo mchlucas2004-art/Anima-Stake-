@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "session_id": "2026-10-02T20:15:48.095Z",
+  "game": "Wicked Grin",
+  "entry": {
+    "name": "Wicked Grin",
+    "provider": null
+  },
+  "updated_at": "2026-10-02T20:15:59.896Z",
+  "session": {
+    "id": "2026-10-02T20:15:48.095Z",
+    "started_at": "2026-10-02T20:15:48.095Z",
+    "ended_at": "2026-10-02T20:15:59.809Z",
+    "stop_reason": "har_import",
+    "mode": "har",
+    "source_file": "Wicked Grin.har",
+    "counters": {
+      "requests": 1205,
+      "finished": 1205,
+      "failed": 0,
+      "candidates": 121,
+      "images": 72,
+      "json": 24,
+      "atlases": 25,
+      "skeletons": 6,
+      "newSkeletons": 6,
+      "bytes": 11084899,
+      "errors": 0,
+      "probes": 38
+    }
+  }
+}

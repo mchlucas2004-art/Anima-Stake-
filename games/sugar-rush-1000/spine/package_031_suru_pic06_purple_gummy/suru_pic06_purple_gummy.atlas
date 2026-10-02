@@ -1,0 +1,167 @@
+
+suru_pic06_purple_gummy.png
+size: 284,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+splash_00000
+  rotate: true
+  xy: 177, 5
+  size: 5, 4
+  orig: 27, 30
+  offset: 10, 25
+  index: -1
+splash_00001
+  rotate: false
+  xy: 33, 7
+  size: 5, 5
+  orig: 27, 30
+  offset: 12, 1
+  index: -1
+splash_00002
+  rotate: false
+  xy: 242, 32
+  size: 10, 7
+  orig: 27, 30
+  offset: 12, 1
+  index: -1
+splash_00003
+  rotate: false
+  xy: 220, 16
+  size: 10, 8
+  orig: 27, 30
+  offset: 12, 1
+  index: -1
+splash_00004
+  rotate: true
+  xy: 161, 0
+  size: 10, 14
+  orig: 27, 30
+  offset: 5, 15
+  index: -1
+splash_00005
+  rotate: true
+  xy: 202, 0
+  size: 18, 16
+  orig: 27, 30
+  offset: 5, 13
+  index: -1
+splash_00006
+  rotate: true
+  xy: 183, 0
+  size: 18, 17
+  orig: 27, 30
+  offset: 5, 12
+  index: -1
+splash_00007
+  rotate: false
+  xy: 183, 20
+  size: 18, 19
+  orig: 27, 30
+  offset: 4, 1
+  index: -1
+splash_00008
+  rotate: true
+  xy: 161, 12
+  size: 18, 20
+  orig: 27, 30
+  offset: 5, 9
+  index: -1
+splash_00009
+  rotate: false
+  xy: 266, 41
+  size: 18, 21
+  orig: 27, 30
+  offset: 4, 1
+  index: -1
+splash_00010
+  rotate: false
+  xy: 266, 88
+  size: 18, 22
+  orig: 27, 30
+  offset: 4, 1
+  index: -1
+splash_00011
+  rotate: false
+  xy: 266, 64
+  size: 18, 22
+  orig: 27, 30
+  offset: 4, 1
+  index: -1
+splash_00012
+  rotate: true
+  xy: 136, 11
+  size: 19, 23
+  orig: 27, 30
+  offset: 5, 6
+  index: -1
+splash_00013
+  rotate: true
+  xy: 110, 11
+  size: 19, 24
+  orig: 27, 30
+  offset: 5, 5
+  index: -1
+splash_00014
+  rotate: true
+  xy: 83, 10
+  size: 20, 25
+  orig: 27, 30
+  offset: 4, 4
+  index: -1
+splash_00015
+  rotate: false
+  xy: 220, 26
+  size: 20, 13
+  orig: 27, 30
+  offset: 3, 11
+  index: -1
+splash_00016
+  rotate: false
+  xy: 0, 0
+  size: 21, 12
+  orig: 27, 30
+  offset: 3, 12
+  index: -1
+splash_00017
+  rotate: true
+  xy: 203, 20
+  size: 19, 15
+  orig: 27, 30
+  offset: 5, 4
+  index: -1
+splash_00018
+  rotate: false
+  xy: 23, 0
+  size: 8, 12
+  orig: 27, 30
+  offset: 3, 15
+  index: -1
+splash_00019
+  rotate: true
+  xy: 110, 0
+  size: 9, 14
+  orig: 27, 30
+  offset: 15, 2
+  index: -1
+suru_shadow
+  rotate: false
+  xy: 183, 41
+  size: 81, 69
+  orig: 81, 69
+  offset: 0, 0
+  index: -1
+suru_teddy
+  rotate: true
+  xy: 83, 32
+  size: 78, 98
+  orig: 78, 98
+  offset: 0, 0
+  index: -1
+suru_teddy_stroke
+  rotate: false
+  xy: 0, 14
+  size: 81, 96
+  orig: 81, 96
+  offset: 0, 0
+  index: -1

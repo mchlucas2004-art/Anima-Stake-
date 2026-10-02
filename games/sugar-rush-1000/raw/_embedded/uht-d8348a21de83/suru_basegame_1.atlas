@@ -1,0 +1,27 @@
+
+suru_basegame_1.png
+size: 245,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+choco_drop
+  rotate: true
+  xy: 123, 0
+  size: 15, 54
+  orig: 15, 54
+  offset: 0, 0
+  index: -1
+chocolate
+  rotate: false
+  xy: 123, 17
+  size: 122, 93
+  orig: 122, 93
+  offset: 0, 0
+  index: -1
+chocolate_shadow
+  rotate: false
+  xy: 0, 9
+  size: 121, 101
+  orig: 121, 101
+  offset: 0, 0
+  index: -1

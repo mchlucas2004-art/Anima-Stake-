@@ -1,0 +1,1 @@
+{"query":"\n\n*[_type == \"seo\"\n  \u0026\u0026 (__i18n_lang == $lang || language == $lang)\n  \u0026\u0026 slug.current == $slug\n][0]\n  {\n   description,\n   title,\n   subtitle,\n   \"content\": content[] {\n       ...,\n       asset-\u003e{url, altText},\n   },\n   demoteH1\n} ","result":null,"syncTags":["s1:I3nkLw"],"ms":2}

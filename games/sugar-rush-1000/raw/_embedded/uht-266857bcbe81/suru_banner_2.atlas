@@ -1,0 +1,13 @@
+
+suru_banner_2.png
+size: 568,684
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+stars_1
+  rotate: false
+  xy: 0, 0
+  size: 567, 684
+  orig: 622, 724
+  offset: 30, 36
+  index: -1

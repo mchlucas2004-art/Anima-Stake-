@@ -1,0 +1,195 @@
+
+suru_1000_super_buy_feature.png
+size: 2369,1642
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 0, 0
+  size: 945, 712
+  orig: 945, 712
+  offset: 0, 0
+  index: -1
+base_glow_1
+  rotate: false
+  xy: 1137, 852
+  size: 998, 790
+  orig: 1000, 792
+  offset: 2, 2
+  index: -1
+base_glow_2
+  rotate: false
+  xy: 0, 714
+  size: 1135, 928
+  orig: 1150, 942
+  offset: 8, 7
+  index: -1
+cross_sing
+  rotate: false
+  xy: 2116, 58
+  size: 72, 69
+  orig: 72, 69
+  offset: 0, 0
+  index: -1
+cross_sing_defth_shadow
+  rotate: false
+  xy: 2251, 725
+  size: 75, 73
+  orig: 75, 73
+  offset: 0, 0
+  index: -1
+doller_button
+  rotate: true
+  xy: 2251, 1064
+  size: 287, 115
+  orig: 287, 115
+  offset: 0, 0
+  index: -1
+doller_button_frame_shadow
+  rotate: true
+  xy: 947, 286
+  size: 287, 119
+  orig: 287, 119
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 1137, 106
+  size: 977, 744
+  orig: 979, 747
+  offset: 1, 2
+  index: -1
+green_base_small
+  rotate: false
+  xy: 947, 575
+  size: 188, 137
+  orig: 188, 137
+  offset: 0, 0
+  index: -1
+green_button_big
+  rotate: false
+  xy: 2116, 208
+  size: 231, 120
+  orig: 231, 120
+  offset: 0, 0
+  index: -1
+perticle_sweet
+  rotate: true
+  xy: 2137, 659
+  size: 983, 112
+  orig: 984, 113
+  offset: 1, 0
+  index: -1
+red_base_small
+  rotate: true
+  xy: 2251, 874
+  size: 188, 106
+  orig: 188, 106
+  offset: 0, 0
+  index: -1
+red_button_big
+  rotate: true
+  xy: 947, 53
+  size: 231, 120
+  orig: 231, 120
+  offset: 0, 0
+  index: -1
+right_defth_shadow
+  rotate: false
+  xy: 2116, 129
+  size: 101, 77
+  orig: 101, 77
+  offset: 0, 0
+  index: -1
+right_sing
+  rotate: false
+  xy: 2219, 133
+  size: 97, 73
+  orig: 97, 73
+  offset: 0, 0
+  index: -1
+spot_1
+  rotate: true
+  xy: 2116, 827
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+spot_10
+  rotate: false
+  xy: 947, 5
+  size: 60, 46
+  orig: 60, 46
+  offset: 0, 0
+  index: -1
+spot_2
+  rotate: true
+  xy: 2116, 827
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+spot_3
+  rotate: false
+  xy: 2251, 800
+  size: 99, 72
+  orig: 99, 72
+  offset: 0, 0
+  index: -1
+spot_4
+  rotate: true
+  xy: 1068, 427
+  size: 81, 62
+  orig: 81, 62
+  offset: 0, 0
+  index: -1
+spot_5
+  rotate: false
+  xy: 1068, 510
+  size: 67, 63
+  orig: 81, 63
+  offset: 14, 0
+  index: -1
+spot_6
+  rotate: true
+  xy: 1068, 344
+  size: 81, 62
+  orig: 81, 62
+  offset: 0, 0
+  index: -1
+spot_7
+  rotate: false
+  xy: 2251, 682
+  size: 53, 41
+  orig: 53, 41
+  offset: 0, 0
+  index: -1
+spot_8
+  rotate: true
+  xy: 2318, 171
+  size: 35, 27
+  orig: 35, 27
+  offset: 0, 0
+  index: -1
+spot_9
+  rotate: false
+  xy: 1068, 315
+  size: 35, 27
+  orig: 35, 27
+  offset: 0, 0
+  index: -1
+sugar
+  rotate: false
+  xy: 2116, 330
+  size: 253, 327
+  orig: 253, 327
+  offset: 0, 0
+  index: -1
+yellow_button_shadow
+  rotate: true
+  xy: 2251, 1353
+  size: 289, 116
+  orig: 289, 119
+  offset: 0, 3
+  index: -1

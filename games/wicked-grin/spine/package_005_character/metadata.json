@@ -1,0 +1,349 @@
+{
+  "id": "wicked-grin/package_005_character",
+  "package": "package_005_character",
+  "name": "character",
+  "game": "Wicked Grin",
+  "game_slug": "wicked-grin",
+  "provider": "Hacksaw Gaming",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "character.json",
+  "skeleton_version": "4.0.64",
+  "category": "character",
+  "subtypes": [
+    "idle",
+    "reaction"
+  ],
+  "tags": [
+    "character",
+    "idle",
+    "reaction",
+    "hd"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "character": 11,
+      "transition": 1.5,
+      "symbol": 0,
+      "effect": 0,
+      "background": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:character",
+      "body-parts:hip,leg,foot,body,shoulder,arm,hand,head"
+    ]
+  },
+  "animations": [
+    "animation",
+    "idle",
+    "idle2",
+    "idle3",
+    "reaction",
+    "reaction2",
+    "trigger"
+  ],
+  "animation_details": [
+    {
+      "name": "animation",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 22
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 36
+      }
+    },
+    {
+      "name": "idle2",
+      "duration": 2.133,
+      "timelines": {
+        "bones": 46
+      }
+    },
+    {
+      "name": "idle3",
+      "duration": 1.667,
+      "timelines": {
+        "bones": 21
+      }
+    },
+    {
+      "name": "reaction",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 43
+      }
+    },
+    {
+      "name": "reaction2",
+      "duration": 1.467,
+      "timelines": {
+        "bones": 33,
+        "events": 1
+      }
+    },
+    {
+      "name": "trigger",
+      "duration": 2.033,
+      "timelines": {
+        "bones": 38
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [
+    "finger_gun"
+  ],
+  "bones_count": 68,
+  "slots_count": 55,
+  "bones": [
+    "root",
+    "scale_all_bone",
+    "hip",
+    "leg_L_1",
+    "leg_L_2",
+    "foot_L_pos",
+    "foot_L_2",
+    "leg_L_IK",
+    "foot_L_1",
+    "leg_R_1",
+    "leg_R_2",
+    "foot_L_3",
+    "foot_R_pos",
+    "foot_R_2",
+    "leg_R_IK",
+    "foot_R_1",
+    "foot_R_3",
+    "body1",
+    "body2",
+    "shoulder",
+    "arm_L_1",
+    "arm_L_2",
+    "hand_L_1",
+    "arm_R_1",
+    "arm_R_2",
+    "hand_R_1",
+    "head",
+    "upper_jaw",
+    "nose",
+    "back_head",
+    "head_tail1",
+    "head_tail2",
+    "head_tail3",
+    "teeth_upper",
+    "jaw",
+    "cheek_L",
+    "cheek_R",
+    "eye_top_L",
+    "eye_top_R",
+    "hand_R_2",
+    "thumb1",
+    "thumb2",
+    "thumb3",
+    "finger_B",
+    "finger_C",
+    "finger_A_1",
+    "finger_A_2",
+    "finger_A_3",
+    "hand_L_2",
+    "shorts_triangle",
+    "shorts_L",
+    "shorts_R",
+    "eye_bottom_L",
+    "eye_bottom_R",
+    "pupil_L",
+    "pupil_R",
+    "leg_L_1_IK",
+    "leg_L_2_IK",
+    "knee_L",
+    "leg_R_1_IK",
+    "knee_R",
+    "leg_R_2_IK",
+    "shoe_L_opening",
+    "shoe_R_opening",
+    "head_top",
+    "face_back",
+    "teeth_upper2",
+    "jaw2"
+  ],
+  "slots": [
+    "head_back_stroke",
+    "head_stroke",
+    "arm_R_stroke",
+    "hand_R_stroke",
+    "finger1_R_stroke",
+    "finger2_R_stroke",
+    "foot_R_stroke",
+    "foot_R_opening_back_stroke",
+    "leg_R_stroke",
+    "foot_R_opening_stroke",
+    "foot_R_toe_stroke",
+    "foot_L_stroke",
+    "foot_L_opening_back_stroke",
+    "leg_L_stroke",
+    "foot_L_opening_stroke",
+    "foot_L_toe_stroke",
+    "body_stroke",
+    "shorts_R_stroke",
+    "shorts_stroke",
+    "arm_L_stroke",
+    "face_stroke",
+    "hand_L_stroke",
+    "hand_L_opening_back_stroke",
+    "hand_L_opening_stroke",
+    "arm_R",
+    "hand_R",
+    "finger1_R",
+    "finger2_R",
+    "hand_L_opening_back",
+    "head_back",
+    "head",
+    "arm_L",
+    "foot_R",
+    "foot_R_opening_back",
+    "leg_R",
+    "foot_R_opening",
+    "foot_R_toe",
+    "foot_L",
+    "foot_L_opening_back",
+    "foot_L_toe",
+    "body",
+    "shorts_R",
+    "leg_L",
+    "foot_L_opening",
+    "shorts",
+    "mouth_inside",
+    "teeth_lower",
+    "teeth_upper",
+    "face_side",
+    "face",
+    "mouth_edge",
+    "hand_L",
+    "hand_L_opening",
+    "pupil_L",
+    "pupil_R"
+  ],
+  "constraints": {
+    "ik": 8,
+    "transform": 8,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 55,
+  "attachment_types": {
+    "mesh": 55
+  },
+  "dimensions": {
+    "width": 1370,
+    "height": 1920.88
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "character.png",
+      "atlas": "character.atlas",
+      "file": "character.png",
+      "sha256": "8e24b3ffa02511c0d1453e510627c4d9f12945db42b624c8728a0db05e245928",
+      "format": "ktx2",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "same_folder_variant",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "character.atlas",
+      "sha256": "248d04939701e07e75012631806c9004ccdad0e3bd639916cfd5ea6e35e90680",
+      "format": "spine-4",
+      "pages": [
+        "character.png"
+      ],
+      "regions": 55,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 55/55 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 2ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "character.json",
+      "role": "skeleton",
+      "sha256": "5cc56d136735b6d4f9a27634ce58e5d675c0a8b475033a7d1c2dafb85947cf29",
+      "size": 300265,
+      "original_filename": "character.json",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.json",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.json"
+      ]
+    },
+    {
+      "file": "character.atlas",
+      "role": "atlas",
+      "sha256": "248d04939701e07e75012631806c9004ccdad0e3bd639916cfd5ea6e35e90680",
+      "size": 2119,
+      "original_filename": "character.atlas",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.atlas",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.atlas"
+      ]
+    },
+    {
+      "file": "character.png",
+      "role": "texture",
+      "sha256": "8e24b3ffa02511c0d1453e510627c4d9f12945db42b624c8728a0db05e245928",
+      "size": 118712,
+      "original_filename": "character.ktx2",
+      "raw_path": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.ktx2",
+      "source_urls": [
+        "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.ktx2"
+      ],
+      "atlas_page": "character.png"
+    }
+  ],
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.json",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.atlas",
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.ktx2"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [
+    "atlas page \"character.png\" was served as \"character.ktx2\" (ktx2)"
+  ],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:02:07.345Z",
+  "sessions": [
+    "2026-10-02T20:15:48.095Z"
+  ],
+  "packaged_at": "2026-10-02T20:46:25.195Z"
+}

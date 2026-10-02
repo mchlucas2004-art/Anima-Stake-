@@ -1,0 +1,1211 @@
+{
+  "schema": "scrap.manifest/1",
+  "game": "Red-Robin",
+  "slug": "red-robin",
+  "provider": "Paperclip Gaming",
+  "game_urls": [
+    "https://stake.com/fr/casino/games/paperclip-red-robin"
+  ],
+  "status": "complete",
+  "updated_at": "2026-10-02T20:15:11.220Z",
+  "stats": {
+    "network_requests_total": 949,
+    "resources_unique": 49,
+    "images": 36,
+    "json_candidates": 8,
+    "atlases": 1,
+    "skeletons": 4,
+    "spine_packages": 4,
+    "complete_packages": 0,
+    "incomplete_packages": 4,
+    "new_packages": 4,
+    "atlas_only": 0,
+    "spritesheets": 0,
+    "unclassified": 2,
+    "errors": 0
+  },
+  "packages": [
+    {
+      "id": "red-robin/package_001_rr2_background",
+      "path": "games/red-robin/spine/package_001_rr2_background",
+      "name": "rr2_background",
+      "category": "background",
+      "subtypes": [],
+      "complete": false,
+      "skeleton_version": "4.2.43",
+      "animations": [],
+      "textures": 0,
+      "warnings": 2
+    },
+    {
+      "id": "red-robin/package_002_rr2_screens",
+      "path": "games/red-robin/spine/package_002_rr2_screens",
+      "name": "rr2_screens",
+      "category": "unknown",
+      "subtypes": [],
+      "complete": false,
+      "skeleton_version": "4.2.43",
+      "animations": [],
+      "textures": 2,
+      "warnings": 1
+    },
+    {
+      "id": "red-robin/package_003_rr2_symbols",
+      "path": "games/red-robin/spine/package_003_rr2_symbols",
+      "name": "rr2_symbols",
+      "category": "symbol",
+      "subtypes": [],
+      "complete": false,
+      "skeleton_version": "4.2.43",
+      "animations": [],
+      "textures": 2,
+      "warnings": 1
+    },
+    {
+      "id": "red-robin/package_004_rr2_reelhouse",
+      "path": "games/red-robin/spine/package_004_rr2_reelhouse",
+      "name": "rr2_reelhouse",
+      "category": "unknown",
+      "subtypes": [],
+      "complete": false,
+      "skeleton_version": "4.2.43",
+      "animations": [],
+      "textures": 2,
+      "warnings": 1
+    }
+  ],
+  "atlas_only": [],
+  "spritesheets": [],
+  "unclassified": [
+    {
+      "type": "spine_package",
+      "path": "games/red-robin/spine/package_002_rr2_screens",
+      "reason": "no reliable category hint"
+    },
+    {
+      "type": "spine_package",
+      "path": "games/red-robin/spine/package_004_rr2_reelhouse",
+      "reason": "no reliable category hint"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "sessions": [
+    {
+      "id": "2026-10-02T20:15:07.891Z",
+      "started_at": "2026-10-02T20:15:07.891Z",
+      "ended_at": "2026-10-02T20:15:11.177Z",
+      "stop_reason": "har_import",
+      "mode": "har",
+      "source_file": "Red-Robin.har",
+      "counters": {
+        "requests": 939,
+        "finished": 937,
+        "failed": 2,
+        "candidates": 49,
+        "images": 36,
+        "json": 8,
+        "atlases": 1,
+        "skeletons": 4,
+        "newSkeletons": 4,
+        "bytes": 5875967,
+        "errors": 0,
+        "probes": 10
+      }
+    }
+  ],
+  "ids": {
+    "c2a940378453c1f05a27abda2dde9f00d45c91368c58060b49e957f85b29e8f1": "package_001_rr2_background",
+    "fbd221ed0fe5774f78ab77cd61886d2b63582e7abf3a41dbcfba2ec720ab054b": "package_002_rr2_screens",
+    "cda1520fab6b3acfc02b5c935e57b32e318c700e40f2a79f4d0ef99429b941e8": "package_003_rr2_symbols",
+    "f90b5f9221102e5b73879053651e28d4f855ab1143ef948aebf2784cb7db2fb4": "package_004_rr2_reelhouse"
+  },
+  "resources": [
+    {
+      "sha256": "f03766fe8741effe685386221ab35c10050bfe41df0bb92ce539ef9347a1323e",
+      "kind": "image",
+      "size": 4939,
+      "filename": "e8baeb52e9a757c4b4334cb1b38bc831cf3182f638d9937c9ebca6eeba78b679",
+      "raw_path": "raw/mediumrare.imgix.net/e8baeb52e9a757c4b4334cb1b38bc831cf3182f638d9937c9ebca6eeba78b679",
+      "outputs": [
+        "images/e8baeb52e9a757c4b4334cb1b38bc831cf3182f638d9937c9ebca6eeba78b679"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/e8baeb52e9a757c4b4334cb1b38bc831cf3182f638d9937c9ebca6eeba78b679?w=128&h=38&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:23.662Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "6b04549145cd32228b181cb8f66885cd6d6868cfefc99c17793d696f5e5a3ba6",
+      "kind": "image",
+      "size": 5735,
+      "filename": "game-check-fr.png",
+      "raw_path": "raw/mediumrare.imgix.net/game-check-fr.png",
+      "outputs": [
+        "images/game-check-fr.png"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/game-check-fr.png?w=195&h=65&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:23.662Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "6ee15ac2e76d964e1e70f43fa4e97268cc11871ae24857eec1227ad381e2aa3a",
+      "kind": "image",
+      "size": 5520,
+      "filename": "tanzanite-certified-fr.png",
+      "raw_path": "raw/mediumrare.imgix.net/tanzanite-certified-fr.png",
+      "outputs": [
+        "images/tanzanite-certified-fr.png"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/tanzanite-certified-fr.png?w=147&h=65&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:23.662Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "52173786981d510f3d189dc9a11886485b54e630e4e1af4ace709fab9e985930",
+      "kind": "json",
+      "size": 5406,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production",
+      "outputs": [
+        "other/json/stake-com-production"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%0A%7B%0A++%22sponsorships%22%3A+*%5B%0A++++_type+%3D%3D+%27sponsorship%27%0A++++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++++%26%26+isDisplayed+%21%3D+false%0A++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++%5D+%7C+order%28orderRank%29%7B%0A++++_id%2C%0A++++title%2C%0A++++slug+%7B%0A++++++current%0A++++%7D%2C%0A++++icon%0A++%7D%2C%0A++%22fallbackSponsorships%22%3A+select%28%0A++++%24lang+%21%3D+%24defaultLanguage+%3D%3E+*%5B%0A++++++_type+%3D%3D+%27sponsorship%27%0A++++++%26%26+%28__i18n_lang+%3D%3D+%24defaultLanguage+%7C%7C+language+%3D%3D+%24defaultLanguage%29%0A++++++%26%26+isDisplayed+%21%3D+false%0A++++++%26%26+%21defined%28*%5B_type+%3D%3D+%22translation.metadata%22+%26%26+references%28%5E._id%29%5D%5B0%5D.translations%5B_key+%3D%3D+%24lang%5D%5B0%5D.value-%3E_id%29%0A++++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++++%5D+%7C+order%28orderRank%29%7B%0A++++++_id%2C%0A++++++title%2C%0A++++++slug+%7B%0A++++++++current%0A++++++%7D%2C%0A++++++icon%0A++++%7D%2C%0A++++%5B%5D%0A++%29%2C%0A++%22partners%22%3A+*%5B%0A++++_type+%3D%3D+%27partner%27%0A++++%26%26+language+%3D%3D+%24lang%0A++++%26%26+isDisplayed+%21%3D+false%0A++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++%5D+%7C+order%28orderRank%29%7B%0A++++_id%2C%0A++++title%2C%0A++++slug+%7B%0A++++++current%0A++++%7D%0A++%7D%2C%0A++%22fallbackPartners%22%3A+select%28%0A++++%24lang+%21%3D+%24defaultLanguage+%3D%3E+*%5B%0A++++++_type+%3D%3D+%27partner%27%0A++++++%26%26+language+%3D%3D+%24defaultLanguage%0A++++++%26%26+isDisplayed+%21%3D+false%0A++++++%26%26+%21defined%28*%5B_type+%3D%3D+%22translation.metadata%22+%26%26+references%28%5E._id%29%5D%5B0%5D.translations%5B_key+%3D%3D+%24lang%5D%5B0%5D.value-%3E_id%29%0A++++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++++%5D+%7C+order%28orderRank%29%7B%0A++++++_id%2C%0A++++++title%2C%0A++++++slug+%7B%0A++++++++current%0A++++++%7D%0A++++%7D%2C%0A++++%5B%5D%0A++%29%2C%0A%7D%0A&%24lang=%22fr%22&%24defaultLanguage=%22en%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:25.058Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "85373635ff9f32b291734e7b35b3e2b5ae3d5325f3cc88c18d6ca5467f483852",
+      "kind": "json",
+      "size": 1372,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__85373635",
+      "outputs": [
+        "other/json/stake-com-production__85373635"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%0A%7B%0A++%22sidebarPromotions%22%3A+*%5B%0A++++_type+%3D%3D+%27sidebarPromotion%27%0A++++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++++%26%26+isDisplayed+%21%3D+false%0A++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++++%26%26+%28%21defined%28dateRange.start%29+%7C%7C+dateRange.start+%3C%3D+now%28%29%29%0A++++%26%26+%28%21defined%28dateRange.end%29+%7C%7C+dateRange.end+%3E+now%28%29%29%0A++%5D+%7C+order%28orderRank%29+%7B%0A++++_id%2C%0A++++title%2C%0A++++link%2C%0A++++icon%0A++%7D%2C%0A++%22fallbackSidebarPromotions%22%3A+select%28%0A++++%24lang+%21%3D+%24defaultLanguage+%3D%3E+*%5B%0A++++_type+%3D%3D+%27sidebarPromotion%27%0A++++%26%26+%28__i18n_lang+%3D%3D+%24defaultLanguage+%7C%7C+language+%3D%3D+%24defaultLanguage%29%0A++++%26%26+isDisplayed+%21%3D+false%0A++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++++%26%26+%28%21defined%28dateRange.start%29+%7C%7C+dateRange.start+%3C%3D+now%28%29%29%0A++++%26%26+%28%21defined%28dateRange.end%29+%7C%7C+dateRange.end+%3E+now%28%29%29%0A++++%26%26+%21defined%28*%5B_type+%3D%3D+%22translation.metadata%22+%26%26+references%28%5E._id%29%5D%5B0%5D.translations%5B_key+%3D%3D+%24lang%5D%5B0%5D.value-%3E_id%29%0A++%5D+%7C+order%28orderRank%29+%7B%0A++++_id%2C%0A++++title%2C%0A++++link%2C%0A++++icon%0A++%7D%2C%0A++++%5B%5D%0A++%29%0A%7D%0A&%24lang=%22fr%22&%24defaultLanguage=%22en%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:25.058Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "07f5bb909a1bedfa6ac15bf65db99933997f83fff82183e591e15f554e1b8afc",
+      "kind": "json",
+      "size": 43526,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__07f5bb90",
+      "outputs": [
+        "other/json/stake-com-production__07f5bb90"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%7B%0A++++%22promotions%22%3A+*+%5B%0A++++++++_type+%3D%3D+%22promotionFresh%22%0A++++++++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++++++++%26%26+isDisplayed+%21%3D+false%0A++++++++%26%26+hidden+%21%3D+true%0A++++++++%26%26+%28dateRange.start+%3D%3D+null+%7C%7C+dateTime%28now%28%29%29+%3E%3D+dateTime%28dateRange.start%29%29%0A++%26%26+%28dateRange.end+%3D%3D+null+%7C%7C+dateTime%28now%28%29%29+%3C%3D+dateTime%28dateRange.end%29%29%0A++++++++%26%26+references%28*%5B_type+%3D%3D+%27category%27+%26%26+slug.current+%3D%3D+%24category%5D._id%29%0A++++++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%0A++++++%5D%0A++++%7C+order%28orderRank%29+%5B%24start...%24end%5D%0A++++%7B%0A++++++...%2C%0A++++++%27image%27%3A+%7B%0A++++++++%27asset%27%3A+select%28%0A++++++++++language+%3D%3D+%24defaultLanguage+%3D%3E+image.asset-%3E%7B+url%2C+altText+%7D%2C%0A++++++++++coalesce%28%0A++++++++++++*%5B_type+%3D%3D+%22translation.metadata%22+%26%26+references%28%5E._id%29%5D%5B0%5D.translations%5B_key+%3D%3D+%24defaultLanguage%5D%5B0%5D.value-%3Eimage.asset-%3E%7B+url%2C+altText+%7D%2C%0A++++++++++++image.asset-%3E%7B+url%2C+altText+%7D%0A++++++++++%29%0A++++++++%29%0A++++++%7D%2C%0A++++%7D%2C%0A++++%22totalPromotionsCount%22%3A+count%28*%5B_type+%3D%3D+%22promotionFresh%22+%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29+%26%26+isDisplayed+%21%3D+false%0A++++++%26%26+hidden+%21%3D+true+%26%26+references%28*%5B_type+%3D%3D+%27category%27+%26%26+slug.current+%3D%3D+%24category%5D._id%29%0A++++++%26%26+%28dateRange.start+%3D%3D+null+%7C%7C+dateTime%28now%28%29%29+%3E%3D+dateTime%28dateRange.start%29%29%0A++%26%26+%28dateRange.end+%3D%3D+null+%7C%7C+dateTime%28now%28%29%29+%3C%3D+dateTime%28dateRange.end%29%29%0A++++++%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%5D%0A++++%29%2C%0A++++%22category%22%3A+coalesce%28*+%5B_type+%3D%3D+%22category%22++%26%26++%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29++%26%26+slug.current+%3D%3D+%24category%5D%5B0%5D.name%2C%0A++++*+%5B_type+%3D%3D+%22category%22++%26%26++%28__i18n_lang+%3D%3D+%24defaultLanguage+%7C%7C+language+%3D%3D+%24defaultLanguage%29++%26%26+slug.current+%3D%3D+%24category%5D%5B0%5D.name%29%2C%0A%7D&%24lang=%22fr%22&%24defaultLanguage=%22en%22&%24start=0&%24end=24&%24category=%22casino%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:25.065Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "2bf7b822c464b1741d77151ba982483f597f5b43ea6e0b2e34b31f88777e91c6",
+      "kind": "json",
+      "size": 222,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__2bf7b822",
+      "outputs": [
+        "other/json/stake-com-production__2bf7b822"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%0A*%5B_type+%3D%3D+%22seo%22%0A++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++%26%26+slug.current+%3D%3D+%24slug%0A%5D%5B0%5D%0A++%7B%0A+++description%2C%0A+++title%2C%0A++%7D%0A&%24lang=%22fr%22&%24defaultLanguage=%22en%22&%24slug=%22%2Fcasino%2Fgames%2Fpaperclip-red-robin%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:25.300Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "7ca10276fe26b4f8ceaeb2677739d2f65471fdf38f0e1415a66345d52a5a1c27",
+      "kind": "json",
+      "size": 333,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__7ca10276",
+      "outputs": [
+        "other/json/stake-com-production__7ca10276"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%0A%0A*%5B_type+%3D%3D+%22seo%22%0A++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++%26%26+slug.current+%3D%3D+%24slug%0A%5D%5B0%5D%0A++%7B%0A+++description%2C%0A+++title%2C%0A+++subtitle%2C%0A+++%22content%22%3A+content%5B%5D+%7B%0A+++++++...%2C%0A+++++++asset-%3E%7Burl%2C+altText%7D%2C%0A+++%7D%2C%0A+++demoteH1%0A%7D+&%24lang=%22fr%22&%24defaultLanguage=%22en%22&%24slug=%22%2Fcasino%2Fgames%2Fpaperclip-red-robin%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:25.300Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "83fa4df0d1ebf47baa5b5fa8fbbf0276a2eb51e88213df4ec1f2870e3c67d0cd",
+      "kind": "json",
+      "size": 30817,
+      "filename": "stake-com-production",
+      "raw_path": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__83fa4df0",
+      "outputs": [
+        "other/json/stake-com-production__83fa4df0"
+      ],
+      "urls": [
+        "https://tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production?query=%0A%0A*%5B_type+%3D%3D+%22seo%22%0A++%26%26+%28__i18n_lang+%3D%3D+%24lang+%7C%7C+language+%3D%3D+%24lang%29%0A++%26%26+slug.current+%3D%3D+%24slug%0A%5D%5B0%5D%0A++%7B%0A+++description%2C%0A+++title%2C%0A+++subtitle%2C%0A+++%22content%22%3A+content%5B%5D+%7B%0A+++++++...%2C%0A+++++++asset-%3E%7Burl%2C+altText%7D%2C%0A+++%7D%2C%0A+++demoteH1%0A%7D+&%24lang=%22en%22&%24defaultLanguage=%22en%22&%24slug=%22%2Fcasino%2Fgames%2Fpaperclip-red-robin%22"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:25.457Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "0f911c9522cb983113ccd737daf1794291fe0c12095c854f101ad445b3a1374d",
+      "kind": "image",
+      "size": 3482,
+      "filename": "left-sidebar-product-background-fr.png",
+      "raw_path": "raw/mediumrare.imgix.net/left-sidebar-product-background-fr.png",
+      "outputs": [
+        "images/left-sidebar-product-background-fr.png"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/left-sidebar-product-background-fr.png?w=24&h=6&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:25.588Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "93857c7b7ff4b0886aadb605f03ad7d373643243d3abb23f441707d26df7a724",
+      "kind": "image",
+      "size": 3987,
+      "filename": "left-sidebar-product-background-fr.png",
+      "raw_path": "raw/mediumrare.imgix.net/left-sidebar-product-background-fr__93857c7b.png",
+      "outputs": [
+        "images/left-sidebar-product-background-fr__93857c7b.png"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/left-sidebar-product-background-fr.png?w=748&h=200&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:25.647Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "7720faaecffb1df3ebbcb278ed527717c57094d20bd9e6ac7821eddb713fa058",
+      "kind": "image",
+      "size": 110894,
+      "filename": "rr2_loader.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_loader.webp",
+      "outputs": [
+        "images/rr2_loader.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 727,
+        "height": 700
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_loader.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.092Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "89ee7242d73bb16874f8f9f499f93bbab4db15ea71aa6b8e350aac15f5e8cb4d",
+      "kind": "image",
+      "size": 221730,
+      "filename": "rr2_loader_bg.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_loader_bg.webp",
+      "outputs": [
+        "images/rr2_loader_bg.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1873,
+        "height": 1503
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_loader_bg.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.093Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "1c151c07bd81b8e640f8f8c0bfd7de205e9ca09d56b0d691aca9cfe30eed5c0b",
+      "kind": "image",
+      "size": 64942,
+      "filename": "paperclip_full_logo.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/paperclip_full_logo.webp",
+      "outputs": [
+        "images/paperclip_full_logo.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1225,
+        "height": 270
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/paperclip_full_logo.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.093Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "f5ea52934ec8e25349f88b3cfb84cee9b03e7264c177a19e3f5633320b1e2e69",
+      "kind": "image",
+      "size": 533882,
+      "filename": "paperclip-rMFDawAD.gif",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/paperclip-rMFDawAD.gif",
+      "outputs": [
+        "images/paperclip-rMFDawAD.gif"
+      ],
+      "image": {
+        "format": "gif",
+        "width": 709,
+        "height": 446
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/paperclip-rMFDawAD.gif"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.095Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "5565d38d7172e499a2823df724f6886b9d70e5e100d5bbdee0688df7f2b737ce",
+      "kind": "image",
+      "size": 93490,
+      "filename": "rr2_ante.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_ante.webp",
+      "outputs": [
+        "images/rr2_ante.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 795,
+        "height": 390
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_ante.webp"
+      ],
+      "occurrences": 4,
+      "first_seen": "2026-10-02T19:50:26.095Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "69d2424b9eecf5bea9d5fdbc9ff8ef2ac524efe39666f4c62f477ffc5ead9932",
+      "kind": "image",
+      "size": 101516,
+      "filename": "rr2_bonus.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_bonus.webp",
+      "outputs": [
+        "images/rr2_bonus.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 795,
+        "height": 390
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_bonus.webp"
+      ],
+      "occurrences": 4,
+      "first_seen": "2026-10-02T19:50:26.095Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "c2a940378453c1f05a27abda2dde9f00d45c91368c58060b49e957f85b29e8f1",
+      "kind": "spine-skel",
+      "size": 451,
+      "filename": "rr2_background.skel",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_background.skel",
+      "outputs": [
+        "spine/package_001_rr2_background/rr2_background.skel"
+      ],
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_background.skel"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.153Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "c2a198c5f19e3a1fa9fcf3e649e5533cd8471222800b101384aaadf4b2452d5e",
+      "kind": "spine-atlas",
+      "size": 3948,
+      "filename": "rr2_master.atlas",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_master.atlas",
+      "outputs": [
+        "spine/package_002_rr2_screens/rr2_master.atlas",
+        "spine/package_003_rr2_symbols/rr2_master.atlas",
+        "spine/package_004_rr2_reelhouse/rr2_master.atlas"
+      ],
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_master.atlas"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.153Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "f90b5f9221102e5b73879053651e28d4f855ab1143ef948aebf2784cb7db2fb4",
+      "kind": "spine-skel",
+      "size": 24205,
+      "filename": "rr2_reelhouse.skel",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_reelhouse.skel",
+      "outputs": [
+        "spine/package_004_rr2_reelhouse/rr2_reelhouse.skel"
+      ],
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_reelhouse.skel"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.156Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "fbd221ed0fe5774f78ab77cd61886d2b63582e7abf3a41dbcfba2ec720ab054b",
+      "kind": "spine-skel",
+      "size": 74808,
+      "filename": "rr2_screens.skel",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_screens.skel",
+      "outputs": [
+        "spine/package_002_rr2_screens/rr2_screens.skel"
+      ],
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_screens.skel"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.153Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "cda1520fab6b3acfc02b5c935e57b32e318c700e40f2a79f4d0ef99429b941e8",
+      "kind": "spine-skel",
+      "size": 65898,
+      "filename": "rr2_symbols.skel",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_symbols.skel",
+      "outputs": [
+        "spine/package_003_rr2_symbols/rr2_symbols.skel"
+      ],
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_symbols.skel"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.153Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "bd4ae6f797ee4f51a988da754ffcdd5bd9728b360546ed8468c3cd1a9ff93867",
+      "kind": "json",
+      "size": 2423,
+      "filename": "rr2_sounds.json",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_sounds.json",
+      "outputs": [
+        "other/json/rr2_sounds.json"
+      ],
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_sounds.json"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.156Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "0cda9fffffe0fce5301084ddd30a0a6c87a0ef29374409476780f7edcfc6f458",
+      "kind": "image",
+      "size": 15402,
+      "filename": "continue.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/continue.webp",
+      "outputs": [
+        "images/continue.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 964,
+        "height": 80
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/continue.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.183Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "07f896cd1f0b9570b6decbc12db548b42c65134fe62247f419ce84cd4d74aa44",
+      "kind": "image",
+      "size": 167362,
+      "filename": "rr_green.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr_green.webp",
+      "outputs": [
+        "images/rr_green.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1011,
+        "height": 983
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr_green.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.184Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "d562001afbe38971fa1b37a8639f4778fa6501a431d0804e3fb0a7da79cf2bc7",
+      "kind": "image",
+      "size": 93536,
+      "filename": "rr2_gold.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_gold.webp",
+      "outputs": [
+        "images/rr2_gold.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 816,
+        "height": 908
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_gold.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.184Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "48e1f8f80ad77e4837c52ba020b48e940fabead9ba1f8bae6a085b737af6c0f2",
+      "kind": "image",
+      "size": 162084,
+      "filename": "rr_red.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr_red.webp",
+      "outputs": [
+        "images/rr_red.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1011,
+        "height": 983
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr_red.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.183Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "adae7c893e623e35a9b3595f6fabdcc2ada8de56acf01e19a18cf18919ecab58",
+      "kind": "image",
+      "size": 1179998,
+      "filename": "rr2_master_2.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_master_2.webp",
+      "outputs": [
+        "spine/package_002_rr2_screens/rr2_master_2.webp",
+        "spine/package_003_rr2_symbols/rr2_master_2.webp",
+        "spine/package_004_rr2_reelhouse/rr2_master_2.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 4094,
+        "height": 1674
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_master_2.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.184Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "65a3b5a34a2e7073132191c6933b01906157df318cbc1655e29b9af0896b7dfe",
+      "kind": "image",
+      "size": 2215226,
+      "filename": "rr2_master.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_master.webp",
+      "outputs": [
+        "spine/package_002_rr2_screens/rr2_master.webp",
+        "spine/package_003_rr2_symbols/rr2_master.webp",
+        "spine/package_004_rr2_reelhouse/rr2_master.webp"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 4087,
+        "height": 4095
+      },
+      "urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_master.webp"
+      ],
+      "occurrences": 2,
+      "first_seen": "2026-10-02T19:50:26.184Z",
+      "sources": [
+        "collector_refetch",
+        "har"
+      ]
+    },
+    {
+      "sha256": "f519d7927e71d9f3157f3fc287c1be0b6854d01364d9ed92e99b0d5ee0f66c5b",
+      "kind": "image",
+      "size": 33994,
+      "filename": "2cdad06e3df68abf1350b89753a78fd8e8b90ca757cdedd4405bda1cd1ff6c42",
+      "raw_path": "raw/mediumrare.imgix.net/2cdad06e3df68abf1350b89753a78fd8e8b90ca757cdedd4405bda1cd1ff6c42",
+      "outputs": [
+        "images/2cdad06e3df68abf1350b89753a78fd8e8b90ca757cdedd4405bda1cd1ff6c42"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/2cdad06e3df68abf1350b89753a78fd8e8b90ca757cdedd4405bda1cd1ff6c42?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.246Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "ce1f952143f5bc141252862b17be52401678b90124e974ac22cdfbbdc0dee168",
+      "kind": "image",
+      "size": 35199,
+      "filename": "c7a425dc7c607d29f3d6dbba0b1d76b94d71c02498b635573108712ad88d90e6",
+      "raw_path": "raw/mediumrare.imgix.net/c7a425dc7c607d29f3d6dbba0b1d76b94d71c02498b635573108712ad88d90e6",
+      "outputs": [
+        "images/c7a425dc7c607d29f3d6dbba0b1d76b94d71c02498b635573108712ad88d90e6"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/c7a425dc7c607d29f3d6dbba0b1d76b94d71c02498b635573108712ad88d90e6?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.247Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "2ab6868ffb61aeea1ba0da13d77c822025cc131da266c799f983cea1e552c99f",
+      "kind": "image",
+      "size": 38177,
+      "filename": "8b4219183a2f81d652c203862c8f0f6ae9d32f9664923891350759b99ed51ca1",
+      "raw_path": "raw/mediumrare.imgix.net/8b4219183a2f81d652c203862c8f0f6ae9d32f9664923891350759b99ed51ca1",
+      "outputs": [
+        "images/8b4219183a2f81d652c203862c8f0f6ae9d32f9664923891350759b99ed51ca1"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/8b4219183a2f81d652c203862c8f0f6ae9d32f9664923891350759b99ed51ca1?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.248Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "cb77bb9bd0df189baf9627bd5c9cc79e18d4e7d7de165569802374cf0a4f46a6",
+      "kind": "image",
+      "size": 31430,
+      "filename": "9dfc9e96ce9256b9794d703e7041c08b083fb58c7a1183c1cd7fc3c5caa23cf9",
+      "raw_path": "raw/mediumrare.imgix.net/9dfc9e96ce9256b9794d703e7041c08b083fb58c7a1183c1cd7fc3c5caa23cf9",
+      "outputs": [
+        "images/9dfc9e96ce9256b9794d703e7041c08b083fb58c7a1183c1cd7fc3c5caa23cf9"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/9dfc9e96ce9256b9794d703e7041c08b083fb58c7a1183c1cd7fc3c5caa23cf9?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.248Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "d9cce46afc09f7fe440a023b8c1e1a9050429e80df8b5744e16ce457a817c97a",
+      "kind": "image",
+      "size": 28713,
+      "filename": "3d0f5e9785aa18feb9246f5ec1da448906a172850c2c086095454ffaaf5d1f60",
+      "raw_path": "raw/mediumrare.imgix.net/3d0f5e9785aa18feb9246f5ec1da448906a172850c2c086095454ffaaf5d1f60",
+      "outputs": [
+        "images/3d0f5e9785aa18feb9246f5ec1da448906a172850c2c086095454ffaaf5d1f60"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/3d0f5e9785aa18feb9246f5ec1da448906a172850c2c086095454ffaaf5d1f60?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.247Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "ae9fc8968d83c95be8c39b1d481de6693b432e53f2130d589e6990db6a38f664",
+      "kind": "image",
+      "size": 16494,
+      "filename": "a0065f09a9594b09ed89478c91be1c2dd202510b7d190f84670439a4c43c02f9",
+      "raw_path": "raw/mediumrare.imgix.net/a0065f09a9594b09ed89478c91be1c2dd202510b7d190f84670439a4c43c02f9",
+      "outputs": [
+        "images/a0065f09a9594b09ed89478c91be1c2dd202510b7d190f84670439a4c43c02f9"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/a0065f09a9594b09ed89478c91be1c2dd202510b7d190f84670439a4c43c02f9?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.248Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "799213a9d81c568b479b3e754403db084d9bb68afa7a4510675bbb74fc215ca4",
+      "kind": "image",
+      "size": 24481,
+      "filename": "2cac67732080948fc4d545c9578bce4197d2bfdad0a52cc247af1fb39cc193f0",
+      "raw_path": "raw/mediumrare.imgix.net/2cac67732080948fc4d545c9578bce4197d2bfdad0a52cc247af1fb39cc193f0",
+      "outputs": [
+        "images/2cac67732080948fc4d545c9578bce4197d2bfdad0a52cc247af1fb39cc193f0"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/2cac67732080948fc4d545c9578bce4197d2bfdad0a52cc247af1fb39cc193f0?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.248Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "7e08a1675ef08b14827f7c462470cdbf6015cde761dc73f8a165b79fc50238cf",
+      "kind": "image",
+      "size": 24969,
+      "filename": "69b0c738e701f6feebfbe7dedbd02a61bb3f941b2c06f2c703e2596d3e8aa12b",
+      "raw_path": "raw/mediumrare.imgix.net/69b0c738e701f6feebfbe7dedbd02a61bb3f941b2c06f2c703e2596d3e8aa12b",
+      "outputs": [
+        "images/69b0c738e701f6feebfbe7dedbd02a61bb3f941b2c06f2c703e2596d3e8aa12b"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/69b0c738e701f6feebfbe7dedbd02a61bb3f941b2c06f2c703e2596d3e8aa12b?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.248Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "980a75c38b5258e292cbfc39b6b1b692db134eb4b522b0ef5f06b17b3a73c00f",
+      "kind": "image",
+      "size": 31209,
+      "filename": "e008ce1b0f6cdd859d703f8260bd8bb1da99562162154cb19049afea09edddb6",
+      "raw_path": "raw/mediumrare.imgix.net/e008ce1b0f6cdd859d703f8260bd8bb1da99562162154cb19049afea09edddb6",
+      "outputs": [
+        "images/e008ce1b0f6cdd859d703f8260bd8bb1da99562162154cb19049afea09edddb6"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/e008ce1b0f6cdd859d703f8260bd8bb1da99562162154cb19049afea09edddb6?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.249Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "4414e7ee8250e485f173e36d46d22ec42f9d5f1e87b1842391f9af68e2c110c4",
+      "kind": "image",
+      "size": 27859,
+      "filename": "a95221c79da5704abe5e0305e204abb63eea180243b70b9a43b5dca4cbbb83e8",
+      "raw_path": "raw/mediumrare.imgix.net/a95221c79da5704abe5e0305e204abb63eea180243b70b9a43b5dca4cbbb83e8",
+      "outputs": [
+        "images/a95221c79da5704abe5e0305e204abb63eea180243b70b9a43b5dca4cbbb83e8"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/a95221c79da5704abe5e0305e204abb63eea180243b70b9a43b5dca4cbbb83e8?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.296Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "f75a64bdd2468b091d917279fdc7788e4f1328c99042b04a592b0438eb565ea5",
+      "kind": "image",
+      "size": 28430,
+      "filename": "61cab7ea22b00ac219e21ac529a5b6a2f5d4f08a58f16840c9a23b64802f090a",
+      "raw_path": "raw/mediumrare.imgix.net/61cab7ea22b00ac219e21ac529a5b6a2f5d4f08a58f16840c9a23b64802f090a",
+      "outputs": [
+        "images/61cab7ea22b00ac219e21ac529a5b6a2f5d4f08a58f16840c9a23b64802f090a"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/61cab7ea22b00ac219e21ac529a5b6a2f5d4f08a58f16840c9a23b64802f090a?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.249Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "10edb383b91b96722109204c97685b66085d1a62ddd00e5da0bc7463e96d49bc",
+      "kind": "image",
+      "size": 64907,
+      "filename": "ad74c4bf6f07a87fab0dcc29d36121424a5f57549f4ae2c9ac55e09bd6235bb0",
+      "raw_path": "raw/mediumrare.imgix.net/ad74c4bf6f07a87fab0dcc29d36121424a5f57549f4ae2c9ac55e09bd6235bb0",
+      "outputs": [
+        "images/ad74c4bf6f07a87fab0dcc29d36121424a5f57549f4ae2c9ac55e09bd6235bb0"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/ad74c4bf6f07a87fab0dcc29d36121424a5f57549f4ae2c9ac55e09bd6235bb0?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.249Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "987bd27cd5f40d657fe5c54e434cd999b7bfb60d98ef78cc578b09e46a57c278",
+      "kind": "image",
+      "size": 21701,
+      "filename": "b76680685f8b25d8bb529ead044d280653ea74f2d4215f611258c573b57e6f6a",
+      "raw_path": "raw/mediumrare.imgix.net/b76680685f8b25d8bb529ead044d280653ea74f2d4215f611258c573b57e6f6a",
+      "outputs": [
+        "images/b76680685f8b25d8bb529ead044d280653ea74f2d4215f611258c573b57e6f6a"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/b76680685f8b25d8bb529ead044d280653ea74f2d4215f611258c573b57e6f6a?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.249Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "8f928772acd416b6667a320ed8d0d44552b55acb607c83e847a2e617b4b2d98e",
+      "kind": "image",
+      "size": 25310,
+      "filename": "67df5bbdf31e04c11a81fd3cc2549fb32e78c576242f65787b6804b9269ef628",
+      "raw_path": "raw/mediumrare.imgix.net/67df5bbdf31e04c11a81fd3cc2549fb32e78c576242f65787b6804b9269ef628",
+      "outputs": [
+        "images/67df5bbdf31e04c11a81fd3cc2549fb32e78c576242f65787b6804b9269ef628"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/67df5bbdf31e04c11a81fd3cc2549fb32e78c576242f65787b6804b9269ef628?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.249Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "081df3c21f9ebcc9c807fe17c1e68bf887ba4102527f43ee7b3b84a1aa0e1077",
+      "kind": "image",
+      "size": 28048,
+      "filename": "1e274e37e2d55fd7cadeff0f06ec3b718f7792efc03c474dcd15699fd58e1aac",
+      "raw_path": "raw/mediumrare.imgix.net/1e274e37e2d55fd7cadeff0f06ec3b718f7792efc03c474dcd15699fd58e1aac",
+      "outputs": [
+        "images/1e274e37e2d55fd7cadeff0f06ec3b718f7792efc03c474dcd15699fd58e1aac"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/1e274e37e2d55fd7cadeff0f06ec3b718f7792efc03c474dcd15699fd58e1aac?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.249Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "402f065f80d79ee304bf6f43215f0e43cd77f9a9647d865d481080b3b0bef162",
+      "kind": "image",
+      "size": 30677,
+      "filename": "6cea76c63bbfc9dc2273c6d0d9ce0071ff0ddcdb285494069766f8b9787b350d",
+      "raw_path": "raw/mediumrare.imgix.net/6cea76c63bbfc9dc2273c6d0d9ce0071ff0ddcdb285494069766f8b9787b350d",
+      "outputs": [
+        "images/6cea76c63bbfc9dc2273c6d0d9ce0071ff0ddcdb285494069766f8b9787b350d"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/6cea76c63bbfc9dc2273c6d0d9ce0071ff0ddcdb285494069766f8b9787b350d?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.250Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "124f3379ec1bd5487edfbf6158f7ba8f9ff0dd24040f8a1eefe8592fbee48bd1",
+      "kind": "image",
+      "size": 71207,
+      "filename": "7c683861bb942ce2c25f588f4d19ecaaf9ad6f80127a9e6a1b15fcbcb37d77fd",
+      "raw_path": "raw/mediumrare.imgix.net/7c683861bb942ce2c25f588f4d19ecaaf9ad6f80127a9e6a1b15fcbcb37d77fd",
+      "outputs": [
+        "images/7c683861bb942ce2c25f588f4d19ecaaf9ad6f80127a9e6a1b15fcbcb37d77fd"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/7c683861bb942ce2c25f588f4d19ecaaf9ad6f80127a9e6a1b15fcbcb37d77fd?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.296Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "cba356e0692d7f6422a28967e402c0f72726a500d30dba18203ddf29f1e55655",
+      "kind": "image",
+      "size": 16389,
+      "filename": "2d106c51c0dc4a5755642ccb11012d89b4cfd6370c400279065d96bc22d48c34",
+      "raw_path": "raw/mediumrare.imgix.net/2d106c51c0dc4a5755642ccb11012d89b4cfd6370c400279065d96bc22d48c34",
+      "outputs": [
+        "images/2d106c51c0dc4a5755642ccb11012d89b4cfd6370c400279065d96bc22d48c34"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/2d106c51c0dc4a5755642ccb11012d89b4cfd6370c400279065d96bc22d48c34?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.316Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "6af4b5343148c8e55b74c4fd145f639b93c2b4be48417089a4b227fc12e7be4f",
+      "kind": "image",
+      "size": 59595,
+      "filename": "d32de0df0d6427b20912b2bbce9557331c198e1da86435f4a50d2a08f3756b1b",
+      "raw_path": "raw/mediumrare.imgix.net/d32de0df0d6427b20912b2bbce9557331c198e1da86435f4a50d2a08f3756b1b",
+      "outputs": [
+        "images/d32de0df0d6427b20912b2bbce9557331c198e1da86435f4a50d2a08f3756b1b"
+      ],
+      "image": {
+        "format": "avif",
+        "width": null,
+        "height": null
+      },
+      "urls": [
+        "https://mediumrare.imgix.net/d32de0df0d6427b20912b2bbce9557331c198e1da86435f4a50d2a08f3756b1b?w=800&h=450&fit=min&auto=format"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.296Z",
+      "sources": [
+        "har"
+      ]
+    },
+    {
+      "sha256": "3d61d7017c29c78d55201b13d780f092732bf660c0468add802f770a9c200feb",
+      "kind": "json",
+      "size": 44,
+      "filename": "predict",
+      "raw_path": "raw/inference.api.useinsider.com/predict",
+      "outputs": [
+        "other/json/predict"
+      ],
+      "urls": [
+        "https://inference.api.useinsider.com/predict?pid=10013663&uid=REDACTED&sid=REDACTED&a=ltpd"
+      ],
+      "occurrences": 1,
+      "first_seen": "2026-10-02T19:50:26.539Z",
+      "sources": [
+        "har"
+      ]
+    }
+  ]
+}

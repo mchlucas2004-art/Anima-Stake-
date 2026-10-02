@@ -1,0 +1,256 @@
+{
+  "id": "odin-s-vault/package_001_spade",
+  "package": "package_001_spade",
+  "name": "spade",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "spade.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "idle",
+    "win",
+    "land",
+    "symbol_win",
+    "symbol_idle"
+  ],
+  "tags": [
+    "symbol",
+    "idle",
+    "win",
+    "land",
+    "symbol_win",
+    "symbol_idle",
+    "spade",
+    "symbols",
+    "lows"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "symbol": 6.6,
+      "effect": 1.6,
+      "ui": 0.8,
+      "character": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:symbols",
+      "bone:symbol",
+      "bone:multiplier",
+      "region:symbol",
+      "region:multiplier",
+      "anims:land+win"
+    ]
+  },
+  "animations": [
+    "idle",
+    "land",
+    "transform",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 3,
+        "slots": 13
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 3,
+        "slots": 13
+      }
+    },
+    {
+      "name": "transform",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 8,
+        "slots": 13
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 15
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 13,
+  "slots_count": 22,
+  "bones": [
+    "root",
+    "spades",
+    "spades_3d3",
+    "spades_3d4",
+    "spades_back_glow2",
+    "spades_symbol2",
+    "main_transform",
+    "Red_Glow_2_1_1",
+    "Red_Glow_2_2_1",
+    "Red_Glow_2_3",
+    "Sparks_Red_1",
+    "Red_Glow_2_4",
+    "Red_Glow_2_5"
+  ],
+  "slots": [
+    "spades/multiplier_back_glow4",
+    "spades/shadow_spades",
+    "spades/wood_spades",
+    "spades/frame_shadow_spades",
+    "spades/frame_thickness_spades",
+    "spades/frame_spades",
+    "spades/wood_spades_symbol",
+    "spades/wood_spades_symbol_add",
+    "spades_red",
+    "Red_Glow_2_2_1",
+    "Red_Glow_2_2_2",
+    "Red_Glow_2_1_1",
+    "Red_Glow_2_1_2",
+    "Red_Glow_2_3",
+    "Sparks_Red_1",
+    "Sparks_Red_2",
+    "Sparks_Red_3_2",
+    "Sparks_Red_4_2",
+    "Sparks_Red_6",
+    "Sparks_Red_7",
+    "Red_Glow_3_4",
+    "Red_Glow_4_4"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 1,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 22,
+  "attachment_types": {
+    "mesh": 20,
+    "region": 2
+  },
+  "dimensions": {
+    "width": 289,
+    "height": 285
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "symbols_low.webp",
+      "atlas": "symbols_low.atlas",
+      "file": "symbols_low.webp",
+      "sha256": "f8e748ad53e35da998e6f45d312b0b93a56b972033ba1edf6affc956031a5b55",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "atlas_size": [
+        1024,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "symbols_low.atlas",
+      "sha256": "ccb30fa79bdb7f7953dc88e4ef684f3624fcd7106dd1fa7e3d556f5887b4bba5",
+      "format": "spine-4",
+      "pages": [
+        "symbols_low.webp"
+      ],
+      "regions": 44,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 115,
+      "evidence": [
+        "regions 20/20 (100% of skeleton)",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": [
+        "package_002_heart",
+        "package_003_club",
+        "package_004_diamond"
+      ]
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "spade.json",
+      "role": "skeleton",
+      "sha256": "66dd315985534e36ef3fe62882950ad58f8dbd2ee6de3b568991aaa9eb3372fd",
+      "size": 17870,
+      "original_filename": "spade.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/spade.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/spade.json"
+      ]
+    },
+    {
+      "file": "symbols_low.atlas",
+      "role": "atlas",
+      "sha256": "ccb30fa79bdb7f7953dc88e4ef684f3624fcd7106dd1fa7e3d556f5887b4bba5",
+      "size": 1957,
+      "original_filename": "symbols_low.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/symbols_low.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/symbols_low.atlas"
+      ]
+    },
+    {
+      "file": "symbols_low.webp",
+      "role": "texture",
+      "sha256": "f8e748ad53e35da998e6f45d312b0b93a56b972033ba1edf6affc956031a5b55",
+      "size": 227906,
+      "original_filename": "symbols_low.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/symbols_low.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/symbols_low.webp"
+      ],
+      "atlas_page": "symbols_low.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/spade.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/symbols_low.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/symbols_low.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [
+    "package_002_heart",
+    "package_003_club",
+    "package_004_diamond"
+  ],
+  "detected_at": "2026-10-02T19:53:39.516Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

@@ -1,0 +1,208 @@
+{
+  "id": "spin-reaper-winsafe/package_019_bet-button",
+  "package": "package_019_bet-button",
+  "name": "bet-button",
+  "game": "Spin-reaper-winsafe",
+  "game_slug": "spin-reaper-winsafe",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "bet-button.json",
+  "skeleton_version": "4.1.24",
+  "category": "ui",
+  "subtypes": [
+    "land",
+    "spin"
+  ],
+  "tags": [
+    "ui",
+    "land",
+    "spin",
+    "bet",
+    "button",
+    "slots"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "ui": 6.8,
+      "character": 0,
+      "symbol": 0,
+      "effect": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:ui",
+      "name:button",
+      "bone:icon",
+      "region:icon"
+    ]
+  },
+  "animations": [
+    "disabled_spin",
+    "spin_stop",
+    "stop_spin"
+  ],
+  "animation_details": [
+    {
+      "name": "disabled_spin",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 2,
+        "slots": 3
+      }
+    },
+    {
+      "name": "spin_stop",
+      "duration": 0.767,
+      "timelines": {
+        "bones": 2,
+        "slots": 4
+      }
+    },
+    {
+      "name": "stop_spin",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 2,
+        "slots": 4
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 4,
+  "slots_count": 8,
+  "bones": [
+    "root",
+    "icon_spin-active",
+    "icon_stop-active",
+    "icon_stop-disabled"
+  ],
+  "slots": [
+    "base_active",
+    "base_disabled",
+    "icon_stop-disabled",
+    "icon_spin-active",
+    "icon_spin-active_blur",
+    "icon_spin-active_blur2",
+    "icon_spin-disabled",
+    "icon_stop-active"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 8,
+  "attachment_types": {
+    "region": 8
+  },
+  "dimensions": {
+    "width": 401,
+    "height": 401
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "bet-button.webp",
+      "atlas": "bet-button.atlas",
+      "file": "bet-button.webp",
+      "sha256": "b2c3bb5031e2cc33f2a3999c74a1683a88e4fe86951d1f0a00d59d8f0cd63871",
+      "format": "webp",
+      "width": 487,
+      "height": 1206,
+      "atlas_size": [
+        487,
+        1206
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": null
+    }
+  ],
+  "atlases": [
+    {
+      "file": "bet-button.atlas",
+      "sha256": "a5ca148ffd592432928b640aab06c24a548f7a3c6459129899954c44081f5e3e",
+      "format": "spine-4",
+      "pages": [
+        "bet-button.webp"
+      ],
+      "regions": 8,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 8/8 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "bet-button.json",
+      "role": "skeleton",
+      "sha256": "746333cc7da61354052dd2447c7fd849aefe3c0ffecff9e19ede1dd65c2c79ee",
+      "size": 7947,
+      "original_filename": "bet-button.json",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.json",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.json"
+      ]
+    },
+    {
+      "file": "bet-button.atlas",
+      "role": "atlas",
+      "sha256": "a5ca148ffd592432928b640aab06c24a548f7a3c6459129899954c44081f5e3e",
+      "size": 363,
+      "original_filename": "bet-button.atlas",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.atlas",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.atlas"
+      ]
+    },
+    {
+      "file": "bet-button.webp",
+      "role": "texture",
+      "sha256": "b2c3bb5031e2cc33f2a3999c74a1683a88e4fe86951d1f0a00d59d8f0cd63871",
+      "size": 27766,
+      "original_filename": "bet-button.webp",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.webp",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.webp"
+      ],
+      "atlas_page": "bet-button.webp"
+    }
+  ],
+  "source_urls": [
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.json",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.atlas",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:09:21.600Z",
+  "sessions": [
+    "2026-10-02T20:15:11.265Z"
+  ],
+  "packaged_at": "2026-10-02T20:48:22.950Z"
+}

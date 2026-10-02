@@ -1,0 +1,319 @@
+{
+  "id": "odin-s-vault/package_021_greenpouch",
+  "package": "package_021_greenpouch",
+  "name": "greenpouch",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "greenpouch.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "win",
+    "land",
+    "symbol_win"
+  ],
+  "tags": [
+    "symbol",
+    "win",
+    "land",
+    "symbol_win",
+    "greenpouch",
+    "symbols",
+    "special"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "symbol": 6.5,
+      "effect": 3.4,
+      "background": 0.5,
+      "character": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:symbols",
+      "bone:l4",
+      "bone:l5",
+      "bone:l6",
+      "anims:land+win"
+    ]
+  },
+  "animations": [
+    "collect",
+    "landing",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "collect",
+      "duration": 1,
+      "timelines": {
+        "bones": 47,
+        "slots": 51
+      }
+    },
+    {
+      "name": "landing",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 11
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "timelines": {
+        "bones": 39,
+        "slots": 47,
+        "drawOrder": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 54,
+  "slots_count": 65,
+  "bones": [
+    "root",
+    "Mine_green_pouch",
+    "green_pouch",
+    "green_pouch2",
+    "green_pouch_3d",
+    "green_pouch_3d2",
+    "Coins",
+    "Coin2",
+    "Coin3",
+    "Coin4",
+    "Coin5",
+    "Coin6",
+    "Coin7",
+    "decor",
+    "laces_l4",
+    "laces_l5",
+    "laces_l6",
+    "laces_r7",
+    "laces_r8",
+    "laces_r9",
+    "Handles3",
+    "Handles4",
+    "green_pouch3",
+    "Coins2",
+    "Coin8",
+    "Coin9",
+    "Coin10",
+    "Coin11",
+    "Coin12",
+    "Coin13",
+    "green_sparkss",
+    "green_sparks",
+    "green_sparks2",
+    "green_sparks3",
+    "green_sparks4",
+    "green_sparks9",
+    "green_sparks10",
+    "green_sparks11",
+    "green_sparks5",
+    "green_sparks6",
+    "green_sparks12",
+    "green_sparks13",
+    "green_sparkss2",
+    "green_sparks7",
+    "green_sparks8",
+    "green_sparks14",
+    "green_sparks15",
+    "green_sparks16",
+    "green_sparks17",
+    "green_sparks18",
+    "green_sparks19",
+    "green_sparks20",
+    "green_sparks21",
+    "green_sparks22"
+  ],
+  "slots": [
+    "BG_green_pouch",
+    "Shadow_1_green_pouch",
+    "pouch_effects_02_glow_01",
+    "base_glowgreen_pouch",
+    "Handles_green_down_pouch",
+    "base_green_pouch",
+    "decor_shadow_green_pouch",
+    "green_coins_Shadow_golden_pouch",
+    "Coin_6_green_pouch",
+    "Shadow_coin_6_green_pouch",
+    "Coin_5_green_pouch",
+    "Shadow_coin_5_green_pouch",
+    "Coin_4_green_pouch",
+    "Shadow_coin_4_green_pouch",
+    "Coin_3_green_pouch",
+    "Shadow_coin_3_green_pouch",
+    "Coin_2_green_pouch",
+    "Shadow_coin_2_green_pouch",
+    "Coin_1_green_pouch",
+    "Coin_6_green_pouch3",
+    "Coin_5_green_pouch3",
+    "Coin_4_green_pouch3",
+    "Coin_3_green_pouch3",
+    "Coin_2_green_pouch3",
+    "Coin_1_green_pouch3",
+    "Coin_6_green_pouch2",
+    "Coin_5_green_pouch2",
+    "Coin_4_green_pouch2",
+    "Coin_3_green_pouch2",
+    "Coin_2_green_pouch2",
+    "Coin_1_green_pouch2",
+    "Shadow_coin_1_green_pouch",
+    "base_mask_green_pouch",
+    "laces_l_green_pouch",
+    "laces_l_green_pouch2",
+    "laces_r_green_pouch",
+    "laces_r_green_pouch2",
+    "decor_02_green_pouch",
+    "decor_01_green_pouch",
+    "decor_01_green_pouch2",
+    "laces_top_green_pouch",
+    "Handles_green_pouch",
+    "pouch_coins_glow",
+    "Sparks_coin1",
+    "Sparks_coin4",
+    "Sparks_coin3",
+    "Sparks_coin6",
+    "Sparks_coin2",
+    "Sparks_coin5",
+    "Sparks_coins2",
+    "Sparks_coins5",
+    "Sparks_coins4",
+    "Sparks_coins7",
+    "Sparks_coins3",
+    "Sparks_coins6",
+    "Sparks_coins8",
+    "Sparks_coins13",
+    "Sparks_coins12",
+    "Sparks_coins17",
+    "Sparks_coins9",
+    "Sparks_coins14",
+    "Sparks_coins11",
+    "Sparks_coins16",
+    "Sparks_coins10",
+    "Sparks_coins15"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 1,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 40,
+  "attachment_types": {
+    "region": 2,
+    "mesh": 38
+  },
+  "dimensions": {
+    "width": 130,
+    "height": 155
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "greenpouch.webp",
+      "atlas": "greenpouch.atlas",
+      "file": "greenpouch.webp",
+      "sha256": "395285cbcd2257a9b92266f61e7016e0c9a8e318cca83a93b0dfbbbeb23ba637",
+      "format": "webp",
+      "width": 512,
+      "height": 256,
+      "atlas_size": [
+        512,
+        256
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "greenpouch.atlas",
+      "sha256": "e290a3e611e393b9504170a56fd4f0d9a7152960c9a35efed7701f4bc58c3939",
+      "format": "spine-4",
+      "pages": [
+        "greenpouch.webp"
+      ],
+      "regions": 25,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 25/25 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "greenpouch.json",
+      "role": "skeleton",
+      "sha256": "b9e744cb3f0a4b40b451c627b04f97a1d9ff4c055847b3094b4cd8504790065a",
+      "size": 86086,
+      "original_filename": "greenpouch.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/greenpouch.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/greenpouch.json"
+      ]
+    },
+    {
+      "file": "greenpouch.atlas",
+      "role": "atlas",
+      "sha256": "e290a3e611e393b9504170a56fd4f0d9a7152960c9a35efed7701f4bc58c3939",
+      "size": 1184,
+      "original_filename": "greenpouch.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/greenpouch.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/greenpouch.atlas"
+      ]
+    },
+    {
+      "file": "greenpouch.webp",
+      "role": "texture",
+      "sha256": "395285cbcd2257a9b92266f61e7016e0c9a8e318cca83a93b0dfbbbeb23ba637",
+      "size": 64276,
+      "original_filename": "greenpouch.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/greenpouch.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/greenpouch.webp"
+      ],
+      "atlas_page": "greenpouch.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/greenpouch.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/greenpouch.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/greenpouch.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.529Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

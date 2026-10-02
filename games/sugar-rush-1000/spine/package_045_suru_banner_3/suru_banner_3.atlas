@@ -1,0 +1,13 @@
+
+suru_banner_3.png
+size: 436,252
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rays_1
+  rotate: false
+  xy: 0, 0
+  size: 435, 250
+  orig: 435, 250
+  offset: 0, 0
+  index: -1

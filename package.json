@@ -1,0 +1,28 @@
+{
+  "name": "scrap",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Collecteur et classeur local d'assets Spine observés dans le navigateur",
+  "scripts": {
+    "scrape": "node src/cli.js scrape",
+    "resume": "node src/cli.js resume",
+    "login": "node src/cli.js login",
+    "rebuild": "node src/cli.js rebuild",
+    "index": "node src/cli.js index",
+    "search": "node src/cli.js search",
+    "test": "node test/e2e.js",
+    "viewer": "node page-test-animation/server.js",
+    "import": "node src/cli.js import",
+    "repair": "node src/cli.js repair"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

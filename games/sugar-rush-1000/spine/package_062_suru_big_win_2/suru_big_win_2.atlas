@@ -1,0 +1,34 @@
+
+suru_big_win_2.png
+size: 772,250
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+left_star
+  rotate: true
+  xy: 666, 135
+  size: 115, 106
+  orig: 115, 106
+  offset: 0, 0
+  index: -1
+left_star_motion
+  rotate: false
+  xy: 0, 0
+  size: 331, 250
+  orig: 331, 250
+  offset: 0, 0
+  index: -1
+right_star
+  rotate: true
+  xy: 666, 18
+  size: 115, 106
+  orig: 115, 106
+  offset: 0, 0
+  index: -1
+right_star_motion
+  rotate: false
+  xy: 333, 0
+  size: 331, 250
+  orig: 331, 250
+  offset: 0, 0
+  index: -1

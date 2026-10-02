@@ -1,0 +1,90 @@
+{
+ "id": "creations/halloween/scatter",
+ "package": "halloween_scatter",
+ "name": "halloween_scatter",
+ "game": "Halloween (créations)",
+ "game_slug": "halloween",
+ "provider": "Scrap (création originale)",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "halloween_scatter.json",
+ "skeleton_version": "4.2.43",
+ "version": 2,
+ "category": "symbol",
+ "subtypes": [
+  "scatter",
+  "entrance",
+  "idle",
+  "land",
+  "anticipation",
+  "win",
+  "exit"
+ ],
+ "tags": [
+  "halloween",
+  "scatter",
+  "pumpkin",
+  "witch",
+  "bat",
+  "ghost",
+  "moon",
+  "candy",
+  "slime"
+ ],
+ "animations": [
+  "intro",
+  "idle",
+  "idle_eyes",
+  "land",
+  "anticipation",
+  "anticipation_idle",
+  "anticipation_end",
+  "win",
+  "trigger",
+  "outro"
+ ],
+ "events": [
+  "land",
+  "ignite",
+  "hat",
+  "tease",
+  "smile",
+  "burst",
+  "thump",
+  "charge",
+  "trigger",
+  "vanish"
+ ],
+ "bones_count": 67,
+ "slots_count": 48,
+ "meshes": 9,
+ "physics_constraints": 16,
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "halloween_scatter.atlas",
+   "pages": [
+    "halloween_scatter.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "halloween_scatter.png",
+   "page": "halloween_scatter.png",
+   "width": 2048,
+   "height": 2048,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "usage": {
+  "tracks": {
+   "0": "intro -> idle (loop) | land | anticipation -> anticipation_idle (loop) -> anticipation_end | win | trigger | outro",
+   "1": "idle_eyes (loop) together with idle"
+  }
+ }
+}

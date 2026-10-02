@@ -1,0 +1,46 @@
+{
+  "id": "wicked-grin/atlas_003_reel",
+  "game": "Wicked Grin",
+  "provider": "Hacksaw Gaming",
+  "atlas_file": "reel.atlas",
+  "sha256": "b11025ff21334600717c4c1fa7a1300145d28d9625f672358b88a6e445cda9b6",
+  "format": "spine-3/libgdx",
+  "pages": [
+    {
+      "name": "reel.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "RGBA8888",
+      "filter": "Linear, Linear",
+      "pma": null,
+      "scale": null,
+      "regions": 5
+    }
+  ],
+  "regions_count": 5,
+  "regions": [
+    "red_glow",
+    "reel",
+    "reel_spread_glow",
+    "reel_spread_glow_epic",
+    "yellow_glow"
+  ],
+  "textures": [
+    {
+      "page": "reel.png",
+      "file": "reel.ktx2",
+      "sha256": "965cb215433755fb436c51c025fab523eef5659a2c139142c1510d55e98c2875",
+      "width": 2048,
+      "height": 2048,
+      "size_match": true,
+      "match_method": "same_folder_variant"
+    }
+  ],
+  "note": "Atlas with no matching skeleton captured. Could be a plain sprite atlas, or its skeleton was never loaded during the session.",
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/reel.atlas"
+  ],
+  "detected_at": "2026-10-02T20:02:07.277Z"
+}

@@ -1,0 +1,177 @@
+{
+  "id": "odin-s-vault/package_020_explosion",
+  "package": "package_020_explosion",
+  "name": "explosion",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "explosion.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [
+    "explosion"
+  ],
+  "tags": [
+    "effect",
+    "explosion",
+    "spines",
+    "symbols"
+  ],
+  "classification": {
+    "confidence": "low",
+    "scores": {
+      "effect": 3.8,
+      "symbol": 3,
+      "character": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:explosion",
+      "bone:smoke",
+      "region:smoke"
+    ]
+  },
+  "animations": [
+    "remove"
+  ],
+  "animation_details": [
+    {
+      "name": "remove",
+      "duration": 0.4,
+      "timelines": {
+        "bones": 1,
+        "slots": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 2,
+  "slots_count": 1,
+  "bones": [
+    "root",
+    "smoke_01"
+  ],
+  "slots": [
+    "smoke_01"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 10,
+  "attachment_types": {
+    "region": 10
+  },
+  "dimensions": {
+    "width": 185,
+    "height": 164
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "explosion.webp",
+      "atlas": "explosion.atlas",
+      "file": "explosion.webp",
+      "sha256": "1b0df8386ac1354581ce4ff8e7c1f88d7f67094c886314f2b733a6dc8b9e6cd9",
+      "format": "webp",
+      "width": 465,
+      "height": 1062,
+      "atlas_size": [
+        465,
+        1062
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "explosion.atlas",
+      "sha256": "ad4e33471aa22a5c23ab2e0e0763171a7c6fd605a1ccd56aa1498dc5c2b783a3",
+      "format": "spine-4",
+      "pages": [
+        "explosion.webp"
+      ],
+      "regions": 10,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 10/10 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "explosion.json",
+      "role": "skeleton",
+      "sha256": "e91163e7d8c7e2a9768438c90a9d635702c5d194f6a40d655373e6c52ff62bd9",
+      "size": 1500,
+      "original_filename": "explosion.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.json"
+      ]
+    },
+    {
+      "file": "explosion.atlas",
+      "role": "atlas",
+      "sha256": "ad4e33471aa22a5c23ab2e0e0763171a7c6fd605a1ccd56aa1498dc5c2b783a3",
+      "size": 605,
+      "original_filename": "explosion.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.atlas"
+      ]
+    },
+    {
+      "file": "explosion.webp",
+      "role": "texture",
+      "sha256": "1b0df8386ac1354581ce4ff8e7c1f88d7f67094c886314f2b733a6dc8b9e6cd9",
+      "size": 140192,
+      "original_filename": "explosion.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.webp"
+      ],
+      "atlas_page": "explosion.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.529Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

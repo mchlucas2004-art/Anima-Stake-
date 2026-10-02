@@ -1,0 +1,66 @@
+{
+ "sprite": {
+  "sfx_superfreespin": [
+   250,
+   2250
+  ],
+  "sfx_anticipation": [
+   2750,
+   5000,
+   true
+  ],
+  "sfx_multiplier_landing": [
+   8000,
+   497
+  ],
+  "sfx_reel_stop_1": [
+   8747,
+   500
+  ],
+  "sfx_reel_stop_2": [
+   9497,
+   500
+  ],
+  "sfx_reel_stop_3": [
+   10247,
+   500
+  ],
+  "sfx_reel_stop_4": [
+   10997,
+   500
+  ],
+  "sfx_reel_stop_5": [
+   11747,
+   500
+  ]
+ },
+ "src": [
+  "./assets/audio/sounds.mp3"
+ ],
+ "config": {
+  "sfx_superfreespin": {
+   "volume": 0.75
+  },
+  "sfx_anticipation": {
+   "volume": 1
+  },
+  "sfx_multiplier_landing": {
+   "volume": 1
+  },
+  "sfx_reel_stop_1": {
+   "volume": 1
+  },
+  "sfx_reel_stop_2": {
+   "volume": 1
+  },
+  "sfx_reel_stop_3": {
+   "volume": 1
+  },
+  "sfx_reel_stop_4": {
+   "volume": 1
+  },
+  "sfx_reel_stop_5": {
+   "volume": 1
+  }
+ }
+}

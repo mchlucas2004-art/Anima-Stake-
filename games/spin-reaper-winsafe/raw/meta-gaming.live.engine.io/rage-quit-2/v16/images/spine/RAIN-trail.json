@@ -1,0 +1,86 @@
+{
+"skeleton": {
+	"hash": "u11dI2ybB9s",
+	"spine": "4.2.43",
+	"x": -116.7,
+	"y": -117.3,
+	"width": 233.4,
+	"height": 234.6,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx-trail", "parent": "root" },
+	{ "name": "cut-win-monitor-glitch", "parent": "root", "scaleX": 0.3, "scaleY": 0.3 }
+],
+"slots": [
+	{ "name": "cut-win-monitor-glitch", "bone": "cut-win-monitor-glitch", "attachment": "cut-win-monitor-glow" },
+	{ "name": "fx-trail-glitch_04", "bone": "fx-trail", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"cut-win-monitor-glitch": {
+				"cut-win-monitor-glow": { "scaleX": 2, "scaleY": 2, "width": 389, "height": 391 }
+			},
+			"fx-trail-glitch_04": {
+				"fx-trail-glitch_": {
+					"x": 232.94,
+					"width": 504,
+					"height": 78,
+					"sequence": { "count": 16, "start": 4, "digits": 2 }
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"cut-win-monitor-glitch": {
+				"attachment": [
+					{ "time": 0.1667 }
+				]
+			},
+			"fx-trail-glitch_04": {
+				"attachment": [
+					{ "name": "fx-trail-glitch_" },
+					{ "time": 0.5 }
+				]
+			}
+		},
+		"bones": {
+			"fx-trail": {
+				"scale": [
+					{ "x": 0.877, "y": 0.708 },
+					{ "time": 0.1, "x": 1.405, "y": 3.431 },
+					{ "time": 0.3, "x": 2.215, "y": 4.229 }
+				]
+			},
+			"cut-win-monitor-glitch": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "value": -720 }
+				],
+				"scale": [
+					{ "x": 0.833, "y": 0.833 },
+					{ "time": 0.3333, "x": 1.167, "y": 1.167 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fx-trail-glitch_04": {
+					"fx-trail-glitch_": {
+						"sequence": [
+							{ "mode": "once", "index": 1, "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

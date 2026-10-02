@@ -1,0 +1,96 @@
+winline_digits_countup.png
+size: 512, 512
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+0
+  rotate: false
+  xy: 1, 282
+  size: 110, 137
+  orig: 117, 150
+  offset: 3, 13
+  index: -1
+1
+  rotate: false
+  xy: 318, 138
+  size: 72, 136
+  orig: 117, 150
+  offset: 22, 14
+  index: -1
+2
+  rotate: false
+  xy: 120, 1
+  size: 100, 137
+  orig: 117, 150
+  offset: 8, 13
+  index: -1
+3
+  rotate: false
+  xy: 1, 142
+  size: 99, 138
+  orig: 117, 150
+  offset: 9, 12
+  index: -1
+4
+  rotate: false
+  xy: 102, 142
+  size: 103, 137
+  orig: 117, 150
+  offset: 7, 13
+  index: -1
+5
+  rotate: false
+  xy: 222, 1
+  size: 94, 136
+  orig: 117, 150
+  offset: 11, 13
+  index: -1
+6
+  rotate: false
+  xy: 207, 140
+  size: 102, 136
+  orig: 117, 150
+  offset: 7, 13
+  index: -1
+7
+  rotate: false
+  xy: 417, 1
+  size: 90, 136
+  orig: 117, 150
+  offset: 13, 13
+  index: -1
+8
+  rotate: false
+  xy: 113, 281
+  size: 99, 137
+  orig: 117, 150
+  offset: 9, 12
+  index: -1
+9
+  rotate: false
+  xy: 318, 1
+  size: 97, 135
+  orig: 117, 150
+  offset: 10, 13
+  index: -1
+comma
+  rotate: false
+  xy: 1, 421
+  size: 51, 61
+  orig: 57, 150
+  offset: 3, 0
+  index: -1
+dot
+  rotate: false
+  xy: 54, 421
+  size: 51, 48
+  orig: 57, 150
+  offset: 3, 13
+  index: -1
+x
+  rotate: false
+  xy: 1, 1
+  size: 117, 139
+  orig: 117, 150
+  offset: 0, 11
+  index: -1

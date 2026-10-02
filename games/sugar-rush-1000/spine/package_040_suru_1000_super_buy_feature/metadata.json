@@ -1,0 +1,291 @@
+{
+  "id": "sugar-rush-1000/package_040_suru_1000_super_buy_feature",
+  "package": "package_040_suru_1000_super_buy_feature",
+  "name": "suru_1000_super_buy_feature",
+  "game": "Sugar Rush 1000",
+  "game_slug": "sugar-rush-1000",
+  "provider": "Pragmatic Play",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "suru_1000_super_buy_feature.json",
+  "skeleton_version": "3.7.91",
+  "category": "ui",
+  "subtypes": [
+    "loop",
+    "entrance",
+    "exit",
+    "bonus"
+  ],
+  "tags": [
+    "ui",
+    "loop",
+    "entrance",
+    "exit",
+    "bonus",
+    "suru",
+    "super",
+    "buy",
+    "feature",
+    "buyfeature"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "ui": 12.2,
+      "effect": 0.8,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:buy",
+      "name:buyfeature",
+      "anim:buy",
+      "anim:buyfeature",
+      "bone:button",
+      "bone:buy",
+      "bone:frame",
+      "bone:text",
+      "region:button",
+      "region:buy",
+      "region:frame",
+      "region:text"
+    ]
+  },
+  "animations": [
+    "suru_1000_super_buy_feature_big_in",
+    "suru_1000_super_buy_feature_big_loop",
+    "suru_1000_super_buy_feature_big_right_click_out",
+    "suru_1000_super_buy_feature_big_wrong_click_out",
+    "suru_1000_super_buy_feature_small_click",
+    "suru_1000_super_buy_feature_small_loop"
+  ],
+  "animation_details": [
+    {
+      "name": "suru_1000_super_buy_feature_big_in",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 2,
+        "slots": 12,
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_1000_super_buy_feature_big_loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 1,
+        "slots": 4
+      }
+    },
+    {
+      "name": "suru_1000_super_buy_feature_big_right_click_out",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 2,
+        "slots": 8,
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_1000_super_buy_feature_big_wrong_click_out",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 2,
+        "slots": 8,
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_1000_super_buy_feature_small_click",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 5,
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_1000_super_buy_feature_small_loop",
+      "duration": 1,
+      "timelines": {
+        "bones": 2,
+        "slots": 11
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 7,
+  "slots_count": 42,
+  "bones": [
+    "root",
+    "small_super_buy_click",
+    "bone2",
+    "big_super_buy_free_spins",
+    "doller",
+    "click_right",
+    "bone3"
+  ],
+  "slots": [
+    "base_glow_2",
+    "base_glow_3",
+    "base_glow_1",
+    "base_glow_4",
+    "base",
+    "spot_10",
+    "spot_9",
+    "spot_8",
+    "spot_7",
+    "spot_6",
+    "spot_5",
+    "spot_4",
+    "spot_3",
+    "spot_2",
+    "spot_1",
+    "frame",
+    "perticle_sweet",
+    "multipliers_text",
+    "buy_text_big",
+    "free_text_big",
+    "spins_text_big",
+    "yellow_button_shadow",
+    "doller_button_frame_shadow",
+    "doller_button",
+    "super_text_big",
+    "red_button_big",
+    "red_button_big2",
+    "cross_sing_defth_shadow",
+    "cross_sing",
+    "green_button_big",
+    "green_button_big2",
+    "right_defth_shadow",
+    "right_sing",
+    "sugar",
+    "green_base_small",
+    "green_base_small2",
+    "buy_text_small_2",
+    "super_text_small",
+    "spins_text_small_2",
+    "red_base_small",
+    "spins_text_small",
+    "buy_text_small"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 35,
+  "attachment_types": {
+    "region": 25,
+    "mesh": 10
+  },
+  "dimensions": {
+    "width": 1418,
+    "height": 942
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "suru_1000_super_buy_feature.png",
+      "atlas": "suru_1000_super_buy_feature.atlas",
+      "file": "suru_1000_super_buy_feature.png",
+      "sha256": "8383c611bef0de8da1adfa8ac42034c4c3129b9baef51035e8b18f92338fb103",
+      "format": "png",
+      "width": 2071,
+      "height": 1924,
+      "atlas_size": [
+        2071,
+        1924
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "suru_1000_super_buy_feature.atlas",
+      "sha256": "18960ea770a2f556476b4fbedf37a9f52e1af4e5b38335ffb7627781b1597b0f",
+      "format": "spine-3/libgdx",
+      "pages": [
+        "suru_1000_super_buy_feature.png"
+      ],
+      "regions": 30,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 30/30 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "suru_1000_super_buy_feature.json",
+      "role": "skeleton",
+      "sha256": "347fac8f674a7c85b30a1a80da17423a82bf0fac5a0b113f99f027f65e248e90",
+      "size": 23689,
+      "original_filename": "suru_1000_super_buy_feature.json",
+      "raw_path": "raw/_embedded/uht-993170588056/suru_1000_super_buy_feature.json",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "99317058805668a4e8f4bc2f1471e190"
+      }
+    },
+    {
+      "file": "suru_1000_super_buy_feature.atlas",
+      "role": "atlas",
+      "sha256": "18960ea770a2f556476b4fbedf37a9f52e1af4e5b38335ffb7627781b1597b0f",
+      "size": 3170,
+      "original_filename": "suru_1000_super_buy_feature.atlas",
+      "raw_path": "raw/_embedded/uht-993170588056/suru_1000_super_buy_feature.atlas",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "99317058805668a4e8f4bc2f1471e190"
+      }
+    },
+    {
+      "file": "suru_1000_super_buy_feature.png",
+      "role": "texture",
+      "sha256": "8383c611bef0de8da1adfa8ac42034c4c3129b9baef51035e8b18f92338fb103",
+      "size": 318157,
+      "original_filename": "suru_1000_super_buy_feature.png",
+      "raw_path": "raw/_embedded/uht-993170588056/suru_1000_super_buy_feature.png",
+      "source_urls": [],
+      "embedded_from": {
+        "vendor": "pragmatic_uht",
+        "spine_id": "99317058805668a4e8f4bc2f1471e190"
+      },
+      "atlas_page": "suru_1000_super_buy_feature.png"
+    }
+  ],
+  "source_urls": [],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": null,
+  "sessions": [],
+  "packaged_at": "2026-10-02T15:45:20.442Z"
+}

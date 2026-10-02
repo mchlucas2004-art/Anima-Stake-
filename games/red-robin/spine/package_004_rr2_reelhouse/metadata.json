@@ -1,0 +1,182 @@
+{
+  "id": "red-robin/package_004_rr2_reelhouse",
+  "package": "package_004_rr2_reelhouse",
+  "name": "rr2_reelhouse",
+  "game": "Red-Robin",
+  "game_slug": "red-robin",
+  "provider": "Paperclip Gaming",
+  "format": "spine",
+  "skeleton_format": "binary",
+  "skeleton_file": "rr2_reelhouse.skel",
+  "skeleton_version": "4.2.43",
+  "category": "unknown",
+  "subtypes": [],
+  "tags": [
+    "rr",
+    "reelhouse"
+  ],
+  "classification": {
+    "confidence": "none",
+    "scores": {
+      "ui": 0.6,
+      "symbol": 0.3,
+      "effect": 0.3,
+      "background": 0.3,
+      "transition": 0.3,
+      "character": 0
+    },
+    "evidence": []
+  },
+  "animations": [],
+  "animation_details": [],
+  "skins": [],
+  "events": [],
+  "bones_count": null,
+  "slots_count": null,
+  "bones": [],
+  "slots": [],
+  "constraints": null,
+  "attachments_count": null,
+  "attachment_types": null,
+  "dimensions": {
+    "width": 12579.39,
+    "height": 9753.38
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "rr2_master.webp",
+      "atlas": "rr2_master.atlas",
+      "file": "rr2_master.webp",
+      "sha256": "65a3b5a34a2e7073132191c6933b01906157df318cbc1655e29b9af0896b7dfe",
+      "format": "webp",
+      "width": 4087,
+      "height": 4095,
+      "atlas_size": [
+        4087,
+        4095
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "rr2_master_2.webp",
+      "atlas": "rr2_master.atlas",
+      "file": "rr2_master_2.webp",
+      "sha256": "adae7c893e623e35a9b3595f6fabdcc2ada8de56acf01e19a18cf18919ecab58",
+      "format": "webp",
+      "width": 4094,
+      "height": 1674,
+      "atlas_size": [
+        4094,
+        1674
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "rr2_master.atlas",
+      "sha256": "c2a198c5f19e3a1fa9fcf3e649e5533cd8471222800b101384aaadf4b2452d5e",
+      "format": "spine-4",
+      "pages": [
+        "rr2_master.webp",
+        "rr2_master_2.webp"
+      ],
+      "regions": 102,
+      "coverage": 0.245,
+      "coverage_side": "atlas",
+      "score": 40,
+      "evidence": [
+        "regions 25/102 (25% of atlas)",
+        "same folder",
+        "loaded 3ms apart"
+      ],
+      "shared_with": [
+        "package_002_rr2_screens",
+        "package_003_rr2_symbols"
+      ]
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "rr2_reelhouse.skel",
+      "role": "skeleton",
+      "sha256": "f90b5f9221102e5b73879053651e28d4f855ab1143ef948aebf2784cb7db2fb4",
+      "size": 24205,
+      "original_filename": "rr2_reelhouse.skel",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_reelhouse.skel",
+      "source_urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_reelhouse.skel"
+      ]
+    },
+    {
+      "file": "rr2_master.atlas",
+      "role": "atlas",
+      "sha256": "c2a198c5f19e3a1fa9fcf3e649e5533cd8471222800b101384aaadf4b2452d5e",
+      "size": 3948,
+      "original_filename": "rr2_master.atlas",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_master.atlas",
+      "source_urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_master.atlas"
+      ]
+    },
+    {
+      "file": "rr2_master.webp",
+      "role": "texture",
+      "sha256": "65a3b5a34a2e7073132191c6933b01906157df318cbc1655e29b9af0896b7dfe",
+      "size": 2215226,
+      "original_filename": "rr2_master.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_master.webp",
+      "source_urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_master.webp"
+      ],
+      "atlas_page": "rr2_master.webp"
+    },
+    {
+      "file": "rr2_master_2.webp",
+      "role": "texture",
+      "sha256": "adae7c893e623e35a9b3595f6fabdcc2ada8de56acf01e19a18cf18919ecab58",
+      "size": 1179998,
+      "original_filename": "rr2_master_2.webp",
+      "raw_path": "raw/paperclip.live.engine.io/red-robin/v12/assets/rr2_master_2.webp",
+      "source_urls": [
+        "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_master_2.webp"
+      ],
+      "atlas_page": "rr2_master_2.webp"
+    }
+  ],
+  "source_urls": [
+    "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_reelhouse.skel",
+    "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_master.atlas",
+    "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_master.webp",
+    "https://paperclip.live.engine.io/red-robin/v12/assets/rr2_master_2.webp"
+  ],
+  "checks": {
+    "complete": false,
+    "atlas_found": true,
+    "pages_resolved": "2/2",
+    "region_coverage": 0.24509803921568626,
+    "missing_regions": []
+  },
+  "complete": false,
+  "warnings": [
+    "binary skeleton: animation list not parsed (version, size and atlas association only)"
+  ],
+  "shared_atlas_with": [
+    "package_002_rr2_screens",
+    "package_003_rr2_symbols"
+  ],
+  "detected_at": "2026-10-02T19:50:26.156Z",
+  "sessions": [
+    "2026-10-02T20:15:07.891Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:11.220Z"
+}

@@ -1,0 +1,173 @@
+{
+  "id": "interrogator/package_020_ink",
+  "package": "package_020_ink",
+  "name": "ink",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "ink.json",
+  "skeleton_version": "4.2.43",
+  "category": "effect",
+  "subtypes": [],
+  "tags": [
+    "effect",
+    "ink",
+    "fx"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "effect": 3,
+      "ui": 0.8,
+      "character": 0,
+      "symbol": 0,
+      "background": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:fx"
+    ]
+  },
+  "animations": [
+    "ink"
+  ],
+  "animation_details": [
+    {
+      "name": "ink",
+      "duration": 0.933,
+      "timelines": {
+        "bones": 1,
+        "slots": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 2,
+  "slots_count": 2,
+  "bones": [
+    "root",
+    "ink"
+  ],
+  "slots": [
+    "Untitled-1",
+    "ezgif-frame-001png_1"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 28,
+  "attachment_types": {
+    "region": 28
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "ink.png",
+      "atlas": "ink.atlas",
+      "file": "ink.png",
+      "sha256": "1ffb2d08d48fad85dafc7580098cb8ffcb7079179895f4ff6778faf81b72d9ee",
+      "format": "png",
+      "width": 2048,
+      "height": 1024,
+      "atlas_size": [
+        2048,
+        1024
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": null
+    }
+  ],
+  "atlases": [
+    {
+      "file": "ink.atlas",
+      "sha256": "e84af1ab0e58b4aae0334a75209027595f8068e676e3eaa653c4e375b24ea16c",
+      "format": "spine-4",
+      "pages": [
+        "ink.png"
+      ],
+      "regions": 28,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 28/28 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "ink.json",
+      "role": "skeleton",
+      "sha256": "d05646ccf631dcf048d93416930e4e92ba1146854c437e3a6d4b7b7464abfbdd",
+      "size": 4016,
+      "original_filename": "ink.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.json"
+      ]
+    },
+    {
+      "file": "ink.atlas",
+      "role": "atlas",
+      "sha256": "e84af1ab0e58b4aae0334a75209027595f8068e676e3eaa653c4e375b24ea16c",
+      "size": 1763,
+      "original_filename": "ink.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.atlas"
+      ]
+    },
+    {
+      "file": "ink.png",
+      "role": "texture",
+      "sha256": "1ffb2d08d48fad85dafc7580098cb8ffcb7079179895f4ff6778faf81b72d9ee",
+      "size": 362291,
+      "original_filename": "ink.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.png"
+      ],
+      "atlas_page": "ink.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/fx/ink/ink.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:41.257Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

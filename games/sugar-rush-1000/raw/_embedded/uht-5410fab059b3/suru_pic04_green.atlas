@@ -1,0 +1,167 @@
+
+suru_pic04_green.png
+size: 332,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spalsh_00000
+  rotate: false
+  xy: 265, 16
+  size: 5, 4
+  orig: 27, 30
+  offset: 12, 1
+  index: -1
+spalsh_00001
+  rotate: false
+  xy: 73, 11
+  size: 5, 5
+  orig: 27, 30
+  offset: 12, 1
+  index: -1
+spalsh_00002
+  rotate: true
+  xy: 253, 0
+  size: 10, 7
+  orig: 27, 30
+  offset: 5, 22
+  index: -1
+spalsh_00003
+  rotate: false
+  xy: 253, 12
+  size: 10, 8
+  orig: 27, 30
+  offset: 12, 1
+  index: -1
+spalsh_00004
+  rotate: true
+  xy: 196, 13
+  size: 10, 14
+  orig: 27, 30
+  offset: 5, 15
+  index: -1
+spalsh_00005
+  rotate: false
+  xy: 0, 0
+  size: 18, 16
+  orig: 27, 30
+  offset: 4, 1
+  index: -1
+spalsh_00006
+  rotate: false
+  xy: 233, 3
+  size: 18, 17
+  orig: 27, 30
+  offset: 4, 1
+  index: -1
+spalsh_00007
+  rotate: true
+  xy: 212, 2
+  size: 18, 19
+  orig: 27, 30
+  offset: 5, 10
+  index: -1
+spalsh_00008
+  rotate: true
+  xy: 174, 5
+  size: 18, 20
+  orig: 27, 30
+  offset: 5, 9
+  index: -1
+spalsh_00009
+  rotate: true
+  xy: 311, 92
+  size: 18, 21
+  orig: 27, 30
+  offset: 5, 8
+  index: -1
+spalsh_00010
+  rotate: false
+  xy: 311, 27
+  size: 18, 22
+  orig: 27, 30
+  offset: 4, 1
+  index: -1
+spalsh_00011
+  rotate: true
+  xy: 150, 5
+  size: 18, 22
+  orig: 27, 30
+  offset: 5, 7
+  index: -1
+spalsh_00012
+  rotate: false
+  xy: 103, 0
+  size: 19, 23
+  orig: 27, 30
+  offset: 3, 1
+  index: -1
+spalsh_00013
+  rotate: true
+  xy: 124, 4
+  size: 19, 24
+  orig: 27, 30
+  offset: 5, 5
+  index: -1
+spalsh_00014
+  rotate: false
+  xy: 311, 51
+  size: 20, 25
+  orig: 27, 30
+  offset: 3, 1
+  index: -1
+spalsh_00015
+  rotate: false
+  xy: 41, 3
+  size: 20, 13
+  orig: 27, 30
+  offset: 3, 11
+  index: -1
+spalsh_00016
+  rotate: false
+  xy: 311, 78
+  size: 21, 12
+  orig: 27, 30
+  offset: 3, 12
+  index: -1
+spalsh_00017
+  rotate: false
+  xy: 20, 1
+  size: 19, 15
+  orig: 27, 30
+  offset: 3, 11
+  index: -1
+spalsh_00018
+  rotate: false
+  xy: 63, 4
+  size: 8, 12
+  orig: 27, 30
+  offset: 3, 15
+  index: -1
+spalsh_00019
+  rotate: true
+  xy: 196, 2
+  size: 9, 14
+  orig: 27, 30
+  offset: 15, 2
+  index: -1
+suru_candy
+  rotate: false
+  xy: 212, 22
+  size: 97, 88
+  orig: 97, 88
+  offset: 0, 0
+  index: -1
+suru_candy_stroke
+  rotate: false
+  xy: 0, 18
+  size: 101, 92
+  orig: 101, 92
+  offset: 0, 0
+  index: -1
+suru_shadow
+  rotate: false
+  xy: 103, 25
+  size: 107, 85
+  orig: 107, 85
+  offset: 0, 0
+  index: -1

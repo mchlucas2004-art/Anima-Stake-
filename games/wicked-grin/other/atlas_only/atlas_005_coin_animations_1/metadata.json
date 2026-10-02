@@ -1,0 +1,61 @@
+{
+  "id": "wicked-grin/atlas_005_coin_animations_1",
+  "game": "Wicked Grin",
+  "provider": "Hacksaw Gaming",
+  "atlas_file": "coin_animations_1.atlas",
+  "sha256": "cc349a6b3a9a4181dd634d1517e4126a69a3fdf1f471e04ea06307603308d074",
+  "format": "spine-3/libgdx",
+  "pages": [
+    {
+      "name": "coin_animations_1.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "format": "RGBA8888",
+      "filter": "Linear, Linear",
+      "pma": null,
+      "scale": null,
+      "regions": 20
+    }
+  ],
+  "regions_count": 20,
+  "regions": [
+    "coin1_00",
+    "coin1_01",
+    "coin1_02",
+    "coin1_03",
+    "coin1_04",
+    "coin1_05",
+    "coin1_06",
+    "coin1_07",
+    "coin1_08",
+    "coin1_09",
+    "coin1_10",
+    "coin1_11",
+    "coin1_12",
+    "coin1_13",
+    "coin1_14",
+    "coin1_15",
+    "coin1_16",
+    "coin1_17",
+    "coin1_18",
+    "coin1_19"
+  ],
+  "textures": [
+    {
+      "page": "coin_animations_1.png",
+      "file": "coin_animations_1.ktx2",
+      "sha256": "5ae29f5273c47676e56755eae95a10b7ffaef098debd59af59168c9b66c95b9e",
+      "width": 1024,
+      "height": 1024,
+      "size_match": true,
+      "match_method": "same_folder_variant"
+    }
+  ],
+  "note": "Atlas with no matching skeleton captured. Could be a plain sprite atlas, or its skeleton was never loaded during the session.",
+  "source_urls": [
+    "https://d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/atlas/coin_animations_1.atlas"
+  ],
+  "detected_at": "2026-10-02T20:02:07.287Z"
+}

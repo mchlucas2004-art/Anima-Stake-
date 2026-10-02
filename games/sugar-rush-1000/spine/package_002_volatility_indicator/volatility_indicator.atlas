@@ -1,0 +1,83 @@
+
+volatility_indicator.png
+size: 884,546
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+container
+  rotate: false
+  xy: 2, 402
+  size: 880, 142
+  orig: 880, 142
+  offset: 0, 0
+  index: -1
+container_small
+  rotate: false
+  xy: 2, 60
+  size: 540, 340
+  orig: 540, 340
+  offset: 0, 0
+  index: -1
+icon_highvolatility
+  rotate: false
+  xy: 658, 302
+  size: 98, 98
+  orig: 104, 104
+  offset: 3, 3
+  index: -1
+icon_highvolatility_glow
+  rotate: false
+  xy: 544, 288
+  size: 112, 112
+  orig: 128, 128
+  offset: 8, 8
+  index: -1
+icon_highvolatility_off
+  rotate: false
+  xy: 658, 202
+  size: 98, 98
+  orig: 104, 104
+  offset: 3, 3
+  index: -1
+icon_lowvolatility
+  rotate: false
+  xy: 658, 102
+  size: 98, 98
+  orig: 104, 104
+  offset: 3, 3
+  index: -1
+icon_lowvolatility_glow
+  rotate: false
+  xy: 544, 174
+  size: 112, 112
+  orig: 128, 128
+  offset: 8, 8
+  index: -1
+icon_lowvolatility_off
+  rotate: false
+  xy: 658, 2
+  size: 98, 98
+  orig: 104, 104
+  offset: 3, 3
+  index: -1
+icon_midvolatility
+  rotate: false
+  xy: 758, 302
+  size: 98, 98
+  orig: 104, 104
+  offset: 3, 3
+  index: -1
+icon_midvolatility_glow
+  rotate: false
+  xy: 544, 60
+  size: 112, 112
+  orig: 128, 128
+  offset: 8, 8
+  index: -1
+icon_midvolatility_off
+  rotate: false
+  xy: 758, 202
+  size: 98, 98
+  orig: 104, 104
+  offset: 3, 3
+  index: -1

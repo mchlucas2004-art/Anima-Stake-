@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Galerie Spine</title>
+<style>
+  :root { --bg: #0d0d0d; --panel: #151515; --panel2: #1c1c1c; --fg: #e8e8e8; --muted: #8a8a8a; --line: #2a2a2a; --accent: #4da3ff; --ok: #3fb950; --warn: #d29922; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font: 13px/1.4 -apple-system, system-ui, sans-serif; }
+  .app { display: grid; grid-template-columns: 320px 1fr; height: 100%; }
+  aside { display: grid; grid-template-rows: auto auto 1fr auto; border-right: 1px solid var(--line); background: var(--panel); min-height: 0; }
+  .top { padding: 12px; display: grid; gap: 8px; border-bottom: 1px solid var(--line); }
+  h1 { font-size: 15px; margin: 0; }
+  input[type=search], select { width: 100%; font: inherit; color: var(--fg); background: var(--panel2); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; padding: 8px 12px; border-bottom: 1px solid var(--line); }
+  .chip { font: inherit; font-size: 12px; color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; cursor: pointer; }
+  .chip.on { color: var(--accent); border-color: var(--accent); }
+  .list { overflow: auto; min-height: 0; }
+  .game { position: sticky; top: 0; background: var(--panel); padding: 8px 12px 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); border-bottom: 1px solid var(--line); }
+  .item { display: block; width: 100%; text-align: left; font: inherit; color: inherit; background: transparent; border: 0; border-bottom: 1px solid var(--line); padding: 8px 12px; cursor: pointer; }
+  .item:hover { background: var(--panel2); }
+  .item.sel { background: #1f2a38; }
+  .item .n { font-weight: 600; display: flex; gap: 6px; align-items: center; }
+  .item .d { color: var(--muted); font-size: 12px; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .badge { font-size: 10px; font-weight: 500; border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; color: var(--muted); }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--ok); flex: none; }
+  .dot.warn { background: var(--warn); }
+  .foot { padding: 8px 12px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; }
+  .foot button { font: inherit; color: var(--accent); background: none; border: 0; cursor: pointer; padding: 0; }
+  main { display: grid; grid-template-rows: auto 1fr; min-width: 0; min-height: 0; }
+  .head { display: flex; gap: 10px; align-items: center; padding: 10px 14px; background: var(--panel); border-bottom: 1px solid var(--line); min-width: 0; }
+  .head .t { min-width: 0; }
+  .head .t b { font-size: 15px; }
+  .head .t div { color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bg { margin-left: auto; display: flex; gap: 6px; flex: none; }
+  .bg button { font: inherit; color: var(--fg); background: transparent; border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+  .bg button.on { border-color: var(--accent); color: var(--accent); }
+  iframe { width: 100%; height: 100%; border: 0; background: #000; }
+  .empty { padding: 40px; color: var(--muted); }
+  @media (max-width: 760px) { .app { grid-template-columns: 1fr; grid-template-rows: 45vh 1fr; } aside { border-right: 0; border-bottom: 1px solid var(--line); } }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <div class="top">
+      <h1>Galerie Spine <a href="/halloween.html" style="float:right;font-size:12px;font-weight:600;color:#ff7cc3;text-decoration:none;border:1px solid #ff7cc3;border-radius:6px;padding:2px 8px">🎃 Jeu Halloween</a></h1>
+      <input type="search" id="q" placeholder="Rechercher : croc, idle, win, symbol…">
+      <select id="game"><option value="">Tous les jeux</option></select>
+    </div>
+    <div class="chips" id="cats"></div>
+    <div class="list" id="list"><div class="empty">Chargement…</div></div>
+    <div class="foot"><span id="count"></span><button id="refresh">↻ Actualiser</button></div>
+  </aside>
+  <main>
+    <div class="head">
+      <div class="t"><b id="title">Choisissez une animation à gauche</b><div id="sub"></div></div>
+      <div class="bg"><button data-bg="black">Fond noir</button><button data-bg="white">Fond blanc</button></div>
+    </div>
+    <iframe id="frame" title="Lecteur"></iframe>
+  </main>
+</div>
+<script>
+  let items = [];
+  let cat = '';
+  let selected = decodeURIComponent(location.hash.slice(1));
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  let bg = 'black';
+  try { bg = localStorage.getItem('scrap-bg') || 'black'; } catch {}
+  function setBg(v) {
+    bg = v;
+    try { localStorage.setItem('scrap-bg', v); } catch {}
+    document.querySelectorAll('.bg button').forEach((b) => b.classList.toggle('on', b.dataset.bg === v));
+    $('frame').style.background = v === 'white' ? '#fff' : '#000';
+    $('frame').contentWindow?.postMessage({ bg: v }, '*');
+  }
+  document.querySelectorAll('.bg button').forEach((b) => (b.onclick = () => setBg(b.dataset.bg)));
+
+  async function load() {
+    $('list').innerHTML = '<div class="empty">Chargement…</div>';
+    items = await (await fetch('/api/catalog')).json();
+    const games = [...new Map(items.map((i) => [i.game_slug, i.game])).entries()];
+    const gsel = $('game');
+    const keep = gsel.value;
+    gsel.innerHTML = '<option value="">Tous les jeux</option>' + games.map(([s, n]) => `<option value="${esc(s)}">${esc(n)}</option>`).join('');
+    gsel.value = keep;
+    const cats = [...new Set(items.map((i) => i.category))].sort();
+    $('cats').innerHTML = ['', ...cats].map((c) => `<button class="chip${c === cat ? ' on' : ''}" data-c="${esc(c)}">${c || 'tout'}</button>`).join('');
+    document.querySelectorAll('.chip').forEach((b) => (b.onclick = () => { cat = b.dataset.c; load.render(); }));
+    load.render();
+    if (selected && items.some((i) => i.id === selected)) show(items.find((i) => i.id === selected));
+  }
+
+  load.render = function () {
+    document.querySelectorAll('.chip').forEach((b) => b.classList.toggle('on', b.dataset.c === cat));
+    const q = $('q').value.toLowerCase().split(/\s+/).filter(Boolean);
+    const g = $('game').value;
+    const shown = items.filter((i) => {
+      if (g && i.game_slug !== g) return false;
+      if (cat && i.category !== cat) return false;
+      const text = [i.name, i.game, i.category, ...(i.subtypes || []), ...(i.animations || [])].join(' ').toLowerCase();
+      return q.every((w) => text.includes(w));
+    });
+    let html = '';
+    let lastGame = null;
+    for (const i of shown) {
+      if (i.game_slug !== lastGame) {
+        lastGame = i.game_slug;
+        html += `<div class="game">${esc(i.game)}${i.source === 'raw' ? ' · capture non rangée' : ''}${i.source === 'creation' ? ' · créations originales' : ''}</div>`;
+      }
+      html += `<button class="item${i.id === selected ? ' sel' : ''}" data-id="${esc(i.id)}">
+        <div class="n"><span class="dot${i.complete ? '' : ' warn'}" title="${i.complete ? 'complet' : 'incomplet'}"></span>${esc(i.name)} <span class="badge">${esc(i.category)}</span></div>
+        <div class="d">${(i.animations || []).length} anim · ${esc((i.animations || []).slice(0, 6).join(', '))}</div>
+      </button>`;
+    }
+    $('list').innerHTML = html || '<div class="empty">Aucune animation. Lancez une capture (npm run scrape).</div>';
+    $('count').textContent = `${shown.length} / ${items.length}`;
+    document.querySelectorAll('.item').forEach((b) => (b.onclick = () => show(items.find((i) => i.id === b.dataset.id))));
+  };
+
+  function show(i) {
+    selected = i.id;
+    history.replaceState(null, '', '#' + encodeURIComponent(i.id));
+    document.querySelectorAll('.item').forEach((b) => b.classList.toggle('sel', b.dataset.id === i.id));
+    $('title').textContent = `${i.name} — ${i.game}`;
+    $('sub').textContent = `Spine ${i.version || '?'} · ${i.category}${(i.subtypes || []).length ? ' (' + i.subtypes.join(', ') + ')' : ''} · ${i.folder}${(i.warnings || []).length ? ' · ⚠ ' + i.warnings[0] : ''}`;
+    if (i.showcase) $('sub').innerHTML += ` · <a href="${i.showcase}" style="color:#ff8a2a;font-weight:600">▶ Vue test animation (séquences)</a>`;
+    $('frame').src = '/play.html?t=' + Date.now() + '#' + encodeURIComponent(JSON.stringify(i));
+  }
+
+  $('q').oninput = () => load.render();
+  $('game').onchange = () => load.render();
+  $('refresh').onclick = () => load();
+  setBg(bg);
+  load();
+</script>
+</body>
+</html>

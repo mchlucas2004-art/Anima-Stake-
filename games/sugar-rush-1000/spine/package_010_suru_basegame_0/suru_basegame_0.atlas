@@ -1,0 +1,27 @@
+
+suru_basegame_0.png
+size: 280,552
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud_1
+  rotate: true
+  xy: 151, 0
+  size: 183, 77
+  orig: 183, 77
+  offset: 0, 0
+  index: -1
+cloud_2
+  rotate: true
+  xy: 0, 19
+  size: 532, 149
+  orig: 532, 149
+  offset: 0, 0
+  index: -1
+cloud_6
+  rotate: true
+  xy: 151, 185
+  size: 366, 127
+  orig: 366, 127
+  offset: 0, 0
+  index: -1

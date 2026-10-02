@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "session_id": "2026-10-02T20:15:07.891Z",
+  "game": "Red-Robin",
+  "entry": {
+    "name": "Red-Robin",
+    "provider": null
+  },
+  "updated_at": "2026-10-02T20:15:11.245Z",
+  "session": {
+    "id": "2026-10-02T20:15:07.891Z",
+    "started_at": "2026-10-02T20:15:07.891Z",
+    "ended_at": "2026-10-02T20:15:11.177Z",
+    "stop_reason": "har_import",
+    "mode": "har",
+    "source_file": "Red-Robin.har",
+    "counters": {
+      "requests": 939,
+      "finished": 937,
+      "failed": 2,
+      "candidates": 49,
+      "images": 36,
+      "json": 8,
+      "atlases": 1,
+      "skeletons": 4,
+      "newSkeletons": 4,
+      "bytes": 5875967,
+      "errors": 0,
+      "probes": 10
+    }
+  }
+}

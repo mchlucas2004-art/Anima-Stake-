@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halloween · jeu de symboles</title>
+<script src="https://cdn.jsdelivr.net/npm/@esotericsoftware/spine-webgl@4.2.120/dist/iife/spine-webgl.js"></script>
+<style>
+  :root { --panel: #16121f; --line: #2d2740; --fg: #ece8f6; --muted: #9a93ad; --accent: #ff8a2a; }
+  * { box-sizing: border-box; }
+  html { background: #0c0a12; }
+  body { margin: 0; background: radial-gradient(ellipse at 50% 0%, #2a1f40, #0c0a12 70%) fixed; color: var(--fg); font: 13px/1.4 -apple-system, system-ui, sans-serif; min-height: 100vh; }
+  header { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 14px 18px; border-bottom: 1px solid var(--line); background: #120f1acc; position: sticky; top: 0; z-index: 2; backdrop-filter: blur(6px); }
+  h1 { margin: 0 12px 0 0; font-size: 17px; }
+  .muted { color: var(--muted); }
+  button { font: 600 12px system-ui; color: var(--fg); background: #221c30; border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; cursor: pointer; }
+  button:hover { border-color: #5a4f78; }
+  button.on { border-color: var(--accent); background: #2d1d14; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; padding: 18px; }
+  .card { background: #15111ecc; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
+  .card.big { grid-column: span 2; }
+  .card canvas { width: 100%; aspect-ratio: 1 / 1; display: block; }
+  .card.big canvas { aspect-ratio: 2 / 1; }
+  .card .info { padding: 8px 10px; border-top: 1px solid var(--line); display: grid; gap: 6px; }
+  .card .t { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .card .t b { font-size: 14px; }
+  .tag { font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; }
+  .row { display: flex; flex-wrap: wrap; gap: 5px; }
+  .row button { padding: 4px 8px; font-size: 11px; }
+  .now { font: 11px ui-monospace, Menlo, monospace; color: var(--accent); min-height: 14px; }
+  a { color: var(--accent); }
+  @media (max-width: 600px) { .card.big { grid-column: span 1; } .card.big canvas { aspect-ratio: 1 / 1; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>🎃 Halloween — jeu de symboles</h1>
+  <span class="muted">Tous ensemble :</span>
+  <button data-all="land">land</button><button data-all="idle">idle</button><button data-all="win">win</button>
+  <button data-all="anticipation">anticipation</button><button data-all="exit">exit</button>
+  <button id="spin">▶ Cascade (land → idle → win → exit)</button>
+  <span class="muted" style="margin-left:auto"><a href="/">← galerie</a></span>
+</header>
+<div class="grid" id="grid"></div>
+<script>
+'use strict';
+const LOOPS = new Set(['idle', 'idle_eyes', 'anticipation', 'anticipation_idle']);
+const cards = [];
+
+class Card {
+  constructor(item, el) {
+    this.item = item;
+    this.canvas = el.querySelector('canvas');
+    this.now = el.querySelector('.now');
+    this.ctx = new spine.ManagedWebGLRenderingContext(this.canvas, { alpha: true });
+    this.renderer = new spine.SceneRenderer(this.canvas, this.ctx, true);
+    this.assets = new spine.AssetManager(this.ctx);
+    this.assets.loadTextureAtlas(item.atlas);
+    this.assets.loadJson(item.skeleton);
+  }
+  ready() {
+    if (this.skeleton) return true;
+    if (!this.assets.isLoadingComplete()) return false;
+    const json = new spine.SkeletonJson(new spine.AtlasAttachmentLoader(this.assets.require(this.item.atlas)));
+    this.data = json.readSkeletonData(this.assets.require(this.item.skeleton));
+    this.skeleton = new spine.Skeleton(this.data);
+    const sd = new spine.AnimationStateData(this.data);
+    sd.defaultMix = 0.15;
+    this.state = new spine.AnimationState(sd);
+    this.skeleton.setToSetupPose();
+    this.skeleton.updateWorldTransform(spine.Physics.reset);
+    const off = new spine.Vector2(), size = new spine.Vector2();
+    this.skeleton.getBounds(off, size, []);
+    this.bounds = { x: off.x + size.x / 2, y: off.y + size.y / 2, w: size.x, h: size.y };
+    this.play(this.data.findAnimation('intro') ? 'intro' : 'idle');
+    return true;
+  }
+  has(a) { return !!(this.data && this.data.findAnimation(a)); }
+  play(name, thenIdle = true) {
+    if (!this.has(name)) { if (name === 'anticipation' && this.has('anticipation_idle')) name = 'anticipation_idle'; else return null; }
+    const e = this.state.setAnimation(0, name, LOOPS.has(name));
+    if (name === 'intro' || name === 'land') e.mixDuration = 0;
+    if (!LOOPS.has(name) && thenIdle && name !== 'exit') this.state.addAnimation(0, 'idle', true, 0);
+    if (this.has('idle_eyes')) { if (!this.state.getCurrent(1)) this.state.setAnimation(1, 'idle_eyes', true); }
+    this.now.textContent = '▶ ' + name;
+    this.canvas.closest('.card').querySelectorAll('[data-a]').forEach((b) => b.classList.toggle('on', b.dataset.a === name));
+    return e;
+  }
+  draw(dt) {
+    if (!this.ready()) return;
+    const c = this.canvas, dpr = Math.min(2, devicePixelRatio || 1);
+    const w = Math.round(c.clientWidth * dpr), h = Math.round(c.clientHeight * dpr);
+    if (c.width !== w || c.height !== h) { c.width = w; c.height = h; }
+    const gl = this.ctx.gl;
+    gl.viewport(0, 0, w, h); gl.clearColor(0, 0, 0, 0); gl.clear(gl.COLOR_BUFFER_BIT);
+    this.state.update(dt); this.state.apply(this.skeleton);
+    this.skeleton.update(dt); this.skeleton.updateWorldTransform(spine.Physics.update);
+    const k = this.item.big ? 1.3 : 1.3;
+    const fit = Math.max((this.bounds.w * k) / w, (this.bounds.h * k) / h);
+    const cam = this.renderer.camera;
+    cam.position.x = this.bounds.x; cam.position.y = this.bounds.y; cam.viewportWidth = w * fit; cam.viewportHeight = h * fit;
+    this.renderer.begin(); this.renderer.drawSkeleton(this.skeleton, false); this.renderer.end();
+  }
+}
+
+(async () => {
+  const cat = await (await fetch('/api/catalog')).json();
+  const items = cat.filter((x) => x.game_slug === 'halloween');
+  const order = (x) => (x.id.endsWith('/scatter') ? 0 : x.subtypes?.includes('high_pay') ? 1 : 2);
+  items.sort((a, b) => order(a) - order(b));
+  const grid = document.getElementById('grid');
+  for (const it of items) {
+    it.big = it.id.endsWith('/scatter');
+    const el = document.createElement('div');
+    el.className = 'card' + (it.big ? ' big' : '');
+    const tier = it.big ? 'scatter' : it.subtypes?.includes('high_pay') ? 'symbole fort' : 'symbole simple';
+    el.innerHTML = `<canvas></canvas><div class="info"><div class="t"><b>${it.name.replace(/_/g, ' ')}</b><span class="tag">${tier}</span></div>
+      <div class="row">${it.animations.map((a) => `<button data-a="${a}">${a}</button>`).join('')}</div>
+      <div class="t"><span class="now"></span><a href="${it.showcase}">détails →</a></div></div>`;
+    grid.appendChild(el);
+    const card = new Card(it, el);
+    cards.push(card);
+    el.querySelectorAll('[data-a]').forEach((b) => (b.onclick = () => card.play(b.dataset.a)));
+  }
+  document.querySelectorAll('[data-all]').forEach((b) => (b.onclick = () => cards.forEach((c) => c.ready() && c.play(b.dataset.all))));
+  document.getElementById('spin').onclick = async () => {
+    const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+    cards.forEach((c, i) => setTimeout(() => c.ready() && c.play('land'), i * 90));
+    await wait(1600);
+    cards.forEach((c) => c.ready() && c.play('win'));
+    await wait(2300);
+    cards.forEach((c, i) => setTimeout(() => c.ready() && c.play('exit'), i * 60));
+    await wait(900);
+    cards.forEach((c, i) => setTimeout(() => c.ready() && c.play(c.has('intro') ? 'intro' : 'land'), i * 90));
+  };
+  let last = performance.now();
+  (function frame(now) {
+    const dt = Math.min(0.05, (now - last) / 1000); last = now;
+    for (const c of cards) c.draw(dt);
+    requestAnimationFrame(frame);
+  })(last);
+})();
+</script>
+</body>
+</html>

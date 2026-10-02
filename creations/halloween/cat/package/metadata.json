@@ -1,0 +1,60 @@
+{
+ "id": "creations/halloween/cat",
+ "package": "cat",
+ "name": "cat",
+ "label": "Chat noir",
+ "game": "Halloween (créations)",
+ "game_slug": "halloween",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "cat.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "high_pay",
+  "land",
+  "idle",
+  "win",
+  "exit",
+  "anticipation"
+ ],
+ "tier": "high",
+ "rank": 1,
+ "animations": [
+  "idle",
+  "land",
+  "win",
+  "exit",
+  "anticipation"
+ ],
+ "events": [
+  "land",
+  "win",
+  "pop"
+ ],
+ "bones_count": 20,
+ "slots_count": 14,
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "cat.atlas",
+   "pages": [
+    "cat.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "cat.png",
+   "page": "cat.png",
+   "width": 2048,
+   "height": 512,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/H1_cat.png"
+}

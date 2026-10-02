@@ -1,0 +1,218 @@
+{
+  "id": "spin-reaper-winsafe/package_024_anticipation",
+  "package": "package_024_anticipation",
+  "name": "anticipation",
+  "game": "Spin-reaper-winsafe",
+  "game_slug": "spin-reaper-winsafe",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "anticipation.json",
+  "skeleton_version": "4.1.23",
+  "category": "unknown",
+  "subtypes": [
+    "loop",
+    "entrance",
+    "exit",
+    "anticipation"
+  ],
+  "tags": [
+    "loop",
+    "entrance",
+    "exit",
+    "anticipation",
+    "spines"
+  ],
+  "classification": {
+    "confidence": "none",
+    "scores": {
+      "effect": 1.6,
+      "transition": 1.5,
+      "ui": 0.8,
+      "character": 0,
+      "symbol": 0,
+      "background": 0
+    },
+    "evidence": []
+  },
+  "animations": [
+    "end",
+    "intro",
+    "loop"
+  ],
+  "animation_details": [
+    {
+      "name": "end",
+      "duration": 1,
+      "timelines": {
+        "bones": 5,
+        "slots": 12,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "intro",
+      "duration": 1.067,
+      "timelines": {
+        "bones": 7,
+        "slots": 12,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 5,
+        "slots": 6,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 9,
+  "slots_count": 13,
+  "bones": [
+    "root",
+    "anticipation_radial",
+    "frame_glow",
+    "frame_glow2",
+    "frame_glow3",
+    "anticipation_radial2",
+    "fx_1",
+    "anticipation_radial3",
+    "anticipation_radial4"
+  ],
+  "slots": [
+    "frame_glow2",
+    "frame_glow3",
+    "frame_glow4",
+    "frame_glow1",
+    "frame",
+    "fx_1",
+    "inner_mask",
+    "anticipation_radial",
+    "anticipation_radial2",
+    "anticipation_radial3",
+    "anticipation_radial5",
+    "anticipation_radial4",
+    "anticipation_radial6"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 13,
+  "attachment_types": {
+    "region": 12,
+    "clipping": 1
+  },
+  "dimensions": {
+    "width": 574,
+    "height": 2436
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "anticipation.webp",
+      "atlas": "anticipation.atlas",
+      "file": "anticipation.webp",
+      "sha256": "1dfa167aa43de92c402a1825b8a2ec7535844b081549f5f109129ef678994a82",
+      "format": "webp",
+      "width": 1829,
+      "height": 1238,
+      "atlas_size": [
+        1829,
+        1238
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "anticipation.atlas",
+      "sha256": "f621c3cd7ba938df1d42895c1684ca84c259fbdc167fe732ab09ad878284043b",
+      "format": "spine-4",
+      "pages": [
+        "anticipation.webp"
+      ],
+      "regions": 28,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 28/28 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "anticipation.json",
+      "role": "skeleton",
+      "sha256": "c983ae59c25e86141d232dcdd2b7f530261e85ae63430fed6614e998ed58d45a",
+      "size": 18622,
+      "original_filename": "anticipation.json",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.json",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.json"
+      ]
+    },
+    {
+      "file": "anticipation.atlas",
+      "role": "atlas",
+      "sha256": "f621c3cd7ba938df1d42895c1684ca84c259fbdc167fe732ab09ad878284043b",
+      "size": 1480,
+      "original_filename": "anticipation.atlas",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.atlas",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.atlas"
+      ]
+    },
+    {
+      "file": "anticipation.webp",
+      "role": "texture",
+      "sha256": "1dfa167aa43de92c402a1825b8a2ec7535844b081549f5f109129ef678994a82",
+      "size": 176406,
+      "original_filename": "anticipation.webp",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.webp",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.webp"
+      ],
+      "atlas_page": "anticipation.webp"
+    }
+  ],
+  "source_urls": [
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.json",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.atlas",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:09:21.611Z",
+  "sessions": [
+    "2026-10-02T20:15:11.265Z"
+  ],
+  "packaged_at": "2026-10-02T20:48:22.950Z"
+}

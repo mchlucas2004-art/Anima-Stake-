@@ -1,0 +1,61 @@
+misc.png
+size: 512, 512
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+spark_1
+  rotate: false
+  xy: 1, 1
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+spark_2
+  rotate: false
+  xy: 307, 1
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+spark_diamond_1
+  rotate: false
+  xy: 1, 154
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+spark_diamond_2
+  rotate: false
+  xy: 398, 1
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+spark_mult_1
+  rotate: false
+  xy: 1, 307
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+spark_mult_2
+  rotate: false
+  xy: 307, 92
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+spark_silver_1
+  rotate: false
+  xy: 154, 1
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+spark_silver_2
+  rotate: false
+  xy: 398, 92
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1

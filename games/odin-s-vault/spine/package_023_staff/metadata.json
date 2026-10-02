@@ -1,0 +1,242 @@
+{
+  "id": "odin-s-vault/package_023_staff",
+  "package": "package_023_staff",
+  "name": "staff",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "staff.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "win",
+    "symbol_win"
+  ],
+  "tags": [
+    "symbol",
+    "win",
+    "symbol_win",
+    "staff",
+    "symbols",
+    "special"
+  ],
+  "classification": {
+    "confidence": "low",
+    "scores": {
+      "symbol": 3,
+      "effect": 2.1,
+      "background": 0.5,
+      "ui": 0.5,
+      "character": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:symbols"
+    ]
+  },
+  "animations": [
+    "collect",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "collect",
+      "duration": 1,
+      "timelines": {
+        "bones": 12,
+        "slots": 14
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "timelines": {
+        "bones": 18,
+        "slots": 22,
+        "drawOrder": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 24,
+  "slots_count": 32,
+  "bones": [
+    "root",
+    "Mine_staff",
+    "staff",
+    "Feather_staff",
+    "Feather_staff2",
+    "glow",
+    "glow_2_staff",
+    "glow_2_staff2",
+    "glow_2_staff3",
+    "staff_3d",
+    "staff_3d2",
+    "glow_2_staff4",
+    "glow_2_staff5",
+    "glow_2_staff6",
+    "glow_2_staff7",
+    "staff_effects_02_glow_02",
+    "staff_effects_02_glow_010",
+    "staff2",
+    "r1_VFX",
+    "r1_finisher_scratch_red_01_01",
+    "glow2",
+    "r1_finisher_scratch_red_02_01",
+    "r1_finisher_kick_2_01",
+    "glow3"
+  ],
+  "slots": [
+    "BG_staff",
+    "Shadow_2_staff",
+    "Shadow_1_staff",
+    "staff_effects_02",
+    "Feather_glow_staff",
+    "glow_base_staff",
+    "staff_effects_03",
+    "glow_5_staff",
+    "glow_2_staff",
+    "glow_1_staff",
+    "glow_1_staff2",
+    "glow_1_staff3",
+    "glow_1_staff4",
+    "glow_1_staff5",
+    "Crystal_staff",
+    "Feather_staff",
+    "Bead_1_staff",
+    "Gold_3_staff",
+    "frame_mask_staff",
+    "staff_effects_02_glow_01",
+    "staff_effects_02_glow_02",
+    "r1_finisher_scratch_red_02_01",
+    "r1_finisher_scratch_red_02_light_01",
+    "r1_finisher_kick_2_01",
+    "r1_finisher_kick_2_red_light_01",
+    "staff",
+    "staff3",
+    "staff2",
+    "r1_finisher_scratch_red_01_01",
+    "r1_finisher_scratch_red_01_light_01",
+    "glow2",
+    "glow"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 1,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 64,
+  "attachment_types": {
+    "mesh": 22,
+    "region": 42
+  },
+  "dimensions": {
+    "width": 182.83,
+    "height": 287.82
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "staff.webp",
+      "atlas": "staff.atlas",
+      "file": "staff.webp",
+      "sha256": "46299743e88a91bd51f8041552b044e59a4e7e545bd2191895ed138a541a4a52",
+      "format": "webp",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "staff.atlas",
+      "sha256": "137eb23f042a8a3d643901ec3c6deae0bc2370a341f0fa24ae379a3e14299b1b",
+      "format": "spine-4",
+      "pages": [
+        "staff.webp"
+      ],
+      "regions": 57,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 57/57 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "staff.json",
+      "role": "skeleton",
+      "sha256": "1400b87790283814a427bf3fe569e972c2c65e0900d5a4ab41f094b35eedf64a",
+      "size": 38031,
+      "original_filename": "staff.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.json"
+      ]
+    },
+    {
+      "file": "staff.atlas",
+      "role": "atlas",
+      "sha256": "137eb23f042a8a3d643901ec3c6deae0bc2370a341f0fa24ae379a3e14299b1b",
+      "size": 3847,
+      "original_filename": "staff.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.atlas"
+      ]
+    },
+    {
+      "file": "staff.webp",
+      "role": "texture",
+      "sha256": "46299743e88a91bd51f8041552b044e59a4e7e545bd2191895ed138a541a4a52",
+      "size": 1016404,
+      "original_filename": "staff.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.webp"
+      ],
+      "atlas_page": "staff.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.530Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

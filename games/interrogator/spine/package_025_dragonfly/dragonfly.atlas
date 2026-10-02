@@ -1,0 +1,14 @@
+dragonfly.png
+size:790,607
+filter:Linear,Linear
+pma:true
+body
+bounds:619,17,588,169
+rotate:90
+legs
+bounds:2,159,417,446
+wing_back
+bounds:2,2,341,155
+wing_front
+bounds:421,117,488,196
+rotate:90

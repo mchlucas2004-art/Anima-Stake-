@@ -1,0 +1,60 @@
+{
+ "id": "creations/halloween/skull",
+ "package": "skull",
+ "name": "skull",
+ "label": "Crâne à la bougie",
+ "game": "Halloween (créations)",
+ "game_slug": "halloween",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "skull.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "high_pay",
+  "land",
+  "idle",
+  "win",
+  "exit",
+  "anticipation"
+ ],
+ "tier": "high",
+ "rank": 2,
+ "animations": [
+  "idle",
+  "land",
+  "win",
+  "exit",
+  "anticipation"
+ ],
+ "events": [
+  "land",
+  "win",
+  "pop"
+ ],
+ "bones_count": 20,
+ "slots_count": 14,
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "skull.atlas",
+   "pages": [
+    "skull.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "skull.png",
+   "page": "skull.png",
+   "width": 2048,
+   "height": 512,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/H2_skull.png"
+}

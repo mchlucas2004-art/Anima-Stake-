@@ -1,0 +1,21 @@
+{
+  "game": {
+    "BETLABEL": "Mise",
+    "CASHED": "Encaissé",
+    "INACTIVITY_PAUSE": "Pause d'inactivité",
+    "LOBBY_MINIPLAY_ADD_ROUNDS": "Ajouter des manches",
+    "LOBBY_MINIPLAY_ADD_SPINS": "Ajouter des tours",
+    "LOBBY_MINIPLAY_DECISION_REQUIRED": "Décision requise",
+    "LOBBY_MINIPLAY_LAST_BET": "Dernière mise",
+    "LOBBY_MINIPLAY_NEW_NOTIFICATION": "Nouvelle notification",
+    "LOBBY_MINIPLAY_ROUNDS_COUNT": "{0} manches",
+    "LOBBY_MINIPLAY_SPINS_COUNT": "{0} tours",
+    "LOBBY_MINIPLAY_START_AUTOPLAY": "Démarrer le Jeu automatique",
+    "LOBBY_MINIPLAY_TAP_TO_PLAY": "Appuyez pour Jouer",
+    "LOBBY_NOW_PLAYING": "Jeu en cours",
+    "RECONNECT": "Se reconnecter",
+    "SESSION_TIMED_OUT": "Votre session a expiré",
+    "STOP_AUTOPLAY": "Arrêter le Jeu automatique",
+    "WIN": "Gain"
+  }
+}

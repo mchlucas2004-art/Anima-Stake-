@@ -1,0 +1,337 @@
+{
+  "id": "odin-s-vault/package_027_bg_basegame",
+  "package": "package_027_bg_basegame",
+  "name": "bg_basegame",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "bg_basegame.json",
+  "skeleton_version": "4.2.43",
+  "category": "background",
+  "subtypes": [
+    "idle",
+    "background_loop"
+  ],
+  "tags": [
+    "background",
+    "idle",
+    "background_loop",
+    "bg",
+    "basegame",
+    "spines"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "background": 10.6,
+      "effect": 1.6,
+      "transition": 0.8,
+      "character": 0,
+      "symbol": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:bg",
+      "name:background",
+      "name:basegame",
+      "bone:sky",
+      "bone:cloud",
+      "region:sky",
+      "region:cloud"
+    ]
+  },
+  "animations": [
+    "idle"
+  ],
+  "animation_details": [
+    {
+      "name": "idle",
+      "duration": 5,
+      "timelines": {
+        "bones": 52,
+        "slots": 23
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 72,
+  "slots_count": 51,
+  "bones": [
+    "root",
+    "arch",
+    "portal-light-1",
+    "portal-light-2",
+    "portal-paticles",
+    "arch_portal",
+    "arch_portal2",
+    "portal-light-3",
+    "portal-light-4",
+    "portal-paticles2",
+    "sunbeam",
+    "sunbeam_1",
+    "sunbeam_2",
+    "sunbeam_3",
+    "sunbeam_4",
+    "sky_glow",
+    "fog",
+    "mounts_r_3_fog_2",
+    "mounts_r_3_fog_1",
+    "mounts_r_2_fog",
+    "mounts_r_1_fog",
+    "ladder_fog",
+    "cloud",
+    "cloud_8",
+    "cloud_9",
+    "cloud_10",
+    "cloud_11",
+    "cloud_5",
+    "cloud_6",
+    "cloud_7",
+    "cloud_12",
+    "cloud_1",
+    "cloud_2",
+    "cloud_3",
+    "cloud_4",
+    "cloud_13",
+    "cloud_14",
+    "cloud_15",
+    "cloud_16",
+    "cloud_17",
+    "cloud_18",
+    "cloud_19",
+    "cloud_20",
+    "cloud_21",
+    "cloud_22",
+    "cloud_23",
+    "cloud_24",
+    "snow_all",
+    "snow",
+    "snow2",
+    "tree",
+    "tree_r_big",
+    "tree_r_big2",
+    "tree_r_big2b",
+    "tree_r_big3",
+    "tree_r_big4",
+    "tree_r_small_1",
+    "tree_r_small_2",
+    "tree_r_small_3",
+    "tree_r_small_4",
+    "tree_r_small_5",
+    "tree_r_small_6",
+    "tree_l_big",
+    "tree_l_big2",
+    "tree_l_big3",
+    "tree_l_big4",
+    "tree_l_small",
+    "tree_l_small2",
+    "tree_l_small3",
+    "snow_all2",
+    "snow3",
+    "snow4"
+  ],
+  "slots": [
+    "sky_base",
+    "cloud_9",
+    "cloud_8",
+    "cloud_7",
+    "cloud_6",
+    "cloud_5",
+    "sunbeam_4",
+    "sunbeam_3",
+    "sunbeam_2",
+    "sunbeam_1",
+    "sky_glow",
+    "cloud_2",
+    "cloud_1",
+    "mounts_r_3_base",
+    "mounts_r_3_fog_2",
+    "mounts_r_3_fog_1",
+    "mounts_r_2_base",
+    "mounts_r_2_fog",
+    "mounts_r_1_base",
+    "mounts_r_1_fog",
+    "mount_l",
+    "snow2/clip_snow2",
+    "snow2/snow3",
+    "snow2/snow4",
+    "snow2/end_clip_snow2",
+    "tree_r_small_2",
+    "tree_r_small_1",
+    "tree_r_big",
+    "tree_l_small",
+    "tree_l_big",
+    "arch_glow",
+    "portal_clip",
+    "arch_portal",
+    "arch_portal2",
+    "portal_clip_end",
+    "arch",
+    "ladder",
+    "portal-light-2",
+    "portal-light-3",
+    "portal-light-1",
+    "portal-light-4",
+    "portal-paticles",
+    "portal-paticles3",
+    "portal-paticles2",
+    "portal-paticles4",
+    "ladder_fog",
+    "front_snow_1",
+    "snow/clip_snow",
+    "snow/snow",
+    "snow/snow2",
+    "snow/end_clip_snow"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 42,
+  "attachment_types": {
+    "mesh": 38,
+    "clipping": 3,
+    "region": 1
+  },
+  "dimensions": {
+    "width": 2157.95,
+    "height": 2086
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "bg_basegame.webp",
+      "atlas": "bg_basegame.atlas",
+      "file": "bg_basegame.webp",
+      "sha256": "56e7db55a2a8f6b58f170983072a764b1250e3b1aec6241c00f04549d6016649",
+      "format": "webp",
+      "width": 2022,
+      "height": 2007,
+      "atlas_size": [
+        2022,
+        2007
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    },
+    {
+      "page": "bg_basegame_2.webp",
+      "atlas": "bg_basegame.atlas",
+      "file": "bg_basegame_2.webp",
+      "sha256": "869012c600b0bff665686d92671610c7ec9daf1cbff6d71b4e1999db7bfa48c9",
+      "format": "webp",
+      "width": 1939,
+      "height": 1341,
+      "atlas_size": [
+        1939,
+        1341
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "bg_basegame.atlas",
+      "sha256": "e780821afc41de22348f2fe104f36645b57817a72b9a04907b99c4c15ac2f8bb",
+      "format": "spine-4",
+      "pages": [
+        "bg_basegame.webp",
+        "bg_basegame_2.webp"
+      ],
+      "regions": 30,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 30/30 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "bg_basegame.json",
+      "role": "skeleton",
+      "sha256": "8bf810b5aa53788977b2da08ec4483f4a6fc598dae73b5b524d1d4db8e85a3b4",
+      "size": 76895,
+      "original_filename": "bg_basegame.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame.json"
+      ]
+    },
+    {
+      "file": "bg_basegame.atlas",
+      "role": "atlas",
+      "sha256": "e780821afc41de22348f2fe104f36645b57817a72b9a04907b99c4c15ac2f8bb",
+      "size": 1221,
+      "original_filename": "bg_basegame.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame.atlas"
+      ]
+    },
+    {
+      "file": "bg_basegame.webp",
+      "role": "texture",
+      "sha256": "56e7db55a2a8f6b58f170983072a764b1250e3b1aec6241c00f04549d6016649",
+      "size": 595310,
+      "original_filename": "bg_basegame.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame.webp"
+      ],
+      "atlas_page": "bg_basegame.webp"
+    },
+    {
+      "file": "bg_basegame_2.webp",
+      "role": "texture",
+      "sha256": "869012c600b0bff665686d92671610c7ec9daf1cbff6d71b4e1999db7bfa48c9",
+      "size": 397360,
+      "original_filename": "bg_basegame_2.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame_2.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame_2.webp"
+      ],
+      "atlas_page": "bg_basegame_2.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame.webp",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_basegame_2.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "2/2",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.531Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

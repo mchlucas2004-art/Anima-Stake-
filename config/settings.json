@@ -1,0 +1,10 @@
+{
+  "baseUrl": "https://stake.com",
+  "browserMode": "attach",
+  "attach": { "userDataDir": null, "cdpUrl": null },
+  "headless": false,
+  "browserChannel": null,
+  "captureSiteAssets": false,
+  "probeMissing": true,
+  "auto": { "durationSec": 120, "idleStopSec": 25, "minDurationSec": 20, "clickPlay": true }
+}

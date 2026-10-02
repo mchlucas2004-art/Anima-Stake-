@@ -1,0 +1,12 @@
+regular-knife.png
+size:1594,690
+filter:MipMapLinearLinear,Linear
+pma:true
+blade
+bounds:2,2,686,736
+rotate:90
+guard
+bounds:1356,438,236,250
+handle
+bounds:740,49,639,614
+rotate:90

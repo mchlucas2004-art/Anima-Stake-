@@ -1,0 +1,371 @@
+{
+  "id": "spin-reaper-winsafe/package_020_buybutton",
+  "package": "package_020_buybutton",
+  "name": "buybutton",
+  "game": "Spin-reaper-winsafe",
+  "game_slug": "spin-reaper-winsafe",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "buybutton.json",
+  "skeleton_version": "4.2.43",
+  "category": "ui",
+  "subtypes": [
+    "idle",
+    "entrance",
+    "exit"
+  ],
+  "tags": [
+    "ui",
+    "idle",
+    "entrance",
+    "exit",
+    "buybutton",
+    "slots",
+    "buy",
+    "button"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "ui": 13,
+      "transition": 3,
+      "effect": 2.9,
+      "character": 0,
+      "symbol": 0,
+      "background": 0
+    },
+    "evidence": [
+      "name:ui",
+      "name:button",
+      "name:buy",
+      "anim:button",
+      "anim:buy",
+      "bone:button",
+      "bone:text"
+    ]
+  },
+  "animations": [
+    "buy_button_active_click",
+    "buy_button_active_disabled",
+    "buy_button_active_hover",
+    "buy_button_active_idle",
+    "buy_button_active_intro",
+    "buy_button_active_outro",
+    "buy_button_click",
+    "buy_button_disabled",
+    "buy_button_hover",
+    "buy_button_idle",
+    "buy_button_intro",
+    "buy_button_play_active_intro",
+    "buy_button_play_active_outro",
+    "buy_button_play_click",
+    "buy_button_play_disabled",
+    "buy_button_play_hover",
+    "buy_button_play_idle",
+    "buy_button_play_intro"
+  ],
+  "animation_details": [
+    {
+      "name": "buy_button_active_click",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 5
+      }
+    },
+    {
+      "name": "buy_button_active_disabled",
+      "duration": 0,
+      "timelines": {
+        "slots": 6
+      }
+    },
+    {
+      "name": "buy_button_active_hover",
+      "duration": 1,
+      "timelines": {
+        "bones": 2,
+        "slots": 8
+      }
+    },
+    {
+      "name": "buy_button_active_idle",
+      "duration": 5.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 11
+      }
+    },
+    {
+      "name": "buy_button_active_intro",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 1,
+        "slots": 14
+      }
+    },
+    {
+      "name": "buy_button_active_outro",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 1,
+        "slots": 14
+      }
+    },
+    {
+      "name": "buy_button_click",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 5
+      }
+    },
+    {
+      "name": "buy_button_disabled",
+      "duration": 0,
+      "timelines": {
+        "slots": 5
+      }
+    },
+    {
+      "name": "buy_button_hover",
+      "duration": 1,
+      "timelines": {
+        "bones": 2,
+        "slots": 8
+      }
+    },
+    {
+      "name": "buy_button_idle",
+      "duration": 5.333,
+      "timelines": {
+        "bones": 2,
+        "slots": 15
+      }
+    },
+    {
+      "name": "buy_button_intro",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 2,
+        "slots": 14
+      }
+    },
+    {
+      "name": "buy_button_play_active_intro",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 1,
+        "slots": 14
+      }
+    },
+    {
+      "name": "buy_button_play_active_outro",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 1,
+        "slots": 14
+      }
+    },
+    {
+      "name": "buy_button_play_click",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 5
+      }
+    },
+    {
+      "name": "buy_button_play_disabled",
+      "duration": 0,
+      "timelines": {
+        "slots": 5
+      }
+    },
+    {
+      "name": "buy_button_play_hover",
+      "duration": 1,
+      "timelines": {
+        "bones": 2,
+        "slots": 8
+      }
+    },
+    {
+      "name": "buy_button_play_idle",
+      "duration": 5.333,
+      "timelines": {
+        "bones": 2,
+        "slots": 15
+      }
+    },
+    {
+      "name": "buy_button_play_intro",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 2,
+        "slots": 14
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 15,
+  "slots_count": 22,
+  "bones": [
+    "root",
+    "buybutton_master",
+    "button_main",
+    "buttonfront",
+    "bbtn_stars",
+    "text",
+    "fx_ringshine",
+    "fx_baseshine",
+    "base",
+    "bbtn_star1",
+    "bbtn_star2",
+    "bbtn_baseshines",
+    "bbtn_shine_bottom",
+    "bbtn_shine_top",
+    "shadow"
+  ],
+  "slots": [
+    "guide",
+    "shadow",
+    "base",
+    "base2",
+    "front",
+    "front2",
+    "bbtn_shine_top",
+    "bbtn_shine_bottom",
+    "buybonus_text",
+    "buybonus_texthl",
+    "fx_baseshine_1",
+    "fx_baseshine_2",
+    "fx_baseshine_3",
+    "fx_baseshine_4",
+    "fx_baseshine_5",
+    "fx_ringshine_1",
+    "fx_ringshine_2",
+    "fx_ringshine_3",
+    "fx_ringshine_4",
+    "fx_ringshine_5",
+    "bbtn_star2",
+    "bbtn_star1"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 27,
+  "attachment_types": {
+    "region": 27
+  },
+  "dimensions": {
+    "width": 1349,
+    "height": 1466.16
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "buybutton.webp",
+      "atlas": "buybutton.atlas",
+      "file": "buybutton.webp",
+      "sha256": "49edc94799701953b59826cf5c69b00f193991271856a74d74ce16cc68f4dd5e",
+      "format": "webp",
+      "width": 2048,
+      "height": 2048,
+      "atlas_size": [
+        2048,
+        2048
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "buybutton.atlas",
+      "sha256": "0138d1d442edb990b41b58383c24ceb043ef09e5590ced5680337578a0113b7c",
+      "format": "spine-4",
+      "pages": [
+        "buybutton.webp"
+      ],
+      "regions": 20,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 20/20 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 6ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "buybutton.json",
+      "role": "skeleton",
+      "sha256": "0f8c723bb09679e5396c993282a4914715c530fa99ce58f07e62b740fab68f47",
+      "size": 31890,
+      "original_filename": "buybutton.json",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.json",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.json"
+      ]
+    },
+    {
+      "file": "buybutton.atlas",
+      "role": "atlas",
+      "sha256": "0138d1d442edb990b41b58383c24ceb043ef09e5590ced5680337578a0113b7c",
+      "size": 1111,
+      "original_filename": "buybutton.atlas",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.atlas",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.atlas"
+      ]
+    },
+    {
+      "file": "buybutton.webp",
+      "role": "texture",
+      "sha256": "49edc94799701953b59826cf5c69b00f193991271856a74d74ce16cc68f4dd5e",
+      "size": 255304,
+      "original_filename": "buybutton.webp",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.webp",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.webp"
+      ],
+      "atlas_page": "buybutton.webp"
+    }
+  ],
+  "source_urls": [
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.json",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.atlas",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:09:21.600Z",
+  "sessions": [
+    "2026-10-02T20:15:11.265Z"
+  ],
+  "packaged_at": "2026-10-02T20:48:22.950Z"
+}

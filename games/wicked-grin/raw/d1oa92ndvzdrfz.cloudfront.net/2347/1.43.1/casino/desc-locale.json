@@ -1,0 +1,728 @@
+{
+   "game": {
+      "path": "./locale",
+      "name": "locale",
+      "children": [
+         {
+            "path": "locale/bg-bg",
+            "name": "bg-bg",
+            "children": [
+               {
+                  "path": "locale/bg-bg/bg-bg.json",
+                  "name": "bg-bg.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/branding",
+            "name": "branding",
+            "children": [
+               {
+                  "path": "locale/branding/social",
+                  "name": "social",
+                  "children": [
+                     {
+                        "path": "locale/branding/social/en-us",
+                        "name": "en-us",
+                        "children": [
+                           {
+                              "path": "locale/branding/social/en-us/en-us.json",
+                              "name": "en-us.json"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "path": "locale/cs-cz",
+            "name": "cs-cz",
+            "children": [
+               {
+                  "path": "locale/cs-cz/cs-cz.json",
+                  "name": "cs-cz.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/da-dk",
+            "name": "da-dk",
+            "children": [
+               {
+                  "path": "locale/da-dk/da-dk.json",
+                  "name": "da-dk.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/de-de",
+            "name": "de-de",
+            "children": [
+               {
+                  "path": "locale/de-de/de-de.json",
+                  "name": "de-de.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/el-gr",
+            "name": "el-gr",
+            "children": [
+               {
+                  "path": "locale/el-gr/el-gr.json",
+                  "name": "el-gr.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/en-us",
+            "name": "en-us",
+            "children": [
+               {
+                  "path": "locale/en-us/en-us.json",
+                  "name": "en-us.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/es-es",
+            "name": "es-es",
+            "children": [
+               {
+                  "path": "locale/es-es/es-es.json",
+                  "name": "es-es.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/fi-fi",
+            "name": "fi-fi",
+            "children": [
+               {
+                  "path": "locale/fi-fi/fi-fi.json",
+                  "name": "fi-fi.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/fr-fr",
+            "name": "fr-fr",
+            "children": [
+               {
+                  "path": "locale/fr-fr/fr-fr.json",
+                  "name": "fr-fr.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/hr-hr",
+            "name": "hr-hr",
+            "children": [
+               {
+                  "path": "locale/hr-hr/hr-hr.json",
+                  "name": "hr-hr.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/hu-hu",
+            "name": "hu-hu",
+            "children": [
+               {
+                  "path": "locale/hu-hu/hu-hu.json",
+                  "name": "hu-hu.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/id-id",
+            "name": "id-id",
+            "children": [
+               {
+                  "path": "locale/id-id/id-id.json",
+                  "name": "id-id.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/it-it",
+            "name": "it-it",
+            "children": [
+               {
+                  "path": "locale/it-it/it-it.json",
+                  "name": "it-it.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/ja-jp",
+            "name": "ja-jp",
+            "children": [
+               {
+                  "path": "locale/ja-jp/ja-jp.json",
+                  "name": "ja-jp.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/ko-kr",
+            "name": "ko-kr",
+            "children": [
+               {
+                  "path": "locale/ko-kr/ko-kr.json",
+                  "name": "ko-kr.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/lt-lt",
+            "name": "lt-lt",
+            "children": [
+               {
+                  "path": "locale/lt-lt/lt-lt.json",
+                  "name": "lt-lt.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/lv-lv",
+            "name": "lv-lv",
+            "children": [
+               {
+                  "path": "locale/lv-lv/lv-lv.json",
+                  "name": "lv-lv.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/nl-nl",
+            "name": "nl-nl",
+            "children": [
+               {
+                  "path": "locale/nl-nl/nl-nl.json",
+                  "name": "nl-nl.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/no-no",
+            "name": "no-no",
+            "children": [
+               {
+                  "path": "locale/no-no/no-no.json",
+                  "name": "no-no.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/pl-pl",
+            "name": "pl-pl",
+            "children": [
+               {
+                  "path": "locale/pl-pl/pl-pl.json",
+                  "name": "pl-pl.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/pt-br",
+            "name": "pt-br",
+            "children": [
+               {
+                  "path": "locale/pt-br/pt-br.json",
+                  "name": "pt-br.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/pt-pt",
+            "name": "pt-pt",
+            "children": [
+               {
+                  "path": "locale/pt-pt/pt-pt.json",
+                  "name": "pt-pt.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/ro-ro",
+            "name": "ro-ro",
+            "children": [
+               {
+                  "path": "locale/ro-ro/ro-ro.json",
+                  "name": "ro-ro.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/ru-ru",
+            "name": "ru-ru",
+            "children": [
+               {
+                  "path": "locale/ru-ru/ru-ru.json",
+                  "name": "ru-ru.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/sv-se",
+            "name": "sv-se",
+            "children": [
+               {
+                  "path": "locale/sv-se/sv-se.json",
+                  "name": "sv-se.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/th-th",
+            "name": "th-th",
+            "children": [
+               {
+                  "path": "locale/th-th/th-th.json",
+                  "name": "th-th.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/tr-tr",
+            "name": "tr-tr",
+            "children": [
+               {
+                  "path": "locale/tr-tr/tr-tr.json",
+                  "name": "tr-tr.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/uk-ua",
+            "name": "uk-ua",
+            "children": [
+               {
+                  "path": "locale/uk-ua/uk-ua.json",
+                  "name": "uk-ua.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/vi-vn",
+            "name": "vi-vn",
+            "children": [
+               {
+                  "path": "locale/vi-vn/vi-vn.json",
+                  "name": "vi-vn.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/zh-cn",
+            "name": "zh-cn",
+            "children": [
+               {
+                  "path": "locale/zh-cn/zh-cn.json",
+                  "name": "zh-cn.json"
+               }
+            ]
+         },
+         {
+            "path": "locale/zh-tw",
+            "name": "zh-tw",
+            "children": [
+               {
+                  "path": "locale/zh-tw/zh-tw.json",
+                  "name": "zh-tw.json"
+               }
+            ]
+         }
+      ]
+   },
+   "casino": {
+      "path": "./casino/locale",
+      "name": "locale",
+      "children": [
+         {
+            "path": "casino/locale/ar-ar",
+            "name": "ar-ar",
+            "children": [
+               {
+                  "path": "casino/locale/ar-ar/ar-ar.json",
+                  "name": "ar-ar.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/bg-bg",
+            "name": "bg-bg",
+            "children": [
+               {
+                  "path": "casino/locale/bg-bg/bg-bg.json",
+                  "name": "bg-bg.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/branding",
+            "name": "branding",
+            "children": [
+               {
+                  "path": "casino/locale/branding/social",
+                  "name": "social",
+                  "children": [
+                     {
+                        "path": "casino/locale/branding/social/de-de",
+                        "name": "de-de",
+                        "children": [
+                           {
+                              "path": "casino/locale/branding/social/de-de/de-de.json",
+                              "name": "de-de.json"
+                           }
+                        ]
+                     },
+                     {
+                        "path": "casino/locale/branding/social/en-us",
+                        "name": "en-us",
+                        "children": [
+                           {
+                              "path": "casino/locale/branding/social/en-us/en-us.json",
+                              "name": "en-us.json"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/cs-cz",
+            "name": "cs-cz",
+            "children": [
+               {
+                  "path": "casino/locale/cs-cz/cs-cz.json",
+                  "name": "cs-cz.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/da-dk",
+            "name": "da-dk",
+            "children": [
+               {
+                  "path": "casino/locale/da-dk/da-dk.json",
+                  "name": "da-dk.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/de-de",
+            "name": "de-de",
+            "children": [
+               {
+                  "path": "casino/locale/de-de/de-de.json",
+                  "name": "de-de.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/el-gr",
+            "name": "el-gr",
+            "children": [
+               {
+                  "path": "casino/locale/el-gr/el-gr.json",
+                  "name": "el-gr.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/en-us",
+            "name": "en-us",
+            "children": [
+               {
+                  "path": "casino/locale/en-us/en-us.json",
+                  "name": "en-us.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/es-es",
+            "name": "es-es",
+            "children": [
+               {
+                  "path": "casino/locale/es-es/es-es.json",
+                  "name": "es-es.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/es-pe",
+            "name": "es-pe",
+            "children": [
+               {
+                  "path": "casino/locale/es-pe/es-pe.json",
+                  "name": "es-pe.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/fi-fi",
+            "name": "fi-fi",
+            "children": [
+               {
+                  "path": "casino/locale/fi-fi/fi-fi.json",
+                  "name": "fi-fi.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/fr-fr",
+            "name": "fr-fr",
+            "children": [
+               {
+                  "path": "casino/locale/fr-fr/fr-fr.json",
+                  "name": "fr-fr.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/hr-hr",
+            "name": "hr-hr",
+            "children": [
+               {
+                  "path": "casino/locale/hr-hr/hr-hr.json",
+                  "name": "hr-hr.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/hu-hu",
+            "name": "hu-hu",
+            "children": [
+               {
+                  "path": "casino/locale/hu-hu/hu-hu.json",
+                  "name": "hu-hu.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/id-id",
+            "name": "id-id",
+            "children": [
+               {
+                  "path": "casino/locale/id-id/id-id.json",
+                  "name": "id-id.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/it-it",
+            "name": "it-it",
+            "children": [
+               {
+                  "path": "casino/locale/it-it/it-it.json",
+                  "name": "it-it.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/ja-jp",
+            "name": "ja-jp",
+            "children": [
+               {
+                  "path": "casino/locale/ja-jp/ja-jp.json",
+                  "name": "ja-jp.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/ko-kr",
+            "name": "ko-kr",
+            "children": [
+               {
+                  "path": "casino/locale/ko-kr/ko-kr.json",
+                  "name": "ko-kr.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/lt-lt",
+            "name": "lt-lt",
+            "children": [
+               {
+                  "path": "casino/locale/lt-lt/lt-lt.json",
+                  "name": "lt-lt.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/lv-lv",
+            "name": "lv-lv",
+            "children": [
+               {
+                  "path": "casino/locale/lv-lv/lv-lv.json",
+                  "name": "lv-lv.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/nl-nl",
+            "name": "nl-nl",
+            "children": [
+               {
+                  "path": "casino/locale/nl-nl/nl-nl.json",
+                  "name": "nl-nl.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/no-no",
+            "name": "no-no",
+            "children": [
+               {
+                  "path": "casino/locale/no-no/no-no.json",
+                  "name": "no-no.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/pl-pl",
+            "name": "pl-pl",
+            "children": [
+               {
+                  "path": "casino/locale/pl-pl/pl-pl.json",
+                  "name": "pl-pl.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/pt-br",
+            "name": "pt-br",
+            "children": [
+               {
+                  "path": "casino/locale/pt-br/pt-br.json",
+                  "name": "pt-br.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/pt-pt",
+            "name": "pt-pt",
+            "children": [
+               {
+                  "path": "casino/locale/pt-pt/pt-pt.json",
+                  "name": "pt-pt.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/ro-ro",
+            "name": "ro-ro",
+            "children": [
+               {
+                  "path": "casino/locale/ro-ro/ro-ro.json",
+                  "name": "ro-ro.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/ru-ru",
+            "name": "ru-ru",
+            "children": [
+               {
+                  "path": "casino/locale/ru-ru/ru-ru.json",
+                  "name": "ru-ru.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/sk-sk",
+            "name": "sk-sk",
+            "children": [
+               {
+                  "path": "casino/locale/sk-sk/sk-sk.json",
+                  "name": "sk-sk.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/sl-si",
+            "name": "sl-si",
+            "children": [
+               {
+                  "path": "casino/locale/sl-si/sl-si.json",
+                  "name": "sl-si.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/sv-se",
+            "name": "sv-se",
+            "children": [
+               {
+                  "path": "casino/locale/sv-se/sv-se.json",
+                  "name": "sv-se.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/th-th",
+            "name": "th-th",
+            "children": [
+               {
+                  "path": "casino/locale/th-th/th-th.json",
+                  "name": "th-th.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/tr-tr",
+            "name": "tr-tr",
+            "children": [
+               {
+                  "path": "casino/locale/tr-tr/tr-tr.json",
+                  "name": "tr-tr.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/uk-ua",
+            "name": "uk-ua",
+            "children": [
+               {
+                  "path": "casino/locale/uk-ua/uk-ua.json",
+                  "name": "uk-ua.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/vi-vn",
+            "name": "vi-vn",
+            "children": [
+               {
+                  "path": "casino/locale/vi-vn/vi-vn.json",
+                  "name": "vi-vn.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/zh-cn",
+            "name": "zh-cn",
+            "children": [
+               {
+                  "path": "casino/locale/zh-cn/zh-cn.json",
+                  "name": "zh-cn.json"
+               }
+            ]
+         },
+         {
+            "path": "casino/locale/zh-tw",
+            "name": "zh-tw",
+            "children": [
+               {
+                  "path": "casino/locale/zh-tw/zh-tw.json",
+                  "name": "zh-tw.json"
+               }
+            ]
+         }
+      ]
+   }
+}

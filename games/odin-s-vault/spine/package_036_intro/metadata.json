@@ -1,0 +1,303 @@
+{
+  "id": "odin-s-vault/package_036_intro",
+  "package": "package_036_intro",
+  "name": "intro",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "intro.json",
+  "skeleton_version": "4.2.43",
+  "category": "transition",
+  "subtypes": [
+    "idle",
+    "entrance",
+    "exit"
+  ],
+  "tags": [
+    "transition",
+    "idle",
+    "entrance",
+    "exit",
+    "intro",
+    "spines",
+    "outro"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "transition": 6,
+      "effect": 2.4,
+      "ui": 0.5,
+      "character": 0,
+      "symbol": 0,
+      "background": 0
+    },
+    "evidence": [
+      "name:intro",
+      "name:outro"
+    ]
+  },
+  "animations": [
+    "idle",
+    "in",
+    "out"
+  ],
+  "animation_details": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 23,
+        "slots": 14
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1,
+      "timelines": {
+        "bones": 26,
+        "slots": 38,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 23,
+        "slots": 33
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 31,
+  "slots_count": 39,
+  "bones": [
+    "root",
+    "FreeSpins",
+    "Chest",
+    "Cap",
+    "Cap2",
+    "Cap3",
+    "SpearsL",
+    "bone",
+    "bone2",
+    "Text",
+    "Spins",
+    "Free",
+    "Numbers",
+    "SpearsL2",
+    "bone3",
+    "bone4",
+    "Prt",
+    "Prt2",
+    "Prt3",
+    "Prt4",
+    "Prt5",
+    "Prt6",
+    "Glow1",
+    "Glow2",
+    "ray",
+    "BlikRound",
+    "BlikRound2",
+    "Cross",
+    "Cross2",
+    "FreeSpins2",
+    "ray2"
+  ],
+  "slots": [
+    "glow_1",
+    "glow_4",
+    "particles",
+    "particles3",
+    "particles2",
+    "particles4",
+    "ray_2",
+    "glow_2",
+    "glow_3",
+    "ray_1",
+    "spear_bottom_right",
+    "spear_bottom_right2",
+    "spear_top_right",
+    "spear_top_right2",
+    "Cap",
+    "chest",
+    "l",
+    "r",
+    "chest2",
+    "free_shadow",
+    "spins_shadow",
+    "free_thick",
+    "free",
+    "spins_thick",
+    "spins",
+    "free2",
+    "spins2",
+    "glow_5",
+    "glow_6",
+    "cross",
+    "cross2",
+    "reference",
+    "chest3",
+    "spin_1",
+    "spin_3",
+    "spin_5",
+    "spin_4",
+    "Numbers",
+    "Numbers_Glow"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 1,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 37,
+  "attachment_types": {
+    "mesh": 35,
+    "clipping": 1,
+    "region": 1
+  },
+  "dimensions": {
+    "width": 1562.69,
+    "height": 1429.75
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "intro.webp",
+      "atlas": "intro.atlas",
+      "file": "intro.webp",
+      "sha256": "c7115b3c93cfca52ab32071f96a8575e1aea81a0bf4681a3f0407123ecaeded8",
+      "format": "webp",
+      "width": 2001,
+      "height": 1432,
+      "atlas_size": [
+        2001,
+        1432
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "intro.atlas",
+      "sha256": "50e89f427e4644b6770eb8a3f1b014ffab544226ac7350ba3ef7cad52c535aca",
+      "format": "spine-4",
+      "pages": [
+        "intro.webp"
+      ],
+      "regions": 26,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 26/26 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [
+    {
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame2.atlas",
+      "sha256": "4177236ea58175a0d595a0b1cf1e5a192f65f7d0d48accff4ed1834cc6ed2e64",
+      "coverage": 1,
+      "evidence": [
+        "regions 26/26 (100% of skeleton)",
+        "similar base name",
+        "same folder",
+        "loaded 0ms apart"
+      ]
+    },
+    {
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame3.atlas",
+      "sha256": "ed05bed3731456c675c2f2a1f72ccabfca40278e8ccd89e7d0c0b7ee2f9b0bad",
+      "coverage": 0.9230769230769231,
+      "evidence": [
+        "regions 24/26 (92% of skeleton)",
+        "similar base name",
+        "same folder",
+        "loaded 0ms apart"
+      ]
+    },
+    {
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.atlas",
+      "sha256": "79b3a7147cdda47eaa7ed337a8b879d8814f2a9b2bab34a12d907865913eb208",
+      "coverage": 0.9230769230769231,
+      "evidence": [
+        "regions 24/26 (92% of skeleton)",
+        "similar base name",
+        "same folder",
+        "loaded 1ms apart"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "intro.json",
+      "role": "skeleton",
+      "sha256": "fbaccf7d76d9b61d36507f8a2d38ffe65a7aad89ab8637b16282e1fd5cf1229e",
+      "size": 42627,
+      "original_filename": "intro.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.json"
+      ]
+    },
+    {
+      "file": "intro.atlas",
+      "role": "atlas",
+      "sha256": "50e89f427e4644b6770eb8a3f1b014ffab544226ac7350ba3ef7cad52c535aca",
+      "size": 1245,
+      "original_filename": "intro.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.atlas"
+      ]
+    },
+    {
+      "file": "intro.webp",
+      "role": "texture",
+      "sha256": "c7115b3c93cfca52ab32071f96a8575e1aea81a0bf4681a3f0407123ecaeded8",
+      "size": 473778,
+      "original_filename": "intro.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.webp"
+      ],
+      "atlas_page": "intro.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.552Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

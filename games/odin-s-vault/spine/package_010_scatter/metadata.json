@@ -1,0 +1,313 @@
+{
+  "id": "odin-s-vault/package_010_scatter",
+  "package": "package_010_scatter",
+  "name": "scatter",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "scatter.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "win",
+    "entrance",
+    "scatter",
+    "symbol_win"
+  ],
+  "tags": [
+    "symbol",
+    "win",
+    "entrance",
+    "scatter",
+    "symbol_win",
+    "symbols",
+    "special"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "symbol": 7.6,
+      "effect": 2.4,
+      "background": 0.8,
+      "ui": 0.8,
+      "character": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:symbols",
+      "name:scatter",
+      "bone:scatter",
+      "bone:scatters",
+      "region:scatter",
+      "region:scatters"
+    ]
+  },
+  "animations": [
+    "appear",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "appear",
+      "duration": 1,
+      "timelines": {
+        "bones": 28,
+        "slots": 52
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 63,
+        "slots": 16,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 67,
+  "slots_count": 52,
+  "bones": [
+    "root",
+    "main",
+    "Frame_Gold",
+    "Body",
+    "Body2",
+    "Body3",
+    "Body4",
+    "Body5",
+    "scatter",
+    "Body6",
+    "Body7",
+    "Body8",
+    "Body9",
+    "eye",
+    "Tail_2",
+    "Tail_3",
+    "Tail_4",
+    "Tail_5",
+    "Tail_6",
+    "Tail_7",
+    "Tail_8",
+    "Tail_9",
+    "Tail_1",
+    "Tail_10",
+    "Tail_11",
+    "Tail_12",
+    "Tail_13",
+    "Tail_14",
+    "Tail_15",
+    "Tongue",
+    "Tongue2",
+    "Tongue3",
+    "Tongue4",
+    "Tongue5",
+    "Tongue6",
+    "Body10",
+    "Body11",
+    "a",
+    "c",
+    "s",
+    "t1",
+    "t2",
+    "e",
+    "r",
+    "scatter_back_glow",
+    "star",
+    "Glow_1",
+    "Glow_2",
+    "Glow_3",
+    "Glow_4",
+    "Glow_5",
+    "Glow_6",
+    "Glow_7",
+    "Glow_2_1",
+    "Glow_2_2",
+    "Glow_2_3",
+    "Glow_2_4",
+    "Glow_2_5",
+    "Glow_2_6",
+    "Glow_3_1",
+    "Glow_3_2",
+    "Glow_3_3",
+    "Glow_3_4",
+    "Glow_3_5",
+    "Glow_3_6",
+    "Frame_Gold2",
+    "BG2"
+  ],
+  "slots": [
+    "BG",
+    "BG2",
+    "Tail_1_sh",
+    "Tail_2_sh",
+    "Tongue_sh",
+    "Body_sh",
+    "Frame_Gold",
+    "Frame_Gold2",
+    "Frame_sh2",
+    "Frame_sh1",
+    "Tail_1",
+    "Tail_2",
+    "Tongue",
+    "max_effects_04_glow_01",
+    "max_effects_06_glow_01",
+    "Body",
+    "Tail_3",
+    "max_effects_05_glow_01",
+    "Glow_1",
+    "Glow_2",
+    "Glow_3",
+    "Glow_0",
+    "eye",
+    "scatter_shadow_r",
+    "scatter_shadow_e",
+    "scatter_shadow_t2",
+    "scatter_shadow_t1",
+    "scatter_shadow_a",
+    "scatter_shadow_c",
+    "scatter_shadow_s",
+    "scatter_thickness_r",
+    "scatter_thickness_e",
+    "scatter_thickness_t2",
+    "scatter_thickness_t1",
+    "scatter_thickness_a",
+    "scatter_thickness_c",
+    "scatter_thickness_s",
+    "scatter_r",
+    "scatter_r2",
+    "scatter_e",
+    "scatter_e2",
+    "scatter_t2",
+    "scatter_t4",
+    "scatter_t1",
+    "scatter_t3",
+    "scatter_a",
+    "scatter_a2",
+    "scatter_c",
+    "scatter_c2",
+    "scatter_s",
+    "scatter_s2",
+    "star"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 52,
+  "attachment_types": {
+    "mesh": 50,
+    "region": 2
+  },
+  "dimensions": {
+    "width": 127,
+    "height": 135
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "scatter.webp",
+      "atlas": "scatter.atlas",
+      "file": "scatter.webp",
+      "sha256": "f7eb91cb2a8ef64e7e5e2fbf58d6270f2b95808302534602215c0adbb7eaf2bf",
+      "format": "webp",
+      "width": 512,
+      "height": 512,
+      "atlas_size": [
+        512,
+        512
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "scatter.atlas",
+      "sha256": "dea02981e94043fd9ec7d37934c7b06a97fab193df98b0c4624dce0cb1733c46",
+      "format": "spine-4",
+      "pages": [
+        "scatter.webp"
+      ],
+      "regions": 42,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 42/42 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 0ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "scatter.json",
+      "role": "skeleton",
+      "sha256": "7751c05638590ad61c24df28760ccb97534b3726a3cbf566074609089b135f71",
+      "size": 83967,
+      "original_filename": "scatter.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.json"
+      ]
+    },
+    {
+      "file": "scatter.atlas",
+      "role": "atlas",
+      "sha256": "dea02981e94043fd9ec7d37934c7b06a97fab193df98b0c4624dce0cb1733c46",
+      "size": 1643,
+      "original_filename": "scatter.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.atlas"
+      ]
+    },
+    {
+      "file": "scatter.webp",
+      "role": "texture",
+      "sha256": "f7eb91cb2a8ef64e7e5e2fbf58d6270f2b95808302534602215c0adbb7eaf2bf",
+      "size": 91230,
+      "original_filename": "scatter.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.webp"
+      ],
+      "atlas_page": "scatter.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.523Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

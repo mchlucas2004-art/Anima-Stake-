@@ -1,0 +1,60 @@
+{
+ "id": "creations/halloween/cauldron",
+ "package": "cauldron",
+ "name": "cauldron",
+ "label": "Chaudron",
+ "game": "Halloween (créations)",
+ "game_slug": "halloween",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "cauldron.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "high_pay",
+  "land",
+  "idle",
+  "win",
+  "exit",
+  "anticipation"
+ ],
+ "tier": "high",
+ "rank": 3,
+ "animations": [
+  "idle",
+  "land",
+  "win",
+  "exit",
+  "anticipation"
+ ],
+ "events": [
+  "land",
+  "win",
+  "pop"
+ ],
+ "bones_count": 20,
+ "slots_count": 14,
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "cauldron.atlas",
+   "pages": [
+    "cauldron.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "cauldron.png",
+   "page": "cauldron.png",
+   "width": 2048,
+   "height": 512,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/H3_cauldron.png"
+}

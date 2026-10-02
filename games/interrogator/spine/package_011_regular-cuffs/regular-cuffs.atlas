@@ -1,0 +1,12 @@
+regular-cuffs.png
+size:1689,589
+filter:MipMapLinearLinear,Linear
+pma:true
+chain
+bounds:1264,14,423,573
+left_cuff
+bounds:638,2,585,624
+rotate:90
+right_cuff
+bounds:2,10,577,634
+rotate:90

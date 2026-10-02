@@ -1,0 +1,40 @@
+reel.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+red_glow
+  rotate: false
+  xy: 1068, 1
+  size: 233, 233
+  orig: 233, 233
+  offset: 0, 0
+  index: -1
+reel
+  rotate: false
+  xy: 1, 1
+  size: 1065, 1042
+  orig: 1065, 1042
+  offset: 0, 0
+  index: -1
+reel_spread_glow
+  rotate: false
+  xy: 1, 1045
+  size: 1034, 413
+  orig: 1080, 1073
+  offset: 24, 24
+  index: -1
+reel_spread_glow_epic
+  rotate: false
+  xy: 1, 1460
+  size: 1034, 413
+  orig: 1080, 1073
+  offset: 24, 24
+  index: -1
+yellow_glow
+  rotate: false
+  xy: 1303, 1
+  size: 233, 233
+  orig: 233, 233
+  offset: 0, 0
+  index: -1

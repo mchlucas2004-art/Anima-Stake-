@@ -1,0 +1,20 @@
+
+suru_banner_5.png
+size: 440,252
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+left_star_1
+  rotate: true
+  xy: 333, 135
+  size: 115, 106
+  orig: 115, 106
+  offset: 0, 0
+  index: -1
+left_star_1_motion
+  rotate: false
+  xy: 0, 0
+  size: 331, 250
+  orig: 331, 250
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+suru_1000_buy_feature.png
+size: 192,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+red_base_small
+  rotate: false
+  xy: 2, 2
+  size: 188, 106
+  orig: 188, 106
+  offset: 0, 0
+  index: -1

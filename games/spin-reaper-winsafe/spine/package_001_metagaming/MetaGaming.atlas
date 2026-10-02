@@ -1,0 +1,257 @@
+MetaGaming.webp
+	size: 2048, 1024
+	filter: Linear, Linear
+	pma: true
+dot2_tail
+	bounds: 1735, 478, 44, 57
+head2
+	bounds: 1434, 664, 134, 166
+	offsets: 26, 13, 188, 188
+	rotate: 90
+head_spacerock
+	bounds: 1054, 826, 234, 190
+images/core
+	bounds: 1953, 695, 101, 86
+	rotate: 90
+images/ground
+	bounds: 601, 406, 195, 71
+images/ground_light
+	bounds: 2023, 649, 38, 16
+	rotate: 90
+images/impact_1
+	bounds: 564, 323, 71, 60
+	rotate: 90
+images/impact_2
+	bounds: 1953, 955, 87, 61
+images/impact_3
+	bounds: 1704, 266, 46, 57
+	rotate: 90
+images/impact_4
+	bounds: 1735, 416, 54, 24
+	rotate: 90
+images/impact_dark
+	bounds: 8, 162, 230, 177
+images/light_bright
+	bounds: 246, 186, 153, 153
+images/light_color
+	bounds: 1273, 645, 153, 153
+images/lightray_0
+	bounds: 1608, 670, 128, 159
+	rotate: 90
+images/lightray_1
+	bounds: 1775, 706, 92, 170
+	rotate: 90
+images/lightray_2
+	bounds: 8, 18, 27, 190
+	rotate: 90
+images/shockwave_back_0
+	bounds: 365, 120, 58, 67
+	rotate: 90
+images/shockwave_back_1
+	bounds: 1787, 533, 55, 93
+	rotate: 90
+images/shockwave_front_0
+	bounds: 1519, 328, 81, 80
+images/shockwave_front_1
+	bounds: 945, 411, 66, 108
+	rotate: 90
+images/smoke_end_1_0
+	bounds: 1278, 213, 65, 23
+images/smoke_end_1_1
+	bounds: 1984, 512, 65, 23
+	rotate: 90
+images/smoke_end_1_10
+	bounds: 1979, 439, 65, 23
+	rotate: 90
+images/smoke_end_1_11
+	bounds: 1519, 297, 65, 23
+images/smoke_end_1_2
+	bounds: 1516, 266, 65, 23
+images/smoke_end_1_3
+	bounds: 632, 305, 65, 23
+images/smoke_end_1_4
+	bounds: 705, 305, 65, 23
+images/smoke_end_1_5
+	bounds: 620, 274, 65, 23
+images/smoke_end_1_6
+	bounds: 620, 243, 65, 23
+images/smoke_end_1_7
+	bounds: 693, 274, 65, 23
+images/smoke_end_1_8
+	bounds: 620, 212, 65, 23
+images/smoke_end_1_9
+	bounds: 693, 243, 65, 23
+images/smoke_end_2_0
+	bounds: 1273, 521, 102, 116
+images/smoke_end_2_1
+	bounds: 407, 198, 102, 116
+	rotate: 90
+images/smoke_end_2_10
+	bounds: 1061, 389, 102, 116
+	rotate: 90
+images/smoke_end_2_11
+	bounds: 1185, 375, 102, 116
+images/smoke_end_2_12
+	bounds: 1295, 397, 102, 116
+images/smoke_end_2_2
+	bounds: 1383, 521, 102, 116
+images/smoke_end_2_3
+	bounds: 1493, 540, 102, 116
+images/smoke_end_2_4
+	bounds: 1405, 397, 102, 116
+images/smoke_end_2_5
+	bounds: 1515, 416, 102, 116
+images/smoke_end_2_6
+	bounds: 1775, 596, 102, 116
+	rotate: 90
+images/smoke_end_2_7
+	bounds: 1899, 585, 102, 116
+	rotate: 90
+images/smoke_end_2_8
+	bounds: 1603, 540, 102, 116
+images/smoke_end_2_9
+	bounds: 1625, 416, 102, 116
+images/smoke_end_3_0
+	bounds: 1608, 346, 88, 62
+images/smoke_end_3_1
+	bounds: 1888, 515, 88, 62
+images/smoke_end_3_10
+	bounds: 1787, 463, 88, 62
+images/smoke_end_3_11
+	bounds: 1883, 445, 88, 62
+images/smoke_end_3_12
+	bounds: 632, 336, 88, 62
+images/smoke_end_3_13
+	bounds: 728, 336, 88, 62
+images/smoke_end_3_14
+	bounds: 824, 348, 88, 62
+images/smoke_end_3_15
+	bounds: 920, 341, 88, 62
+images/smoke_end_3_16
+	bounds: 346, 24, 88, 62
+	rotate: 90
+images/smoke_end_3_17
+	bounds: 440, 128, 88, 62
+images/smoke_end_3_18
+	bounds: 536, 128, 88, 62
+images/smoke_end_3_19
+	bounds: 416, 24, 88, 62
+	rotate: 90
+images/smoke_end_3_2
+	bounds: 486, 58, 88, 62
+images/smoke_end_3_20
+	bounds: 582, 58, 88, 62
+images/smoke_end_3_21
+	bounds: 824, 278, 88, 62
+images/smoke_end_3_22
+	bounds: 920, 271, 88, 62
+images/smoke_end_3_23
+	bounds: 1016, 319, 88, 62
+images/smoke_end_3_3
+	bounds: 1016, 249, 88, 62
+images/smoke_end_3_4
+	bounds: 1112, 293, 88, 62
+	rotate: 90
+images/smoke_end_3_5
+	bounds: 1182, 305, 88, 62
+images/smoke_end_3_6
+	bounds: 1608, 276, 88, 62
+images/smoke_end_3_7
+	bounds: 1704, 320, 88, 62
+	rotate: 90
+images/smoke_end_3_8
+	bounds: 1112, 223, 88, 62
+images/smoke_end_3_9
+	bounds: 1208, 209, 88, 62
+	rotate: 90
+images/smoke_static_0
+	bounds: 804, 418, 133, 59
+images/smoke_static_1
+	bounds: 693, 213, 22, 54
+	rotate: 90
+images/smoke_static_2
+	bounds: 1472, 254, 52, 36
+	rotate: 90
+images/smoke_static_3
+	bounds: 531, 198, 102, 81
+	rotate: 90
+images/smoke_static_4
+	bounds: 778, 297, 38, 31
+images/smoke_static_5
+	bounds: 1278, 244, 69, 64
+images/smoke_static_6
+	bounds: 1953, 804, 143, 72
+	rotate: 90
+metagaming2_img/Base
+	bounds: 8, 402, 585, 614
+metagaming2_img/Head
+	bounds: 601, 485, 445, 531
+metagaming2_img/Left Eye
+	bounds: 1412, 314, 99, 75
+metagaming2_img/Left Eyebrow
+	bounds: 246, 120, 111, 58
+metagaming2_img/Left Spikes
+	bounds: 1713, 543, 66, 45
+metagaming2_img/Left Spikes 2
+	bounds: 486, 28, 78, 22
+metagaming2_img/Left Spikes 3
+	bounds: 1713, 596, 66, 48
+	rotate: 90
+metagaming2_img/METAGAMING
+	bounds: 2033, 884, 63, 7
+	rotate: 90
+metagaming2_img/METAGAMING2
+	bounds: 8, 347, 421, 47
+metagaming2_img/Right Eye
+	bounds: 227, 10, 111, 102
+metagaming2_img/Right Eyebrow
+	bounds: 437, 308, 119, 86
+metagaming2_img/Right Spikes
+	bounds: 1355, 242, 66, 43
+	rotate: 90
+metagaming2_img/Right Spikes 2
+	bounds: 572, 29, 70, 21
+metagaming2_img/Right Spikes 3
+	bounds: 1406, 256, 58, 50
+metagaming2_img/Teeth Sparkle
+	bounds: 650, 17, 19, 33
+metagaming2_img/Top Right Inner Spike Big
+	bounds: 1295, 316, 73, 109
+	rotate: 90
+metagaming2_img/Top Right Inner Spike Small
+	bounds: 766, 244, 34, 45
+metagaming2_img/bar1
+	bounds: 8, 8, 75, 2
+metagaming2_img/bar2
+	bounds: 91, 8, 56, 2
+metagaming2_img/mouth
+	bounds: 1054, 717, 211, 101
+metagaming2_img/pupil_l
+	bounds: 1351, 212, 22, 34
+	rotate: 90
+metagaming2_img/pupil_r
+	bounds: 1406, 230, 18, 37
+	rotate: 90
+mouth/mouth_00000
+	bounds: 1296, 915, 211, 101
+mouth/mouth_00001
+	bounds: 8, 53, 211, 101
+mouth/mouth_00003
+	bounds: 1054, 608, 211, 101
+mouth/mouth_00004
+	bounds: 1515, 915, 211, 101
+mouth/mouth_00005
+	bounds: 1054, 499, 211, 101
+mouth/mouth_00006
+	bounds: 1734, 915, 211, 101
+mouth/mouth_00007
+	bounds: 1296, 806, 211, 101
+mouth/mouth_00008
+	bounds: 1515, 806, 211, 101
+mouth/mouth_00009
+	bounds: 1734, 806, 211, 101
+smoke_static_1
+	bounds: 632, 138, 22, 54
+	rotate: 90
+smoke_static_2
+	bounds: 632, 168, 52, 36

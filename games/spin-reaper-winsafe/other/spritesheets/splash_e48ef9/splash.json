@@ -1,0 +1,68 @@
+{"frames": {
+
+"free_games.png":
+{
+	"frame": {"x":1240,"y":2470,"w":909,"h":909},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":245,"y":33,"w":909,"h":909},
+	"sourceSize": {"w":1400,"h":1040}
+},
+"free_games_text.png":
+{
+	"frame": {"x":0,"y":3300,"w":1095,"h":156},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1095,"h":156},
+	"sourceSize": {"w":1095,"h":156}
+},
+"max_win.png":
+{
+	"frame": {"x":0,"y":2852,"w":1219,"h":448},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":90,"y":264,"w":1219,"h":448},
+	"sourceSize": {"w":1400,"h":1040}
+},
+"max_win_text.png":
+{
+	"frame": {"x":1095,"y":3379,"w":781,"h":155},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":781,"h":155},
+	"sourceSize": {"w":781,"h":155}
+},
+"mystery_symbols.png":
+{
+	"frame": {"x":0,"y":2470,"w":1240,"h":382},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":80,"y":297,"w":1240,"h":382},
+	"sourceSize": {"w":1400,"h":1040}
+},
+"mystery_symbols_text.png":
+{
+	"frame": {"x":0,"y":3534,"w":1676,"h":156},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1676,"h":156},
+	"sourceSize": {"w":1676,"h":156}
+},
+"splashframe.png":
+{
+	"frame": {"x":0,"y":0,"w":2196,"h":2470},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":2196,"h":2470},
+	"sourceSize": {"w":2196,"h":2470}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "splash.webp",
+	"format": "RGBA8888",
+	"size": {"w":2196,"h":3690},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:bb11d4f817f8a5a38ac47fa22ff9a2d7:2d6b94620047d61e589d10fa9296950a:a1bf009a87291299fdd77ad976229ec3$"
+}
+}

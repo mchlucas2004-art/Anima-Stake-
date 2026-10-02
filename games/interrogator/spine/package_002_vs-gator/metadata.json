@@ -1,0 +1,253 @@
+{
+  "id": "interrogator/package_002_vs-gator",
+  "package": "package_002_vs-gator",
+  "name": "vs-gator",
+  "game": "Interrogator",
+  "game_slug": "interrogator",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "vs-gator.json",
+  "skeleton_version": "4.2.43",
+  "category": "character",
+  "subtypes": [
+    "idle",
+    "win",
+    "land",
+    "attack"
+  ],
+  "tags": [
+    "character",
+    "idle",
+    "win",
+    "land",
+    "attack",
+    "vs",
+    "gator",
+    "symbols"
+  ],
+  "classification": {
+    "confidence": "medium",
+    "scores": {
+      "character": 8.5,
+      "symbol": 5.8,
+      "effect": 1.5,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:gator",
+      "body-parts:body,head,hat,brow,wrist"
+    ]
+  },
+  "animations": [
+    "hit",
+    "idle",
+    "land",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "hit",
+      "duration": 1.2,
+      "timelines": {
+        "bones": 10
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 4,
+      "timelines": {
+        "bones": 10
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.48,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.2,
+      "timelines": {
+        "bones": 10
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 12,
+  "slots_count": 2,
+  "bones": [
+    "root",
+    "body",
+    "head",
+    "hat",
+    "muzzle",
+    "brow",
+    "fist_l",
+    "fist_r",
+    "wrist_l",
+    "wrist_r",
+    "tie",
+    "wild_emblem"
+  ],
+  "slots": [
+    "portrait",
+    "wild_emblem"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 2,
+  "attachment_types": {
+    "mesh": 1,
+    "region": 1
+  },
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": 24,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "portrait.png",
+      "atlas": "vs-gator.atlas",
+      "file": "portrait.png",
+      "sha256": "8361e077ff28ade191c17cfe76ce70591eb11015a4c90cf06beef02c8f21ec62",
+      "format": "png",
+      "width": 627,
+      "height": 627,
+      "atlas_size": [
+        627,
+        627
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "MipMapLinearLinear,Linear"
+    },
+    {
+      "page": "wild_emblem.png",
+      "atlas": "vs-gator.atlas",
+      "file": "wild_emblem.png",
+      "sha256": "655392729655b7e084d9ea146daadd79d0d7b79139ee7c12f94ff9d27a451e0c",
+      "format": "png",
+      "width": 659,
+      "height": 659,
+      "atlas_size": [
+        659,
+        659
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "MipMapLinearLinear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "vs-gator.atlas",
+      "sha256": "2e12c0be72f56a95b49f8678b2821c6d9fd5a7c919a4938b798b560c8877cb1d",
+      "format": "spine-4",
+      "pages": [
+        "portrait.png",
+        "wild_emblem.png"
+      ],
+      "regions": 2,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 2/2 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "vs-gator.json",
+      "role": "skeleton",
+      "sha256": "8ccb9c892ec2528c609720373b7d73135e4061423f24c6b78cadd9634b7d4592",
+      "size": 225182,
+      "original_filename": "vs-gator.json",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.json",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.json"
+      ]
+    },
+    {
+      "file": "vs-gator.atlas",
+      "role": "atlas",
+      "sha256": "2e12c0be72f56a95b49f8678b2821c6d9fd5a7c919a4938b798b560c8877cb1d",
+      "size": 181,
+      "original_filename": "vs-gator.atlas",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.atlas",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.atlas"
+      ]
+    },
+    {
+      "file": "portrait.png",
+      "role": "texture",
+      "sha256": "8361e077ff28ade191c17cfe76ce70591eb11015a4c90cf06beef02c8f21ec62",
+      "size": 495087,
+      "original_filename": "winner_gator_v1.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_gator_v1.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_gator_v1.png",
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/portrait.png"
+      ],
+      "atlas_page": "portrait.png"
+    },
+    {
+      "file": "wild_emblem.png",
+      "role": "texture",
+      "sha256": "655392729655b7e084d9ea146daadd79d0d7b79139ee7c12f94ff9d27a451e0c",
+      "size": 316683,
+      "original_filename": "winner_w.png",
+      "raw_path": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_w.png",
+      "source_urls": [
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_w.png",
+        "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/wild_emblem.png"
+      ],
+      "atlas_page": "wild_emblem.png"
+    }
+  ],
+  "source_urls": [
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.json",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.atlas",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_gator_v1.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/portrait.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_w.png",
+    "https://blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/wild_emblem.png"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "2/2",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T15:03:35.499Z",
+  "sessions": [
+    "2026-10-02T15:03:05.103Z"
+  ],
+  "packaged_at": "2026-10-02T15:25:47.076Z"
+}

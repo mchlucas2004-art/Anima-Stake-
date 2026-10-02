@@ -1,0 +1,20 @@
+
+suru_basegame_7.png
+size: 124,212
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jar_top_candy
+  rotate: true
+  xy: 0, 0
+  size: 119, 123
+  orig: 119, 123
+  offset: 0, 0
+  index: -1
+jar_top_sugar
+  rotate: false
+  xy: 0, 121
+  size: 109, 90
+  orig: 109, 90
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,261 @@
+{
+  "id": "odin-s-vault/package_008_horse",
+  "package": "package_008_horse",
+  "name": "horse",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "horse.json",
+  "skeleton_version": "4.2.43",
+  "category": "character",
+  "subtypes": [
+    "win"
+  ],
+  "tags": [
+    "character",
+    "win",
+    "horse",
+    "symbols",
+    "highs"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "character": 9.8,
+      "symbol": 3,
+      "effect": 2.1,
+      "background": 0.8,
+      "ui": 0.8,
+      "transition": 0
+    },
+    "evidence": [
+      "name:horse",
+      "bone:horse",
+      "region:horse",
+      "body-parts:body,hair,eye,neck,head,ear"
+    ]
+  },
+  "animations": [
+    "transform",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "transform",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 7,
+        "slots": 37
+      }
+    },
+    {
+      "name": "win",
+      "duration": 0.833,
+      "timelines": {
+        "bones": 13,
+        "slots": 20,
+        "drawOrder": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 27,
+  "slots_count": 38,
+  "bones": [
+    "root",
+    "mine",
+    "Horse",
+    "frame5",
+    "Horse_body2",
+    "shine5",
+    "Horse_body3",
+    "Horse_body4",
+    "Horse_body8",
+    "Horse_hair",
+    "Horse_hair2",
+    "Horse_hair3",
+    "Horse_hair4",
+    "Horse_body5",
+    "Horse_eye",
+    "Horse_body6",
+    "Horse_body7",
+    "glow_eye_Horse",
+    "Horse_body_3d",
+    "Horse_body_3d2",
+    "main_transform",
+    "Red_Glow_2_1_1",
+    "Red_Glow_2_2_1",
+    "Red_Glow_2_3",
+    "Sparks_Red_1",
+    "Red_Glow_2_4",
+    "Red_Glow_2_5"
+  ],
+  "slots": [
+    "BG_Horse",
+    "BG_Horse2",
+    "frame_Horse",
+    "frame_Horse2",
+    "Shadow_1_Horse",
+    "Hair_Back_Horse",
+    "Neck_Horse",
+    "Hair_Shadow_1_Horse",
+    "Hair_Shadow_2_Horse",
+    "Hair_Shadow_3_Horse",
+    "Head_Horse",
+    "Closed_eye_Horse",
+    "Frame_fix_Horse",
+    "Frame_fix_Horse2",
+    "Shadow_fix_1_Horse",
+    "Hair_Back_1_Horse",
+    "Hair_Back_2_Horse",
+    "Hair_1_Horse",
+    "Hair_2_Horse",
+    "Hair_3_Horse",
+    "Hair_4_Horse",
+    "Hair_5_Horse",
+    "Ear_Horse",
+    "glow_eye_Horse",
+    "horse_red",
+    "Red_Glow_2_2_1",
+    "Red_Glow_2_2_2",
+    "Red_Glow_2_1_1",
+    "Red_Glow_2_1_2",
+    "Red_Glow_2_3",
+    "Sparks_Red_1",
+    "Sparks_Red_2",
+    "Sparks_Red_3_2",
+    "Sparks_Red_4_2",
+    "Sparks_Red_6",
+    "Sparks_Red_7",
+    "Red_Glow_3_4",
+    "Red_Glow_4_4"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 1,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 38,
+  "attachment_types": {
+    "region": 7,
+    "mesh": 31
+  },
+  "dimensions": {
+    "width": 289,
+    "height": 285
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "symbols_high.webp",
+      "atlas": "symbols_high.atlas",
+      "file": "symbols_high.webp",
+      "sha256": "d3b0beea7927da2c9c9ecf54ecc3c4b64d880af903136d54555c5715f13dda4a",
+      "format": "webp",
+      "width": 1985,
+      "height": 411,
+      "atlas_size": [
+        1985,
+        411
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "symbols_high.atlas",
+      "sha256": "7d3eb10548e568af0661b4091f1867ecb7d22fabc867f1d0fbf37a615234a8ef",
+      "format": "spine-4",
+      "pages": [
+        "symbols_high.webp"
+      ],
+      "regions": 70,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 115,
+      "evidence": [
+        "regions 33/33 (100% of skeleton)",
+        "same folder",
+        "loaded 4ms apart"
+      ],
+      "shared_with": [
+        "package_005_fang",
+        "package_006_helmet",
+        "package_007_axe",
+        "package_009_raven"
+      ]
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "horse.json",
+      "role": "skeleton",
+      "sha256": "f747e77a80ae017865269d80291480a2a0fd873ce368ad1961f77e187adabf87",
+      "size": 33626,
+      "original_filename": "horse.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/horse.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/horse.json"
+      ]
+    },
+    {
+      "file": "symbols_high.atlas",
+      "role": "atlas",
+      "sha256": "7d3eb10548e568af0661b4091f1867ecb7d22fabc867f1d0fbf37a615234a8ef",
+      "size": 3145,
+      "original_filename": "symbols_high.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.atlas"
+      ]
+    },
+    {
+      "file": "symbols_high.webp",
+      "role": "texture",
+      "sha256": "d3b0beea7927da2c9c9ecf54ecc3c4b64d880af903136d54555c5715f13dda4a",
+      "size": 417338,
+      "original_filename": "symbols_high.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.webp"
+      ],
+      "atlas_page": "symbols_high.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/horse.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [
+    "package_005_fang",
+    "package_006_helmet",
+    "package_007_axe",
+    "package_009_raven"
+  ],
+  "detected_at": "2026-10-02T19:53:39.521Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}

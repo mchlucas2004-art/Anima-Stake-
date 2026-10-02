@@ -1,0 +1,3740 @@
+{
+   "path": "assets",
+   "name": "assets",
+   "children": [
+      {
+         "path": "assets/default",
+         "name": "default",
+         "children": [
+            {
+               "path": "assets/default/common",
+               "name": "common",
+               "children": [
+                  {
+                     "path": "assets/default/common/atlas",
+                     "name": "atlas",
+                     "children": [
+                        {
+                           "path": "assets/default/common/atlas/bronze_digits_countup.atlas",
+                           "name": "bronze_digits_countup.atlas",
+                           "size": 1373,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/bronze_digits_countup.ktx2",
+                           "name": "bronze_digits_countup.ktx2",
+                           "size": 45595,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/countup_digits_countup.atlas",
+                           "name": "countup_digits_countup.atlas",
+                           "size": 1412,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/countup_digits_countup.ktx2",
+                           "name": "countup_digits_countup.ktx2",
+                           "size": 98353,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/diamond_digits_countup.atlas",
+                           "name": "diamond_digits_countup.atlas",
+                           "size": 1374,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/diamond_digits_countup.ktx2",
+                           "name": "diamond_digits_countup.ktx2",
+                           "size": 44616,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/digits_tv_red.atlas",
+                           "name": "digits_tv_red.atlas",
+                           "size": 1184,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/digits_tv_red.ktx2",
+                           "name": "digits_tv_red.ktx2",
+                           "size": 10003,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/digits_tv_yellow.atlas",
+                           "name": "digits_tv_yellow.atlas",
+                           "size": 1187,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/digits_tv_yellow.ktx2",
+                           "name": "digits_tv_yellow.ktx2",
+                           "size": 10632,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/effects.atlas",
+                           "name": "effects.atlas",
+                           "size": 1173,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/effects.ktx2",
+                           "name": "effects.ktx2",
+                           "size": 46767,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/fs_digits_countup.atlas",
+                           "name": "fs_digits_countup.atlas",
+                           "size": 1418,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/fs_digits_countup.ktx2",
+                           "name": "fs_digits_countup.ktx2",
+                           "size": 81686,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/fs_gold_digits_countup.atlas",
+                           "name": "fs_gold_digits_countup.atlas",
+                           "size": 1423,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/fs_gold_digits_countup.ktx2",
+                           "name": "fs_gold_digits_countup.ktx2",
+                           "size": 84523,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/gold_digits_countup.atlas",
+                           "name": "gold_digits_countup.atlas",
+                           "size": 1371,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/gold_digits_countup.ktx2",
+                           "name": "gold_digits_countup.ktx2",
+                           "size": 45159,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/localized",
+                           "name": "localized",
+                           "children": [
+                              {
+                                 "path": "assets/default/common/atlas/localized/es-es",
+                                 "name": "es-es",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/atlas/localized/es-es/splash.atlas",
+                                       "name": "splash.atlas",
+                                       "size": 745,
+                                       "type": "file",
+                                       "extension": ".atlas"
+                                    },
+                                    {
+                                       "path": "assets/default/common/atlas/localized/es-es/splash.ktx2",
+                                       "name": "splash.ktx2",
+                                       "size": 141111,
+                                       "type": "file",
+                                       "extension": ".ktx2"
+                                    }
+                                 ],
+                                 "size": 141856,
+                                 "type": "directory"
+                              }
+                           ],
+                           "size": 141856,
+                           "type": "directory"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/misc.atlas",
+                           "name": "misc.atlas",
+                           "size": 946,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/misc.ktx2",
+                           "name": "misc.ktx2",
+                           "size": 15671,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_digits_countup.atlas",
+                           "name": "multi_digits_countup.atlas",
+                           "size": 1487,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_digits_countup.ktx2",
+                           "name": "multi_digits_countup.ktx2",
+                           "size": 42070,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/silver_digits_countup.atlas",
+                           "name": "silver_digits_countup.atlas",
+                           "size": 1373,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/silver_digits_countup.ktx2",
+                           "name": "silver_digits_countup.ktx2",
+                           "size": 45424,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/winline_digits_countup.atlas",
+                           "name": "winline_digits_countup.atlas",
+                           "size": 1404,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/winline_digits_countup.ktx2",
+                           "name": "winline_digits_countup.ktx2",
+                           "size": 78849,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        }
+                     ],
+                     "size": 808329,
+                     "type": "directory"
+                  },
+                  {
+                     "path": "assets/default/common/font",
+                     "name": "font",
+                     "children": [
+                        {
+                           "path": "assets/default/common/font/cyrillicfb.ttf",
+                           "name": "cyrillicfb.ttf",
+                           "size": 666152,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/fontconfig.json",
+                           "name": "fontconfig.json",
+                           "size": 979,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/common/font/localized",
+                           "name": "localized",
+                           "children": [
+                              {
+                                 "path": "assets/default/common/font/localized/bg-bg",
+                                 "name": "bg-bg",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/bg-bg/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 42496,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/bg-bg/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 137811,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 180307,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/cs-cz",
+                                 "name": "cs-cz",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/cs-cz/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 136675,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/cs-cz/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 118162,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 254837,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/da-dk",
+                                 "name": "da-dk",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/da-dk/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 58830,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/da-dk/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 167425,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 226255,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/de-de",
+                                 "name": "de-de",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/de-de/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 56064,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/de-de/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 158735,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 214799,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/el-gr",
+                                 "name": "el-gr",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/el-gr/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 63563,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/el-gr/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 134425,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 197988,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/en-us",
+                                 "name": "en-us",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/en-us/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 47624,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/en-us/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 154377,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 202001,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/es-es",
+                                 "name": "es-es",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/es-es/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 55948,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/es-es/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 156938,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 212886,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/fi-fi",
+                                 "name": "fi-fi",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/fi-fi/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 58231,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/fi-fi/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 152081,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 210312,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/fr-fr",
+                                 "name": "fr-fr",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/fr-fr/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 63252,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/fr-fr/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 164438,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 227690,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/hr-hr",
+                                 "name": "hr-hr",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/hr-hr/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 56105,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/hr-hr/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 100961,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 157066,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/hu-hu",
+                                 "name": "hu-hu",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/hu-hu/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 74694,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/hu-hu/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 111174,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 185868,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/id-id",
+                                 "name": "id-id",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/id-id/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 40747,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/id-id/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 147160,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 187907,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/it-it",
+                                 "name": "it-it",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/it-it/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 50079,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/it-it/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 145021,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 195100,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/ja-jp",
+                                 "name": "ja-jp",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/ja-jp/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 30200,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/ja-jp/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 380661,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 410861,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/ko-kr",
+                                 "name": "ko-kr",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/ko-kr/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 32966,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/ko-kr/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 270118,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 303084,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/lt-lt",
+                                 "name": "lt-lt",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/lt-lt/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 66592,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/lt-lt/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 107536,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 174128,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/lv-lv",
+                                 "name": "lv-lv",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/lv-lv/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 60416,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/lv-lv/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 109194,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 169610,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/nl-nl",
+                                 "name": "nl-nl",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/nl-nl/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 51037,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/nl-nl/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 151089,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 202126,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/no-no",
+                                 "name": "no-no",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/no-no/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 57724,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/no-no/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 153267,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 210991,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/pl-pl",
+                                 "name": "pl-pl",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/pl-pl/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 66605,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/pl-pl/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 113658,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 180263,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/pt-br",
+                                 "name": "pt-br",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/pt-br/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 70111,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/pt-br/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 170316,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 240427,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/pt-pt",
+                                 "name": "pt-pt",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/pt-pt/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 70111,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/pt-pt/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 169758,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 239869,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/ro-ro",
+                                 "name": "ro-ro",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/ro-ro/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 56505,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/ro-ro/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 101149,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 157654,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/ru-ru",
+                                 "name": "ru-ru",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/ru-ru/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 66696,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/ru-ru/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 133148,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 199844,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/sv-se",
+                                 "name": "sv-se",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/sv-se/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 64264,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/sv-se/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 152872,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 217136,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/th-th",
+                                 "name": "th-th",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/th-th/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 42284,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/th-th/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 126533,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 168817,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/tr-tr",
+                                 "name": "tr-tr",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/tr-tr/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 69709,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/tr-tr/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 108604,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 178313,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/uk-ua",
+                                 "name": "uk-ua",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/uk-ua/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 69193,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/uk-ua/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 130830,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 200023,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/vi-vn",
+                                 "name": "vi-vn",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/vi-vn/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 242608,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/vi-vn/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 175755,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 418363,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/zh-cn",
+                                 "name": "zh-cn",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/zh-cn/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 31759,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/zh-cn/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 419495,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 451254,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/zh-tw",
+                                 "name": "zh-tw",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/zh-tw/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 31851,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/zh-tw/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 427547,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 459398,
+                                 "type": "directory"
+                              }
+                           ],
+                           "size": 7235177,
+                           "type": "directory"
+                        },
+                        {
+                           "path": "assets/default/common/font/pridi.ttf",
+                           "name": "pridi.ttf",
+                           "size": 552264,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/rubik_black.ttf",
+                           "name": "rubik_black.ttf",
+                           "size": 266268,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/sourcehansans_hwj_bold.ttf",
+                           "name": "sourcehansans_hwj_bold.ttf",
+                           "size": 17945856,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/sourcehansans_hwsc_bold.ttf",
+                           "name": "sourcehansans_hwsc_bold.ttf",
+                           "size": 17857688,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/titanone_regular.ttf",
+                           "name": "titanone_regular.ttf",
+                           "size": 168528,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/wicked_mouse.ttf",
+                           "name": "wicked_mouse.ttf",
+                           "size": 88692,
+                           "type": "file",
+                           "extension": ".ttf"
+                        }
+                     ],
+                     "size": 44781604,
+                     "type": "directory"
+                  },
+                  {
+                     "path": "assets/default/common/sound",
+                     "name": "sound",
+                     "children": [
+                        {
+                           "path": "assets/default/common/sound/ambience.mp4",
+                           "name": "ambience.mp4",
+                           "size": 97605,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/ambience.webm",
+                           "name": "ambience.webm",
+                           "size": 84306,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/beeper.mp4",
+                           "name": "beeper.mp4",
+                           "size": 19036,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/beeper.webm",
+                           "name": "beeper.webm",
+                           "size": 16347,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bell.mp4",
+                           "name": "bell.mp4",
+                           "size": 25592,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bell.webm",
+                           "name": "bell.webm",
+                           "size": 28974,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/betlevel.mp4",
+                           "name": "betlevel.mp4",
+                           "size": 2025,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/betlevel.webm",
+                           "name": "betlevel.webm",
+                           "size": 1647,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bling.mp4",
+                           "name": "bling.mp4",
+                           "size": 9267,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bling.webm",
+                           "name": "bling.webm",
+                           "size": 14563,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_gold_landed_1.mp4",
+                           "name": "bonus_gold_landed_1.mp4",
+                           "size": 25900,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_gold_landed_1.webm",
+                           "name": "bonus_gold_landed_1.webm",
+                           "size": 21426,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_gold_landed_2.mp4",
+                           "name": "bonus_gold_landed_2.mp4",
+                           "size": 26640,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_gold_landed_2.webm",
+                           "name": "bonus_gold_landed_2.webm",
+                           "size": 21663,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_gold_landed_3.mp4",
+                           "name": "bonus_gold_landed_3.mp4",
+                           "size": 26145,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_gold_landed_3.webm",
+                           "name": "bonus_gold_landed_3.webm",
+                           "size": 21499,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_gold_landed_4.mp4",
+                           "name": "bonus_gold_landed_4.mp4",
+                           "size": 26408,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_gold_landed_4.webm",
+                           "name": "bonus_gold_landed_4.webm",
+                           "size": 22445,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_red_landed_1.mp4",
+                           "name": "bonus_red_landed_1.mp4",
+                           "size": 25824,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_red_landed_1.webm",
+                           "name": "bonus_red_landed_1.webm",
+                           "size": 20923,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_red_landed_2.mp4",
+                           "name": "bonus_red_landed_2.mp4",
+                           "size": 26181,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_red_landed_2.webm",
+                           "name": "bonus_red_landed_2.webm",
+                           "size": 20781,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_red_landed_3.mp4",
+                           "name": "bonus_red_landed_3.mp4",
+                           "size": 25934,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_red_landed_3.webm",
+                           "name": "bonus_red_landed_3.webm",
+                           "size": 20901,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_red_landed_4.mp4",
+                           "name": "bonus_red_landed_4.mp4",
+                           "size": 26174,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_red_landed_4.webm",
+                           "name": "bonus_red_landed_4.webm",
+                           "size": 21697,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_triggered.mp4",
+                           "name": "bonus_triggered.mp4",
+                           "size": 76608,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bonus_triggered.webm",
+                           "name": "bonus_triggered.webm",
+                           "size": 77331,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bronze_1.mp4",
+                           "name": "bronze_1.mp4",
+                           "size": 27719,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bronze_1.webm",
+                           "name": "bronze_1.webm",
+                           "size": 22158,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bronze_2.mp4",
+                           "name": "bronze_2.mp4",
+                           "size": 27492,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bronze_2.webm",
+                           "name": "bronze_2.webm",
+                           "size": 22676,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bronze_3.mp4",
+                           "name": "bronze_3.mp4",
+                           "size": 27598,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/bronze_3.webm",
+                           "name": "bronze_3.webm",
+                           "size": 21876,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/cartoon_shot.mp4",
+                           "name": "cartoon_shot.mp4",
+                           "size": 16692,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/cartoon_shot.webm",
+                           "name": "cartoon_shot.webm",
+                           "size": 12026,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/cherry.mp4",
+                           "name": "cherry.mp4",
+                           "size": 12483,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/cherry.webm",
+                           "name": "cherry.webm",
+                           "size": 17081,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/click.mp4",
+                           "name": "click.mp4",
+                           "size": 9416,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/click.webm",
+                           "name": "click.webm",
+                           "size": 10137,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/clock_multi_reveal.mp4",
+                           "name": "clock_multi_reveal.mp4",
+                           "size": 23722,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/clock_multi_reveal.webm",
+                           "name": "clock_multi_reveal.webm",
+                           "size": 30416,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/coin_boing.mp4",
+                           "name": "coin_boing.mp4",
+                           "size": 13542,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/coin_boing.webm",
+                           "name": "coin_boing.webm",
+                           "size": 10616,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/coins_loop.mp4",
+                           "name": "coins_loop.mp4",
+                           "size": 49436,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/coins_loop.webm",
+                           "name": "coins_loop.webm",
+                           "size": 47545,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/diamond.mp4",
+                           "name": "diamond.mp4",
+                           "size": 33334,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/diamond.webm",
+                           "name": "diamond.webm",
+                           "size": 46907,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/disappear.mp4",
+                           "name": "disappear.mp4",
+                           "size": 24134,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/disappear.webm",
+                           "name": "disappear.webm",
+                           "size": 18779,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/dopatrill.mp4",
+                           "name": "dopatrill.mp4",
+                           "size": 26945,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/dopatrill.webm",
+                           "name": "dopatrill.webm",
+                           "size": 23430,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/dropgrid_out.mp4",
+                           "name": "dropgrid_out.mp4",
+                           "size": 21275,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/dropgrid_out.webm",
+                           "name": "dropgrid_out.webm",
+                           "size": 17539,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/drum_fill_1.mp4",
+                           "name": "drum_fill_1.mp4",
+                           "size": 34672,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/drum_fill_1.webm",
+                           "name": "drum_fill_1.webm",
+                           "size": 28248,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/drum_fill_2.mp4",
+                           "name": "drum_fill_2.mp4",
+                           "size": 30840,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/drum_fill_2.webm",
+                           "name": "drum_fill_2.webm",
+                           "size": 26572,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/drum_fill_3.mp4",
+                           "name": "drum_fill_3.mp4",
+                           "size": 30846,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/drum_fill_3.webm",
+                           "name": "drum_fill_3.webm",
+                           "size": 27748,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/drum_fill_4.mp4",
+                           "name": "drum_fill_4.mp4",
+                           "size": 34620,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/drum_fill_4.webm",
+                           "name": "drum_fill_4.webm",
+                           "size": 30100,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/enter.mp4",
+                           "name": "enter.mp4",
+                           "size": 40080,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/enter.webm",
+                           "name": "enter.webm",
+                           "size": 31430,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/exit.mp4",
+                           "name": "exit.mp4",
+                           "size": 63707,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/exit.webm",
+                           "name": "exit.webm",
+                           "size": 64843,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/expand.mp4",
+                           "name": "expand.mp4",
+                           "size": 11615,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/expand.webm",
+                           "name": "expand.webm",
+                           "size": 12424,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/glitter.mp4",
+                           "name": "glitter.mp4",
+                           "size": 10251,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/glitter.webm",
+                           "name": "glitter.webm",
+                           "size": 7374,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/gold_coin.mp4",
+                           "name": "gold_coin.mp4",
+                           "size": 34547,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/gold_coin.webm",
+                           "name": "gold_coin.webm",
+                           "size": 32192,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/grapes.mp4",
+                           "name": "grapes.mp4",
+                           "size": 21995,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/grapes.webm",
+                           "name": "grapes.webm",
+                           "size": 18967,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/intro.mp4",
+                           "name": "intro.mp4",
+                           "size": 65592,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/intro.webm",
+                           "name": "intro.webm",
+                           "size": 58478,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_1.mp4",
+                           "name": "jazz_drum_1.mp4",
+                           "size": 20801,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_1.webm",
+                           "name": "jazz_drum_1.webm",
+                           "size": 16936,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_2.mp4",
+                           "name": "jazz_drum_2.mp4",
+                           "size": 18611,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_2.webm",
+                           "name": "jazz_drum_2.webm",
+                           "size": 13820,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_3.mp4",
+                           "name": "jazz_drum_3.mp4",
+                           "size": 18350,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_3.webm",
+                           "name": "jazz_drum_3.webm",
+                           "size": 13235,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_4.mp4",
+                           "name": "jazz_drum_4.mp4",
+                           "size": 23798,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_4.webm",
+                           "name": "jazz_drum_4.webm",
+                           "size": 19407,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_5.mp4",
+                           "name": "jazz_drum_5.mp4",
+                           "size": 17929,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_5.webm",
+                           "name": "jazz_drum_5.webm",
+                           "size": 14615,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_6.mp4",
+                           "name": "jazz_drum_6.mp4",
+                           "size": 18175,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jazz_drum_6.webm",
+                           "name": "jazz_drum_6.webm",
+                           "size": 15299,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jump.mp4",
+                           "name": "jump.mp4",
+                           "size": 16709,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/jump.webm",
+                           "name": "jump.webm",
+                           "size": 15650,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_1.mp4",
+                           "name": "laugh_1.mp4",
+                           "size": 18153,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_1.webm",
+                           "name": "laugh_1.webm",
+                           "size": 19393,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_2.mp4",
+                           "name": "laugh_2.mp4",
+                           "size": 22308,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_2.webm",
+                           "name": "laugh_2.webm",
+                           "size": 23210,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_3.mp4",
+                           "name": "laugh_3.mp4",
+                           "size": 16881,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_3.webm",
+                           "name": "laugh_3.webm",
+                           "size": 17782,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_4.mp4",
+                           "name": "laugh_4.mp4",
+                           "size": 13551,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_4.webm",
+                           "name": "laugh_4.webm",
+                           "size": 12408,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_5.mp4",
+                           "name": "laugh_5.mp4",
+                           "size": 29097,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_5.webm",
+                           "name": "laugh_5.webm",
+                           "size": 26118,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_6.mp4",
+                           "name": "laugh_6.mp4",
+                           "size": 36869,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/laugh_6.webm",
+                           "name": "laugh_6.webm",
+                           "size": 32578,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/magic_reveal.mp4",
+                           "name": "magic_reveal.mp4",
+                           "size": 39820,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/magic_reveal.webm",
+                           "name": "magic_reveal.webm",
+                           "size": 23441,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/melon.mp4",
+                           "name": "melon.mp4",
+                           "size": 6184,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/melon.webm",
+                           "name": "melon.webm",
+                           "size": 7521,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/multi_1.mp4",
+                           "name": "multi_1.mp4",
+                           "size": 21869,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/multi_1.webm",
+                           "name": "multi_1.webm",
+                           "size": 18985,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/multi_2.mp4",
+                           "name": "multi_2.mp4",
+                           "size": 20131,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/multi_2.webm",
+                           "name": "multi_2.webm",
+                           "size": 19003,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/multi_3.mp4",
+                           "name": "multi_3.mp4",
+                           "size": 24994,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/multi_3.webm",
+                           "name": "multi_3.webm",
+                           "size": 21713,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/multi_4.mp4",
+                           "name": "multi_4.mp4",
+                           "size": 29858,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/multi_4.webm",
+                           "name": "multi_4.webm",
+                           "size": 34827,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_2_level_0.mp4",
+                           "name": "music_bonus_2_level_0.mp4",
+                           "size": 566128,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_2_level_0.webm",
+                           "name": "music_bonus_2_level_0.webm",
+                           "size": 660174,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_2_level_1.mp4",
+                           "name": "music_bonus_2_level_1.mp4",
+                           "size": 564950,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_2_level_1.webm",
+                           "name": "music_bonus_2_level_1.webm",
+                           "size": 619604,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_2_level_2.mp4",
+                           "name": "music_bonus_2_level_2.mp4",
+                           "size": 564372,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_2_level_2.webm",
+                           "name": "music_bonus_2_level_2.webm",
+                           "size": 587964,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_2_level_3.mp4",
+                           "name": "music_bonus_2_level_3.mp4",
+                           "size": 563725,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_2_level_3.webm",
+                           "name": "music_bonus_2_level_3.webm",
+                           "size": 551352,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_level_0.mp4",
+                           "name": "music_bonus_level_0.mp4",
+                           "size": 489547,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_level_0.webm",
+                           "name": "music_bonus_level_0.webm",
+                           "size": 561627,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_level_1.mp4",
+                           "name": "music_bonus_level_1.mp4",
+                           "size": 489730,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_level_1.webm",
+                           "name": "music_bonus_level_1.webm",
+                           "size": 543694,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_level_2.mp4",
+                           "name": "music_bonus_level_2.mp4",
+                           "size": 487783,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_level_2.webm",
+                           "name": "music_bonus_level_2.webm",
+                           "size": 476277,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_level_3.mp4",
+                           "name": "music_bonus_level_3.mp4",
+                           "size": 487664,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_bonus_level_3.webm",
+                           "name": "music_bonus_level_3.webm",
+                           "size": 491355,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_0.mp4",
+                           "name": "music_level_0.mp4",
+                           "size": 354007,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_0.webm",
+                           "name": "music_level_0.webm",
+                           "size": 433126,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_1.mp4",
+                           "name": "music_level_1.mp4",
+                           "size": 353914,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_1.webm",
+                           "name": "music_level_1.webm",
+                           "size": 393181,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_2.mp4",
+                           "name": "music_level_2.mp4",
+                           "size": 353291,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_2.webm",
+                           "name": "music_level_2.webm",
+                           "size": 354662,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_3.mp4",
+                           "name": "music_level_3.mp4",
+                           "size": 353187,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_3.webm",
+                           "name": "music_level_3.webm",
+                           "size": 340440,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/plop.mp4",
+                           "name": "plop.mp4",
+                           "size": 4871,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/plop.webm",
+                           "name": "plop.webm",
+                           "size": 9055,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/reel_stop.mp4",
+                           "name": "reel_stop.mp4",
+                           "size": 2955,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/reel_stop.webm",
+                           "name": "reel_stop.webm",
+                           "size": 3402,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/seven.mp4",
+                           "name": "seven.mp4",
+                           "size": 17444,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/seven.webm",
+                           "name": "seven.webm",
+                           "size": 17162,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/silver_coin.mp4",
+                           "name": "silver_coin.mp4",
+                           "size": 26657,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/silver_coin.webm",
+                           "name": "silver_coin.webm",
+                           "size": 27427,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/snare_roll_crash.mp4",
+                           "name": "snare_roll_crash.mp4",
+                           "size": 46785,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/snare_roll_crash.webm",
+                           "name": "snare_roll_crash.webm",
+                           "size": 42014,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/snare_roll_reveal.mp4",
+                           "name": "snare_roll_reveal.mp4",
+                           "size": 26362,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/snare_roll_reveal.webm",
+                           "name": "snare_roll_reveal.webm",
+                           "size": 18765,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/static_1.mp4",
+                           "name": "static_1.mp4",
+                           "size": 17868,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/static_1.webm",
+                           "name": "static_1.webm",
+                           "size": 19738,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/static_2.mp4",
+                           "name": "static_2.mp4",
+                           "size": 15715,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/static_2.webm",
+                           "name": "static_2.webm",
+                           "size": 19277,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/static_3.mp4",
+                           "name": "static_3.mp4",
+                           "size": 15000,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/static_3.webm",
+                           "name": "static_3.webm",
+                           "size": 18794,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/thud.mp4",
+                           "name": "thud.mp4",
+                           "size": 12939,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/thud.webm",
+                           "name": "thud.webm",
+                           "size": 13269,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tick.mp4",
+                           "name": "tick.mp4",
+                           "size": 2214,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tick.webm",
+                           "name": "tick.webm",
+                           "size": 2739,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/total_win_1.mp4",
+                           "name": "total_win_1.mp4",
+                           "size": 50841,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/total_win_1.webm",
+                           "name": "total_win_1.webm",
+                           "size": 54047,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/total_win_2.mp4",
+                           "name": "total_win_2.mp4",
+                           "size": 25263,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/total_win_2.webm",
+                           "name": "total_win_2.webm",
+                           "size": 23657,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_1.mp4",
+                           "name": "tv_1.mp4",
+                           "size": 6589,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_1.webm",
+                           "name": "tv_1.webm",
+                           "size": 8777,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_2.mp4",
+                           "name": "tv_2.mp4",
+                           "size": 8957,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_2.webm",
+                           "name": "tv_2.webm",
+                           "size": 12813,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_3.mp4",
+                           "name": "tv_3.mp4",
+                           "size": 5824,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_3.webm",
+                           "name": "tv_3.webm",
+                           "size": 8679,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_4.mp4",
+                           "name": "tv_4.mp4",
+                           "size": 10525,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_4.webm",
+                           "name": "tv_4.webm",
+                           "size": 11706,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_5.mp4",
+                           "name": "tv_5.mp4",
+                           "size": 11981,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_5.webm",
+                           "name": "tv_5.webm",
+                           "size": 13662,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_6.mp4",
+                           "name": "tv_6.mp4",
+                           "size": 8833,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_6.webm",
+                           "name": "tv_6.webm",
+                           "size": 11973,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_7.mp4",
+                           "name": "tv_7.mp4",
+                           "size": 13436,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/tv_7.webm",
+                           "name": "tv_7.webm",
+                           "size": 17211,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/win_count.mp4",
+                           "name": "win_count.mp4",
+                           "size": 3436,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/win_count.webm",
+                           "name": "win_count.webm",
+                           "size": 5293,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/win_end_bet_low.mp4",
+                           "name": "win_end_bet_low.mp4",
+                           "size": 7997,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/win_end_bet_low.webm",
+                           "name": "win_end_bet_low.webm",
+                           "size": 7096,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/win_end_bet_over.mp4",
+                           "name": "win_end_bet_over.mp4",
+                           "size": 10488,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/win_end_bet_over.webm",
+                           "name": "win_end_bet_over.webm",
+                           "size": 10503,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/win_end_high.mp4",
+                           "name": "win_end_high.mp4",
+                           "size": 40858,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/win_end_high.webm",
+                           "name": "win_end_high.webm",
+                           "size": 35038,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/wintier_1.mp4",
+                           "name": "wintier_1.mp4",
+                           "size": 34963,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/wintier_1.webm",
+                           "name": "wintier_1.webm",
+                           "size": 33236,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/wintier_2.mp4",
+                           "name": "wintier_2.mp4",
+                           "size": 35089,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/wintier_2.webm",
+                           "name": "wintier_2.webm",
+                           "size": 32856,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/wintier_3.mp4",
+                           "name": "wintier_3.mp4",
+                           "size": 37705,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/wintier_3.webm",
+                           "name": "wintier_3.webm",
+                           "size": 35635,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/wintier_4.mp4",
+                           "name": "wintier_4.mp4",
+                           "size": 57065,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/wintier_4.webm",
+                           "name": "wintier_4.webm",
+                           "size": 53645,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/woosh.mp4",
+                           "name": "woosh.mp4",
+                           "size": 12895,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/woosh.webm",
+                           "name": "woosh.webm",
+                           "size": 12097,
+                           "type": "file",
+                           "extension": ".webm"
+                        }
+                     ],
+                     "size": 15738861,
+                     "type": "directory"
+                  }
+               ],
+               "size": 61328794,
+               "type": "directory"
+            },
+            {
+               "path": "assets/default/hd",
+               "name": "hd",
+               "children": [
+                  {
+                     "path": "assets/default/hd/atlas",
+                     "name": "atlas",
+                     "children": [
+                        {
+                           "path": "assets/default/hd/atlas/background.atlas",
+                           "name": "background.atlas",
+                           "size": 1057,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/atlas/background.ktx2",
+                           "name": "background.ktx2",
+                           "size": 1084796,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/hd/atlas/background_splash.atlas",
+                           "name": "background_splash.atlas",
+                           "size": 318,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/atlas/background_splash.ktx2",
+                           "name": "background_splash.ktx2",
+                           "size": 1527746,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/hd/atlas/coin_animations_1.atlas",
+                           "name": "coin_animations_1.atlas",
+                           "size": 2269,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/atlas/coin_animations_1.ktx2",
+                           "name": "coin_animations_1.ktx2",
+                           "size": 328578,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/hd/atlas/reel.atlas",
+                           "name": "reel.atlas",
+                           "size": 650,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/atlas/reel.ktx2",
+                           "name": "reel.ktx2",
+                           "size": 1128073,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/hd/atlas/splash.atlas",
+                           "name": "splash.atlas",
+                           "size": 747,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/atlas/splash.ktx2",
+                           "name": "splash.ktx2",
+                           "size": 714361,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/hd/atlas/splash_fs_in.atlas",
+                           "name": "splash_fs_in.atlas",
+                           "size": 533,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/atlas/splash_fs_in.ktx2",
+                           "name": "splash_fs_in.ktx2",
+                           "size": 862135,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        }
+                     ],
+                     "size": 5651263,
+                     "type": "directory"
+                  },
+                  {
+                     "path": "assets/default/hd/spine",
+                     "name": "spine",
+                     "children": [
+                        {
+                           "path": "assets/default/hd/spine/bg.atlas",
+                           "name": "bg.atlas",
+                           "size": 357,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/bg.json",
+                           "name": "bg.json",
+                           "size": 15929,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/bg.ktx2",
+                           "name": "bg.ktx2",
+                           "size": 765204,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/character.atlas",
+                           "name": "character.atlas",
+                           "size": 2119,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/character.json",
+                           "name": "character.json",
+                           "size": 300265,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/character.ktx2",
+                           "name": "character.ktx2",
+                           "size": 118712,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/encoding.json",
+                           "name": "encoding.json",
+                           "size": 114,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/localized",
+                           "name": "localized",
+                           "children": [
+                              {
+                                 "path": "assets/default/hd/spine/localized/es-es",
+                                 "name": "es-es",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/hd/spine/localized/es-es/wintiers.atlas",
+                                       "name": "wintiers.atlas",
+                                       "size": 371,
+                                       "type": "file",
+                                       "extension": ".atlas"
+                                    },
+                                    {
+                                       "path": "assets/default/hd/spine/localized/es-es/wintiers.json",
+                                       "name": "wintiers.json",
+                                       "size": 70071,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/hd/spine/localized/es-es/wintiers.ktx2",
+                                       "name": "wintiers.ktx2",
+                                       "size": 69444,
+                                       "type": "file",
+                                       "extension": ".ktx2"
+                                    }
+                                 ],
+                                 "size": 139886,
+                                 "type": "directory"
+                              }
+                           ],
+                           "size": 139886,
+                           "type": "directory"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/reel.atlas",
+                           "name": "reel.atlas",
+                           "size": 166,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/reel.json",
+                           "name": "reel.json",
+                           "size": 86202,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/reel.ktx2",
+                           "name": "reel.ktx2",
+                           "size": 22356,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/symbols.atlas",
+                           "name": "symbols.atlas",
+                           "size": 4954,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/symbols.json",
+                           "name": "symbols.json",
+                           "size": 494012,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/symbols.ktx2",
+                           "name": "symbols.ktx2",
+                           "size": 666029,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/tv.atlas",
+                           "name": "tv.atlas",
+                           "size": 538,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/tv.json",
+                           "name": "tv.json",
+                           "size": 3339,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/tv.ktx2",
+                           "name": "tv.ktx2",
+                           "size": 420549,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/wintiers.atlas",
+                           "name": "wintiers.atlas",
+                           "size": 1827,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/wintiers.json",
+                           "name": "wintiers.json",
+                           "size": 81119,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/hd/spine/wintiers.ktx2",
+                           "name": "wintiers.ktx2",
+                           "size": 338954,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        }
+                     ],
+                     "size": 3462631,
+                     "type": "directory"
+                  }
+               ],
+               "size": 9113894,
+               "type": "directory"
+            },
+            {
+               "path": "assets/default/sd",
+               "name": "sd",
+               "children": [
+                  {
+                     "path": "assets/default/sd/atlas",
+                     "name": "atlas",
+                     "children": [
+                        {
+                           "path": "assets/default/sd/atlas/background.atlas",
+                           "name": "background.atlas",
+                           "size": 1057,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/atlas/background.ktx2",
+                           "name": "background.ktx2",
+                           "size": 204525,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/sd/atlas/background_splash.atlas",
+                           "name": "background_splash.atlas",
+                           "size": 318,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/atlas/background_splash.ktx2",
+                           "name": "background_splash.ktx2",
+                           "size": 340329,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/sd/atlas/coin_animations_1.atlas",
+                           "name": "coin_animations_1.atlas",
+                           "size": 2269,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/atlas/coin_animations_1.ktx2",
+                           "name": "coin_animations_1.ktx2",
+                           "size": 103774,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/sd/atlas/reel.atlas",
+                           "name": "reel.atlas",
+                           "size": 650,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/atlas/reel.ktx2",
+                           "name": "reel.ktx2",
+                           "size": 221998,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/sd/atlas/splash.atlas",
+                           "name": "splash.atlas",
+                           "size": 747,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/atlas/splash.ktx2",
+                           "name": "splash.ktx2",
+                           "size": 208160,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/sd/atlas/splash_fs_in.atlas",
+                           "name": "splash_fs_in.atlas",
+                           "size": 533,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/atlas/splash_fs_in.ktx2",
+                           "name": "splash_fs_in.ktx2",
+                           "size": 148430,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        }
+                     ],
+                     "size": 1232790,
+                     "type": "directory"
+                  },
+                  {
+                     "path": "assets/default/sd/spine",
+                     "name": "spine",
+                     "children": [
+                        {
+                           "path": "assets/default/sd/spine/bg.atlas",
+                           "name": "bg.atlas",
+                           "size": 347,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/bg.json",
+                           "name": "bg.json",
+                           "size": 15929,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/bg.ktx2",
+                           "name": "bg.ktx2",
+                           "size": 252283,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/character.atlas",
+                           "name": "character.atlas",
+                           "size": 2138,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/character.json",
+                           "name": "character.json",
+                           "size": 300265,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/character.ktx2",
+                           "name": "character.ktx2",
+                           "size": 62850,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/coin.atlas",
+                           "name": "coin.atlas",
+                           "size": 136,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/coin.json",
+                           "name": "coin.json",
+                           "size": 2439,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/coin.ktx2",
+                           "name": "coin.ktx2",
+                           "size": 6722,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/encoding.json",
+                           "name": "encoding.json",
+                           "size": 150,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/localized",
+                           "name": "localized",
+                           "children": [
+                              {
+                                 "path": "assets/default/sd/spine/localized/es-es",
+                                 "name": "es-es",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/sd/spine/localized/es-es/wintiers.atlas",
+                                       "name": "wintiers.atlas",
+                                       "size": 375,
+                                       "type": "file",
+                                       "extension": ".atlas"
+                                    },
+                                    {
+                                       "path": "assets/default/sd/spine/localized/es-es/wintiers.json",
+                                       "name": "wintiers.json",
+                                       "size": 70071,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/default/sd/spine/localized/es-es/wintiers.ktx2",
+                                       "name": "wintiers.ktx2",
+                                       "size": 28015,
+                                       "type": "file",
+                                       "extension": ".ktx2"
+                                    }
+                                 ],
+                                 "size": 98461,
+                                 "type": "directory"
+                              }
+                           ],
+                           "size": 98461,
+                           "type": "directory"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/reel.atlas",
+                           "name": "reel.atlas",
+                           "size": 167,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/reel.json",
+                           "name": "reel.json",
+                           "size": 86202,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/reel.ktx2",
+                           "name": "reel.ktx2",
+                           "size": 17904,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/symbols.atlas",
+                           "name": "symbols.atlas",
+                           "size": 4668,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/symbols.json",
+                           "name": "symbols.json",
+                           "size": 494006,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/symbols.ktx2",
+                           "name": "symbols.ktx2",
+                           "size": 217340,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/tv.atlas",
+                           "name": "tv.atlas",
+                           "size": 536,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/tv.json",
+                           "name": "tv.json",
+                           "size": 3339,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/tv.ktx2",
+                           "name": "tv.ktx2",
+                           "size": 112146,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/wintiers.atlas",
+                           "name": "wintiers.atlas",
+                           "size": 1749,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/wintiers.json",
+                           "name": "wintiers.json",
+                           "size": 81119,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/sd/spine/wintiers.ktx2",
+                           "name": "wintiers.ktx2",
+                           "size": 106300,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        }
+                     ],
+                     "size": 1867196,
+                     "type": "directory"
+                  }
+               ],
+               "size": 3099986,
+               "type": "directory"
+            }
+         ],
+         "size": 73542674,
+         "type": "directory"
+      },
+      {
+         "path": "assets/social",
+         "name": "social",
+         "children": [
+            {
+               "path": "assets/social/common",
+               "name": "common",
+               "children": [
+                  {
+                     "path": "assets/social/common/config",
+                     "name": "config",
+                     "children": [
+                        {
+                           "path": "assets/social/common/config/gameconfig.json",
+                           "name": "gameconfig.json",
+                           "size": 2959,
+                           "type": "file",
+                           "extension": ".json"
+                        }
+                     ],
+                     "size": 2959,
+                     "type": "directory"
+                  },
+                  {
+                     "path": "assets/social/common/font",
+                     "name": "font",
+                     "children": [
+                        {
+                           "path": "assets/social/common/font/cyrillicfb.ttf",
+                           "name": "cyrillicfb.ttf",
+                           "size": 666152,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/fontconfig.json",
+                           "name": "fontconfig.json",
+                           "size": 979,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/social/common/font/localized",
+                           "name": "localized",
+                           "children": [
+                              {
+                                 "path": "assets/social/common/font/localized/bg-bg",
+                                 "name": "bg-bg",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/bg-bg/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 42496,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/bg-bg/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 137811,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 180307,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/cs-cz",
+                                 "name": "cs-cz",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/cs-cz/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 136675,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/cs-cz/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 118162,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 254837,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/da-dk",
+                                 "name": "da-dk",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/da-dk/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 58830,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/da-dk/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 167425,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 226255,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/de-de",
+                                 "name": "de-de",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/de-de/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 56064,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/de-de/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 158735,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 214799,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/el-gr",
+                                 "name": "el-gr",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/el-gr/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 63563,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/el-gr/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 134425,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 197988,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/en-us",
+                                 "name": "en-us",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/en-us/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 47624,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/en-us/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 154377,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 202001,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/es-es",
+                                 "name": "es-es",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/es-es/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 55948,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/es-es/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 156938,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 212886,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/fi-fi",
+                                 "name": "fi-fi",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/fi-fi/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 58231,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/fi-fi/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 152081,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 210312,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/fr-fr",
+                                 "name": "fr-fr",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/fr-fr/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 63252,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/fr-fr/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 164438,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 227690,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/hr-hr",
+                                 "name": "hr-hr",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/hr-hr/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 56105,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/hr-hr/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 100961,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 157066,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/hu-hu",
+                                 "name": "hu-hu",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/hu-hu/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 74694,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/hu-hu/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 111174,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 185868,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/id-id",
+                                 "name": "id-id",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/id-id/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 40747,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/id-id/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 147160,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 187907,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/it-it",
+                                 "name": "it-it",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/it-it/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 50079,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/it-it/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 145021,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 195100,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/ja-jp",
+                                 "name": "ja-jp",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/ja-jp/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 30200,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/ja-jp/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 380661,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 410861,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/ko-kr",
+                                 "name": "ko-kr",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/ko-kr/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 32966,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/ko-kr/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 270118,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 303084,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/lt-lt",
+                                 "name": "lt-lt",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/lt-lt/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 66592,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/lt-lt/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 107536,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 174128,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/lv-lv",
+                                 "name": "lv-lv",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/lv-lv/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 60416,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/lv-lv/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 109194,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 169610,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/nl-nl",
+                                 "name": "nl-nl",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/nl-nl/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 51037,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/nl-nl/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 151089,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 202126,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/no-no",
+                                 "name": "no-no",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/no-no/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 57724,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/no-no/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 153267,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 210991,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/pl-pl",
+                                 "name": "pl-pl",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/pl-pl/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 66605,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/pl-pl/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 113658,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 180263,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/pt-br",
+                                 "name": "pt-br",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/pt-br/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 70111,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/pt-br/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 170316,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 240427,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/pt-pt",
+                                 "name": "pt-pt",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/pt-pt/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 70111,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/pt-pt/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 169758,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 239869,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/ro-ro",
+                                 "name": "ro-ro",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/ro-ro/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 56505,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/ro-ro/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 101149,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 157654,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/ru-ru",
+                                 "name": "ru-ru",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/ru-ru/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 66696,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/ru-ru/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 133148,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 199844,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/sv-se",
+                                 "name": "sv-se",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/sv-se/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 64264,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/sv-se/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 152872,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 217136,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/th-th",
+                                 "name": "th-th",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/th-th/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 42284,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/th-th/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 126533,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 168817,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/tr-tr",
+                                 "name": "tr-tr",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/tr-tr/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 69709,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/tr-tr/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 108604,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 178313,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/uk-ua",
+                                 "name": "uk-ua",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/uk-ua/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 69193,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/uk-ua/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 130830,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 200023,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/vi-vn",
+                                 "name": "vi-vn",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/vi-vn/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 242608,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/vi-vn/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 175755,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 418363,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/zh-cn",
+                                 "name": "zh-cn",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/zh-cn/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 31759,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/zh-cn/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 419495,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 451254,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/zh-tw",
+                                 "name": "zh-tw",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/zh-tw/wicked_mouse.json",
+                                       "name": "wicked_mouse.json",
+                                       "size": 31851,
+                                       "type": "file",
+                                       "extension": ".json"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/zh-tw/wicked_mouse.png",
+                                       "name": "wicked_mouse.png",
+                                       "size": 427547,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 459398,
+                                 "type": "directory"
+                              }
+                           ],
+                           "size": 7235177,
+                           "type": "directory"
+                        },
+                        {
+                           "path": "assets/social/common/font/pridi.ttf",
+                           "name": "pridi.ttf",
+                           "size": 552264,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/rubik_black.ttf",
+                           "name": "rubik_black.ttf",
+                           "size": 266268,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/sourcehansans_hwj_bold.ttf",
+                           "name": "sourcehansans_hwj_bold.ttf",
+                           "size": 17945856,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/sourcehansans_hwsc_bold.ttf",
+                           "name": "sourcehansans_hwsc_bold.ttf",
+                           "size": 17857688,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/titanone_regular.ttf",
+                           "name": "titanone_regular.ttf",
+                           "size": 168528,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/wicked_mouse.ttf",
+                           "name": "wicked_mouse.ttf",
+                           "size": 88692,
+                           "type": "file",
+                           "extension": ".ttf"
+                        }
+                     ],
+                     "size": 44781604,
+                     "type": "directory"
+                  }
+               ],
+               "size": 44784563,
+               "type": "directory"
+            }
+         ],
+         "size": 44784563,
+         "type": "directory"
+      }
+   ],
+   "size": 118327237,
+   "type": "directory"
+}

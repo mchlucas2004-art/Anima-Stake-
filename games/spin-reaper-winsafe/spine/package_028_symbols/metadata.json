@@ -1,0 +1,1369 @@
+{
+  "id": "spin-reaper-winsafe/package_028_symbols",
+  "package": "package_028_symbols",
+  "name": "symbols",
+  "game": "Spin-reaper-winsafe",
+  "game_slug": "spin-reaper-winsafe",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "symbols.json",
+  "skeleton_version": "4.1.24",
+  "category": "symbol",
+  "subtypes": [
+    "idle",
+    "loop",
+    "win",
+    "entrance",
+    "land",
+    "spin",
+    "bonus",
+    "wild",
+    "multiplier",
+    "symbol_win",
+    "symbol_idle"
+  ],
+  "tags": [
+    "symbol",
+    "idle",
+    "loop",
+    "win",
+    "entrance",
+    "land",
+    "spin",
+    "bonus",
+    "wild",
+    "multiplier",
+    "symbol_win",
+    "symbol_idle",
+    "symbols",
+    "spines"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "symbol": 28.5,
+      "effect": 10.9,
+      "character": 8.8,
+      "background": 1.6,
+      "ui": 1.6,
+      "transition": 1.5
+    },
+    "evidence": [
+      "name:symbols",
+      "anim:wild",
+      "anim:h1",
+      "anim:h2",
+      "anim:h3",
+      "anim:h4",
+      "anim:l1",
+      "anim:l2",
+      "anim:l3",
+      "anim:l4",
+      "bone:symbols",
+      "bone:heart"
+    ]
+  },
+  "animations": [
+    "bonus_cycle",
+    "bonus_land",
+    "fx_cycle_backglow_base",
+    "fx_cycle_backglow_bonus",
+    "fx_cycle_backglow_super",
+    "fx_win_backglow_base",
+    "fx_win_backglow_bonus",
+    "fx_win_backglow_super",
+    "h1_cycle",
+    "h1_reveal",
+    "h1_win",
+    "h2_cycle",
+    "h2_reveal",
+    "h2_win",
+    "h3_cycle",
+    "h3_reveal",
+    "h3_win",
+    "h4_cycle",
+    "h4_reveal",
+    "h4_win",
+    "l1_cycle",
+    "l1_reveal",
+    "l1_win",
+    "l2_cycle",
+    "l2_reveal",
+    "l2_win",
+    "l3_cycle",
+    "l3_reveal",
+    "l3_win",
+    "l4_cycle",
+    "l4_reveal",
+    "l4_win",
+    "multimystery_intro",
+    "multimystery_reveal",
+    "multi_1x_cycle",
+    "multi_1x_reveal",
+    "multi_1x_spin",
+    "multi_1x_static",
+    "multi_1x_win",
+    "multi_2x_cycle",
+    "multi_2x_reveal",
+    "multi_2x_spin",
+    "multi_2x_static",
+    "multi_2x_win",
+    "multi_3x_cycle",
+    "multi_3x_reveal",
+    "multi_3x_spin",
+    "multi_3x_static",
+    "multi_3x_win",
+    "multi_4x_cycle",
+    "multi_4x_reveal",
+    "multi_4x_spin",
+    "multi_4x_static",
+    "multi_4x_win",
+    "multi_5x_cycle",
+    "multi_5x_reveal",
+    "multi_5x_spin",
+    "multi_5x_static",
+    "multi_5x_win",
+    "multi_6x_cycle",
+    "multi_6x_reveal",
+    "multi_6x_spin",
+    "multi_6x_static",
+    "multi_6x_win",
+    "multi_7x_cycle",
+    "multi_7x_reveal",
+    "multi_7x_spin",
+    "multi_7x_static",
+    "multi_7x_win",
+    "multi_8x_cycle",
+    "multi_8x_reveal",
+    "multi_8x_spin",
+    "multi_8x_static",
+    "multi_8x_win",
+    "multi_9x_cycle",
+    "multi_9x_reveal",
+    "multi_9x_spin",
+    "multi_9x_static",
+    "multi_9x_win",
+    "multi_10x_cycle",
+    "multi_10x_reveal",
+    "multi_10x_spin",
+    "multi_10x_static",
+    "multi_10x_win",
+    "mystery_reveal",
+    "wild_cycle",
+    "wild_reveal",
+    "wild_win"
+  ],
+  "animation_details": [
+    {
+      "name": "bonus_cycle",
+      "duration": 2,
+      "timelines": {
+        "bones": 18,
+        "slots": 49
+      }
+    },
+    {
+      "name": "bonus_land",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 14,
+        "slots": 49
+      }
+    },
+    {
+      "name": "fx_cycle_backglow_base",
+      "duration": 1.8,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "fx_cycle_backglow_bonus",
+      "duration": 1.8,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "fx_cycle_backglow_super",
+      "duration": 1.8,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "fx_win_backglow_base",
+      "duration": 1.333,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "fx_win_backglow_bonus",
+      "duration": 1.333,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "fx_win_backglow_super",
+      "duration": 1.333,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "h1_cycle",
+      "duration": 2,
+      "timelines": {
+        "bones": 19,
+        "slots": 32
+      }
+    },
+    {
+      "name": "h1_reveal",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 28
+      }
+    },
+    {
+      "name": "h1_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 18,
+        "slots": 29
+      }
+    },
+    {
+      "name": "h2_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 17,
+        "slots": 21
+      }
+    },
+    {
+      "name": "h2_reveal",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 11
+      }
+    },
+    {
+      "name": "h2_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 15,
+        "slots": 21
+      }
+    },
+    {
+      "name": "h3_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 18,
+        "slots": 21
+      }
+    },
+    {
+      "name": "h3_reveal",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 16
+      }
+    },
+    {
+      "name": "h3_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 17,
+        "slots": 26
+      }
+    },
+    {
+      "name": "h4_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 18,
+        "slots": 22
+      }
+    },
+    {
+      "name": "h4_reveal",
+      "duration": 0.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 17
+      }
+    },
+    {
+      "name": "h4_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 16,
+        "slots": 28
+      }
+    },
+    {
+      "name": "l1_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 14,
+        "slots": 14,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "l1_reveal",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 4
+      }
+    },
+    {
+      "name": "l1_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 13,
+        "slots": 14
+      }
+    },
+    {
+      "name": "l2_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 14,
+        "slots": 14,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "l2_reveal",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 4
+      }
+    },
+    {
+      "name": "l2_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 13,
+        "slots": 14
+      }
+    },
+    {
+      "name": "l3_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 14,
+        "slots": 14,
+        "drawOrder": 2
+      }
+    },
+    {
+      "name": "l3_reveal",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 4
+      }
+    },
+    {
+      "name": "l3_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 13,
+        "slots": 14
+      }
+    },
+    {
+      "name": "l4_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 14,
+        "slots": 14,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "l4_reveal",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 4
+      }
+    },
+    {
+      "name": "l4_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 13,
+        "slots": 14
+      }
+    },
+    {
+      "name": "multimystery_intro",
+      "duration": 1,
+      "timelines": {
+        "bones": 1,
+        "slots": 47,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "multimystery_reveal",
+      "duration": 2,
+      "timelines": {
+        "bones": 25,
+        "slots": 53,
+        "attachments": 1,
+        "path": 20
+      }
+    },
+    {
+      "name": "multi_1x_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_1x_reveal",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_1x_spin",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_1x_static",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_1x_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_2x_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_2x_reveal",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_2x_spin",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_2x_static",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_2x_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_3x_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_3x_reveal",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_3x_spin",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_3x_static",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_3x_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_4x_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_4x_reveal",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_4x_spin",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_4x_static",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_4x_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_5x_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_5x_reveal",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_5x_spin",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_5x_static",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_5x_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_6x_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_6x_reveal",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_6x_spin",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_6x_static",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_6x_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_7x_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_7x_reveal",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_7x_spin",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_7x_static",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_7x_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_8x_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_8x_reveal",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_8x_spin",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_8x_static",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_8x_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_9x_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_9x_reveal",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_9x_spin",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_9x_static",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_9x_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_10x_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_10x_reveal",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_10x_spin",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_10x_static",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "multi_10x_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "mystery_reveal",
+      "duration": 2,
+      "timelines": {
+        "bones": 25,
+        "slots": 47,
+        "attachments": 1,
+        "path": 20
+      }
+    },
+    {
+      "name": "wild_cycle",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 21,
+        "slots": 26,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "wild_reveal",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 12
+      }
+    },
+    {
+      "name": "wild_win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 15,
+        "slots": 22
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 158,
+  "slots_count": 245,
+  "bones": [
+    "root",
+    "mystery",
+    "skulls",
+    "skull_fg_10",
+    "skull_fg_5",
+    "skull_fg_4",
+    "skull_fg_3",
+    "skull_fg_1",
+    "skull_fg_9",
+    "skull_fg_8",
+    "skull_fg_7",
+    "skull_fg_6",
+    "skull_fg_2",
+    "skull_bg_1",
+    "skull_bg_5",
+    "skull_bg_2",
+    "skull_bg_8",
+    "skull_bg_7",
+    "skull_bg_3",
+    "skull_bg_4",
+    "skull_bg_9",
+    "skull_bg_10",
+    "skull_bg_6",
+    "paths",
+    "question",
+    "fx",
+    "fx2",
+    "frame",
+    "bonus",
+    "Energy_Spark",
+    "Wisps_1",
+    "Wisps_2",
+    "Wisps_3",
+    "Swirl",
+    "origin",
+    "bonus_text",
+    "bonus_b",
+    "bonus_o",
+    "bonus_n",
+    "bonus_u",
+    "bonus_s",
+    "transform",
+    "shed_handle",
+    "crow3",
+    "crow2",
+    "crow1",
+    "skull_handle",
+    "radial_1",
+    "radial_2",
+    "shed_origin",
+    "FireTrailG",
+    "ray1",
+    "ray2",
+    "fx3",
+    "particles",
+    "particle_cont",
+    "particle",
+    "particle_cont2",
+    "particle2",
+    "particle_cont3",
+    "particle3",
+    "particle_cont4",
+    "particle4",
+    "particle_cont5",
+    "particle5",
+    "particle_cont6",
+    "particle6",
+    "particle_cont7",
+    "particle7",
+    "particle_cont8",
+    "particle8",
+    "particle_cont9",
+    "particle9",
+    "particle_cont10",
+    "particle10",
+    "h1",
+    "reaper",
+    "hood",
+    "skull",
+    "eye_glow",
+    "backing",
+    "weapon",
+    "scythe",
+    "scythe_shine",
+    "effects",
+    "fire_burst",
+    "tile4",
+    "h2",
+    "ghost",
+    "mouth2",
+    "hair",
+    "eyes",
+    "pupils",
+    "shine",
+    "tile3",
+    "h3",
+    "bat",
+    "body",
+    "ear_r",
+    "ear_l",
+    "mouth",
+    "wing_l",
+    "wing_r",
+    "tile2",
+    "h4",
+    "crow",
+    "head",
+    "beak_top",
+    "pupil",
+    "beak_bottom",
+    "eyelid",
+    "tongue",
+    "fluff",
+    "tile",
+    "l1",
+    "L1",
+    "heart",
+    "heart2",
+    "L1_bg",
+    "l2",
+    "L2",
+    "spade",
+    "spade2",
+    "L2_bg",
+    "l3",
+    "L3",
+    "club",
+    "club2",
+    "L3_bg",
+    "l4",
+    "L4",
+    "diamond",
+    "diamond2",
+    "L5",
+    "wild",
+    "effects2",
+    "explosion",
+    "pulse",
+    "fire",
+    "fire2",
+    "wild_text",
+    "text",
+    "w_text",
+    "i",
+    "l",
+    "d",
+    "text_glow",
+    "tile5",
+    "dissolve",
+    "bottomleft",
+    "bottomright",
+    "topleft",
+    "topright",
+    "multimystery_shine_7",
+    "multimystery_centre_cover",
+    "multi",
+    "hold",
+    "symbols-mystery_reveal2_35"
+  ],
+  "slots": [
+    "backglow",
+    "backglow2",
+    "mystery_bg",
+    "mask",
+    "symbols-mystery_reveal2_35",
+    "mystery_bg_skull_1",
+    "mystery_bg_skull_2",
+    "mystery_bg_skull_3",
+    "mystery_bg_skull_4",
+    "mystery_bg_skull_5",
+    "mystery_bg_skull_6",
+    "mystery_bg_skull_7",
+    "mystery_bg_skull_8",
+    "mystery_bg_skull_9",
+    "mystery_bg_skull_10",
+    "mystery_fg_skull_1",
+    "mystery_fg_skull_1_add",
+    "mystery_fg_skull_2",
+    "mystery_fg_skull_2_add",
+    "mystery_fg_skull_3",
+    "mystery_fg_skull_3_add",
+    "mystery_fg_skull_4",
+    "mystery_fg_skull_4_add",
+    "mystery_fg_skull_5",
+    "mystery_fg_skull_5_add",
+    "mystery_fg_skull_6",
+    "mystery_fg_skull_6_add",
+    "mystery_fg_skull_7",
+    "mystery_fg_skull_7_add",
+    "mystery_fg_skull_8",
+    "mystery_fg_skull_8_add",
+    "mystery_fg_skull_9",
+    "mystery_fg_skull_9_add",
+    "mystery_fg_skull_10",
+    "mystery_fg_skull_10_add",
+    "mystery_gold",
+    "multimystery_shine_7",
+    "multimystery_centre_cover",
+    "multimystery_shine_4",
+    "multimystery_shine_6",
+    "multimystery_shine_3",
+    "multimystery_shine_5",
+    "mystery_whiteout",
+    "mystery_gold_add",
+    "skull_fall",
+    "Firetrail_000",
+    "Explosion_000",
+    "mystery_text_shadow",
+    "mystery_text_outline",
+    "mystery_text_depth",
+    "mystery_text",
+    "mystery_text_add",
+    "multimystery_shine_1",
+    "multimystery_shine_2",
+    "L4_bg",
+    "wild",
+    "L4_bg2",
+    "wild_glow",
+    "L4_diamond",
+    "explosion",
+    "L4_diamond2",
+    "wild_text_glow",
+    "wild_text_backing",
+    "L3_bg",
+    "w",
+    "L3_bg2",
+    "w2",
+    "L3_club",
+    "i",
+    "L3_club2",
+    "i2",
+    "d",
+    "L2_bg",
+    "d2",
+    "L2_bg2",
+    "l",
+    "L2_spade",
+    "l2",
+    "L2_spade2",
+    "pulse",
+    "Fire_Trail_Radial_010",
+    "L1_bg",
+    "Fire_Trail_Radial_011",
+    "L1_bg2",
+    "L1_heart",
+    "L1_heart2",
+    "H4_bg",
+    "H4_frame",
+    "tongue",
+    "H4_frameglow",
+    "H4_crow",
+    "H4_crow2",
+    "H4_fluff",
+    "H4_fluff2",
+    "H4_beakbottom",
+    "H4_beakbottom2",
+    "H4_beaktop",
+    "H4_beaktop2",
+    "H4_eye",
+    "H4_eye2",
+    "H4_pupil",
+    "H4_pupil2",
+    "H4_eyelid",
+    "H4_eyelid2",
+    "H3_bg",
+    "H3_wingleft",
+    "H3_wingleft2",
+    "H3_wingright",
+    "H3_wingright2",
+    "H3_frame",
+    "H3_frameglow",
+    "H3_earleft",
+    "H3_earleft2",
+    "H3_body",
+    "H3_body2",
+    "H3_eyeglow",
+    "H3_mouth",
+    "H3_mouth2",
+    "H3_earright",
+    "H3_earright2",
+    "H2_bg",
+    "H2_frame",
+    "H2_frameglow",
+    "H2_glow",
+    "H2_glowhair",
+    "H2_eyes",
+    "H2_pupils",
+    "H2_ghost",
+    "H2_shine",
+    "H2_hair",
+    "H2_mouth",
+    "H1_bg",
+    "H1_frame",
+    "fire",
+    "fire2",
+    "H1_frameshine",
+    "H1_backhood",
+    "H1_skull",
+    "H1_skull2",
+    "H1_eyes",
+    "H1_eyesglow",
+    "H1_eyesglow2",
+    "H1_hood",
+    "H1_hood2",
+    "mask2",
+    "H1_scythe",
+    "H1_scythe2",
+    "H1_hand",
+    "H1_frameB",
+    "H1_frameshineB",
+    "H1_shine",
+    "bonus_glow",
+    "bonus_glow_add",
+    "FiretrailG",
+    "bonus_crow1",
+    "bonus_crow2",
+    "bonus_crow3",
+    "bonus_shed",
+    "bonus_shed2",
+    "bonus_shed_glow",
+    "bonus_skull_shadow",
+    "bonus_skull",
+    "bonus_skull_glow",
+    "Wisp_1",
+    "Wisps_4",
+    "Wisps_2",
+    "Wisps_5",
+    "Wisps_3",
+    "Wisps_6",
+    "Swirl",
+    "ExplosionG",
+    "bonus_rays1",
+    "bonus_rays2",
+    "bonus_white_s_shadow",
+    "bonus_white_u_shadow",
+    "bonus_white_n_shadow",
+    "bonus_white_o_shadow",
+    "bonus_white_b_shadow",
+    "bonus_white_s",
+    "bonus_white_u",
+    "bonus_white_n",
+    "bonus_white_o",
+    "bonus_white_b",
+    "bonus_black_s",
+    "bonus_black_u",
+    "bonus_black_n",
+    "bonus_black_o",
+    "bonus_black_b",
+    "bonus_s",
+    "bonus_s_add",
+    "bonus_u",
+    "bonus_u_add",
+    "bonus_n",
+    "bonus_n_add",
+    "bonus_o",
+    "bonus_o_add",
+    "bonus_b",
+    "bonus_b_add",
+    "bonus_radial",
+    "bonus_radial2",
+    "particle",
+    "particle2",
+    "particle3",
+    "particle4",
+    "particle5",
+    "particle6",
+    "particle7",
+    "particle8",
+    "particle9",
+    "particle10",
+    "bottomleft0001",
+    "bottomright0001",
+    "topleft0001",
+    "topright0001",
+    "multi_3x",
+    "multi_3_white",
+    "multi_4x",
+    "multi_4_white",
+    "multi_5x",
+    "multi_5_white",
+    "multi_6x",
+    "multi_6_white",
+    "multi_7x",
+    "multi_7_white",
+    "multi_8x",
+    "multi_8_white",
+    "multi_9x",
+    "multi_9_white",
+    "multi_10x",
+    "multi_10_white",
+    "multi_1x",
+    "multi_1_white",
+    "multi_2x",
+    "multi_2_white",
+    "multi_1x_glow",
+    "multi_3x_glow",
+    "multi_2x_glow",
+    "multi_4x_glow",
+    "multi_5x_glow",
+    "multi_6x_glow",
+    "multi_7x_glow",
+    "multi_8x_glow",
+    "multi_9x_glow",
+    "multi_10x_glow",
+    "H4_frame2"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 20,
+    "physics": 0
+  },
+  "attachments_count": 682,
+  "attachment_types": {
+    "region": 369,
+    "mesh": 44,
+    "linkedmesh": 266,
+    "clipping": 2,
+    "path": 1
+  },
+  "dimensions": {
+    "width": 1600,
+    "height": 1600
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "symbols.webp",
+      "atlas": "symbols.atlas",
+      "file": "symbols.webp",
+      "sha256": "2640d550457d5638488aecd5c139a472257d873549b946bfa47f59b2847cd877",
+      "format": "webp",
+      "width": 2033,
+      "height": 1508,
+      "atlas_size": [
+        2033,
+        1508
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "symbols.atlas",
+      "sha256": "b64bf9c74a84f859df7f2e4f19174ad55b9eab0a892a8248691081e9ce2231cb",
+      "format": "spine-4",
+      "pages": [
+        "symbols.webp"
+      ],
+      "regions": 531,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 531/531 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 21ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "symbols.json",
+      "role": "skeleton",
+      "sha256": "f3ce18f20a93bdaa1cd1f79e4f2a51796dcac01ade56be8f087d1cfc15138845",
+      "size": 426045,
+      "original_filename": "symbols.json",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/symbols/symbols.json",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/symbols/symbols.json"
+      ]
+    },
+    {
+      "file": "symbols.atlas",
+      "role": "atlas",
+      "sha256": "b64bf9c74a84f859df7f2e4f19174ad55b9eab0a892a8248691081e9ce2231cb",
+      "size": 29710,
+      "original_filename": "symbols.atlas",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/symbols/symbols.atlas",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/symbols/symbols.atlas"
+      ]
+    },
+    {
+      "file": "symbols.webp",
+      "role": "texture",
+      "sha256": "2640d550457d5638488aecd5c139a472257d873549b946bfa47f59b2847cd877",
+      "size": 949654,
+      "original_filename": "symbols.webp",
+      "raw_path": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/symbols/symbols.webp",
+      "source_urls": [
+        "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/symbols/symbols.webp"
+      ],
+      "atlas_page": "symbols.webp"
+    }
+  ],
+  "source_urls": [
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/symbols/symbols.json",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/symbols/symbols.atlas",
+    "https://twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/symbols/symbols.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T20:09:21.632Z",
+  "sessions": [
+    "2026-10-02T20:15:11.265Z"
+  ],
+  "packaged_at": "2026-10-02T20:48:22.950Z"
+}

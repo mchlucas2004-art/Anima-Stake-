@@ -1,0 +1,298 @@
+{
+  "id": "odin-s-vault/package_029_odins_eye",
+  "package": "package_029_odins_eye",
+  "name": "odins_eye",
+  "game": "Odin's-Vault",
+  "game_slug": "odin-s-vault",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "odins_eye.json",
+  "skeleton_version": "4.2.43",
+  "category": "symbol",
+  "subtypes": [
+    "win",
+    "exit",
+    "land",
+    "multiplier",
+    "symbol_win"
+  ],
+  "tags": [
+    "symbol",
+    "win",
+    "exit",
+    "land",
+    "multiplier",
+    "symbol_win",
+    "eye",
+    "symbols",
+    "special"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "symbol": 7,
+      "effect": 2.4,
+      "background": 1.3,
+      "ui": 0.8,
+      "character": 0,
+      "transition": 0
+    },
+    "evidence": [
+      "name:symbols",
+      "anim:symbols",
+      "bone:symbol",
+      "anims:land+win"
+    ]
+  },
+  "animations": [
+    "disappear",
+    "land",
+    "multi_unlock",
+    "selecting_symbols",
+    "win"
+  ],
+  "animation_details": [
+    {
+      "name": "disappear",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 16,
+        "slots": 41,
+        "attachments": 1,
+        "drawOrder": 2
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 16,
+        "slots": 19,
+        "attachments": 1,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "multi_unlock",
+      "duration": 1.933,
+      "timelines": {
+        "bones": 19,
+        "slots": 23,
+        "attachments": 1,
+        "drawOrder": 5
+      }
+    },
+    {
+      "name": "selecting_symbols",
+      "duration": 2.333,
+      "timelines": {
+        "bones": 17,
+        "slots": 19,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.167,
+      "timelines": {
+        "bones": 17,
+        "slots": 19,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "events": [],
+  "bones_count": 21,
+  "slots_count": 47,
+  "bones": [
+    "root",
+    "main",
+    "background",
+    "frame_03",
+    "frame_04",
+    "frame_02",
+    "frame_01",
+    "base",
+    "pupil",
+    "decor_01",
+    "decor_02",
+    "decor_04",
+    "decor_03",
+    "eyelid_top",
+    "eyelid_bottom",
+    "eyelid_closed",
+    "eye_vfx",
+    "star_glow_back",
+    "star_glow_pupil",
+    "Symbol_placeholder",
+    "pupil_open"
+  ],
+  "slots": [
+    "BG",
+    "star_glow",
+    "star_glow2",
+    "eye_shadow",
+    "root",
+    "background",
+    "background2",
+    "frame_shadow1",
+    "frame_shadow2",
+    "frame_shadow3",
+    "frame_shadow4",
+    "frame_04",
+    "frame_08",
+    "frame_03",
+    "frame_07",
+    "frame_02",
+    "frame_05",
+    "frame_01",
+    "frame_06",
+    "decor_04",
+    "decor_08",
+    "decor_03",
+    "decor_07",
+    "decor_02",
+    "decor_06",
+    "decor_01",
+    "decor_05",
+    "base",
+    "root_eye",
+    "pupil_shadow_01",
+    "pupil",
+    "pupil2",
+    "pupil_open",
+    "pupil_open_add",
+    "eye_vfx",
+    "pupil_open_mask",
+    "pupil_shadow_02",
+    "metal_arc_bottom_01",
+    "metal_arc_bottom_03",
+    "metal_arc_bottom_02",
+    "metal_arc_top",
+    "metal_arc_top2",
+    "eyelid_bottom",
+    "eyelid_top",
+    "eyelid_closed",
+    "runes",
+    "Symbol_placeholder"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 75,
+  "attachment_types": {
+    "mesh": 40,
+    "region": 33,
+    "clipping": 2
+  },
+  "dimensions": {
+    "width": 2051,
+    "height": 2051
+  },
+  "fps": null,
+  "texture_mode": "atlas",
+  "textures": [
+    {
+      "page": "odins_eye.webp",
+      "atlas": "odins_eye.atlas",
+      "file": "odins_eye.webp",
+      "sha256": "46993ea2a5c8ae855607043eb4767f86ba2654657999b40ad4dee5f4e6de5d8f",
+      "format": "webp",
+      "width": 1024,
+      "height": 256,
+      "atlas_size": [
+        1024,
+        256
+      ],
+      "size_match": true,
+      "match_method": "exact_relative_url",
+      "pma": null,
+      "filter": "Linear,Linear"
+    }
+  ],
+  "atlases": [
+    {
+      "file": "odins_eye.atlas",
+      "sha256": "5b1fcf3f9cbce4935cbe36f2a1fe69d2be4bf98264ca631c2aa59bad7f87be9f",
+      "format": "spine-4",
+      "pages": [
+        "odins_eye.webp"
+      ],
+      "regions": 44,
+      "coverage": 1,
+      "coverage_side": "skeleton",
+      "score": 140,
+      "evidence": [
+        "regions 44/44 (100% of skeleton)",
+        "same base name",
+        "same folder",
+        "loaded 1ms apart"
+      ],
+      "shared_with": []
+    }
+  ],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "odins_eye.json",
+      "role": "skeleton",
+      "sha256": "85b100ee9c1b5b6da7af6f95a1954593741b2bb7cf0e37787f08ba4f9a82fa7f",
+      "size": 274474,
+      "original_filename": "odins_eye.json",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.json",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.json"
+      ]
+    },
+    {
+      "file": "odins_eye.atlas",
+      "role": "atlas",
+      "sha256": "5b1fcf3f9cbce4935cbe36f2a1fe69d2be4bf98264ca631c2aa59bad7f87be9f",
+      "size": 1552,
+      "original_filename": "odins_eye.atlas",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.atlas",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.atlas"
+      ]
+    },
+    {
+      "file": "odins_eye.webp",
+      "role": "texture",
+      "sha256": "46993ea2a5c8ae855607043eb4767f86ba2654657999b40ad4dee5f4e6de5d8f",
+      "size": 83952,
+      "original_filename": "odins_eye.webp",
+      "raw_path": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.webp",
+      "source_urls": [
+        "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.webp"
+      ],
+      "atlas_page": "odins_eye.webp"
+    }
+  ],
+  "source_urls": [
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.json",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.atlas",
+    "https://valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.webp"
+  ],
+  "checks": {
+    "complete": true,
+    "atlas_found": true,
+    "pages_resolved": "1/1",
+    "region_coverage": 1,
+    "missing_regions": []
+  },
+  "complete": true,
+  "warnings": [],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-02T19:53:39.532Z",
+  "sessions": [
+    "2026-10-02T20:14:52.074Z"
+  ],
+  "packaged_at": "2026-10-02T20:15:02.868Z"
+}
