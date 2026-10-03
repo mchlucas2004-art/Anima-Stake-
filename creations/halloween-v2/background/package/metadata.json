@@ -1,0 +1,37 @@
+{
+ "id": "creations/halloween-v2/background",
+ "package": "background",
+ "name": "background",
+ "label": "Décor animé",
+ "game": "Halloween V2",
+ "game_slug": "halloween-v2",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "background.json",
+ "skeleton_version": "4.2.43",
+ "category": "background",
+ "subtypes": [
+  "background_loop"
+ ],
+ "animations": [
+  "idle",
+  "free_spins"
+ ],
+ "events": [],
+ "bones_count": 7,
+ "slots_count": 8,
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "background.atlas",
+   "pages": [
+    "background.png"
+   ]
+  }
+ ],
+ "textures": [],
+ "complete": true,
+ "warnings": []
+}

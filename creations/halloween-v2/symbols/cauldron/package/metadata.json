@@ -1,0 +1,58 @@
+{
+ "id": "creations/halloween-v2/cauldron",
+ "package": "cauldron",
+ "name": "cauldron",
+ "game": "Halloween V2",
+ "game_slug": "halloween-v2",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "cauldron.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "high_pay",
+  "entrance",
+  "idle",
+  "win",
+  "exit"
+ ],
+ "tier": "high",
+ "animations": [
+  "intro",
+  "idle",
+  "connexion",
+  "outro"
+ ],
+ "events": [
+  "land",
+  "connect",
+  "pop"
+ ],
+ "bones_count": 24,
+ "slots_count": 21,
+ "physics_constraints": 1,
+ "parts": [],
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "cauldron.atlas",
+   "pages": [
+    "cauldron.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "cauldron.png",
+   "page": "cauldron.png",
+   "width": 2048,
+   "height": 1024,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/cauldron.png"
+}

@@ -1,0 +1,60 @@
+{
+ "id": "creations/halloween-v2/pumpkin",
+ "package": "pumpkin",
+ "name": "pumpkin",
+ "game": "Halloween V2",
+ "game_slug": "halloween-v2",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "pumpkin.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "high_pay",
+  "entrance",
+  "idle",
+  "win",
+  "exit"
+ ],
+ "tier": "high",
+ "animations": [
+  "intro",
+  "idle",
+  "connexion",
+  "outro"
+ ],
+ "events": [
+  "land",
+  "connect",
+  "pop"
+ ],
+ "bones_count": 25,
+ "slots_count": 22,
+ "physics_constraints": 3,
+ "parts": [
+  "hat"
+ ],
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "pumpkin.atlas",
+   "pages": [
+    "pumpkin.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "pumpkin.png",
+   "page": "pumpkin.png",
+   "width": 2048,
+   "height": 1024,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/pumpkin.png"
+}

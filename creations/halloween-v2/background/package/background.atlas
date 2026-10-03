@@ -1,0 +1,13 @@
+background.png
+size:2048,2048
+filter:Linear,Linear
+plate
+bounds:0,0,2000,1127
+rays
+bounds:0,1131,512,512
+glow
+bounds:516,1131,256,256
+cat
+bounds:776,1131,167,248
+lantern
+bounds:947,1131,170,232

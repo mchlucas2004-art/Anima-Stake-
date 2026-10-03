@@ -1,0 +1,60 @@
+{
+ "id": "creations/halloween-v2/potion",
+ "package": "potion",
+ "name": "potion",
+ "game": "Halloween V2",
+ "game_slug": "halloween-v2",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "potion.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "high_pay",
+  "entrance",
+  "idle",
+  "win",
+  "exit"
+ ],
+ "tier": "high",
+ "animations": [
+  "intro",
+  "idle",
+  "connexion",
+  "outro"
+ ],
+ "events": [
+  "land",
+  "connect",
+  "pop"
+ ],
+ "bones_count": 26,
+ "slots_count": 24,
+ "physics_constraints": 1,
+ "parts": [
+  "cork"
+ ],
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "potion.atlas",
+   "pages": [
+    "potion.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "potion.png",
+   "page": "potion.png",
+   "width": 2048,
+   "height": 512,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/potion.png"
+}

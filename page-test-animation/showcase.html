@@ -85,6 +85,7 @@ const LOOP_IF_NO_IDLE = new Set(['anticipation']);
 const SEQS = {
   'Scénario complet': ['intro', ['idle', 2], 'land', ['idle', 1], 'anticipation', ['anticipation_idle', 2], 'anticipation_end', 'win', ['idle', 1], 'trigger', 'outro'],
   'Arrivée → attente': ['intro', ['idle', 3]],
+  'Arrivée → attente → départ': ['intro', ['idle', 2], 'outro'],
   'Tombe sur le rouleau': ['land', ['idle', 2]],
   'Teasing (3e scatter ?)': ['anticipation', ['anticipation_idle', 3], 'anticipation_end', ['idle', 1]],
   'Gain': ['win', ['idle', 2]],
@@ -131,7 +132,7 @@ async function runSeq(name) {
     await wait(e, loops);
   }
   if (token !== seqToken) return;
-  if (name === 'Scénario complet' || name === 'Free spins') { await new Promise((ok) => setTimeout(ok, 700)); if (token === seqToken) runSeq(name); }
+  if (name === 'Scénario complet' || name === 'Free spins' || name === 'Arrivée → attente → départ') { await new Promise((ok) => setTimeout(ok, 700)); if (token === seqToken) runSeq(name); }
   else play('idle', true);
 }
 
@@ -212,7 +213,7 @@ function frame(now) {
   document.getElementById('debug').onchange = (e) => (debug = e.target.checked);
   document.getElementById('pause').onchange = (e) => (paused = e.target.checked);
   requestAnimationFrame(frame);
-  runSeq(data.findAnimation('intro') ? 'Scénario complet' : 'Symbole : cascade');
+  { const ok = (n) => SEQS[n].every((st) => data.findAnimation(Array.isArray(st) ? st[0] : st)); runSeq(['Scénario complet', 'Arrivée → attente → départ', 'Symbole : cascade'].find(ok)); }
 })();
 </script>
 </body>

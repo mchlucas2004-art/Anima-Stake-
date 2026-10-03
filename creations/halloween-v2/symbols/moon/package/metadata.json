@@ -1,0 +1,58 @@
+{
+ "id": "creations/halloween-v2/moon",
+ "package": "moon",
+ "name": "moon",
+ "game": "Halloween V2",
+ "game_slug": "halloween-v2",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "moon.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "high_pay",
+  "entrance",
+  "idle",
+  "win",
+  "exit"
+ ],
+ "tier": "high",
+ "animations": [
+  "intro",
+  "idle",
+  "connexion",
+  "outro"
+ ],
+ "events": [
+  "land",
+  "connect",
+  "pop"
+ ],
+ "bones_count": 23,
+ "slots_count": 20,
+ "physics_constraints": 1,
+ "parts": [],
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "moon.atlas",
+   "pages": [
+    "moon.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "moon.png",
+   "page": "moon.png",
+   "width": 2048,
+   "height": 512,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/moon.png"
+}

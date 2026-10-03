@@ -1,0 +1,74 @@
+{
+ "id": "creations/halloween-v2/fs_ghost",
+ "package": "fs_ghost",
+ "name": "fs_ghost",
+ "label": "Mascotte FS (fantôme)",
+ "game": "Halloween V2",
+ "game_slug": "halloween-v2",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "fs_ghost.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "scatter",
+  "mascot",
+  "entrance",
+  "idle",
+  "exit"
+ ],
+ "tags": [
+  "halloween",
+  "ghost",
+  "free_spins",
+  "fs",
+  "scatter"
+ ],
+ "animations": [
+  "intro",
+  "idle",
+  "outro"
+ ],
+ "events": [
+  "land",
+  "woosh",
+  "hop",
+  "sink",
+  "tease",
+  "laugh",
+  "burst",
+  "charge",
+  "trigger",
+  "vanish"
+ ],
+ "bones_count": 35,
+ "slots_count": 24,
+ "physics_constraints": 4,
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "fs_ghost.atlas",
+   "pages": [
+    "fs_ghost.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "fs_ghost.png",
+   "page": "fs_ghost.png",
+   "width": 2048,
+   "height": 1024,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "usage": {
+  "tracks": {
+   "0": "intro -> idle (loop) -> outro"
+  }
+ }
+}

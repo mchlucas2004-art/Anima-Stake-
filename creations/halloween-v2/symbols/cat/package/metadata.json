@@ -1,0 +1,60 @@
+{
+ "id": "creations/halloween-v2/cat",
+ "package": "cat",
+ "name": "cat",
+ "game": "Halloween V2",
+ "game_slug": "halloween-v2",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "cat.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "high_pay",
+  "entrance",
+  "idle",
+  "win",
+  "exit"
+ ],
+ "tier": "high",
+ "animations": [
+  "intro",
+  "idle",
+  "connexion",
+  "outro"
+ ],
+ "events": [
+  "land",
+  "connect",
+  "pop"
+ ],
+ "bones_count": 23,
+ "slots_count": 19,
+ "physics_constraints": 4,
+ "parts": [
+  "tail"
+ ],
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "cat.atlas",
+   "pages": [
+    "cat.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "cat.png",
+   "page": "cat.png",
+   "width": 2048,
+   "height": 1024,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/cat.png"
+}

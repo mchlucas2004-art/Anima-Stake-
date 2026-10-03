@@ -19,6 +19,8 @@
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; padding: 18px; }
   .card { background: #15111ecc; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
   .card.big { grid-column: span 2; }
+  .card.hero { grid-column: 1 / -1; }
+  .card.hero canvas { aspect-ratio: 16 / 9; }
   .card canvas { width: 100%; aspect-ratio: 1 / 1; display: block; }
   .card.big canvas { aspect-ratio: 2 / 1; }
   .card .info { padding: 8px 10px; border-top: 1px solid var(--line); display: grid; gap: 6px; }
@@ -34,11 +36,10 @@
 </head>
 <body>
 <header>
-  <h1>🎃 Halloween — jeu de symboles</h1>
+  <h1 id="title">🎃 Halloween — jeu de symboles</h1>
   <span class="muted">Tous ensemble :</span>
-  <button data-all="land">land</button><button data-all="idle">idle</button><button data-all="win">win</button>
-  <button data-all="anticipation">anticipation</button><button data-all="exit">exit</button>
-  <button id="spin">▶ Cascade (land → idle → win → exit)</button>
+  <span id="allbtns"></span>
+  <button id="spin">▶ Séquence complète</button>
   <span class="muted" style="margin-left:auto"><a href="/">← galerie</a></span>
 </header>
 <div class="grid" id="grid"></div>
@@ -70,7 +71,12 @@ class Card {
     this.skeleton.setToSetupPose();
     this.skeleton.updateWorldTransform(spine.Physics.reset);
     const off = new spine.Vector2(), size = new spine.Vector2();
+    // frame on the symbol itself: ignore additive FX slots (halos, rays) while measuring
+    const hidden = this.skeleton.slots.filter((sl) => (sl.data.blendMode === spine.BlendMode.Additive || sl.color.a < 0.05 || sl.data.name === 'shadow') && sl.getAttachment());
+    const saved = hidden.map((sl) => sl.getAttachment());
+    hidden.forEach((sl) => sl.setAttachment(null));
     this.skeleton.getBounds(off, size, []);
+    hidden.forEach((sl, i) => sl.setAttachment(saved[i]));
     this.bounds = { x: off.x + size.x / 2, y: off.y + size.y / 2, w: size.x, h: size.y };
     this.play(this.data.findAnimation('intro') ? 'intro' : 'idle');
     return true;
@@ -80,7 +86,7 @@ class Card {
     if (!this.has(name)) { if (name === 'anticipation' && this.has('anticipation_idle')) name = 'anticipation_idle'; else return null; }
     const e = this.state.setAnimation(0, name, LOOPS.has(name));
     if (name === 'intro' || name === 'land') e.mixDuration = 0;
-    if (!LOOPS.has(name) && thenIdle && name !== 'exit') this.state.addAnimation(0, 'idle', true, 0);
+    if (!LOOPS.has(name) && thenIdle && name !== 'exit' && name !== 'outro') this.state.addAnimation(0, 'idle', true, 0);
     if (this.has('idle_eyes')) { if (!this.state.getCurrent(1)) this.state.setAnimation(1, 'idle_eyes', true); }
     this.now.textContent = '▶ ' + name;
     this.canvas.closest('.card').querySelectorAll('[data-a]').forEach((b) => b.classList.toggle('on', b.dataset.a === name));
@@ -95,7 +101,7 @@ class Card {
     gl.viewport(0, 0, w, h); gl.clearColor(0, 0, 0, 0); gl.clear(gl.COLOR_BUFFER_BIT);
     this.state.update(dt); this.state.apply(this.skeleton);
     this.skeleton.update(dt); this.skeleton.updateWorldTransform(spine.Physics.update);
-    const k = this.item.big ? 1.3 : 1.3;
+    const k = this.item.hero ? 1.0 : this.item.big ? 1.45 : 1.75;
     const fit = Math.max((this.bounds.w * k) / w, (this.bounds.h * k) / h);
     const cam = this.renderer.camera;
     cam.position.x = this.bounds.x; cam.position.y = this.bounds.y; cam.viewportWidth = w * fit; cam.viewportHeight = h * fit;
@@ -105,15 +111,18 @@ class Card {
 
 (async () => {
   const cat = await (await fetch('/api/catalog')).json();
-  const items = cat.filter((x) => x.game_slug === 'halloween');
-  const order = (x) => (x.id.endsWith('/scatter') ? 0 : x.subtypes?.includes('high_pay') ? 1 : 2);
+  const SET = new URLSearchParams(location.search).get('set') || 'halloween';
+  if (SET !== 'halloween') document.getElementById('title').textContent = '👻 Halloween V2 — mascotte, décor et symboles';
+  const items = cat.filter((x) => x.game_slug === SET);
+  const order = (x) => (x.category === 'background' ? -1 : x.id.endsWith('/scatter') || x.subtypes?.includes('mascot') ? 0 : x.subtypes?.includes('high_pay') ? 1 : 2);
   items.sort((a, b) => order(a) - order(b));
   const grid = document.getElementById('grid');
   for (const it of items) {
-    it.big = it.id.endsWith('/scatter');
+    it.big = it.id.endsWith('/scatter') || it.subtypes?.includes('mascot');
+    it.hero = it.category === 'background';
     const el = document.createElement('div');
-    el.className = 'card' + (it.big ? ' big' : '');
-    const tier = it.big ? 'scatter' : it.subtypes?.includes('high_pay') ? 'symbole fort' : 'symbole simple';
+    el.className = 'card' + (it.hero ? ' hero' : it.big ? ' big' : '');
+    const tier = it.hero ? 'décor animé' : it.big ? 'scatter / FS' : it.subtypes?.includes('high_pay') ? 'symbole fort' : 'symbole simple';
     el.innerHTML = `<canvas></canvas><div class="info"><div class="t"><b>${it.name.replace(/_/g, ' ')}</b><span class="tag">${tier}</span></div>
       <div class="row">${it.animations.map((a) => `<button data-a="${a}">${a}</button>`).join('')}</div>
       <div class="t"><span class="now"></span><a href="${it.showcase}">détails →</a></div></div>`;
@@ -122,16 +131,23 @@ class Card {
     cards.push(card);
     el.querySelectorAll('[data-a]').forEach((b) => (b.onclick = () => card.play(b.dataset.a)));
   }
+  // global buttons = animations present in this set, in game order
+  const V2 = SET !== 'halloween';
+  const ORDER = V2 ? ['intro', 'idle', 'connexion', 'outro'] : ['land', 'idle', 'win', 'anticipation', 'exit'];
+  const LABEL = { intro: 'intro (arrivée)', idle: 'idle (attente)', connexion: 'connexion (gain)', outro: 'outro (départ)' };
+  document.getElementById('allbtns').innerHTML = ORDER.map((a) => `<button data-all="${a}">${LABEL[a] || a}</button>`).join('');
+  document.getElementById('spin').textContent = V2 ? '▶ Séquence : intro → idle → connexion → outro' : '▶ Cascade (land → idle → win → exit)';
   document.querySelectorAll('[data-all]').forEach((b) => (b.onclick = () => cards.forEach((c) => c.ready() && c.play(b.dataset.all))));
   document.getElementById('spin').onclick = async () => {
     const wait = (ms) => new Promise((r) => setTimeout(r, ms));
-    cards.forEach((c, i) => setTimeout(() => c.ready() && c.play('land'), i * 90));
-    await wait(1600);
-    cards.forEach((c) => c.ready() && c.play('win'));
+    const [arrive, , win, leave] = V2 ? ORDER : ['land', 'idle', 'win', 'exit'];
+    cards.forEach((c, i) => setTimeout(() => c.ready() && c.play(c.has(arrive) ? arrive : 'intro'), i * 90));
+    await wait(2200);
+    cards.forEach((c) => c.ready() && c.has(win) && c.play(win));
     await wait(2300);
-    cards.forEach((c, i) => setTimeout(() => c.ready() && c.play('exit'), i * 60));
-    await wait(900);
-    cards.forEach((c, i) => setTimeout(() => c.ready() && c.play(c.has('intro') ? 'intro' : 'land'), i * 90));
+    cards.forEach((c, i) => setTimeout(() => c.ready() && c.play(c.has(leave) ? leave : 'outro'), i * 60));
+    await wait(1700);
+    cards.forEach((c, i) => setTimeout(() => c.ready() && c.play(c.has('intro') ? 'intro' : arrive), i * 90));
   };
   let last = performance.now();
   (function frame(now) {

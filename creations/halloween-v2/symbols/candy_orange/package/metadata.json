@@ -1,0 +1,61 @@
+{
+ "id": "creations/halloween-v2/candy_orange",
+ "package": "candy_orange",
+ "name": "candy_orange",
+ "game": "Halloween V2",
+ "game_slug": "halloween-v2",
+ "format": "spine",
+ "skeleton_format": "json",
+ "skeleton_file": "candy_orange.json",
+ "skeleton_version": "4.2.43",
+ "category": "symbol",
+ "subtypes": [
+  "low_pay",
+  "entrance",
+  "idle",
+  "win",
+  "exit"
+ ],
+ "tier": "low",
+ "animations": [
+  "intro",
+  "idle",
+  "connexion",
+  "outro"
+ ],
+ "events": [
+  "land",
+  "connect",
+  "pop"
+ ],
+ "bones_count": 24,
+ "slots_count": 21,
+ "physics_constraints": 5,
+ "parts": [
+  "wrap_l",
+  "wrap_r"
+ ],
+ "skins": [
+  "default"
+ ],
+ "atlases": [
+  {
+   "file": "candy_orange.atlas",
+   "pages": [
+    "candy_orange.png"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "file": "candy_orange.png",
+   "page": "candy_orange.png",
+   "width": 2048,
+   "height": 1024,
+   "pma": false
+  }
+ ],
+ "complete": true,
+ "warnings": [],
+ "source_image": "symbols/source/candy_orange.png"
+}
