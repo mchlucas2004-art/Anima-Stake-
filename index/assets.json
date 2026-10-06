@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T20:48:26.186Z",
-  "count": 1798,
+  "generated_at": "2026-10-06T21:21:29.004Z",
+  "count": 1876,
   "assets": [
     {
       "game": "beasts",
@@ -5311,6 +5311,1503 @@
       ],
       "urls": [
         "https://scatterbrain-games.live.engine.io/beasts/v4/assets/cascade/sym_w_x1.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "f13be9efe476d290bb45590b2f3d3695094ff5a3657321c325b819e182be7e47",
+      "kind": "json",
+      "filename": "tiles.json",
+      "size": 105,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tiles.json",
+      "outputs": [
+        "games/druids-brew-2/other/json/tiles.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tiles.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "37483f95d95a7a624de9860296c28961e3d63ed6f5983bba4468581adcb66ca4",
+      "kind": "image",
+      "filename": "logo.webp",
+      "size": 127812,
+      "image": {
+        "format": "webp",
+        "width": 1478,
+        "height": 769
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/logo.webp",
+      "outputs": [
+        "games/druids-brew-2/images/logo.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/logo.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "7f5d902c1db9104bf132a8db0b01c2e03fbc52d49607a485fd3bf65a6eaa7754",
+      "kind": "image",
+      "filename": "tile_1.webp",
+      "size": 27706,
+      "image": {
+        "format": "webp",
+        "width": 408,
+        "height": 546
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_1.webp",
+      "outputs": [
+        "games/druids-brew-2/images/tile_1.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_1.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "61a1cd78596824d0170692d5787eb6a7f963997edf7f0160df2734c9191bfc0b",
+      "kind": "image",
+      "filename": "tile_2.webp",
+      "size": 34270,
+      "image": {
+        "format": "webp",
+        "width": 408,
+        "height": 546
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_2.webp",
+      "outputs": [
+        "games/druids-brew-2/images/tile_2.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_2.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "1be80e1cced998a5eca3b04f836dd3ee21568ad2115494c4344190ad6d33a039",
+      "kind": "image",
+      "filename": "tile_3.webp",
+      "size": 18256,
+      "image": {
+        "format": "webp",
+        "width": 408,
+        "height": 546
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_3.webp",
+      "outputs": [
+        "games/druids-brew-2/images/tile_3.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_3.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "a46d6cf5ecd3beca10a8e38611170738b76e13cae91716c9d71394df15faa926",
+      "kind": "image",
+      "filename": "tile_4.webp",
+      "size": 15012,
+      "image": {
+        "format": "webp",
+        "width": 408,
+        "height": 546
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_4.webp",
+      "outputs": [
+        "games/druids-brew-2/images/tile_4.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_4.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "35195f98526eee35e473ec4336ef023cb4e0dddb71e49a3579f3a4c3ec6a3fe1",
+      "kind": "image",
+      "filename": "tile_5.webp",
+      "size": 15978,
+      "image": {
+        "format": "webp",
+        "width": 408,
+        "height": 546
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_5.webp",
+      "outputs": [
+        "games/druids-brew-2/images/tile_5.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_5.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "4dc76d295658d0c43b6b3dd2e077c3669f010c1443f561304172909ef63ba8e7",
+      "kind": "image",
+      "filename": "tile_6.webp",
+      "size": 12278,
+      "image": {
+        "format": "webp",
+        "width": 408,
+        "height": 546
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_6.webp",
+      "outputs": [
+        "games/druids-brew-2/images/tile_6.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_6.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "28fa05763dcdbe826c6cb9bdd5deae0866b6cb767d44c3325b439e9090e3bca9",
+      "kind": "image",
+      "filename": "tile_7.webp",
+      "size": 34450,
+      "image": {
+        "format": "webp",
+        "width": 408,
+        "height": 546
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_7.webp",
+      "outputs": [
+        "games/druids-brew-2/images/tile_7.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/loader/tile_7.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "dce6c542bf158d5151f8053624bc4c9f568e73b0bcec41f29576a70274313c0b",
+      "kind": "image",
+      "filename": "font_bitmap.webp",
+      "size": 265118,
+      "image": {
+        "format": "webp",
+        "width": 2664,
+        "height": 274
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/font_bitmap.webp",
+      "outputs": [
+        "games/druids-brew-2/images/font_bitmap.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/font_bitmap.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "14ded4e621bf158f2457bf2ebf21e2da2b16817cbac21afce241f83d1479a836",
+      "kind": "image",
+      "filename": "H2.webp",
+      "size": 35844,
+      "image": {
+        "format": "webp",
+        "width": 620,
+        "height": 553
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H2.webp",
+      "outputs": [
+        "games/druids-brew-2/images/H2.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H2.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "374ede72b84c42fabf9623992b96f1d902acf4e09be14e6d320346a8800e8116",
+      "kind": "image",
+      "filename": "H1.webp",
+      "size": 35528,
+      "image": {
+        "format": "webp",
+        "width": 539,
+        "height": 573
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H1.webp",
+      "outputs": [
+        "games/druids-brew-2/images/H1.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H1.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "f318cf1c608194cdc98d8a9a671e28355bd4ffe3101b1170bca57d8a73d67783",
+      "kind": "image",
+      "filename": "L3.webp",
+      "size": 29280,
+      "image": {
+        "format": "webp",
+        "width": 505,
+        "height": 578
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L3.webp",
+      "outputs": [
+        "games/druids-brew-2/images/L3.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L3.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "df001c0d5292a9977d130dbe3b6cdadfdd3d9d0e4cb16f2cd26ec44b860ef33a",
+      "kind": "image",
+      "filename": "L4.webp",
+      "size": 25722,
+      "image": {
+        "format": "webp",
+        "width": 490,
+        "height": 568
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L4.webp",
+      "outputs": [
+        "games/druids-brew-2/images/L4.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L4.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "e2eadbc41bc71784f805d0115262eda99a6632ac52d42cbeac32cb901fc6d24a",
+      "kind": "image",
+      "filename": "L2.webp",
+      "size": 27352,
+      "image": {
+        "format": "webp",
+        "width": 522,
+        "height": 589
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L2.webp",
+      "outputs": [
+        "games/druids-brew-2/images/L2.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L2.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "c02d6c81be4c190fb97233b0b725f4de4b0e60d3714c367b92ce82338b6ce51a",
+      "kind": "image",
+      "filename": "H3.webp",
+      "size": 32614,
+      "image": {
+        "format": "webp",
+        "width": 593,
+        "height": 608
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H3.webp",
+      "outputs": [
+        "games/druids-brew-2/images/H3.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H3.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "4d0df6109b8043510649559662a06a49a46febdabf6e1c6bc494ac97dff1e11b",
+      "kind": "image",
+      "filename": "gradient.webp",
+      "size": 94934,
+      "image": {
+        "format": "webp",
+        "width": 1043,
+        "height": 627
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/gradient.webp",
+      "outputs": [
+        "games/druids-brew-2/images/gradient.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/gradient.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "1960d520d39fd0a48142612d561534237957f1c00263dddc97184dcba7fa781b",
+      "kind": "image",
+      "filename": "H4.webp",
+      "size": 36044,
+      "image": {
+        "format": "webp",
+        "width": 586,
+        "height": 581
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H4.webp",
+      "outputs": [
+        "games/druids-brew-2/images/H4.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H4.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "1cc97d1e50d2cf67f5adbcc6a058acafa9a42e5a35071c4d064977794771a401",
+      "kind": "image",
+      "filename": "L1.webp",
+      "size": 25342,
+      "image": {
+        "format": "webp",
+        "width": 491,
+        "height": 591
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L1.webp",
+      "outputs": [
+        "games/druids-brew-2/images/L1.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L1.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "933a6b33df587ff44a4dc74e9aa82449920ef039f798316b5b8e03b0e8b34609",
+      "kind": "image",
+      "filename": "scatter.webp",
+      "size": 62718,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.webp",
+      "outputs": [
+        "games/druids-brew-2/images/scatter.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "fee70e433ac66fda0996a49f622959c9d19ab087268a344bfe437189f230ecc0",
+      "kind": "image",
+      "filename": "wild.webp",
+      "size": 61916,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.webp",
+      "outputs": [
+        "games/druids-brew-2/images/wild.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "bc7aabc23d1428b71cce226286ffb135a525744e56f3ab2dbc41b60dab2ff4c6",
+      "kind": "image",
+      "filename": "scatter_empty.webp",
+      "size": 34560,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter_empty.webp",
+      "outputs": [
+        "games/druids-brew-2/images/scatter_empty.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter_empty.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "231c089a9df3d9aff9541d18cce2d8b4f98799a4a4b1b27ad8fb3958b98f4327",
+      "kind": "spritesheet",
+      "filename": "fx-lightning.json",
+      "size": 6680,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/FX/fx-lightning.json",
+      "outputs": [
+        "games/druids-brew-2/other/spritesheets/fx-lightning_231c08/fx-lightning.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/FX/fx-lightning.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "d997e6f604a9f08902b95bbe37e2ceabb052e0d38cad05388ae50fc3b01dc8b8",
+      "kind": "image",
+      "filename": "fx-lightning.webp",
+      "size": 624386,
+      "image": {
+        "format": "webp",
+        "width": 4096,
+        "height": 1024
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/FX/fx-lightning.webp",
+      "outputs": [
+        "games/druids-brew-2/other/spritesheets/fx-lightning_231c08/fx-lightning.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/FX/fx-lightning.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "744538e9adb9b6f44dedf79115438305e7a4a52d7b749e39f593cf9533c45b0c",
+      "kind": "json-bundle",
+      "filename": "H1.json",
+      "size": 40775,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H1.json",
+      "outputs": [
+        "games/druids-brew-2/other/bundles/H1.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H1.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "241a89b975df0c6972872b217a1eb8797534871e3b3cc211e5447940eafd58dd",
+      "kind": "image",
+      "filename": "embedded.png",
+      "size": 9378,
+      "image": {
+        "format": "png",
+        "width": 193,
+        "height": 202
+      },
+      "raw": "games/druids-brew-2/raw/_embedded/744538e9adb9/embedded.png",
+      "outputs": [
+        "games/druids-brew-2/images/embedded.png"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H1.json"
+      ],
+      "occurrences": 0
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "38e91637c9cdf5d25cbbadb03c49c0d9f87a6447f8410ef126c96be36bac98d4",
+      "kind": "json-bundle",
+      "filename": "H2.json",
+      "size": 41317,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H2.json",
+      "outputs": [
+        "games/druids-brew-2/other/bundles/H2.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H2.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "345c423b05a658b18bf1d6bff9e995a451ee289d65961493a888e98fd8436eac",
+      "kind": "image",
+      "filename": "embedded.png",
+      "size": 10539,
+      "image": {
+        "format": "png",
+        "width": 217,
+        "height": 201
+      },
+      "raw": "games/druids-brew-2/raw/_embedded/38e91637c9cd/embedded.png",
+      "outputs": [
+        "games/druids-brew-2/images/embedded__345c423b.png"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H2.json"
+      ],
+      "occurrences": 0
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "067752b61421679df12b105e3b55d8806664ca086e312e05be366a254de9fc17",
+      "kind": "json-bundle",
+      "filename": "H3.json",
+      "size": 42249,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H3.json",
+      "outputs": [
+        "games/druids-brew-2/other/bundles/H3.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H3.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "d0dae757067fab7568d9423e5921a6d2052de7c47e84ee100276ad78eb6fa675",
+      "kind": "image",
+      "filename": "embedded.png",
+      "size": 10661,
+      "image": {
+        "format": "png",
+        "width": 211,
+        "height": 214
+      },
+      "raw": "games/druids-brew-2/raw/_embedded/067752b61421/embedded.png",
+      "outputs": [
+        "games/druids-brew-2/images/embedded__d0dae757.png"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H3.json"
+      ],
+      "occurrences": 0
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "4cf65cd54557d8461ec8d25e8f68b6e8fcc49c88850fba77c64f3d94e62832cd",
+      "kind": "json-bundle",
+      "filename": "H4.json",
+      "size": 45345,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H4.json",
+      "outputs": [
+        "games/druids-brew-2/other/bundles/H4.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H4.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "bf2c05aa74c52c2f6ae64062d8f16716ae4f39b67f26913c8a70559547d2d0f6",
+      "kind": "image",
+      "filename": "embedded.png",
+      "size": 10707,
+      "image": {
+        "format": "png",
+        "width": 207,
+        "height": 206
+      },
+      "raw": "games/druids-brew-2/raw/_embedded/4cf65cd54557/embedded.png",
+      "outputs": [
+        "games/druids-brew-2/images/embedded__bf2c05aa.png"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/H4.json"
+      ],
+      "occurrences": 0
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "9499a0923ba90e8d3b230e098fbb056d1c14eb66423ee4482fa51cce3cab7572",
+      "kind": "json-bundle",
+      "filename": "L1.json",
+      "size": 24879,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L1.json",
+      "outputs": [
+        "games/druids-brew-2/other/bundles/L1.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L1.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "cc37e3b5bd60d1437999fc5fa97f60679944ae0b2a65bb02fa282dc296d88322",
+      "kind": "image",
+      "filename": "embedded.png",
+      "size": 9408,
+      "image": {
+        "format": "png",
+        "width": 183,
+        "height": 208
+      },
+      "raw": "games/druids-brew-2/raw/_embedded/9499a0923ba9/embedded.png",
+      "outputs": [
+        "games/druids-brew-2/images/embedded__cc37e3b5.png"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L1.json"
+      ],
+      "occurrences": 0
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "e1a76d9c66f9a3647abefc316c93811e4ed527f7db383a0b1b9b77e5b8a7d947",
+      "kind": "json-bundle",
+      "filename": "L2.json",
+      "size": 24453,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L2.json",
+      "outputs": [
+        "games/druids-brew-2/other/bundles/L2.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L2.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "4ee61ff29f098698b13dd68ead27af4cb6caf5fc3e4ec66a270449a3c58d34cc",
+      "kind": "image",
+      "filename": "embedded.png",
+      "size": 9335,
+      "image": {
+        "format": "png",
+        "width": 191,
+        "height": 208
+      },
+      "raw": "games/druids-brew-2/raw/_embedded/e1a76d9c66f9/embedded.png",
+      "outputs": [
+        "games/druids-brew-2/images/embedded__4ee61ff2.png"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L2.json"
+      ],
+      "occurrences": 0
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "7c8c147492f98035b32ddb2cdc057a731c88de7458633b84a64959e1a8e8b5ea",
+      "kind": "json-bundle",
+      "filename": "L3.json",
+      "size": 24488,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L3.json",
+      "outputs": [
+        "games/druids-brew-2/other/bundles/L3.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L3.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "e021f8b73cf4b45571043bf42c8471b36dcf6957d553b73007d480873b23c389",
+      "kind": "image",
+      "filename": "embedded.png",
+      "size": 9446,
+      "image": {
+        "format": "png",
+        "width": 185,
+        "height": 203
+      },
+      "raw": "games/druids-brew-2/raw/_embedded/7c8c147492f9/embedded.png",
+      "outputs": [
+        "games/druids-brew-2/images/embedded__e021f8b7.png"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L3.json"
+      ],
+      "occurrences": 0
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "38d8e3efc5d944f881d8f5a45521c21b6258baf0aabdefa138868bc4e2752087",
+      "kind": "json-bundle",
+      "filename": "L4.json",
+      "size": 23485,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L4.json",
+      "outputs": [
+        "games/druids-brew-2/other/bundles/L4.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L4.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "bcb10646db805ae769758e361d653a621a0326d6de026d7f817a604b0afcbaf7",
+      "kind": "image",
+      "filename": "embedded.png",
+      "size": 8075,
+      "image": {
+        "format": "png",
+        "width": 181,
+        "height": 200
+      },
+      "raw": "games/druids-brew-2/raw/_embedded/38d8e3efc5d9/embedded.png",
+      "outputs": [
+        "games/druids-brew-2/images/embedded__bcb10646.png"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/L4.json"
+      ],
+      "occurrences": 0
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "dd4fb5117cc746692a71f79621f70d110a66f9bba74afafa4f6051efa9bc27bc",
+      "kind": "json-bundle",
+      "filename": "scatter.json",
+      "size": 150650,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.json",
+      "outputs": [
+        "games/druids-brew-2/other/bundles/scatter.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "c91867acce744a1d8705dae3c4fdf79c9923031ca0b38befa156c3a51f04f883",
+      "kind": "image",
+      "filename": "embedded.png",
+      "size": 8825,
+      "image": {
+        "format": "png",
+        "width": 245,
+        "height": 245
+      },
+      "raw": "games/druids-brew-2/raw/_embedded/dd4fb5117cc7/embedded.png",
+      "outputs": [
+        "games/druids-brew-2/images/embedded__c91867ac.png"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.json"
+      ],
+      "occurrences": 0
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "c8df3fd3709deadbc37d8c954bdfabe15c125d427632779277519c190d36e9f6",
+      "kind": "json-bundle",
+      "filename": "wild.json",
+      "size": 116794,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.json",
+      "outputs": [
+        "games/druids-brew-2/other/bundles/wild.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "09d69ed1e92363d4102f9a2f716985dd6162bec9fb9fe1766aba46a45430a2b0",
+      "kind": "image",
+      "filename": "embedded.png",
+      "size": 10093,
+      "image": {
+        "format": "png",
+        "width": 245,
+        "height": 245
+      },
+      "raw": "games/druids-brew-2/raw/_embedded/c8df3fd3709d/embedded.png",
+      "outputs": [
+        "games/druids-brew-2/images/embedded__09d69ed1.png"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.json"
+      ],
+      "occurrences": 0
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "05a3e1f74e7a58d829b423738abad3320842e5c295a74c5e7093042bc540d9a8",
+      "kind": "image",
+      "filename": "scatter.back.webp",
+      "size": 3610,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.back.webp",
+      "outputs": [
+        "games/druids-brew-2/images/scatter.back.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.back.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "e610e110e1fd68223fe37db0084ab6210be5017788ea4296e1d035dfdfbfb6d3",
+      "kind": "image",
+      "filename": "wild.back.webp",
+      "size": 3048,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.back.webp",
+      "outputs": [
+        "games/druids-brew-2/images/wild.back.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.back.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "4ef895241c30d413b53380832f33232176e421d5e87a3bbaeeb638eb4e153887",
+      "kind": "image",
+      "filename": "wild.frame.webp",
+      "size": 35176,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.frame.webp",
+      "outputs": [
+        "games/druids-brew-2/images/wild.frame.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.frame.webp",
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.frame.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "8c2b0a9a029a82def404680ba03a3685e9fed8d05f121ab298450a69cbcfaf7f",
+      "kind": "image",
+      "filename": "wild.pot.webp",
+      "size": 38624,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.pot.webp",
+      "outputs": [
+        "games/druids-brew-2/images/wild.pot.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.pot.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "f8fc68630efece07e303a078de882a625f2567eb7d74ea7af767f95b45f91328",
+      "kind": "image",
+      "filename": "scatter.bottle.webp",
+      "size": 38990,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.bottle.webp",
+      "outputs": [
+        "games/druids-brew-2/images/scatter.bottle.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.bottle.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "b64c1201898d0f9a03f5ea534fd9f6f64e7991d7ad8fcc6e43a8b1d9e1cf0d6b",
+      "kind": "image",
+      "filename": "wild.bub1.webp",
+      "size": 2994,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.bub1.webp",
+      "outputs": [
+        "games/druids-brew-2/images/wild.bub1.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.bub1.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "59bfe0d9f9114e1578ba8626472519dc4423bef82c0571a8ddf4ee9a31b74bd3",
+      "kind": "image",
+      "filename": "scatter.rail.webp",
+      "size": 14808,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.rail.webp",
+      "outputs": [
+        "games/druids-brew-2/images/scatter.rail.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.rail.webp",
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.rail.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "514b0a5de707e4aee4abcb0dc692b2c52b13a8de3fa2034c92bf27fd4b1c5f5f",
+      "kind": "image",
+      "filename": "wild.bub2.webp",
+      "size": 2232,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.bub2.webp",
+      "outputs": [
+        "games/druids-brew-2/images/wild.bub2.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.bub2.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "f2fadf5c3aa28172b656f0a0b1c0c16e7dbeac5523782405124e77be25eedcf2",
+      "kind": "image",
+      "filename": "scatter.BONUS.webp",
+      "size": 11038,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.BONUS.webp",
+      "outputs": [
+        "games/druids-brew-2/images/scatter.BONUS.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.BONUS.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "a64922f2af65bd9c38efcb5586768e7f906fed7d366e0a20948accd18112c4cc",
+      "kind": "image",
+      "filename": "wild.bub3.webp",
+      "size": 2308,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.bub3.webp",
+      "outputs": [
+        "games/druids-brew-2/images/wild.bub3.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/wild.bub3.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "37528cd5db17b17cf2e171b1e0073cbea3e4df9d2bfee8066eec14942e8be048",
+      "kind": "image",
+      "filename": "scatter.SUPER.webp",
+      "size": 10566,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.SUPER.webp",
+      "outputs": [
+        "games/druids-brew-2/images/scatter.SUPER.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.SUPER.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "1847a5feed65988865d3ee4cc7310ec25cfd9d74a67f2af33e42e80337baa14c",
+      "kind": "image",
+      "filename": "scatter.EPIC.webp",
+      "size": 7052,
+      "image": {
+        "format": "webp",
+        "width": 700,
+        "height": 700
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.EPIC.webp",
+      "outputs": [
+        "games/druids-brew-2/images/scatter.EPIC.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/scatter.EPIC.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "626ab4f2c400698759df8cca48b82c5b55b0b507111107930901c0284061bffa",
+      "kind": "image",
+      "filename": "vial.webp",
+      "size": 38616,
+      "image": {
+        "format": "webp",
+        "width": 539,
+        "height": 635
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/vial.webp",
+      "outputs": [
+        "games/druids-brew-2/images/vial.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/symbols/vial.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "724de7cd069ee7fe1d65eae30636edbd750e26e3a14e1f77d911a30be3e19797",
+      "kind": "image",
+      "filename": "HALO.webp",
+      "size": 243552,
+      "image": {
+        "format": "webp",
+        "width": 1451,
+        "height": 1347
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/HALO.webp",
+      "outputs": [
+        "games/druids-brew-2/images/HALO.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/HALO.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "f55a76357313f045005893567f7956e0e5f71212609b572ca2c2c710e73c7dcc",
+      "kind": "image",
+      "filename": "RAY1.webp",
+      "size": 323110,
+      "image": {
+        "format": "png",
+        "width": 1699,
+        "height": 1714
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/RAY1.webp",
+      "outputs": [
+        "games/druids-brew-2/images/RAY1.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/RAY1.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "54810b8eeee72a7132def567311d6efb49571a674647d7d4fd1c963d32f4fcf0",
+      "kind": "image",
+      "filename": "RAY2.webp",
+      "size": 429087,
+      "image": {
+        "format": "png",
+        "width": 1721,
+        "height": 1736
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/RAY2.webp",
+      "outputs": [
+        "games/druids-brew-2/images/RAY2.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/RAY2.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "057451c8dff2f84ff75b85a8be409b51d696f8fb9d2ceb50d85095eab288367c",
+      "kind": "image",
+      "filename": "TEXT_V2.webp",
+      "size": 131048,
+      "image": {
+        "format": "webp",
+        "width": 2571,
+        "height": 823
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/TEXT_V2.webp",
+      "outputs": [
+        "games/druids-brew-2/images/TEXT_V2.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/TEXT_V2.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "47da4e37810f0f93934e75daa5e301bd0a79a5250e56bb32842edd243e35a04d",
+      "kind": "image",
+      "filename": "NUMBER_V1.webp",
+      "size": 49302,
+      "image": {
+        "format": "webp",
+        "width": 2770,
+        "height": 270
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/NUMBER_V1.webp",
+      "outputs": [
+        "games/druids-brew-2/images/NUMBER_V1.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/NUMBER_V1.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "522191362b04a3c52e1a20c343bb8260a756c2796b23ffa3b714f0fe3356adcd",
+      "kind": "image",
+      "filename": "background.webp",
+      "size": 277372,
+      "image": {
+        "format": "webp",
+        "width": 2560,
+        "height": 1440
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/background.webp",
+      "outputs": [
+        "games/druids-brew-2/images/background.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/background.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "03886f47a92f08e9466c7b9201d64e5cc48854a000e07e012aa11bb555329978",
+      "kind": "image",
+      "filename": "flame.webp",
+      "size": 2616,
+      "image": {
+        "format": "webp",
+        "width": 29,
+        "height": 64
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/flame.webp",
+      "outputs": [
+        "games/druids-brew-2/images/flame.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/flame.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "6df881dd00b9a8caf1d97d8998b683cfbefd0941a88654f6f1717768fedabf97",
+      "kind": "image",
+      "filename": "background_bonus.webp",
+      "size": 175352,
+      "image": {
+        "format": "webp",
+        "width": 1672,
+        "height": 941
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/background_bonus.webp",
+      "outputs": [
+        "games/druids-brew-2/images/background_bonus.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/background_bonus.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "61bed7a4587fb5e494c8fa97f592a001dcb9582836e071ca7309348c28b79348",
+      "kind": "image",
+      "filename": "banner.webp",
+      "size": 22814,
+      "image": {
+        "format": "webp",
+        "width": 342,
+        "height": 474
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/banner.webp",
+      "outputs": [
+        "games/druids-brew-2/images/banner.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/banner.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "841448a45664383bdb53c51ba8850a0581d722576e668c65324f2a24092539d6",
+      "kind": "image",
+      "filename": "feuille.webp",
+      "size": 47846,
+      "image": {
+        "format": "webp",
+        "width": 946,
+        "height": 783
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/feuille.webp",
+      "outputs": [
+        "games/druids-brew-2/images/feuille.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/feuille.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "dcbb9e7e2e05499b871af51027f7c81f11b4267464e34ca195bf3c3acdbece6e",
+      "kind": "image",
+      "filename": "board.webp",
+      "size": 3054,
+      "image": {
+        "format": "webp",
+        "width": 1000,
+        "height": 1000
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/board.webp",
+      "outputs": [
+        "games/druids-brew-2/images/board.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/board.webp"
+      ],
+      "occurrences": 2
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "87f8f30038278dbff1d988d154f84b097c1a1be07c186321a8a7b429a68082cf",
+      "kind": "image",
+      "filename": "reelhouse.webp",
+      "size": 192950,
+      "image": {
+        "format": "webp",
+        "width": 2041,
+        "height": 2041
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/reelhouse.webp",
+      "outputs": [
+        "games/druids-brew-2/images/reelhouse.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/reelhouse.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "d9875d66dfcf46e6a3437040d67cccca523fec80bc8ae426b4acf8b470a66e87",
+      "kind": "spine-json",
+      "filename": "mascot.json",
+      "size": 395552,
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/mascot/mascot.json",
+      "outputs": [
+        "games/druids-brew-2/spine/package_001_mascot/mascot.json"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/mascot/mascot.json"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "b0eeba3d35d1b88d95e6125529e1991561772a44a6d3de38ec8099894802e299",
+      "kind": "image",
+      "filename": "mascot.webp",
+      "size": 548260,
+      "image": {
+        "format": "webp",
+        "width": 2041,
+        "height": 3513
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/mascot/mascot.webp",
+      "outputs": [
+        "games/druids-brew-2/images/mascot.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/mascot/mascot.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "41d67ccf6fa31ed9b83685ef0a50a90015c918478ebfe6b5d3ecd2de8e855664",
+      "kind": "image",
+      "filename": "home_card_3.webp",
+      "size": 72384,
+      "image": {
+        "format": "webp",
+        "width": 651,
+        "height": 724
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/home_card_3.webp",
+      "outputs": [
+        "games/druids-brew-2/images/home_card_3.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/home_card_3.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "2ce268dc2ac5cf875ebed6dce160feeaf2e48b5eb626567065ae8b7b3ebe0a79",
+      "kind": "image",
+      "filename": "home_card_2.webp",
+      "size": 78706,
+      "image": {
+        "format": "webp",
+        "width": 651,
+        "height": 724
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/home_card_2.webp",
+      "outputs": [
+        "games/druids-brew-2/images/home_card_2.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/home_card_2.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "b52e6e522bdf3216d7cae521d19f7467bb7377948eab98b92aaa08033056e782",
+      "kind": "image",
+      "filename": "home_card_1.webp",
+      "size": 71268,
+      "image": {
+        "format": "webp",
+        "width": 651,
+        "height": 724
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/home_card_1.webp",
+      "outputs": [
+        "games/druids-brew-2/images/home_card_1.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/home_card_1.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "13ba868688c5ce33d005f4081aa49d10d0a556d656fa453a6f8e7506ed50c088",
+      "kind": "image",
+      "filename": "card_bg_1.webp",
+      "size": 115036,
+      "image": {
+        "format": "webp",
+        "width": 1280,
+        "height": 720
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/cards/card_bg_1.webp",
+      "outputs": [
+        "games/druids-brew-2/images/card_bg_1.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/cards/card_bg_1.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "4cb23a13ecd2f916897208aea14e55069c7fea83d51fbf1471a3218b558e4706",
+      "kind": "image",
+      "filename": "TEXT_V1.webp",
+      "size": 102490,
+      "image": {
+        "format": "webp",
+        "width": 2571,
+        "height": 823
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/TEXT_V1.webp",
+      "outputs": [
+        "games/druids-brew-2/images/TEXT_V1.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/WINTIER/TEXT_V1.webp"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "8369a6a2060bcfdde5c3a5911edf9aaf57b1dd45699c292e51a78285f3381709",
+      "kind": "image",
+      "filename": "logo.png",
+      "size": 3682,
+      "image": {
+        "format": "png",
+        "width": 281,
+        "height": 281
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/betUI/Landscape/BuyMenu/logo.png",
+      "outputs": [
+        "games/druids-brew-2/images/logo.png"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/betUI/Landscape/BuyMenu/logo.png"
+      ],
+      "occurrences": 1
+    },
+    {
+      "game": "druids-brew-2",
+      "sha256": "4e8dc1789b2c6798bb8eb831164e4a13252c30053aeffc150a80c2ce0840c17e",
+      "kind": "image",
+      "filename": "particle.webp",
+      "size": 1542,
+      "image": {
+        "format": "webp",
+        "width": 83,
+        "height": 83
+      },
+      "raw": "games/druids-brew-2/raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/particle.webp",
+      "outputs": [
+        "games/druids-brew-2/images/particle.webp"
+      ],
+      "urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/particle.webp"
       ],
       "occurrences": 1
     },

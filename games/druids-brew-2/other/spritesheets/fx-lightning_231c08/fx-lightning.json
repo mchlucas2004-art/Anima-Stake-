@@ -1,0 +1,356 @@
+{
+  "frames": {
+    "FX_LIGHTNING_00001": {
+      "frame": {
+        "x": 1865,
+        "y": 450,
+        "w": 318,
+        "h": 300
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 22,
+        "y": 26,
+        "w": 318,
+        "h": 300
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00002": {
+      "frame": {
+        "x": 2787,
+        "y": 0,
+        "w": 468,
+        "h": 427
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 26,
+        "w": 468,
+        "h": 427
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00003": {
+      "frame": {
+        "x": 1851,
+        "y": 0,
+        "w": 469,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 23,
+        "w": 469,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00004": {
+      "frame": {
+        "x": 904,
+        "y": 0,
+        "w": 473,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 23,
+        "w": 473,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00005": {
+      "frame": {
+        "x": 1377,
+        "y": 0,
+        "w": 474,
+        "h": 442
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 22,
+        "y": 31,
+        "w": 474,
+        "h": 442
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00006": {
+      "frame": {
+        "x": 2320,
+        "y": 0,
+        "w": 467,
+        "h": 438
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 29,
+        "y": 35,
+        "w": 467,
+        "h": 438
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00007": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 457,
+        "h": 450
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 39,
+        "y": 27,
+        "w": 457,
+        "h": 450
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00008": {
+      "frame": {
+        "x": 0,
+        "y": 450,
+        "w": 451,
+        "h": 386
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 44,
+        "y": 75,
+        "w": 451,
+        "h": 386
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00009": {
+      "frame": {
+        "x": 457,
+        "y": 0,
+        "w": 447,
+        "h": 448
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 44,
+        "y": 30,
+        "w": 447,
+        "h": 448
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00010": {
+      "frame": {
+        "x": 3255,
+        "y": 0,
+        "w": 452,
+        "h": 405
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 68,
+        "w": 452,
+        "h": 405
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00011": {
+      "frame": {
+        "x": 451,
+        "y": 450,
+        "w": 446,
+        "h": 368
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 66,
+        "w": 446,
+        "h": 368
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00012": {
+      "frame": {
+        "x": 897,
+        "y": 450,
+        "w": 484,
+        "h": 320
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 85,
+        "w": 484,
+        "h": 320
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00013": {
+      "frame": {
+        "x": 1381,
+        "y": 450,
+        "w": 484,
+        "h": 320
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 85,
+        "w": 484,
+        "h": 320
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00014": {
+      "frame": {
+        "x": 2183,
+        "y": 450,
+        "w": 484,
+        "h": 273
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 152,
+        "w": 484,
+        "h": 273
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00015": {
+      "frame": {
+        "x": 2667,
+        "y": 450,
+        "w": 171,
+        "h": 236
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 188,
+        "w": 171,
+        "h": 236
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    },
+    "FX_LIGHTNING_00016": {
+      "frame": {
+        "x": 2838,
+        "y": 450,
+        "w": 171,
+        "h": 236
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 188,
+        "w": 171,
+        "h": 236
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 500
+      }
+    }
+  },
+  "animations": {
+    "default": [
+      "FX_LIGHTNING_00001",
+      "FX_LIGHTNING_00002",
+      "FX_LIGHTNING_00003",
+      "FX_LIGHTNING_00004",
+      "FX_LIGHTNING_00005",
+      "FX_LIGHTNING_00006",
+      "FX_LIGHTNING_00007",
+      "FX_LIGHTNING_00008",
+      "FX_LIGHTNING_00009",
+      "FX_LIGHTNING_00010",
+      "FX_LIGHTNING_00011",
+      "FX_LIGHTNING_00012",
+      "FX_LIGHTNING_00013",
+      "FX_LIGHTNING_00014",
+      "FX_LIGHTNING_00015",
+      "FX_LIGHTNING_00016"
+    ]
+  },
+  "meta": {
+    "app": "pack_spritesheet.py",
+    "version": "1.0",
+    "image": "fx-lightning.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 4096,
+      "h": 1024
+    },
+    "scale": "1",
+    "fps": 30
+  }
+}

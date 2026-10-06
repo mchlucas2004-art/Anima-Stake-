@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T20:48:26.186Z",
-  "count": 190,
+  "generated_at": "2026-10-06T21:21:29.004Z",
+  "count": 191,
   "usage": "Each entry points to a self-contained Spine package folder (skeleton + atlas + textures + metadata.json). Filter on category/subtypes/tags/animations[].name or match words against search_text. Paths are relative to the Scrap root.",
   "categories": {
-    "character": 21,
+    "character": 22,
     "symbol": 41,
     "effect": 46,
     "ui": 30,
@@ -12,6 +12,41 @@
     "unknown": 12
   },
   "packages": [
+    {
+      "id": "druids-brew-2/package_001_mascot",
+      "path": "games/druids-brew-2/spine/package_001_mascot",
+      "metadata": "games/druids-brew-2/spine/package_001_mascot/metadata.json",
+      "game": "Druids Brew 2",
+      "game_slug": "druids-brew-2",
+      "provider": "Unknown",
+      "name": "mascot",
+      "category": "character",
+      "subtypes": [],
+      "tags": [
+        "character",
+        "mascot"
+      ],
+      "confidence": "high",
+      "skeleton_format": "json",
+      "skeleton_version": null,
+      "skeleton_file": "mascot.json",
+      "animations": [],
+      "skins": [],
+      "events": [],
+      "bones_count": 31,
+      "slots_count": 19,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "textures": [],
+      "atlas_files": [],
+      "complete": false,
+      "warnings": 1,
+      "shared_atlas_with": [],
+      "detected_at": "2026-10-06T21:18:07.222Z",
+      "search_text": "mascot druids brew 2 unknown character character mascot"
+    },
     {
       "id": "interrogator/package_001_vs-shed",
       "path": "games/interrogator/spine/package_001_vs-shed",

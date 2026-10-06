@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "session_id": "2026-10-06T21:21:26.594Z",
+  "game": "Druids Brew 2",
+  "entry": {
+    "name": "Druids Brew 2",
+    "provider": null
+  },
+  "updated_at": "2026-10-06T21:21:28.967Z",
+  "session": {
+    "id": "2026-10-06T21:21:26.594Z",
+    "started_at": "2026-10-06T21:21:26.594Z",
+    "ended_at": "2026-10-06T21:21:28.885Z",
+    "stop_reason": "har_import",
+    "mode": "har",
+    "source_file": "Spin-reaper-winsafe.har",
+    "counters": {
+      "requests": 124,
+      "finished": 124,
+      "failed": 0,
+      "candidates": 68,
+      "images": 55,
+      "json": 13,
+      "atlases": 0,
+      "skeletons": 1,
+      "newSkeletons": 1,
+      "bytes": 5714425,
+      "errors": 0,
+      "probes": 2
+    }
+  }
+}

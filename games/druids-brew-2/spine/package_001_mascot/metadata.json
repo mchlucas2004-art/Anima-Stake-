@@ -1,0 +1,143 @@
+{
+  "id": "druids-brew-2/package_001_mascot",
+  "package": "package_001_mascot",
+  "name": "mascot",
+  "game": "Druids Brew 2",
+  "game_slug": "druids-brew-2",
+  "provider": "Unknown",
+  "format": "spine",
+  "skeleton_format": "json",
+  "skeleton_file": "mascot.json",
+  "skeleton_version": null,
+  "category": "character",
+  "subtypes": [],
+  "tags": [
+    "character",
+    "mascot"
+  ],
+  "classification": {
+    "confidence": "high",
+    "scores": {
+      "character": 8.5,
+      "symbol": 0,
+      "effect": 0,
+      "background": 0,
+      "transition": 0,
+      "ui": 0
+    },
+    "evidence": [
+      "name:mascot",
+      "body-parts:feet,arm,head,brow,hair"
+    ]
+  },
+  "animations": [],
+  "animation_details": [],
+  "skins": [],
+  "events": [],
+  "bones_count": 31,
+  "slots_count": 19,
+  "bones": [
+    "root",
+    "feet",
+    "corp",
+    "arm",
+    "collar",
+    "head",
+    "eyelids",
+    "browL",
+    "browR",
+    "cloak",
+    "staff",
+    "hairR",
+    "hairL",
+    "hairL2",
+    "scarf",
+    "leafR",
+    "leafTop",
+    "leafTopL",
+    "leafL2",
+    "leafL",
+    "corp.1",
+    "corp.2",
+    "cloak.1",
+    "cloak.2",
+    "cloak.3",
+    "cloak.4",
+    "collar.1",
+    "collar.2",
+    "arm.1",
+    "arm.2",
+    "arm.3"
+  ],
+  "slots": [
+    "feet",
+    "corp",
+    "arm",
+    "collar",
+    "head",
+    "eyelids",
+    "browL",
+    "browR",
+    "cloak",
+    "staff",
+    "hairR",
+    "hairL",
+    "hairL2",
+    "scarf",
+    "leafR",
+    "leafTop",
+    "leafTopL",
+    "leafL2",
+    "leafL"
+  ],
+  "constraints": {
+    "ik": 0,
+    "transform": 0,
+    "path": 0,
+    "physics": 0
+  },
+  "attachments_count": 0,
+  "attachment_types": {},
+  "dimensions": {
+    "width": null,
+    "height": null
+  },
+  "fps": null,
+  "texture_mode": "none",
+  "textures": [],
+  "atlases": [],
+  "alternative_atlases": [],
+  "files": [
+    {
+      "file": "mascot.json",
+      "role": "skeleton",
+      "sha256": "d9875d66dfcf46e6a3437040d67cccca523fec80bc8ae426b4acf8b470a66e87",
+      "size": 395552,
+      "original_filename": "mascot.json",
+      "raw_path": "raw/ornate-square.live.engine.io/druids-brew-2/v8/assets/mascot/mascot.json",
+      "source_urls": [
+        "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/mascot/mascot.json"
+      ]
+    }
+  ],
+  "source_urls": [
+    "https://ornate-square.live.engine.io/druids-brew-2/v8/assets/mascot/mascot.json"
+  ],
+  "checks": {
+    "complete": false,
+    "atlas_found": false,
+    "pages_resolved": "0/0",
+    "region_coverage": null,
+    "missing_regions": []
+  },
+  "complete": false,
+  "warnings": [
+    "no atlas / textures captured for this skeleton"
+  ],
+  "shared_atlas_with": [],
+  "detected_at": "2026-10-06T21:18:07.222Z",
+  "sessions": [
+    "2026-10-06T21:21:26.594Z"
+  ],
+  "packaged_at": "2026-10-06T21:21:28.934Z"
+}

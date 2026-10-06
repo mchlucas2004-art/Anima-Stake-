@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T20:48:26.186Z",
-  "count": 8,
+  "generated_at": "2026-10-06T21:21:29.004Z",
+  "count": 9,
   "games": [
     {
       "game": "Beasts",
@@ -25,6 +25,32 @@
         "new_packages": 0,
         "atlas_only": 0,
         "spritesheets": 4,
+        "unclassified": 0,
+        "errors": 0
+      },
+      "sessions": 1
+    },
+    {
+      "game": "Druids Brew 2",
+      "slug": "druids-brew-2",
+      "provider": "Unknown",
+      "path": "games/druids-brew-2",
+      "game_urls": [],
+      "status": "complete",
+      "updated_at": "2026-10-06T21:21:28.934Z",
+      "stats": {
+        "network_requests_total": 126,
+        "resources_unique": 78,
+        "images": 65,
+        "json_candidates": 13,
+        "atlases": 0,
+        "skeletons": 1,
+        "spine_packages": 1,
+        "complete_packages": 0,
+        "incomplete_packages": 1,
+        "new_packages": 1,
+        "atlas_only": 0,
+        "spritesheets": 1,
         "unclassified": 0,
         "errors": 0
       },

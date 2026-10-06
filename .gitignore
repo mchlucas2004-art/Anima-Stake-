@@ -5,3 +5,4 @@ logs/
 test/.sandbox/
 import/
 config/secrets.json
+*.har
